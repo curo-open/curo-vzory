@@ -1,0 +1,18 @@
+---
+curo-open/curo-vzory:
+  path: /home/daniel/Dev/xt/curo/curo-vzory/tmp
+  export:
+    'Preventívna prehliadka - Univerzálna VLD':
+      folders: ['020']
+    'Všetky lieky za 180 dní':
+          folders: ['020','008']
+    'Všetky pomôcky za 180 dní':
+          folders: ['020','008']
+    'Všetky vymenné lístky za  90 dní':
+          folders: ['020','008']
+    'Chronické lieky':
+          folders: ['020','008']
+    'Chronické pomôcky':
+          folders: ['020','008']
+
+                  
