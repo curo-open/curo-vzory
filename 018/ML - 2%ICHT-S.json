@@ -1,0 +1,32 @@
+{
+  "title": "ML - 2%ICHT-S",
+  "shortcut": "ml-00004",
+  "if": "",
+  "data": {
+    "_": {},
+    "r-ml": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "r-ml"
+        },
+        "value": {
+          "title": {
+            "value": "M00004",
+            "props": {}
+          },
+          "schedule": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "Ichtamoli 2,0 \nZinci oxidati \nTalci veneti aa 20,0 \nSyndermani ad 100,0 \nM.f.pasta \nD.S. na ložiská<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/018"
+}
