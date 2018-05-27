@@ -1,0 +1,32 @@
+{
+  "title": "SAL.ALKOHOL",
+  "shortcut": "M00015",
+  "if": "",
+  "data": {
+    "_": {},
+    "r-ml": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "r-ml"
+        },
+        "value": {
+          "title": {
+            "value": "M00015",
+            "props": {}
+          },
+          "schedule": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "Acidi salicylici 3,0\nSpiriti diluti ad 100,0\nm.f.sol.\nD.S. na čistenie<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/018"
+}

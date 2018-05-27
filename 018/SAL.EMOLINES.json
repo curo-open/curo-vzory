@@ -1,0 +1,32 @@
+{
+  "title": "SAL.EMOLINES",
+  "shortcut": "M00008",
+  "if": "",
+  "data": {
+    "_": {},
+    "r-ml": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "r-ml"
+        },
+        "value": {
+          "title": {
+            "value": "M00008",
+            "props": {}
+          },
+          "schedule": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "Acidi salicylici\nOlei paraffini áá\nUng.lenientis ad 100,0\nM.f.ung\nD.S: do vláskov<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/018"
+}

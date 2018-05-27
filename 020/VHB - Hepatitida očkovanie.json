@@ -1,0 +1,133 @@
+{
+  "title": "VHB - Hepatitida očkovanie",
+  "shortcut": "oc-vhb",
+  "if": "",
+  "data": {
+    "_": {},
+    "oc": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[VHB] Vírusová hepatitída B",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000346411@2",
+              "id": "VHB"
+            }
+          },
+          "datum": {
+            "value": "27.05.2018",
+            "props": {
+              "propValue": "2018-05-27T21:06:18.943Z",
+              "expr": "=dnes"
+            }
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ol": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "ol"
+        },
+        "value": {
+          "id": {
+            "value": "[25092] ENGERIX-B 20 µg | sus inj 1x1 ml (striek.inj.skl.napln.)",
+            "props": {
+              "propOl": 1,
+              "propIo": "ind.obm.",
+              "propGp": 0,
+              "propSdl": 1,
+              "propDpl": 0,
+              "propUzp_1zvj": 1,
+              "propVnl": "R",
+              "propCena": 12.77,
+              "propSpUhr": "V",
+              "propAtcName": "Očkovacia látka proti hepatitíde B, purifikovaný antigén",
+              "idClassid": "liek",
+              "idEzid": "00020560546",
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07BC01",
+              "idUl": "",
+              "id": 25092
+            }
+          },
+          "sn": {
+            "value": "",
+            "props": {}
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z24.6] Potreba imunizácie proti vírusovej hepatitíde",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089522276@9",
+              "id": "Z24.6"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 8,
+        "order": 3,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[252b] Očkovanie.",
+            "props": {
+              "propBody": 70,
+              "idClassid": "vykon",
+              "idEzid": "00000467878@7",
+              "id": "252b"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/020"
+}

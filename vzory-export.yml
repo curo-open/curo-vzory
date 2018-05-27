@@ -2,20 +2,121 @@
 curo-open/curo-vzory:
   path: /home/daniel/Dev/xt/curo/curo-vzory/tmp
   export:
-    'Preventívna prehliadka - Univerzálna VLD':
+    'CHR - Chrípka očkovanie':
+      folders: ['020']
+    'Základný dekurz':
+      folders: ['020']
+    'Podaná infúzia':
+      folders: ['020']
+    'Podaná injekcia':
+      folders: ['020']
+    'DPN':
+      folders: ['020']
+    'PN':
+      folders: ['020']
+    'PZS - LPP vstupná':
+      folders: ['020']
+    'PZS - LPP periodická':
+      folders: ['020']
+    'PZS - LPP výstupná':
+      folders: ['020']
+    'PZS - vstupná brigádnik':
+      folders: ['020']
+    'Amb. vyš. - CRP':
+      folders: ['020']
+    'Amb. vyš. - POCT INR':
+      folders: ['020']
+    'Amb. vyš. - FOB - Negativne':
+      folders: ['020']
+    'Interné predoperačné vyšetrenie':
+      folders: ['020']
+    'Interné kontrolné vyšetrenie':
+      folders: ['020']
+    'Prehliadka vodiča / zamestnanie':
+      folders: ['020']
+    'Výmenný lístok':
+      folders: ['020']
+    'Amb. vyš. - Moč':
       folders: ['020']
     'Všetky lieky za 180 dní':
       folders: ['020','008']
-    'Všetky pomôcky za 180 dní':
+    'Všetky pomôcky za 90 dní':
       folders: ['020','008']
-    'Všetky vymenné lístky za  90 dní':
+    'Všetky vymenné lístky za 90 dní':
       folders: ['020','008']
+    'Alergia lieky':
+      folders: ['020']
+    'Alergia - Iné':
+      folders: ['020']
+    'Príkaz na prepravu/dopravu':
+      folders: ['020']
     'Chronické lieky':
       folders: ['020','008']
     'Chronické pomôcky':
       folders: ['020','008']
-    'ML - 2%ICHT-S':
-      folders: ['018']          
-          
-
-                  
+    'Preventivna prehliadka - Univerzálna':
+      folders: ['020']
+    'Nález pre kompenzáciu, preukaz, ...':
+      folders: ['020']
+    'SP - kontrolné a zisťovacie prehliadky':
+      folders: ['020']
+    'Kúpeľná liečba':
+      folders: ['020']
+    'EKG':
+      folders: ['020']
+    'Amb. vyš. - FOB - Pozitivne':
+      folders: ['020']
+    'TAT - Tetanus očkovanie':
+      folders: ['020']
+    'VHB - Hepatitida očkovanie':
+      folders: ['020']
+    'Spôsobilosť vodiča':
+      folders: ['020']      
+    'SAL.ALKOHOL':
+      folders: ['018']
+    '1%KYS.ML./CA':
+      folders: ['018']
+    '2%ICHT/S':
+      folders: ['018']
+    'TEK.PUDER':
+      folders: ['018']
+    'SAL.VASELINA':
+      folders: ['018']
+    'SAL.EMOLINES':
+      folders: ['018']
+    'RIVANOL PASTA':
+      folders: ['018']
+    'LASSAR PASTA':
+      folders: ['018']
+    'BURROW PASTA':
+      folders: ['018']
+    'BORAX PASTA':
+      folders: ['018']
+    'SÍRNA PASTA':
+      folders: ['018']
+    'TINKTÚRA CAPSICI':
+      folders: ['018']
+    '2% ICHT/CA':
+      folders: ['018']
+    'SIROVOZINKOVÉ TREPANIE':
+      folders: ['018']
+    'ŠAMBERG.TINKTÚRA':
+      folders: ['018']
+    'BIELY TEK.PUDER':
+      folders: ['018']
+    'AETHER':
+      folders: ['018']
+    'BÓROVÁ VODA':
+      folders: ['018']
+    'KMN04':
+      folders: ['018']
+    '5%ICHT/S':
+      folders: ['018']
+    '10%ICHT/S':
+      folders: ['018']
+    'ČÍPKY & RECTODELT':
+      folders: ['018']
+    '10% SAL.VAS.':
+      folders: ['018']
+    '1%KYS.ML/S':
+      folders: ['018']                                          

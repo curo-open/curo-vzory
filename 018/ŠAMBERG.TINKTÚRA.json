@@ -1,0 +1,32 @@
+{
+  "title": "ŠAMBERG.TINKTÚRA",
+  "shortcut": "M00017",
+  "if": "",
+  "data": {
+    "_": {},
+    "r-ml": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "r-ml"
+        },
+        "value": {
+          "title": {
+            "value": "M00017",
+            "props": {}
+          },
+          "schedule": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "Ac.salicylici\nAc.lactici áá 1,0\nCollodii elastici ad 10,0\nM.f. sol.\nD.s. na bradavicu<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/018"
+}

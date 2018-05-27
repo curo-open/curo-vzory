@@ -1,0 +1,159 @@
+{
+  "title": "Amb. vyš. - FOB - Negativne",
+  "shortcut": "lv-fob-negativne",
+  "content": "<section data-x-id=\"2\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaná diagnóza:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089520809\" data-id=\"Z00.0\" title=\"[Z00.0] Všeobecné lekárske vyšetrenie\" style=\"width: 50ch;\">[Z00.0] Všeobecné lekárske vyšetrenie</div></section><section data-x-id=\"4\" data-type=\"lv\" class=\"\"><aside></aside><label class=\"section-label  \">LV:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"labvys\" data-id-ezid=\"00020036711\" data-id=\"00020036711\" title=\"[00020036711] Stolica - okultné krvácanie\" style=\"width: 50ch;\">[00020036711] Stolica - okultné krvácanie</div><label data-for=\"value\" class=\" _noval\">hodnota</label><div class=\"_noval Field\" data-name=\"value\"></div><div class=\"_noval Field\" data-name=\"rank\"></div><label data-for=\"date\" class=\" _noval\">dátum</label><div class=\"_noval FieldDate hasActions\" data-name=\"date\"></div><label data-for=\"comment\" class=\"\">poznámka:</label><div class=\"FieldHtml\" data-name=\"comment\">vykaz 159 podla vysledku<br></div></section><section data-x-id=\"6\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"_noval FieldSearch hasActions\" data-name=\"id\"></div><label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 8,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp == 27 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 10,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 12,
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 9,
+        "order": 1,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089520809",
+              "id": "Z00.0"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089521690@9",
+              "id": "Z12.1"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "lv": [
+      {
+        "id": 4,
+        "order": 5,
+        "props": {
+          "type": "lv"
+        },
+        "value": {
+          "id": {
+            "value": "[00020036711] Stolica - okultné krvácanie",
+            "props": {
+              "id": "00020036711",
+              "idEzid": "00020036711",
+              "idClassid": "labvys"
+            }
+          },
+          "value": {
+            "value": "",
+            "props": {}
+          },
+          "rank": {
+            "value": "negativne",
+            "props": {}
+          },
+          "date": {
+            "value": "09.05.2018",
+            "props": {
+              "propValue": "2018-05-09T09:25:08.945Z",
+              "expr": "=teraz"
+            }
+          },
+          "comment": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 6,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[159z] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonu pod kódom 160. Výkon môže vykazovať lekár všeobecnej starostlivosti vtedy, ak ho sám uskut",
+            "props": {
+              "propBody": 180,
+              "idClassid": "vykon",
+              "idEzid": "02089731844@7",
+              "id": "159z"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "summary": "FOB - Negativne",
+  "type": "examination",
+  "source": "curo-open/curo-vzory#/020"
+}

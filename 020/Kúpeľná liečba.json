@@ -1,0 +1,123 @@
+{
+  "title": "Kúpeľná liečba",
+  "shortcut": "kl",
+  "summary": "Kúpeľná liečba",
+  "if": "",
+  "data": {
+    "_": {},
+    "t-kupelna-starostlivost": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "t-kupelna-starostlivost"
+        },
+        "value": {
+          "skupina_1": {
+            "value": "",
+            "props": {}
+          },
+          "skupina_2": {
+            "value": "",
+            "props": {}
+          },
+          "hlavna_diagnoza": {
+            "value": "",
+            "props": {}
+          },
+          "vedla_diagnozy": {
+            "value": "",
+            "props": {}
+          },
+          "starostlivost": {
+            "value": "",
+            "props": {}
+          },
+          "naliehavost_1": {
+            "value": "",
+            "props": {}
+          },
+          "naliehavost_2": {
+            "value": "",
+            "props": {}
+          },
+          "sprievodca": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "chodiacy": {
+            "value": "",
+            "props": {}
+          },
+          "mobilny": {
+            "value": "",
+            "props": {}
+          },
+          "na_voziku": {
+            "value": "",
+            "props": {}
+          },
+          "anamneza": {
+            "value": "{{&lt; sessions|getSections(\"ra\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"oa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"pa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"la\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"ga\")|where(\"i==0\")|trans(\"text\")}}<br>",
+            "props": {}
+          },
+          "datum": {
+            "value": "",
+            "props": {}
+          },
+          "FW_1": {
+            "value": "",
+            "props": {}
+          },
+          "FW_2": {
+            "value": "",
+            "props": {}
+          },
+          "moc": {
+            "value": "",
+            "props": {}
+          },
+          "KO": {
+            "value": "",
+            "props": {}
+          },
+          "ine": {
+            "value": "{{&lt; sessions|getSections(\"b-lv\")|where(\"i==0\")|trans(\"text\")}}",
+            "props": {}
+          },
+          "EKG": {
+            "value": "{{&lt; sessions|getSections(\"ekg\")|where(\"i==0\")|trans(\"text\")}}<br>",
+            "props": {}
+          },
+          "nalez": {
+            "value": "",
+            "props": {}
+          },
+          "zdovodnenie": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"zfp\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "type": "examination",
+  "source": "curo-open/curo-vzory#/020"
+}

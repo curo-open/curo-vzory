@@ -1,0 +1,154 @@
+{
+  "title": "Amb. vyš. - Moč",
+  "shortcut": "lv-moc",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[N30.0] Akútna cystitída",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089457770",
+              "id": "N30.0"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "lv": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "lv"
+        },
+        "value": {
+          "id": {
+            "value": "[00020038139] Moč sediment",
+            "props": {
+              "idClassid": "labvys",
+              "idEzid": "00020038139",
+              "id": "00020038139"
+            }
+          },
+          "value": {
+            "value": "",
+            "props": {}
+          },
+          "rank": {
+            "value": "",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "comment": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 7,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp == 25 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 10,
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 6,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 9,
+        "order": 3,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[3525R] Moč chemicky",
+            "props": {
+              "propBody": 50,
+              "id": "3525R",
+              "idEzid": "02089716233@7",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 6,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[3525] Kompletný dôkaz základných patologických súčastí moču, za každú vzorku od pacienta",
+            "props": {
+              "propBody": 50,
+              "id": 3525,
+              "idEzid": "00000478560",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "if": "",
+  "source": "curo-open/curo-vzory#/020"
+}

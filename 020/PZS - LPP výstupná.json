@@ -1,0 +1,79 @@
+{
+  "title": "PZS - LPP výstupná",
+  "shortcut": "pzsp-vystupna",
+  "content": "<section data-x-id=\"9\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\"><b>PA </b>(Prítomnosť ťažkostí spôsobených terajším zamestnaním): <br></div></section><section data-x-id=\"6\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\"><b>SPG:</b> len vyšetrenie orgánov v súvislosti so záťažou v práci a prítomnými rizikovými faktormi<br></div></section><section data-x-id=\"5\" data-type=\"z\" class=\"\"><aside></aside><label class=\"section-label  \">Záver:</label><div class=\"FieldHtml\" data-name=\"z\">Porovnať dynamiku s parametrami pri vstupnej, event. periodickej LP. <br></div></section><section data-x-id=\"7\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\"><b>Vyjadrenie zamestnanca: </b>\nNie som si vedomý poškodenia zdravia vplyvom podmienok práce a pracovného prostredia u terajšieho zamestnávateľa. <br></div></section><section data-x-id=\"8\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">Podpis zamestnanca: \t.................................. \tPodpis a pečiatka lekára: ..............................................\nDátum prehliadky: \t......................................<br></div></section>",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 9,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>PA </b>(Prítomnosť ťažkostí spôsobených terajším zamestnaním): <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 6,
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>SPG:</b> len vyšetrenie orgánov v súvislosti so záťažou v práci a prítomnými rizikovými faktormi<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 7,
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Vyjadrenie zamestnanca: </b>\nNie som si vedomý poškodenia zdravia vplyvom podmienok práce a pracovného prostredia u terajšieho zamestnávateľa. <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 8,
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Podpis zamestnanca: \t.................................. \tPodpis a pečiatka lekára: ..............................................\nDátum prehliadky: \t......................................<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "Porovnať dynamiku s parametrami pri vstupnej, event. periodickej LP. <br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "if": "",
+  "source": "curo-open/curo-vzory#/020"
+}

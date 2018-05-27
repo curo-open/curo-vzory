@@ -1,0 +1,73 @@
+{
+  "content": "<section data-x-id=\"2\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaná diagnóza:</label><div class=\"_noval FieldSearch hasActions\" data-name=\"id\"></div></section><section data-x-id=\"3\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000468025\" data-id=\"272\" title=\"[272] Infúzia intravenózna v trvaní viac ako 30 minú vrátane výmeny infúznych fliaš.\" style=\"width: 50ch;\">[272] Infúzia intravenózna v trvaní viac ako 30 minú vrátane výmeny infúznych fliaš.</div><label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"4\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">podaná infúzia <br></div></section>",
+  "title": "Podaná infúzia",
+  "shortcut": "5",
+  "summary": "Podaná infúzia",
+  "type": "examination",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M54.4] Lumboischialgia",
+            "props": {
+              "id": "M54.4",
+              "idEzid": "02089437236",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[272] Infúzia intravenózna v trvaní viac ako 30 minú vrátane výmeny infúznych fliaš.",
+            "props": {
+              "idClassid": "vykon",
+              "idEzid": "00000468025",
+              "id": 272
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "podaná infúzia <br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "if": "",
+  "source": "curo-open/curo-vzory#/020"
+}

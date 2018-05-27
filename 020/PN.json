@@ -1,0 +1,88 @@
+{
+  "title": "PN",
+  "shortcut": "pn",
+  "content": "<section data-x-id=\"2\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaná diagnóza:</label><div class=\"_noval FieldSearch hasActions\" data-name=\"id\"></div></section><section data-x-id=\"3\" data-type=\"pn\" class=\"\"><aside></aside><label class=\"section-label  \">PN::</label><label data-for=\"id\" class=\" _noval\">číslo</label><div class=\"_noval FieldSequence hasActions\" data-name=\"id\"></div><label data-for=\"date\" class=\" _noval\">odo dňa</label><div class=\"_noval FieldDate hasActions\" data-name=\"date\"></div><label data-for=\"date_vystavene\" class=\" _noval\">Vystavené dňa</label><div class=\"_noval FieldDate hasActions\" data-name=\"date_vystavene\"></div><br><label data-for=\"for\" class=\" _noval\">pre zamestnávateľa</label><div class=\"_noval Field\" data-name=\"for\"></div><label data-for=\"adresa_pocas_PN\" class=\" _noval\">Adresa počas PN</label><div class=\"_noval Field\" data-name=\"adresa_pocas_PN\"></div><br><label data-for=\"vychadzky_datum\" class=\" _noval\">Vychádzky povolené od</label><div class=\"_noval FieldDate hasActions\" data-name=\"vychadzky_datum\"></div><label data-for=\"vychadzky_od\" class=\" _noval\">v čase od</label><div class=\"_noval Field\" data-name=\"vychadzky_od\"></div><label data-for=\"vychadzky_do\" class=\" _noval\">do</label><div class=\"_noval Field\" data-name=\"vychadzky_do\"></div><label data-for=\"comment\" class=\" _noval\">poznámka</label><div class=\"_noval Field\" data-name=\"comment\"></div></section><section data-x-id=\"5\" data-type=\"vvs\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon pre Sociálnu poisťovňu:</label><br><label data-for=\"skratka\" class=\"\">Kód a skratka zdravotného výkonu</label><div class=\"FieldList hasActions\" data-name=\"skratka\" data-prop-value=\"71|DPN\">71 - DPN - Vystavenie potvrdenia o dočasnej pracovnej neschopnosti,</div><label data-for=\"vyzi_vykon\" class=\" _noval\">Kód vykonu vykonaného na požiadanie</label><div class=\"_noval Field\" data-name=\"vyzi_vykon\"></div><label data-for=\"kod_posudkovehoLekara\" class=\" _noval\">Kód posudkového lekára</label><div class=\"_noval Field\" data-name=\"kod_posudkovehoLekara\"></div><label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
+  "if": "",
+  "data": {
+    "_": {},
+    "pn": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "pn"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "date": {
+            "value": "02.05.2018",
+            "props": {
+              "propValue": "2018-05-02T07:37:06.665Z",
+              "expr": "=teraz"
+            }
+          },
+          "date_vystavene": {
+            "value": "02.05.2018",
+            "props": {
+              "propValue": "2018-05-02T07:37:06.666Z",
+              "expr": "=teraz"
+            }
+          },
+          "for": {
+            "value": "",
+            "props": {}
+          },
+          "adresa_pocas_PN": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_datum": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_od": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_do": {
+            "value": "",
+            "props": {}
+          },
+          "comment": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 7,
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[71.DPN] Vystavenie potvrdenia o dočasnej pracovnej neschopnosti.",
+            "props": {
+              "propType": "soc",
+              "propBody": 35,
+              "idClassid": "vykon",
+              "idEzid": "curo-71.DPN@7",
+              "id": "71.DPN"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/020"
+}

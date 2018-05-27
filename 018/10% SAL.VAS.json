@@ -1,0 +1,32 @@
+{
+  "title": "10% SAL.VAS.",
+  "shortcut": "M00026",
+  "if": "",
+  "data": {
+    "_": {},
+    "r-ml": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "r-ml"
+        },
+        "value": {
+          "title": {
+            "value": "M00026",
+            "props": {}
+          },
+          "schedule": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "Acidi salicylici 10,0\nOlei paraffini áá\nVaselini flavi ad 100,0\nM.f.ung.\nD.S. na ložiská<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/018"
+}

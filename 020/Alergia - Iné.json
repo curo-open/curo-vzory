@@ -1,0 +1,44 @@
+{
+  "title": "Alergia - Iné",
+  "shortcut": "al-ine",
+  "data": {
+    "_": {},
+    "td": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "td"
+        },
+        "value": {
+          "id": {
+            "value": "[Z91.0] Alergia na iné látky ako lieky a biologické látky v osobnej anamnéze",
+            "props": {
+              "id": "Z91.0",
+              "idEzid": "02089527598",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          },
+          "from": {
+            "value": "",
+            "props": {}
+          },
+          "to": {
+            "value": "",
+            "props": {}
+          },
+          "dispenzarizacia": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "if": "",
+  "source": "curo-open/curo-vzory#/020"
+}

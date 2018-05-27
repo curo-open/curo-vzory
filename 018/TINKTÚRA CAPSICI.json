@@ -1,0 +1,32 @@
+{
+  "title": "TINKTÚRA CAPSICI",
+  "shortcut": "M00014",
+  "if": "",
+  "data": {
+    "_": {},
+    "r-ml": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "r-ml"
+        },
+        "value": {
+          "title": {
+            "value": "M00014",
+            "props": {}
+          },
+          "schedule": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "Accidi salicylici 3,0\nTinktura capsici 10,0\nMentholi 1,0\nSpiriti diluti ad 100,0\nM.f.sol.\nD.S:. 3&amp;-;5xdenne<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/018"
+}

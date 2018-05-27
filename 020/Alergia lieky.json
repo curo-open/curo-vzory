@@ -1,0 +1,44 @@
+{
+  "title": "Alergia lieky",
+  "shortcut": "al",
+  "data": {
+    "_": {},
+    "td": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "td"
+        },
+        "value": {
+          "id": {
+            "value": "[Z88.8] Alergia na iné lieky, liečivá a biologicky aktívne látky v osobnej anamnéze",
+            "props": {
+              "id": "Z88.8",
+              "idEzid": "02089527358",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          },
+          "from": {
+            "value": "",
+            "props": {}
+          },
+          "to": {
+            "value": "",
+            "props": {}
+          },
+          "dispenzarizacia": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "if": "",
+  "source": "curo-open/curo-vzory#/020"
+}

@@ -12,7 +12,7 @@
         },
         "value": {
           "s": {
-            "value": "<br>",
+            "value": "žiada lieky<br>",
             "props": {}
           }
         }
@@ -46,7 +46,7 @@
             "props": {
               "propBody": 200,
               "idClassid": "vykon",
-              "idEzid": "00000466524@7",
+              "idEzid": "00000466524",
               "id": 4
             }
           },
@@ -59,7 +59,6 @@
     ]
   },
   "if": "",
-  "summary": "Predpis liekov",
-  "type": "examination",
+  "summary": "",
   "source": "curo-open/curo-vzory#/020"
 }

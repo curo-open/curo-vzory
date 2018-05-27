@@ -1,0 +1,32 @@
+{
+  "title": "TEK.PUDER",
+  "shortcut": "M00006",
+  "if": "",
+  "data": {
+    "_": {},
+    "r-ml": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "r-ml"
+        },
+        "value": {
+          "title": {
+            "value": "M00006",
+            "props": {}
+          },
+          "schedule": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "Ichtamoli\nZinci oxid.\nTalci veneti\nGlycerini\nMagmae bent.5% áa ad 100,0\nD.S. na ložiská<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/018"
+}

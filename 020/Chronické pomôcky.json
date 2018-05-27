@@ -13,7 +13,7 @@
         },
         "value": {
           "s": {
-            "value": "<br>",
+            "value": "žiada pomôcky<br>",
             "props": {}
           }
         }
@@ -21,7 +21,7 @@
     ],
     "t": [
       {
-        "id": 4,
+        "id": 1,
         "order": 1,
         "props": {
           "type": "t"
@@ -59,7 +59,7 @@
       }
     ]
   },
-  "summary": "Predpis chronických pomôcok",
+  "summary": "Chronické pomôcky",
   "type": "examination",
   "source": "curo-open/curo-vzory#/020"
 }

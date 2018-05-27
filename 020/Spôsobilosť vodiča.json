@@ -1,0 +1,200 @@
+{
+  "title": "Spôsobilosť vodiča",
+  "shortcut": "sp-vodica",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? sessions|getSections(\"td\")|trans('length') &gt; 0}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 6,
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t-sposobilost-vodica": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "t-sposobilost-vodica"
+        },
+        "value": {
+          "posudzovany": {
+            "value": "",
+            "props": {}
+          },
+          "sposobily": {
+            "value": "",
+            "props": {}
+          },
+          "nesposobily": {
+            "value": "",
+            "props": {}
+          },
+          "obmedzene_sposobily": {
+            "value": "",
+            "props": {}
+          },
+          "datum": {
+            "value": "27.05.2018",
+            "props": {
+              "propValue": "2018-05-27T18:16:56.210Z",
+              "expr": "=dnes"
+            }
+          },
+          "platny": {
+            "value": "27.05.2018",
+            "props": {
+              "propValue": "2018-05-27T18:17:02.343Z",
+              "expr": "=dnes"
+            }
+          },
+          "EC": {
+            "value": "",
+            "props": {}
+          },
+          "ziadana_skupina": {
+            "value": "",
+            "props": {}
+          },
+          "drzitel_opravnenia_skupiny": {
+            "value": "",
+            "props": {}
+          },
+          "vodic_skupiny": {
+            "value": "",
+            "props": {}
+          },
+          "zdravotny_stav": {
+            "value": "cítim zdravý/zdravá, ale mám tento stav, poruchu alebo chorobu",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "choroby": {
+            "value": "{{&lt; sessions|getSections(\"td\")|trans('text')}}",
+            "props": {}
+          },
+          "lieky": {
+            "value": "{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans(\"text\")}}",
+            "props": {}
+          },
+          "alkohol_pouzivanie": {
+            "value": "",
+            "props": {}
+          },
+          "navykove_latky_pouzivanie": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 7,
+        "order": 3,
+        "props": {
+          "type": "t-sposobilost-vodica"
+        },
+        "value": {
+          "posudzovany": {
+            "value": "",
+            "props": {}
+          },
+          "sposobily": {
+            "value": "",
+            "props": {}
+          },
+          "nesposobily": {
+            "value": "",
+            "props": {}
+          },
+          "obmedzene_sposobily": {
+            "value": "",
+            "props": {}
+          },
+          "datum": {
+            "value": "27.05.2018",
+            "props": {
+              "propValue": "2018-05-27T18:15:49.342Z"
+            }
+          },
+          "platny": {
+            "value": "27.05.2023",
+            "props": {
+              "propValue": "2023-05-27T18:15:49.342Z"
+            }
+          },
+          "EC": {
+            "value": "",
+            "props": {}
+          },
+          "ziadana_skupina": {
+            "value": "",
+            "props": {}
+          },
+          "drzitel_opravnenia_skupiny": {
+            "value": "",
+            "props": {}
+          },
+          "vodic_skupiny": {
+            "value": "",
+            "props": {}
+          },
+          "zdravotny_stav": {
+            "value": "cítim zdravý/zdravá a nie som si vedomy poruchy alebo choroby",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "lieky": {
+            "value": "{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans(\"text\")}}",
+            "props": {}
+          },
+          "alkohol_pouzivanie": {
+            "value": "",
+            "props": {}
+          },
+          "navykove_latky_pouzivanie": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/020"
+}

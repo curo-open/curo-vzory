@@ -1,0 +1,95 @@
+{
+  "title": "SP - kontrolné a zisťovacie prehliadky",
+  "shortcut": "sp-kontrolne-a-zistovacie",
+  "summary": "SP - kontrolné a zisťovacie prehliadky",
+  "if": "",
+  "data": {
+    "_": {},
+    "t-sp-prehliadky": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "t-sp-prehliadky"
+        },
+        "value": {
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "datum": {
+            "value": "19.03.2018",
+            "props": {
+              "propValue": "2018-03-19T21:23:10.046Z"
+            }
+          },
+          "vztah": {
+            "value": "",
+            "props": {}
+          },
+          "druh_cinnosti": {
+            "value": "",
+            "props": {}
+          },
+          "praceneschopny_od": {
+            "value": "",
+            "props": {}
+          },
+          "praceneschopny_do": {
+            "value": "",
+            "props": {}
+          },
+          "praceneschopny_pre": {
+            "value": "",
+            "props": {}
+          },
+          "podpora_do": {
+            "value": "",
+            "props": {}
+          },
+          "anamneza": {
+            "value": "{{&lt; sessions|getSections(\"ra\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"oa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"pa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"la\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"ga\")|where(\"i==0\")|trans(\"text\")}}<br>",
+            "props": {}
+          },
+          "vysledky_nalezov": {
+            "value": "<br>",
+            "props": {}
+          },
+          "vysledky_vesetreni": {
+            "value": "",
+            "props": {}
+          },
+          "diagnoza": {
+            "value": "{{&lt; sessions|getSections(\"td\")|trans(\"text\")}}<br>",
+            "props": {}
+          },
+          "ostatne_diagnozy": {
+            "value": "",
+            "props": {}
+          },
+          "pocet_priloh": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"zfp\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "type": "examination",
+  "source": "curo-open/curo-vzory#/020"
+}

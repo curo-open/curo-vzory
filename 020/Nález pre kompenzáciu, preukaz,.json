@@ -1,0 +1,80 @@
+{
+  "title": "Nález pre kompenzáciu, preukaz, ...",
+  "shortcut": "sp-kompenzacia",
+  "summary": "Nález pre kompenzáciu, preukaz, ...",
+  "if": "",
+  "data": {
+    "_": {},
+    "t-posudzovaci-nalez": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "t-posudzovaci-nalez"
+        },
+        "value": {
+          "anamneza_osobna": {
+            "value": "{{&lt; sessions|getSections(\"ra\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"oa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"pa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"la\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"ga\")|where(\"i==0\")|trans(\"text\")}}<br>",
+            "props": {}
+          },
+          "anamneza_subjektivna": {
+            "value": "<br>",
+            "props": {}
+          },
+          "habitus": {
+            "value": "",
+            "props": {}
+          },
+          "orientacia": {
+            "value": "",
+            "props": {}
+          },
+          "poloha": {
+            "value": "",
+            "props": {}
+          },
+          "postoj": {
+            "value": "",
+            "props": {}
+          },
+          "chodza": {
+            "value": "",
+            "props": {}
+          },
+          "poruchy": {
+            "value": "",
+            "props": {}
+          },
+          "nalez_a": {
+            "value": "<br>",
+            "props": {}
+          },
+          "nalez_b": {
+            "value": "",
+            "props": {}
+          },
+          "zaver": {
+            "value": "{{&lt; sessions|getSections(\"td\")|trans(\"text\")}}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"zfp\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/020"
+}

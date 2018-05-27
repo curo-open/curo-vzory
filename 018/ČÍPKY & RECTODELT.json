@@ -1,0 +1,32 @@
+{
+  "title": "ČÍPKY & RECTODELT",
+  "shortcut": "M00024",
+  "if": "",
+  "data": {
+    "_": {},
+    "r-ml": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "r-ml"
+        },
+        "value": {
+          "title": {
+            "value": "M00024",
+            "props": {}
+          },
+          "schedule": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "Prednisoni 0,1\nAdeps solidus 0,9\nM.f.supp.\nD.S. dos NoI (unam)<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/018"
+}

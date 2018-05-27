@@ -6,14 +6,14 @@
     "_": {},
     "s": [
       {
-        "id": 3,
+        "id": 5,
         "order": 0,
         "props": {
           "type": "s"
         },
         "value": {
           "s": {
-            "value": "<br>",
+            "value": "žiada lieky<br>",
             "props": {}
           }
         }
@@ -21,7 +21,7 @@
     ],
     "t": [
       {
-        "id": 4,
+        "id": 1,
         "order": 1,
         "props": {
           "type": "t"
@@ -36,7 +36,7 @@
     ],
     "vv": [
       {
-        "id": 5,
+        "id": 3,
         "order": 2,
         "props": {
           "type": "vv"
@@ -46,9 +46,9 @@
             "value": "[4] \"Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani",
             "props": {
               "propBody": 200,
-              "idClassid": "vykon",
+              "id": 4,
               "idEzid": "00000466524",
-              "id": 4
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -59,7 +59,7 @@
       }
     ]
   },
-  "summary": "Predpis chronických liekov",
+  "summary": "Chronické lieky",
   "type": "examination",
   "source": "curo-open/curo-vzory#/020"
 }
