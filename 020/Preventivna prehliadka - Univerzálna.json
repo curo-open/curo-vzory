@@ -2434,12 +2434,12 @@
         },
         "value": {
           "id": {
-            "value": "[5702ZV] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie ako súčasť predoperačného vyšetrenia. Nutná kombinácia s výkonom 60b.",
+            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propBody": 0,
+              "propBody": 550,
               "idClassid": "vykon",
-              "idEzid": "curo-5702ZV@7",
-              "id": "5702ZV"
+              "idEzid": "00000494187",
+              "id": 5702
             }
           },
           "count": {
