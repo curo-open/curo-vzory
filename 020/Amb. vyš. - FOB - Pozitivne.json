@@ -119,9 +119,9 @@
             "props": {}
           },
           "date": {
-            "value": "09.05.2018",
+            "value": "21.08.2018",
             "props": {
-              "propValue": "2018-05-09T17:24:05.741Z",
+              "propValue": "2018-08-21T11:41:51.964Z",
               "expr": "=teraz"
             }
           },
@@ -227,5 +227,9 @@
       }
     ]
   },
+  "tags": [
+    "sumar-fob"
+  ],
+  "vars": {},
   "source": "curo-open/curo-vzory#/020"
 }

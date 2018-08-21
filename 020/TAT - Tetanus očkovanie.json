@@ -15,9 +15,9 @@
           "id": {
             "value": "[T] Tetanus",
             "props": {
-              "id": "T",
+              "idClassid": "ockovanie",
               "idEzid": "00000115923@2",
-              "idClassid": "ockovanie"
+              "id": "T"
             }
           },
           "datum": {
@@ -44,20 +44,20 @@
           "id": {
             "value": "[33919] IMOVAX D.T. ADULT | sus inj 1x0,5 ml (striek.inj.skl.napln.)",
             "props": {
-              "propAtcName": "Tetanový toxoid, kombinácie s diftériovým toxoidom",
-              "propSpUhr": "V",
-              "propCena": 6.02,
-              "propVnl": "R",
-              "propSdl": 1,
-              "propGp": 0,
               "propOl": 1,
-              "id": 33919,
-              "idUl": "",
-              "idAtc": "J07AM51",
-              "idSp": "imu",
-              "idF": "SUS INJ",
+              "propGp": 0,
+              "propSdl": 1,
+              "propVnl": "R",
+              "propCena": 6.02,
+              "propSpUhr": "V",
+              "propAtcName": "Tetanový toxoid, kombinácie s diftériovým toxoidom",
+              "idClassid": "liek",
               "idEzid": "00020745493",
-              "idClassid": "liek"
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07AM51",
+              "idUl": "",
+              "id": 33919
             }
           },
           "sn": {
@@ -88,9 +88,9 @@
           "id": {
             "value": "[Z27.1] Potreba imunizácie proti záškrtu – tetanu – čiernemu kašľu [DPT]",
             "props": {
-              "id": "Z27.1",
+              "idClassid": "diagnoza",
               "idEzid": "02089522383@9",
-              "idClassid": "diagnoza"
+              "id": "Z27.1"
             }
           },
           "text": {
@@ -112,9 +112,9 @@
             "value": "[252b] Očkovanie.",
             "props": {
               "propBody": 70,
-              "id": "252b",
+              "idClassid": "vykon",
               "idEzid": "00000467878@7",
-              "idClassid": "vykon"
+              "id": "252b"
             }
           },
           "count": {
@@ -125,5 +125,9 @@
       }
     ]
   },
+  "tags": [
+    "sumar-tat"
+  ],
+  "vars": {},
   "source": "curo-open/curo-vzory#/020"
 }

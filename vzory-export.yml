@@ -28,6 +28,8 @@ curo-open/curo-vzory:
       folders: ['020']
     'Amb. vyš. - FOB - Negativne':
       folders: ['020']
+    'Amb. vyš. - FOB - Nevrátené':
+      folders: ['020']      
     'Interné predoperačné vyšetrenie':
       folders: ['020']
     'Interné kontrolné vyšetrenie':
@@ -54,7 +56,7 @@ curo-open/curo-vzory:
       folders: ['020','008']
     'Chronické pomôcky':
       folders: ['020','008']
-    'Preventivna prehliadka - Univerzálna':
+    'Preventívna prehliadka - Univerzálna':
       folders: ['020']
     'Nález pre kompenzáciu, preukaz, ...':
       folders: ['020']
@@ -72,6 +74,12 @@ curo-open/curo-vzory:
       folders: ['020']
     'Spôsobilosť vodiča':
       folders: ['020']      
+    'Vstupné vyšetrenie - Kapitácia':
+      folders: ['020','008']
+    'KV SCORE + vykazovanie':
+      folders: ['020']
+    'PN - UPSVAR':
+      folders: ['020']
     'SAL.ALKOHOL':
       folders: ['018']
     '1%KYS.ML./CA':

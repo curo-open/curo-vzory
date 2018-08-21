@@ -1,0 +1,578 @@
+{
+  "title": "Vstupné vyšetrenie - Kapitácia",
+  "shortcut": "kp",
+  "if": "",
+  "data": {
+    "_": {},
+    "t-nadpis": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "Komplexné vyšetrenie poistenca pri prevzatí dospelej osoby do zdravotnej starostlivosti ako prvotné komplexné vyšetrenie s vystavením zdravotného záznamu<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "kp": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "kp"
+        },
+        "value": {
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "comment": {
+            "value": "",
+            "props": {}
+          },
+          "prev_lekar": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ra": [
+      {
+        "id": 8,
+        "order": 2,
+        "props": {
+          "type": "ra"
+        },
+        "value": {
+          "text": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oa": [
+      {
+        "id": 10,
+        "order": 3,
+        "props": {
+          "type": "oa"
+        },
+        "value": {
+          "text": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "sa": [
+      {
+        "id": 12,
+        "order": 4,
+        "props": {
+          "type": "sa"
+        },
+        "value": {
+          "text": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "la": [
+      {
+        "id": 14,
+        "order": 5,
+        "props": {
+          "type": "la"
+        },
+        "value": {
+          "text": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "aa": [
+      {
+        "id": 16,
+        "order": 6,
+        "props": {
+          "type": "aa"
+        },
+        "value": {
+          "text": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 45,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pohlavie == \"female\" }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 49,
+        "order": 9,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 29,
+        "order": 11,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Preventívna prehliadka<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 50,
+        "order": 23,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp== 25 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 54,
+        "order": 25,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 56,
+        "order": 26,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp== 24 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 58,
+        "order": 28,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 30,
+        "order": 29,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pri chronicky ochoreniach pouzit prislisny vzor<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ga": [
+      {
+        "id": 18,
+        "order": 8,
+        "props": {
+          "type": "ga"
+        },
+        "value": {
+          "text": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oc": [
+      {
+        "id": 32,
+        "order": 10,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[T] Tetanus",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000115923@2",
+              "id": "T"
+            }
+          },
+          "datum": {
+            "value": "",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 20,
+        "order": 12,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 22,
+        "order": 13,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pv": [
+      {
+        "id": 36,
+        "order": 14,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Status preasens",
+            "props": {
+              "propValue": "Status preasens"
+            }
+          },
+          "popis": {
+            "value": "Pri vedomí, orientovaný, kľudové eupnoe, bez cyanózy. Orientačne neurologicky v norme.",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 60,
+        "order": 15,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Hlava",
+            "props": {
+              "propValue": "Hlava"
+            }
+          },
+          "popis": {
+            "value": "Hlava, krk veku primeraný nález.",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 62,
+        "order": 16,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Dýchacie ústrojenstvo",
+            "props": {
+              "propValue": "Dýchacie ústrojenstvo"
+            }
+          },
+          "popis": {
+            "value": "Dýchanie vezikulárne, AS pravidelná 80/min. ",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 64,
+        "order": 17,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Brucho",
+            "props": {
+              "propValue": "Brucho"
+            }
+          },
+          "popis": {
+            "value": "Brucho voľne priehmatné, nebolestivé, hepar, lien nezväčšené, tapottement bilat. negat.",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 66,
+        "order": 18,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Dolné končatiny",
+            "props": {
+              "propValue": "Dolné končatiny"
+            }
+          },
+          "popis": {
+            "value": "bez edémov, perif. pulzy hmatné",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "zfp": [
+      {
+        "id": 38,
+        "order": 19,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "oh": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "",
+            "props": {}
+          },
+          "temp": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 26,
+        "order": 20,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "td": [
+      {
+        "id": 40,
+        "order": 21,
+        "props": {
+          "type": "td"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          },
+          "from": {
+            "value": "",
+            "props": {}
+          },
+          "to": {
+            "value": "",
+            "props": {}
+          },
+          "dispenzarizacia": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 24,
+        "order": 22,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z00.8] Iné všeobecné vyšetrenie",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089520874@9",
+              "id": "Z00.8"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 7,
+        "order": 24,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[60] Komplexné vyšetrenie pacienta (kompletná anamnéza, vyšetrenie všetkých orgánových systémov, založenie zdravotnej dokumentácie, diagnostický záver, liečebný plán a (alebo) zaradenie do dispenzárnej starostlivosti, odoslanie pacienta na ďalšie laborató",
+            "props": {
+              "propBody": 350,
+              "id": 60,
+              "idEzid": "00000466730@8",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 57,
+        "order": 27,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[60B] Komplexné predoperačné vyšetrenie vrátane odberov krvi, zhodnotenie laboratórnych a prístrojových vyšetrení.",
+            "props": {
+              "propBody": 0,
+              "idClassid": "vykon",
+              "idEzid": "02089719450@8",
+              "id": "60B"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "summary": "",
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020"
+}
