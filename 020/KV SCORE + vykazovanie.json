@@ -29,10 +29,57 @@
         }
       }
     ],
+    "vd": [
+      {
+        "id": 6,
+        "order": 1,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089521690@9",
+              "id": "Z12.1"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 8,
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
+            "props": {
+              "propBody": 0,
+              "idClassid": "vykon",
+              "idEzid": "02089725770@8",
+              "id": "H0006"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
     "h-score": [
       {
         "id": 2,
-        "order": 1,
+        "order": 3,
         "props": {
           "type": "h-score"
         },
@@ -55,53 +102,6 @@
           },
           "poznamka": {
             "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
-    "vd": [
-      {
-        "id": 6,
-        "order": 2,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
-            "props": {
-              "id": "Z12.1",
-              "idEzid": "02089521690@9",
-              "idClassid": "diagnoza"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
-    "vv": [
-      {
-        "id": 8,
-        "order": 3,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
-            "props": {
-              "propBody": 0,
-              "id": "H0006",
-              "idEzid": "02089725770@8",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
             "props": {}
           }
         }

@@ -41,11 +41,11 @@ curo-open/curo-vzory:
     'Amb. vyš. - Moč':
       folders: ['020']
     'Všetky lieky za 180 dní':
-      folders: ['020','008']
+      folders: ['020','008','001','010','048']
     'Všetky pomôcky za 90 dní':
-      folders: ['020','008']
+      folders: ['020','008','001','010','048']
     'Všetky vymenné lístky za 90 dní':
-      folders: ['020','008']
+      folders: ['020','008','001','010','048']
     'Alergia lieky':
       folders: ['020']
     'Alergia - Iné':
@@ -53,9 +53,9 @@ curo-open/curo-vzory:
     'Príkaz na prepravu/dopravu':
       folders: ['020']
     'Chronické lieky':
-      folders: ['020','008']
+      folders: ['020','008','001','010','048']
     'Chronické pomôcky':
-      folders: ['020','008']
+      folders: ['020','008','001','010','048']
     'Preventívna prehliadka - Univerzálna':
       folders: ['020']
     'Nález pre kompenzáciu, preukaz, ...':
@@ -76,8 +76,10 @@ curo-open/curo-vzory:
       folders: ['020']      
     'Vstupné vyšetrenie - Kapitácia':
       folders: ['020','008']
-    'KV SCORE + vykazovanie':
+    'KV SCORE':
       folders: ['020']
+    'KV SCORE + vykazovanie':
+      folders: ['020']  
     'PN - UPSVAR':
       folders: ['020']
     'SAL.ALKOHOL':
