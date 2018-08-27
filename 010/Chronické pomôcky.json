@@ -46,9 +46,9 @@
             "value": "[4] \"Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani",
             "props": {
               "propBody": 200,
-              "idClassid": "vykon",
+              "id": 4,
               "idEzid": "00000466524",
-              "id": 4
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -61,5 +61,7 @@
   },
   "summary": "Chronické pomôcky",
   "type": "examination",
+  "tags": [],
+  "vars": {},
   "source": "curo-open/curo-vzory#/010"
 }

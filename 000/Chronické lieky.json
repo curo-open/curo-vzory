@@ -1,19 +1,19 @@
 {
-  "title": "Chronické pomôcky",
-  "shortcut": "11",
+  "title": "Chronické lieky",
+  "shortcut": "10",
   "if": "",
   "data": {
     "_": {},
     "s": [
       {
-        "id": 3,
+        "id": 5,
         "order": 0,
         "props": {
           "type": "s"
         },
         "value": {
           "s": {
-            "value": "žiada pomôcky<br>",
+            "value": "žiada lieky<br>",
             "props": {}
           }
         }
@@ -28,7 +28,7 @@
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pp\")|where(\"s.props.priority&gt;0\")}}<br>",
+            "value": "{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")}}<br>",
             "props": {}
           }
         }
@@ -36,7 +36,7 @@
     ],
     "vv": [
       {
-        "id": 5,
+        "id": 3,
         "order": 2,
         "props": {
           "type": "vv"
@@ -59,9 +59,7 @@
       }
     ]
   },
-  "summary": "Chronické pomôcky",
+  "summary": "Chronické lieky",
   "type": "examination",
-  "tags": [],
-  "vars": {},
-  "source": "curo-open/curo-vzory#/001"
+  "source": "curo-open/curo-vzory#/000"
 }

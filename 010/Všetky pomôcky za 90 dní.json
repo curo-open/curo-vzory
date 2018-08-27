@@ -1,7 +1,6 @@
 {
-  "title": "Chronické pomôcky",
-  "shortcut": "11",
-  "if": "",
+  "title": "Všetky pomôcky za 90 dní",
+  "shortcut": "8",
   "data": {
     "_": {},
     "s": [
@@ -28,7 +27,7 @@
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pp\")|where(\"s.props.priority&gt;0\")}}<br>",
+            "value": "{{&lt; sessions|getSections(\"pp\")|where(\"d.period&lt;90\")}}<br>",
             "props": {}
           }
         }
@@ -59,9 +58,8 @@
       }
     ]
   },
-  "summary": "Chronické pomôcky",
-  "type": "examination",
+  "if": "",
   "tags": [],
   "vars": {},
-  "source": "curo-open/curo-vzory#/001"
+  "source": "curo-open/curo-vzory#/010"
 }

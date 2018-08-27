@@ -1,7 +1,6 @@
 {
-  "title": "Chronické pomôcky",
-  "shortcut": "11",
-  "if": "",
+  "title": "Všetky pomôcky za 180 dní",
+  "shortcut": "8",
   "data": {
     "_": {},
     "s": [
@@ -13,7 +12,7 @@
         },
         "value": {
           "s": {
-            "value": "žiada pomôcky<br>",
+            "value": "<br>",
             "props": {}
           }
         }
@@ -28,7 +27,7 @@
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pp\")|where(\"s.props.priority&gt;0\")}}<br>",
+            "value": "{{&lt; sessions|getSections(\"pp\")|where(\"d.period&lt;90\")}}<br>",
             "props": {}
           }
         }
@@ -47,7 +46,7 @@
             "props": {
               "propBody": 200,
               "id": 4,
-              "idEzid": "00000466524",
+              "idEzid": "00000466524@7",
               "idClassid": "vykon"
             }
           },
@@ -59,9 +58,8 @@
       }
     ]
   },
-  "summary": "Chronické pomôcky",
+  "if": "",
+  "summary": "Predpis pomôcok",
   "type": "examination",
-  "tags": [],
-  "vars": {},
-  "source": "curo-open/curo-vzory#/001"
+  "source": "curo-open/curo-vzory#/020"
 }

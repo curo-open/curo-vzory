@@ -1,7 +1,6 @@
 {
-  "title": "Chronické pomôcky",
-  "shortcut": "11",
-  "if": "",
+  "title": "Všetky vymenné lístky za 90 dní",
+  "shortcut": "9",
   "data": {
     "_": {},
     "s": [
@@ -13,7 +12,7 @@
         },
         "value": {
           "s": {
-            "value": "žiada pomôcky<br>",
+            "value": "žiada o odborné vyšetrenie<br>",
             "props": {}
           }
         }
@@ -28,7 +27,30 @@
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pp\")|where(\"s.props.priority&gt;0\")}}<br>",
+            "value": "{{&lt; sessions|getSections(\"vl\")|where(\"d.period&lt;90\")}}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
+            "props": {
+              "id": "Z00.0",
+              "idEzid": "02089520809@9",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
             "props": {}
           }
         }
@@ -36,8 +58,8 @@
     ],
     "vv": [
       {
-        "id": 5,
-        "order": 2,
+        "id": 7,
+        "order": 3,
         "props": {
           "type": "vv"
         },
@@ -59,9 +81,9 @@
       }
     ]
   },
-  "summary": "Chronické pomôcky",
-  "type": "examination",
+  "if": "",
+  "summary": "",
   "tags": [],
   "vars": {},
-  "source": "curo-open/curo-vzory#/001"
+  "source": "curo-open/curo-vzory#/048"
 }
