@@ -5,29 +5,45 @@
   "summary": "Interné predoperačné vyšetrenie",
   "data": {
     "_": {},
-    "s": [
+    "premenna": [
       {
-        "id": 204,
+        "id": 209,
         "order": 0,
         "props": {
-          "type": "s"
+          "type": "premenna"
         },
         "value": {
-          "s": {
-            "value": "<br>",
+          "name": {
+            "value": "kde",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": " ",
             "props": {}
           }
         }
-      },
+      }
+    ],
+    "t-nadpis": [
       {
-        "id": 123,
-        "order": 50,
+        "id": 206,
+        "order": 1,
         "props": {
-          "type": "s"
+          "type": "t-nadpis"
         },
         "value": {
-          "s": {
-            "value": "cíti sa primerane,KVS problémy neudáva,bežnú fyz. záťaž primerane   toleruje (bez záťaž. dyspnoe,horiz.polohu toleruje,nekašle,bez KHCD v nedávnej minul.,DK nepuchnú),stolica,trávenie,močenie v norme  \nInak bez výrazn.ťažkostí<br>",
+          "nadpis": {
+            "value": "Základné lekárske vyšetrenie<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "(podľaOdborného usmernenia MZ SR o vykonávaní ambulantných vyšetreníu dospelých pred plánovanými zdravotnými výkonmi s potrebouanestéziologickej starostlivosti zo dňa 10.6. 2014, číslo: 12826/2014-SZ)<br>",
             "props": {}
           }
         }
@@ -35,164 +51,21 @@
     ],
     "t": [
       {
-        "id": 74,
-        "order": 1,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? sessions|getSections(\"ra\")|trans('length') &gt; 0}}  <br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 75,
+        "id": 210,
         "order": 2,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"ra\")|where(\"i==0\")}} <br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 76,
-        "order": 3,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 78,
-        "order": 5,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 79,
-        "order": 6,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? sessions|getSections(\"oa\")|trans('length') &gt; 0}} <br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 80,
-        "order": 7,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{&lt; sessions|getSections(\"oa\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 81,
-        "order": 8,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 83,
-        "order": 10,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 84,
-        "order": 11,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? sessions|getSections(\"sa\")|trans('length') &gt; 0}} <br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 85,
-        "order": 12,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")}} <br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 86,
-        "order": 13,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 88,
-        "order": 15,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
+            "value": "Dátum: <br>Miesto: <br>",
             "props": {}
           }
         }
       },
       {
         "id": 89,
-        "order": 16,
+        "order": 6,
         "props": {
           "type": "t"
         },
@@ -205,124 +78,20 @@
       },
       {
         "id": 91,
-        "order": 18,
+        "order": 8,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
             "value": "{{ : }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 92,
-        "order": 19,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? sessions|getSections(\"la\")|trans('length') &gt; 0 &amp;&amp; !sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0}} <br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 93,
-        "order": 20,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{&lt; sessions|getSections(\"la\")|where(\"i==0\")}} <br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 94,
-        "order": 21,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 95,
-        "order": 22,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? !sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0 &amp;&amp; !sessions|getSections(\"la\")|where(\"i==0\")|trans('length') &gt; 0 }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 97,
-        "order": 24,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 98,
-        "order": 25,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? sessions|getSections(\"aa\")|where(\"i==0\")|trans('length') &gt; 0}} <br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 99,
-        "order": 26,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{&lt; sessions|getSections(\"aa\")|where(\"i==0\")}} <br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 100,
-        "order": 27,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 102,
-        "order": 29,
+        "order": 10,
         "props": {
           "type": "t"
         },
@@ -335,852 +104,345 @@
       },
       {
         "id": 103,
-        "order": 30,
+        "order": 12,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? pohlavie == \"female\" &amp;&amp; sessions|getSections(\"ga\")|trans('length') &gt; 0}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 104,
-        "order": 31,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{&lt; sessions|getSections(\"ga\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 105,
-        "order": 32,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 106,
-        "order": 33,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? pohlavie == \"female\" &amp;&amp; !sessions|getSections(\"ga\")|where(\"i==0\")|trans('length') &gt; 0 }}<br>",
+            "value": "{{ ? pohlavie == \"female\" }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 108,
-        "order": 35,
+        "order": 14,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
             "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 109,
-        "order": 36,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? sessions|getSections(\"zfp\")|trans('length') &gt; 0}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 110,
-        "order": 37,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{&lt; sessions|getSections(\"zfp\")|where(\"i==0\")}} <br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 111,
-        "order": 38,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 112,
-        "order": 39,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{?}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 113,
-        "order": 40,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? sessions|getSections(\"ab\")|trans('length') &gt; 0}}  <br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 114,
-        "order": 41,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{&lt; sessions|getSections(\"ab\")|where(\"i==0\")}} <br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 115,
-        "order": 42,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 117,
-        "order": 44,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 118,
-        "order": 45,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? sessions|getSections(\"zfp\")|trans('length') &gt; 0}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 119,
-        "order": 46,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{&lt; sessions|getSections(\"zfp\")|where(\"i==0\")}} <br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 120,
-        "order": 47,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 122,
-        "order": 49,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{?}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 125,
-        "order": 52,
+        "order": 19,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Status preasens'\")|trans('length') &gt; 0}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 126,
-        "order": 53,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Status preasens'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 127,
-        "order": 54,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Status preasens'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 129,
-        "order": 56,
+        "order": 21,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
+            "value": "{{ &lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 130,
-        "order": 57,
+        "order": 22,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Zrak'\")|trans('length') &gt; 0}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 131,
-        "order": 58,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Zrak'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 132,
-        "order": 59,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Zrak'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 134,
-        "order": 61,
+        "order": 24,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 135,
-        "order": 62,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Sluch'\")|trans('length') &gt; 0}}<br>",
+            "value": "{{ &lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 136,
-        "order": 63,
+        "order": 25,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Sluch'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 137,
-        "order": 64,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Sluch'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 139,
-        "order": 66,
+        "order": 27,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 140,
-        "order": 67,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hlava'\")|trans('length') &gt; 0}}<br>",
+            "value": "{{ &lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 141,
-        "order": 68,
+        "order": 28,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hlava'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 142,
-        "order": 69,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hlava'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 144,
-        "order": 71,
+        "order": 30,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 145,
-        "order": 72,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hrdlo'\")|trans('length') &gt; 0}}<br>",
+            "value": "{{ &lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 146,
-        "order": 73,
+        "order": 31,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hrdlo'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 147,
-        "order": 74,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hrdlo'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 149,
-        "order": 76,
+        "order": 33,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 150,
-        "order": 77,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Krk'\")|trans('length') &gt; 0}}<br>",
+            "value": "{{ &lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 151,
-        "order": 78,
+        "order": 34,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Krk'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 152,
-        "order": 79,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Krk'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 154,
-        "order": 81,
+        "order": 36,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 155,
-        "order": 82,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hrudník'\")|trans('length') &gt; 0}}<br>",
+            "value": "{{ &lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 156,
-        "order": 83,
+        "order": 37,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hrudník'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 157,
-        "order": 84,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hrudník'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 159,
-        "order": 86,
+        "order": 39,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 160,
-        "order": 87,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Brucho'\")|trans('length') &gt; 0}}<br>",
+            "value": "{{ &lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 161,
-        "order": 88,
+        "order": 40,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Brucho'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 162,
-        "order": 89,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Brucho'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 164,
-        "order": 91,
+        "order": 42,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 165,
-        "order": 92,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Chrbtica'\")|trans('length') &gt; 0}}<br>",
+            "value": "{{ &lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 166,
-        "order": 93,
+        "order": 43,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Chrbtica'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 167,
-        "order": 94,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Chrbtica'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 169,
-        "order": 96,
+        "order": 45,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 170,
-        "order": 97,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='RTG'\")|trans('length') &gt; 0}}<br>",
+            "value": "{{ &lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 171,
-        "order": 98,
+        "order": 46,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='RTG'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 172,
-        "order": 99,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='RTG'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 174,
-        "order": 101,
+        "order": 48,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 175,
-        "order": 102,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='USG'\")|trans('length') &gt; 0}}<br>",
+            "value": "{{ &lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 176,
-        "order": 103,
+        "order": 49,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='USG'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 177,
-        "order": 104,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='USG'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 179,
-        "order": 106,
+        "order": 51,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 180,
-        "order": 107,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? sessions|getSections(\"ekg\")|trans('length') &gt; 0}}<br>",
+            "value": "{{ &lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 181,
-        "order": 108,
+        "order": 52,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"ekg\")|where(\"i==0\")}} <br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 182,
-        "order": 109,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"ekg\")|where(\"i==0\")}} <br>",
             "props": {}
           }
         }
       },
       {
         "id": 184,
-        "order": 111,
+        "order": 54,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
+            "value": "{{ &lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 185,
-        "order": 112,
+        "order": 55,
         "props": {
           "type": "t"
         },
@@ -1193,7 +455,7 @@
       },
       {
         "id": 187,
-        "order": 114,
+        "order": 57,
         "props": {
           "type": "t"
         },
@@ -1206,7 +468,7 @@
       },
       {
         "id": 196,
-        "order": 116,
+        "order": 59,
         "props": {
           "type": "t"
         },
@@ -1219,7 +481,7 @@
       },
       {
         "id": 197,
-        "order": 118,
+        "order": 61,
         "props": {
           "type": "t"
         },
@@ -1232,7 +494,7 @@
       },
       {
         "id": 198,
-        "order": 119,
+        "order": 62,
         "props": {
           "type": "t"
         },
@@ -1245,7 +507,7 @@
       },
       {
         "id": 200,
-        "order": 121,
+        "order": 64,
         "props": {
           "type": "t"
         },
@@ -1258,13 +520,13 @@
       },
       {
         "id": 189,
-        "order": 123,
+        "order": 66,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "V Podolínci <br>",
+            "value": "V {{var.kde}}<br>",
             "props": {}
           }
         }
@@ -1273,7 +535,7 @@
     "ra": [
       {
         "id": 77,
-        "order": 4,
+        "order": 3,
         "props": {
           "type": "ra"
         },
@@ -1288,7 +550,7 @@
     "oa": [
       {
         "id": 82,
-        "order": 9,
+        "order": 4,
         "props": {
           "type": "oa"
         },
@@ -1303,7 +565,7 @@
     "sa": [
       {
         "id": 87,
-        "order": 14,
+        "order": 5,
         "props": {
           "type": "sa"
         },
@@ -1318,7 +580,7 @@
     "la": [
       {
         "id": 90,
-        "order": 17,
+        "order": 7,
         "props": {
           "type": "la"
         },
@@ -1331,7 +593,7 @@
       },
       {
         "id": 96,
-        "order": 23,
+        "order": 9,
         "props": {
           "type": "la"
         },
@@ -1346,7 +608,7 @@
     "aa": [
       {
         "id": 101,
-        "order": 28,
+        "order": 11,
         "props": {
           "type": "aa"
         },
@@ -1361,7 +623,7 @@
     "ga": [
       {
         "id": 107,
-        "order": 34,
+        "order": 13,
         "props": {
           "type": "ga"
         },
@@ -1376,7 +638,7 @@
     "ab": [
       {
         "id": 116,
-        "order": 43,
+        "order": 15,
         "props": {
           "type": "ab"
         },
@@ -1385,15 +647,15 @@
             "value": "",
             "props": {}
           },
-          "káva": {
+          "kava": {
             "value": "",
             "props": {}
           },
-          "fajčiar": {
+          "fajciar": {
             "value": "",
             "props": {}
           },
-          "cigariet/deň": {
+          "cigariet": {
             "value": "",
             "props": {}
           },
@@ -1407,15 +669,11 @@
     "zfp": [
       {
         "id": 121,
-        "order": 48,
+        "order": 16,
         "props": {
           "type": "zfp"
         },
         "value": {
-          "temp": {
-            "value": "",
-            "props": {}
-          },
           "sys": {
             "value": "",
             "props": {}
@@ -1459,6 +717,25 @@
           "o2": {
             "value": "",
             "props": {}
+          },
+          "temp": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 123,
+        "order": 17,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "cíti sa primerane,KVS problémy neudáva,bežnú fyz. záťaž primerane   toleruje (bez záťaž. dyspnoe,horiz.polohu toleruje,nekašle,bez KHCD v nedávnej minul.,DK nepuchnú),stolica,trávenie,močenie v norme  \nInak bez výrazn.ťažkostí<br>",
+            "props": {}
           }
         }
       }
@@ -1466,7 +743,7 @@
     "o": [
       {
         "id": 124,
-        "order": 51,
+        "order": 18,
         "props": {
           "type": "o"
         },
@@ -1481,7 +758,7 @@
     "pv": [
       {
         "id": 128,
-        "order": 55,
+        "order": 20,
         "props": {
           "type": "pv"
         },
@@ -1500,7 +777,7 @@
       },
       {
         "id": 133,
-        "order": 60,
+        "order": 23,
         "props": {
           "type": "pv"
         },
@@ -1519,7 +796,7 @@
       },
       {
         "id": 138,
-        "order": 65,
+        "order": 26,
         "props": {
           "type": "pv"
         },
@@ -1538,7 +815,7 @@
       },
       {
         "id": 143,
-        "order": 70,
+        "order": 29,
         "props": {
           "type": "pv"
         },
@@ -1557,7 +834,7 @@
       },
       {
         "id": 148,
-        "order": 75,
+        "order": 32,
         "props": {
           "type": "pv"
         },
@@ -1576,7 +853,7 @@
       },
       {
         "id": 153,
-        "order": 80,
+        "order": 35,
         "props": {
           "type": "pv"
         },
@@ -1595,7 +872,7 @@
       },
       {
         "id": 158,
-        "order": 85,
+        "order": 38,
         "props": {
           "type": "pv"
         },
@@ -1614,7 +891,7 @@
       },
       {
         "id": 163,
-        "order": 90,
+        "order": 41,
         "props": {
           "type": "pv"
         },
@@ -1633,7 +910,7 @@
       },
       {
         "id": 168,
-        "order": 95,
+        "order": 44,
         "props": {
           "type": "pv"
         },
@@ -1652,7 +929,7 @@
       },
       {
         "id": 173,
-        "order": 100,
+        "order": 47,
         "props": {
           "type": "pv"
         },
@@ -1671,7 +948,7 @@
       },
       {
         "id": 178,
-        "order": 105,
+        "order": 50,
         "props": {
           "type": "pv"
         },
@@ -1692,7 +969,7 @@
     "ekg": [
       {
         "id": 195,
-        "order": 110,
+        "order": 53,
         "props": {
           "type": "ekg"
         },
@@ -1751,7 +1028,7 @@
     "vd": [
       {
         "id": 186,
-        "order": 113,
+        "order": 56,
         "props": {
           "type": "vd"
         },
@@ -1770,7 +1047,7 @@
     "vv": [
       {
         "id": 190,
-        "order": 115,
+        "order": 58,
         "props": {
           "type": "vv"
         },
@@ -1792,7 +1069,7 @@
       },
       {
         "id": 191,
-        "order": 117,
+        "order": 60,
         "props": {
           "type": "vv"
         },
@@ -1814,7 +1091,7 @@
       },
       {
         "id": 202,
-        "order": 120,
+        "order": 63,
         "props": {
           "type": "vv"
         },
@@ -1838,7 +1115,7 @@
     "z": [
       {
         "id": 193,
-        "order": 122,
+        "order": 65,
         "props": {
           "type": "z"
         },
@@ -1853,5 +1130,9 @@
   },
   "if": "",
   "type": "examination",
+  "tags": [],
+  "vars": {
+    "kde": ""
+  },
   "source": "curo-open/curo-vzory#/020"
 }
