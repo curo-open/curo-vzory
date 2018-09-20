@@ -23,10 +23,61 @@
         }
       }
     ],
+    "b-rd": [
+      {
+        "id": 68,
+        "order": 1,
+        "props": {
+          "type": "b-rd"
+        },
+        "value": {
+          "rodne_priezvisko": {
+            "value": "",
+            "props": {}
+          },
+          "stav": {
+            "value": "",
+            "props": {}
+          },
+          "rc_partnera": {
+            "value": "",
+            "props": {}
+          },
+          "vzdelanie": {
+            "value": "",
+            "props": {}
+          },
+          "zamestnanie": {
+            "value": "",
+            "props": {}
+          },
+          "miesto_narodenia": {
+            "value": "",
+            "props": {}
+          },
+          "narodnost": {
+            "value": "",
+            "props": {}
+          },
+          "obcianstvo": {
+            "value": "",
+            "props": {}
+          },
+          "okres": {
+            "value": "",
+            "props": {}
+          },
+          "mesto_rozsirene": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "kp": [
       {
         "id": 4,
-        "order": 1,
+        "order": 2,
         "props": {
           "type": "kp"
         },
@@ -49,7 +100,7 @@
     "ra": [
       {
         "id": 8,
-        "order": 2,
+        "order": 3,
         "props": {
           "type": "ra"
         },
@@ -64,7 +115,7 @@
     "oa": [
       {
         "id": 10,
-        "order": 3,
+        "order": 4,
         "props": {
           "type": "oa"
         },
@@ -79,7 +130,7 @@
     "sa": [
       {
         "id": 12,
-        "order": 4,
+        "order": 5,
         "props": {
           "type": "sa"
         },
@@ -94,7 +145,7 @@
     "la": [
       {
         "id": 14,
-        "order": 5,
+        "order": 6,
         "props": {
           "type": "la"
         },
@@ -109,7 +160,7 @@
     "aa": [
       {
         "id": 16,
-        "order": 6,
+        "order": 7,
         "props": {
           "type": "aa"
         },
@@ -124,7 +175,7 @@
     "t": [
       {
         "id": 45,
-        "order": 7,
+        "order": 8,
         "props": {
           "type": "t"
         },
@@ -137,7 +188,7 @@
       },
       {
         "id": 49,
-        "order": 9,
+        "order": 10,
         "props": {
           "type": "t"
         },
@@ -150,13 +201,13 @@
       },
       {
         "id": 29,
-        "order": 11,
+        "order": 12,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "Preventívna prehliadka<br>",
+            "value": "Preventívna prehliadka potrebné zaznačiť cez samostatný dekurz<br>",
             "props": {}
           }
         }
@@ -176,7 +227,7 @@
       },
       {
         "id": 54,
-        "order": 25,
+        "order": 26,
         "props": {
           "type": "t"
         },
@@ -189,7 +240,7 @@
       },
       {
         "id": 56,
-        "order": 26,
+        "order": 27,
         "props": {
           "type": "t"
         },
@@ -202,7 +253,7 @@
       },
       {
         "id": 58,
-        "order": 28,
+        "order": 30,
         "props": {
           "type": "t"
         },
@@ -215,7 +266,7 @@
       },
       {
         "id": 30,
-        "order": 29,
+        "order": 31,
         "props": {
           "type": "t"
         },
@@ -230,7 +281,7 @@
     "ga": [
       {
         "id": 18,
-        "order": 8,
+        "order": 9,
         "props": {
           "type": "ga"
         },
@@ -245,7 +296,7 @@
     "oc": [
       {
         "id": 32,
-        "order": 10,
+        "order": 11,
         "props": {
           "type": "oc"
         },
@@ -253,9 +304,9 @@
           "id": {
             "value": "[T] Tetanus",
             "props": {
-              "idClassid": "ockovanie",
+              "id": "T",
               "idEzid": "00000115923@2",
-              "id": "T"
+              "idClassid": "ockovanie"
             }
           },
           "datum": {
@@ -272,7 +323,7 @@
     "s": [
       {
         "id": 20,
-        "order": 12,
+        "order": 13,
         "props": {
           "type": "s"
         },
@@ -287,7 +338,7 @@
     "o": [
       {
         "id": 22,
-        "order": 13,
+        "order": 14,
         "props": {
           "type": "o"
         },
@@ -302,7 +353,7 @@
     "pv": [
       {
         "id": 36,
-        "order": 14,
+        "order": 15,
         "props": {
           "type": "pv"
         },
@@ -321,7 +372,7 @@
       },
       {
         "id": 60,
-        "order": 15,
+        "order": 16,
         "props": {
           "type": "pv"
         },
@@ -340,7 +391,7 @@
       },
       {
         "id": 62,
-        "order": 16,
+        "order": 17,
         "props": {
           "type": "pv"
         },
@@ -359,7 +410,7 @@
       },
       {
         "id": 64,
-        "order": 17,
+        "order": 18,
         "props": {
           "type": "pv"
         },
@@ -378,7 +429,7 @@
       },
       {
         "id": 66,
-        "order": 18,
+        "order": 19,
         "props": {
           "type": "pv"
         },
@@ -399,7 +450,7 @@
     "zfp": [
       {
         "id": 38,
-        "order": 19,
+        "order": 20,
         "props": {
           "type": "zfp"
         },
@@ -458,7 +509,7 @@
     "z": [
       {
         "id": 26,
-        "order": 20,
+        "order": 21,
         "props": {
           "type": "z"
         },
@@ -473,7 +524,7 @@
     "td": [
       {
         "id": 40,
-        "order": 21,
+        "order": 22,
         "props": {
           "type": "td"
         },
@@ -503,8 +554,29 @@
     ],
     "vd": [
       {
+        "id": 69,
+        "order": 24,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089520809@9",
+              "id": "Z00.0"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 24,
-        "order": 22,
+        "order": 28,
         "props": {
           "type": "vd"
         },
@@ -512,9 +584,9 @@
           "id": {
             "value": "[Z00.8] Iné všeobecné vyšetrenie",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z00.8",
               "idEzid": "02089520874@9",
-              "id": "Z00.8"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -527,7 +599,7 @@
     "vv": [
       {
         "id": 7,
-        "order": 24,
+        "order": 25,
         "props": {
           "type": "vv"
         },
@@ -536,9 +608,9 @@
             "value": "[60] Komplexné vyšetrenie pacienta (kompletná anamnéza, vyšetrenie všetkých orgánových systémov, založenie zdravotnej dokumentácie, diagnostický záver, liečebný plán a (alebo) zaradenie do dispenzárnej starostlivosti, odoslanie pacienta na ďalšie laborató",
             "props": {
               "propBody": 350,
-              "id": 60,
+              "idClassid": "vykon",
               "idEzid": "00000466730@8",
-              "idClassid": "vykon"
+              "id": 60
             }
           },
           "count": {
@@ -549,7 +621,7 @@
       },
       {
         "id": 57,
-        "order": 27,
+        "order": 29,
         "props": {
           "type": "vv"
         },
@@ -558,9 +630,9 @@
             "value": "[60B] Komplexné predoperačné vyšetrenie vrátane odberov krvi, zhodnotenie laboratórnych a prístrojových vyšetrení.",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
+              "id": "60B",
               "idEzid": "02089719450@8",
-              "id": "60B"
+              "idClassid": "vykon"
             }
           },
           "count": {

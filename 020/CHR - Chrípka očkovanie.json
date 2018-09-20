@@ -5,10 +5,40 @@
   "if": "",
   "data": {
     "_": {},
+    "s": [
+      {
+        "id": 9,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bez ťažkostí, prechlad. sa necíti<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 11,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "KP komp., TT 36,6°C, Intramuskulárne podanie inj. Bez komplikácií po podaní.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
     "oc": [
       {
         "id": 2,
-        "order": 0,
+        "order": 2,
         "props": {
           "type": "oc"
         },
@@ -16,15 +46,15 @@
           "id": {
             "value": "[CHR] Chrípka",
             "props": {
-              "idClassid": "ockovanie",
+              "id": "CHR",
               "idEzid": "00000776815",
-              "id": "CHR"
+              "idClassid": "ockovanie"
             }
           },
           "datum": {
-            "value": "27.05.2018",
+            "value": "20.09.2018",
             "props": {
-              "propValue": "2018-05-27T21:06:38.321Z",
+              "propValue": "2018-09-20T04:10:59.800Z",
               "expr": "=dnes"
             }
           },
@@ -38,7 +68,7 @@
     "ol": [
       {
         "id": 3,
-        "order": 1,
+        "order": 3,
         "props": {
           "type": "ol"
         },
@@ -46,23 +76,23 @@
           "id": {
             "value": "[56079] Influvac | sus inj 1x0,5 ml (striek.skl. s ihlou)",
             "props": {
-              "propOl": 1,
-              "propIo": "ind.obm.",
-              "propGp": 0,
-              "propSdl": 1,
-              "propDpl": 0,
-              "propUzp_1zvj": 5.72,
-              "propVnl": "R",
-              "propCena": 5.72,
-              "propSpUhr": "V",
               "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
-              "idClassid": "liek",
-              "idEzid": "00020584371",
-              "idF": "SUS INJ",
-              "idSp": "ims",
-              "idAtc": "J07BB02",
+              "propSpUhr": "V",
+              "propCena": 5.72,
+              "propVnl": "R",
+              "propUzp_1zvj": 5.72,
+              "propDpl": 0,
+              "propSdl": 1,
+              "propGp": 0,
+              "propIo": "ind.obm.",
+              "propOl": 1,
+              "id": 56079,
               "idUl": "",
-              "id": 56079
+              "idAtc": "J07BB02",
+              "idSp": "ims",
+              "idF": "SUS INJ",
+              "idEzid": "00020584371",
+              "idClassid": "liek"
             }
           },
           "sn": {
@@ -85,7 +115,7 @@
     "vd": [
       {
         "id": 5,
-        "order": 2,
+        "order": 4,
         "props": {
           "type": "vd"
         },
@@ -93,9 +123,9 @@
           "id": {
             "value": "[Z25.1] Potreba imunizácie výlučne proti chrípke",
             "props": {
-              "id": "Z25.1",
+              "idClassid": "diagnoza",
               "idEzid": "02089522300@9",
-              "idClassid": "diagnoza"
+              "id": "Z25.1"
             }
           },
           "text": {
@@ -108,7 +138,7 @@
     "vv": [
       {
         "id": 7,
-        "order": 3,
+        "order": 5,
         "props": {
           "type": "vv"
         },
@@ -117,9 +147,9 @@
             "value": "[252C] Očkovanie proti chrípke",
             "props": {
               "propBody": 70,
-              "id": "252C",
+              "idClassid": "vykon",
               "idEzid": "02089714667@7",
-              "idClassid": "vykon"
+              "id": "252C"
             }
           },
           "count": {
@@ -130,5 +160,7 @@
       }
     ]
   },
+  "tags": [],
+  "vars": {},
   "source": "curo-open/curo-vzory#/020"
 }

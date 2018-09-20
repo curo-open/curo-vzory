@@ -1,0 +1,166 @@
+{
+  "content": "<section data-x-id=\"10\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.:</label><div class=\"FieldHtml\" data-name=\"s\">bez ťažkostí, prechlad. sa necíti<br></div></section><section data-x-id=\"11\" data-type=\"o\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Obj.:</label><div class=\"FieldHtml _focus\" data-name=\"o\">KP komp., TT 36,6°C, Intramuskulárne podanie inj. Bez komplikácií po podaní.<br></div></section><section data-x-id=\"2\" data-type=\"oc\" class=\"\"><aside></aside><label class=\"section-label  \">Druh očkovania:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"ockovanie\" data-id-ezid=\"00000346411@2\" data-id=\"VHB\" title=\"[VHB] Vírusová hepatitída B\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[VHB] Vírusová hepatitída B</div>​<label data-for=\"datum\" class=\"\">Dátum</label><div class=\"FieldDate hasActions\" data-name=\"datum\" data-expr=\"=dnes\" data-prop-value=\"2018-09-20T04:15:00.490Z\">20.09.2018</div>​<label data-for=\"poznamka\" class=\" _noval\">Poznámka</label><div class=\"_noval Field\" data-name=\"poznamka\"></div></section><section data-x-id=\"4\" data-type=\"ol\" class=\"\"><aside></aside><label class=\"section-label  \">Očkovacia látka:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"liek\" data-id-ezid=\"00020560546\" data-id-f=\"SUS INJ\" data-id-sp=\"imu\" data-id-atc=\"J07BC01\" data-id-ul=\"\" data-id=\"25092\" data-prop-ol=\"1\" data-prop-io=\"ind.obm.\" data-prop-gp=\"0\" data-prop-sdl=\"1\" data-prop-dpl=\"0\" data-prop-uzp_1zvj=\"1\" data-prop-vnl=\"R\" data-prop-cena=\"12.77\" data-prop-sp-uhr=\"V\" data-prop-atc-name=\"Očkovacia látka proti hepatitíde B, purifikovaný antigén\" title=\"[25092] ENGERIX-B 20 µg | sus inj 1x1 ml (striek.inj.skl.napln.)\" style=\"width: 50ch;\">[25092] ENGERIX-B 20 µg | sus inj 1x1 ml (striek.inj.skl.napln.)</div>​<label data-for=\"sn\" class=\" _noval\">šarza</label><div class=\"_noval Field\" data-name=\"sn\"></div>​<label data-for=\"qty\" class=\"\">množstvo ZVJ</label><div class=\"FieldR\" data-name=\"qty\" data-prop-value=\"1.00\">1</div>​<label data-for=\"text\" class=\" _noval\">poznámka</label><div class=\"_noval Field\" data-name=\"text\"></div></section><section data-x-id=\"6\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089522276@9\" data-id=\"Z24.6\" title=\"[Z24.6] Potreba imunizácie proti vírusovej hepatitíde\" style=\"width: 50ch;\">[Z24.6] Potreba imunizácie proti vírusovej hepatitíde</div>​<label data-for=\"text\" class=\" _noval\">/</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"8\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000467878@7\" data-id=\"252b\" data-prop-body=\"70\" title=\"[252b] Očkovanie.\" style=\"width: 50ch;\">[252b] Očkovanie.</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
+  "title": "IPO - Pneumokokové očkovanie (Prevenar)",
+  "shortcut": "oc-IPO",
+  "if": "",
+  "data": {
+    "_": {},
+    "s": [
+      {
+        "id": 10,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bez ťažkostí, prechlad. sa necíti<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 11,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "KP komp., TT 36,6°C, Intramuskulárne podanie inj. Bez komplikácií po podaní.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oc": [
+      {
+        "id": 2,
+        "order": 2,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[IPO] Invazívne pneumokokové ochorenia",
+            "props": {
+              "id": "IPO",
+              "idEzid": "00000346452@2",
+              "idClassid": "ockovanie"
+            }
+          },
+          "datum": {
+            "value": "20.09.2018",
+            "props": {
+              "propValue": "2018-09-20T06:10:54.319Z",
+              "expr": "=dnes"
+            }
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ol": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "ol"
+        },
+        "value": {
+          "id": {
+            "value": "[85033] Prevenar 13 injekčná suspenzia | sus inj 1x0,5 ml (striek.inj.skl.napln.+ samost.ihla)",
+            "props": {
+              "propDpl": 12.72,
+              "propSpUhr": "V",
+              "propIo": "ind.obm.",
+              "propGp": 0,
+              "propUzp_1zvj": 41.49,
+              "propVnl": "R",
+              "propCena": 54.21,
+              "propSdl": 1,
+              "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén konjugovaný",
+              "propOl": 1,
+              "id": 85033,
+              "idUl": "",
+              "idAtc": "J07AL02",
+              "idSp": "imu",
+              "idF": "SUS INJ",
+              "idEzid": "00020008025",
+              "idClassid": "liek"
+            }
+          },
+          "sn": {
+            "value": "",
+            "props": {}
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 6,
+        "order": 4,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z22.8] Nosičstvo pôvodcu inej infekčnej choroby",
+            "props": {
+              "id": "Z22.8",
+              "idEzid": "02089522086@9",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 8,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[252b] Očkovanie.",
+            "props": {
+              "propBody": 70,
+              "idClassid": "vykon",
+              "idEzid": "00000467878@7",
+              "id": "252b"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020"
+}
