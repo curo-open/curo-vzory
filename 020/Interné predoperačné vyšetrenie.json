@@ -64,59 +64,98 @@
         }
       },
       {
-        "id": 89,
+        "id": 212,
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"ra\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 213,
+        "order": 6,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 218,
         "order": 7,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0}}<br>",
+            "value": "{{&lt;? sessions|getSections(\"oa\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 91,
+        "id": 214,
         "order": 9,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{ &lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 97,
-        "order": 11,
+        "id": 219,
+        "order": 10,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"sa\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 103,
+        "id": 215,
+        "order": 12,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 89,
         "order": 13,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? pohlavie == \"female\" }}<br>",
+            "value": "{{ ? sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0 &amp;&amp; sessions|getSections(\"la\")|where(\"i==0\")|trans(\"text\") != 0 }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 108,
+        "id": 91,
         "order": 15,
         "props": {
           "type": "t"
@@ -129,46 +168,85 @@
         }
       },
       {
-        "id": 125,
+        "id": 220,
+        "order": 16,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? !sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0 &amp;&amp; sessions|getSections(\"la\")|where(\"i==0\")|trans(\"text\") &gt; 0}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 222,
+        "order": 17,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"la\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 223,
+        "order": 18,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 225,
         "order": 19,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Status preasens'\")|where(\"i==0\")}}<br>",
+            "value": "{{ ? !sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0 &amp;&amp; !sessions|getSections(\"la\")|where(\"i==0\")|trans(\"text\") &gt; 0}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 129,
+        "id": 97,
         "order": 21,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ &lt;? }}<br>",
+            "value": "{{ ? }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 130,
+        "id": 221,
         "order": 22,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Zrak'\")|where(\"i==0\")}}<br>",
+            "value": "{{&lt;? sessions|getSections(\"aa\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 134,
+        "id": 216,
         "order": 24,
         "props": {
           "type": "t"
@@ -181,8 +259,112 @@
         }
       },
       {
-        "id": 136,
+        "id": 103,
         "order": 25,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pohlavie == \"female\"  &amp;&amp; sessions|getSections(\"ga\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 224,
+        "order": 26,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"ga\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 217,
+        "order": 27,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 108,
+        "order": 29,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 125,
+        "order": 33,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Status preasens'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 129,
+        "order": 35,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 130,
+        "order": 36,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Zrak'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 134,
+        "order": 38,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 136,
+        "order": 39,
         "props": {
           "type": "t"
         },
@@ -195,7 +377,7 @@
       },
       {
         "id": 139,
-        "order": 27,
+        "order": 41,
         "props": {
           "type": "t"
         },
@@ -208,7 +390,7 @@
       },
       {
         "id": 141,
-        "order": 28,
+        "order": 42,
         "props": {
           "type": "t"
         },
@@ -221,7 +403,7 @@
       },
       {
         "id": 144,
-        "order": 30,
+        "order": 44,
         "props": {
           "type": "t"
         },
@@ -234,7 +416,7 @@
       },
       {
         "id": 146,
-        "order": 31,
+        "order": 45,
         "props": {
           "type": "t"
         },
@@ -247,7 +429,7 @@
       },
       {
         "id": 149,
-        "order": 33,
+        "order": 47,
         "props": {
           "type": "t"
         },
@@ -260,7 +442,7 @@
       },
       {
         "id": 151,
-        "order": 34,
+        "order": 48,
         "props": {
           "type": "t"
         },
@@ -273,7 +455,7 @@
       },
       {
         "id": 154,
-        "order": 36,
+        "order": 50,
         "props": {
           "type": "t"
         },
@@ -286,7 +468,7 @@
       },
       {
         "id": 156,
-        "order": 37,
+        "order": 51,
         "props": {
           "type": "t"
         },
@@ -299,7 +481,7 @@
       },
       {
         "id": 159,
-        "order": 39,
+        "order": 53,
         "props": {
           "type": "t"
         },
@@ -312,7 +494,7 @@
       },
       {
         "id": 161,
-        "order": 40,
+        "order": 54,
         "props": {
           "type": "t"
         },
@@ -325,7 +507,7 @@
       },
       {
         "id": 164,
-        "order": 42,
+        "order": 56,
         "props": {
           "type": "t"
         },
@@ -338,7 +520,7 @@
       },
       {
         "id": 166,
-        "order": 43,
+        "order": 57,
         "props": {
           "type": "t"
         },
@@ -351,7 +533,7 @@
       },
       {
         "id": 169,
-        "order": 45,
+        "order": 59,
         "props": {
           "type": "t"
         },
@@ -364,7 +546,7 @@
       },
       {
         "id": 171,
-        "order": 46,
+        "order": 60,
         "props": {
           "type": "t"
         },
@@ -377,7 +559,7 @@
       },
       {
         "id": 174,
-        "order": 48,
+        "order": 62,
         "props": {
           "type": "t"
         },
@@ -390,7 +572,7 @@
       },
       {
         "id": 176,
-        "order": 49,
+        "order": 63,
         "props": {
           "type": "t"
         },
@@ -403,7 +585,7 @@
       },
       {
         "id": 179,
-        "order": 51,
+        "order": 65,
         "props": {
           "type": "t"
         },
@@ -416,7 +598,7 @@
       },
       {
         "id": 181,
-        "order": 52,
+        "order": 66,
         "props": {
           "type": "t"
         },
@@ -429,7 +611,7 @@
       },
       {
         "id": 184,
-        "order": 54,
+        "order": 68,
         "props": {
           "type": "t"
         },
@@ -442,7 +624,7 @@
       },
       {
         "id": 211,
-        "order": 55,
+        "order": 69,
         "props": {
           "type": "t"
         },
@@ -455,7 +637,7 @@
       },
       {
         "id": 185,
-        "order": 56,
+        "order": 70,
         "props": {
           "type": "t"
         },
@@ -468,7 +650,7 @@
       },
       {
         "id": 187,
-        "order": 58,
+        "order": 72,
         "props": {
           "type": "t"
         },
@@ -481,7 +663,7 @@
       },
       {
         "id": 196,
-        "order": 60,
+        "order": 74,
         "props": {
           "type": "t"
         },
@@ -494,7 +676,7 @@
       },
       {
         "id": 197,
-        "order": 62,
+        "order": 76,
         "props": {
           "type": "t"
         },
@@ -507,7 +689,7 @@
       },
       {
         "id": 198,
-        "order": 63,
+        "order": 77,
         "props": {
           "type": "t"
         },
@@ -520,7 +702,7 @@
       },
       {
         "id": 200,
-        "order": 65,
+        "order": 79,
         "props": {
           "type": "t"
         },
@@ -533,7 +715,7 @@
       },
       {
         "id": 189,
-        "order": 67,
+        "order": 81,
         "props": {
           "type": "t"
         },
@@ -563,7 +745,7 @@
     "ra": [
       {
         "id": 77,
-        "order": 4,
+        "order": 5,
         "props": {
           "type": "ra"
         },
@@ -578,7 +760,7 @@
     "oa": [
       {
         "id": 82,
-        "order": 5,
+        "order": 8,
         "props": {
           "type": "oa"
         },
@@ -593,7 +775,7 @@
     "sa": [
       {
         "id": 87,
-        "order": 6,
+        "order": 11,
         "props": {
           "type": "sa"
         },
@@ -608,7 +790,7 @@
     "la": [
       {
         "id": 90,
-        "order": 8,
+        "order": 14,
         "props": {
           "type": "la"
         },
@@ -621,13 +803,13 @@
       },
       {
         "id": 96,
-        "order": 10,
+        "order": 20,
         "props": {
           "type": "la"
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "def<br>",
             "props": {}
           }
         }
@@ -636,7 +818,7 @@
     "aa": [
       {
         "id": 101,
-        "order": 12,
+        "order": 23,
         "props": {
           "type": "aa"
         },
@@ -651,7 +833,7 @@
     "ga": [
       {
         "id": 107,
-        "order": 14,
+        "order": 28,
         "props": {
           "type": "ga"
         },
@@ -666,7 +848,7 @@
     "ab": [
       {
         "id": 116,
-        "order": 16,
+        "order": 30,
         "props": {
           "type": "ab"
         },
@@ -697,7 +879,7 @@
     "zfp": [
       {
         "id": 121,
-        "order": 17,
+        "order": 31,
         "props": {
           "type": "zfp"
         },
@@ -756,7 +938,7 @@
     "o": [
       {
         "id": 124,
-        "order": 18,
+        "order": 32,
         "props": {
           "type": "o"
         },
@@ -771,7 +953,7 @@
     "pv": [
       {
         "id": 128,
-        "order": 20,
+        "order": 34,
         "props": {
           "type": "pv"
         },
@@ -790,7 +972,7 @@
       },
       {
         "id": 133,
-        "order": 23,
+        "order": 37,
         "props": {
           "type": "pv"
         },
@@ -809,7 +991,7 @@
       },
       {
         "id": 138,
-        "order": 26,
+        "order": 40,
         "props": {
           "type": "pv"
         },
@@ -828,7 +1010,7 @@
       },
       {
         "id": 143,
-        "order": 29,
+        "order": 43,
         "props": {
           "type": "pv"
         },
@@ -847,7 +1029,7 @@
       },
       {
         "id": 148,
-        "order": 32,
+        "order": 46,
         "props": {
           "type": "pv"
         },
@@ -866,7 +1048,7 @@
       },
       {
         "id": 153,
-        "order": 35,
+        "order": 49,
         "props": {
           "type": "pv"
         },
@@ -885,7 +1067,7 @@
       },
       {
         "id": 158,
-        "order": 38,
+        "order": 52,
         "props": {
           "type": "pv"
         },
@@ -904,7 +1086,7 @@
       },
       {
         "id": 163,
-        "order": 41,
+        "order": 55,
         "props": {
           "type": "pv"
         },
@@ -923,7 +1105,7 @@
       },
       {
         "id": 168,
-        "order": 44,
+        "order": 58,
         "props": {
           "type": "pv"
         },
@@ -942,7 +1124,7 @@
       },
       {
         "id": 173,
-        "order": 47,
+        "order": 61,
         "props": {
           "type": "pv"
         },
@@ -961,7 +1143,7 @@
       },
       {
         "id": 178,
-        "order": 50,
+        "order": 64,
         "props": {
           "type": "pv"
         },
@@ -982,7 +1164,7 @@
     "ekg": [
       {
         "id": 195,
-        "order": 53,
+        "order": 67,
         "props": {
           "type": "ekg"
         },
@@ -1041,7 +1223,7 @@
     "vd": [
       {
         "id": 186,
-        "order": 57,
+        "order": 71,
         "props": {
           "type": "vd"
         },
@@ -1060,7 +1242,7 @@
     "vv": [
       {
         "id": 190,
-        "order": 59,
+        "order": 73,
         "props": {
           "type": "vv"
         },
@@ -1069,9 +1251,9 @@
             "value": "[60B] Komplexné predoperačné vyšetrenie vrátane odberov krvi, zhodnotenie laboratórnych a prístrojových vyšetrení.",
             "props": {
               "propBody": 500,
-              "idClassid": "vykon",
+              "id": "60B",
               "idEzid": "02089719450",
-              "id": "60B"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1082,7 +1264,7 @@
       },
       {
         "id": 191,
-        "order": 61,
+        "order": 75,
         "props": {
           "type": "vv"
         },
@@ -1091,9 +1273,9 @@
             "value": "[5702ZV] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie ako súčasť predoperačného vyšetrenia. Nutná kombinácia s výkonom 60b.",
             "props": {
               "propBody": 0,
-              "id": "5702ZV",
+              "idClassid": "vykon",
               "idEzid": "curo-5702ZV@7",
-              "idClassid": "vykon"
+              "id": "5702ZV"
             }
           },
           "count": {
@@ -1104,7 +1286,7 @@
       },
       {
         "id": 202,
-        "order": 64,
+        "order": 78,
         "props": {
           "type": "vv"
         },
@@ -1113,9 +1295,9 @@
             "value": "[5702z] EKG",
             "props": {
               "propBody": 550,
-              "id": "5702z",
+              "idClassid": "vykon",
               "idEzid": "_",
-              "idClassid": "vykon"
+              "id": "5702z"
             }
           },
           "count": {
@@ -1128,7 +1310,7 @@
     "z": [
       {
         "id": 193,
-        "order": 66,
+        "order": 80,
         "props": {
           "type": "z"
         },
