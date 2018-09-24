@@ -47,10 +47,38 @@
         }
       }
     ],
+    "t": [
+      {
+        "id": 7,
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp==25 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 8,
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
     "vd": [
       {
         "id": 4,
-        "order": 1,
+        "order": 2,
         "props": {
           "type": "vd"
         },
@@ -58,9 +86,9 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z00.0",
               "idEzid": "02089520809@9",
-              "id": "Z00.0"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -73,7 +101,7 @@
     "vv": [
       {
         "id": 6,
-        "order": 2,
+        "order": 3,
         "props": {
           "type": "vv"
         },
@@ -81,11 +109,11 @@
           "id": {
             "value": "[5716] Počítačové vyhodnotenie dlhodobého monitorovania tlaku krvi a zhodnotenie nálezu lekárom. Výkon môže vykazovať kardiológ a internista.",
             "props": {
-              "propBody": 240,
               "propType": "SVaLZ",
-              "id": 5716,
+              "propBody": 240,
+              "idClassid": "vykon",
               "idEzid": "00000494310@9",
-              "idClassid": "vykon"
+              "id": 5716
             }
           },
           "count": {
