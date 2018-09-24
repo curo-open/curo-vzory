@@ -214,7 +214,7 @@
       },
       {
         "id": 50,
-        "order": 23,
+        "order": 24,
         "props": {
           "type": "t"
         },
@@ -227,7 +227,7 @@
       },
       {
         "id": 54,
-        "order": 26,
+        "order": 28,
         "props": {
           "type": "t"
         },
@@ -240,7 +240,7 @@
       },
       {
         "id": 56,
-        "order": 27,
+        "order": 29,
         "props": {
           "type": "t"
         },
@@ -253,7 +253,7 @@
       },
       {
         "id": 58,
-        "order": 30,
+        "order": 32,
         "props": {
           "type": "t"
         },
@@ -266,7 +266,7 @@
       },
       {
         "id": 30,
-        "order": 31,
+        "order": 33,
         "props": {
           "type": "t"
         },
@@ -447,10 +447,41 @@
         }
       }
     ],
+    "ab": [
+      {
+        "id": 71,
+        "order": 20,
+        "props": {
+          "type": "ab"
+        },
+        "value": {
+          "alkohol": {
+            "value": "",
+            "props": {}
+          },
+          "kava": {
+            "value": "",
+            "props": {}
+          },
+          "fajciar": {
+            "value": "",
+            "props": {}
+          },
+          "cigariet": {
+            "value": "",
+            "props": {}
+          },
+          "drogy": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "zfp": [
       {
         "id": 38,
-        "order": 20,
+        "order": 21,
         "props": {
           "type": "zfp"
         },
@@ -509,7 +540,7 @@
     "z": [
       {
         "id": 26,
-        "order": 21,
+        "order": 22,
         "props": {
           "type": "z"
         },
@@ -524,7 +555,7 @@
     "td": [
       {
         "id": 40,
-        "order": 22,
+        "order": 23,
         "props": {
           "type": "td"
         },
@@ -555,7 +586,7 @@
     "vd": [
       {
         "id": 69,
-        "order": 24,
+        "order": 25,
         "props": {
           "type": "vd"
         },
@@ -576,7 +607,7 @@
       },
       {
         "id": 24,
-        "order": 28,
+        "order": 30,
         "props": {
           "type": "vd"
         },
@@ -599,7 +630,7 @@
     "vv": [
       {
         "id": 7,
-        "order": 25,
+        "order": 26,
         "props": {
           "type": "vv"
         },
@@ -620,19 +651,41 @@
         }
       },
       {
-        "id": 57,
-        "order": 29,
+        "id": 73,
+        "order": 27,
         "props": {
           "type": "vv"
         },
         "value": {
           "id": {
-            "value": "[60B] Komplexné predoperačné vyšetrenie vrátane odberov krvi, zhodnotenie laboratórnych a prístrojových vyšetrení.",
+            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
-              "propBody": 0,
-              "id": "60B",
-              "idEzid": "02089719450@8",
+              "propBody": 180,
+              "id": 10,
+              "idEzid": "00000466565@9",
               "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 57,
+        "order": 31,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
+            "props": {
+              "propBody": 180,
+              "idClassid": "vykon",
+              "idEzid": "00000466565@9",
+              "id": 10
             }
           },
           "count": {
