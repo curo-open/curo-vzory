@@ -431,7 +431,7 @@
       },
       {
         "id": 104,
-        "order": 48,
+        "order": 47,
         "props": {
           "type": "t"
         },
@@ -444,7 +444,7 @@
       },
       {
         "id": 105,
-        "order": 49,
+        "order": 48,
         "props": {
           "type": "t"
         },
@@ -457,7 +457,7 @@
       },
       {
         "id": 107,
-        "order": 51,
+        "order": 50,
         "props": {
           "type": "t"
         },
@@ -470,7 +470,7 @@
       },
       {
         "id": 113,
-        "order": 52,
+        "order": 51,
         "props": {
           "type": "t"
         },
@@ -483,7 +483,7 @@
       },
       {
         "id": 115,
-        "order": 56,
+        "order": 55,
         "props": {
           "type": "t"
         },
@@ -788,9 +788,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "I10.00",
               "idEzid": "02089398180@9",
-              "id": "I10.00"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -823,9 +823,9 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z00.0",
               "idEzid": "02089520809@9",
-              "id": "Z00.0"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -836,7 +836,7 @@
       },
       {
         "id": 116,
-        "order": 53,
+        "order": 52,
         "props": {
           "type": "vd"
         },
@@ -844,9 +844,9 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "id": "Z00.0",
+              "idClassid": "diagnoza",
               "idEzid": "02089520809@9",
-              "idClassid": "diagnoza"
+              "id": "Z00.0"
             }
           },
           "text": {
@@ -868,31 +868,9 @@
             "value": "[H0004] Kontrolné vyšetrenie u poistenca s arteriálnou hypertenziou jeden krát za 6 mesiacov",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
+              "id": "H0004",
               "idEzid": "02089725754@9",
-              "id": "H0004"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 98,
-        "order": 46,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
-            "props": {
-              "propBody": 180,
-              "idClassid": "vykon",
-              "idEzid": "00000466565@8",
-              "id": 10
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -903,75 +881,7 @@
       },
       {
         "id": 100,
-        "order": 47,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
-            "props": {
-              "propType": "SVaLZ",
-              "propBody": 550,
-              "idClassid": "vykon",
-              "idEzid": "00000494187@8",
-              "id": 5702
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 112,
-        "order": 50,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.",
-            "props": {
-              "propBody": 750,
-              "propType": "SVaLZ",
-              "id": 5715,
-              "idEzid": "00000494302@9",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 118,
-        "order": 54,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
-            "props": {
-              "propBody": 180,
-              "id": 10,
-              "idEzid": "00000466565@9",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 120,
-        "order": 55,
+        "order": 46,
         "props": {
           "type": "vv"
         },
@@ -982,8 +892,76 @@
               "propBody": 550,
               "propType": "SVaLZ",
               "id": 5702,
-              "idEzid": "00000494187@9",
+              "idEzid": "00000494187@8",
               "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 112,
+        "order": 49,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.",
+            "props": {
+              "propType": "SVaLZ",
+              "propBody": 750,
+              "idClassid": "vykon",
+              "idEzid": "00000494302@9",
+              "id": 5715
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 118,
+        "order": 53,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
+            "props": {
+              "propBody": 180,
+              "idClassid": "vykon",
+              "idEzid": "00000466565@9",
+              "id": 10
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 120,
+        "order": 54,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
+            "props": {
+              "propType": "SVaLZ",
+              "propBody": 550,
+              "idClassid": "vykon",
+              "idEzid": "00000494187@9",
+              "id": 5702
             }
           },
           "count": {
@@ -996,7 +974,7 @@
     "p": [
       {
         "id": 96,
-        "order": 57,
+        "order": 56,
         "props": {
           "type": "p"
         },
@@ -1006,9 +984,9 @@
             "props": {}
           },
           "at": {
-            "value": "24.02.2019 18:24",
+            "value": "24.02.2019 18:26",
             "props": {
-              "propValue": "2019-02-24T17:24:41.625Z",
+              "propValue": "2019-02-24T17:26:51.197Z",
               "expr": "=+5m"
             }
           },
