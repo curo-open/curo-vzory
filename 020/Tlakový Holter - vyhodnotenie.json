@@ -1,0 +1,104 @@
+{
+  "title": "Tlakový Holter - vyhodnotenie",
+  "shortcut": "holter",
+  "if": "",
+  "data": {
+    "_": {},
+    "holter": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "holter"
+        },
+        "value": {
+          "c_sys": {
+            "value": "",
+            "props": {}
+          },
+          "c_dia": {
+            "value": "",
+            "props": {}
+          },
+          "d_sys": {
+            "value": "",
+            "props": {}
+          },
+          "d_dia": {
+            "value": "",
+            "props": {}
+          },
+          "n_sys": {
+            "value": "",
+            "props": {}
+          },
+          "n_dia": {
+            "value": "",
+            "props": {}
+          },
+          "r_sys": {
+            "value": "",
+            "props": {}
+          },
+          "r_dia": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089520809@9",
+              "id": "Z00.0"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5716] Počítačové vyhodnotenie dlhodobého monitorovania tlaku krvi a zhodnotenie nálezu lekárom. Výkon môže vykazovať kardiológ a internista.",
+            "props": {
+              "propBody": 240,
+              "propType": "SVaLZ",
+              "id": 5716,
+              "idEzid": "00000494310@9",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "sumar-hyper"
+  ],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020"
+}
