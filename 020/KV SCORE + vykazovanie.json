@@ -38,11 +38,11 @@
         },
         "value": {
           "id": {
-            "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
+            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
               "idClassid": "diagnoza",
-              "idEzid": "02089521690@9",
-              "id": "Z12.1"
+              "idEzid": "02089520809@9",
+              "id": "Z00.0"
             }
           },
           "text": {
@@ -52,10 +52,38 @@
         }
       }
     ],
+    "t": [
+      {
+        "id": 9,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp==25 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 10,
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
     "vv": [
       {
         "id": 8,
-        "order": 2,
+        "order": 3,
         "props": {
           "type": "vv"
         },
@@ -64,9 +92,9 @@
             "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
+              "id": "H0006",
               "idEzid": "02089725770@8",
-              "id": "H0006"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -79,7 +107,7 @@
     "h-score": [
       {
         "id": 2,
-        "order": 3,
+        "order": 5,
         "props": {
           "type": "h-score"
         },
