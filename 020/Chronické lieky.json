@@ -43,12 +43,12 @@
         },
         "value": {
           "id": {
-            "value": "[4] \"Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani",
+            "value": "[1] Pod radou sa rozumie poskytnutie informácií pacientovi alebo zákonnému zástupcovi v súvislosti so zdravotným stavom. Výkon pod kódom 1 nemožno vykazovať súčasne s inými výkonmi. Výkon nemožno vykazovať pre telefonické objednávanie pacienta.",
             "props": {
-              "propBody": 200,
-              "id": 4,
-              "idEzid": "00000466524",
-              "idClassid": "vykon"
+              "propBody": 80,
+              "idClassid": "vykon",
+              "idEzid": "00000466508@9",
+              "id": 1
             }
           },
           "count": {
@@ -61,5 +61,7 @@
   },
   "summary": "Chronické lieky",
   "type": "examination",
+  "tags": [],
+  "vars": {},
   "source": "curo-open/curo-vzory#/020"
 }

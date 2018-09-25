@@ -631,33 +631,33 @@
         },
         "value": {
           "t": {
-            "value": "<b>RF:<br></b>muž, vek M nad 55r, Ž nad 65r, fajčenie, DLP/c chol nad 4,9, LDL nad 3,0, HDL pod 1,0, TG nad 1,7/, glyk. 5,6-6,9/ pozit. OGTT, obezita nad 30BMI, obvod pása Mnad 102, Ž nad 88, RA pozit. na KVO M pod 55r, Ž pod 65r./  toto by som dala do riadku a by som si mazala u každého pacienta, čo nevyhovuje<br>Asymptom. poškodenie orgánov: pulzný TK nad 60mmHg, HĽK, zhrubnutie/plak v a. carotis, ABI menej ako 0,9, GF 30-60ml/min/1,73m2, MAU   toto by som dala do riadku a by som si mazala u každého pacienta, čo nevyhovuje<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 2,
-        "order": 70,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "DG: A. hypertenzia    (1-3. stupeň) ESH/ESC s (nízkym/stredným/vysokým/veľmi vysokým) KVS rizikom <br>Doplní: TK holter, ECHOKG, USG karotíd, USG abdomenu, vyš. OP<br>",
+            "value": "<b>RF:<br></b>muž, vek M nad 55r, Ž nad 65r, fajčenie, DLP/c chol nad 4,9, LDL nad 3,0, HDL pod 1,0, TG nad 1,7/, glyk. 5,6-6,9/ pozit. OGTT, obezita nad 30BMI, obvod pása Mnad 102, Ž nad 88, RA pozit. na KVO M pod 55r, Ž pod 65r./<br>Asymptom. poškodenie orgánov: pulzný TK nad 60mmHg, HĽK, zhrubnutie/plak v a. carotis, ABI menej ako 0,9, GF 30-60ml/min/1,73m2, MAU   <br>",
             "props": {}
           }
         }
       },
       {
         "id": 103,
-        "order": 72,
+        "order": 71,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
             "value": "{{ ? zp==25 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 188,
+        "order": 76,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Zvazit vykazanie H0006</b>, moze byt vykazany raz za 1 rok v kombinacii s 160, H0003, H0004<br>",
             "props": {}
           }
         }
@@ -1215,7 +1215,7 @@
         },
         "value": {
           "odp": {
-            "value": "<br>",
+            "value": "DG: A. hypertenzia    (1-3. stupeň) ESH/ESC s (nízkym/stredným/vysokým/veľmi vysokým) KVS rizikom <br>Doplní: TK holter, ECHOKG, USG karotíd, USG abdomenu, vyš. OP<br>",
             "props": {}
           }
         }
@@ -1224,7 +1224,7 @@
     "td": [
       {
         "id": 89,
-        "order": 71,
+        "order": 70,
         "props": {
           "type": "td"
         },
@@ -1232,9 +1232,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "id": "I10.00",
+              "idClassid": "diagnoza",
               "idEzid": "02089398180@9",
-              "idClassid": "diagnoza"
+              "id": "I10.00"
             }
           },
           "text": {
@@ -1259,17 +1259,17 @@
     "vd": [
       {
         "id": 90,
-        "order": 73,
+        "order": 72,
         "props": {
           "type": "vd"
         },
         "value": {
           "id": {
-            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
+            "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "id": "Z00.0",
-              "idEzid": "02089520809@9",
-              "idClassid": "diagnoza"
+              "idClassid": "diagnoza",
+              "idEzid": "02089398180@9",
+              "id": "I10.00"
             }
           },
           "text": {
@@ -1286,11 +1286,11 @@
         },
         "value": {
           "id": {
-            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
+            "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
               "idClassid": "diagnoza",
-              "idEzid": "02089520809@9",
-              "id": "Z00.0"
+              "idEzid": "02089398180@9",
+              "id": "I10.00"
             }
           },
           "text": {
@@ -1303,7 +1303,7 @@
     "vv": [
       {
         "id": 92,
-        "order": 74,
+        "order": 73,
         "props": {
           "type": "vv"
         },
@@ -1312,9 +1312,9 @@
             "value": "[H0003] Iniciálne vyšetrenie u poistenca s arteriálnou hypertenziou alebo ošetrenie akútneho hypertenzného stavu",
             "props": {
               "propBody": 0,
-              "id": "H0003",
+              "idClassid": "vykon",
               "idEzid": "02089725747@8",
-              "idClassid": "vykon"
+              "id": "H0003"
             }
           },
           "count": {
@@ -1325,7 +1325,7 @@
       },
       {
         "id": 98,
-        "order": 75,
+        "order": 74,
         "props": {
           "type": "vv"
         },
@@ -1334,9 +1334,9 @@
             "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
               "propBody": 180,
-              "id": 10,
+              "idClassid": "vykon",
               "idEzid": "00000466565@8",
-              "idClassid": "vykon"
+              "id": 10
             }
           },
           "count": {
@@ -1347,7 +1347,7 @@
       },
       {
         "id": 100,
-        "order": 76,
+        "order": 75,
         "props": {
           "type": "vv"
         },
@@ -1355,11 +1355,11 @@
           "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propBody": 550,
               "propType": "SVaLZ",
-              "id": 5702,
+              "propBody": 550,
+              "idClassid": "vykon",
               "idEzid": "00000494187@8",
-              "idClassid": "vykon"
+              "id": 5702
             }
           },
           "count": {
@@ -1378,11 +1378,11 @@
           "id": {
             "value": "[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 750,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5715,
               "idEzid": "00000494302@9",
-              "id": 5715
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1402,9 +1402,9 @@
             "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
               "propBody": 180,
-              "idClassid": "vykon",
+              "id": 10,
               "idEzid": "00000466565@9",
-              "id": 10
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1423,11 +1423,11 @@
           "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 550,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5702,
               "idEzid": "00000494187@9",
-              "id": 5702
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1450,9 +1450,9 @@
             "props": {}
           },
           "at": {
-            "value": "25.02.2019 16:43",
+            "value": "25.02.2019 21:56",
             "props": {
-              "propValue": "2019-02-25T15:43:00.672Z",
+              "propValue": "2019-02-25T20:56:57.659Z",
               "expr": "=+5m"
             }
           },
@@ -1474,6 +1474,7 @@
     "sumar-hyper"
   ],
   "vars": {},
-  "summary": "",
+  "summary": "Hypertenzia - Vstupné vyšetrenie",
+  "type": "examination",
   "source": "curo-open/curo-vzory#/020"
 }
