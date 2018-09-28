@@ -652,7 +652,46 @@
       },
       {
         "id": 104,
+        "order": 75,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 260,
         "order": 76,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? sessions|getSections(\"vv\")|where(\"d.period&lt;365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") &gt; 0 &amp;&amp; zp==25}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 261,
+        "order": 77,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>H0006 môže byť vykazane, poslednykrát vykázane pred viac ako rokom</b>, musí byť vykázané v kombinacii s 160, H0003, H0004<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 262,
+        "order": 78,
         "props": {
           "type": "t"
         },
@@ -665,20 +704,20 @@
       },
       {
         "id": 105,
-        "order": 77,
+        "order": 79,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? zp==25 &amp;&amp; var.holter==\"ON\"}}<br>",
+            "value": "{{ ? zp==25 &amp;&amp; var.holter==\"ON\" &amp;&amp; sessions|getSections(\"vv\")|where(\"d.period&lt;365\")|where(\"s.value.id.props.id=='5175'\")|trans(\"length\") &gt; 0}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 107,
-        "order": 79,
+        "order": 81,
         "props": {
           "type": "t"
         },
@@ -691,7 +730,7 @@
       },
       {
         "id": 113,
-        "order": 80,
+        "order": 82,
         "props": {
           "type": "t"
         },
@@ -704,7 +743,7 @@
       },
       {
         "id": 115,
-        "order": 84,
+        "order": 86,
         "props": {
           "type": "t"
         },
@@ -1220,9 +1259,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "id": "I10.00",
+              "idClassid": "diagnoza",
               "idEzid": "02089398180@9",
-              "idClassid": "diagnoza"
+              "id": "I10.00"
             }
           },
           "text": {
@@ -1255,9 +1294,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "I10.00",
               "idEzid": "02089398180@9",
-              "id": "I10.00"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1268,7 +1307,7 @@
       },
       {
         "id": 116,
-        "order": 81,
+        "order": 83,
         "props": {
           "type": "vd"
         },
@@ -1276,9 +1315,9 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z00.0",
               "idEzid": "02089520809@9",
-              "id": "Z00.0"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1300,9 +1339,9 @@
             "value": "[H0004] Kontrolné vyšetrenie u poistenca s arteriálnou hypertenziou jeden krát za 6 mesiacov",
             "props": {
               "propBody": 0,
-              "id": "H0004",
+              "idClassid": "vykon",
               "idEzid": "02089725754@9",
-              "idClassid": "vykon"
+              "id": "H0004"
             }
           },
           "count": {
@@ -1321,34 +1360,11 @@
           "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
+              "propType": "SVaLZ",
               "propBody": 550,
-              "propType": "SVaLZ",
-              "id": 5702,
-              "idEzid": "00000494187@8",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 258,
-        "order": 75,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.",
-            "props": {
-              "propType": "SVaLZ",
-              "propBody": 750,
               "idClassid": "vykon",
-              "idEzid": "00000494302@9",
-              "id": 5715
+              "idEzid": "00000494187@8",
+              "id": 5702
             }
           },
           "count": {
@@ -1359,7 +1375,7 @@
       },
       {
         "id": 112,
-        "order": 78,
+        "order": 80,
         "props": {
           "type": "vv"
         },
@@ -1367,11 +1383,11 @@
           "id": {
             "value": "[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 750,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5715,
               "idEzid": "00000494302@9",
-              "id": 5715
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1382,7 +1398,7 @@
       },
       {
         "id": 118,
-        "order": 82,
+        "order": 84,
         "props": {
           "type": "vv"
         },
@@ -1391,9 +1407,9 @@
             "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
               "propBody": 180,
-              "idClassid": "vykon",
+              "id": 10,
               "idEzid": "00000466565@9",
-              "id": 10
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1404,7 +1420,7 @@
       },
       {
         "id": 120,
-        "order": 83,
+        "order": 85,
         "props": {
           "type": "vv"
         },
@@ -1412,11 +1428,11 @@
           "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 550,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5702,
               "idEzid": "00000494187@9",
-              "id": 5702
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1429,7 +1445,7 @@
     "p": [
       {
         "id": 96,
-        "order": 85,
+        "order": 87,
         "props": {
           "type": "p"
         },
@@ -1439,9 +1455,9 @@
             "props": {}
           },
           "at": {
-            "value": "25.02.2019 22:10",
+            "value": "28.02.2019 10:55",
             "props": {
-              "propValue": "2019-02-25T21:10:11.291Z",
+              "propValue": "2019-02-28T09:55:03.023Z",
               "expr": "=+5m"
             }
           },
