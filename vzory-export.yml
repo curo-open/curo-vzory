@@ -2,8 +2,6 @@
 curo-open/curo-vzory:
   path: /home/daniel/Dev/xt/curo/curo-vzory/tmp
   export:
-    'CHR - Chrípka očkovanie':
-      folders: ['020']
     'Základný dekurz':
       folders: ['020']
     'Podaná infúzia':
@@ -70,10 +68,14 @@ curo-open/curo-vzory:
       folders: ['020']
     'TAT - Tetanus očkovanie':
       folders: ['020']
-    'VHB - Hepatitida očkovanie':
+    'CHR - Chrípka očkovanie':
+      folders: ['020']      
+    'VHB - Hepatitída očkovanie':
       folders: ['020']
     'IPO - Pneumokokové očkovanie (Prevenar)':
-      folders: ['020']  
+      folders: ['020']
+    'KEF - Kliešťová encefalitída očkovanie':
+      folders: ['020']      
     'Spôsobilosť vodiča':
       folders: ['020']      
     'Vstupné vyšetrenie - Kapitácia':

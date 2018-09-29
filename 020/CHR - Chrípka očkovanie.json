@@ -52,9 +52,9 @@
             }
           },
           "datum": {
-            "value": "25.09.2018",
+            "value": "29.09.2018",
             "props": {
-              "propValue": "2018-09-25T20:33:34.832Z",
+              "propValue": "2018-09-29T06:19:15.742Z",
               "expr": "=dnes"
             }
           },
@@ -245,9 +245,12 @@
       }
     ]
   },
-  "tags": [],
+  "tags": [
+    "sumar-chr"
+  ],
   "vars": {},
   "summary": "CHR - Chrípka očkovanie",
   "type": "examination",
+  "description": "Očkovanie proti vírusu chrípky(chrípka)",
   "source": "curo-open/curo-vzory#/020"
 }

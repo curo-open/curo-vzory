@@ -1,5 +1,5 @@
 {
-  "title": "VHB - Hepatitida očkovanie",
+  "title": "VHB - Hepatitída očkovanie",
   "shortcut": "oc-vhb",
   "if": "",
   "data": {
@@ -45,15 +45,15 @@
           "id": {
             "value": "[VHB] Vírusová hepatitída B",
             "props": {
-              "id": "VHB",
+              "idClassid": "ockovanie",
               "idEzid": "00000346411@2",
-              "idClassid": "ockovanie"
+              "id": "VHB"
             }
           },
           "datum": {
-            "value": "20.09.2018",
+            "value": "29.09.2018",
             "props": {
-              "propValue": "2018-09-20T04:15:00.490Z",
+              "propValue": "2018-09-29T06:26:16.207Z",
               "expr": "=dnes"
             }
           },
@@ -75,23 +75,23 @@
           "id": {
             "value": "[25092] ENGERIX-B 20 µg | sus inj 1x1 ml (striek.inj.skl.napln.)",
             "props": {
-              "propAtcName": "Očkovacia látka proti hepatitíde B, purifikovaný antigén",
-              "propSpUhr": "V",
-              "propCena": 12.77,
-              "propVnl": "R",
-              "propUzp_1zvj": 1,
-              "propDpl": 0,
-              "propSdl": 1,
-              "propGp": 0,
-              "propIo": "ind.obm.",
               "propOl": 1,
-              "id": 25092,
-              "idUl": "",
-              "idAtc": "J07BC01",
-              "idSp": "imu",
-              "idF": "SUS INJ",
+              "propIo": "ind.obm.",
+              "propGp": 0,
+              "propSdl": 1,
+              "propDpl": 0,
+              "propUzp_1zvj": 1,
+              "propVnl": "R",
+              "propCena": 12.77,
+              "propSpUhr": "V",
+              "propAtcName": "Očkovacia látka proti hepatitíde B, purifikovaný antigén",
+              "idClassid": "liek",
               "idEzid": "00020560546",
-              "idClassid": "liek"
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07BC01",
+              "idUl": "",
+              "id": 25092
             }
           },
           "sn": {
@@ -122,9 +122,9 @@
           "id": {
             "value": "[Z24.6] Potreba imunizácie proti vírusovej hepatitíde",
             "props": {
-              "id": "Z24.6",
+              "idClassid": "diagnoza",
               "idEzid": "02089522276@9",
-              "idClassid": "diagnoza"
+              "id": "Z24.6"
             }
           },
           "text": {
@@ -146,9 +146,9 @@
             "value": "[252b] Očkovanie.",
             "props": {
               "propBody": 70,
-              "id": "252b",
+              "idClassid": "vykon",
               "idEzid": "00000467878@7",
-              "idClassid": "vykon"
+              "id": "252b"
             }
           },
           "count": {
@@ -159,7 +159,12 @@
       }
     ]
   },
-  "tags": [],
+  "tags": [
+    "sumar-vhb"
+  ],
   "vars": {},
+  "description": "Očkovanie proti Vírusovovej hepatitíde typu B (Vírusová hepatitída B)",
+  "summary": "VHB - Hepatitida očkovanie",
+  "type": "examination",
   "source": "curo-open/curo-vzory#/020"
 }

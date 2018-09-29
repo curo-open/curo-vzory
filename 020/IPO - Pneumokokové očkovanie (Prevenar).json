@@ -52,9 +52,9 @@
             }
           },
           "datum": {
-            "value": "20.09.2018",
+            "value": "29.09.2018",
             "props": {
-              "propValue": "2018-09-20T06:10:54.319Z",
+              "propValue": "2018-09-29T06:15:14.608Z",
               "expr": "=dnes"
             }
           },
@@ -160,7 +160,12 @@
       }
     ]
   },
-  "tags": [],
+  "tags": [
+    "sumar-ipo"
+  ],
   "vars": {},
+  "summary": "IPO - Pneumokokové očkovanie (Prevenar)",
+  "description": "Očkovanie proti invazívnemu pneumokokovému ochoreniu",
+  "type": "examination",
   "source": "curo-open/curo-vzory#/020"
 }
