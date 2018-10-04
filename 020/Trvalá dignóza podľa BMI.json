@@ -1,0 +1,229 @@
+{
+  "content": "<section data-x-id=\"4\" data-type=\"premenna\" class=\"\"><aside></aside><label class=\"section-label  \">Premenná:</label>​<label data-for=\"name\" class=\"\">meno</label><div class=\"Field\" data-name=\"name\">skore</div>​<label data-for=\"type\" class=\"\">typ</label><div class=\"FieldList hasActions\" data-name=\"type\" data-prop-value=\"text\">text</div>​<label data-for=\"value\" class=\"\">hodnota</label><div class=\"Field\" data-name=\"value\">0</div>​<label data-for=\"valueLong\" class=\" _noval\">hodnota</label><div class=\"_noval FieldHtml\" data-name=\"valueLong\"></div></section><section data-x-id=\"2\" data-type=\"h-score\" class=\"\"><aside></aside><label class=\"section-label  \">KV SCORE:</label>​<label data-for=\"score\" class=\"\">SCORE</label><div class=\"FieldN\" data-name=\"score\" data-expr=\"={{var.skore}}\">0</div>​<label data-for=\"x\" class=\"\">koeficient</label><div class=\"FieldR\" data-name=\"x\" data-prop-value=\"1.0\">1</div>​<label data-for=\"risk\" class=\"\">výsledné riziko</label><div class=\"FieldN locked\" data-name=\"risk\">0</div>​<label data-for=\"poznamka\" class=\" _noval\">pozn.</label><div class=\"_noval Field\" data-name=\"poznamka\"></div></section>",
+  "title": "Trvalá dignóza podľa BMI",
+  "shortcut": "bmi",
+  "if": "",
+  "data": {
+    "_": {},
+    "premenna": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "bmi",
+            "props": {}
+          },
+          "type": {
+            "value": "číslo",
+            "props": {
+              "propValue": "number"
+            }
+          },
+          "value": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? var.bmi &gt;= 30 &amp;&amp; var.bmi &lt; 35 }} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 7,
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? var.bmi &gt;= 35 &amp;&amp; var.bmi &lt; 40 }} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 13,
+        "order": 6,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 15,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? var.bmi &gt;= 40 }} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 17,
+        "order": 9,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "td": [
+      {
+        "id": 10,
+        "order": 2,
+        "props": {
+          "type": "td"
+        },
+        "value": {
+          "id": {
+            "value": "[E66.00] Obezita zapríčinená nadmerným energetickým príjmom, BMI: od 30 do menej ako 35",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089381251@9",
+              "id": "E66.00"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          },
+          "from": {
+            "value": "04.10.2018",
+            "props": {
+              "propValue": "2018-10-04T11:25:27.354Z",
+              "expr": "=dnes"
+            }
+          },
+          "to": {
+            "value": "",
+            "props": {}
+          },
+          "dispenzarizacia": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 12,
+        "order": 5,
+        "props": {
+          "type": "td"
+        },
+        "value": {
+          "id": {
+            "value": "[E66.01] Obezita zapríčinená nadmerným energetickým príjmom, BMI: od 35 do menej ako 40",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089381269@9",
+              "id": "E66.01"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          },
+          "from": {
+            "value": "04.10.2018",
+            "props": {
+              "propValue": "2018-10-04T11:25:35.603Z",
+              "expr": "=dnes"
+            }
+          },
+          "to": {
+            "value": "",
+            "props": {}
+          },
+          "dispenzarizacia": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 16,
+        "order": 8,
+        "props": {
+          "type": "td"
+        },
+        "value": {
+          "id": {
+            "value": "[E66.02] Obezita zapríčinená nadmerným energetickým príjmom, BMI: od 40 a viac",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089381277@9",
+              "id": "E66.02"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          },
+          "from": {
+            "value": "04.10.2018",
+            "props": {
+              "propValue": "2018-10-04T11:25:39.375Z",
+              "expr": "=dnes"
+            }
+          },
+          "to": {
+            "value": "",
+            "props": {}
+          },
+          "dispenzarizacia": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "sumar-zfp"
+  ],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020"
+}
