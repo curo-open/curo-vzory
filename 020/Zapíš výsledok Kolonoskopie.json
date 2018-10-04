@@ -1,0 +1,63 @@
+{
+  "title": "Zapíš výsledok Kolonoskopie",
+  "shortcut": "fob-kolono",
+  "if": "",
+  "data": {
+    "_": {},
+    "pv": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Kolonoskopia",
+            "props": {
+              "propValue": "KOLONO"
+            }
+          },
+          "popis": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "p": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "p"
+        },
+        "value": {
+          "text": {
+            "value": "KOLONO kontrola <br><br>",
+            "props": {}
+          },
+          "at": {
+            "value": "",
+            "props": {}
+          },
+          "priority": {
+            "value": "bežne",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "done": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "sumar-fob"
+  ],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020"
+}
