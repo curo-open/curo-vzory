@@ -2,6 +2,8 @@
 curo-open/curo-vzory:
   path: /home/daniel/Dev/xt/curo/curo-vzory/tmp
   export:
+    'Ukážka/príklad možnosti vzoru':
+      folders: ['000','020','008','001','010','048']
     'Základný dekurz':
       folders: ['020']
     'Podaná infúzia':
