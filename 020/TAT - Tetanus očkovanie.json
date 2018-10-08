@@ -76,9 +76,10 @@
             }
           },
           "datum": {
-            "value": "18.05.2018",
+            "value": "08.10.2018",
             "props": {
-              "propValue": "2018-05-17T22:00:00.000Z"
+              "propValue": "2018-10-08T08:11:33.500Z",
+              "expr": "=dnes"
             }
           },
           "poznamka": {
@@ -311,6 +312,10 @@
             "value": "1",
             "props": {}
           },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
           "force": {
             "value": "nie",
             "props": {
@@ -390,6 +395,10 @@
           },
           "repeatCount": {
             "value": "1",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
             "props": {}
           },
           "force": {
