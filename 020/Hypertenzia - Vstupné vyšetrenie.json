@@ -624,8 +624,21 @@
         }
       },
       {
-        "id": 187,
+        "id": 192,
         "order": 68,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"b-lv\")|where(\"i==0\")|trans('text')}} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 187,
+        "order": 69,
         "props": {
           "type": "t"
         },
@@ -638,7 +651,7 @@
       },
       {
         "id": 103,
-        "order": 71,
+        "order": 72,
         "props": {
           "type": "t"
         },
@@ -651,7 +664,7 @@
       },
       {
         "id": 104,
-        "order": 76,
+        "order": 77,
         "props": {
           "type": "t"
         },
@@ -664,7 +677,7 @@
       },
       {
         "id": 189,
-        "order": 77,
+        "order": 78,
         "props": {
           "type": "t"
         },
@@ -677,7 +690,7 @@
       },
       {
         "id": 190,
-        "order": 78,
+        "order": 79,
         "props": {
           "type": "t"
         },
@@ -690,7 +703,7 @@
       },
       {
         "id": 191,
-        "order": 79,
+        "order": 80,
         "props": {
           "type": "t"
         },
@@ -703,7 +716,7 @@
       },
       {
         "id": 105,
-        "order": 80,
+        "order": 81,
         "props": {
           "type": "t"
         },
@@ -716,7 +729,7 @@
       },
       {
         "id": 107,
-        "order": 82,
+        "order": 83,
         "props": {
           "type": "t"
         },
@@ -729,7 +742,7 @@
       },
       {
         "id": 113,
-        "order": 83,
+        "order": 84,
         "props": {
           "type": "t"
         },
@@ -742,7 +755,7 @@
       },
       {
         "id": 115,
-        "order": 87,
+        "order": 88,
         "props": {
           "type": "t"
         },
@@ -874,10 +887,6 @@
             "props": {}
           },
           "fajciar": {
-            "value": "",
-            "props": {}
-          },
-          "cigariet": {
             "value": "",
             "props": {}
           },
@@ -1235,13 +1244,13 @@
     "odp": [
       {
         "id": 94,
-        "order": 69,
+        "order": 70,
         "props": {
           "type": "odp"
         },
         "value": {
           "odp": {
-            "value": "DG: A. hypertenzia    (1-3. stupeň) ESH/ESC s (nízkym/stredným/vysokým/veľmi vysokým) KVS rizikom <br>Doplní: TK holter, ECHOKG, USG karotíd, USG abdomenu, vyš. OP<br>",
+            "value": "Úprava ŽŠ, redukcia hmotnosti, menej soliť, nízkocholesterolová dieta, kontroly TK<br>DG: A. hypertenzia 1-3. stupeň ESH/ESC s nízkym/stredným/vysokým/veľmi vysokým KVS rizikom <br>Doplní: TK holter, ECHOKG, USG karotíd, USG abdomenu, vyš. OP<br>",
             "props": {}
           }
         }
@@ -1250,7 +1259,7 @@
     "td": [
       {
         "id": 89,
-        "order": 70,
+        "order": 71,
         "props": {
           "type": "td"
         },
@@ -1285,7 +1294,7 @@
     "vd": [
       {
         "id": 90,
-        "order": 72,
+        "order": 73,
         "props": {
           "type": "vd"
         },
@@ -1306,7 +1315,7 @@
       },
       {
         "id": 116,
-        "order": 84,
+        "order": 85,
         "props": {
           "type": "vd"
         },
@@ -1329,7 +1338,7 @@
     "vv": [
       {
         "id": 92,
-        "order": 73,
+        "order": 74,
         "props": {
           "type": "vv"
         },
@@ -1351,7 +1360,7 @@
       },
       {
         "id": 98,
-        "order": 74,
+        "order": 75,
         "props": {
           "type": "vv"
         },
@@ -1373,7 +1382,7 @@
       },
       {
         "id": 100,
-        "order": 75,
+        "order": 76,
         "props": {
           "type": "vv"
         },
@@ -1396,7 +1405,7 @@
       },
       {
         "id": 112,
-        "order": 81,
+        "order": 82,
         "props": {
           "type": "vv"
         },
@@ -1419,7 +1428,7 @@
       },
       {
         "id": 118,
-        "order": 85,
+        "order": 86,
         "props": {
           "type": "vv"
         },
@@ -1441,7 +1450,7 @@
       },
       {
         "id": 120,
-        "order": 86,
+        "order": 87,
         "props": {
           "type": "vv"
         },
@@ -1466,7 +1475,7 @@
     "p": [
       {
         "id": 96,
-        "order": 88,
+        "order": 89,
         "props": {
           "type": "p"
         },
@@ -1476,9 +1485,9 @@
             "props": {}
           },
           "at": {
-            "value": "28.02.2019 10:55",
+            "value": "08.03.2019 20:54",
             "props": {
-              "propValue": "2019-02-28T09:55:13.350Z",
+              "propValue": "2019-03-08T19:54:28.739Z",
               "expr": "=+5m"
             }
           },
