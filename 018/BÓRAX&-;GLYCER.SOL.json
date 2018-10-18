@@ -1,0 +1,53 @@
+{
+  "title": "BÓRAX&-;GLYCER.SOL",
+  "shortcut": "M00075",
+  "summary": "",
+  "if": "",
+  "data": {
+    "_": {},
+    "r-ml": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "r-ml"
+        },
+        "value": {
+          "title": {
+            "value": "M00075",
+            "props": {}
+          },
+          "schedule": {
+            "value": "dľa rady, D.S.",
+            "props": {
+              "propType": "RAD",
+              "propText": "D.S."
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "Natrii tetraborici 2,0 <br>Glycerini 4,0 <br>aqua destil. ad 100,0",
+            "props": {}
+          },
+          "priprava": {
+            "value": "",
+            "props": {}
+          },
+          "aplikacia": {
+            "value": "D.S. ",
+            "props": {}
+          },          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/018"
+}

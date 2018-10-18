@@ -1,0 +1,53 @@
+{
+  "title": "SOL. JARISH",
+  "shortcut": "M00066",
+  "summary": "",
+  "if": "",
+  "data": {
+    "_": {},
+    "r-ml": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "r-ml"
+        },
+        "value": {
+          "title": {
+            "value": "M00066",
+            "props": {}
+          },
+          "schedule": {
+            "value": "dľa rady, D.S.",
+            "props": {
+              "propType": "RAD",
+              "propText": "D.S."
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "Acidi borici 2,0 <br>Glyceroli 4,0 <br>Aq. destil. ad 100,0 <br>M.f.s.",
+            "props": {}
+          },
+          "priprava": {
+            "value": "",
+            "props": {}
+          },
+          "aplikacia": {
+            "value": "D.S. ",
+            "props": {}
+          },          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/018"
+}

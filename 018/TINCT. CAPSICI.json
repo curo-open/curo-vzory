@@ -1,0 +1,53 @@
+{
+  "title": "TINCT. CAPSICI",
+  "shortcut": "M00077",
+  "summary": "",
+  "if": "",
+  "data": {
+    "_": {},
+    "r-ml": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "r-ml"
+        },
+        "value": {
+          "title": {
+            "value": "M00077",
+            "props": {}
+          },
+          "schedule": {
+            "value": "dľa rady, D.S.",
+            "props": {
+              "propType": "RAD",
+              "propText": "D.S."
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "Ac. salicylici 2,0 <br>Tinct. capsici 10,0 <br>Mentholi 1,0 <br>Spiriti vini dilut. ad 100,0",
+            "props": {}
+          },
+          "priprava": {
+            "value": "",
+            "props": {}
+          },
+          "aplikacia": {
+            "value": "D.S. ",
+            "props": {}
+          },          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/018"
+}

@@ -1,0 +1,53 @@
+{
+  "title": "KORTIKOID+LENIENS",
+  "shortcut": "M00085",
+  "summary": "",
+  "if": "",
+  "data": {
+    "_": {},
+    "r-ml": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "r-ml"
+        },
+        "value": {
+          "title": {
+            "value": "M00085",
+            "props": {}
+          },
+          "schedule": {
+            "value": "dľa rady, D.S.",
+            "props": {
+              "propType": "RAD",
+              "propText": "D.S."
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "Beloderm ung <br>Exp. orig N I (unam) <br>Lenientis ad 150,0 <br>S:1xd",
+            "props": {}
+          },
+          "priprava": {
+            "value": "",
+            "props": {}
+          },
+          "aplikacia": {
+            "value": "D.S. ",
+            "props": {}
+          },          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/018"
+}
