@@ -1,0 +1,53 @@
+{
+  "title": "ANGULI INFECTIOSI",
+  "shortcut": "M00078",
+  "summary": "",
+  "if": "",
+  "data": {
+    "_": {},
+    "r-ml": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "r-ml"
+        },
+        "value": {
+          "title": {
+            "value": "M00078",
+            "props": {}
+          },
+          "schedule": {
+            "value": "dľa rady, D.S.",
+            "props": {
+              "propType": "RAD",
+              "propText": "D.S."
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "ac. tannici 1,0 <br>endiaroni 0,5 <br>spiriti vini dilut. ad 100,0",
+            "props": {}
+          },
+          "priprava": {
+            "value": "",
+            "props": {}
+          },
+          "aplikacia": {
+            "value": "D.S. ",
+            "props": {}
+          },          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/018"
+}
