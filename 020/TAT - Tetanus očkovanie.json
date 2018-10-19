@@ -53,7 +53,7 @@
             }
           },
           "value": {
-            "value": "OFF",
+            "value": "ON",
             "props": {}
           }
         }
@@ -70,15 +70,15 @@
           "id": {
             "value": "[T] Tetanus",
             "props": {
-              "id": "T",
+              "idClassid": "ockovanie",
               "idEzid": "00000115923@2",
-              "idClassid": "ockovanie"
+              "id": "T"
             }
           },
           "datum": {
-            "value": "08.10.2018",
+            "value": "19.10.2018",
             "props": {
-              "propValue": "2018-10-08T08:11:33.500Z",
+              "propValue": "2018-10-19T09:31:55.899Z",
               "expr": "=dnes"
             }
           },
@@ -98,11 +98,11 @@
         },
         "value": {
           "id": {
-            "value": "[Z27.1] Potreba imunizácie proti záškrtu – tetanu – čiernemu kašľu [DPT]",
+            "value": "[Z27.8] Potreba imunizácie proti inej kombinácii infekčných chorôb",
             "props": {
-              "id": "Z27.1",
-              "idEzid": "02089522383@9",
-              "idClassid": "diagnoza"
+              "idClassid": "diagnoza",
+              "idEzid": "02089522425@10",
+              "id": "Z27.8"
             }
           },
           "text": {
@@ -164,23 +164,23 @@
           "id": {
             "value": "[3161C] VACDITE | sus inj 1x0,5 ml (amp.skl.)",
             "props": {
-              "propOl": 1,
-              "propAtcName": "Tetanový toxoid, kombinácie s diftériovým toxoidom",
-              "propSdl": 1,
-              "propCena": 9.96,
-              "propVnl": "R",
-              "propUzp_1zvj": 1,
-              "propGp": 0,
-              "propIo": "ind.obm.",
-              "propSpUhr": "V",
               "propDpl": 0,
-              "idClassid": "liek",
-              "idEzid": "00021240643",
-              "idF": "SUS INJ",
-              "idSp": "ims",
-              "idAtc": "J07AM51",
+              "propSpUhr": "V",
+              "propIo": "ind.obm.",
+              "propGp": 0,
+              "propUzp_1zvj": 1,
+              "propVnl": "R",
+              "propCena": 9.96,
+              "propSdl": 1,
+              "propAtcName": "Tetanový toxoid, kombinácie s diftériovým toxoidom",
+              "propOl": 1,
+              "id": "3161C",
               "idUl": "",
-              "id": "3161C"
+              "idAtc": "J07AM51",
+              "idSp": "ims",
+              "idF": "SUS INJ",
+              "idEzid": "00021240643",
+              "idClassid": "liek"
             }
           },
           "sn": {
@@ -207,20 +207,20 @@
           "id": {
             "value": "[33919] IMOVAX D.T. ADULT | sus inj 1x0,5 ml (striek.inj.skl.napln.)",
             "props": {
-              "propAtcName": "Tetanový toxoid, kombinácie s diftériovým toxoidom",
-              "propSpUhr": "V",
-              "propCena": 6.02,
-              "propVnl": "R",
-              "propSdl": 1,
-              "propGp": 0,
               "propOl": 1,
-              "id": 33919,
-              "idUl": "",
-              "idAtc": "J07AM51",
-              "idSp": "imu",
-              "idF": "SUS INJ",
+              "propGp": 0,
+              "propSdl": 1,
+              "propVnl": "R",
+              "propCena": 6.02,
+              "propSpUhr": "V",
+              "propAtcName": "Tetanový toxoid, kombinácie s diftériovým toxoidom",
+              "idClassid": "liek",
               "idEzid": "00020745493",
-              "idClassid": "liek"
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07AM51",
+              "idUl": "",
+              "id": 33919
             }
           },
           "sn": {
@@ -251,37 +251,37 @@
           "id": {
             "value": "[3161C] VACDITE | sus inj 1x0,5 ml (amp.skl.)",
             "props": {
-              "propOl": 1,
-              "propAtcName": "Tetanový toxoid, kombinácie s diftériovým toxoidom",
-              "propSdl": 1,
-              "propCena": 9.96,
-              "propVnl": "R",
-              "propUzp_1zvj": 1,
-              "propGp": 0,
-              "propIo": "ind.obm.",
-              "propSpUhr": "V",
               "propDpl": 0,
-              "idClassid": "liek",
-              "idEzid": "00021240643",
-              "idF": "SUS INJ",
-              "idSp": "ims",
-              "idAtc": "J07AM51",
+              "propSpUhr": "V",
+              "propIo": "ind.obm.",
+              "propGp": 0,
+              "propUzp_1zvj": 1,
+              "propVnl": "R",
+              "propCena": 9.96,
+              "propSdl": 1,
+              "propAtcName": "Tetanový toxoid, kombinácie s diftériovým toxoidom",
+              "propOl": 1,
+              "id": "3161C",
               "idUl": "",
-              "id": "3161C"
+              "idAtc": "J07AM51",
+              "idSp": "ims",
+              "idF": "SUS INJ",
+              "idEzid": "00021240643",
+              "idClassid": "liek"
             }
           },
           "schedule": {
             "value": "Ad Manus Medici, SUS",
             "props": {
-              "propType": "AMM",
-              "propIntervaldavkovania": "!denne",
-              "propWay_id": "",
-              "propPeriod_id": "D",
-              "propPeriod_t": "denne",
-              "propText": "",
-              "propForm_id": "SUS",
+              "propUnit_id": "",
               "propForm_t": "suspenzia",
-              "propUnit_id": ""
+              "propForm_id": "SUS",
+              "propText": "",
+              "propPeriod_t": "denne",
+              "propPeriod_id": "D",
+              "propWay_id": "",
+              "propIntervaldavkovania": "!denne",
+              "propType": "AMM"
             }
           },
           "qty": {
@@ -338,35 +338,35 @@
           "id": {
             "value": "[33919] IMOVAX D.T. ADULT | sus inj 1x0,5 ml (striek.inj.skl.napln.)",
             "props": {
-              "propOl": 1,
-              "propAtcName": "Tetanový toxoid, kombinácie s diftériovým toxoidom",
-              "propSdl": 1,
-              "propCena": 6.02,
-              "propVnl": "R",
-              "propGp": 0,
               "propSpUhr": "V",
-              "idClassid": "liek",
-              "idEzid": "00020745493",
-              "idF": "SUS INJ",
-              "idSp": "imu",
-              "idAtc": "J07AM51",
+              "propGp": 0,
+              "propVnl": "R",
+              "propCena": 6.02,
+              "propSdl": 1,
+              "propAtcName": "Tetanový toxoid, kombinácie s diftériovým toxoidom",
+              "propOl": 1,
+              "id": 33919,
               "idUl": "",
-              "id": 33919
+              "idAtc": "J07AM51",
+              "idSp": "imu",
+              "idF": "SUS INJ",
+              "idEzid": "00020745493",
+              "idClassid": "liek"
             }
           },
           "schedule": {
             "value": "Ad Manus Medici, SUS",
             "props": {
-              "propType": "AMM",
-              "propIntervaldavkovania": "!denne",
-              "propWay_id": "IM",
-              "propWay_t": "intramuskulárne (i.m.)",
-              "propPeriod_id": "D",
-              "propPeriod_t": "denne",
-              "propText": "",
-              "propForm_id": "SUS",
+              "propUnit_id": "",
               "propForm_t": "suspenzia",
-              "propUnit_id": ""
+              "propForm_id": "SUS",
+              "propText": "",
+              "propPeriod_t": "denne",
+              "propPeriod_id": "D",
+              "propWay_t": "intramuskulárne (i.m.)",
+              "propWay_id": "IM",
+              "propIntervaldavkovania": "!denne",
+              "propType": "AMM"
             }
           },
           "qty": {
@@ -426,9 +426,9 @@
             "value": "[252b] Očkovanie.",
             "props": {
               "propBody": 70,
-              "id": "252b",
+              "idClassid": "vykon",
               "idEzid": "00000467878@7",
-              "idClassid": "vykon"
+              "id": "252b"
             }
           },
           "count": {
