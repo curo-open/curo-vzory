@@ -52,8 +52,8 @@
         }
       },
       {
-        "id": 992,
-        "order": 137,
+        "id": 1137,
+        "order": 107,
         "props": {
           "type": "premenna"
         },
@@ -63,13 +63,43 @@
             "props": {}
           },
           "type": {
-            "value": "číslo",
+            "value": "výpočet SCORE",
             "props": {
-              "propValue": "number"
+              "propValue": "fn-score"
             }
+          }
+        }
+      }
+    ],
+    "t-nadpis": [
+      {
+        "id": 1077,
+        "order": 2,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "Preventívna prehliadka<br>",
+            "props": {}
           },
-          "value": {
-            "value": "0",
+          "podnadpis": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 889,
+        "order": 3,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "<br>",
             "props": {}
           }
         }
@@ -77,177 +107,112 @@
     ],
     "t": [
       {
-        "id": 1073,
-        "order": 2,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "<b>Preventívna prehliadka</b><br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1061,
-        "order": 3,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? sessions|getSections(\"ra\")|trans('length') &gt; 0}} <br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1062,
+        "id": 1104,
         "order": 4,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"ra\")|where(\"i==0\")}}<br>",
+            "value": "{{&lt;? sessions|getSections(\"ra\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 1063,
-        "order": 5,
+        "id": 1106,
+        "order": 6,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{ &lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 1065,
+        "id": 1107,
         "order": 7,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"oa\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 859,
-        "order": 8,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? sessions|getSections(\"oa\")|trans('length') &gt; 0}} <br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 860,
+        "id": 1109,
         "order": 9,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"oa\")|where(\"i==0\")}}<br>",
+            "value": "{{ &lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 861,
+        "id": 1110,
         "order": 10,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"sa\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 863,
+        "id": 1112,
         "order": 12,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
+            "value": "{{ &lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 864,
+        "id": 1113,
         "order": 13,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? sessions|getSections(\"sa\")|trans('length') &gt; 0}} <br>",
+            "value": "{{&lt;? sessions|getSections(\"la\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 865,
-        "order": 14,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")}} <br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 866,
+        "id": 1115,
         "order": 15,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{ &lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 868,
-        "order": 17,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 869,
-        "order": 18,
+        "id": 1116,
+        "order": 16,
         "props": {
           "type": "t"
         },
@@ -259,151 +224,73 @@
         }
       },
       {
-        "id": 871,
-        "order": 20,
+        "id": 1117,
+        "order": 17,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 872,
+        "id": 1119,
+        "order": 18,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1120,
+        "order": 19,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"aa\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1122,
         "order": 21,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? sessions|getSections(\"la\")|trans('length') &gt; 0 &amp;&amp; !sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0}} <br>",
+            "value": "{{ &lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 873,
+        "id": 1123,
         "order": 22,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"la\")|where(\"i==0\")}} <br>",
+            "value": "{{ ? pohlavie == \"female\" &amp;&amp; sessions|getSections(\"ga\")|trans(\"length\") &gt; 0}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 874,
+        "id": 1124,
         "order": 23,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 875,
-        "order": 24,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? !sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0 &amp;&amp; !sessions|getSections(\"la\")|where(\"i==0\")|trans('length') &gt; 0 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 877,
-        "order": 26,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 878,
-        "order": 27,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? sessions|getSections(\"aa\")|where(\"i==0\")|trans('length') &gt; 0}} <br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 879,
-        "order": 28,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{&lt; sessions|getSections(\"aa\")|where(\"i==0\")}} <br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 880,
-        "order": 29,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 882,
-        "order": 31,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 883,
-        "order": 32,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? pohlavie == \"female\" &amp;&amp; sessions|getSections(\"ga\")|trans('length') &gt; 0}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 884,
-        "order": 33,
         "props": {
           "type": "t"
         },
@@ -415,8 +302,8 @@
         }
       },
       {
-        "id": 885,
-        "order": 34,
+        "id": 1125,
+        "order": 24,
         "props": {
           "type": "t"
         },
@@ -428,21 +315,21 @@
         }
       },
       {
-        "id": 886,
-        "order": 35,
+        "id": 1126,
+        "order": 25,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? pohlavie == \"female\" &amp;&amp; !sessions|getSections(\"ga\")|where(\"i==0\")|trans('length') &gt; 0 }}<br>",
+            "value": "{{ ? pohlavie == \"female\" &amp;&amp; !sessions|getSections(\"ga\")|trans(\"length\") &gt; 0}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 888,
-        "order": 37,
+        "id": 1128,
+        "order": 27,
         "props": {
           "type": "t"
         },
@@ -454,892 +341,450 @@
         }
       },
       {
-        "id": 890,
-        "order": 39,
+        "id": 1132,
+        "order": 31,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? sessions|getSections(\"zfp\")|trans('length') &gt; 0}}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Status preasens'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 891,
-        "order": 40,
+        "id": 1134,
+        "order": 33,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"zfp\")|where(\"i==0\")}} <br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 892,
-        "order": 41,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 894,
-        "order": 43,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{?}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1066,
-        "order": 45,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Status preasens'\")|trans('length') &gt; 0}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 897,
-        "order": 46,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Status preasens'\")|where(\"i==0\") }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1068,
-        "order": 47,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 904,
-        "order": 49,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 905,
-        "order": 50,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Vitálne funkcie'\")|trans('length') &gt; 0}}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 906,
-        "order": 51,
+        "order": 34,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Vitálne funkcie'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 907,
-        "order": 52,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Vitálne funkcie'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 909,
-        "order": 54,
+        "order": 36,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 910,
-        "order": 55,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Zrak'\")|trans('length') &gt; 0}}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 911,
-        "order": 56,
+        "order": 37,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Zrak'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 912,
-        "order": 57,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Zrak'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 914,
-        "order": 59,
+        "order": 39,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 915,
-        "order": 60,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Sluch'\")|trans('length') &gt; 0}}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 916,
-        "order": 61,
+        "order": 40,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Sluch'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 917,
-        "order": 62,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Sluch'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 919,
-        "order": 64,
+        "order": 42,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 920,
-        "order": 65,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hlava'\")|trans('length') &gt; 0}}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 921,
-        "order": 66,
+        "order": 43,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hlava'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 922,
-        "order": 67,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hlava'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 924,
-        "order": 69,
+        "order": 45,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 925,
-        "order": 70,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hrdlo'\")|trans('length') &gt; 0}}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 926,
-        "order": 71,
+        "order": 46,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hrdlo'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 927,
-        "order": 72,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hrdlo'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 929,
-        "order": 74,
+        "order": 48,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 930,
-        "order": 75,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Krk'\")|trans('length') &gt; 0}}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 931,
-        "order": 76,
+        "order": 49,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Krk'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 932,
-        "order": 77,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Krk'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 934,
-        "order": 79,
+        "order": 51,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 935,
-        "order": 80,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hrudník'\")|trans('length') &gt; 0}}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 936,
-        "order": 81,
+        "order": 52,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hrudník'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 937,
-        "order": 82,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hrudník'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 939,
-        "order": 84,
+        "order": 54,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 940,
-        "order": 85,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Pľúca'\")|trans('length') &gt; 0}}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 941,
-        "order": 86,
+        "order": 55,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Pľúca'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 942,
-        "order": 87,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Pľúca'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 944,
-        "order": 89,
+        "order": 57,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 945,
-        "order": 90,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Srdce'\")|trans('length') &gt; 0}}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 946,
-        "order": 91,
+        "order": 58,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Srdce'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 947,
-        "order": 92,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Srdce'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 949,
-        "order": 94,
+        "order": 60,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 950,
-        "order": 95,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Brucho'\")|trans('length') &gt; 0}}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 951,
-        "order": 96,
+        "order": 61,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Brucho'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 952,
-        "order": 97,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Brucho'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 954,
-        "order": 99,
+        "order": 63,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 955,
-        "order": 100,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Chrbtica'\")|trans('length') &gt; 0}}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 956,
-        "order": 101,
+        "order": 64,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Chrbtica'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 957,
-        "order": 102,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Chrbtica'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 959,
-        "order": 104,
+        "order": 66,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 960,
-        "order": 105,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Dolné končatiny'\")|trans('length') &gt; 0}}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 961,
-        "order": 106,
+        "order": 67,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Dolné končatiny'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 962,
-        "order": 107,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Dolné končatiny'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 964,
-        "order": 109,
+        "order": 69,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 965,
-        "order": 110,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Lokomočný aparát'\")|trans('length') &gt; 0}}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 966,
-        "order": 111,
+        "order": 70,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Lokomočný aparát'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 967,
-        "order": 112,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Lokomočný aparát'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 969,
-        "order": 114,
+        "order": 72,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 970,
-        "order": 115,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='RTG'\")|trans('length') &gt; 0}}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 971,
-        "order": 116,
+        "order": 73,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='RTG'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 972,
-        "order": 117,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='RTG'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 974,
-        "order": 119,
+        "order": 75,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 975,
-        "order": 120,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='USG'\")|trans('length') &gt; 0}}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 976,
-        "order": 121,
+        "order": 76,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='USG'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 977,
-        "order": 122,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='USG'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 979,
-        "order": 124,
+        "order": 78,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
+            "value": "{{&lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 982,
+        "order": 79,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"ekg\")|where(\"i==0\")}} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 985,
+        "order": 81,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 980,
-        "order": 125,
+        "order": 82,
         "props": {
           "type": "t"
         },
@@ -1351,60 +796,21 @@
         }
       },
       {
-        "id": 981,
-        "order": 126,
+        "id": 1129,
+        "order": 83,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? sessions|getSections(\"ekg\")|trans('length') &gt; 0}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 982,
-        "order": 127,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{&lt; sessions|getSections(\"ekg\")|where(\"i==0\")}} <br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 983,
-        "order": 128,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 985,
-        "order": 130,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{?}}<br>",
+            "value": "{{&lt; sessions|getSections(\"td\")|trans('text')}} <br>",
             "props": {}
           }
         }
       },
       {
         "id": 986,
-        "order": 131,
+        "order": 84,
         "props": {
           "type": "t"
         },
@@ -1417,59 +823,20 @@
       },
       {
         "id": 988,
-        "order": 133,
+        "order": 86,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
             "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 989,
-        "order": 134,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp == 25 &amp;&amp; vek &gt;= 40}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 994,
-        "order": 139,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 995,
-        "order": 140,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{&lt; sessions|getSections(\"td\")}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 996,
-        "order": 141,
+        "order": 87,
         "props": {
           "type": "t"
         },
@@ -1482,7 +849,7 @@
       },
       {
         "id": 999,
-        "order": 144,
+        "order": 90,
         "props": {
           "type": "t"
         },
@@ -1495,7 +862,7 @@
       },
       {
         "id": 1000,
-        "order": 145,
+        "order": 91,
         "props": {
           "type": "t"
         },
@@ -1508,33 +875,7 @@
       },
       {
         "id": 1002,
-        "order": 147,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1003,
-        "order": 148,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp == 24 &amp;&amp; vek &gt;= 50}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1072,
-        "order": 151,
+        "order": 93,
         "props": {
           "type": "t"
         },
@@ -1547,7 +888,7 @@
       },
       {
         "id": 1071,
-        "order": 152,
+        "order": 94,
         "props": {
           "type": "t"
         },
@@ -1560,7 +901,7 @@
       },
       {
         "id": 1009,
-        "order": 156,
+        "order": 98,
         "props": {
           "type": "t"
         },
@@ -1573,7 +914,7 @@
       },
       {
         "id": 1010,
-        "order": 157,
+        "order": 99,
         "props": {
           "type": "t"
         },
@@ -1586,7 +927,7 @@
       },
       {
         "id": 1013,
-        "order": 160,
+        "order": 102,
         "props": {
           "type": "t"
         },
@@ -1599,7 +940,7 @@
       },
       {
         "id": 1014,
-        "order": 161,
+        "order": 103,
         "props": {
           "type": "t"
         },
@@ -1612,7 +953,33 @@
       },
       {
         "id": 1070,
-        "order": 163,
+        "order": 105,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1136,
+        "order": 106,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? (sessions|getSections(\"vv\")|where(\"d.period&gt;365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") &gt; 0 || sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; zp==25}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1141,
+        "order": 111,
         "props": {
           "type": "t"
         },
@@ -1625,7 +992,7 @@
       },
       {
         "id": 1069,
-        "order": 164,
+        "order": 112,
         "props": {
           "type": "t"
         },
@@ -1638,7 +1005,7 @@
       },
       {
         "id": 1019,
-        "order": 168,
+        "order": 116,
         "props": {
           "type": "t"
         },
@@ -1651,7 +1018,7 @@
       },
       {
         "id": 1020,
-        "order": 169,
+        "order": 117,
         "props": {
           "type": "t"
         },
@@ -1664,7 +1031,7 @@
       },
       {
         "id": 1023,
-        "order": 172,
+        "order": 120,
         "props": {
           "type": "t"
         },
@@ -1677,7 +1044,7 @@
       },
       {
         "id": 1024,
-        "order": 173,
+        "order": 121,
         "props": {
           "type": "t"
         },
@@ -1690,7 +1057,7 @@
       },
       {
         "id": 1028,
-        "order": 177,
+        "order": 125,
         "props": {
           "type": "t"
         },
@@ -1703,7 +1070,7 @@
       },
       {
         "id": 1029,
-        "order": 178,
+        "order": 126,
         "props": {
           "type": "t"
         },
@@ -1716,7 +1083,7 @@
       },
       {
         "id": 1031,
-        "order": 180,
+        "order": 128,
         "props": {
           "type": "t"
         },
@@ -1729,7 +1096,7 @@
       },
       {
         "id": 1032,
-        "order": 181,
+        "order": 129,
         "props": {
           "type": "t"
         },
@@ -1742,7 +1109,7 @@
       },
       {
         "id": 1049,
-        "order": 184,
+        "order": 132,
         "props": {
           "type": "t"
         },
@@ -1755,7 +1122,7 @@
       },
       {
         "id": 1048,
-        "order": 185,
+        "order": 133,
         "props": {
           "type": "t"
         },
@@ -1768,7 +1135,7 @@
       },
       {
         "id": 1037,
-        "order": 188,
+        "order": 136,
         "props": {
           "type": "t"
         },
@@ -1781,7 +1148,7 @@
       },
       {
         "id": 1052,
-        "order": 189,
+        "order": 137,
         "props": {
           "type": "t"
         },
@@ -1794,7 +1161,7 @@
       },
       {
         "id": 1054,
-        "order": 193,
+        "order": 141,
         "props": {
           "type": "t"
         },
@@ -1807,7 +1174,7 @@
       },
       {
         "id": 1041,
-        "order": 194,
+        "order": 142,
         "props": {
           "type": "t"
         },
@@ -1820,7 +1187,7 @@
       },
       {
         "id": 1043,
-        "order": 196,
+        "order": 144,
         "props": {
           "type": "t"
         },
@@ -1833,7 +1200,7 @@
       },
       {
         "id": 1045,
-        "order": 198,
+        "order": 146,
         "props": {
           "type": "t"
         },
@@ -1847,14 +1214,14 @@
     ],
     "ra": [
       {
-        "id": 1059,
-        "order": 6,
+        "id": 1105,
+        "order": 5,
         "props": {
           "type": "ra"
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -1862,14 +1229,14 @@
     ],
     "oa": [
       {
-        "id": 862,
-        "order": 11,
+        "id": 1108,
+        "order": 8,
         "props": {
           "type": "oa"
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -1877,14 +1244,14 @@
     ],
     "sa": [
       {
-        "id": 867,
-        "order": 16,
+        "id": 1111,
+        "order": 11,
         "props": {
           "type": "sa"
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -1892,27 +1259,14 @@
     ],
     "la": [
       {
-        "id": 870,
-        "order": 19,
+        "id": 1114,
+        "order": 14,
         "props": {
           "type": "la"
         },
         "value": {
           "text": {
-            "value": "{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans(\"text\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 876,
-        "order": 25,
-        "props": {
-          "type": "la"
-        },
-        "value": {
-          "text": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -1920,14 +1274,14 @@
     ],
     "aa": [
       {
-        "id": 881,
-        "order": 30,
+        "id": 1121,
+        "order": 20,
         "props": {
           "type": "aa"
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -1935,29 +1289,14 @@
     ],
     "ga": [
       {
-        "id": 887,
-        "order": 36,
+        "id": 1127,
+        "order": 26,
         "props": {
           "type": "ga"
         },
         "value": {
           "text": {
-            "value": "<br>",
-            "props": {}
-          }
-        }
-      }
-    ],
-    "s": [
-      {
-        "id": 889,
-        "order": 38,
-        "props": {
-          "type": "s"
-        },
-        "value": {
-          "s": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -1966,7 +1305,7 @@
     "zfp": [
       {
         "id": 893,
-        "order": 42,
+        "order": 28,
         "props": {
           "type": "zfp"
         },
@@ -2022,16 +1361,43 @@
         }
       }
     ],
+    "ab": [
+      {
+        "id": 1075,
+        "order": 29,
+        "props": {
+          "type": "ab"
+        },
+        "value": {
+          "fajciar": {
+            "value": "",
+            "props": {}
+          },
+          "alkohol": {
+            "value": "",
+            "props": {}
+          },
+          "kava": {
+            "value": "",
+            "props": {}
+          },
+          "drogy": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "o": [
       {
         "id": 895,
-        "order": 44,
+        "order": 30,
         "props": {
           "type": "o"
         },
         "value": {
           "o": {
-            "value": "Iné:\t<br>Hepatitída:\nChrípka: <br>",
+            "value": "{{&lt; sessions|getSections(\"oc\")|trans(\"text\")}}<br>",
             "props": {}
           }
         }
@@ -2039,8 +1405,8 @@
     ],
     "pv": [
       {
-        "id": 902,
-        "order": 48,
+        "id": 1133,
+        "order": 32,
         "props": {
           "type": "pv"
         },
@@ -2052,14 +1418,14 @@
             }
           },
           "popis": {
-            "value": "pri vedomí, orientovaná(ý), habitus normostenický, koža hydratovaná, čistá, sliznice ružové",
+            "value": "pri vedomí, orientovaný, habitus normostenický, koža hydratovaná, čistá, sliznice ružové",
             "props": {}
           }
         }
       },
       {
         "id": 908,
-        "order": 53,
+        "order": 35,
         "props": {
           "type": "pv"
         },
@@ -2071,14 +1437,14 @@
             }
           },
           "popis": {
-            "value": "",
+            "value": "<br>",
             "props": {}
           }
         }
       },
       {
         "id": 913,
-        "order": 58,
+        "order": 38,
         "props": {
           "type": "pv"
         },
@@ -2090,14 +1456,14 @@
             }
           },
           "popis": {
-            "value": "VOD:  5/5    VOS: 5 /5     Farbocit: správny",
+            "value": "VOD:  5/5    VOS: 5 /5     Farbocit: správny<br>",
             "props": {}
           }
         }
       },
       {
         "id": 918,
-        "order": 63,
+        "order": 41,
         "props": {
           "type": "pv"
         },
@@ -2109,14 +1475,14 @@
             }
           },
           "popis": {
-            "value": "v norme",
+            "value": "v norme<br>",
             "props": {}
           }
         }
       },
       {
         "id": 923,
-        "order": 68,
+        "order": 44,
         "props": {
           "type": "pv"
         },
@@ -2128,14 +1494,14 @@
             }
           },
           "popis": {
-            "value": "mezocef. na poklop nebolestivá, výstupy  hl.nn. nebolestivé, šija voľná neoponuje, zrenice izokorické, FR výbavná, uši, nos bez výtoku",
+            "value": "mezocef. na poklop nebolestivá, výstupy  hl.nn. nebolestivé, šija voľná neoponuje, zrenice izokorické, FR výbavná, uši, nos bez výtoku<br>",
             "props": {}
           }
         }
       },
       {
         "id": 928,
-        "order": 73,
+        "order": 47,
         "props": {
           "type": "pv"
         },
@@ -2147,14 +1513,14 @@
             }
           },
           "popis": {
-            "value": "kľudné, tonzily nezv., bez čapov, jazky plazí v  strednej rovine, chrup sanovaný",
+            "value": "kľudné, tonzily nezv., bez čapov, jazky plazí v  strednej rovine, chrup sanovaný<br>",
             "props": {}
           }
         }
       },
       {
         "id": 933,
-        "order": 78,
+        "order": 50,
         "props": {
           "type": "pv"
         },
@@ -2166,14 +1532,14 @@
             }
           },
           "popis": {
-            "value": "LU a ŠŽ nehmatám, jugula bez kongescie",
+            "value": "LU a ŠŽ nehmatám, jugula bez kongescie<br>",
             "props": {}
           }
         }
       },
       {
         "id": 938,
-        "order": 83,
+        "order": 53,
         "props": {
           "type": "pv"
         },
@@ -2185,14 +1551,14 @@
             }
           },
           "popis": {
-            "value": "súmerný",
+            "value": "súmerný<br>",
             "props": {}
           }
         }
       },
       {
         "id": 943,
-        "order": 88,
+        "order": 56,
         "props": {
           "type": "pv"
         },
@@ -2204,14 +1570,14 @@
             }
           },
           "popis": {
-            "value": "dýchanie vesikulárne bez VDF",
+            "value": "dýchanie vesikulárne bez VDF<br>",
             "props": {}
           }
         }
       },
       {
         "id": 948,
-        "order": 93,
+        "order": 59,
         "props": {
           "type": "pv"
         },
@@ -2223,14 +1589,14 @@
             }
           },
           "popis": {
-            "value": "akcia pravidelná, ozvy ohraničené, bez šelestu",
+            "value": "akcia pravidelná, ozvy ohraničené, bez šelestu<br>",
             "props": {}
           }
         }
       },
       {
         "id": 953,
-        "order": 98,
+        "order": 62,
         "props": {
           "type": "pv"
         },
@@ -2242,14 +1608,14 @@
             }
           },
           "popis": {
-            "value": "mäkké priehmatné bez palp. citl. a hm. rezist.,  Pečeň a slezina nezv., tapott. bilat. negat.",
+            "value": "mäkké priehmatné bez palp. citl. a hm. rezist.,  Pečeň a slezina nezv., tapott. bilat. negat.<br>",
             "props": {}
           }
         }
       },
       {
         "id": 958,
-        "order": 103,
+        "order": 65,
         "props": {
           "type": "pv"
         },
@@ -2261,14 +1627,14 @@
             }
           },
           "popis": {
-            "value": "v ose",
+            "value": "v ose<br>",
             "props": {}
           }
         }
       },
       {
         "id": 963,
-        "order": 108,
+        "order": 68,
         "props": {
           "type": "pv"
         },
@@ -2280,14 +1646,14 @@
             }
           },
           "popis": {
-            "value": "bez edémov a varixov, bez známok zápalu, pulzácie ATP a ADP hmatné bilat.",
+            "value": "bez edémov a varixov, bez známok zápalu, pulzácie ATP a ADP hmatné bilat.<br>",
             "props": {}
           }
         }
       },
       {
         "id": 968,
-        "order": 113,
+        "order": 71,
         "props": {
           "type": "pv"
         },
@@ -2299,14 +1665,14 @@
             }
           },
           "popis": {
-            "value": " kĺby bez deformít, zápal. a degenerat. zmien, bez palpačnej citlivosti, rozsahy pohyblivosti kĺbov a chrbtice v norme, svalstvo normálne vyvinuté, svalové spazmy neprítomné",
+            "value": " kĺby bez deformít, zápal. a degenerat. zmien, bez palpačnej citlivosti, rozsahy pohyblivosti kĺbov a chrbtice v norme, svalstvo normálne vyvinuté, svalové spazmy neprítomné<br>",
             "props": {}
           }
         }
       },
       {
         "id": 973,
-        "order": 118,
+        "order": 74,
         "props": {
           "type": "pv"
         },
@@ -2318,14 +1684,14 @@
             }
           },
           "popis": {
-            "value": " ",
+            "value": " <br>",
             "props": {}
           }
         }
       },
       {
         "id": 978,
-        "order": 123,
+        "order": 77,
         "props": {
           "type": "pv"
         },
@@ -2337,7 +1703,7 @@
             }
           },
           "popis": {
-            "value": " ",
+            "value": " <br>",
             "props": {}
           }
         }
@@ -2346,7 +1712,7 @@
     "ekg": [
       {
         "id": 984,
-        "order": 129,
+        "order": 80,
         "props": {
           "type": "ekg"
         },
@@ -2391,6 +1757,10 @@
             "value": "+",
             "props": {}
           },
+          "hlk": {
+            "value": "",
+            "props": {}
+          },
           "poznamka": {
             "value": "",
             "props": {}
@@ -2405,7 +1775,7 @@
     "abi": [
       {
         "id": 987,
-        "order": 132,
+        "order": 85,
         "props": {
           "type": "abi"
         },
@@ -2427,8 +1797,8 @@
     ],
     "vd": [
       {
-        "id": 990,
-        "order": 135,
+        "id": 997,
+        "order": 88,
         "props": {
           "type": "vd"
         },
@@ -2448,17 +1818,17 @@
         }
       },
       {
-        "id": 997,
-        "order": 142,
+        "id": 1006,
+        "order": 95,
         "props": {
           "type": "vd"
         },
         "value": {
           "id": {
-            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
+            "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
             "props": {
-              "id": "Z00.0",
-              "idEzid": "02089520809@9",
+              "id": "Z12.1",
+              "idEzid": "02089521690@9",
               "idClassid": "diagnoza"
             }
           },
@@ -2469,50 +1839,29 @@
         }
       },
       {
-        "id": 1004,
-        "order": 149,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[Z13.6] Špeciálne skríningové vyšetrenie, zamerané na srdcovocievne choroby",
-            "props": {
-              "idClassid": "diagnoza",
-              "idEzid": "02089521849@9",
-              "id": "Z13.6"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1006,
-        "order": 153,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
-            "props": {
-              "idClassid": "diagnoza",
-              "idEzid": "02089521690@9",
-              "id": "Z12.1"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 1011,
-        "order": 158,
+        "order": 100,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089520809@9",
+              "id": "Z00.0"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1138,
+        "order": 108,
         "props": {
           "type": "vd"
         },
@@ -2521,7 +1870,7 @@
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
               "id": "Z00.0",
-              "idEzid": "02089520809@9",
+              "idEzid": "02089520809@10",
               "idClassid": "diagnoza"
             }
           },
@@ -2533,7 +1882,7 @@
       },
       {
         "id": 1016,
-        "order": 165,
+        "order": 113,
         "props": {
           "type": "vd"
         },
@@ -2541,9 +1890,9 @@
           "id": {
             "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z12.1",
               "idEzid": "02089521690@9",
-              "id": "Z12.1"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -2554,28 +1903,7 @@
       },
       {
         "id": 1021,
-        "order": 170,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
-            "props": {
-              "idClassid": "diagnoza",
-              "idEzid": "02089520809@9",
-              "id": "Z00.0"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1025,
-        "order": 174,
+        "order": 118,
         "props": {
           "type": "vd"
         },
@@ -2593,34 +1921,33 @@
             "props": {}
           }
         }
+      },
+      {
+        "id": 1025,
+        "order": 122,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089520809@9",
+              "id": "Z00.0"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
       }
     ],
     "vv": [
       {
-        "id": 991,
-        "order": 136,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
-            "props": {
-              "propBody": 0,
-              "idClassid": "vykon",
-              "idEzid": "02089725770@8",
-              "id": "H0006"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 998,
-        "order": 143,
+        "order": 89,
         "props": {
           "type": "vv"
         },
@@ -2629,9 +1956,9 @@
             "value": "[160] Základná preventívna prehliadka. Výkon obsahuje komplexné vyšetrenie v rámci základnej preventívnej prehliadky vrátane prehliadky v rámci prevencie kardiovaskulárnych chorôb. Obsah vyšetrenia je zhodný s výkonom pod kódom 60. Výkon môže vykazovať lek",
             "props": {
               "propBody": 350,
-              "id": 160,
+              "idClassid": "vykon",
               "idEzid": "00000467373@8",
-              "idClassid": "vykon"
+              "id": 160
             }
           },
           "count": {
@@ -2642,251 +1969,7 @@
       },
       {
         "id": 1001,
-        "order": 146,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
-            "props": {
-              "propType": "SVaLZ",
-              "propBody": 550,
-              "idClassid": "vykon",
-              "idEzid": "00000494187@8",
-              "id": 5702
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1005,
-        "order": 150,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[655] Záznam pulzu alebo meranie tlaku na artériách prstov vrátane registrácie. Výkon môže vykonávať angiológ a cievny chirurg.",
-            "props": {
-              "propBody": 130,
-              "idClassid": "vykon",
-              "idEzid": "02089692699@8",
-              "id": 655
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1007,
-        "order": 154,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[159] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonom podľa č. 157, 158 a 160. Výkon môže vykazovať lekár so špecializáciou všeobecné lekárstvo",
-            "props": {
-              "propBody": 0,
-              "id": 159,
-              "idEzid": "02089691345@8",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1012,
-        "order": 159,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[160] Základná preventívna prehliadka. Výkon obsahuje komplexné vyšetrenie v rámci základnej preventívnej prehliadky vrátane prehliadky v rámci prevencie kardiovaskulárnych chorôb. Obsah vyšetrenia je zhodný s výkonom pod kódom 60. Výkon môže vykazovať lek",
-            "props": {
-              "propBody": 350,
-              "id": 160,
-              "idEzid": "00000467373@8",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1015,
-        "order": 162,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5702P] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
-            "props": {
-              "propBody": 550,
-              "id": "5702P",
-              "idEzid": "02089719112@8",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1017,
-        "order": 166,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[159] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonom podľa č. 157, 158 a 160. Výkon môže vykazovať lekár so špecializáciou všeobecné lekárstvo",
-            "props": {
-              "propBody": 0,
-              "id": 159,
-              "idEzid": "02089691345@8",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1022,
-        "order": 171,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[H0008] Stanovenie indexu ABI oscilometrickou metódou",
-            "props": {
-              "propBody": 0,
-              "idClassid": "vykon",
-              "idEzid": "02089552141@8",
-              "id": "H0008"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1026,
-        "order": 175,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[160] Základná preventívna prehliadka. Výkon obsahuje komplexné vyšetrenie v rámci základnej preventívnej prehliadky vrátane prehliadky v rámci prevencie kardiovaskulárnych chorôb. Obsah vyšetrenia je zhodný s výkonom pod kódom 60. Výkon môže vykazovať lek",
-            "props": {
-              "propBody": 350,
-              "id": 160,
-              "idEzid": "00000467373@8",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1027,
-        "order": 176,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[3671] Glukóza",
-            "props": {
-              "propBody": 40,
-              "propType": "SVaLZ",
-              "idClassid": "vykon",
-              "idEzid": "00000479568@8",
-              "id": 3671
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1030,
-        "order": 179,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[159b] Preventívne vyšetrenie celkového cholesterolu v 11. a 17. roku života a celkového cholesterolu a triacylglycerolov v 40. roku života. Okrem odberu sa vykazuje cielená anamnéza, posúdenie genetickej záťaže, posúdenie laboratórnych výsledkov, v prípade",
-            "props": {
-              "propBody": 100,
-              "idClassid": "vykon",
-              "idEzid": "00000467365@8",
-              "id": "159b"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1033,
-        "order": 182,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[159b] Preventívne vyšetrenie celkového cholesterolu v 11. a 17. roku života a celkového cholesterolu a triacylglycerolov v 40. roku života. Okrem odberu sa vykazuje cielená anamnéza, posúdenie genetickej záťaže, posúdenie laboratórnych výsledkov, v prípade",
-            "props": {
-              "propBody": 100,
-              "idClassid": "vykon",
-              "idEzid": "00000467365@8",
-              "id": "159b"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1034,
-        "order": 183,
+        "order": 92,
         "props": {
           "type": "vv"
         },
@@ -2908,8 +1991,8 @@
         }
       },
       {
-        "id": 1035,
-        "order": 186,
+        "id": 1007,
+        "order": 96,
         "props": {
           "type": "vv"
         },
@@ -2918,8 +2001,74 @@
             "value": "[159] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonom podľa č. 157, 158 a 160. Výkon môže vykazovať lekár so špecializáciou všeobecné lekárstvo",
             "props": {
               "propBody": 0,
-              "id": 159,
+              "idClassid": "vykon",
               "idEzid": "02089691345@8",
+              "id": 159
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1012,
+        "order": 101,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[160] Základná preventívna prehliadka. Výkon obsahuje komplexné vyšetrenie v rámci základnej preventívnej prehliadky vrátane prehliadky v rámci prevencie kardiovaskulárnych chorôb. Obsah vyšetrenia je zhodný s výkonom pod kódom 60. Výkon môže vykazovať lek",
+            "props": {
+              "propBody": 350,
+              "idClassid": "vykon",
+              "idEzid": "00000467373@8",
+              "id": 160
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1015,
+        "order": 104,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5702P] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
+            "props": {
+              "propBody": 550,
+              "idClassid": "vykon",
+              "idEzid": "02089719112@8",
+              "id": "5702P"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1139,
+        "order": 109,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
+            "props": {
+              "propBody": 0,
+              "id": "H0006",
+              "idEzid": "02089725770@9",
               "idClassid": "vykon"
             }
           },
@@ -2930,8 +2079,186 @@
         }
       },
       {
+        "id": 1017,
+        "order": 114,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[159] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonom podľa č. 157, 158 a 160. Výkon môže vykazovať lekár so špecializáciou všeobecné lekárstvo",
+            "props": {
+              "propBody": 0,
+              "idClassid": "vykon",
+              "idEzid": "02089691345@8",
+              "id": 159
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1022,
+        "order": 119,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[H0008] Stanovenie indexu ABI oscilometrickou metódou",
+            "props": {
+              "propBody": 0,
+              "id": "H0008",
+              "idEzid": "02089552141@8",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1026,
+        "order": 123,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[160] Základná preventívna prehliadka. Výkon obsahuje komplexné vyšetrenie v rámci základnej preventívnej prehliadky vrátane prehliadky v rámci prevencie kardiovaskulárnych chorôb. Obsah vyšetrenia je zhodný s výkonom pod kódom 60. Výkon môže vykazovať lek",
+            "props": {
+              "propBody": 350,
+              "idClassid": "vykon",
+              "idEzid": "00000467373@8",
+              "id": 160
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1027,
+        "order": 124,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[3671] Glukóza",
+            "props": {
+              "propType": "SVaLZ",
+              "propBody": 40,
+              "id": 3671,
+              "idEzid": "00000479568@8",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1030,
+        "order": 127,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[159b] Preventívne vyšetrenie celkového cholesterolu v 11. a 17. roku života a celkového cholesterolu a triacylglycerolov v 40. roku života. Okrem odberu sa vykazuje cielená anamnéza, posúdenie genetickej záťaže, posúdenie laboratórnych výsledkov, v prípade",
+            "props": {
+              "propBody": 100,
+              "id": "159b",
+              "idEzid": "00000467365@8",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1033,
+        "order": 130,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[159b] Preventívne vyšetrenie celkového cholesterolu v 11. a 17. roku života a celkového cholesterolu a triacylglycerolov v 40. roku života. Okrem odberu sa vykazuje cielená anamnéza, posúdenie genetickej záťaže, posúdenie laboratórnych výsledkov, v prípade",
+            "props": {
+              "propBody": 100,
+              "id": "159b",
+              "idEzid": "00000467365@8",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1034,
+        "order": 131,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
+            "props": {
+              "propType": "SVaLZ",
+              "propBody": 550,
+              "idClassid": "vykon",
+              "idEzid": "00000494187@8",
+              "id": 5702
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1035,
+        "order": 134,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[159] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonom podľa č. 157, 158 a 160. Výkon môže vykazovať lekár so špecializáciou všeobecné lekárstvo",
+            "props": {
+              "propBody": 0,
+              "idClassid": "vykon",
+              "idEzid": "02089691345@8",
+              "id": 159
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 1038,
-        "order": 190,
+        "order": 138,
         "props": {
           "type": "vv"
         },
@@ -2940,9 +2267,9 @@
             "value": "[250a] Odobratie krvi venepunkciou do jednej striekačky alebo do jednej skúmavky, vrátane odberovej súpravy, za každú súpravu.",
             "props": {
               "propBody": 80,
-              "idClassid": "vykon",
+              "id": "250a",
               "idEzid": "00000467803@8",
-              "id": "250a"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -2953,7 +2280,7 @@
       },
       {
         "id": 1039,
-        "order": 191,
+        "order": 139,
         "props": {
           "type": "vv"
         },
@@ -2961,11 +2288,11 @@
           "id": {
             "value": "[3592] stanovenie sedimentačnej rýchlosti krviniek",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 50,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 3592,
               "idEzid": "00000479048@8",
-              "id": 3592
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -2976,7 +2303,7 @@
       },
       {
         "id": 1040,
-        "order": 192,
+        "order": 140,
         "props": {
           "type": "vv"
         },
@@ -2984,11 +2311,11 @@
           "id": {
             "value": "[3525] Kompletný dôkaz základných patologických súčastí moču, za každú vzorku od pacienta",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 50,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 3525,
               "idEzid": "00000478560@8",
-              "id": 3525
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -2998,10 +2325,102 @@
         }
       }
     ],
+    "p": [
+      {
+        "id": 1008,
+        "order": 97,
+        "props": {
+          "type": "p"
+        },
+        "value": {
+          "text": {
+            "value": "FOB test vydaný, žiadať vrátenie na vyhodnotenie<br>",
+            "props": {}
+          },
+          "at": {
+            "value": "19.10.2018 17:49",
+            "props": {
+              "propValue": "2018-10-19T15:49:10.425Z",
+              "expr": "=teraz"
+            }
+          },
+          "priority": {
+            "value": "veľmi",
+            "props": {
+              "propValue": 20
+            }
+          },
+          "done": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1018,
+        "order": 115,
+        "props": {
+          "type": "p"
+        },
+        "value": {
+          "text": {
+            "value": "FOB test vydaný, žiadať vrátenie na vyhodnotenie<br>",
+            "props": {}
+          },
+          "at": {
+            "value": "19.10.2018 17:49",
+            "props": {
+              "propValue": "2018-10-19T15:49:10.431Z",
+              "expr": "=teraz"
+            }
+          },
+          "priority": {
+            "value": "veľmi",
+            "props": {
+              "propValue": 20
+            }
+          },
+          "done": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1036,
+        "order": 135,
+        "props": {
+          "type": "p"
+        },
+        "value": {
+          "text": {
+            "value": "FOB test vydaný, žiadať vrátenie na vyhodnotenie<br>",
+            "props": {}
+          },
+          "at": {
+            "value": "19.10.2018 17:49",
+            "props": {
+              "propValue": "2018-10-19T15:49:10.432Z",
+              "expr": "=teraz"
+            }
+          },
+          "priority": {
+            "value": "veľmi",
+            "props": {
+              "propValue": 20
+            }
+          },
+          "done": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "h-score": [
       {
-        "id": 993,
-        "order": 138,
+        "id": 1140,
+        "order": 110,
         "props": {
           "type": "h-score"
         },
@@ -3029,102 +2448,10 @@
         }
       }
     ],
-    "p": [
-      {
-        "id": 1008,
-        "order": 155,
-        "props": {
-          "type": "p"
-        },
-        "value": {
-          "text": {
-            "value": "FOB test vydaný, žiadať vrátenie na vyhodnotenie<br>",
-            "props": {}
-          },
-          "at": {
-            "value": "22.08.2018 09:18",
-            "props": {
-              "propValue": "2018-08-22T07:18:47.978Z",
-              "expr": "=teraz"
-            }
-          },
-          "priority": {
-            "value": "veľmi",
-            "props": {
-              "propValue": 20
-            }
-          },
-          "done": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1018,
-        "order": 167,
-        "props": {
-          "type": "p"
-        },
-        "value": {
-          "text": {
-            "value": "FOB test vydaný, žiadať vrátenie na vyhodnotenie<br>",
-            "props": {}
-          },
-          "at": {
-            "value": "22.08.2018 09:18",
-            "props": {
-              "propValue": "2018-08-22T07:18:47.978Z",
-              "expr": "=teraz"
-            }
-          },
-          "priority": {
-            "value": "veľmi",
-            "props": {
-              "propValue": 20
-            }
-          },
-          "done": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1036,
-        "order": 187,
-        "props": {
-          "type": "p"
-        },
-        "value": {
-          "text": {
-            "value": "FOB test vydaný, žiadať vrátenie na vyhodnotenie<br>",
-            "props": {}
-          },
-          "at": {
-            "value": "22.08.2018 09:18",
-            "props": {
-              "propValue": "2018-08-22T07:18:47.979Z",
-              "expr": "=teraz"
-            }
-          },
-          "priority": {
-            "value": "veľmi",
-            "props": {
-              "propValue": 20
-            }
-          },
-          "done": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
     "z": [
       {
         "id": 1042,
-        "order": 195,
+        "order": 143,
         "props": {
           "type": "z"
         },
@@ -3137,7 +2464,7 @@
       },
       {
         "id": 1044,
-        "order": 197,
+        "order": 145,
         "props": {
           "type": "z"
         },
