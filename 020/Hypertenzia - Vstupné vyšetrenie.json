@@ -676,7 +676,7 @@
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"td\")|trans('text')}} <br>",
+            "value": "{{&lt; sessions|getSections(\"td\")|where(\"!sekcia.zruseny\")|trans('text')}} <br>",
             "props": {}
           }
         }
@@ -1313,9 +1313,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "I10.00",
               "idEzid": "02089398180@9",
-              "id": "I10.00"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1348,9 +1348,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "I10.00",
               "idEzid": "02089398180@9",
-              "id": "I10.00"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1369,9 +1369,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "I10.00",
               "idEzid": "02089398180@10",
-              "id": "I10.00"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1390,9 +1390,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "I10.00",
               "idEzid": "02089398180@9",
-              "id": "I10.00"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1414,9 +1414,9 @@
             "value": "[H0003] Iniciálne vyšetrenie u poistenca s arteriálnou hypertenziou alebo ošetrenie akútneho hypertenzného stavu",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
+              "id": "H0003",
               "idEzid": "02089725747@8",
-              "id": "H0003"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1436,9 +1436,9 @@
             "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
               "propBody": 180,
-              "idClassid": "vykon",
+              "id": 10,
               "idEzid": "00000466565@8",
-              "id": 10
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1457,11 +1457,11 @@
           "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 550,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5702,
               "idEzid": "00000494187@8",
-              "id": 5702
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1480,11 +1480,11 @@
           "id": {
             "value": "[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.",
             "props": {
-              "propBody": 750,
               "propType": "SVaLZ",
-              "id": 5715,
+              "propBody": 750,
+              "idClassid": "vykon",
               "idEzid": "00000494302@9",
-              "idClassid": "vykon"
+              "id": 5715
             }
           },
           "count": {
@@ -1504,9 +1504,9 @@
             "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
             "props": {
               "propBody": 0,
-              "id": "H0006",
+              "idClassid": "vykon",
               "idEzid": "02089725770@9",
-              "idClassid": "vykon"
+              "id": "H0006"
             }
           },
           "count": {
@@ -1526,9 +1526,9 @@
             "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
               "propBody": 180,
-              "id": 10,
+              "idClassid": "vykon",
               "idEzid": "00000466565@9",
-              "idClassid": "vykon"
+              "id": 10
             }
           },
           "count": {
@@ -1547,11 +1547,11 @@
           "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propBody": 550,
               "propType": "SVaLZ",
-              "id": 5702,
+              "propBody": 550,
+              "idClassid": "vykon",
               "idEzid": "00000494187@9",
-              "idClassid": "vykon"
+              "id": 5702
             }
           },
           "count": {
@@ -1605,9 +1605,9 @@
             "props": {}
           },
           "at": {
-            "value": "22.03.2019 00:47",
+            "value": "22.03.2019 01:17",
             "props": {
-              "propValue": "2019-03-21T23:47:26.747Z",
+              "propValue": "2019-03-22T00:17:00.004Z",
               "expr": "=+5m"
             }
           },

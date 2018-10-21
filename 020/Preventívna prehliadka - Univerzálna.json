@@ -803,7 +803,7 @@
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"td\")|trans('text')}} <br>",
+            "value": "{{&lt; sessions|getSections(\"td\")|where(\"!sekcia.zruseny\")|trans('text')}} <br>",
             "props": {}
           }
         }
@@ -1221,6 +1221,10 @@
         },
         "value": {
           "text": {
+            "value": "",
+            "props": {}
+          },
+          "kvo": {
             "value": "",
             "props": {}
           }
@@ -2338,9 +2342,9 @@
             "props": {}
           },
           "at": {
-            "value": "19.10.2018 17:49",
+            "value": "22.10.2018 01:13",
             "props": {
-              "propValue": "2018-10-19T15:49:10.425Z",
+              "propValue": "2018-10-21T23:13:07.864Z",
               "expr": "=teraz"
             }
           },
@@ -2368,9 +2372,9 @@
             "props": {}
           },
           "at": {
-            "value": "19.10.2018 17:49",
+            "value": "22.10.2018 01:13",
             "props": {
-              "propValue": "2018-10-19T15:49:10.431Z",
+              "propValue": "2018-10-21T23:13:07.867Z",
               "expr": "=teraz"
             }
           },
@@ -2398,9 +2402,9 @@
             "props": {}
           },
           "at": {
-            "value": "19.10.2018 17:49",
+            "value": "22.10.2018 01:13",
             "props": {
-              "propValue": "2018-10-19T15:49:10.432Z",
+              "propValue": "2018-10-21T23:13:07.868Z",
               "expr": "=teraz"
             }
           },

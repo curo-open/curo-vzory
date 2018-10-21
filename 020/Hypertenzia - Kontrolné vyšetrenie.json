@@ -651,7 +651,7 @@
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"td\")|trans('text')}} <br>",
+            "value": "{{&lt; sessions|getSections(\"td\")|where(\"!sekcia.zruseny\")|trans('text')}} <br>",
             "props": {}
           }
         }
@@ -1553,9 +1553,9 @@
             "props": {}
           },
           "at": {
-            "value": "22.03.2019 00:46",
+            "value": "22.03.2019 01:20",
             "props": {
-              "propValue": "2019-03-21T23:46:23.849Z",
+              "propValue": "2019-03-22T00:20:57.529Z",
               "expr": "=+5m"
             }
           },
