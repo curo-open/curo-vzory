@@ -1,0 +1,822 @@
+{
+  "title": "Ukážka/príklad možnosti vzoru",
+  "shortcut": "priklad",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Premenné pacienta</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 7,
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.datumNarodenia - {{ pacient.datumNarodenia }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 8,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.vek - {{ pacient.vek }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 19,
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.pohlavie - {{ pacient.pohlavie }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 9,
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.vekDni - {{ pacient.vekDni }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 10,
+        "order": 5,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.kapitacia - {{ pacient.kapitacia }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 6,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.meno - {{ pacient.meno }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 12,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.priezvisko - {{ pacient.priezvisko }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 13,
+        "order": 8,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.celeMeno - {{ pacient.celeMeno }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 14,
+        "order": 9,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.rc - {{ pacient.rc }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 18,
+        "order": 10,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.rc0 - {{ pacient.rc0 }} - bez lomky<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 15,
+        "order": 11,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.zp - {{ pacient.zp }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 56,
+        "order": 12,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.adresa - {{ pacient.adresa }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 55,
+        "order": 13,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.mesto - {{ pacient.mesto }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 54,
+        "order": 14,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.psc - {{ pacient.psc }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 53,
+        "order": 15,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.stat - {{ pacient.stat }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 57,
+        "order": 16,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.tel - {{ pacient.tel }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 20,
+        "order": 17,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.email - {{ pacient.email }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 58,
+        "order": 18,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 45,
+        "order": 19,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Trasformacie dat</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 49,
+        "order": 20,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "rozdiel - {{ sessions|getSections(\"r\")[0].sekcia.sekciaDatum|rozdiel }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 50,
+        "order": 21,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.vekDni|vRokoch - {{ pacient.vekDni|vRokoch }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 51,
+        "order": 22,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.vekDni|vMesiacoch - {{ pacient.vekDni|vMesiacoch }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 52,
+        "order": 23,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.vekDni|vTyzdnoch - {{ pacient.vekDni|vTyzdnoch }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 59,
+        "order": 24,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 21,
+        "order": 25,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Vlastná premenná</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 24,
+        "order": 27,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "premenna xyz - {{ var.xyz }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 68,
+        "order": 28,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 69,
+        "order": 29,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Overridden variable</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 71,
+        "order": 31,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "premenna override - {{ var.override }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 25,
+        "order": 32,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 26,
+        "order": 33,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Ak / alebo / koniec ak - if / else / endif</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 27,
+        "order": 34,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? var.xyz == \"abcdef\" }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 28,
+        "order": 35,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "hodnota \"xyz\" sa ROVNA \"abcdef\"<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 29,
+        "order": 36,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 30,
+        "order": 37,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "hodnota \"xyz\" sa NEROVNA \"abcdef\"<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 31,
+        "order": 38,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 32,
+        "order": 39,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 77,
+        "order": 40,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Inline conditions</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 78,
+        "order": 41,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? var.xyz == \"abc\" }}hodnota \"xyz\" sa ROVNA \"abc\"{{ : }}hodnota \"xyz\" sa NEROVNA \"abc\"{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 76,
+        "order": 42,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 61,
+        "order": 43,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Pouzitie historickej sekcie</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 65,
+        "order": 44,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Last recept:<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 63,
+        "order": 45,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"r\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 66,
+        "order": 46,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "All td's that were not canceled:<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 64,
+        "order": 47,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"td\")|where(\"!sekcia.zruseny\") }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 60,
+        "order": 48,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 33,
+        "order": 49,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Pouzitie historickej sekcie alebo vychodzieho textu</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 40,
+        "order": 50,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Sluch'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 42,
+        "order": 52,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 46,
+        "order": 53,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"ra\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 48,
+        "order": 55,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 72,
+        "order": 56,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 73,
+        "order": 57,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Include other template</b><br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "premenna": [
+      {
+        "id": 23,
+        "order": 26,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "xyz",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "abcdef",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 70,
+        "order": 30,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "override",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "abcdef",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pv": [
+      {
+        "id": 41,
+        "order": 51,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Sluch",
+            "props": {
+              "propValue": "Sluch"
+            }
+          },
+          "popis": {
+            "value": "v norme",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ra": [
+      {
+        "id": 47,
+        "order": 54,
+        "props": {
+          "type": "ra"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vlozit": [
+      {
+        "id": 75,
+        "order": 58,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Všetky pomôcky za 90 dní",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {
+    "override": "overridden"
+  },
+  "summary": "",
+  "description": "",
+  "source": "curo-open/curo-vzory#/000"
+}
