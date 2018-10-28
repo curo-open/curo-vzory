@@ -99,7 +99,7 @@
         },
         "value": {
           "s": {
-            "value": "<br>",
+            "value": "stav stabilizovaný, cíti sa dobre bez výrazných ťažkostí, fyz. námahu toleruje dobre, stolica, močenie v norme<br>",
             "props": {}
           }
         }
@@ -1359,8 +1359,10 @@
             "props": {}
           },
           "temp": {
-            "value": "",
-            "props": {}
+            "value": "36,5",
+            "props": {
+              "propValue": "36.50"
+            }
           }
         }
       }
@@ -1722,7 +1724,7 @@
         },
         "value": {
           "rytmus": {
-            "value": "sr",
+            "value": "SR",
             "props": {}
           },
           "fr": {
@@ -1758,7 +1760,7 @@
             "props": {}
           },
           "t": {
-            "value": "+",
+            "value": "pozitívne",
             "props": {}
           },
           "hlk": {
@@ -2342,9 +2344,9 @@
             "props": {}
           },
           "at": {
-            "value": "22.10.2018 01:13",
+            "value": "28.10.2018 12:51",
             "props": {
-              "propValue": "2018-10-21T23:13:07.864Z",
+              "propValue": "2018-10-28T11:51:27.816Z",
               "expr": "=teraz"
             }
           },
@@ -2372,9 +2374,9 @@
             "props": {}
           },
           "at": {
-            "value": "22.10.2018 01:13",
+            "value": "28.10.2018 12:51",
             "props": {
-              "propValue": "2018-10-21T23:13:07.867Z",
+              "propValue": "2018-10-28T11:51:27.819Z",
               "expr": "=teraz"
             }
           },
@@ -2402,9 +2404,9 @@
             "props": {}
           },
           "at": {
-            "value": "22.10.2018 01:13",
+            "value": "28.10.2018 12:51",
             "props": {
-              "propValue": "2018-10-21T23:13:07.868Z",
+              "propValue": "2018-10-28T11:51:27.819Z",
               "expr": "=teraz"
             }
           },
