@@ -31,7 +31,7 @@
       },
       {
         "id": 265,
-        "order": 80,
+        "order": 83,
         "props": {
           "type": "premenna"
         },
@@ -722,8 +722,34 @@
         }
       },
       {
-        "id": 260,
+        "id": 289,
         "order": 79,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? (sessions|getSections(\"vv\")|where(\"d.period&gt;730\")|where(\"s.value.id.props.id=='5715'\")|trans(\"length\") &gt; 0 || sessions|getSections(\"vv\")|where(\"d.period&lt;=730\")|where(\"s.value.id.props.id=='5715'\")|trans(\"length\") == 0) &amp;&amp; var.holter==\"ON\" &amp;&amp; zp==27}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 291,
+        "order": 81,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 260,
+        "order": 82,
         "props": {
           "type": "t"
         },
@@ -736,7 +762,7 @@
       },
       {
         "id": 262,
-        "order": 84,
+        "order": 87,
         "props": {
           "type": "t"
         },
@@ -749,7 +775,7 @@
       },
       {
         "id": 113,
-        "order": 85,
+        "order": 88,
         "props": {
           "type": "t"
         },
@@ -762,7 +788,33 @@
       },
       {
         "id": 115,
-        "order": 89,
+        "order": 92,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 293,
+        "order": 93,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp==27 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 296,
+        "order": 96,
         "props": {
           "type": "t"
         },
@@ -1196,14 +1248,14 @@
     ],
     "ekg": [
       {
-        "id": 254,
+        "id": 287,
         "order": 64,
         "props": {
           "type": "ekg"
         },
         "value": {
           "rytmus": {
-            "value": "sr",
+            "value": "SR",
             "props": {}
           },
           "fr": {
@@ -1239,7 +1291,7 @@
             "props": {}
           },
           "t": {
-            "value": "+",
+            "value": "pozitívne",
             "props": {}
           },
           "hlk": {
@@ -1283,9 +1335,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "I10.00",
               "idEzid": "02089398180@9",
-              "id": "I10.00"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1318,29 +1370,8 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "id": "I10.00",
-              "idEzid": "02089398180@9",
-              "idClassid": "diagnoza"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 270,
-        "order": 81,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
-            "props": {
               "idClassid": "diagnoza",
-              "idEzid": "02089398180@10",
+              "idEzid": "02089398180@9",
               "id": "I10.00"
             }
           },
@@ -1351,8 +1382,50 @@
         }
       },
       {
+        "id": 270,
+        "order": 84,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
+            "props": {
+              "id": "I10.00",
+              "idEzid": "02089398180@10",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 116,
-        "order": 86,
+        "order": 89,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
+            "props": {
+              "id": "I10.00",
+              "idEzid": "02089398180@10",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 294,
+        "order": 94,
         "props": {
           "type": "vd"
         },
@@ -1384,9 +1457,9 @@
             "value": "[H0004] Kontrolné vyšetrenie u poistenca s arteriálnou hypertenziou jeden krát za 6 mesiacov",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
+              "id": "H0004",
               "idEzid": "02089725754@9",
-              "id": "H0004"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1405,11 +1478,11 @@
           "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 550,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5702,
               "idEzid": "00000494187@8",
-              "id": 5702
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1428,11 +1501,34 @@
           "id": {
             "value": "[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 750,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5715,
               "idEzid": "00000494302@9",
-              "id": 5715
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 290,
+        "order": 80,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.",
+            "props": {
+              "propBody": 750,
+              "propType": "SVaLZ",
+              "id": 5715,
+              "idEzid": "00000494302@9",
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1443,7 +1539,7 @@
       },
       {
         "id": 272,
-        "order": 82,
+        "order": 85,
         "props": {
           "type": "vv"
         },
@@ -1452,9 +1548,9 @@
             "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
             "props": {
               "propBody": 0,
-              "id": "H0006",
+              "idClassid": "vykon",
               "idEzid": "02089725770@9",
-              "idClassid": "vykon"
+              "id": "H0006"
             }
           },
           "count": {
@@ -1465,7 +1561,7 @@
       },
       {
         "id": 118,
-        "order": 87,
+        "order": 90,
         "props": {
           "type": "vv"
         },
@@ -1474,9 +1570,9 @@
             "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
               "propBody": 180,
-              "id": 10,
+              "idClassid": "vykon",
               "idEzid": "00000466565@9",
-              "idClassid": "vykon"
+              "id": 10
             }
           },
           "count": {
@@ -1487,7 +1583,7 @@
       },
       {
         "id": 120,
-        "order": 88,
+        "order": 91,
         "props": {
           "type": "vv"
         },
@@ -1495,11 +1591,33 @@
           "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propBody": 550,
               "propType": "SVaLZ",
-              "id": 5702,
+              "propBody": 550,
+              "idClassid": "vykon",
               "idEzid": "00000494187@9",
-              "idClassid": "vykon"
+              "id": 5702
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 295,
+        "order": 95,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[Y0041] Iniciálne a&nbsp;kontrolné vyšetrenie u&nbsp;kapitovaného poistenca s&nbsp;artériovou hypertenziou",
+            "props": {
+              "propBody": 0,
+              "idClassid": "vykon",
+              "idEzid": "curo-Y0041@9",
+              "id": "Y0041"
             }
           },
           "count": {
@@ -1512,7 +1630,7 @@
     "h-score": [
       {
         "id": 84,
-        "order": 83,
+        "order": 86,
         "props": {
           "type": "h-score"
         },
@@ -1543,7 +1661,7 @@
     "p": [
       {
         "id": 96,
-        "order": 90,
+        "order": 97,
         "props": {
           "type": "p"
         },
@@ -1553,9 +1671,9 @@
             "props": {}
           },
           "at": {
-            "value": "22.03.2019 01:20",
+            "value": "01.04.2019 22:54",
             "props": {
-              "propValue": "2019-03-22T00:20:57.529Z",
+              "propValue": "2019-04-01T20:54:41.970Z",
               "expr": "=+5m"
             }
           },

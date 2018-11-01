@@ -704,6 +704,32 @@
             "props": {}
           }
         }
+      },
+      {
+        "id": 287,
+        "order": 85,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp==27 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 290,
+        "order": 88,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
       }
     ],
     "ra": [
@@ -1201,9 +1227,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "id": "E78.9",
+              "idClassid": "diagnoza",
               "idEzid": "02089382192@10",
-              "idClassid": "diagnoza"
+              "id": "E78.9"
             }
           },
           "text": {
@@ -1222,9 +1248,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "id": "E78.9",
+              "idClassid": "diagnoza",
               "idEzid": "02089382192@10",
-              "idClassid": "diagnoza"
+              "id": "E78.9"
             }
           },
           "text": {
@@ -1243,8 +1269,29 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "id": "E78.9",
+              "idClassid": "diagnoza",
               "idEzid": "02089382192@10",
+              "id": "E78.9"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 288,
+        "order": 86,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
+            "props": {
+              "id": "I10.00",
+              "idEzid": "02089398180@10",
               "idClassid": "diagnoza"
             }
           },
@@ -1267,9 +1314,9 @@
             "value": "[H0004] Kontrolné vyšetrenie u poistenca s arteriálnou hypertenziou jeden krát za 6 mesiacov",
             "props": {
               "propBody": 0,
-              "id": "H0004",
+              "idClassid": "vykon",
               "idEzid": "02089725754@9",
-              "idClassid": "vykon"
+              "id": "H0004"
             }
           },
           "count": {
@@ -1288,11 +1335,11 @@
           "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propBody": 550,
               "propType": "SVaLZ",
-              "id": 5702,
+              "propBody": 550,
+              "idClassid": "vykon",
               "idEzid": "00000494187@8",
-              "idClassid": "vykon"
+              "id": 5702
             }
           },
           "count": {
@@ -1312,9 +1359,9 @@
             "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
+              "id": "H0006",
               "idEzid": "02089725770@9",
-              "id": "H0006"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1334,9 +1381,9 @@
             "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
               "propBody": 180,
-              "idClassid": "vykon",
+              "id": 10,
               "idEzid": "00000466565@9",
-              "id": 10
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1355,11 +1402,33 @@
           "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 550,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5702,
               "idEzid": "00000494187@9",
-              "id": 5702
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 289,
+        "order": 87,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[Y0042] Iniciálne a&nbsp;kontrolné vyšetrenie u&nbsp;kapitovaného poistenca s&nbsp;dyslipidémiou",
+            "props": {
+              "propBody": 0,
+              "id": "Y0042",
+              "idEzid": "curo-Y0042@9",
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1424,7 +1493,7 @@
     "p": [
       {
         "id": 96,
-        "order": 85,
+        "order": 89,
         "props": {
           "type": "p"
         },
@@ -1434,9 +1503,9 @@
             "props": {}
           },
           "at": {
-            "value": "22.03.2019 01:17",
+            "value": "01.04.2019 22:57",
             "props": {
-              "propValue": "2019-03-22T00:17:19.894Z",
+              "propValue": "2019-04-01T20:57:48.948Z",
               "expr": "=+5m"
             }
           },

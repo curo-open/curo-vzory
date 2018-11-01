@@ -816,7 +816,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? zp == 25 &amp;&amp; vek &gt;= 50}}<br>",
+            "value": "{{ ? (zp == 25 &amp;&amp; vek &gt;= 50) || (zp == 27 &amp;&amp; vek &gt;= 40)}}<br>",
             "props": {}
           }
         }
@@ -1057,33 +1057,7 @@
       },
       {
         "id": 1028,
-        "order": 125,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1029,
         "order": 126,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp == 27 &amp;&amp; vek == 18}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1031,
-        "order": 128,
         "props": {
           "type": "t"
         },
@@ -1096,7 +1070,7 @@
       },
       {
         "id": 1032,
-        "order": 129,
+        "order": 127,
         "props": {
           "type": "t"
         },
@@ -1109,7 +1083,7 @@
       },
       {
         "id": 1049,
-        "order": 132,
+        "order": 130,
         "props": {
           "type": "t"
         },
@@ -1122,7 +1096,7 @@
       },
       {
         "id": 1048,
-        "order": 133,
+        "order": 131,
         "props": {
           "type": "t"
         },
@@ -1135,7 +1109,7 @@
       },
       {
         "id": 1037,
-        "order": 136,
+        "order": 134,
         "props": {
           "type": "t"
         },
@@ -1148,7 +1122,7 @@
       },
       {
         "id": 1052,
-        "order": 137,
+        "order": 135,
         "props": {
           "type": "t"
         },
@@ -1161,7 +1135,7 @@
       },
       {
         "id": 1054,
-        "order": 141,
+        "order": 139,
         "props": {
           "type": "t"
         },
@@ -1174,7 +1148,7 @@
       },
       {
         "id": 1041,
-        "order": 142,
+        "order": 140,
         "props": {
           "type": "t"
         },
@@ -1187,7 +1161,7 @@
       },
       {
         "id": 1043,
-        "order": 144,
+        "order": 142,
         "props": {
           "type": "t"
         },
@@ -1200,7 +1174,7 @@
       },
       {
         "id": 1045,
-        "order": 146,
+        "order": 144,
         "props": {
           "type": "t"
         },
@@ -1812,9 +1786,9 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z00.0",
               "idEzid": "02089520809@9",
-              "id": "Z00.0"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1833,9 +1807,9 @@
           "id": {
             "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
             "props": {
-              "id": "Z12.1",
+              "idClassid": "diagnoza",
               "idEzid": "02089521690@9",
-              "idClassid": "diagnoza"
+              "id": "Z12.1"
             }
           },
           "text": {
@@ -1854,9 +1828,9 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z00.0",
               "idEzid": "02089520809@9",
-              "id": "Z00.0"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1875,9 +1849,9 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "id": "Z00.0",
+              "idClassid": "diagnoza",
               "idEzid": "02089520809@10",
-              "idClassid": "diagnoza"
+              "id": "Z00.0"
             }
           },
           "text": {
@@ -1896,9 +1870,9 @@
           "id": {
             "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
             "props": {
-              "id": "Z12.1",
+              "idClassid": "diagnoza",
               "idEzid": "02089521690@9",
-              "idClassid": "diagnoza"
+              "id": "Z12.1"
             }
           },
           "text": {
@@ -1917,9 +1891,9 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "id": "Z00.0",
+              "idClassid": "diagnoza",
               "idEzid": "02089520809@9",
-              "idClassid": "diagnoza"
+              "id": "Z00.0"
             }
           },
           "text": {
@@ -1938,9 +1912,9 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z00.0",
               "idEzid": "02089520809@9",
-              "id": "Z00.0"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1962,9 +1936,9 @@
             "value": "[160] Základná preventívna prehliadka. Výkon obsahuje komplexné vyšetrenie v rámci základnej preventívnej prehliadky vrátane prehliadky v rámci prevencie kardiovaskulárnych chorôb. Obsah vyšetrenia je zhodný s výkonom pod kódom 60. Výkon môže vykazovať lek",
             "props": {
               "propBody": 350,
-              "idClassid": "vykon",
+              "id": 160,
               "idEzid": "00000467373@8",
-              "id": 160
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1976,250 +1950,6 @@
       {
         "id": 1001,
         "order": 92,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
-            "props": {
-              "propBody": 550,
-              "propType": "SVaLZ",
-              "id": 5702,
-              "idEzid": "00000494187@8",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1007,
-        "order": 96,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[159] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonom podľa č. 157, 158 a 160. Výkon môže vykazovať lekár so špecializáciou všeobecné lekárstvo",
-            "props": {
-              "propBody": 0,
-              "idClassid": "vykon",
-              "idEzid": "02089691345@8",
-              "id": 159
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1012,
-        "order": 101,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[160] Základná preventívna prehliadka. Výkon obsahuje komplexné vyšetrenie v rámci základnej preventívnej prehliadky vrátane prehliadky v rámci prevencie kardiovaskulárnych chorôb. Obsah vyšetrenia je zhodný s výkonom pod kódom 60. Výkon môže vykazovať lek",
-            "props": {
-              "propBody": 350,
-              "idClassid": "vykon",
-              "idEzid": "00000467373@8",
-              "id": 160
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1015,
-        "order": 104,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5702P] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
-            "props": {
-              "propBody": 550,
-              "idClassid": "vykon",
-              "idEzid": "02089719112@8",
-              "id": "5702P"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1139,
-        "order": 109,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
-            "props": {
-              "propBody": 0,
-              "id": "H0006",
-              "idEzid": "02089725770@9",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1017,
-        "order": 114,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[159] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonom podľa č. 157, 158 a 160. Výkon môže vykazovať lekár so špecializáciou všeobecné lekárstvo",
-            "props": {
-              "propBody": 0,
-              "idClassid": "vykon",
-              "idEzid": "02089691345@8",
-              "id": 159
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1022,
-        "order": 119,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[H0008] Stanovenie indexu ABI oscilometrickou metódou",
-            "props": {
-              "propBody": 0,
-              "id": "H0008",
-              "idEzid": "02089552141@8",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1026,
-        "order": 123,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[160] Základná preventívna prehliadka. Výkon obsahuje komplexné vyšetrenie v rámci základnej preventívnej prehliadky vrátane prehliadky v rámci prevencie kardiovaskulárnych chorôb. Obsah vyšetrenia je zhodný s výkonom pod kódom 60. Výkon môže vykazovať lek",
-            "props": {
-              "propBody": 350,
-              "idClassid": "vykon",
-              "idEzid": "00000467373@8",
-              "id": 160
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1027,
-        "order": 124,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[3671] Glukóza",
-            "props": {
-              "propType": "SVaLZ",
-              "propBody": 40,
-              "id": 3671,
-              "idEzid": "00000479568@8",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1030,
-        "order": 127,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[159b] Preventívne vyšetrenie celkového cholesterolu v 11. a 17. roku života a celkového cholesterolu a triacylglycerolov v 40. roku života. Okrem odberu sa vykazuje cielená anamnéza, posúdenie genetickej záťaže, posúdenie laboratórnych výsledkov, v prípade",
-            "props": {
-              "propBody": 100,
-              "id": "159b",
-              "idEzid": "00000467365@8",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1033,
-        "order": 130,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[159b] Preventívne vyšetrenie celkového cholesterolu v 11. a 17. roku života a celkového cholesterolu a triacylglycerolov v 40. roku života. Okrem odberu sa vykazuje cielená anamnéza, posúdenie genetickej záťaže, posúdenie laboratórnych výsledkov, v prípade",
-            "props": {
-              "propBody": 100,
-              "id": "159b",
-              "idEzid": "00000467365@8",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1034,
-        "order": 131,
         "props": {
           "type": "vv"
         },
@@ -2241,8 +1971,8 @@
         }
       },
       {
-        "id": 1035,
-        "order": 134,
+        "id": 1007,
+        "order": 96,
         "props": {
           "type": "vv"
         },
@@ -2251,9 +1981,253 @@
             "value": "[159] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonom podľa č. 157, 158 a 160. Výkon môže vykazovať lekár so špecializáciou všeobecné lekárstvo",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
+              "id": 159,
               "idEzid": "02089691345@8",
-              "id": 159
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1012,
+        "order": 101,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[160] Základná preventívna prehliadka. Výkon obsahuje komplexné vyšetrenie v rámci základnej preventívnej prehliadky vrátane prehliadky v rámci prevencie kardiovaskulárnych chorôb. Obsah vyšetrenia je zhodný s výkonom pod kódom 60. Výkon môže vykazovať lek",
+            "props": {
+              "propBody": 350,
+              "id": 160,
+              "idEzid": "00000467373@8",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1015,
+        "order": 104,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5702P] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
+            "props": {
+              "propBody": 550,
+              "id": "5702P",
+              "idEzid": "02089719112@8",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1139,
+        "order": 109,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
+            "props": {
+              "propBody": 0,
+              "idClassid": "vykon",
+              "idEzid": "02089725770@9",
+              "id": "H0006"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1017,
+        "order": 114,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[159] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonom podľa č. 157, 158 a 160. Výkon môže vykazovať lekár so špecializáciou všeobecné lekárstvo",
+            "props": {
+              "propBody": 0,
+              "id": 159,
+              "idEzid": "02089691345@8",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1022,
+        "order": 119,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[H0008] Stanovenie indexu ABI oscilometrickou metódou",
+            "props": {
+              "propBody": 0,
+              "idClassid": "vykon",
+              "idEzid": "02089552141@8",
+              "id": "H0008"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1026,
+        "order": 123,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[160] Základná preventívna prehliadka. Výkon obsahuje komplexné vyšetrenie v rámci základnej preventívnej prehliadky vrátane prehliadky v rámci prevencie kardiovaskulárnych chorôb. Obsah vyšetrenia je zhodný s výkonom pod kódom 60. Výkon môže vykazovať lek",
+            "props": {
+              "propBody": 350,
+              "id": 160,
+              "idEzid": "00000467373@8",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1027,
+        "order": 124,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[3671] Glukóza",
+            "props": {
+              "propBody": 40,
+              "propType": "SVaLZ",
+              "idClassid": "vykon",
+              "idEzid": "00000479568@8",
+              "id": 3671
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1030,
+        "order": 125,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[159b] Preventívne vyšetrenie celkového cholesterolu v 11. a 17. roku života a celkového cholesterolu a triacylglycerolov v 40. roku života. Okrem odberu sa vykazuje cielená anamnéza, posúdenie genetickej záťaže, posúdenie laboratórnych výsledkov, v prípade",
+            "props": {
+              "propBody": 100,
+              "idClassid": "vykon",
+              "idEzid": "00000467365@8",
+              "id": "159b"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1034,
+        "order": 128,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
+            "props": {
+              "propBody": 550,
+              "propType": "SVaLZ",
+              "id": 5702,
+              "idEzid": "00000494187@8",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1143,
+        "order": 129,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[H0008] Stanovenie indexu ABI oscilometrickou metódou",
+            "props": {
+              "propBody": 0,
+              "idClassid": "vykon",
+              "idEzid": "02089552141@9",
+              "id": "H0008"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1035,
+        "order": 132,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[159] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonom podľa č. 157, 158 a 160. Výkon môže vykazovať lekár so špecializáciou všeobecné lekárstvo",
+            "props": {
+              "propBody": 0,
+              "id": 159,
+              "idEzid": "02089691345@8",
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -2264,7 +2238,7 @@
       },
       {
         "id": 1038,
-        "order": 138,
+        "order": 136,
         "props": {
           "type": "vv"
         },
@@ -2273,9 +2247,9 @@
             "value": "[250a] Odobratie krvi venepunkciou do jednej striekačky alebo do jednej skúmavky, vrátane odberovej súpravy, za každú súpravu.",
             "props": {
               "propBody": 80,
-              "id": "250a",
+              "idClassid": "vykon",
               "idEzid": "00000467803@8",
-              "idClassid": "vykon"
+              "id": "250a"
             }
           },
           "count": {
@@ -2286,7 +2260,7 @@
       },
       {
         "id": 1039,
-        "order": 139,
+        "order": 137,
         "props": {
           "type": "vv"
         },
@@ -2294,11 +2268,11 @@
           "id": {
             "value": "[3592] stanovenie sedimentačnej rýchlosti krviniek",
             "props": {
-              "propBody": 50,
               "propType": "SVaLZ",
-              "id": 3592,
+              "propBody": 50,
+              "idClassid": "vykon",
               "idEzid": "00000479048@8",
-              "idClassid": "vykon"
+              "id": 3592
             }
           },
           "count": {
@@ -2309,7 +2283,7 @@
       },
       {
         "id": 1040,
-        "order": 140,
+        "order": 138,
         "props": {
           "type": "vv"
         },
@@ -2317,11 +2291,11 @@
           "id": {
             "value": "[3525] Kompletný dôkaz základných patologických súčastí moču, za každú vzorku od pacienta",
             "props": {
-              "propBody": 50,
               "propType": "SVaLZ",
-              "id": 3525,
+              "propBody": 50,
+              "idClassid": "vykon",
               "idEzid": "00000478560@8",
-              "idClassid": "vykon"
+              "id": 3525
             }
           },
           "count": {
@@ -2344,9 +2318,9 @@
             "props": {}
           },
           "at": {
-            "value": "28.10.2018 12:51",
+            "value": "01.11.2018 22:39",
             "props": {
-              "propValue": "2018-10-28T11:51:27.816Z",
+              "propValue": "2018-11-01T21:39:10.192Z",
               "expr": "=teraz"
             }
           },
@@ -2374,9 +2348,9 @@
             "props": {}
           },
           "at": {
-            "value": "28.10.2018 12:51",
+            "value": "01.11.2018 22:39",
             "props": {
-              "propValue": "2018-10-28T11:51:27.819Z",
+              "propValue": "2018-11-01T21:39:10.194Z",
               "expr": "=teraz"
             }
           },
@@ -2394,7 +2368,7 @@
       },
       {
         "id": 1036,
-        "order": 135,
+        "order": 133,
         "props": {
           "type": "p"
         },
@@ -2404,9 +2378,9 @@
             "props": {}
           },
           "at": {
-            "value": "28.10.2018 12:51",
+            "value": "01.11.2018 22:39",
             "props": {
-              "propValue": "2018-10-28T11:51:27.819Z",
+              "propValue": "2018-11-01T21:39:10.196Z",
               "expr": "=teraz"
             }
           },
@@ -2457,7 +2431,7 @@
     "z": [
       {
         "id": 1042,
-        "order": 143,
+        "order": 141,
         "props": {
           "type": "z"
         },
@@ -2470,7 +2444,7 @@
       },
       {
         "id": 1044,
-        "order": 145,
+        "order": 143,
         "props": {
           "type": "z"
         },
