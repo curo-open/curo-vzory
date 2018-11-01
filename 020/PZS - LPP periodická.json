@@ -23,7 +23,7 @@
             }
           },
           "value": {
-            "value": "Pracovná zdravotná služba s. r.o., Staničná 9, 058 01 Poprad",
+            "value": "Pracovná zdravotná služba",
             "props": {}
           }
         }
@@ -57,14 +57,14 @@
         },
         "value": {
           "t": {
-            "value": "Zamestnávateľ:  <br>Pracovné zaradenie: <br>",
+            "value": "Zamestnávateľ:  <br>Pracovné zaradenie: <br>Faktory práce a pracovného prostredia:<br>Kategória práce:<br>Práca podľa osobitných predpisov:<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 149,
-        "order": 3,
+        "id": 224,
+        "order": 4,
         "props": {
           "type": "t"
         },
@@ -76,8 +76,8 @@
         }
       },
       {
-        "id": 151,
-        "order": 5,
+        "id": 226,
+        "order": 6,
         "props": {
           "type": "t"
         },
@@ -89,8 +89,8 @@
         }
       },
       {
-        "id": 152,
-        "order": 6,
+        "id": 227,
+        "order": 7,
         "props": {
           "type": "t"
         },
@@ -102,8 +102,8 @@
         }
       },
       {
-        "id": 154,
-        "order": 8,
+        "id": 229,
+        "order": 9,
         "props": {
           "type": "t"
         },
@@ -115,8 +115,8 @@
         }
       },
       {
-        "id": 155,
-        "order": 9,
+        "id": 230,
+        "order": 10,
         "props": {
           "type": "t"
         },
@@ -128,8 +128,8 @@
         }
       },
       {
-        "id": 157,
-        "order": 11,
+        "id": 232,
+        "order": 12,
         "props": {
           "type": "t"
         },
@@ -141,99 +141,73 @@
         }
       },
       {
-        "id": 158,
-        "order": 12,
+        "id": 233,
+        "order": 13,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0 &amp;&amp; !(sessions|getSections(\"la\")|where(\"i==0\")|trans(\"length\") &gt; 0) }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"la\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 160,
-        "order": 14,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 161,
+        "id": 235,
         "order": 15,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? sessions|getSections(\"la\")|where(\"i==0\")|trans(\"length\") &gt; 0}}<br>",
+            "value": "{{ &lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 162,
+        "id": 236,
         "order": 16,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"la\")|where(\"i==0\")}}<br>",
+            "value": "{{ ? sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 163,
+        "id": 237,
         "order": 17,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
+            "value": "{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 164,
+        "id": 238,
         "order": 18,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? !sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0 &amp;&amp; !sessions|getSections(\"la\")|where(\"i==0\")|trans(\"length\") &gt; 0}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 166,
-        "order": 20,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
             "value": "{{ ? }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 167,
-        "order": 21,
+        "id": 239,
+        "order": 19,
         "props": {
           "type": "t"
         },
@@ -245,8 +219,8 @@
         }
       },
       {
-        "id": 169,
-        "order": 23,
+        "id": 241,
+        "order": 21,
         "props": {
           "type": "t"
         },
@@ -258,21 +232,21 @@
         }
       },
       {
-        "id": 170,
-        "order": 24,
+        "id": 242,
+        "order": 22,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? pohlavie == \"female\"  &amp;&amp; sessions|getSections(\"ga\")|where(\"i==0\")}}<br>",
+            "value": "{{ ? pohlavie == \"female\" &amp;&amp; sessions|getSections(\"ga\")|trans(\"length\") &gt; 0}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 171,
-        "order": 25,
+        "id": 243,
+        "order": 23,
         "props": {
           "type": "t"
         },
@@ -284,21 +258,34 @@
         }
       },
       {
-        "id": 172,
-        "order": 26,
+        "id": 244,
+        "order": 24,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{ ? }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 174,
-        "order": 28,
+        "id": 245,
+        "order": 25,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pohlavie == \"female\" &amp;&amp; !sessions|getSections(\"ga\")|trans(\"length\") &gt; 0}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 247,
+        "order": 27,
         "props": {
           "type": "t"
         },
@@ -311,7 +298,7 @@
       },
       {
         "id": 176,
-        "order": 30,
+        "order": 29,
         "props": {
           "type": "t"
         },
@@ -324,7 +311,7 @@
       },
       {
         "id": 180,
-        "order": 34,
+        "order": 33,
         "props": {
           "type": "t"
         },
@@ -337,7 +324,7 @@
       },
       {
         "id": 182,
-        "order": 36,
+        "order": 35,
         "props": {
           "type": "t"
         },
@@ -350,7 +337,7 @@
       },
       {
         "id": 183,
-        "order": 37,
+        "order": 36,
         "props": {
           "type": "t"
         },
@@ -363,7 +350,7 @@
       },
       {
         "id": 185,
-        "order": 39,
+        "order": 38,
         "props": {
           "type": "t"
         },
@@ -376,7 +363,7 @@
       },
       {
         "id": 186,
-        "order": 40,
+        "order": 39,
         "props": {
           "type": "t"
         },
@@ -389,7 +376,7 @@
       },
       {
         "id": 188,
-        "order": 42,
+        "order": 41,
         "props": {
           "type": "t"
         },
@@ -402,7 +389,7 @@
       },
       {
         "id": 189,
-        "order": 43,
+        "order": 42,
         "props": {
           "type": "t"
         },
@@ -415,7 +402,7 @@
       },
       {
         "id": 191,
-        "order": 45,
+        "order": 44,
         "props": {
           "type": "t"
         },
@@ -428,7 +415,7 @@
       },
       {
         "id": 192,
-        "order": 46,
+        "order": 45,
         "props": {
           "type": "t"
         },
@@ -441,7 +428,7 @@
       },
       {
         "id": 194,
-        "order": 48,
+        "order": 47,
         "props": {
           "type": "t"
         },
@@ -454,7 +441,7 @@
       },
       {
         "id": 195,
-        "order": 49,
+        "order": 48,
         "props": {
           "type": "t"
         },
@@ -467,7 +454,7 @@
       },
       {
         "id": 197,
-        "order": 51,
+        "order": 50,
         "props": {
           "type": "t"
         },
@@ -480,7 +467,7 @@
       },
       {
         "id": 198,
-        "order": 52,
+        "order": 51,
         "props": {
           "type": "t"
         },
@@ -493,7 +480,7 @@
       },
       {
         "id": 200,
-        "order": 54,
+        "order": 53,
         "props": {
           "type": "t"
         },
@@ -506,7 +493,7 @@
       },
       {
         "id": 201,
-        "order": 55,
+        "order": 54,
         "props": {
           "type": "t"
         },
@@ -519,7 +506,7 @@
       },
       {
         "id": 203,
-        "order": 57,
+        "order": 56,
         "props": {
           "type": "t"
         },
@@ -532,7 +519,7 @@
       },
       {
         "id": 204,
-        "order": 58,
+        "order": 57,
         "props": {
           "type": "t"
         },
@@ -545,7 +532,7 @@
       },
       {
         "id": 206,
-        "order": 60,
+        "order": 59,
         "props": {
           "type": "t"
         },
@@ -558,7 +545,7 @@
       },
       {
         "id": 207,
-        "order": 61,
+        "order": 60,
         "props": {
           "type": "t"
         },
@@ -571,7 +558,7 @@
       },
       {
         "id": 209,
-        "order": 63,
+        "order": 62,
         "props": {
           "type": "t"
         },
@@ -584,7 +571,7 @@
       },
       {
         "id": 210,
-        "order": 64,
+        "order": 63,
         "props": {
           "type": "t"
         },
@@ -597,7 +584,7 @@
       },
       {
         "id": 212,
-        "order": 66,
+        "order": 65,
         "props": {
           "type": "t"
         },
@@ -610,7 +597,7 @@
       },
       {
         "id": 213,
-        "order": 67,
+        "order": 66,
         "props": {
           "type": "t"
         },
@@ -623,7 +610,7 @@
       },
       {
         "id": 215,
-        "order": 69,
+        "order": 68,
         "props": {
           "type": "t"
         },
@@ -636,7 +623,7 @@
       },
       {
         "id": 216,
-        "order": 70,
+        "order": 69,
         "props": {
           "type": "t"
         },
@@ -649,7 +636,7 @@
       },
       {
         "id": 217,
-        "order": 71,
+        "order": 70,
         "props": {
           "type": "t"
         },
@@ -662,13 +649,28 @@
       },
       {
         "id": 218,
-        "order": 72,
+        "order": 71,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"td\")}}<br>",
+            "value": "{{&lt; sessions|getSections(\"td\")|trans('text')}}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 249,
+        "order": 3,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "Cíti sa dobre, dýcha sa dobre, nekašle denne, belenie, modrenie rúk neudáva, bolesti klbov ruk a lakťov neudáva, trpnutie ruk neudáva. Bez bolestí chrbtice. Šepot počuje. <br>",
             "props": {}
           }
         }
@@ -676,13 +678,17 @@
     ],
     "ra": [
       {
-        "id": 150,
-        "order": 4,
+        "id": 225,
+        "order": 5,
         "props": {
           "type": "ra"
         },
         "value": {
           "text": {
+            "value": "",
+            "props": {}
+          },
+          "kvo": {
             "value": "",
             "props": {}
           }
@@ -691,8 +697,8 @@
     ],
     "oa": [
       {
-        "id": 153,
-        "order": 7,
+        "id": 228,
+        "order": 8,
         "props": {
           "type": "oa"
         },
@@ -706,8 +712,8 @@
     ],
     "sa": [
       {
-        "id": 156,
-        "order": 10,
+        "id": 231,
+        "order": 11,
         "props": {
           "type": "sa"
         },
@@ -721,21 +727,8 @@
     ],
     "la": [
       {
-        "id": 159,
-        "order": 13,
-        "props": {
-          "type": "la"
-        },
-        "value": {
-          "text": {
-            "value": "{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 165,
-        "order": 19,
+        "id": 234,
+        "order": 14,
         "props": {
           "type": "la"
         },
@@ -749,8 +742,8 @@
     ],
     "aa": [
       {
-        "id": 168,
-        "order": 22,
+        "id": 240,
+        "order": 20,
         "props": {
           "type": "aa"
         },
@@ -764,8 +757,8 @@
     ],
     "ga": [
       {
-        "id": 173,
-        "order": 27,
+        "id": 246,
+        "order": 26,
         "props": {
           "type": "ga"
         },
@@ -780,13 +773,13 @@
     "to": [
       {
         "id": 175,
-        "order": 29,
+        "order": 28,
         "props": {
           "type": "to"
         },
         "value": {
           "text": {
-            "value": "(vrátane predchádzajúcich zamestnaní):  Záťaž mimo zamestnania:<br>",
+            "value": "(vrátane predchádzajúcich zamestnaní):  <br>Záťaž mimo zamestnania:<br>",
             "props": {}
           }
         }
@@ -795,24 +788,20 @@
     "ab": [
       {
         "id": 177,
-        "order": 31,
+        "order": 30,
         "props": {
           "type": "ab"
         },
         "value": {
+          "fajciar": {
+            "value": "",
+            "props": {}
+          },
           "alkohol": {
             "value": "",
             "props": {}
           },
           "kava": {
-            "value": "",
-            "props": {}
-          },
-          "fajciar": {
-            "value": "",
-            "props": {}
-          },
-          "cigariet": {
             "value": "",
             "props": {}
           },
@@ -826,7 +815,7 @@
     "zfp": [
       {
         "id": 178,
-        "order": 32,
+        "order": 31,
         "props": {
           "type": "zfp"
         },
@@ -876,8 +865,10 @@
             "props": {}
           },
           "temp": {
-            "value": "",
-            "props": {}
+            "value": "36,5",
+            "props": {
+              "propValue": "36.50"
+            }
           }
         }
       }
@@ -885,13 +876,13 @@
     "o": [
       {
         "id": 179,
-        "order": 33,
+        "order": 32,
         "props": {
           "type": "o"
         },
         "value": {
           "o": {
-            "value": "",
+            "value": "{{&lt; sessions|getSections(\"oc\")|trans(\"text\")}}<br>",
             "props": {}
           }
         }
@@ -900,7 +891,7 @@
     "pv": [
       {
         "id": 181,
-        "order": 35,
+        "order": 34,
         "props": {
           "type": "pv"
         },
@@ -919,7 +910,7 @@
       },
       {
         "id": 184,
-        "order": 38,
+        "order": 37,
         "props": {
           "type": "pv"
         },
@@ -938,7 +929,7 @@
       },
       {
         "id": 187,
-        "order": 41,
+        "order": 40,
         "props": {
           "type": "pv"
         },
@@ -957,7 +948,7 @@
       },
       {
         "id": 190,
-        "order": 44,
+        "order": 43,
         "props": {
           "type": "pv"
         },
@@ -976,7 +967,7 @@
       },
       {
         "id": 193,
-        "order": 47,
+        "order": 46,
         "props": {
           "type": "pv"
         },
@@ -995,7 +986,7 @@
       },
       {
         "id": 196,
-        "order": 50,
+        "order": 49,
         "props": {
           "type": "pv"
         },
@@ -1014,7 +1005,7 @@
       },
       {
         "id": 199,
-        "order": 53,
+        "order": 52,
         "props": {
           "type": "pv"
         },
@@ -1033,7 +1024,7 @@
       },
       {
         "id": 202,
-        "order": 56,
+        "order": 55,
         "props": {
           "type": "pv"
         },
@@ -1052,7 +1043,7 @@
       },
       {
         "id": 205,
-        "order": 59,
+        "order": 58,
         "props": {
           "type": "pv"
         },
@@ -1071,7 +1062,7 @@
       },
       {
         "id": 208,
-        "order": 62,
+        "order": 61,
         "props": {
           "type": "pv"
         },
@@ -1090,7 +1081,7 @@
       },
       {
         "id": 211,
-        "order": 65,
+        "order": 64,
         "props": {
           "type": "pv"
         },
@@ -1110,14 +1101,14 @@
     ],
     "ekg": [
       {
-        "id": 214,
-        "order": 68,
+        "id": 222,
+        "order": 67,
         "props": {
           "type": "ekg"
         },
         "value": {
           "rytmus": {
-            "value": "sr",
+            "value": "SR",
             "props": {}
           },
           "fr": {
@@ -1153,7 +1144,11 @@
             "props": {}
           },
           "t": {
-            "value": "+",
+            "value": "pozitívne",
+            "props": {}
+          },
+          "hlk": {
+            "value": "",
             "props": {}
           },
           "poznamka": {
@@ -1170,13 +1165,13 @@
     "z": [
       {
         "id": 141,
-        "order": 73,
+        "order": 72,
         "props": {
           "type": "z"
         },
         "value": {
           "z": {
-            "value": "Spôsobilý na výkon práce v terajšom pracovnom zaradení bez obmedzení  \n\nNižšie podpísaný zamestnanec písomne prehlasujem, že všetky mnou uvedené údaje sú pravdivé, že som lekárovi nezamlčal/-a žiadne významné skutočnosti, ktoré súvisia s mojím zdravotným stavom pri výkone zamestnania u terajšieho zamestnávateľa. \nBol som poučený o poučený o potrebe dodržiavania odporúčaných preventívnych opatrení, liečby, event. odborných vyšetrení.\nSom si vedomý, že v opačnom prípade ponesiem všetky právne dôsledky, ak budú mať za  následok poškodenie zdravia súvisiace s prácou.\nPoučeniu som porozumel.<br>\nPodpis zamestnanca: ................ \tPodpis a pečiatka lekára: \t...................<br>",
+            "value": "Bez zdravotných ťažkostí v súvislosti s výkonom povolania. Spôsobilý na výkon práce v terajšom pracovnom zaradení bez obmedzení  \n\nNižšie podpísaný zamestnanec písomne prehlasujem, že všetky mnou uvedené údaje sú pravdivé, že som lekárovi nezamlčal/-a žiadne významné skutočnosti, ktoré súvisia s mojím zdravotným stavom pri výkone zamestnania u terajšieho zamestnávateľa. \nBol som poučený o poučený o potrebe dodržiavania odporúčaných preventívnych opatrení, liečby, event. odborných vyšetrení.\nSom si vedomý, že v opačnom prípade ponesiem všetky právne dôsledky, ak budú mať za  následok poškodenie zdravia súvisiace s prácou.\nPoučeniu som porozumel.<br>\nPodpis zamestnanca: ................ \tPodpis a pečiatka lekára: \t...................<br>",
             "props": {}
           }
         }
@@ -1186,7 +1181,9 @@
   "if": "",
   "summary": "PZS - LPP periodická",
   "tags": [],
-  "vars": {},
+  "vars": {
+    "nadpis": ""
+  },
   "type": "examination",
   "source": "curo-open/curo-vzory#/020"
 }

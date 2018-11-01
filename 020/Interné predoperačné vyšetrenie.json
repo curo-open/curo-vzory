@@ -64,7 +64,7 @@
         }
       },
       {
-        "id": 212,
+        "id": 317,
         "order": 4,
         "props": {
           "type": "t"
@@ -77,7 +77,7 @@
         }
       },
       {
-        "id": 213,
+        "id": 319,
         "order": 6,
         "props": {
           "type": "t"
@@ -90,7 +90,7 @@
         }
       },
       {
-        "id": 218,
+        "id": 320,
         "order": 7,
         "props": {
           "type": "t"
@@ -103,7 +103,7 @@
         }
       },
       {
-        "id": 214,
+        "id": 322,
         "order": 9,
         "props": {
           "type": "t"
@@ -116,7 +116,7 @@
         }
       },
       {
-        "id": 219,
+        "id": 323,
         "order": 10,
         "props": {
           "type": "t"
@@ -129,7 +129,7 @@
         }
       },
       {
-        "id": 215,
+        "id": 325,
         "order": 12,
         "props": {
           "type": "t"
@@ -142,59 +142,59 @@
         }
       },
       {
-        "id": 89,
+        "id": 326,
         "order": 13,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0 &amp;&amp; !(sessions|getSections(\"la\")|where(\"i==0\")|trans(\"length\") &gt; 0) }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"la\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 91,
+        "id": 328,
         "order": 15,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
+            "value": "{{ &lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 220,
+        "id": 329,
         "order": 16,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? sessions|getSections(\"la\")|where(\"i==0\")|trans(\"length\") &gt; 0}}<br>",
+            "value": "{{ ? sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 232,
+        "id": 330,
         "order": 17,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"la\")|where(\"i==0\")}}<br>",
+            "value": "{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 223,
+        "id": 331,
         "order": 18,
         "props": {
           "type": "t"
@@ -207,34 +207,8 @@
         }
       },
       {
-        "id": 225,
+        "id": 332,
         "order": 19,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? !sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0 &amp;&amp; !sessions|getSections(\"la\")|where(\"i==0\")|trans(\"length\") &gt; 0}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 97,
-        "order": 21,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 221,
-        "order": 22,
         "props": {
           "type": "t"
         },
@@ -246,8 +220,8 @@
         }
       },
       {
-        "id": 216,
-        "order": 24,
+        "id": 334,
+        "order": 21,
         "props": {
           "type": "t"
         },
@@ -259,21 +233,21 @@
         }
       },
       {
-        "id": 103,
-        "order": 25,
+        "id": 335,
+        "order": 22,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? pohlavie == \"female\"  &amp;&amp; sessions|getSections(\"ga\")|where(\"i==0\")}}<br>",
+            "value": "{{ ? pohlavie == \"female\" &amp;&amp; sessions|getSections(\"ga\")|trans(\"length\") &gt; 0}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 224,
-        "order": 26,
+        "id": 336,
+        "order": 23,
         "props": {
           "type": "t"
         },
@@ -285,21 +259,8 @@
         }
       },
       {
-        "id": 217,
-        "order": 27,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 108,
-        "order": 29,
+        "id": 337,
+        "order": 24,
         "props": {
           "type": "t"
         },
@@ -311,8 +272,34 @@
         }
       },
       {
-        "id": 125,
-        "order": 33,
+        "id": 338,
+        "order": 25,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pohlavie == \"female\" &amp;&amp; !sessions|getSections(\"ga\")|trans(\"length\") &gt; 0}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 340,
+        "order": 27,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 263,
+        "order": 31,
         "props": {
           "type": "t"
         },
@@ -324,21 +311,47 @@
         }
       },
       {
-        "id": 129,
-        "order": 35,
+        "id": 265,
+        "order": 33,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ &lt;? }}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 130,
+        "id": 266,
+        "order": 34,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Vitálne funkcie'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 268,
         "order": 36,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 269,
+        "order": 37,
         "props": {
           "type": "t"
         },
@@ -350,21 +363,21 @@
         }
       },
       {
-        "id": 134,
-        "order": 38,
+        "id": 271,
+        "order": 39,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ &lt;? }}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 136,
-        "order": 39,
+        "id": 272,
+        "order": 40,
         "props": {
           "type": "t"
         },
@@ -376,21 +389,21 @@
         }
       },
       {
-        "id": 139,
-        "order": 41,
+        "id": 274,
+        "order": 42,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ &lt;? }}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 141,
-        "order": 42,
+        "id": 275,
+        "order": 43,
         "props": {
           "type": "t"
         },
@@ -402,21 +415,21 @@
         }
       },
       {
-        "id": 144,
-        "order": 44,
+        "id": 277,
+        "order": 45,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ &lt;? }}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 146,
-        "order": 45,
+        "id": 278,
+        "order": 46,
         "props": {
           "type": "t"
         },
@@ -428,21 +441,21 @@
         }
       },
       {
-        "id": 149,
-        "order": 47,
+        "id": 280,
+        "order": 48,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ &lt;? }}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 151,
-        "order": 48,
+        "id": 281,
+        "order": 49,
         "props": {
           "type": "t"
         },
@@ -454,21 +467,21 @@
         }
       },
       {
-        "id": 154,
-        "order": 50,
+        "id": 283,
+        "order": 51,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ &lt;? }}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 156,
-        "order": 51,
+        "id": 284,
+        "order": 52,
         "props": {
           "type": "t"
         },
@@ -480,21 +493,73 @@
         }
       },
       {
-        "id": 159,
-        "order": 53,
+        "id": 286,
+        "order": 54,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ &lt;? }}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 161,
-        "order": 54,
+        "id": 287,
+        "order": 55,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Pľúca'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 289,
+        "order": 57,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 290,
+        "order": 58,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Srdce'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 292,
+        "order": 60,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 293,
+        "order": 61,
         "props": {
           "type": "t"
         },
@@ -506,21 +571,21 @@
         }
       },
       {
-        "id": 164,
-        "order": 56,
+        "id": 295,
+        "order": 63,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ &lt;? }}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 166,
-        "order": 57,
+        "id": 296,
+        "order": 64,
         "props": {
           "type": "t"
         },
@@ -532,21 +597,73 @@
         }
       },
       {
-        "id": 169,
-        "order": 59,
+        "id": 298,
+        "order": 66,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ &lt;? }}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 171,
-        "order": 60,
+        "id": 299,
+        "order": 67,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Dolné končatiny'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 301,
+        "order": 69,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 302,
+        "order": 70,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Lokomočný aparát'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 304,
+        "order": 72,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 305,
+        "order": 73,
         "props": {
           "type": "t"
         },
@@ -558,21 +675,21 @@
         }
       },
       {
-        "id": 174,
-        "order": 62,
+        "id": 307,
+        "order": 75,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ &lt;? }}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 176,
-        "order": 63,
+        "id": 308,
+        "order": 76,
         "props": {
           "type": "t"
         },
@@ -584,21 +701,47 @@
         }
       },
       {
-        "id": 179,
-        "order": 65,
+        "id": 310,
+        "order": 78,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ &lt;? }}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 181,
-        "order": 66,
+        "id": 311,
+        "order": 79,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"b-lv\")|where(\"i==0\")|trans('text')}} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 312,
+        "order": 80,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"td\")|trans('text')}} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 313,
+        "order": 81,
         "props": {
           "type": "t"
         },
@@ -610,21 +753,21 @@
         }
       },
       {
-        "id": 184,
-        "order": 68,
+        "id": 315,
+        "order": 83,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ &lt;? }}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 211,
-        "order": 69,
+        "order": 84,
         "props": {
           "type": "t"
         },
@@ -637,7 +780,7 @@
       },
       {
         "id": 185,
-        "order": 70,
+        "order": 85,
         "props": {
           "type": "t"
         },
@@ -650,7 +793,7 @@
       },
       {
         "id": 187,
-        "order": 72,
+        "order": 87,
         "props": {
           "type": "t"
         },
@@ -663,7 +806,7 @@
       },
       {
         "id": 226,
-        "order": 74,
+        "order": 89,
         "props": {
           "type": "t"
         },
@@ -676,7 +819,7 @@
       },
       {
         "id": 228,
-        "order": 76,
+        "order": 91,
         "props": {
           "type": "t"
         },
@@ -689,7 +832,7 @@
       },
       {
         "id": 196,
-        "order": 77,
+        "order": 92,
         "props": {
           "type": "t"
         },
@@ -702,7 +845,7 @@
       },
       {
         "id": 197,
-        "order": 79,
+        "order": 94,
         "props": {
           "type": "t"
         },
@@ -715,7 +858,7 @@
       },
       {
         "id": 198,
-        "order": 80,
+        "order": 95,
         "props": {
           "type": "t"
         },
@@ -728,7 +871,7 @@
       },
       {
         "id": 200,
-        "order": 82,
+        "order": 97,
         "props": {
           "type": "t"
         },
@@ -741,7 +884,7 @@
       },
       {
         "id": 189,
-        "order": 84,
+        "order": 99,
         "props": {
           "type": "t"
         },
@@ -770,14 +913,18 @@
     ],
     "ra": [
       {
-        "id": 77,
+        "id": 318,
         "order": 5,
         "props": {
           "type": "ra"
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "",
+            "props": {}
+          },
+          "kvo": {
+            "value": "",
             "props": {}
           }
         }
@@ -785,14 +932,14 @@
     ],
     "oa": [
       {
-        "id": 82,
+        "id": 321,
         "order": 8,
         "props": {
           "type": "oa"
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -800,14 +947,14 @@
     ],
     "sa": [
       {
-        "id": 87,
+        "id": 324,
         "order": 11,
         "props": {
           "type": "sa"
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -815,27 +962,14 @@
     ],
     "la": [
       {
-        "id": 90,
+        "id": 327,
         "order": 14,
         "props": {
           "type": "la"
         },
         "value": {
           "text": {
-            "value": "{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 96,
-        "order": 20,
-        "props": {
-          "type": "la"
-        },
-        "value": {
-          "text": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -843,14 +977,14 @@
     ],
     "aa": [
       {
-        "id": 101,
-        "order": 23,
+        "id": 333,
+        "order": 20,
         "props": {
           "type": "aa"
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -858,44 +992,13 @@
     ],
     "ga": [
       {
-        "id": 107,
-        "order": 28,
+        "id": 339,
+        "order": 26,
         "props": {
           "type": "ga"
         },
         "value": {
           "text": {
-            "value": "<br>",
-            "props": {}
-          }
-        }
-      }
-    ],
-    "ab": [
-      {
-        "id": 116,
-        "order": 30,
-        "props": {
-          "type": "ab"
-        },
-        "value": {
-          "alkohol": {
-            "value": "",
-            "props": {}
-          },
-          "kava": {
-            "value": "",
-            "props": {}
-          },
-          "fajciar": {
-            "value": "",
-            "props": {}
-          },
-          "cigariet": {
-            "value": "",
-            "props": {}
-          },
-          "drogy": {
             "value": "",
             "props": {}
           }
@@ -904,8 +1007,8 @@
     ],
     "zfp": [
       {
-        "id": 121,
-        "order": 31,
+        "id": 260,
+        "order": 28,
         "props": {
           "type": "zfp"
         },
@@ -955,6 +1058,35 @@
             "props": {}
           },
           "temp": {
+            "value": "36,5",
+            "props": {
+              "propValue": "36.50"
+            }
+          }
+        }
+      }
+    ],
+    "ab": [
+      {
+        "id": 261,
+        "order": 29,
+        "props": {
+          "type": "ab"
+        },
+        "value": {
+          "fajciar": {
+            "value": "",
+            "props": {}
+          },
+          "alkohol": {
+            "value": "",
+            "props": {}
+          },
+          "kava": {
+            "value": "",
+            "props": {}
+          },
+          "drogy": {
             "value": "",
             "props": {}
           }
@@ -963,14 +1095,14 @@
     ],
     "o": [
       {
-        "id": 124,
-        "order": 32,
+        "id": 262,
+        "order": 30,
         "props": {
           "type": "o"
         },
         "value": {
           "o": {
-            "value": "  <br>",
+            "value": "{{&lt; sessions|getSections(\"oc\")|trans(\"text\")}}<br>",
             "props": {}
           }
         }
@@ -978,8 +1110,8 @@
     ],
     "pv": [
       {
-        "id": 128,
-        "order": 34,
+        "id": 264,
+        "order": 32,
         "props": {
           "type": "pv"
         },
@@ -997,8 +1129,27 @@
         }
       },
       {
-        "id": 133,
-        "order": 37,
+        "id": 267,
+        "order": 35,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Vitálne funkcie",
+            "props": {
+              "propValue": "Vitálne funkcie"
+            }
+          },
+          "popis": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 270,
+        "order": 38,
         "props": {
           "type": "pv"
         },
@@ -1010,14 +1161,14 @@
             }
           },
           "popis": {
-            "value": "VOD:  5/5    VOS: 5 /5     Farbocit: správny",
+            "value": "VOD:  5/5    VOS: 5 /5     Farbocit: správny<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 138,
-        "order": 40,
+        "id": 273,
+        "order": 41,
         "props": {
           "type": "pv"
         },
@@ -1029,14 +1180,14 @@
             }
           },
           "popis": {
-            "value": "v norme",
+            "value": "v norme<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 143,
-        "order": 43,
+        "id": 276,
+        "order": 44,
         "props": {
           "type": "pv"
         },
@@ -1048,14 +1199,14 @@
             }
           },
           "popis": {
-            "value": "mezocef. na poklop nebolestivá, výstupy  hl.nn. nebolestivé, šija voľná neoponuje, zrenice izokorické, FR výbavná, uši, nos bez výtoku",
+            "value": "mezocef. na poklop nebolestivá, výstupy  hl.nn. nebolestivé, šija voľná neoponuje, zrenice izokorické, FR výbavná, uši, nos bez výtoku<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 148,
-        "order": 46,
+        "id": 279,
+        "order": 47,
         "props": {
           "type": "pv"
         },
@@ -1067,14 +1218,14 @@
             }
           },
           "popis": {
-            "value": "kľudné, tonzily nezv., bez čapov, jazky plazí v  strednej rovine, chrup sanovaný",
+            "value": "kľudné, tonzily nezv., bez čapov, jazky plazí v  strednej rovine, chrup sanovaný<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 153,
-        "order": 49,
+        "id": 282,
+        "order": 50,
         "props": {
           "type": "pv"
         },
@@ -1086,14 +1237,14 @@
             }
           },
           "popis": {
-            "value": "LU a ŠŽ nehmatám, jugula bez kongescie",
+            "value": "LU a ŠŽ nehmatám, jugula bez kongescie<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 158,
-        "order": 52,
+        "id": 285,
+        "order": 53,
         "props": {
           "type": "pv"
         },
@@ -1105,14 +1256,52 @@
             }
           },
           "popis": {
-            "value": "súmerný, Cor: AS prav. , ozvy ohraničené, Pulmo dýchanie vesikulárne bez VDF",
+            "value": "súmerný<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 163,
-        "order": 55,
+        "id": 288,
+        "order": 56,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Pľúca",
+            "props": {
+              "propValue": "Pľúca"
+            }
+          },
+          "popis": {
+            "value": "dýchanie vesikulárne bez VDF<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 291,
+        "order": 59,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Srdce",
+            "props": {
+              "propValue": "Srdce"
+            }
+          },
+          "popis": {
+            "value": "akcia pravidelná, ozvy ohraničené, bez šelestu<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 294,
+        "order": 62,
         "props": {
           "type": "pv"
         },
@@ -1124,14 +1313,14 @@
             }
           },
           "popis": {
-            "value": "mäkké priehmatné bez palp. citl. a hm. rezist.,  Pečeň a slezina nezv., tapott. bilat. negat.",
+            "value": "mäkké priehmatné bez palp. citl. a hm. rezist.,  Pečeň a slezina nezv., tapott. bilat. negat.<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 168,
-        "order": 58,
+        "id": 297,
+        "order": 65,
         "props": {
           "type": "pv"
         },
@@ -1143,14 +1332,52 @@
             }
           },
           "popis": {
-            "value": "v ose",
+            "value": "v ose<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 173,
-        "order": 61,
+        "id": 300,
+        "order": 68,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Dolné končatiny",
+            "props": {
+              "propValue": "Dolné končatiny"
+            }
+          },
+          "popis": {
+            "value": "bez edémov a varixov, bez známok zápalu, pulzácie ATP a ADP hmatné bilat.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 303,
+        "order": 71,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Lokomočný aparát",
+            "props": {
+              "propValue": "Lokomočný aparát"
+            }
+          },
+          "popis": {
+            "value": " kĺby bez deformít, zápal. a degenerat. zmien, bez palpačnej citlivosti, rozsahy pohyblivosti kĺbov a chrbtice v norme, svalstvo normálne vyvinuté, svalové spazmy neprítomné<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 306,
+        "order": 74,
         "props": {
           "type": "pv"
         },
@@ -1162,14 +1389,14 @@
             }
           },
           "popis": {
-            "value": "",
+            "value": " <br>",
             "props": {}
           }
         }
       },
       {
-        "id": 178,
-        "order": 64,
+        "id": 309,
+        "order": 77,
         "props": {
           "type": "pv"
         },
@@ -1181,7 +1408,7 @@
             }
           },
           "popis": {
-            "value": "",
+            "value": " <br>",
             "props": {}
           }
         }
@@ -1189,8 +1416,8 @@
     ],
     "ekg": [
       {
-        "id": 195,
-        "order": 67,
+        "id": 314,
+        "order": 82,
         "props": {
           "type": "ekg"
         },
@@ -1235,6 +1462,10 @@
             "value": "+",
             "props": {}
           },
+          "hlk": {
+            "value": "",
+            "props": {}
+          },
           "poznamka": {
             "value": "",
             "props": {}
@@ -1249,7 +1480,7 @@
     "vd": [
       {
         "id": 186,
-        "order": 71,
+        "order": 86,
         "props": {
           "type": "vd"
         },
@@ -1268,7 +1499,7 @@
     "vv": [
       {
         "id": 190,
-        "order": 73,
+        "order": 88,
         "props": {
           "type": "vv"
         },
@@ -1290,7 +1521,7 @@
       },
       {
         "id": 229,
-        "order": 75,
+        "order": 90,
         "props": {
           "type": "vv"
         },
@@ -1313,7 +1544,7 @@
       },
       {
         "id": 191,
-        "order": 78,
+        "order": 93,
         "props": {
           "type": "vv"
         },
@@ -1335,7 +1566,7 @@
       },
       {
         "id": 202,
-        "order": 81,
+        "order": 96,
         "props": {
           "type": "vv"
         },
@@ -1359,7 +1590,7 @@
     "z": [
       {
         "id": 193,
-        "order": 83,
+        "order": 98,
         "props": {
           "type": "z"
         },
