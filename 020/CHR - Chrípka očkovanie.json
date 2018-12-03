@@ -52,9 +52,9 @@
             }
           },
           "datum": {
-            "value": "29.09.2018",
+            "value": "03.12.2018",
             "props": {
-              "propValue": "2018-09-29T06:19:15.742Z",
+              "propValue": "2018-12-03T06:17:04.790Z",
               "expr": "=dnes"
             }
           },
@@ -65,10 +65,135 @@
         }
       }
     ],
+    "premenna": [
+      {
+        "id": 18,
+        "order": 3,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "INFLUVAC",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "ON",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 19,
+        "order": 4,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "VAXIGRIP",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "OFF",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 5,
+        "order": 5,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z25.1] Potreba imunizácie výlučne proti chrípke",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089522300@9",
+              "id": "Z25.1"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 20,
+        "order": 6,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? var.INFLUVAC == \"ON\" }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 21,
+        "order": 9,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 22,
+        "order": 10,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? var.VAXIGRIP == \"ON\" }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 23,
+        "order": 13,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
     "ol": [
       {
         "id": 3,
-        "order": 3,
+        "order": 7,
         "props": {
           "type": "ol"
         },
@@ -110,22 +235,44 @@
             "props": {}
           }
         }
-      }
-    ],
-    "vd": [
+      },
       {
-        "id": 5,
-        "order": 4,
+        "id": 16,
+        "order": 11,
         "props": {
-          "type": "vd"
+          "type": "ol"
         },
         "value": {
           "id": {
-            "value": "[Z25.1] Potreba imunizácie výlučne proti chrípke",
+            "value": "[39136] VAXIGRIP | sus inj 10x0,5 ml (striek.inj.skl.napl. s ihlou)",
             "props": {
-              "idClassid": "diagnoza",
-              "idEzid": "02089522300@9",
-              "id": "Z25.1"
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
+              "propSdl": 10,
+              "propCena": 57.19,
+              "propVnl": "R",
+              "propUzp_1zvj": 5.72,
+              "propGp": 0,
+              "propIo": "ind.obm.",
+              "propSpUhr": "V",
+              "propDpl": 0,
+              "idClassid": "liek",
+              "idEzid": "00020875563",
+              "idF": "SUS INJ",
+              "idSp": "ims",
+              "idAtc": "J07BB02",
+              "idUl": "",
+              "id": 39136
+            }
+          },
+          "sn": {
+            "value": "",
+            "props": {}
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
             }
           },
           "text": {
@@ -138,7 +285,7 @@
     "r": [
       {
         "id": 13,
-        "order": 5,
+        "order": 8,
         "props": {
           "type": "r"
         },
@@ -207,6 +354,95 @@
             "value": "1",
             "props": {}
           },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 14,
+        "order": 12,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[39136] VAXIGRIP | sus inj 10x0,5 ml (striek.inj.skl.napl. s ihlou)",
+            "props": {
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
+              "propSdl": 10,
+              "propCena": 57.19,
+              "propVnl": "R",
+              "propUzp_1zvj": 5.72,
+              "propGp": 0,
+              "propIo": "ind.obm.",
+              "propSpUhr": "V",
+              "propDpl": 0,
+              "idClassid": "liek",
+              "idEzid": "00020875563",
+              "idF": "SUS INJ",
+              "idSp": "ims",
+              "idAtc": "J07BB02",
+              "idUl": "",
+              "id": 39136
+            }
+          },
+          "schedule": {
+            "value": "Ad Manus Medici, SUS",
+            "props": {
+              "propWay_code": "",
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propForm_id": "SUS",
+              "propForm_t": "suspenzia",
+              "propText": "",
+              "propType": "AMM"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "|Exp. amp. N° I(unam)",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
           "force": {
             "value": "nie",
             "props": {
@@ -223,7 +459,7 @@
     "vv": [
       {
         "id": 7,
-        "order": 6,
+        "order": 14,
         "props": {
           "type": "vv"
         },
