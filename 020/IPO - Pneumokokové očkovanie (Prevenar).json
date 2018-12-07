@@ -46,15 +46,15 @@
           "id": {
             "value": "[IPO] Invazívne pneumokokové ochorenia",
             "props": {
-              "id": "IPO",
+              "idClassid": "ockovanie",
               "idEzid": "00000346452@2",
-              "idClassid": "ockovanie"
+              "id": "IPO"
             }
           },
           "datum": {
-            "value": "29.09.2018",
+            "value": "07.12.2018",
             "props": {
-              "propValue": "2018-09-29T06:15:14.608Z",
+              "propValue": "2018-12-07T08:03:16.009Z",
               "expr": "=dnes"
             }
           },
@@ -76,23 +76,23 @@
           "id": {
             "value": "[85033] Prevenar 13 injekčná suspenzia | sus inj 1x0,5 ml (striek.inj.skl.napln.+ samost.ihla)",
             "props": {
-              "propDpl": 12.72,
-              "propSpUhr": "V",
-              "propIo": "ind.obm.",
-              "propGp": 0,
-              "propUzp_1zvj": 41.49,
-              "propVnl": "R",
-              "propCena": 54.21,
-              "propSdl": 1,
-              "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén konjugovaný",
               "propOl": 1,
-              "id": 85033,
-              "idUl": "",
-              "idAtc": "J07AL02",
-              "idSp": "imu",
-              "idF": "SUS INJ",
+              "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén konjugovaný",
+              "propSdl": 1,
+              "propCena": 54.21,
+              "propVnl": "R",
+              "propUzp_1zvj": 41.49,
+              "propGp": 0,
+              "propIo": "ind.obm.",
+              "propSpUhr": "V",
+              "propDpl": 12.72,
+              "idClassid": "liek",
               "idEzid": "00020008025",
-              "idClassid": "liek"
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07AL02",
+              "idUl": "",
+              "id": 85033
             }
           },
           "sn": {
@@ -121,11 +121,11 @@
         },
         "value": {
           "id": {
-            "value": "[Z22.8] Nosičstvo pôvodcu inej infekčnej choroby",
+            "value": "[Z23.8] Potreba imunizácie proti inej jednotlivej baktériovej chorobe",
             "props": {
-              "id": "Z22.8",
-              "idEzid": "02089522086@9",
-              "idClassid": "diagnoza"
+              "idClassid": "diagnoza",
+              "idEzid": "02089522193@11",
+              "id": "Z23.8"
             }
           },
           "text": {
@@ -147,9 +147,9 @@
             "value": "[252b] Očkovanie.",
             "props": {
               "propBody": 70,
-              "idClassid": "vykon",
+              "id": "252b",
               "idEzid": "00000467878@7",
-              "id": "252b"
+              "idClassid": "vykon"
             }
           },
           "count": {
