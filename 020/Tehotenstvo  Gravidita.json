@@ -1,0 +1,47 @@
+{
+  "content": "<section data-x-id=\"2\" data-type=\"td\" class=\"\"><aside></aside><label class=\"section-label  \">Trvalá Dg.:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"Z91.0\" data-id-ezid=\"02089527598\" data-id-classid=\"diagnoza\" title=\"[Z91.0] Alergia na iné látky ako lieky a biologické látky v osobnej anamnéze\" style=\"width: 50ch;\">[Z91.0] Alergia na iné látky ako lieky a biologické látky v osobnej anamnéze</div>​<label data-for=\"text\" class=\" _noval\">poznámka</label><div class=\"_noval Field\" data-name=\"text\"></div>​<label data-for=\"from\" class=\" _noval\">zistené dňa</label><div class=\"_noval FieldDate hasActions\" data-name=\"from\"></div>​<label data-for=\"to\" class=\" _noval\">platí do</label><div class=\"_noval FieldDate hasActions\" data-name=\"to\"></div>​<label data-for=\"dispenzarizacia\" class=\" _noval\">sledovaný/dispenzarizovaný u mňa</label><div class=\"_noval FieldBool hasActions\" data-name=\"dispenzarizacia\"></div>​<label data-for=\"lekar\" class=\" _noval\">u lekára</label><div class=\"_noval FieldSearch hasActions\" data-name=\"lekar\"></div>​<label data-for=\"ok\" class=\" _noval\">obdobie kontroly</label><div class=\"_noval FieldList hasActions\" data-name=\"ok\"></div>​<label data-for=\"frekvencia\" class=\" _noval\">nasledujúca kontrola - frekvencia</label><div class=\"_noval FieldN\" data-name=\"frekvencia\"></div>​<label data-for=\"dlzka\" class=\" _noval\">dĺžka dispenzarizácie(v mesiacoch)</label><div class=\"_noval FieldN\" data-name=\"dlzka\"></div></section>",
+  "title": "Tehotenstvo / Gravidita",
+  "shortcut": "th",
+  "if": "",
+  "data": {
+    "_": {},
+    "td": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "td"
+        },
+        "value": {
+          "id": {
+            "value": "[Z32.1] Potvrdená gravidita",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089522813@11",
+              "id": "Z32.1"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          },
+          "from": {
+            "value": "",
+            "props": {}
+          },
+          "to": {
+            "value": "",
+            "props": {}
+          },
+          "dispenzarizacia": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/000"
+}

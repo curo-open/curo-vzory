@@ -3,7 +3,13 @@
   "shortcut": "10",
   "if": "",
   "data": {
-    "_": {},
+    "_": {
+      "errors": {
+        "13": [
+          "schedule"
+        ]
+      }
+    },
     "s": [
       {
         "id": 5,
@@ -13,7 +19,22 @@
         },
         "value": {
           "s": {
-            "value": "žiada lieky<br>",
+            "value": "subjektívne tč bez ťažkostí, žiada si predpis uživaných liekov, tolerancia dobrá<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 7,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "bez zmeny predchadzajúceho záznamu<br>",
             "props": {}
           }
         }
@@ -21,8 +42,21 @@
     ],
     "t": [
       {
+        "id": 9,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans(\"length\") &gt; 0}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 1,
-        "order": 1,
+        "order": 3,
         "props": {
           "type": "t"
         },
@@ -32,12 +66,108 @@
             "props": {}
           }
         }
+      },
+      {
+        "id": 10,
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 12,
+        "order": 6,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 8,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient súhlasil s predpisom a prevzatie potvrdil podpísanim informovaného súhlasu<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 13,
+        "order": 5,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "schedule": {
+            "value": "",
+            "props": {
+              "error": "Chyba zápisu dávkovania. (SyntaxError: Expected '1x', '2x', '3x', '4x', 'Ad Manus Medici', 'a', 'a.m.m.', 'ad manus medici', 'amm', 'dr', 'dľa rady', 'pd', 'podľa doporučenia', 'podľa rozpisu', 'pr', 'á', [0-9], or integer but end of input found.)"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
       }
     ],
     "vv": [
       {
         "id": 3,
-        "order": 2,
+        "order": 8,
         "props": {
           "type": "vv"
         },

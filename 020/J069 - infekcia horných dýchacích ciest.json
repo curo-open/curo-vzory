@@ -1,0 +1,415 @@
+{
+  "title": "J069 - infekcia horných dýchacích ciest",
+  "shortcut": "J069",
+  "if": "",
+  "data": {
+    "_": {},
+    "s": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "Asi 3 dni sa necíti dobre: nádcha, bolesti hrdla, kašeľ, teplota nenamera do 37´C, lieky na symptómy neužíva<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "Pharynxh začervenalý, Submand LU hmatné, palp nebolestivé, tonsily nezväčšené, čapy neprítomné.<br>Pulmo: dýchanie vezikulárne,                                                                                                                      <br>Ostatný nález: Vedomie lucídne ,Hlava poklopovo nebolestivá, COR AS pravidelná, ozvy ohraničené, Abdomen priehmatné BPN, DK opuchy neprítomné, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "zfp": [
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "oh": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "",
+            "props": {}
+          },
+          "temp": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "aa": [
+      {
+        "id": 9,
+        "order": 3,
+        "props": {
+          "type": "aa"
+        },
+        "value": {
+          "text": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 15,
+        "order": 4,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[J06.9] Akútna infekcia horných dýchacích ciest, bližšie neurčená",
+            "props": {
+              "id": "J06.9",
+              "idEzid": "02089403436@11",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 17,
+        "order": 5,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[15870] Zinnat 500 mg | tbl flm 10x500 mg (blis.OPA/Al/PVC)",
+            "props": {
+              "propDpl": 1.72,
+              "propSpUhr": "S",
+              "propGp": 1,
+              "propUzp_1zvj": 0.463,
+              "propVnl": "R",
+              "propCena": 6.35,
+              "propSdl": 10,
+              "propAtcName": "Cefuroxím",
+              "propOl": 0,
+              "id": 15870,
+              "idUl": "",
+              "idAtc": "J01DC02",
+              "idSp": "ora",
+              "idF": "TBL FLM",
+              "idEzid": "00020449351",
+              "idClassid": "liek"
+            }
+          },
+          "schedule": {
+            "value": "á 12 hod. 1  ",
+            "props": {
+              "propType": "PEV2",
+              "propHours": 12,
+              "propUnitsperhour": 1,
+              "propWay_code": "",
+              "propPeriod_code": "D",
+              "propPeriod_t": "denne"
+            }
+          },
+          "qty": {
+            "value": "2",
+            "props": {}
+          },
+          "payoff": {
+            "value": "3,44",
+            "props": {
+              "propValue": 3.44
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 19,
+        "order": 6,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[27511] Solmucol 200 mg | gra 30x1,5 g (vrec.PE/Al/papier)",
+            "props": {
+              "propDpl": 4.84,
+              "propGp": 1,
+              "propVnl": "F",
+              "propAtcName": "Acetylcysteín",
+              "propOl": 0,
+              "id": 27511,
+              "idUl": "",
+              "idAtc": "R05CB01",
+              "idSp": "ora",
+              "idF": "GRA",
+              "idEzid": "00020593067",
+              "idClassid": "liek"
+            }
+          },
+          "schedule": {
+            "value": "1-1-1-0, denne",
+            "props": {
+              "propType": "PEV1",
+              "propParts_morning": 1,
+              "propParts_noon": 1,
+              "propParts_evening": 1,
+              "propParts_sleepTime": 0,
+              "propPeriod_code": "D",
+              "propPeriod_t": "denne",
+              "propWay_code": ""
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {}
+          },
+          "payoff": {
+            "value": "4,84",
+            "props": {
+              "propValue": 4.84
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 13,
+        "order": 7,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 11,
+        "order": 8,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "Dodržiavanie dohovoreného liečebného režimu - telesné šetrtenie  p.p kľud na lôžku,  <br>liečba Zinkorot 2x1 - 7 dní, C-vit 500mg , Devit 1x1,  + viď (Rp.). <br>Kontrola po doužívaní liekov, alebo skôr podľa potreby.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 21,
+        "order": 9,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[4] Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000466524@10",
+              "id": 4
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 23,
+        "order": 11,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[4571A] C-reaktívny proteín",
+            "props": {
+              "propBody": 380,
+              "id": "4571A",
+              "idEzid": "02089716514@10",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "lv": [
+      {
+        "id": 7,
+        "order": 10,
+        "props": {
+          "type": "lv"
+        },
+        "value": {
+          "id": {
+            "value": "[00020036273] C-reaktívny protein na jednoúčelovom prístroji",
+            "props": {
+              "id": "00020036273",
+              "idEzid": "00020036273@4",
+              "idClassid": "labvys"
+            }
+          },
+          "value": {
+            "value": "",
+            "props": {}
+          },
+          "rank": {
+            "value": "",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "comment": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020"
+}
