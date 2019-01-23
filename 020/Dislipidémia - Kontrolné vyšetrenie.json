@@ -628,47 +628,21 @@
         }
       },
       {
-        "id": 103,
-        "order": 69,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp==25 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 104,
-        "order": 73,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 260,
-        "order": 74,
+        "order": 72,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? (sessions|getSections(\"vv\")|where(\"d.period&gt;365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") &gt; 0 || sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; zp==25}}<br>",
+            "value": "{{ ?  zp==25 &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0)}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 262,
-        "order": 79,
+        "order": 77,
         "props": {
           "type": "t"
         },
@@ -681,7 +655,7 @@
       },
       {
         "id": 113,
-        "order": 80,
+        "order": 78,
         "props": {
           "type": "t"
         },
@@ -694,7 +668,7 @@
       },
       {
         "id": 115,
-        "order": 84,
+        "order": 82,
         "props": {
           "type": "t"
         },
@@ -707,7 +681,7 @@
       },
       {
         "id": 287,
-        "order": 85,
+        "order": 83,
         "props": {
           "type": "t"
         },
@@ -720,7 +694,7 @@
       },
       {
         "id": 290,
-        "order": 88,
+        "order": 86,
         "props": {
           "type": "t"
         },
@@ -1219,7 +1193,7 @@
     "vd": [
       {
         "id": 90,
-        "order": 70,
+        "order": 69,
         "props": {
           "type": "vd"
         },
@@ -1240,7 +1214,7 @@
       },
       {
         "id": 270,
-        "order": 76,
+        "order": 74,
         "props": {
           "type": "vd"
         },
@@ -1261,7 +1235,7 @@
       },
       {
         "id": 116,
-        "order": 81,
+        "order": 79,
         "props": {
           "type": "vd"
         },
@@ -1282,7 +1256,7 @@
       },
       {
         "id": 288,
-        "order": 86,
+        "order": 84,
         "props": {
           "type": "vd"
         },
@@ -1304,8 +1278,8 @@
     ],
     "vv": [
       {
-        "id": 92,
-        "order": 71,
+        "id": 294,
+        "order": 70,
         "props": {
           "type": "vv"
         },
@@ -1326,8 +1300,8 @@
         }
       },
       {
-        "id": 100,
-        "order": 72,
+        "id": 295,
+        "order": 71,
         "props": {
           "type": "vv"
         },
@@ -1338,7 +1312,7 @@
               "propType": "SVaLZ",
               "propBody": 550,
               "idClassid": "vykon",
-              "idEzid": "00000494187@8",
+              "idEzid": "00000494187@9",
               "id": 5702
             }
           },
@@ -1350,7 +1324,7 @@
       },
       {
         "id": 272,
-        "order": 77,
+        "order": 75,
         "props": {
           "type": "vv"
         },
@@ -1372,7 +1346,7 @@
       },
       {
         "id": 118,
-        "order": 82,
+        "order": 80,
         "props": {
           "type": "vv"
         },
@@ -1394,7 +1368,7 @@
       },
       {
         "id": 120,
-        "order": 83,
+        "order": 81,
         "props": {
           "type": "vv"
         },
@@ -1417,18 +1391,18 @@
       },
       {
         "id": 289,
-        "order": 87,
+        "order": 85,
         "props": {
           "type": "vv"
         },
         "value": {
           "id": {
-            "value": "[Y0042] Iniciálne a&nbsp;kontrolné vyšetrenie u&nbsp;kapitovaného poistenca s&nbsp;dyslipidémiou",
+            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
-              "propBody": 0,
-              "id": "Y0042",
-              "idEzid": "curo-Y0042@9",
-              "idClassid": "vykon"
+              "propBody": 180,
+              "idClassid": "vykon",
+              "idEzid": "00000466565@10",
+              "id": 10
             }
           },
           "count": {
@@ -1441,7 +1415,7 @@
     "premenna": [
       {
         "id": 265,
-        "order": 75,
+        "order": 73,
         "props": {
           "type": "premenna"
         },
@@ -1462,7 +1436,7 @@
     "h-score": [
       {
         "id": 84,
-        "order": 78,
+        "order": 76,
         "props": {
           "type": "h-score"
         },
@@ -1493,7 +1467,7 @@
     "p": [
       {
         "id": 96,
-        "order": 89,
+        "order": 87,
         "props": {
           "type": "p"
         },
@@ -1503,9 +1477,9 @@
             "props": {}
           },
           "at": {
-            "value": "01.04.2019 22:57",
+            "value": "23.06.2019 06:22",
             "props": {
-              "propValue": "2019-04-01T20:57:48.948Z",
+              "propValue": "2019-06-23T04:22:27.648Z",
               "expr": "=+5m"
             }
           },

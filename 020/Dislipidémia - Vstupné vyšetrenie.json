@@ -705,7 +705,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? (sessions|getSections(\"vv\")|where(\"d.period&gt;365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") &gt; 0 || sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; zp==25}}<br>",
+            "value": "{{ ?  zp==25 &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0)}}<br>",
             "props": {}
           }
         }
@@ -1271,9 +1271,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "id": "E78.9",
+              "idClassid": "diagnoza",
               "idEzid": "02089382192@10",
-              "idClassid": "diagnoza"
+              "id": "E78.9"
             }
           },
           "text": {
@@ -1306,9 +1306,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "id": "E78.9",
+              "idClassid": "diagnoza",
               "idEzid": "02089382192@10",
-              "idClassid": "diagnoza"
+              "id": "E78.9"
             }
           },
           "text": {
@@ -1327,9 +1327,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "E78.9",
               "idEzid": "02089382192@10",
-              "id": "E78.9"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1348,9 +1348,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "E78.9",
               "idEzid": "02089382192@10",
-              "id": "E78.9"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1369,9 +1369,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "I10.00",
               "idEzid": "02089398180@10",
-              "id": "I10.00"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1393,9 +1393,9 @@
             "value": "[H0003] Iniciálne vyšetrenie u poistenca s arteriálnou hypertenziou alebo ošetrenie akútneho hypertenzného stavu",
             "props": {
               "propBody": 0,
-              "id": "H0003",
+              "idClassid": "vykon",
               "idEzid": "02089725747@8",
-              "idClassid": "vykon"
+              "id": "H0003"
             }
           },
           "count": {
@@ -1415,9 +1415,9 @@
             "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
               "propBody": 180,
-              "id": 10,
+              "idClassid": "vykon",
               "idEzid": "00000466565@8",
-              "idClassid": "vykon"
+              "id": 10
             }
           },
           "count": {
@@ -1436,11 +1436,11 @@
           "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propBody": 550,
               "propType": "SVaLZ",
-              "id": 5702,
+              "propBody": 550,
+              "idClassid": "vykon",
               "idEzid": "00000494187@8",
-              "idClassid": "vykon"
+              "id": 5702
             }
           },
           "count": {
@@ -1460,9 +1460,9 @@
             "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
+              "id": "H0006",
               "idEzid": "02089725770@9",
-              "id": "H0006"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1482,9 +1482,9 @@
             "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
               "propBody": 180,
-              "idClassid": "vykon",
+              "id": 10,
               "idEzid": "00000466565@9",
-              "id": 10
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1503,11 +1503,11 @@
           "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 550,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5702,
               "idEzid": "00000494187@9",
-              "id": 5702
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1524,12 +1524,12 @@
         },
         "value": {
           "id": {
-            "value": "[Y0042] Iniciálne a&nbsp;kontrolné vyšetrenie u&nbsp;kapitovaného poistenca s&nbsp;dyslipidémiou",
+            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
-              "propBody": 0,
+              "propBody": 180,
               "idClassid": "vykon",
-              "idEzid": "curo-Y0042@9",
-              "id": "Y0042"
+              "idEzid": "00000466565@10",
+              "id": 10
             }
           },
           "count": {
@@ -1583,9 +1583,9 @@
             "props": {}
           },
           "at": {
-            "value": "01.04.2019 22:56",
+            "value": "23.06.2019 06:22",
             "props": {
-              "propValue": "2019-04-01T20:56:38.623Z",
+              "propValue": "2019-06-23T04:22:47.056Z",
               "expr": "=+5m"
             }
           },
