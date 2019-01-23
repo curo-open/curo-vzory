@@ -3,10 +3,29 @@
   "shortcut": "pdo",
   "data": {
     "_": {},
+    "vd": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "t-prikaz-na-prepravu": [
       {
         "id": 2,
-        "order": 0,
+        "order": 1,
         "props": {
           "type": "t-prikaz-na-prepravu"
         },
@@ -83,7 +102,35 @@
           }
         }
       }
+    ],
+    "vv": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[4] Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000466524@10",
+              "id": 4
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
     ]
   },
+  "summary": "",
+  "if": "",
+  "tags": [],
+  "vars": {},
   "source": "curo-open/curo-vzory#/020"
 }
