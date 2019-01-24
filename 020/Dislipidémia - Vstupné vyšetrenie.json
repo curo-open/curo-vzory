@@ -1227,9 +1227,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "E78.9",
               "idEzid": "02089382192@10",
-              "id": "E78.9"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1262,9 +1262,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "E78.9",
               "idEzid": "02089382192@10",
-              "id": "E78.9"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1283,9 +1283,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "id": "E78.9",
+              "idClassid": "diagnoza",
               "idEzid": "02089382192@10",
-              "idClassid": "diagnoza"
+              "id": "E78.9"
             }
           },
           "text": {
@@ -1304,9 +1304,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "id": "E78.9",
+              "idClassid": "diagnoza",
               "idEzid": "02089382192@10",
-              "idClassid": "diagnoza"
+              "id": "E78.9"
             }
           },
           "text": {
@@ -1325,9 +1325,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "id": "I10.00",
+              "idClassid": "diagnoza",
               "idEzid": "02089398180@10",
-              "idClassid": "diagnoza"
+              "id": "I10.00"
             }
           },
           "text": {
@@ -1349,9 +1349,9 @@
             "value": "[H0003] Iniciálne vyšetrenie u poistenca s arteriálnou hypertenziou alebo ošetrenie akútneho hypertenzného stavu",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
+              "id": "H0003",
               "idEzid": "02089725747@8",
-              "id": "H0003"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1371,9 +1371,9 @@
             "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
               "propBody": 180,
-              "idClassid": "vykon",
+              "id": 10,
               "idEzid": "00000466565@8",
-              "id": 10
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1392,11 +1392,11 @@
           "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 550,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5702,
               "idEzid": "00000494187@8",
-              "id": 5702
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1416,9 +1416,9 @@
             "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
             "props": {
               "propBody": 0,
-              "id": "H0006",
+              "idClassid": "vykon",
               "idEzid": "02089725770@9",
-              "idClassid": "vykon"
+              "id": "H0006"
             }
           },
           "count": {
@@ -1438,9 +1438,9 @@
             "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
               "propBody": 180,
-              "id": 10,
+              "idClassid": "vykon",
               "idEzid": "00000466565@9",
-              "idClassid": "vykon"
+              "id": 10
             }
           },
           "count": {
@@ -1459,11 +1459,11 @@
           "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propBody": 550,
               "propType": "SVaLZ",
-              "id": 5702,
+              "propBody": 550,
+              "idClassid": "vykon",
               "idEzid": "00000494187@9",
-              "idClassid": "vykon"
+              "id": 5702
             }
           },
           "count": {
@@ -1483,9 +1483,9 @@
             "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
               "propBody": 180,
-              "idClassid": "vykon",
+              "id": 10,
               "idEzid": "00000466565@10",
-              "id": 10
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1560,9 +1560,9 @@
             "props": {}
           },
           "at": {
-            "value": "24.12.2019 23:54",
+            "value": "25.12.2019 00:16",
             "props": {
-              "propValue": "2019-12-24T22:54:10.640Z",
+              "propValue": "2019-12-24T23:16:42.688Z",
               "expr": "=+11m"
             }
           },
@@ -1590,9 +1590,9 @@
             "props": {}
           },
           "at": {
-            "value": "24.06.2019 23:54",
+            "value": "25.06.2019 00:16",
             "props": {
-              "propValue": "2019-06-24T21:54:21.763Z",
+              "propValue": "2019-06-24T22:16:42.689Z",
               "expr": "=+5m"
             }
           },
@@ -1620,9 +1620,9 @@
             "props": {}
           },
           "at": {
-            "value": "24.06.2019 23:53",
+            "value": "25.06.2019 00:16",
             "props": {
-              "propValue": "2019-06-24T21:53:27.874Z",
+              "propValue": "2019-06-24T22:16:42.689Z",
               "expr": "=+5m"
             }
           },
