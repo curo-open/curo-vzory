@@ -1201,9 +1201,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "E78.9",
               "idEzid": "02089382192@10",
-              "id": "E78.9"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1222,9 +1222,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "E78.9",
               "idEzid": "02089382192@10",
-              "id": "E78.9"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1243,9 +1243,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "E78.9",
               "idEzid": "02089382192@10",
-              "id": "E78.9"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1264,9 +1264,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "id": "I10.00",
+              "idClassid": "diagnoza",
               "idEzid": "02089398180@10",
-              "idClassid": "diagnoza"
+              "id": "I10.00"
             }
           },
           "text": {
@@ -1288,9 +1288,9 @@
             "value": "[H0004] Kontrolné vyšetrenie u poistenca s arteriálnou hypertenziou jeden krát za 6 mesiacov",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
+              "id": "H0004",
               "idEzid": "02089725754@9",
-              "id": "H0004"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1302,73 +1302,6 @@
       {
         "id": 295,
         "order": 71,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
-            "props": {
-              "propType": "SVaLZ",
-              "propBody": 550,
-              "idClassid": "vykon",
-              "idEzid": "00000494187@9",
-              "id": 5702
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 272,
-        "order": 75,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
-            "props": {
-              "propBody": 0,
-              "id": "H0006",
-              "idEzid": "02089725770@9",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 118,
-        "order": 80,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
-            "props": {
-              "propBody": 180,
-              "id": 10,
-              "idEzid": "00000466565@9",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 120,
-        "order": 81,
         "props": {
           "type": "vv"
         },
@@ -1390,6 +1323,73 @@
         }
       },
       {
+        "id": 272,
+        "order": 75,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
+            "props": {
+              "propBody": 0,
+              "idClassid": "vykon",
+              "idEzid": "02089725770@9",
+              "id": "H0006"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 118,
+        "order": 80,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
+            "props": {
+              "propBody": 180,
+              "idClassid": "vykon",
+              "idEzid": "00000466565@9",
+              "id": 10
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 120,
+        "order": 81,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
+            "props": {
+              "propType": "SVaLZ",
+              "propBody": 550,
+              "idClassid": "vykon",
+              "idEzid": "00000494187@9",
+              "id": 5702
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 289,
         "order": 85,
         "props": {
@@ -1400,9 +1400,9 @@
             "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
               "propBody": 180,
-              "idClassid": "vykon",
+              "id": 10,
               "idEzid": "00000466565@10",
-              "id": 10
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1477,9 +1477,9 @@
             "props": {}
           },
           "at": {
-            "value": "23.06.2019 06:22",
+            "value": "24.06.2019 23:42",
             "props": {
-              "propValue": "2019-06-23T04:22:27.648Z",
+              "propValue": "2019-06-24T21:42:36.587Z",
               "expr": "=+5m"
             }
           },

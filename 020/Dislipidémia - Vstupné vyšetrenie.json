@@ -7,54 +7,10 @@
   "if": "",
   "data": {
     "_": {},
-    "premenna": [
-      {
-        "id": 102,
-        "order": 0,
-        "props": {
-          "type": "premenna"
-        },
-        "value": {
-          "name": {
-            "value": "holter",
-            "props": {}
-          },
-          "type": {
-            "value": "text",
-            "props": {
-              "propValue": "text"
-            }
-          },
-          "value": {
-            "value": "ON",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 202,
-        "order": 78,
-        "props": {
-          "type": "premenna"
-        },
-        "value": {
-          "name": {
-            "value": "skore",
-            "props": {}
-          },
-          "type": {
-            "value": "výpočet SCORE",
-            "props": {
-              "propValue": "fn-score"
-            }
-          }
-        }
-      }
-    ],
     "t-nadpis": [
       {
         "id": 122,
-        "order": 1,
+        "order": 0,
         "props": {
           "type": "t-nadpis"
         },
@@ -73,7 +29,7 @@
     "s": [
       {
         "id": 3,
-        "order": 2,
+        "order": 1,
         "props": {
           "type": "s"
         },
@@ -88,7 +44,7 @@
     "t": [
       {
         "id": 208,
-        "order": 3,
+        "order": 2,
         "props": {
           "type": "t"
         },
@@ -101,7 +57,7 @@
       },
       {
         "id": 210,
-        "order": 5,
+        "order": 4,
         "props": {
           "type": "t"
         },
@@ -114,7 +70,7 @@
       },
       {
         "id": 211,
-        "order": 6,
+        "order": 5,
         "props": {
           "type": "t"
         },
@@ -127,7 +83,7 @@
       },
       {
         "id": 213,
-        "order": 8,
+        "order": 7,
         "props": {
           "type": "t"
         },
@@ -140,7 +96,7 @@
       },
       {
         "id": 214,
-        "order": 9,
+        "order": 8,
         "props": {
           "type": "t"
         },
@@ -153,7 +109,7 @@
       },
       {
         "id": 216,
-        "order": 11,
+        "order": 10,
         "props": {
           "type": "t"
         },
@@ -166,7 +122,7 @@
       },
       {
         "id": 217,
-        "order": 12,
+        "order": 11,
         "props": {
           "type": "t"
         },
@@ -179,7 +135,7 @@
       },
       {
         "id": 219,
-        "order": 14,
+        "order": 13,
         "props": {
           "type": "t"
         },
@@ -192,7 +148,7 @@
       },
       {
         "id": 220,
-        "order": 15,
+        "order": 14,
         "props": {
           "type": "t"
         },
@@ -205,7 +161,7 @@
       },
       {
         "id": 221,
-        "order": 16,
+        "order": 15,
         "props": {
           "type": "t"
         },
@@ -218,7 +174,7 @@
       },
       {
         "id": 223,
-        "order": 17,
+        "order": 16,
         "props": {
           "type": "t"
         },
@@ -231,7 +187,7 @@
       },
       {
         "id": 224,
-        "order": 18,
+        "order": 17,
         "props": {
           "type": "t"
         },
@@ -244,7 +200,7 @@
       },
       {
         "id": 226,
-        "order": 20,
+        "order": 19,
         "props": {
           "type": "t"
         },
@@ -257,7 +213,7 @@
       },
       {
         "id": 227,
-        "order": 21,
+        "order": 20,
         "props": {
           "type": "t"
         },
@@ -270,7 +226,7 @@
       },
       {
         "id": 228,
-        "order": 22,
+        "order": 21,
         "props": {
           "type": "t"
         },
@@ -283,7 +239,7 @@
       },
       {
         "id": 229,
-        "order": 23,
+        "order": 22,
         "props": {
           "type": "t"
         },
@@ -296,7 +252,7 @@
       },
       {
         "id": 230,
-        "order": 24,
+        "order": 23,
         "props": {
           "type": "t"
         },
@@ -309,7 +265,7 @@
       },
       {
         "id": 232,
-        "order": 26,
+        "order": 25,
         "props": {
           "type": "t"
         },
@@ -322,7 +278,7 @@
       },
       {
         "id": 151,
-        "order": 30,
+        "order": 29,
         "props": {
           "type": "t"
         },
@@ -335,7 +291,7 @@
       },
       {
         "id": 153,
-        "order": 32,
+        "order": 31,
         "props": {
           "type": "t"
         },
@@ -348,7 +304,7 @@
       },
       {
         "id": 154,
-        "order": 33,
+        "order": 32,
         "props": {
           "type": "t"
         },
@@ -361,7 +317,7 @@
       },
       {
         "id": 156,
-        "order": 35,
+        "order": 34,
         "props": {
           "type": "t"
         },
@@ -374,7 +330,7 @@
       },
       {
         "id": 157,
-        "order": 36,
+        "order": 35,
         "props": {
           "type": "t"
         },
@@ -387,7 +343,7 @@
       },
       {
         "id": 159,
-        "order": 38,
+        "order": 37,
         "props": {
           "type": "t"
         },
@@ -400,7 +356,7 @@
       },
       {
         "id": 160,
-        "order": 39,
+        "order": 38,
         "props": {
           "type": "t"
         },
@@ -413,7 +369,7 @@
       },
       {
         "id": 162,
-        "order": 41,
+        "order": 40,
         "props": {
           "type": "t"
         },
@@ -426,7 +382,7 @@
       },
       {
         "id": 163,
-        "order": 42,
+        "order": 41,
         "props": {
           "type": "t"
         },
@@ -439,7 +395,7 @@
       },
       {
         "id": 165,
-        "order": 44,
+        "order": 43,
         "props": {
           "type": "t"
         },
@@ -452,7 +408,7 @@
       },
       {
         "id": 166,
-        "order": 45,
+        "order": 44,
         "props": {
           "type": "t"
         },
@@ -465,7 +421,7 @@
       },
       {
         "id": 168,
-        "order": 47,
+        "order": 46,
         "props": {
           "type": "t"
         },
@@ -478,7 +434,7 @@
       },
       {
         "id": 169,
-        "order": 48,
+        "order": 47,
         "props": {
           "type": "t"
         },
@@ -491,7 +447,7 @@
       },
       {
         "id": 171,
-        "order": 50,
+        "order": 49,
         "props": {
           "type": "t"
         },
@@ -504,7 +460,7 @@
       },
       {
         "id": 172,
-        "order": 51,
+        "order": 50,
         "props": {
           "type": "t"
         },
@@ -517,7 +473,7 @@
       },
       {
         "id": 174,
-        "order": 53,
+        "order": 52,
         "props": {
           "type": "t"
         },
@@ -530,7 +486,7 @@
       },
       {
         "id": 175,
-        "order": 54,
+        "order": 53,
         "props": {
           "type": "t"
         },
@@ -543,7 +499,7 @@
       },
       {
         "id": 177,
-        "order": 56,
+        "order": 55,
         "props": {
           "type": "t"
         },
@@ -556,7 +512,7 @@
       },
       {
         "id": 178,
-        "order": 57,
+        "order": 56,
         "props": {
           "type": "t"
         },
@@ -569,7 +525,7 @@
       },
       {
         "id": 180,
-        "order": 59,
+        "order": 58,
         "props": {
           "type": "t"
         },
@@ -582,7 +538,7 @@
       },
       {
         "id": 181,
-        "order": 60,
+        "order": 59,
         "props": {
           "type": "t"
         },
@@ -595,7 +551,7 @@
       },
       {
         "id": 183,
-        "order": 62,
+        "order": 61,
         "props": {
           "type": "t"
         },
@@ -608,7 +564,7 @@
       },
       {
         "id": 234,
-        "order": 63,
+        "order": 62,
         "props": {
           "type": "t"
         },
@@ -621,7 +577,7 @@
       },
       {
         "id": 236,
-        "order": 65,
+        "order": 64,
         "props": {
           "type": "t"
         },
@@ -634,7 +590,7 @@
       },
       {
         "id": 237,
-        "order": 66,
+        "order": 65,
         "props": {
           "type": "t"
         },
@@ -647,7 +603,7 @@
       },
       {
         "id": 238,
-        "order": 67,
+        "order": 66,
         "props": {
           "type": "t"
         },
@@ -660,7 +616,7 @@
       },
       {
         "id": 187,
-        "order": 68,
+        "order": 67,
         "props": {
           "type": "t"
         },
@@ -673,7 +629,7 @@
       },
       {
         "id": 103,
-        "order": 71,
+        "order": 70,
         "props": {
           "type": "t"
         },
@@ -686,7 +642,7 @@
       },
       {
         "id": 104,
-        "order": 76,
+        "order": 75,
         "props": {
           "type": "t"
         },
@@ -699,7 +655,7 @@
       },
       {
         "id": 201,
-        "order": 77,
+        "order": 76,
         "props": {
           "type": "t"
         },
@@ -712,7 +668,7 @@
       },
       {
         "id": 206,
-        "order": 82,
+        "order": 81,
         "props": {
           "type": "t"
         },
@@ -725,7 +681,7 @@
       },
       {
         "id": 113,
-        "order": 83,
+        "order": 82,
         "props": {
           "type": "t"
         },
@@ -738,7 +694,7 @@
       },
       {
         "id": 115,
-        "order": 87,
+        "order": 86,
         "props": {
           "type": "t"
         },
@@ -751,7 +707,7 @@
       },
       {
         "id": 240,
-        "order": 88,
+        "order": 87,
         "props": {
           "type": "t"
         },
@@ -764,7 +720,7 @@
       },
       {
         "id": 243,
-        "order": 91,
+        "order": 90,
         "props": {
           "type": "t"
         },
@@ -779,7 +735,7 @@
     "ra": [
       {
         "id": 209,
-        "order": 4,
+        "order": 3,
         "props": {
           "type": "ra"
         },
@@ -798,7 +754,7 @@
     "oa": [
       {
         "id": 212,
-        "order": 7,
+        "order": 6,
         "props": {
           "type": "oa"
         },
@@ -813,7 +769,7 @@
     "sa": [
       {
         "id": 215,
-        "order": 10,
+        "order": 9,
         "props": {
           "type": "sa"
         },
@@ -828,7 +784,7 @@
     "la": [
       {
         "id": 218,
-        "order": 13,
+        "order": 12,
         "props": {
           "type": "la"
         },
@@ -843,7 +799,7 @@
     "aa": [
       {
         "id": 225,
-        "order": 19,
+        "order": 18,
         "props": {
           "type": "aa"
         },
@@ -858,7 +814,7 @@
     "ga": [
       {
         "id": 231,
-        "order": 25,
+        "order": 24,
         "props": {
           "type": "ga"
         },
@@ -873,7 +829,7 @@
     "ab": [
       {
         "id": 82,
-        "order": 27,
+        "order": 26,
         "props": {
           "type": "ab"
         },
@@ -900,7 +856,7 @@
     "zfp": [
       {
         "id": 83,
-        "order": 28,
+        "order": 27,
         "props": {
           "type": "zfp"
         },
@@ -959,7 +915,7 @@
     "o": [
       {
         "id": 88,
-        "order": 29,
+        "order": 28,
         "props": {
           "type": "o"
         },
@@ -974,7 +930,7 @@
     "pv": [
       {
         "id": 152,
-        "order": 31,
+        "order": 30,
         "props": {
           "type": "pv"
         },
@@ -993,7 +949,7 @@
       },
       {
         "id": 155,
-        "order": 34,
+        "order": 33,
         "props": {
           "type": "pv"
         },
@@ -1012,7 +968,7 @@
       },
       {
         "id": 158,
-        "order": 37,
+        "order": 36,
         "props": {
           "type": "pv"
         },
@@ -1031,7 +987,7 @@
       },
       {
         "id": 161,
-        "order": 40,
+        "order": 39,
         "props": {
           "type": "pv"
         },
@@ -1050,7 +1006,7 @@
       },
       {
         "id": 164,
-        "order": 43,
+        "order": 42,
         "props": {
           "type": "pv"
         },
@@ -1069,7 +1025,7 @@
       },
       {
         "id": 167,
-        "order": 46,
+        "order": 45,
         "props": {
           "type": "pv"
         },
@@ -1088,7 +1044,7 @@
       },
       {
         "id": 170,
-        "order": 49,
+        "order": 48,
         "props": {
           "type": "pv"
         },
@@ -1107,7 +1063,7 @@
       },
       {
         "id": 173,
-        "order": 52,
+        "order": 51,
         "props": {
           "type": "pv"
         },
@@ -1126,7 +1082,7 @@
       },
       {
         "id": 176,
-        "order": 55,
+        "order": 54,
         "props": {
           "type": "pv"
         },
@@ -1145,7 +1101,7 @@
       },
       {
         "id": 179,
-        "order": 58,
+        "order": 57,
         "props": {
           "type": "pv"
         },
@@ -1164,7 +1120,7 @@
       },
       {
         "id": 182,
-        "order": 61,
+        "order": 60,
         "props": {
           "type": "pv"
         },
@@ -1185,7 +1141,7 @@
     "ekg": [
       {
         "id": 235,
-        "order": 64,
+        "order": 63,
         "props": {
           "type": "ekg"
         },
@@ -1248,7 +1204,7 @@
     "odp": [
       {
         "id": 94,
-        "order": 69,
+        "order": 68,
         "props": {
           "type": "odp"
         },
@@ -1263,7 +1219,7 @@
     "td": [
       {
         "id": 89,
-        "order": 70,
+        "order": 69,
         "props": {
           "type": "td"
         },
@@ -1271,9 +1227,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "E78.9",
               "idEzid": "02089382192@10",
-              "id": "E78.9"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1298,7 +1254,28 @@
     "vd": [
       {
         "id": 90,
-        "order": 72,
+        "order": 71,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
+            "props": {
+              "id": "E78.9",
+              "idEzid": "02089382192@10",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 203,
+        "order": 78,
         "props": {
           "type": "vd"
         },
@@ -1318,29 +1295,8 @@
         }
       },
       {
-        "id": 203,
-        "order": 79,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
-            "props": {
-              "id": "E78.9",
-              "idEzid": "02089382192@10",
-              "idClassid": "diagnoza"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 116,
-        "order": 84,
+        "order": 83,
         "props": {
           "type": "vd"
         },
@@ -1348,9 +1304,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "id": "E78.9",
+              "idClassid": "diagnoza",
               "idEzid": "02089382192@10",
-              "idClassid": "diagnoza"
+              "id": "E78.9"
             }
           },
           "text": {
@@ -1361,7 +1317,7 @@
       },
       {
         "id": 241,
-        "order": 89,
+        "order": 88,
         "props": {
           "type": "vd"
         },
@@ -1369,9 +1325,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "id": "I10.00",
+              "idClassid": "diagnoza",
               "idEzid": "02089398180@10",
-              "idClassid": "diagnoza"
+              "id": "I10.00"
             }
           },
           "text": {
@@ -1384,7 +1340,7 @@
     "vv": [
       {
         "id": 92,
-        "order": 73,
+        "order": 72,
         "props": {
           "type": "vv"
         },
@@ -1393,9 +1349,9 @@
             "value": "[H0003] Iniciálne vyšetrenie u poistenca s arteriálnou hypertenziou alebo ošetrenie akútneho hypertenzného stavu",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
+              "id": "H0003",
               "idEzid": "02089725747@8",
-              "id": "H0003"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1406,7 +1362,7 @@
       },
       {
         "id": 98,
-        "order": 74,
+        "order": 73,
         "props": {
           "type": "vv"
         },
@@ -1415,9 +1371,9 @@
             "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
               "propBody": 180,
-              "idClassid": "vykon",
+              "id": 10,
               "idEzid": "00000466565@8",
-              "id": 10
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1428,74 +1384,7 @@
       },
       {
         "id": 100,
-        "order": 75,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
-            "props": {
-              "propType": "SVaLZ",
-              "propBody": 550,
-              "idClassid": "vykon",
-              "idEzid": "00000494187@8",
-              "id": 5702
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 204,
-        "order": 80,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
-            "props": {
-              "propBody": 0,
-              "id": "H0006",
-              "idEzid": "02089725770@9",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 118,
-        "order": 85,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
-            "props": {
-              "propBody": 180,
-              "id": 10,
-              "idEzid": "00000466565@9",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 120,
-        "order": 86,
+        "order": 74,
         "props": {
           "type": "vv"
         },
@@ -1506,7 +1395,7 @@
               "propBody": 550,
               "propType": "SVaLZ",
               "id": 5702,
-              "idEzid": "00000494187@9",
+              "idEzid": "00000494187@8",
               "idClassid": "vykon"
             }
           },
@@ -1517,8 +1406,30 @@
         }
       },
       {
-        "id": 242,
-        "order": 90,
+        "id": 204,
+        "order": 79,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
+            "props": {
+              "propBody": 0,
+              "idClassid": "vykon",
+              "idEzid": "02089725770@9",
+              "id": "H0006"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 118,
+        "order": 84,
         "props": {
           "type": "vv"
         },
@@ -1528,8 +1439,53 @@
             "props": {
               "propBody": 180,
               "idClassid": "vykon",
-              "idEzid": "00000466565@10",
+              "idEzid": "00000466565@9",
               "id": 10
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 120,
+        "order": 85,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
+            "props": {
+              "propType": "SVaLZ",
+              "propBody": 550,
+              "idClassid": "vykon",
+              "idEzid": "00000494187@9",
+              "id": 5702
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 242,
+        "order": 89,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
+            "props": {
+              "propBody": 180,
+              "id": 10,
+              "idEzid": "00000466565@10",
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1539,10 +1495,31 @@
         }
       }
     ],
+    "premenna": [
+      {
+        "id": 202,
+        "order": 77,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "skore",
+            "props": {}
+          },
+          "type": {
+            "value": "výpočet SCORE",
+            "props": {
+              "propValue": "fn-score"
+            }
+          }
+        }
+      }
+    ],
     "h-score": [
       {
         "id": 205,
-        "order": 81,
+        "order": 80,
         "props": {
           "type": "h-score"
         },
@@ -1573,7 +1550,7 @@
     "p": [
       {
         "id": 96,
-        "order": 92,
+        "order": 91,
         "props": {
           "type": "p"
         },
@@ -1583,9 +1560,9 @@
             "props": {}
           },
           "at": {
-            "value": "23.06.2019 06:22",
+            "value": "24.06.2019 23:42",
             "props": {
-              "propValue": "2019-06-23T04:22:47.056Z",
+              "propValue": "2019-06-24T21:42:56.179Z",
               "expr": "=+5m"
             }
           },
