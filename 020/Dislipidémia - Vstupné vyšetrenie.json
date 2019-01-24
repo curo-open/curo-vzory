@@ -668,7 +668,7 @@
       },
       {
         "id": 206,
-        "order": 81,
+        "order": 82,
         "props": {
           "type": "t"
         },
@@ -681,7 +681,7 @@
       },
       {
         "id": 113,
-        "order": 82,
+        "order": 83,
         "props": {
           "type": "t"
         },
@@ -694,7 +694,7 @@
       },
       {
         "id": 115,
-        "order": 86,
+        "order": 88,
         "props": {
           "type": "t"
         },
@@ -707,7 +707,7 @@
       },
       {
         "id": 240,
-        "order": 87,
+        "order": 89,
         "props": {
           "type": "t"
         },
@@ -720,7 +720,7 @@
       },
       {
         "id": 243,
-        "order": 90,
+        "order": 93,
         "props": {
           "type": "t"
         },
@@ -1227,9 +1227,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "id": "E78.9",
+              "idClassid": "diagnoza",
               "idEzid": "02089382192@10",
-              "idClassid": "diagnoza"
+              "id": "E78.9"
             }
           },
           "text": {
@@ -1262,9 +1262,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "id": "E78.9",
+              "idClassid": "diagnoza",
               "idEzid": "02089382192@10",
-              "idClassid": "diagnoza"
+              "id": "E78.9"
             }
           },
           "text": {
@@ -1283,9 +1283,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "E78.9",
               "idEzid": "02089382192@10",
-              "id": "E78.9"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1296,7 +1296,7 @@
       },
       {
         "id": 116,
-        "order": 83,
+        "order": 84,
         "props": {
           "type": "vd"
         },
@@ -1304,9 +1304,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "E78.9",
               "idEzid": "02089382192@10",
-              "id": "E78.9"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1317,7 +1317,7 @@
       },
       {
         "id": 241,
-        "order": 88,
+        "order": 90,
         "props": {
           "type": "vd"
         },
@@ -1325,9 +1325,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "I10.00",
               "idEzid": "02089398180@10",
-              "id": "I10.00"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1349,9 +1349,9 @@
             "value": "[H0003] Iniciálne vyšetrenie u poistenca s arteriálnou hypertenziou alebo ošetrenie akútneho hypertenzného stavu",
             "props": {
               "propBody": 0,
-              "id": "H0003",
+              "idClassid": "vykon",
               "idEzid": "02089725747@8",
-              "idClassid": "vykon"
+              "id": "H0003"
             }
           },
           "count": {
@@ -1371,9 +1371,9 @@
             "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
               "propBody": 180,
-              "id": 10,
+              "idClassid": "vykon",
               "idEzid": "00000466565@8",
-              "idClassid": "vykon"
+              "id": 10
             }
           },
           "count": {
@@ -1392,11 +1392,11 @@
           "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propBody": 550,
               "propType": "SVaLZ",
-              "id": 5702,
+              "propBody": 550,
+              "idClassid": "vykon",
               "idEzid": "00000494187@8",
-              "idClassid": "vykon"
+              "id": 5702
             }
           },
           "count": {
@@ -1416,9 +1416,9 @@
             "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
+              "id": "H0006",
               "idEzid": "02089725770@9",
-              "id": "H0006"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1429,7 +1429,7 @@
       },
       {
         "id": 118,
-        "order": 84,
+        "order": 85,
         "props": {
           "type": "vv"
         },
@@ -1438,9 +1438,9 @@
             "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
               "propBody": 180,
-              "idClassid": "vykon",
+              "id": 10,
               "idEzid": "00000466565@9",
-              "id": 10
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1451,7 +1451,7 @@
       },
       {
         "id": 120,
-        "order": 85,
+        "order": 86,
         "props": {
           "type": "vv"
         },
@@ -1459,11 +1459,11 @@
           "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 550,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5702,
               "idEzid": "00000494187@9",
-              "id": 5702
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1474,7 +1474,7 @@
       },
       {
         "id": 242,
-        "order": 89,
+        "order": 91,
         "props": {
           "type": "vv"
         },
@@ -1483,9 +1483,9 @@
             "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
               "propBody": 180,
-              "id": 10,
+              "idClassid": "vykon",
               "idEzid": "00000466565@10",
-              "idClassid": "vykon"
+              "id": 10
             }
           },
           "count": {
@@ -1549,8 +1549,8 @@
     ],
     "p": [
       {
-        "id": 96,
-        "order": 91,
+        "id": 244,
+        "order": 81,
         "props": {
           "type": "p"
         },
@@ -1560,9 +1560,69 @@
             "props": {}
           },
           "at": {
-            "value": "24.06.2019 23:42",
+            "value": "24.12.2019 23:54",
             "props": {
-              "propValue": "2019-06-24T21:42:56.179Z",
+              "propValue": "2019-12-24T22:54:10.640Z",
+              "expr": "=+11m"
+            }
+          },
+          "priority": {
+            "value": "bežne",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "done": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 245,
+        "order": 87,
+        "props": {
+          "type": "p"
+        },
+        "value": {
+          "text": {
+            "value": "Kontrola liecby Dislipidémie<br>",
+            "props": {}
+          },
+          "at": {
+            "value": "24.06.2019 23:54",
+            "props": {
+              "propValue": "2019-06-24T21:54:21.763Z",
+              "expr": "=+5m"
+            }
+          },
+          "priority": {
+            "value": "bežne",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "done": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 96,
+        "order": 92,
+        "props": {
+          "type": "p"
+        },
+        "value": {
+          "text": {
+            "value": "Kontrola liecby Dislipidémie<br>",
+            "props": {}
+          },
+          "at": {
+            "value": "24.06.2019 23:53",
+            "props": {
+              "propValue": "2019-06-24T21:53:27.874Z",
               "expr": "=+5m"
             }
           },

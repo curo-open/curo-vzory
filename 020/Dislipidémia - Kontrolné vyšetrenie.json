@@ -642,7 +642,7 @@
       },
       {
         "id": 262,
-        "order": 77,
+        "order": 78,
         "props": {
           "type": "t"
         },
@@ -655,7 +655,7 @@
       },
       {
         "id": 113,
-        "order": 78,
+        "order": 79,
         "props": {
           "type": "t"
         },
@@ -668,7 +668,7 @@
       },
       {
         "id": 115,
-        "order": 82,
+        "order": 84,
         "props": {
           "type": "t"
         },
@@ -681,7 +681,7 @@
       },
       {
         "id": 287,
-        "order": 83,
+        "order": 85,
         "props": {
           "type": "t"
         },
@@ -694,7 +694,7 @@
       },
       {
         "id": 290,
-        "order": 86,
+        "order": 89,
         "props": {
           "type": "t"
         },
@@ -1235,7 +1235,7 @@
       },
       {
         "id": 116,
-        "order": 79,
+        "order": 80,
         "props": {
           "type": "vd"
         },
@@ -1256,7 +1256,7 @@
       },
       {
         "id": 288,
-        "order": 84,
+        "order": 86,
         "props": {
           "type": "vd"
         },
@@ -1346,7 +1346,7 @@
       },
       {
         "id": 118,
-        "order": 80,
+        "order": 81,
         "props": {
           "type": "vv"
         },
@@ -1368,7 +1368,7 @@
       },
       {
         "id": 120,
-        "order": 81,
+        "order": 82,
         "props": {
           "type": "vv"
         },
@@ -1391,7 +1391,7 @@
       },
       {
         "id": 289,
-        "order": 85,
+        "order": 87,
         "props": {
           "type": "vv"
         },
@@ -1466,8 +1466,8 @@
     ],
     "p": [
       {
-        "id": 96,
-        "order": 87,
+        "id": 297,
+        "order": 77,
         "props": {
           "type": "p"
         },
@@ -1477,9 +1477,69 @@
             "props": {}
           },
           "at": {
-            "value": "24.06.2019 23:42",
+            "value": "24.12.2019 23:57",
             "props": {
-              "propValue": "2019-06-24T21:42:36.587Z",
+              "propValue": "2019-12-24T22:57:58.495Z",
+              "expr": "=+11m"
+            }
+          },
+          "priority": {
+            "value": "bežne",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "done": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 296,
+        "order": 83,
+        "props": {
+          "type": "p"
+        },
+        "value": {
+          "text": {
+            "value": "Kontrola liecby Displipidémie<br>",
+            "props": {}
+          },
+          "at": {
+            "value": "24.06.2019 23:57",
+            "props": {
+              "propValue": "2019-06-24T21:57:58.495Z",
+              "expr": "=+5m"
+            }
+          },
+          "priority": {
+            "value": "bežne",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "done": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 96,
+        "order": 88,
+        "props": {
+          "type": "p"
+        },
+        "value": {
+          "text": {
+            "value": "Kontrola liecby Displipidémie<br>",
+            "props": {}
+          },
+          "at": {
+            "value": "24.06.2019 23:57",
+            "props": {
+              "propValue": "2019-06-24T21:57:58.496Z",
               "expr": "=+5m"
             }
           },
