@@ -1,0 +1,64 @@
+{
+  "title": "TDPN",
+  "shortcut": "tdpn",
+  "content": "<section data-x-id=\"2\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaná diagnóza:</label><div class=\"_noval FieldSearch hasActions\" data-name=\"id\"></div></section><section data-x-id=\"4\" data-type=\"pn\" class=\"\"><aside></aside><label class=\"section-label  \">PN::</label><label data-for=\"id\" class=\" _noval\">číslo</label><div class=\"_noval FieldSequence hasActions\" data-name=\"id\"></div><label data-for=\"date\" class=\" _noval\">odo dňa</label><div class=\"_noval FieldDate hasActions\" data-name=\"date\"></div><label data-for=\"date_vystavene\" class=\" _noval\">Vystavené dňa</label><div class=\"_noval FieldDate hasActions\" data-name=\"date_vystavene\"></div><br><label data-for=\"for\" class=\" _noval\">pre zamestnávateľa</label><div class=\"_noval Field\" data-name=\"for\"></div><label data-for=\"adresa_pocas_PN\" class=\" _noval\">Adresa počas PN</label><div class=\"_noval Field\" data-name=\"adresa_pocas_PN\"></div><br><label data-for=\"vychadzky_datum\" class=\" _noval\">Vychádzky povolené od</label><div class=\"_noval FieldDate hasActions\" data-name=\"vychadzky_datum\"></div><label data-for=\"vychadzky_od\" class=\" _noval\">v čase od</label><div class=\"_noval Field\" data-name=\"vychadzky_od\"></div><label data-for=\"vychadzky_do\" class=\" _noval\">do</label><div class=\"_noval Field\" data-name=\"vychadzky_do\"></div><label data-for=\"comment\" class=\" _noval\">poznámka</label><div class=\"_noval Field\" data-name=\"comment\"></div></section><section data-x-id=\"6\" data-type=\"t-preukaz-trvania-dpn\" class=\"\"><aside></aside><label class=\"section-label  \">Preukaz o trvaní dočasnej PN:</label><label data-for=\"pn_cislo\" class=\" _noval\">Číslo potvrdenia PN</label><div class=\"_noval Field\" data-name=\"pn_cislo\"></div><label data-for=\"praceneschopny_do\" class=\" _noval\">Poistenec je dočasne práceneschopný ku dňu</label><div class=\"_noval FieldDate hasActions\" data-name=\"praceneschopny_do\"></div><label data-for=\"zmena_diagnozy\" class=\"\">Došlo ku zmene diagnózy?</label><div class=\"FieldSwitchLogical hasActions\" data-name=\"zmena_diagnozy\" data-prop-value=\"0\">nie</div><label data-for=\"choroba\" class=\" _noval\">Choroba</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"choroba\"></div><label data-for=\"karantenne_opatrenie\" class=\" _noval\">Karanténne opatrenie</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"karantenne_opatrenie\"></div><label data-for=\"uraz\" class=\" _noval\">Úraz</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"uraz\"></div><label data-for=\"choroba_povolanie\" class=\" _noval\">Choroba z povolania</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"choroba_povolanie\"></div><label data-for=\"uraz_pracovny\" class=\" _noval\">Pracovný úraz</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"uraz_pracovny\"></div><label data-for=\"uraz_ina_osoba\" class=\" _noval\">Úraz zavinený inou osobou</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"uraz_ina_osoba\"></div><label data-for=\"zmena_od\" class=\" _noval\">Zmena diagnózy od</label><div class=\"_noval FieldDate hasActions\" data-name=\"zmena_od\"></div></section><section data-x-id=\"8\" data-type=\"vvs\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon pre Sociálnu poisťovňu:</label><br><label data-for=\"skratka\" class=\"\">Kód a skratka zdravotného výkonu</label><div class=\"FieldList hasActions\" data-name=\"skratka\" data-prop-value=\"71|DPN\">71 - DPN - Vystavenie potvrdenia o dočasnej pracovnej neschopnosti,</div><label data-for=\"vyzi_vykon\" class=\" _noval\">Kód vykonu vykonaného na požiadanie</label><div class=\"_noval Field\" data-name=\"vyzi_vykon\"></div><label data-for=\"kod_posudkovehoLekara\" class=\" _noval\">Kód posudkového lekára</label><div class=\"_noval Field\" data-name=\"kod_posudkovehoLekara\"></div><label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"9\" data-type=\"vvs\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon pre Sociálnu poisťovňu:</label><br><label data-for=\"skratka\" class=\"\">Kód a skratka zdravotného výkonu</label><div class=\"FieldList hasActions\" data-name=\"skratka\" data-prop-value=\"71|TDPN\">71 - TDPN - Vystavenie preukazu o trvaní dočasnej pracovnej neschopnosti.</div><label data-for=\"vyzi_vykon\" class=\" _noval\">Kód vykonu vykonaného na požiadanie</label><div class=\"_noval Field\" data-name=\"vyzi_vykon\"></div><label data-for=\"kod_posudkovehoLekara\" class=\" _noval\">Kód posudkového lekára</label><div class=\"_noval Field\" data-name=\"kod_posudkovehoLekara\"></div><label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
+  "data": {
+    "_": {},
+    "t-preukaz-trvania-dpn": [
+      {
+        "id": 11,
+        "order": 0,
+        "props": {
+          "type": "t-preukaz-trvania-dpn"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "praceneschopny_do": {
+            "value": "02.05.2018",
+            "props": {
+              "propValue": "2018-05-02T07:38:16.925Z"
+            }
+          },
+          "zmena_diagnozy": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 13,
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[71.TDPN] Vystavenie preukazu o trvaní dočasnej pracovnej neschopnosti.",
+            "props": {
+              "propBody": 35,
+              "propType": "soc",
+              "id": "71.TDPN",
+              "idEzid": "curo-71.TDPN@7",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "if": "",
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020"
+}

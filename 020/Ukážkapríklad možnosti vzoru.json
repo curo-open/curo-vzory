@@ -162,27 +162,27 @@
         }
       },
       {
-        "id": 56,
+        "id": 20,
         "order": 12,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "pacient.adresa - {{ pacient.adresa }}<br>",
+            "value": "<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 55,
+        "id": 53,
         "order": 13,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "pacient.mesto - {{ pacient.mesto }}<br>",
+            "value": "<b>Premenné dekurzu</b><br>",
             "props": {}
           }
         }
@@ -195,131 +195,14 @@
         },
         "value": {
           "t": {
-            "value": "pacient.psc - {{ pacient.psc }}<br>",
+            "value": "dekurz.datum - {{ dekurz.datum }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 53,
+        "id": 55,
         "order": 15,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "pacient.stat - {{ pacient.stat }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 57,
-        "order": 16,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "pacient.tel - {{ pacient.tel }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 20,
-        "order": 17,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "pacient.email - {{ pacient.email }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 58,
-        "order": 18,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 45,
-        "order": 19,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "<b>Trasformacie dat</b><br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 49,
-        "order": 20,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "rozdiel - {{ sessions|getSections(\"r\")[0].sekcia.sekciaDatum|rozdiel }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 50,
-        "order": 21,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "pacient.vekDni|vRokoch - {{ pacient.vekDni|vRokoch }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 51,
-        "order": 22,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "pacient.vekDni|vMesiacoch - {{ pacient.vekDni|vMesiacoch }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 52,
-        "order": 23,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "pacient.vekDni|vTyzdnoch - {{ pacient.vekDni|vTyzdnoch }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 59,
-        "order": 24,
         "props": {
           "type": "t"
         },
@@ -332,7 +215,7 @@
       },
       {
         "id": 21,
-        "order": 25,
+        "order": 16,
         "props": {
           "type": "t"
         },
@@ -345,7 +228,7 @@
       },
       {
         "id": 24,
-        "order": 27,
+        "order": 18,
         "props": {
           "type": "t"
         },
@@ -357,47 +240,8 @@
         }
       },
       {
-        "id": 68,
-        "order": 28,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 69,
-        "order": 29,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "<b>Overridden variable</b><br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 71,
-        "order": 31,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "premenna override - {{ var.override }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 25,
-        "order": 32,
+        "order": 19,
         "props": {
           "type": "t"
         },
@@ -410,7 +254,7 @@
       },
       {
         "id": 26,
-        "order": 33,
+        "order": 20,
         "props": {
           "type": "t"
         },
@@ -423,7 +267,7 @@
       },
       {
         "id": 27,
-        "order": 34,
+        "order": 21,
         "props": {
           "type": "t"
         },
@@ -436,7 +280,7 @@
       },
       {
         "id": 28,
-        "order": 35,
+        "order": 22,
         "props": {
           "type": "t"
         },
@@ -449,7 +293,7 @@
       },
       {
         "id": 29,
-        "order": 36,
+        "order": 23,
         "props": {
           "type": "t"
         },
@@ -462,7 +306,7 @@
       },
       {
         "id": 30,
-        "order": 37,
+        "order": 24,
         "props": {
           "type": "t"
         },
@@ -475,7 +319,7 @@
       },
       {
         "id": 31,
-        "order": 38,
+        "order": 25,
         "props": {
           "type": "t"
         },
@@ -488,7 +332,7 @@
       },
       {
         "id": 32,
-        "order": 39,
+        "order": 26,
         "props": {
           "type": "t"
         },
@@ -500,99 +344,112 @@
         }
       },
       {
-        "id": 77,
-        "order": 40,
+        "id": 56,
+        "order": 27,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "<b>Inline conditions</b><br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 78,
-        "order": 41,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? var.xyz == \"abc\" }}hodnota \"xyz\" sa ROVNA \"abc\"{{ : }}hodnota \"xyz\" sa NEROVNA \"abc\"{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 76,
-        "order": 42,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 61,
-        "order": 43,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "<b>Pouzitie historickej sekcie</b><br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 65,
-        "order": 44,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "Last recept:<br>",
+            "value": "<b>Zobrazenie sekcie kde hodnota je vo formate [kod] text</b><br>",
             "props": {}
           }
         }
       },
       {
         "id": 63,
-        "order": 45,
+        "order": 28,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt; sessions|getSections(\"r\")|where(\"i==0\")}}<br>",
+            "value": "sekcia td (bez zmeny ale spoj do riadku) - {{sessions|getSections('td')|trans('join', null)}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 66,
-        "order": 46,
+        "id": 57,
+        "order": 29,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "All td's that were not canceled:<br>",
+            "value": "sekcia td (kod:text) - {{sessions|getSections('td')|trans('join', 'k:t')}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 58,
+        "order": 30,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "sekcia td (kod-text) - {{sessions|getSections('td')|trans('join', 'k-t')}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 59,
+        "order": 31,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "sekcia td (iba kod) - {{sessions|getSections('td')|trans('join', 'k')}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 60,
+        "order": 32,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "sekcia td (iba text) - {{sessions|getSections('td')|trans('join', 't')}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 61,
+        "order": 33,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<br>",
             "props": {}
           }
         }
       },
       {
         "id": 64,
-        "order": 47,
+        "order": 34,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Skry hodnoty ktore boli zrusene</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 62,
+        "order": 35,
         "props": {
           "type": "t"
         },
@@ -604,8 +461,151 @@
         }
       },
       {
-        "id": 60,
-        "order": 48,
+        "id": 65,
+        "order": 36,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 67,
+        "order": 37,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Možnosti filtrovania</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 68,
+        "order": 38,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "posledna nájdena sekcia - |where(\"i==0\")<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 72,
+        "order": 39,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "všetky sekcie z posledného dekurzu - |where(\"d.isLast\")<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 66,
+        "order": 40,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "časová podmienka - |where(\"d.period&gt;365\")<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 69,
+        "order": 41,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pri lv sekcii podľa typu výsledku - |where('typ=\"tetanus\"')<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 70,
+        "order": 42,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "hodnoty v poli sekcie - |where(\"s.value.typ.props.propValue=='Zrak'\")<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 74,
+        "order": 43,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": " d|pred(s, \"vd\")  - najdi v dekurze <b>d</b>  (aktualny dekurz) sekciu <b>vd</b> ktorá je pred <b>s</b>  (aktualne sekcia) v relale to vyzera takto<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 73,
+        "order": 44,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "|where(\"s.value.id.props.id=='5175'\")|where('d|pred(s, \"vd\").value.id.props.id==\"I10\"')<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 75,
+        "order": 45,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "ak potrebujem len overiť ze dg len začína s použijeme <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 76,
+        "order": 46,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "where(\"s.value.id.props.id=='5175'\")|where('d|pred(s, \"vd\").value.id.props.id|trans(\"startsWith\", \"I10\")')<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 71,
+        "order": 47,
         "props": {
           "type": "t"
         },
@@ -618,7 +618,7 @@
       },
       {
         "id": 33,
-        "order": 49,
+        "order": 48,
         "props": {
           "type": "t"
         },
@@ -631,7 +631,7 @@
       },
       {
         "id": 40,
-        "order": 50,
+        "order": 49,
         "props": {
           "type": "t"
         },
@@ -644,7 +644,7 @@
       },
       {
         "id": 42,
-        "order": 52,
+        "order": 51,
         "props": {
           "type": "t"
         },
@@ -657,7 +657,7 @@
       },
       {
         "id": 46,
-        "order": 53,
+        "order": 52,
         "props": {
           "type": "t"
         },
@@ -670,7 +670,7 @@
       },
       {
         "id": 48,
-        "order": 55,
+        "order": 54,
         "props": {
           "type": "t"
         },
@@ -682,8 +682,8 @@
         }
       },
       {
-        "id": 72,
-        "order": 56,
+        "id": 44,
+        "order": 55,
         "props": {
           "type": "t"
         },
@@ -695,14 +695,66 @@
         }
       },
       {
-        "id": 73,
+        "id": 45,
+        "order": 56,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Trasformacie dat - este nefunkcne</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 49,
         "order": 57,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "<b>Include other template</b><br>",
+            "value": "rozdiel - sessions|getSections(\"ra\")|sekciaDatum|rozdiel|vRokoch<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 50,
+        "order": 58,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.vekDni|vRokoch - {{ pacient.vekDni|vRokoch }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 51,
+        "order": 59,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.vekDni|vMesiacoch - {{ pacient.vekDni|vMesiacoch }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 52,
+        "order": 60,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.vekDni|vTyzdnoch - {{ pacient.vekDni|vTyzdnoch }}<br>",
             "props": {}
           }
         }
@@ -711,7 +763,7 @@
     "premenna": [
       {
         "id": 23,
-        "order": 26,
+        "order": 17,
         "props": {
           "type": "premenna"
         },
@@ -731,35 +783,12 @@
             "props": {}
           }
         }
-      },
-      {
-        "id": 70,
-        "order": 30,
-        "props": {
-          "type": "premenna"
-        },
-        "value": {
-          "name": {
-            "value": "override",
-            "props": {}
-          },
-          "type": {
-            "value": "text",
-            "props": {
-              "propValue": "text"
-            }
-          },
-          "value": {
-            "value": "abcdef",
-            "props": {}
-          }
-        }
       }
     ],
     "pv": [
       {
         "id": 41,
-        "order": 51,
+        "order": 50,
         "props": {
           "type": "pv"
         },
@@ -770,8 +799,16 @@
               "propValue": "Sluch"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
-            "value": "v norme",
+            "value": "v norme<br>",
             "props": {}
           }
         }
@@ -780,7 +817,7 @@
     "ra": [
       {
         "id": 47,
-        "order": 54,
+        "order": 53,
         "props": {
           "type": "ra"
         },
@@ -788,23 +825,8 @@
           "text": {
             "value": "",
             "props": {}
-          }
-        }
-      }
-    ],
-    "vlozit": [
-      {
-        "id": 75,
-        "order": 58,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "Všetky pomôcky za 90 dní",
-            "props": {}
           },
-          "source": {
+          "kvo": {
             "value": "",
             "props": {}
           }
@@ -813,10 +835,7 @@
     ]
   },
   "tags": [],
-  "vars": {
-    "override": "overridden"
-  },
+  "vars": {},
   "summary": "",
-  "description": "",
-  "source": "curo-open/curo-vzory#/000"
+  "source": "curo-open/curo-vzory#/020"
 }

@@ -1,0 +1,93 @@
+{
+  "title": "PN - DPN",
+  "shortcut": "pn",
+  "if": "",
+  "data": {
+    "_": {},
+    "pn": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "pn"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "date": {
+            "value": "08.02.2019",
+            "props": {
+              "propValue": "2019-02-08T21:51:04.605Z",
+              "expr": "=teraz"
+            }
+          },
+          "date_vystavene": {
+            "value": "08.02.2019",
+            "props": {
+              "propValue": "2019-02-08T21:51:04.607Z",
+              "expr": "=teraz"
+            }
+          },
+          "for": {
+            "value": "",
+            "props": {}
+          },
+          "adresa_pocas_PN": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_datum": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_od": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_do": {
+            "value": "",
+            "props": {}
+          },
+          "vyziadane_datum": {
+            "value": "",
+            "props": {}
+          },
+          "comment": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[71.DPN] Vystavenie potvrdenia o dočasnej pracovnej neschopnosti.",
+            "props": {
+              "propBody": 35,
+              "propType": "soc",
+              "id": "71.DPN",
+              "idEzid": "curo-71.DPN@7",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020"
+}
