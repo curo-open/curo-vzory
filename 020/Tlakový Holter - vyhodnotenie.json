@@ -84,10 +84,10 @@
         },
         "value": {
           "id": {
-            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
+            "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "id": "Z00.0",
-              "idEzid": "02089520809@9",
+              "id": "I10.00",
+              "idEzid": "02089398180@9",
               "idClassid": "diagnoza"
             }
           },
@@ -128,5 +128,7 @@
     "sumar-hyper"
   ],
   "vars": {},
+  "summary": "Tlakový Holter - vyhodnotenie",
+  "type": "examination",
   "source": "curo-open/curo-vzory#/020"
 }
