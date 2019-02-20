@@ -94,14 +94,40 @@
         }
       },
       {
+        "id": 14,
+        "order": 8,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? var.infsuhlas == \"ON\" }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 8,
-        "order": 7,
+        "order": 9,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
             "value": "pacient súhlasil s predpisom a prevzatie potvrdil podpísanim informovaného súhlasu<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 15,
+        "order": 10,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
             "props": {}
           }
         }
@@ -164,10 +190,35 @@
         }
       }
     ],
+    "premenna": [
+      {
+        "id": 17,
+        "order": 7,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "infsuhlas",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "ON",
+            "props": {}
+          }
+        }
+      }
+    ],
     "vv": [
       {
         "id": 3,
-        "order": 8,
+        "order": 11,
         "props": {
           "type": "vv"
         },
@@ -176,9 +227,9 @@
             "value": "[1] Pod radou sa rozumie poskytnutie informácií pacientovi alebo zákonnému zástupcovi v súvislosti so zdravotným stavom. Výkon pod kódom 1 nemožno vykazovať súčasne s inými výkonmi. Výkon nemožno vykazovať pre telefonické objednávanie pacienta.",
             "props": {
               "propBody": 80,
-              "idClassid": "vykon",
+              "id": 1,
               "idEzid": "00000466508@9",
-              "id": 1
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -193,5 +244,6 @@
   "type": "examination",
   "tags": [],
   "vars": {},
+  "description": "",
   "source": "curo-open/curo-vzory#/020"
 }
