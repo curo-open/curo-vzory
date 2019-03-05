@@ -76,9 +76,9 @@
             }
           },
           "datum": {
-            "value": "19.10.2018",
+            "value": "05.03.2019",
             "props": {
-              "propValue": "2018-10-19T09:31:55.899Z",
+              "propValue": "2019-03-05T13:16:14.061Z",
               "expr": "=dnes"
             }
           },
@@ -89,10 +89,111 @@
         }
       }
     ],
+    "t": [
+      {
+        "id": 25,
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp == 27 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 27,
+        "order": 6,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 28,
+        "order": 8,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 14,
+        "order": 9,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? var.vacdite==\"ON\" }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 15,
+        "order": 12,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 16,
+        "order": 15,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
     "vd": [
       {
+        "id": 29,
+        "order": 5,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089520809@11",
+              "id": "Z00.0"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 6,
-        "order": 4,
+        "order": 7,
         "props": {
           "type": "vd"
         },
@@ -112,51 +213,10 @@
         }
       }
     ],
-    "t": [
-      {
-        "id": 14,
-        "order": 5,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? var.vacdite==\"ON\" }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 15,
-        "order": 8,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 16,
-        "order": 11,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      }
-    ],
     "ol": [
       {
         "id": 20,
-        "order": 6,
+        "order": 10,
         "props": {
           "type": "ol"
         },
@@ -199,7 +259,7 @@
       },
       {
         "id": 4,
-        "order": 9,
+        "order": 13,
         "props": {
           "type": "ol"
         },
@@ -243,7 +303,7 @@
     "r": [
       {
         "id": 22,
-        "order": 7,
+        "order": 11,
         "props": {
           "type": "r"
         },
@@ -330,7 +390,7 @@
       },
       {
         "id": 24,
-        "order": 10,
+        "order": 14,
         "props": {
           "type": "r"
         },
@@ -417,7 +477,7 @@
     "vv": [
       {
         "id": 8,
-        "order": 12,
+        "order": 16,
         "props": {
           "type": "vv"
         },
