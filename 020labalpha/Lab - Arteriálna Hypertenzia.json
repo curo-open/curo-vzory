@@ -1,0 +1,54 @@
+{
+  "title": "Lab - Arteriálna Hypertenzia",
+  "shortcut": "lab-hypertenzia-arterialna",
+  "content": "<section data-x-id=\"2\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaná diagnóza:</label><div class=\"_noval FieldSearch hasActions\" data-name=\"id\"></div></section><section data-x-id=\"4\" data-type=\"z-lab\" class=\"\"><aside></aside><label class=\"section-label  \">Žiadanka o laboratórne vyšetrenie:</label><label data-for=\"code\" class=\"\">kód preddefinovaného vyšetrenia</label><div class=\"Field\" data-name=\"code\">298</div><label data-for=\"comment\" class=\"\">poznámka</label><div class=\"FieldHtml\" data-name=\"comment\"><br></div></section>",
+  "if": "",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-lab": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "z-lab"
+        },
+        "value": {
+          "code": {
+            "value": "298",
+            "props": {}
+          },
+          "comment": {
+            "value": "<br>",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020labalpha"
+}

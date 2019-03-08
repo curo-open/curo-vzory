@@ -1,0 +1,44 @@
+{
+  "title": "Lab - Preventívka < 40",
+  "shortcut": "lab-preventivka-menej-ako-40",
+  "content": "<section data-x-id=\"3\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaná diagnóza:</label><div class=\"_noval FieldSearch hasActions\" data-name=\"id\"></div></section><section data-x-id=\"4\" data-type=\"z-lab\" class=\"\"><aside></aside><label class=\"section-label  \">Žiadanka o laboratórne vyšetrenie:</label><label data-for=\"code\" class=\"\">kód preddefinovaného vyšetrenia</label><div class=\"Field\" data-name=\"code\">295</div><label data-for=\"comment\" class=\" _noval\">poznámka</label><div class=\"_noval FieldHtml\" data-name=\"comment\"></div></section>",
+  "if": "",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-lab": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "z-lab"
+        },
+        "value": {
+          "code": {
+            "value": "295",
+            "props": {}
+          },
+          "comment": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/020labalpha"
+}
