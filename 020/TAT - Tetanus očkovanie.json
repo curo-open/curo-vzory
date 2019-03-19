@@ -265,22 +265,25 @@
         },
         "value": {
           "id": {
-            "value": "[33919] IMOVAX D.T. ADULT | sus inj 1x0,5 ml (striek.inj.skl.napln.)",
+            "value": "[33998] IMOVAX D.T. ADULT | sus inj 10x0,5 ml (striek.inj.skl.napln.)",
             "props": {
               "propOl": 1,
-              "propGp": 0,
-              "propSdl": 1,
-              "propVnl": "R",
-              "propCena": 6.02,
-              "propSpUhr": "V",
               "propAtcName": "Tetanový toxoid, kombinácie s diftériovým toxoidom",
+              "propSdl": 10,
+              "propCena": 99.6,
+              "propVnl": "R",
+              "propUzp_1zvj": 1,
+              "propGp": 0,
+              "propIo": "ind.obm.",
+              "propSpUhr": "V",
+              "propDpl": 0,
               "idClassid": "liek",
-              "idEzid": "00020745493",
+              "idEzid": "00020746236",
               "idF": "SUS INJ",
               "idSp": "imu",
               "idAtc": "J07AM51",
               "idUl": "",
-              "id": 33919
+              "id": 33998
             }
           },
           "sn": {
