@@ -76,9 +76,9 @@
             }
           },
           "datum": {
-            "value": "05.03.2019",
+            "value": "19.03.2019",
             "props": {
-              "propValue": "2019-03-05T13:16:14.061Z",
+              "propValue": "2019-03-19T14:18:05.732Z",
               "expr": "=dnes"
             }
           },
@@ -396,22 +396,25 @@
         },
         "value": {
           "id": {
-            "value": "[33919] IMOVAX D.T. ADULT | sus inj 1x0,5 ml (striek.inj.skl.napln.)",
+            "value": "[33998] IMOVAX D.T. ADULT | sus inj 10x0,5 ml (striek.inj.skl.napln.)",
             "props": {
-              "propSpUhr": "V",
-              "propGp": 0,
-              "propVnl": "R",
-              "propCena": 6.02,
-              "propSdl": 1,
-              "propAtcName": "Tetanový toxoid, kombinácie s diftériovým toxoidom",
               "propOl": 1,
-              "id": 33919,
-              "idUl": "",
-              "idAtc": "J07AM51",
-              "idSp": "imu",
+              "propAtcName": "Tetanový toxoid, kombinácie s diftériovým toxoidom",
+              "propSdl": 10,
+              "propCena": 99.6,
+              "propVnl": "R",
+              "propUzp_1zvj": 1,
+              "propGp": 0,
+              "propIo": "ind.obm.",
+              "propSpUhr": "V",
+              "propDpl": 0,
+              "idClassid": "liek",
+              "idEzid": "00020746236",
               "idF": "SUS INJ",
-              "idEzid": "00020745493",
-              "idClassid": "liek"
+              "idSp": "imu",
+              "idAtc": "J07AM51",
+              "idUl": "",
+              "id": 33998
             }
           },
           "schedule": {
@@ -446,7 +449,7 @@
             }
           },
           "instruction": {
-            "value": "",
+            "value": "exp. amp N° I (unam)",
             "props": {}
           },
           "recommendedBy": {
