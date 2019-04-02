@@ -30,31 +30,11 @@
           "type": "t-prikaz-na-prepravu"
         },
         "value": {
-          "pristavenie": {
-            "value": "",
-            "props": {}
-          },
-          "kod": {
-            "value": "",
-            "props": {}
-          },
-          "chodiacy": {
-            "value": "",
-            "props": {}
-          },
-          "sediacy": {
-            "value": "",
-            "props": {}
-          },
-          "leziacy": {
+          "obmedzenia": {
             "value": "",
             "props": {}
           },
           "so_sprievodcom": {
-            "value": "",
-            "props": {}
-          },
-          "odovodnenie": {
             "value": "",
             "props": {}
           },
@@ -66,23 +46,11 @@
             "value": "",
             "props": {}
           },
-          "RLP": {
+          "pristavenie": {
             "value": "",
             "props": {}
           },
-          "RZP": {
-            "value": "",
-            "props": {}
-          },
-          "MIJ": {
-            "value": "",
-            "props": {}
-          },
-          "DS": {
-            "value": "",
-            "props": {}
-          },
-          "LSPP": {
+          "vozidlo": {
             "value": "",
             "props": {}
           },
@@ -95,10 +63,15 @@
             "props": {}
           },
           "datum": {
-            "value": "17.01.2018",
+            "value": "02.04.2019",
             "props": {
-              "propValue": "2018-01-17T20:51:57.474Z"
+              "propValue": "2019-04-02T09:08:00.793Z",
+              "expr": "=dnes"
             }
+          },
+          "kod": {
+            "value": "",
+            "props": {}
           }
         }
       }
@@ -115,9 +88,9 @@
             "value": "[4] Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani",
             "props": {
               "propBody": 200,
-              "idClassid": "vykon",
+              "id": 4,
               "idEzid": "00000466524@10",
-              "id": 4
+              "idClassid": "vykon"
             }
           },
           "count": {
