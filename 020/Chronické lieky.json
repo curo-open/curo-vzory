@@ -131,6 +131,45 @@
             "props": {}
           }
         }
+      },
+      {
+        "id": 18,
+        "order": 11,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ pacient.typ == 'EU' }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 19,
+        "order": 13,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 21,
+        "order": 15,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
       }
     ],
     "r": [
@@ -217,8 +256,30 @@
     ],
     "vv": [
       {
+        "id": 23,
+        "order": 12,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[4] Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000466524@11",
+              "id": 4
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 3,
-        "order": 11,
+        "order": 14,
         "props": {
           "type": "vv"
         },
@@ -227,9 +288,9 @@
             "value": "[1] Pod radou sa rozumie poskytnutie informácií pacientovi alebo zákonnému zástupcovi v súvislosti so zdravotným stavom. Výkon pod kódom 1 nemožno vykazovať súčasne s inými výkonmi. Výkon nemožno vykazovať pre telefonické objednávanie pacienta.",
             "props": {
               "propBody": 80,
-              "id": 1,
+              "idClassid": "vykon",
               "idEzid": "00000466508@9",
-              "idClassid": "vykon"
+              "id": 1
             }
           },
           "count": {

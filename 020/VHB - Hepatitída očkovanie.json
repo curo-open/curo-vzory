@@ -45,15 +45,15 @@
           "id": {
             "value": "[VHB] Vírusová hepatitída B",
             "props": {
-              "idClassid": "ockovanie",
+              "id": "VHB",
               "idEzid": "00000346411@2",
-              "id": "VHB"
+              "idClassid": "ockovanie"
             }
           },
           "datum": {
             "value": "29.09.2018",
             "props": {
-              "propValue": "2018-09-29T06:26:16.207Z",
+              "propValue": "2018-09-29T15:04:26.939Z",
               "expr": "=dnes"
             }
           },
@@ -75,23 +75,23 @@
           "id": {
             "value": "[25092] ENGERIX-B 20 µg | sus inj 1x1 ml (striek.inj.skl.napln.)",
             "props": {
-              "propOl": 1,
-              "propIo": "ind.obm.",
-              "propGp": 0,
-              "propSdl": 1,
-              "propDpl": 0,
-              "propUzp_1zvj": 1,
-              "propVnl": "R",
-              "propCena": 12.77,
-              "propSpUhr": "V",
               "propAtcName": "Očkovacia látka proti hepatitíde B, purifikovaný antigén",
-              "idClassid": "liek",
-              "idEzid": "00020560546",
-              "idF": "SUS INJ",
-              "idSp": "imu",
-              "idAtc": "J07BC01",
+              "propSpUhr": "V",
+              "propCena": 12.77,
+              "propVnl": "R",
+              "propUzp_1zvj": 1,
+              "propDpl": 0,
+              "propSdl": 1,
+              "propGp": 0,
+              "propIo": "ind.obm.",
+              "propOl": 1,
+              "id": 25092,
               "idUl": "",
-              "id": 25092
+              "idAtc": "J07BC01",
+              "idSp": "imu",
+              "idF": "SUS INJ",
+              "idEzid": "00020560546",
+              "idClassid": "liek"
             }
           },
           "sn": {
@@ -122,9 +122,9 @@
           "id": {
             "value": "[Z24.6] Potreba imunizácie proti vírusovej hepatitíde",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z24.6",
               "idEzid": "02089522276@9",
-              "id": "Z24.6"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -146,9 +146,9 @@
             "value": "[252b] Očkovanie.",
             "props": {
               "propBody": 70,
-              "idClassid": "vykon",
+              "id": "252b",
               "idEzid": "00000467878@7",
-              "id": "252b"
+              "idClassid": "vykon"
             }
           },
           "count": {

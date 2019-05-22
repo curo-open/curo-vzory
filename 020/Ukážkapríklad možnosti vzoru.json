@@ -175,47 +175,8 @@
         }
       },
       {
-        "id": 53,
-        "order": 13,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "<b>Premenné dekurzu</b><br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 54,
-        "order": 14,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "dekurz.datum - {{ dekurz.datum }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 55,
-        "order": 15,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "<br>",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 21,
-        "order": 16,
+        "order": 13,
         "props": {
           "type": "t"
         },
@@ -228,7 +189,7 @@
       },
       {
         "id": 24,
-        "order": 18,
+        "order": 15,
         "props": {
           "type": "t"
         },
@@ -241,7 +202,7 @@
       },
       {
         "id": 25,
-        "order": 19,
+        "order": 16,
         "props": {
           "type": "t"
         },
@@ -254,7 +215,7 @@
       },
       {
         "id": 26,
-        "order": 20,
+        "order": 17,
         "props": {
           "type": "t"
         },
@@ -267,7 +228,7 @@
       },
       {
         "id": 27,
-        "order": 21,
+        "order": 18,
         "props": {
           "type": "t"
         },
@@ -280,7 +241,7 @@
       },
       {
         "id": 28,
-        "order": 22,
+        "order": 19,
         "props": {
           "type": "t"
         },
@@ -293,7 +254,7 @@
       },
       {
         "id": 29,
-        "order": 23,
+        "order": 20,
         "props": {
           "type": "t"
         },
@@ -306,7 +267,7 @@
       },
       {
         "id": 30,
-        "order": 24,
+        "order": 21,
         "props": {
           "type": "t"
         },
@@ -319,7 +280,7 @@
       },
       {
         "id": 31,
-        "order": 25,
+        "order": 22,
         "props": {
           "type": "t"
         },
@@ -332,280 +293,7 @@
       },
       {
         "id": 32,
-        "order": 26,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 56,
-        "order": 27,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "<b>Zobrazenie sekcie kde hodnota je vo formate [kod] text</b><br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 63,
-        "order": 28,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "sekcia td (bez zmeny ale spoj do riadku) - {{sessions|getSections('td')|trans('join', null)}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 57,
-        "order": 29,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "sekcia td (kod:text) - {{sessions|getSections('td')|trans('join', 'k:t')}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 58,
-        "order": 30,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "sekcia td (kod-text) - {{sessions|getSections('td')|trans('join', 'k-t')}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 59,
-        "order": 31,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "sekcia td (iba kod) - {{sessions|getSections('td')|trans('join', 'k')}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 60,
-        "order": 32,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "sekcia td (iba text) - {{sessions|getSections('td')|trans('join', 't')}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 61,
-        "order": 33,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 64,
-        "order": 34,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "<b>Skry hodnoty ktore boli zrusene</b><br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 62,
-        "order": 35,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{&lt; sessions|getSections(\"td\")|where(\"!sekcia.zruseny\") }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 65,
-        "order": 36,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 67,
-        "order": 37,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "<b>Možnosti filtrovania</b><br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 68,
-        "order": 38,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "posledna nájdena sekcia - |where(\"i==0\")<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 72,
-        "order": 39,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "všetky sekcie z posledného dekurzu - |where(\"d.isLast\")<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 66,
-        "order": 40,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "časová podmienka - |where(\"d.period&gt;365\")<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 69,
-        "order": 41,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "pri lv sekcii podľa typu výsledku - |where('typ=\"tetanus\"')<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 70,
-        "order": 42,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "hodnoty v poli sekcie - |where(\"s.value.typ.props.propValue=='Zrak'\")<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 74,
-        "order": 43,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": " d|pred(s, \"vd\")  - najdi v dekurze <b>d</b>  (aktualny dekurz) sekciu <b>vd</b> ktorá je pred <b>s</b>  (aktualne sekcia) v relale to vyzera takto<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 73,
-        "order": 44,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "|where(\"s.value.id.props.id=='5175'\")|where('d|pred(s, \"vd\").value.id.props.id==\"I10\"')<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 75,
-        "order": 45,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "ak potrebujem len overiť ze dg len začína s použijeme <br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 76,
-        "order": 46,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "where(\"s.value.id.props.id=='5175'\")|where('d|pred(s, \"vd\").value.id.props.id|trans(\"startsWith\", \"I10\")')<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 71,
-        "order": 47,
+        "order": 23,
         "props": {
           "type": "t"
         },
@@ -618,7 +306,7 @@
       },
       {
         "id": 33,
-        "order": 48,
+        "order": 24,
         "props": {
           "type": "t"
         },
@@ -631,7 +319,7 @@
       },
       {
         "id": 40,
-        "order": 49,
+        "order": 25,
         "props": {
           "type": "t"
         },
@@ -644,7 +332,7 @@
       },
       {
         "id": 42,
-        "order": 51,
+        "order": 27,
         "props": {
           "type": "t"
         },
@@ -657,7 +345,7 @@
       },
       {
         "id": 46,
-        "order": 52,
+        "order": 28,
         "props": {
           "type": "t"
         },
@@ -670,7 +358,7 @@
       },
       {
         "id": 48,
-        "order": 54,
+        "order": 30,
         "props": {
           "type": "t"
         },
@@ -683,7 +371,7 @@
       },
       {
         "id": 44,
-        "order": 55,
+        "order": 31,
         "props": {
           "type": "t"
         },
@@ -696,7 +384,7 @@
       },
       {
         "id": 45,
-        "order": 56,
+        "order": 32,
         "props": {
           "type": "t"
         },
@@ -709,7 +397,7 @@
       },
       {
         "id": 49,
-        "order": 57,
+        "order": 33,
         "props": {
           "type": "t"
         },
@@ -722,7 +410,7 @@
       },
       {
         "id": 50,
-        "order": 58,
+        "order": 34,
         "props": {
           "type": "t"
         },
@@ -735,7 +423,7 @@
       },
       {
         "id": 51,
-        "order": 59,
+        "order": 35,
         "props": {
           "type": "t"
         },
@@ -748,7 +436,7 @@
       },
       {
         "id": 52,
-        "order": 60,
+        "order": 36,
         "props": {
           "type": "t"
         },
@@ -763,7 +451,7 @@
     "premenna": [
       {
         "id": 23,
-        "order": 17,
+        "order": 14,
         "props": {
           "type": "premenna"
         },
@@ -788,7 +476,7 @@
     "pv": [
       {
         "id": 41,
-        "order": 50,
+        "order": 26,
         "props": {
           "type": "pv"
         },
@@ -799,16 +487,8 @@
               "propValue": "Sluch"
             }
           },
-          "date": {
-            "value": "",
-            "props": {}
-          },
-          "me": {
-            "value": "",
-            "props": {}
-          },
           "popis": {
-            "value": "v norme<br>",
+            "value": "v norme",
             "props": {}
           }
         }
@@ -817,16 +497,12 @@
     "ra": [
       {
         "id": 47,
-        "order": 53,
+        "order": 29,
         "props": {
           "type": "ra"
         },
         "value": {
           "text": {
-            "value": "",
-            "props": {}
-          },
-          "kvo": {
             "value": "",
             "props": {}
           }

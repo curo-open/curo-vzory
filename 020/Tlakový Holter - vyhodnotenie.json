@@ -86,9 +86,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "id": "I10.00",
+              "idClassid": "diagnoza",
               "idEzid": "02089398180@9",
-              "idClassid": "diagnoza"
+              "id": "I10.00"
             }
           },
           "text": {
@@ -109,11 +109,11 @@
           "id": {
             "value": "[5716] Počítačové vyhodnotenie dlhodobého monitorovania tlaku krvi a zhodnotenie nálezu lekárom. Výkon môže vykazovať kardiológ a internista.",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 240,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5716,
               "idEzid": "00000494310@9",
-              "id": 5716
+              "idClassid": "vykon"
             }
           },
           "count": {

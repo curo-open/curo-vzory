@@ -40,9 +40,9 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z00.0",
               "idEzid": "02089520809@9",
-              "id": "Z00.0"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -92,9 +92,9 @@
             "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
             "props": {
               "propBody": 0,
-              "id": "H0006",
+              "idClassid": "vykon",
               "idEzid": "02089725770@8",
-              "idClassid": "vykon"
+              "id": "H0006"
             }
           },
           "count": {

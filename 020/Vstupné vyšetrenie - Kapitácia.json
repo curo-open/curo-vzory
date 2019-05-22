@@ -108,6 +108,10 @@
           "text": {
             "value": "<br>",
             "props": {}
+          },
+          "kvo": {
+            "value": "",
+            "props": {}
           }
         }
       }
@@ -364,6 +368,14 @@
               "propValue": "Status preasens"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "Pri vedomí, orientovaný, kľudové eupnoe, bez cyanózy. Orientačne neurologicky v norme.",
             "props": {}
@@ -382,6 +394,14 @@
             "props": {
               "propValue": "Hlava"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": "Hlava, krk veku primeraný nález.",
@@ -402,6 +422,14 @@
               "propValue": "Dýchacie ústrojenstvo"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "Dýchanie vezikulárne, AS pravidelná 80/min. ",
             "props": {}
@@ -420,6 +448,14 @@
             "props": {
               "propValue": "Brucho"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": "Brucho voľne priehmatné, nebolestivé, hepar, lien nezväčšené, tapottement bilat. negat.",
@@ -440,6 +476,14 @@
               "propValue": "Dolné končatiny"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "bez edémov, perif. pulzy hmatné",
             "props": {}
@@ -455,19 +499,15 @@
           "type": "ab"
         },
         "value": {
+          "fajciar": {
+            "value": "",
+            "props": {}
+          },
           "alkohol": {
             "value": "",
             "props": {}
           },
           "kava": {
-            "value": "",
-            "props": {}
-          },
-          "fajciar": {
-            "value": "",
-            "props": {}
-          },
-          "cigariet": {
             "value": "",
             "props": {}
           },
@@ -696,8 +736,9 @@
       }
     ]
   },
-  "summary": "",
+  "summary": "Vstupné vyšetrenie - Kapitácia",
   "tags": [],
   "vars": {},
+  "type": "examination",
   "source": "curo-open/curo-vzory#/020"
 }

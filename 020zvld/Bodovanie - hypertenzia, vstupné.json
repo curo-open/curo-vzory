@@ -2,7 +2,7 @@
   "summary": "",
   "content": "<section data-x-id=\"27\" data-type=\"premenna\" class=\"\"><aside></aside><label class=\"section-label  \">Premenná:</label>​<label data-for=\"name\" class=\"\">meno</label><div class=\"Field\" data-name=\"name\">holter</div>​<label data-for=\"type\" class=\"\">typ</label><div class=\"FieldList hasActions\" data-name=\"type\" data-prop-value=\"text\">text</div>​<label data-for=\"value\" class=\"\">hodnota</label><div class=\"Field\" data-name=\"value\">ON</div>​<label data-for=\"valueLong\" class=\" _noval\">hodnota</label><div class=\"_noval FieldHtml\" data-name=\"valueLong\"></div></section><section data-x-id=\"2\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089398180@11\" data-id=\"I10.00\" title=\"[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy\" style=\"width: 50ch;\">[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy</div>​<label data-for=\"text\" class=\" _noval\">/</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"3\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"H0004\" data-id-ezid=\"02089725754@10\" data-id-classid=\"vykon\" data-prop-body=\"0\" title=\"[H0004] Kontrolné vyšetrenie u poistenca s arteriálnou hypertenziou jeden krát za 6 mesiacov\" style=\"width: 50ch;\">[H0004] Kontrolné vyšetrenie u poistenca s arteriálnou hypertenziou jeden krát za 6 mesiacov</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"4\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"5702\" data-id-ezid=\"00000494187@10\" data-id-classid=\"vykon\" data-prop-body=\"550\" data-prop-type=\"SVaLZ\" title=\"[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.\" style=\"width: 50ch;\">[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"5\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? zp==25 &amp;&amp; var.holter==\"ON\" &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='5715'\")|trans(\"length\") == 0)}}<br></div></section><section data-x-id=\"6\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"5715\" data-id-ezid=\"00000494302@10\" data-id-classid=\"vykon\" data-prop-body=\"750\" data-prop-type=\"SVaLZ\" title=\"[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.\" style=\"width: 50ch;\">[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"7\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"8\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? zp==27 &amp;&amp; var.holter==\"ON\" &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=730\")|where(\"s.value.id.props.id=='5715'\")|trans(\"length\") == 0)}}<br></div></section><section data-x-id=\"9\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"5715\" data-id-ezid=\"00000494302@10\" data-id-classid=\"vykon\" data-prop-body=\"750\" data-prop-type=\"SVaLZ\" title=\"[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.\" style=\"width: 50ch;\">[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"10\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"11\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? zp==25 &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0)}}<br></div></section><section data-x-id=\"12\" data-type=\"premenna\" class=\"\"><aside></aside><label class=\"section-label  \">Premenná:</label>​<label data-for=\"name\" class=\"\">meno</label><div class=\"Field\" data-name=\"name\">skore</div>​<label data-for=\"type\" class=\"\">typ</label><div class=\"FieldList hasActions\" data-name=\"type\" data-prop-value=\"fn-score\">výpočet SCORE</div>​<label data-for=\"value\" class=\" _noval\">hodnota</label><div class=\"_noval Field\" data-name=\"value\"></div>​<label data-for=\"valueLong\" class=\" _noval\">hodnota</label><div class=\"_noval FieldHtml\" data-name=\"valueLong\"></div></section><section data-x-id=\"13\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"I10.00\" data-id-ezid=\"02089398180@11\" data-id-classid=\"diagnoza\" title=\"[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy\" style=\"width: 50ch;\">[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy</div>​<label data-for=\"text\" class=\" _noval\">/</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"14\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"02089725770@10\" data-id=\"H0006\" data-prop-body=\"0\" title=\"[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.\" style=\"width: 50ch;\">[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"15\" data-type=\"h-score\" class=\"\"><aside></aside><label class=\"section-label  \">KV SCORE:</label>​<label data-for=\"score\" class=\"\">SCORE</label><div class=\"FieldN\" data-name=\"score\" data-expr=\"={{var.skore}}\">0</div>​<label data-for=\"x\" class=\"\">koeficient</label><div class=\"FieldR\" data-name=\"x\" data-prop-value=\"1.0\">1</div>​<label data-for=\"risk\" class=\"\">výsledné riziko</label><div class=\"FieldN locked\" data-name=\"risk\">0</div>​<label data-for=\"poznamka\" class=\" _noval\">pozn.</label><div class=\"_noval Field\" data-name=\"poznamka\"></div></section><section data-x-id=\"16\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"17\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? zp==24 }}<br></div></section><section data-x-id=\"18\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"I10.00\" data-id-ezid=\"02089398180@11\" data-id-classid=\"diagnoza\" title=\"[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy\" style=\"width: 50ch;\">[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy</div>​<label data-for=\"text\" class=\" _noval\">/</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"19\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000466565@10\" data-id=\"10\" data-prop-body=\"180\" title=\"[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl\" style=\"width: 50ch;\">[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"20\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000494187@10\" data-id=\"5702\" data-prop-type=\"SVaLZ\" data-prop-body=\"550\" title=\"[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.\" style=\"width: 50ch;\">[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"21\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"22\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? zp==27 }}<br></div></section><section data-x-id=\"23\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089398180@11\" data-id=\"I10.00\" title=\"[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy\" style=\"width: 50ch;\">[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy</div>​<label data-for=\"text\" class=\" _noval\">/</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"24\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000466565@10\" data-id=\"10\" data-prop-body=\"180\" title=\"[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl\" style=\"width: 50ch;\">[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"25\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section>",
   "title": "Bodovanie - hypertenzia, vstupné",
-  "shortcut": "zp-hyper-vstupne",
+  "shortcut": "b-hyperv",
   "if": "",
   "data": {
     "_": {},
@@ -219,9 +219,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "id": "I10.00",
+              "idClassid": "diagnoza",
               "idEzid": "02089398180@11",
-              "idClassid": "diagnoza"
+              "id": "I10.00"
             }
           },
           "text": {
@@ -240,9 +240,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "id": "I10.00",
+              "idClassid": "diagnoza",
               "idEzid": "02089398180@11",
-              "idClassid": "diagnoza"
+              "id": "I10.00"
             }
           },
           "text": {
@@ -261,9 +261,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "id": "I10.00",
+              "idClassid": "diagnoza",
               "idEzid": "02089398180@11",
-              "idClassid": "diagnoza"
+              "id": "I10.00"
             }
           },
           "text": {
@@ -282,9 +282,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "I10.00",
               "idEzid": "02089398180@11",
-              "id": "I10.00"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -306,9 +306,9 @@
             "value": "[H0003] Iniciálne vyšetrenie u poistenca s arteriálnou hypertenziou alebo ošetrenie akútneho hypertenzného stavu",
             "props": {
               "propBody": 0,
-              "id": "H0003",
+              "idClassid": "vykon",
               "idEzid": "02089725747@10",
-              "idClassid": "vykon"
+              "id": "H0003"
             }
           },
           "count": {
@@ -320,119 +320,6 @@
       {
         "id": 33,
         "order": 4,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
-            "props": {
-              "propBody": 180,
-              "id": 10,
-              "idEzid": "00000466565@10",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 34,
-        "order": 5,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
-            "props": {
-              "propBody": 550,
-              "propType": "SVaLZ",
-              "id": 5702,
-              "idEzid": "00000494187@10",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 37,
-        "order": 8,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.",
-            "props": {
-              "propType": "SVaLZ",
-              "propBody": 750,
-              "idClassid": "vykon",
-              "idEzid": "00000494302@10",
-              "id": 5715
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 40,
-        "order": 11,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.",
-            "props": {
-              "propBody": 750,
-              "propType": "SVaLZ",
-              "id": 5715,
-              "idEzid": "00000494302@10",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 45,
-        "order": 16,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
-            "props": {
-              "propBody": 0,
-              "idClassid": "vykon",
-              "idEzid": "02089725770@10",
-              "id": "H0006"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 50,
-        "order": 21,
         "props": {
           "type": "vv"
         },
@@ -453,8 +340,8 @@
         }
       },
       {
-        "id": 51,
-        "order": 22,
+        "id": 34,
+        "order": 5,
         "props": {
           "type": "vv"
         },
@@ -476,6 +363,119 @@
         }
       },
       {
+        "id": 37,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.",
+            "props": {
+              "propBody": 750,
+              "propType": "SVaLZ",
+              "id": 5715,
+              "idEzid": "00000494302@10",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 40,
+        "order": 11,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.",
+            "props": {
+              "propType": "SVaLZ",
+              "propBody": 750,
+              "idClassid": "vykon",
+              "idEzid": "00000494302@10",
+              "id": 5715
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 45,
+        "order": 16,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
+            "props": {
+              "propBody": 0,
+              "id": "H0006",
+              "idEzid": "02089725770@10",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 50,
+        "order": 21,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
+            "props": {
+              "propBody": 180,
+              "id": 10,
+              "idEzid": "00000466565@10",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 51,
+        "order": 22,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
+            "props": {
+              "propBody": 550,
+              "propType": "SVaLZ",
+              "id": 5702,
+              "idEzid": "00000494187@10",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 55,
         "order": 26,
         "props": {
@@ -486,9 +486,9 @@
             "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
               "propBody": 180,
-              "idClassid": "vykon",
+              "id": 10,
               "idEzid": "00000466565@10",
-              "id": 10
+              "idClassid": "vykon"
             }
           },
           "count": {

@@ -714,21 +714,8 @@
         }
       },
       {
-        "id": 311,
-        "order": 79,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{&lt; sessions|getSections(\"b-lv\")|where(\"i==0\")|trans('text')}} <br>",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 312,
-        "order": 80,
+        "order": 79,
         "props": {
           "type": "t"
         },
@@ -741,7 +728,7 @@
       },
       {
         "id": 313,
-        "order": 81,
+        "order": 80,
         "props": {
           "type": "t"
         },
@@ -754,7 +741,7 @@
       },
       {
         "id": 315,
-        "order": 83,
+        "order": 82,
         "props": {
           "type": "t"
         },
@@ -767,7 +754,7 @@
       },
       {
         "id": 211,
-        "order": 84,
+        "order": 83,
         "props": {
           "type": "t"
         },
@@ -780,7 +767,7 @@
       },
       {
         "id": 185,
-        "order": 85,
+        "order": 84,
         "props": {
           "type": "t"
         },
@@ -792,99 +779,8 @@
         }
       },
       {
-        "id": 187,
-        "order": 87,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{&lt; sessions|getSections(\"td\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 226,
-        "order": 89,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp == 25 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 228,
-        "order": 91,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 196,
-        "order": 92,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp == 24 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 197,
-        "order": 94,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 198,
-        "order": 95,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp == 27}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 200,
-        "order": 97,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 189,
-        "order": 99,
+        "order": 87,
         "props": {
           "type": "t"
         },
@@ -1122,6 +1018,14 @@
               "propValue": "Status preasens"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "pri vedomí, orientovaný, habitus normostenický, koža hydratovaná, čistá, sliznice ružové",
             "props": {}
@@ -1141,8 +1045,16 @@
               "propValue": "Vitálne funkcie"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -1159,6 +1071,14 @@
             "props": {
               "propValue": "Zrak"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": "VOD:  5/5    VOS: 5 /5     Farbocit: správny<br>",
@@ -1179,6 +1099,14 @@
               "propValue": "Sluch"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "v norme<br>",
             "props": {}
@@ -1197,6 +1125,14 @@
             "props": {
               "propValue": "Hlava"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": "mezocef. na poklop nebolestivá, výstupy  hl.nn. nebolestivé, šija voľná neoponuje, zrenice izokorické, FR výbavná, uši, nos bez výtoku<br>",
@@ -1217,6 +1153,14 @@
               "propValue": "Hrdlo"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "kľudné, tonzily nezv., bez čapov, jazky plazí v  strednej rovine, chrup sanovaný<br>",
             "props": {}
@@ -1235,6 +1179,14 @@
             "props": {
               "propValue": "Krk"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": "LU a ŠŽ nehmatám, jugula bez kongescie<br>",
@@ -1255,6 +1207,14 @@
               "propValue": "Hrudník"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "súmerný<br>",
             "props": {}
@@ -1273,6 +1233,14 @@
             "props": {
               "propValue": "Pľúca"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": "dýchanie vesikulárne bez VDF<br>",
@@ -1293,6 +1261,14 @@
               "propValue": "Srdce"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "akcia pravidelná, ozvy ohraničené, bez šelestu<br>",
             "props": {}
@@ -1311,6 +1287,14 @@
             "props": {
               "propValue": "Brucho"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": "mäkké priehmatné bez palp. citl. a hm. rezist.,  Pečeň a slezina nezv., tapott. bilat. negat.<br>",
@@ -1331,6 +1315,14 @@
               "propValue": "Chrbtica"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "v ose<br>",
             "props": {}
@@ -1349,6 +1341,14 @@
             "props": {
               "propValue": "Dolné končatiny"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": "bez edémov a varixov, bez známok zápalu, pulzácie ATP a ADP hmatné bilat.<br>",
@@ -1369,6 +1369,14 @@
               "propValue": "Lokomočný aparát"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": " kĺby bez deformít, zápal. a degenerat. zmien, bez palpačnej citlivosti, rozsahy pohyblivosti kĺbov a chrbtice v norme, svalstvo normálne vyvinuté, svalové spazmy neprítomné<br>",
             "props": {}
@@ -1387,6 +1395,14 @@
             "props": {
               "propValue": "RTG"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": " <br>",
@@ -1407,6 +1423,14 @@
               "propValue": "USG"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": " <br>",
             "props": {}
@@ -1417,7 +1441,7 @@
     "ekg": [
       {
         "id": 314,
-        "order": 82,
+        "order": 81,
         "props": {
           "type": "ekg"
         },
@@ -1480,7 +1504,7 @@
     "vd": [
       {
         "id": 186,
-        "order": 86,
+        "order": 85,
         "props": {
           "type": "vd"
         },
@@ -1496,107 +1520,39 @@
         }
       }
     ],
-    "vv": [
-      {
-        "id": 190,
-        "order": 88,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[60B] Komplexné predoperačné vyšetrenie vrátane odberov krvi, zhodnotenie laboratórnych a prístrojových vyšetrení.",
-            "props": {
-              "propBody": 500,
-              "idClassid": "vykon",
-              "idEzid": "02089719450",
-              "id": "60B"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 229,
-        "order": 90,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
-            "props": {
-              "propBody": 550,
-              "propType": "SVaLZ",
-              "id": 5702,
-              "idEzid": "00000494187@9",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 191,
-        "order": 93,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5702ZV] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie ako súčasť predoperačného vyšetrenia. Nutná kombinácia s výkonom 60b.",
-            "props": {
-              "propBody": 0,
-              "id": "5702ZV",
-              "idEzid": "curo-5702ZV@7",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 202,
-        "order": 96,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5702z] EKG",
-            "props": {
-              "propBody": 550,
-              "id": "5702z",
-              "idEzid": "_",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      }
-    ],
     "z": [
       {
         "id": 193,
-        "order": 98,
+        "order": 86,
         "props": {
           "type": "z"
         },
         "value": {
           "z": {
             "value": "Z INT.hľadiska ASA I-IV., nie je KI z INT.hľ. k op.zákroku v CA\nPerioperačný monitoring TK, glykémie.\nLMWH v štandardnej prevencii TECH.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vlozit": [
+      {
+        "id": 342,
+        "order": 88,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Bodovanie - predoperačné",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
             "props": {}
           }
         }

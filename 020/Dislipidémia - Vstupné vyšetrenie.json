@@ -1,16 +1,41 @@
 {
   "type": "examination",
-  "summary": "Hypertenzia - Vstupné vyšetrenie",
+  "summary": "Dislipidémia - Vstupné vyšetrenie",
   "content": "<section data-x-id=\"102\" data-type=\"premenna\" class=\"\"><aside></aside><label class=\"section-label  \">Premenná:</label>​<label data-for=\"name\" class=\"\">meno</label><div class=\"Field\" data-name=\"name\">holter</div>​<label data-for=\"type\" class=\"\">typ</label><div class=\"FieldList hasActions\" data-name=\"type\" data-prop-value=\"text\">text</div>​<label data-for=\"value\" class=\"\">hodnota</label><div class=\"Field\" data-name=\"value\">ON</div>​<label data-for=\"valueLong\" class=\" _noval\">hodnota</label><div class=\"_noval FieldHtml\" data-name=\"valueLong\"></div></section><section data-x-id=\"122\" data-type=\"t-nadpis\" class=\"\"><aside></aside>​<label data-for=\"nadpis\" class=\"\">Nadpis</label><div class=\"FieldHtml\" data-name=\"nadpis\">Hypertenzia - Vstupné vyšetrenie<br></div>​<label data-for=\"podnadpis\" class=\" _noval\">Podnadpis</label><div class=\"_noval FieldHtml\" data-name=\"podnadpis\"></div></section><section data-x-id=\"3\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.:</label><div class=\"FieldHtml\" data-name=\"s\">Bolesti hlavy, závraty, poruchy zraku neudáva, bez bolesti na hrudníku, neodpadol, bez palpitícií, dýcha sa dobre, nohy mu nepuchnú, s močením ťažkosti neudáva, klaudikačné bolesti ani pocit chladnýc končatín nemá, bez dyspepsie, hmotnosť stabil, anam. chrápania<br></div></section><section data-x-id=\"208\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"ra\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"209\" data-type=\"ra\" class=\"\"><aside></aside><label class=\"section-label  \">RA:</label><div class=\"_noval FieldHtml\" data-name=\"text\"></div></section><section data-x-id=\"210\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"211\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"oa\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"212\" data-type=\"oa\" class=\"\"><aside></aside><label class=\"section-label  \">OA:</label><div class=\"_noval FieldHtml\" data-name=\"text\"></div></section><section data-x-id=\"213\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"214\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"sa\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"215\" data-type=\"sa\" class=\"\"><aside></aside><label class=\"section-label  \">SA:</label><div class=\"_noval FieldHtml\" data-name=\"text\"></div></section><section data-x-id=\"216\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"217\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"la\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"218\" data-type=\"la\" class=\"\"><aside></aside><label class=\"section-label  \">LA:</label><div class=\"_noval FieldHtml\" data-name=\"text\"></div></section><section data-x-id=\"219\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"220\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0}}<br></div></section><section data-x-id=\"221\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br></div></section><section data-x-id=\"223\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"224\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"aa\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"225\" data-type=\"aa\" class=\"\"><aside></aside><label class=\"section-label  \">AA:</label><div class=\"_noval FieldHtml\" data-name=\"text\"></div></section><section data-x-id=\"226\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"227\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? pohlavie == \"female\" &amp;&amp; sessions|getSections(\"ga\")|trans(\"length\") &gt; 0}}<br></div></section><section data-x-id=\"228\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt; sessions|getSections(\"ga\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"229\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"230\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? pohlavie == \"female\" &amp;&amp; !sessions|getSections(\"ga\")|trans(\"length\") &gt; 0}}<br></div></section><section data-x-id=\"231\" data-type=\"ga\" class=\"\"><aside></aside><label class=\"section-label  \">GA:</label><div class=\"_noval FieldHtml\" data-name=\"text\"></div></section><section data-x-id=\"232\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"82\" data-type=\"ab\" class=\"\"><aside></aside><label class=\"section-label  \">Abúzy:</label><br><label data-for=\"alkohol\" class=\" _noval\">Alkohol</label><div class=\"_noval FieldList hasActions\" data-name=\"alkohol\"></div>​<label data-for=\"alkdavka\" class=\" _noval\">denná dávka(v jednotkách alkoholu)</label><div class=\"_noval FieldN\" data-name=\"alkdavka\"></div>​<label data-for=\"alkdlzka\" class=\" _noval\">začal užívať od</label><div class=\"_noval FieldDate hasActions\" data-name=\"alkdlzka\"></div>​<label data-for=\"alkexdate\" class=\" _noval\">abstinuje od</label><div class=\"_noval FieldDate hasActions\" data-name=\"alkexdate\"></div>​<label data-for=\"alkpoznamka\" class=\" _noval\">poznámka</label><div class=\"_noval Field\" data-name=\"alkpoznamka\"></div><br><label data-for=\"kava\" class=\" _noval\">Káva</label><div class=\"_noval FieldList hasActions\" data-name=\"kava\"></div>​<label data-for=\"kavadavka\" class=\" _noval\">denná dávka(počet espress)</label><div class=\"_noval FieldN\" data-name=\"kavadavka\"></div>​<label data-for=\"kavadlzka\" class=\" _noval\">začal užívať od</label><div class=\"_noval FieldDate hasActions\" data-name=\"kavadlzka\"></div>​<label data-for=\"kavaexdate\" class=\" _noval\">abstinuje od</label><div class=\"_noval FieldDate hasActions\" data-name=\"kavaexdate\"></div>​<label data-for=\"kavapoznamka\" class=\" _noval\">poznámka</label><div class=\"_noval Field\" data-name=\"kavapoznamka\"></div><br><label data-for=\"fajciar\" class=\" _noval\">Fajčiar</label><div class=\"_noval FieldList hasActions\" data-name=\"fajciar\"></div>​<label data-for=\"cigariet\" class=\" _noval\">denná dávka(počet cigariet)</label><div class=\"_noval FieldN\" data-name=\"cigariet\"></div>​<label data-for=\"fajciardlzka\" class=\" _noval\">začal užívať od</label><div class=\"_noval FieldDate hasActions\" data-name=\"fajciardlzka\"></div>​<label data-for=\"fajciarexdate\" class=\" _noval\">abstinuje od</label><div class=\"_noval FieldDate hasActions\" data-name=\"fajciarexdate\"></div>​<label data-for=\"fajciarpoznamka\" class=\" _noval\">poznámka</label><div class=\"_noval Field\" data-name=\"fajciarpoznamka\"></div><br><label data-for=\"drogy\" class=\" _noval\">Drogy</label><div class=\"_noval FieldList hasActions\" data-name=\"drogy\"></div>​<label data-for=\"drogydavka\" class=\" _noval\">denná dávka(číselne)</label><div class=\"_noval FieldN\" data-name=\"drogydavka\"></div>​<label data-for=\"drogydlzka\" class=\" _noval\">začal užívať od</label><div class=\"_noval FieldDate hasActions\" data-name=\"drogydlzka\"></div>​<label data-for=\"drogyexdate\" class=\" _noval\">abstinuje od</label><div class=\"_noval FieldDate hasActions\" data-name=\"drogyexdate\"></div>​<label data-for=\"drogypoznamka\" class=\" _noval\">poznámka</label><div class=\"_noval Field\" data-name=\"drogypoznamka\"></div></section><section data-x-id=\"83\" data-type=\"zfp\" class=\"\"><aside></aside><label class=\"section-label  \">Základné fyzikálne parametre:</label>​<label data-for=\"sys\" class=\" _noval\">tlak sys. (mmHg)</label><div class=\"_noval FieldN\" data-name=\"sys\"></div>​<label data-for=\"diast\" class=\" _noval\">tlak diast. (mmHg)</label><div class=\"_noval FieldN\" data-name=\"diast\"></div>​<label data-for=\"pulse\" class=\" _noval\">pulz</label><div class=\"_noval FieldN\" data-name=\"pulse\"></div>​<label data-for=\"sf\" class=\" _noval\">SF (/min)</label><div class=\"_noval FieldN minor\" data-name=\"sf\"></div>​<label data-for=\"df\" class=\" _noval\">DF (/min)</label><div class=\"_noval FieldN minor\" data-name=\"df\"></div><br><label data-for=\"weight\" class=\" _noval\">hmotnosť (kg)</label><div class=\"_noval FieldN\" data-name=\"weight\"></div>​<label data-for=\"height\" class=\" _noval\">výška (cm)</label><div class=\"_noval FieldN\" data-name=\"height\"></div>​<label data-for=\"bmi\" class=\" _noval\">BMI</label><div class=\"_noval FieldR locked\" data-name=\"bmi\"></div>​<label data-for=\"oh\" class=\" _noval\">Obvod pásu (cm)</label><div class=\"_noval FieldN minor\" data-name=\"oh\"></div>​<label data-for=\"op\" class=\" _noval\">Obvod hlavy (cm)</label><div class=\"_noval FieldN minor\" data-name=\"op\"></div>​<label data-for=\"o2\" class=\" _noval\">sat. O2 (%)</label><div class=\"_noval FieldN minor\" data-name=\"o2\"></div>​<label data-for=\"temp\" class=\" _noval\">teplota (°C)</label><div class=\"_noval FieldR minor\" data-name=\"temp\"></div></section><section data-x-id=\"88\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.:</label><div class=\"FieldHtml\" data-name=\"o\"><br></div></section><section data-x-id=\"151\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Status preasens'\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"152\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyšetrenia:</label>​<label data-for=\"typ\" class=\"\">Typ</label><div class=\"FieldList hasActions\" data-name=\"typ\" data-prop-value=\"Status preasens\">Status preasens</div>​<label data-for=\"popis\" class=\"\">popis</label><div class=\"FieldHtml\" data-name=\"popis\">pri vedomí, orientovaný, habitus normostenický, koža hydratovaná, čistá, sliznice ružové</div></section><section data-x-id=\"153\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"154\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Zrak'\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"155\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyšetrenia:</label>​<label data-for=\"typ\" class=\"\">Typ</label><div class=\"FieldList hasActions\" data-name=\"typ\" data-prop-value=\"Zrak\">Zrak</div>​<label data-for=\"popis\" class=\"\">popis</label><div class=\"FieldHtml\" data-name=\"popis\">VOD:  5/5    VOS: 5 /5     Farbocit: správny</div></section><section data-x-id=\"156\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"157\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Sluch'\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"158\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyšetrenia:</label>​<label data-for=\"typ\" class=\"\">Typ</label><div class=\"FieldList hasActions\" data-name=\"typ\" data-prop-value=\"Sluch\">Sluch</div>​<label data-for=\"popis\" class=\"\">popis</label><div class=\"FieldHtml\" data-name=\"popis\">v norme</div></section><section data-x-id=\"159\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"160\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hlava'\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"161\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyšetrenia:</label>​<label data-for=\"typ\" class=\"\">Typ</label><div class=\"FieldList hasActions\" data-name=\"typ\" data-prop-value=\"Hlava\">Hlava</div>​<label data-for=\"popis\" class=\"\">popis</label><div class=\"FieldHtml\" data-name=\"popis\">mezocef. na poklop nebolestivá, výstupy  hl.nn. nebolestivé, šija voľná neoponuje, zrenice izokorické, FR výbavná, uši, nos bez výtoku</div></section><section data-x-id=\"162\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"163\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hrdlo'\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"164\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyšetrenia:</label>​<label data-for=\"typ\" class=\"\">Typ</label><div class=\"FieldList hasActions\" data-name=\"typ\" data-prop-value=\"Hrdlo\">Hrdlo</div>​<label data-for=\"popis\" class=\"\">popis</label><div class=\"FieldHtml\" data-name=\"popis\">kľudné, tonzily nezv., bez čapov, jazky plazí v  strednej rovine, chrup sanovaný</div></section><section data-x-id=\"165\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"166\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Krk'\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"167\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyšetrenia:</label>​<label data-for=\"typ\" class=\"\">Typ</label><div class=\"FieldList hasActions\" data-name=\"typ\" data-prop-value=\"Krk\">Krk</div>​<label data-for=\"popis\" class=\"\">popis</label><div class=\"FieldHtml\" data-name=\"popis\">LU a ŠŽ nehmatám, jugula bez kongescie</div></section><section data-x-id=\"168\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"169\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hrudník'\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"170\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyšetrenia:</label>​<label data-for=\"typ\" class=\"\">Typ</label><div class=\"FieldList hasActions\" data-name=\"typ\" data-prop-value=\"Hrudník\">Hrudník</div>​<label data-for=\"popis\" class=\"\">popis</label><div class=\"FieldHtml\" data-name=\"popis\">súmerný, Cor: AS prav. , ozvy ohraničené, Pulmo dýchanie vesikulárne bez VDF</div></section><section data-x-id=\"171\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"172\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Brucho'\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"173\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyšetrenia:</label>​<label data-for=\"typ\" class=\"\">Typ</label><div class=\"FieldList hasActions\" data-name=\"typ\" data-prop-value=\"Brucho\">Brucho</div>​<label data-for=\"popis\" class=\"\">popis</label><div class=\"FieldHtml\" data-name=\"popis\">mäkké priehmatné bez palp. citl. a hm. rezist.,  Pečeň a slezina nezv., tapott. bilat. negat.</div></section><section data-x-id=\"174\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"175\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Chrbtica'\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"176\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyšetrenia:</label>​<label data-for=\"typ\" class=\"\">Typ</label><div class=\"FieldList hasActions\" data-name=\"typ\" data-prop-value=\"Chrbtica\">Chrbtica</div>​<label data-for=\"popis\" class=\"\">popis</label><div class=\"FieldHtml\" data-name=\"popis\">v ose</div></section><section data-x-id=\"177\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"178\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='RTG'\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"179\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyšetrenia:</label>​<label data-for=\"typ\" class=\"\">Typ</label><div class=\"FieldList hasActions\" data-name=\"typ\" data-prop-value=\"RTG\">RTG</div>​<label data-for=\"popis\" class=\" _noval\">popis</label><div class=\"_noval FieldHtml\" data-name=\"popis\"></div></section><section data-x-id=\"180\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"181\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='USG'\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"182\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyšetrenia:</label>​<label data-for=\"typ\" class=\"\">Typ</label><div class=\"FieldList hasActions\" data-name=\"typ\" data-prop-value=\"USG\">USG</div>​<label data-for=\"popis\" class=\" _noval\">popis</label><div class=\"_noval FieldHtml\" data-name=\"popis\"></div></section><section data-x-id=\"183\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"184\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"ekg\")|where(\"i==0\")}} <br></div></section><section data-x-id=\"185\" data-type=\"ekg\" class=\"\"><aside></aside><label class=\"section-label  \">EKG vyšetrenie:</label>​<label data-for=\"rytmus\" class=\"\">Rytmus:</label><div class=\"Field\" data-name=\"rytmus\">sr</div>​<label data-for=\"fr\" class=\" _noval\">FR (/min):</label><div class=\"_noval Field\" data-name=\"fr\"></div>​<label data-for=\"ax\" class=\" _noval\">ax:</label><div class=\"_noval Field\" data-name=\"ax\"></div>​<label data-for=\"pq\" class=\" _noval\">PQ (ms):</label><div class=\"_noval Field\" data-name=\"pq\"></div>​<label data-for=\"qrs\" class=\" _noval\">QRS (ms):</label><div class=\"_noval Field\" data-name=\"qrs\"></div>​<label data-for=\"qt\" class=\" _noval\">QT:</label><div class=\"_noval Field\" data-name=\"qt\"></div>​<label data-for=\"qtcb\" class=\" _noval\">QTcB:</label><div class=\"_noval Field\" data-name=\"qtcb\"></div>​<label data-for=\"rs\" class=\"\">R/S(v):</label><div class=\"Field\" data-name=\"rs\">v4</div>​<label data-for=\"st\" class=\"\">ST:</label><div class=\"Field\" data-name=\"st\">izoelektricke</div>​<label data-for=\"t\" class=\"\">T:</label><div class=\"Field\" data-name=\"t\">+</div>​<label data-for=\"poznamka\" class=\" _noval\">Poznámka:</label><div class=\"_noval Field\" data-name=\"poznamka\"></div>​<label data-for=\"zaver\" class=\" _noval\">Záver:</label><div class=\"_noval Field\" data-name=\"zaver\"></div></section><section data-x-id=\"186\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"192\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt; sessions|getSections(\"b-lv\")|where(\"i==0\")|trans('text')}} <br></div></section><section data-x-id=\"187\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\"><b>RF:<br></b>muž, vek M nad 55r, Ž nad 65r, fajčenie, DLP/c chol nad 4,9, LDL nad 3,0, HDL pod 1,0, TG nad 1,7/, glyk. 5,6-6,9/ pozit. OGTT, obezita nad 30BMI, obvod pása Mnad 102, Ž nad 88, RA pozit. na KVO M pod 55r, Ž pod 65r./<br>Asymptom. poškodenie orgánov: pulzný TK nad 60mmHg, HĽK, zhrubnutie/plak v a. carotis, ABI menej ako 0,9, GF 30-60ml/min/1,73m2, MAU   <br></div></section><section data-x-id=\"94\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie:</label><div class=\"FieldHtml\" data-name=\"odp\">Úprava ŽŠ, redukcia hmotnosti, menej soliť, nízkocholesterolová dieta, kontroly TK<br>DG: A. hypertenzia 1-3. stupeň ESH/ESC s nízkym/stredným/vysokým/veľmi vysokým KVS rizikom <br>Doplní: TK holter, ECHOKG, USG karotíd, USG abdomenu, vyš. OP<br></div></section><section data-x-id=\"89\" data-type=\"td\" class=\"\"><aside></aside><label class=\"section-label  \">Trvalá Dg.:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"I10.00\" data-id-ezid=\"02089398180@9\" data-id-classid=\"diagnoza\" title=\"[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy\" style=\"width: 50ch;\">[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy</div>​<label data-for=\"text\" class=\" _noval\">poznámka</label><div class=\"_noval Field\" data-name=\"text\"></div>​<label data-for=\"from\" class=\" _noval\">zistené dňa</label><div class=\"_noval FieldDate hasActions\" data-name=\"from\"></div>​<label data-for=\"to\" class=\" _noval\">platí do</label><div class=\"_noval FieldDate hasActions\" data-name=\"to\"></div>​<label data-for=\"dispenzarizacia\" class=\" _noval\">sledovaný/dispenzarizovaný u mňa</label><div class=\"_noval FieldBool hasActions\" data-name=\"dispenzarizacia\"></div>​<label data-for=\"lekar\" class=\" _noval\">u lekára</label><div class=\"_noval FieldSearch hasActions\" data-name=\"lekar\"></div>​<label data-for=\"ok\" class=\" _noval\">obdobie kontroly</label><div class=\"_noval FieldList hasActions\" data-name=\"ok\"></div>​<label data-for=\"frekvencia\" class=\" _noval\">nasledujúca kontrola - frekvencia</label><div class=\"_noval FieldN\" data-name=\"frekvencia\"></div>​<label data-for=\"dlzka\" class=\" _noval\">dĺžka dispenzarizácie(v mesiacoch)</label><div class=\"_noval FieldN\" data-name=\"dlzka\"></div></section><section data-x-id=\"103\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? zp==25 }}<br></div></section><section data-x-id=\"90\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"I10.00\" data-id-ezid=\"02089398180@9\" data-id-classid=\"diagnoza\" title=\"[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy\" style=\"width: 50ch;\">[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy</div>​<label data-for=\"text\" class=\" _noval\">/</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"92\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"H0003\" data-id-ezid=\"02089725747@8\" data-id-classid=\"vykon\" data-prop-body=\"0\" title=\"[H0003] Iniciálne vyšetrenie u poistenca s arteriálnou hypertenziou alebo ošetrenie akútneho hypertenzného stavu\" style=\"width: 50ch;\">[H0003] Iniciálne vyšetrenie u poistenca s arteriálnou hypertenziou alebo ošetrenie akútneho hypertenzného stavu</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"98\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"10\" data-id-ezid=\"00000466565@8\" data-id-classid=\"vykon\" data-prop-body=\"180\" title=\"[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl\" style=\"width: 50ch;\">[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"100\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"5702\" data-id-ezid=\"00000494187@8\" data-id-classid=\"vykon\" data-prop-body=\"550\" data-prop-type=\"SVaLZ\" title=\"[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.\" style=\"width: 50ch;\">[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"104\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"105\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? zp==25 &amp;&amp; var.holter==\"ON\"}}<br></div></section><section data-x-id=\"112\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000494302@9\" data-id=\"5715\" data-prop-type=\"SVaLZ\" data-prop-body=\"750\" title=\"[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.\" style=\"width: 50ch;\">[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"107\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"201\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? (sessions|getSections(\"vv\")|where(\"d.period&gt;365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") &gt; 0 || sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; zp==25}}<br></div></section><section data-x-id=\"202\" data-type=\"premenna\" class=\"\"><aside></aside><label class=\"section-label  \">Premenná:</label>​<label data-for=\"name\" class=\"\">meno</label><div class=\"Field\" data-name=\"name\">skore</div>​<label data-for=\"type\" class=\"\">typ</label><div class=\"FieldList hasActions\" data-name=\"type\" data-prop-value=\"fn-score\">výpočet SCORE</div>​<label data-for=\"value\" class=\" _noval\">hodnota</label><div class=\"_noval Field\" data-name=\"value\"></div>​<label data-for=\"valueLong\" class=\" _noval\">hodnota</label><div class=\"_noval FieldHtml\" data-name=\"valueLong\"></div></section><section data-x-id=\"203\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089520809@9\" data-id=\"Z00.0\" title=\"[Z00.0] Všeobecné lekárske vyšetrenie\" style=\"width: 50ch;\">[Z00.0] Všeobecné lekárske vyšetrenie</div>​<label data-for=\"text\" class=\" _noval\">/</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"204\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"02089725770@9\" data-id=\"H0006\" data-prop-body=\"0\" title=\"[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.\" style=\"width: 50ch;\">[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"205\" data-type=\"h-score\" class=\"\"><aside></aside><label class=\"section-label  \">KV SCORE:</label>​<label data-for=\"score\" class=\"\">SCORE</label><div class=\"FieldN\" data-name=\"score\" data-expr=\"={{var.skore}}\">0</div>​<label data-for=\"x\" class=\"\">koeficient</label><div class=\"FieldR\" data-name=\"x\" data-prop-value=\"1.0\">1</div>​<label data-for=\"risk\" class=\"\">výsledné riziko</label><div class=\"FieldN locked\" data-name=\"risk\">0</div>​<label data-for=\"poznamka\" class=\" _noval\">pozn.</label><div class=\"_noval Field\" data-name=\"poznamka\"></div></section><section data-x-id=\"206\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"113\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? zp==24 }}<br></div></section><section data-x-id=\"116\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"I10.00\" data-id-ezid=\"02089398180@9\" data-id-classid=\"diagnoza\" title=\"[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy\" style=\"width: 50ch;\">[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy</div>​<label data-for=\"text\" class=\" _noval\">/</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"118\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000466565@9\" data-id=\"10\" data-prop-body=\"180\" title=\"[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl\" style=\"width: 50ch;\">[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"120\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000494187@9\" data-id=\"5702\" data-prop-type=\"SVaLZ\" data-prop-body=\"550\" title=\"[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.\" style=\"width: 50ch;\">[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"115\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"96\" data-type=\"p\" class=\"\"><aside></aside><label class=\"section-label  \">Poznámka:</label><div class=\"FieldHtml\" data-name=\"text\">Kontrola liecby Hypertenzie<br></div>​<label data-for=\"at\" class=\"\">upozorňovať od</label><div class=\"FieldDateTime hasActions\" data-name=\"at\" data-expr=\"=+5m\" data-prop-value=\"2019-03-19T14:07:40.659Z\">19.03.2019 15:07</div>​<label data-for=\"priority\" class=\"\">dôležité</label><div class=\"FieldList hasActions\" data-name=\"priority\" data-prop-value=\"0\">bežne</div>​<label data-for=\"done\" class=\" _noval\">vybavené dňa</label><div class=\"_noval FieldDate hasActions\" data-name=\"done\"></div></section>",
   "title": "Dislipidémia - Vstupné vyšetrenie",
   "shortcut": "lipid-vstupne",
   "if": "",
   "data": {
     "_": {},
+    "premenna": [
+      {
+        "id": 246,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "subj",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "Bolesti hlavy, závraty, poruchy zraku neudáva, bez bolesti na hrudníku, neodpadol, bez palpitícií, dýcha sa dobre, nohy mu nepuchnú, s močením ťažkosti neudáva, klaudikačné bolesti ani pocit chladnýc končatín nemá, bez dyspepsie, hmotnosť stabil, anam. chrápania",
+            "props": {}
+          }
+        }
+      }
+    ],
     "t-nadpis": [
       {
         "id": 122,
-        "order": 0,
+        "order": 1,
         "props": {
           "type": "t-nadpis"
         },
@@ -29,13 +54,13 @@
     "s": [
       {
         "id": 3,
-        "order": 1,
+        "order": 2,
         "props": {
           "type": "s"
         },
         "value": {
           "s": {
-            "value": "Bolesti hlavy, závraty, poruchy zraku neudáva, bez bolesti na hrudníku, neodpadol, bez palpitícií, dýcha sa dobre, nohy mu nepuchnú, s močením ťažkosti neudáva, klaudikačné bolesti ani pocit chladnýc končatín nemá, bez dyspepsie, hmotnosť stabil, anam. chrápania<br>",
+            "value": "{{var.subj}}<br>",
             "props": {}
           }
         }
@@ -44,7 +69,7 @@
     "t": [
       {
         "id": 208,
-        "order": 2,
+        "order": 3,
         "props": {
           "type": "t"
         },
@@ -57,7 +82,7 @@
       },
       {
         "id": 210,
-        "order": 4,
+        "order": 5,
         "props": {
           "type": "t"
         },
@@ -70,7 +95,7 @@
       },
       {
         "id": 211,
-        "order": 5,
+        "order": 6,
         "props": {
           "type": "t"
         },
@@ -83,7 +108,7 @@
       },
       {
         "id": 213,
-        "order": 7,
+        "order": 8,
         "props": {
           "type": "t"
         },
@@ -96,7 +121,7 @@
       },
       {
         "id": 214,
-        "order": 8,
+        "order": 9,
         "props": {
           "type": "t"
         },
@@ -109,7 +134,7 @@
       },
       {
         "id": 216,
-        "order": 10,
+        "order": 11,
         "props": {
           "type": "t"
         },
@@ -122,7 +147,7 @@
       },
       {
         "id": 217,
-        "order": 11,
+        "order": 12,
         "props": {
           "type": "t"
         },
@@ -135,7 +160,7 @@
       },
       {
         "id": 219,
-        "order": 13,
+        "order": 14,
         "props": {
           "type": "t"
         },
@@ -148,7 +173,7 @@
       },
       {
         "id": 220,
-        "order": 14,
+        "order": 15,
         "props": {
           "type": "t"
         },
@@ -161,7 +186,7 @@
       },
       {
         "id": 221,
-        "order": 15,
+        "order": 16,
         "props": {
           "type": "t"
         },
@@ -174,7 +199,7 @@
       },
       {
         "id": 223,
-        "order": 16,
+        "order": 17,
         "props": {
           "type": "t"
         },
@@ -187,7 +212,7 @@
       },
       {
         "id": 224,
-        "order": 17,
+        "order": 18,
         "props": {
           "type": "t"
         },
@@ -200,7 +225,7 @@
       },
       {
         "id": 226,
-        "order": 19,
+        "order": 20,
         "props": {
           "type": "t"
         },
@@ -213,7 +238,7 @@
       },
       {
         "id": 227,
-        "order": 20,
+        "order": 21,
         "props": {
           "type": "t"
         },
@@ -226,7 +251,7 @@
       },
       {
         "id": 228,
-        "order": 21,
+        "order": 22,
         "props": {
           "type": "t"
         },
@@ -239,7 +264,7 @@
       },
       {
         "id": 229,
-        "order": 22,
+        "order": 23,
         "props": {
           "type": "t"
         },
@@ -252,7 +277,7 @@
       },
       {
         "id": 230,
-        "order": 23,
+        "order": 24,
         "props": {
           "type": "t"
         },
@@ -265,7 +290,7 @@
       },
       {
         "id": 232,
-        "order": 25,
+        "order": 26,
         "props": {
           "type": "t"
         },
@@ -278,7 +303,7 @@
       },
       {
         "id": 151,
-        "order": 29,
+        "order": 30,
         "props": {
           "type": "t"
         },
@@ -291,7 +316,7 @@
       },
       {
         "id": 153,
-        "order": 31,
+        "order": 32,
         "props": {
           "type": "t"
         },
@@ -304,7 +329,7 @@
       },
       {
         "id": 154,
-        "order": 32,
+        "order": 33,
         "props": {
           "type": "t"
         },
@@ -317,7 +342,7 @@
       },
       {
         "id": 156,
-        "order": 34,
+        "order": 35,
         "props": {
           "type": "t"
         },
@@ -330,7 +355,7 @@
       },
       {
         "id": 157,
-        "order": 35,
+        "order": 36,
         "props": {
           "type": "t"
         },
@@ -343,7 +368,7 @@
       },
       {
         "id": 159,
-        "order": 37,
+        "order": 38,
         "props": {
           "type": "t"
         },
@@ -356,7 +381,7 @@
       },
       {
         "id": 160,
-        "order": 38,
+        "order": 39,
         "props": {
           "type": "t"
         },
@@ -369,7 +394,7 @@
       },
       {
         "id": 162,
-        "order": 40,
+        "order": 41,
         "props": {
           "type": "t"
         },
@@ -382,7 +407,7 @@
       },
       {
         "id": 163,
-        "order": 41,
+        "order": 42,
         "props": {
           "type": "t"
         },
@@ -395,7 +420,7 @@
       },
       {
         "id": 165,
-        "order": 43,
+        "order": 44,
         "props": {
           "type": "t"
         },
@@ -408,7 +433,7 @@
       },
       {
         "id": 166,
-        "order": 44,
+        "order": 45,
         "props": {
           "type": "t"
         },
@@ -421,7 +446,7 @@
       },
       {
         "id": 168,
-        "order": 46,
+        "order": 47,
         "props": {
           "type": "t"
         },
@@ -434,7 +459,7 @@
       },
       {
         "id": 169,
-        "order": 47,
+        "order": 48,
         "props": {
           "type": "t"
         },
@@ -447,7 +472,7 @@
       },
       {
         "id": 171,
-        "order": 49,
+        "order": 50,
         "props": {
           "type": "t"
         },
@@ -460,7 +485,7 @@
       },
       {
         "id": 172,
-        "order": 50,
+        "order": 51,
         "props": {
           "type": "t"
         },
@@ -473,46 +498,46 @@
       },
       {
         "id": 174,
-        "order": 52,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ &lt;? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 175,
         "order": 53,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Chrbtica'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 177,
-        "order": 55,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
             "value": "{{ &lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 178,
+        "id": 240,
+        "order": 54,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Dolné končatiny'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 242,
         "order": 56,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 178,
+        "order": 57,
         "props": {
           "type": "t"
         },
@@ -525,7 +550,7 @@
       },
       {
         "id": 180,
-        "order": 58,
+        "order": 59,
         "props": {
           "type": "t"
         },
@@ -538,7 +563,7 @@
       },
       {
         "id": 181,
-        "order": 59,
+        "order": 60,
         "props": {
           "type": "t"
         },
@@ -551,7 +576,7 @@
       },
       {
         "id": 183,
-        "order": 61,
+        "order": 62,
         "props": {
           "type": "t"
         },
@@ -564,7 +589,7 @@
       },
       {
         "id": 234,
-        "order": 62,
+        "order": 63,
         "props": {
           "type": "t"
         },
@@ -577,7 +602,7 @@
       },
       {
         "id": 236,
-        "order": 64,
+        "order": 65,
         "props": {
           "type": "t"
         },
@@ -590,7 +615,7 @@
       },
       {
         "id": 237,
-        "order": 65,
+        "order": 66,
         "props": {
           "type": "t"
         },
@@ -603,7 +628,7 @@
       },
       {
         "id": 238,
-        "order": 66,
+        "order": 67,
         "props": {
           "type": "t"
         },
@@ -616,7 +641,7 @@
       },
       {
         "id": 187,
-        "order": 67,
+        "order": 68,
         "props": {
           "type": "t"
         },
@@ -626,116 +651,12 @@
             "props": {}
           }
         }
-      },
-      {
-        "id": 103,
-        "order": 70,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp==25 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 104,
-        "order": 75,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 201,
-        "order": 76,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ?  zp==25 &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0)}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 206,
-        "order": 82,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 113,
-        "order": 83,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp==24 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 115,
-        "order": 88,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 240,
-        "order": 89,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp==27 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 243,
-        "order": 93,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
       }
     ],
     "ra": [
       {
         "id": 209,
-        "order": 3,
+        "order": 4,
         "props": {
           "type": "ra"
         },
@@ -754,7 +675,7 @@
     "oa": [
       {
         "id": 212,
-        "order": 6,
+        "order": 7,
         "props": {
           "type": "oa"
         },
@@ -769,7 +690,7 @@
     "sa": [
       {
         "id": 215,
-        "order": 9,
+        "order": 10,
         "props": {
           "type": "sa"
         },
@@ -784,7 +705,7 @@
     "la": [
       {
         "id": 218,
-        "order": 12,
+        "order": 13,
         "props": {
           "type": "la"
         },
@@ -799,7 +720,7 @@
     "aa": [
       {
         "id": 225,
-        "order": 18,
+        "order": 19,
         "props": {
           "type": "aa"
         },
@@ -814,7 +735,7 @@
     "ga": [
       {
         "id": 231,
-        "order": 24,
+        "order": 25,
         "props": {
           "type": "ga"
         },
@@ -829,7 +750,7 @@
     "ab": [
       {
         "id": 82,
-        "order": 26,
+        "order": 27,
         "props": {
           "type": "ab"
         },
@@ -856,7 +777,7 @@
     "zfp": [
       {
         "id": 83,
-        "order": 27,
+        "order": 28,
         "props": {
           "type": "zfp"
         },
@@ -915,13 +836,13 @@
     "o": [
       {
         "id": 88,
-        "order": 28,
+        "order": 29,
         "props": {
           "type": "o"
         },
         "value": {
           "o": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -930,7 +851,7 @@
     "pv": [
       {
         "id": 152,
-        "order": 30,
+        "order": 31,
         "props": {
           "type": "pv"
         },
@@ -941,6 +862,14 @@
               "propValue": "Status preasens"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "pri vedomí, orientovaný, habitus normostenický, koža hydratovaná, čistá, sliznice ružové",
             "props": {}
@@ -949,7 +878,7 @@
       },
       {
         "id": 155,
-        "order": 33,
+        "order": 34,
         "props": {
           "type": "pv"
         },
@@ -960,6 +889,14 @@
               "propValue": "Zrak"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "VOD:  5/5    VOS: 5 /5     Farbocit: správny",
             "props": {}
@@ -968,7 +905,7 @@
       },
       {
         "id": 158,
-        "order": 36,
+        "order": 37,
         "props": {
           "type": "pv"
         },
@@ -979,6 +916,14 @@
               "propValue": "Sluch"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "v norme",
             "props": {}
@@ -987,7 +932,7 @@
       },
       {
         "id": 161,
-        "order": 39,
+        "order": 40,
         "props": {
           "type": "pv"
         },
@@ -998,6 +943,14 @@
               "propValue": "Hlava"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "mezocef. na poklop nebolestivá, výstupy  hl.nn. nebolestivé, šija voľná neoponuje, zrenice izokorické, FR výbavná, uši, nos bez výtoku",
             "props": {}
@@ -1006,7 +959,7 @@
       },
       {
         "id": 164,
-        "order": 42,
+        "order": 43,
         "props": {
           "type": "pv"
         },
@@ -1017,6 +970,14 @@
               "propValue": "Hrdlo"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "kľudné, tonzily nezv., bez čapov, jazky plazí v  strednej rovine, chrup sanovaný",
             "props": {}
@@ -1025,7 +986,7 @@
       },
       {
         "id": 167,
-        "order": 45,
+        "order": 46,
         "props": {
           "type": "pv"
         },
@@ -1036,6 +997,14 @@
               "propValue": "Krk"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "LU a ŠŽ nehmatám, jugula bez kongescie",
             "props": {}
@@ -1044,7 +1013,7 @@
       },
       {
         "id": 170,
-        "order": 48,
+        "order": 49,
         "props": {
           "type": "pv"
         },
@@ -1055,6 +1024,14 @@
               "propValue": "Hrudník"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "súmerný, Cor: AS prav. , ozvy ohraničené, Pulmo dýchanie vesikulárne bez VDF",
             "props": {}
@@ -1063,7 +1040,7 @@
       },
       {
         "id": 173,
-        "order": 51,
+        "order": 52,
         "props": {
           "type": "pv"
         },
@@ -1074,6 +1051,14 @@
               "propValue": "Brucho"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "mäkké priehmatné bez palp. citl. a hm. rezist.,  Pečeň a slezina nezv., tapott. bilat. negat.",
             "props": {}
@@ -1081,27 +1066,35 @@
         }
       },
       {
-        "id": 176,
-        "order": 54,
+        "id": 241,
+        "order": 55,
         "props": {
           "type": "pv"
         },
         "value": {
           "typ": {
-            "value": "Chrbtica",
+            "value": "Dolné končatiny",
             "props": {
-              "propValue": "Chrbtica"
+              "propValue": "Dolné končatiny"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
-            "value": "v ose",
+            "value": "bez edémov a varixov, bez známok zápalu, pulzácie ATP a ADP hmatné bilat.<br>",
             "props": {}
           }
         }
       },
       {
         "id": 179,
-        "order": 57,
+        "order": 58,
         "props": {
           "type": "pv"
         },
@@ -1112,6 +1105,14 @@
               "propValue": "RTG"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "",
             "props": {}
@@ -1120,7 +1121,7 @@
       },
       {
         "id": 182,
-        "order": 60,
+        "order": 61,
         "props": {
           "type": "pv"
         },
@@ -1130,6 +1131,14 @@
             "props": {
               "propValue": "USG"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": "",
@@ -1141,7 +1150,7 @@
     "ekg": [
       {
         "id": 235,
-        "order": 63,
+        "order": 64,
         "props": {
           "type": "ekg"
         },
@@ -1204,7 +1213,7 @@
     "odp": [
       {
         "id": 94,
-        "order": 68,
+        "order": 69,
         "props": {
           "type": "odp"
         },
@@ -1219,7 +1228,7 @@
     "td": [
       {
         "id": 89,
-        "order": 69,
+        "order": 70,
         "props": {
           "type": "td"
         },
@@ -1227,9 +1236,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "id": "E78.9",
+              "idClassid": "diagnoza",
               "idEzid": "02089382192@10",
-              "idClassid": "diagnoza"
+              "id": "E78.9"
             }
           },
           "text": {
@@ -1251,366 +1260,10 @@
         }
       }
     ],
-    "vd": [
-      {
-        "id": 90,
-        "order": 71,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
-            "props": {
-              "id": "E78.9",
-              "idEzid": "02089382192@10",
-              "idClassid": "diagnoza"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 203,
-        "order": 78,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
-            "props": {
-              "idClassid": "diagnoza",
-              "idEzid": "02089382192@10",
-              "id": "E78.9"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 116,
-        "order": 84,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
-            "props": {
-              "idClassid": "diagnoza",
-              "idEzid": "02089382192@10",
-              "id": "E78.9"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 241,
-        "order": 90,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
-            "props": {
-              "idClassid": "diagnoza",
-              "idEzid": "02089398180@10",
-              "id": "I10.00"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
-    "vv": [
-      {
-        "id": 92,
-        "order": 72,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[H0003] Iniciálne vyšetrenie u poistenca s arteriálnou hypertenziou alebo ošetrenie akútneho hypertenzného stavu",
-            "props": {
-              "propBody": 0,
-              "id": "H0003",
-              "idEzid": "02089725747@8",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 98,
-        "order": 73,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
-            "props": {
-              "propBody": 180,
-              "id": 10,
-              "idEzid": "00000466565@8",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 100,
-        "order": 74,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
-            "props": {
-              "propBody": 550,
-              "propType": "SVaLZ",
-              "id": 5702,
-              "idEzid": "00000494187@8",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 204,
-        "order": 79,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
-            "props": {
-              "propBody": 0,
-              "idClassid": "vykon",
-              "idEzid": "02089725770@9",
-              "id": "H0006"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 118,
-        "order": 85,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
-            "props": {
-              "propBody": 180,
-              "idClassid": "vykon",
-              "idEzid": "00000466565@9",
-              "id": 10
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 120,
-        "order": 86,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
-            "props": {
-              "propType": "SVaLZ",
-              "propBody": 550,
-              "idClassid": "vykon",
-              "idEzid": "00000494187@9",
-              "id": 5702
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 242,
-        "order": 91,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
-            "props": {
-              "propBody": 180,
-              "id": 10,
-              "idEzid": "00000466565@10",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      }
-    ],
-    "premenna": [
-      {
-        "id": 202,
-        "order": 77,
-        "props": {
-          "type": "premenna"
-        },
-        "value": {
-          "name": {
-            "value": "skore",
-            "props": {}
-          },
-          "type": {
-            "value": "výpočet SCORE",
-            "props": {
-              "propValue": "fn-score"
-            }
-          }
-        }
-      }
-    ],
-    "h-score": [
-      {
-        "id": 205,
-        "order": 80,
-        "props": {
-          "type": "h-score"
-        },
-        "value": {
-          "score": {
-            "value": "0",
-            "props": {
-              "expr": "={{var.skore}}"
-            }
-          },
-          "x": {
-            "value": "1",
-            "props": {
-              "propValue": "1.0"
-            }
-          },
-          "risk": {
-            "value": "0",
-            "props": {}
-          },
-          "poznamka": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
     "p": [
       {
-        "id": 244,
-        "order": 81,
-        "props": {
-          "type": "p"
-        },
-        "value": {
-          "text": {
-            "value": "Kontrola liecby Dislipidémie<br>",
-            "props": {}
-          },
-          "at": {
-            "value": "25.12.2019 00:16",
-            "props": {
-              "propValue": "2019-12-24T23:16:42.688Z",
-              "expr": "=+11m"
-            }
-          },
-          "priority": {
-            "value": "bežne",
-            "props": {
-              "propValue": 0
-            }
-          },
-          "done": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 245,
-        "order": 87,
-        "props": {
-          "type": "p"
-        },
-        "value": {
-          "text": {
-            "value": "Kontrola liecby Dislipidémie<br>",
-            "props": {}
-          },
-          "at": {
-            "value": "25.06.2019 00:16",
-            "props": {
-              "propValue": "2019-06-24T22:16:42.689Z",
-              "expr": "=+5m"
-            }
-          },
-          "priority": {
-            "value": "bežne",
-            "props": {
-              "propValue": 0
-            }
-          },
-          "done": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 96,
-        "order": 92,
+        "order": 71,
         "props": {
           "type": "p"
         },
@@ -1620,9 +1273,9 @@
             "props": {}
           },
           "at": {
-            "value": "25.06.2019 00:16",
+            "value": "22.10.2019 16:58",
             "props": {
-              "propValue": "2019-06-24T22:16:42.689Z",
+              "propValue": "2019-10-22T14:58:14.953Z",
               "expr": "=+5m"
             }
           },
@@ -1633,6 +1286,29 @@
             }
           },
           "done": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vlozit": [
+      {
+        "id": 244,
+        "order": 72,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Bodovanie - dislipidémia, vstupné",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
             "value": "",
             "props": {}
           }

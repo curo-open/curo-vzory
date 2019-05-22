@@ -16,9 +16,9 @@
           "id": {
             "value": "[J11.8] Chrípka zapríčinená neidentifikovaným vírusom, s inými prejavmi",
             "props": {
-              "id": "J11.8",
+              "idClassid": "diagnoza",
               "idEzid": "02089403527",
-              "idClassid": "diagnoza"
+              "id": "J11.8"
             }
           },
           "text": {
@@ -56,9 +56,9 @@
           "id": {
             "value": "[00020036273] C-reaktívny protein na jednoúčelovom prístroji",
             "props": {
-              "id": "00020036273",
+              "idClassid": "labvys",
               "idEzid": "00020036273",
-              "idClassid": "labvys"
+              "id": "00020036273"
             }
           },
           "value": {
@@ -92,9 +92,9 @@
             "value": "[4571A] C-reaktívny proteín",
             "props": {
               "propBody": 380,
-              "id": "4571A",
+              "idClassid": "vykon",
               "idEzid": "02089716514",
-              "idClassid": "vykon"
+              "id": "4571A"
             }
           },
           "count": {
@@ -106,5 +106,7 @@
     ]
   },
   "if": "",
+  "tags": [],
+  "vars": {},
   "source": "curo-open/curo-vzory#/020"
 }

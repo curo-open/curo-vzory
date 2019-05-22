@@ -30,21 +30,48 @@
         }
       },
       {
-        "id": 313,
-        "order": 82,
+        "id": 338,
+        "order": 1,
         "props": {
           "type": "premenna"
         },
         "value": {
           "name": {
-            "value": "skore",
+            "value": "subj",
             "props": {}
           },
           "type": {
-            "value": "výpočet SCORE",
+            "value": "text",
             "props": {
-              "propValue": "fn-score"
+              "propValue": "text"
             }
+          },
+          "value": {
+            "value": "Bolesti hlavy, závraty, poruchy zraku neudáva, bez bolesti na hrudníku, neodpadol, bez palpitícií, dýcha sa dobre, nohy mu nepuchnú, s močením ťažkosti neudáva, klaudikačné bolesti ani pocit chladnýc končatín nemá, bez dyspepsie, hmotnosť stabil, anam. chrápania",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 339,
+        "order": 2,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "rf",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "muž, vek M nad 55r, Ž nad 65r, fajčenie, DLP/c chol nad 4,9, LDL nad 3,0, HDL pod 1,0, TG nad 1,7/, glyk. 5,6-6,9/ pozit. OGTT, obezita nad 30BMI, obvod pása Mnad 102, Ž nad 88, RA pozit. na KVO M pod 55r, Ž pod 65r./ Asymptom. poškodenie orgánov: pulzný TK nad 60mmHg, HĽK, zhrubnutie/plak v a. carotis, ABI menej ako 0,9, GF 30-60ml/min/1,73m2, MAU",
+            "props": {}
           }
         }
       }
@@ -52,7 +79,7 @@
     "t-nadpis": [
       {
         "id": 122,
-        "order": 1,
+        "order": 3,
         "props": {
           "type": "t-nadpis"
         },
@@ -62,7 +89,7 @@
             "props": {}
           },
           "podnadpis": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -71,13 +98,13 @@
     "s": [
       {
         "id": 3,
-        "order": 2,
+        "order": 4,
         "props": {
           "type": "s"
         },
         "value": {
           "s": {
-            "value": "Bolesti hlavy, závraty, poruchy zraku neudáva, bez bolesti na hrudníku, neodpadol, bez palpitícií, dýcha sa dobre, nohy mu nepuchnú, s močením ťažkosti neudáva, klaudikačné bolesti ani pocit chladnýc končatín nemá, bez dyspepsie, hmotnosť stabil, anam. chrápania<br>",
+            "value": "{{ var.subj }}<br>",
             "props": {}
           }
         }
@@ -86,7 +113,7 @@
     "t": [
       {
         "id": 191,
-        "order": 3,
+        "order": 5,
         "props": {
           "type": "t"
         },
@@ -99,7 +126,7 @@
       },
       {
         "id": 193,
-        "order": 5,
+        "order": 7,
         "props": {
           "type": "t"
         },
@@ -112,7 +139,7 @@
       },
       {
         "id": 194,
-        "order": 6,
+        "order": 8,
         "props": {
           "type": "t"
         },
@@ -125,7 +152,7 @@
       },
       {
         "id": 196,
-        "order": 8,
+        "order": 10,
         "props": {
           "type": "t"
         },
@@ -138,7 +165,7 @@
       },
       {
         "id": 197,
-        "order": 9,
+        "order": 11,
         "props": {
           "type": "t"
         },
@@ -151,7 +178,7 @@
       },
       {
         "id": 199,
-        "order": 11,
+        "order": 13,
         "props": {
           "type": "t"
         },
@@ -164,7 +191,7 @@
       },
       {
         "id": 277,
-        "order": 12,
+        "order": 14,
         "props": {
           "type": "t"
         },
@@ -177,7 +204,7 @@
       },
       {
         "id": 279,
-        "order": 14,
+        "order": 16,
         "props": {
           "type": "t"
         },
@@ -190,7 +217,7 @@
       },
       {
         "id": 200,
-        "order": 15,
+        "order": 17,
         "props": {
           "type": "t"
         },
@@ -203,7 +230,7 @@
       },
       {
         "id": 282,
-        "order": 16,
+        "order": 18,
         "props": {
           "type": "t"
         },
@@ -216,7 +243,7 @@
       },
       {
         "id": 202,
-        "order": 17,
+        "order": 19,
         "props": {
           "type": "t"
         },
@@ -229,7 +256,7 @@
       },
       {
         "id": 209,
-        "order": 18,
+        "order": 20,
         "props": {
           "type": "t"
         },
@@ -242,7 +269,7 @@
       },
       {
         "id": 211,
-        "order": 20,
+        "order": 22,
         "props": {
           "type": "t"
         },
@@ -255,7 +282,7 @@
       },
       {
         "id": 212,
-        "order": 21,
+        "order": 23,
         "props": {
           "type": "t"
         },
@@ -268,7 +295,7 @@
       },
       {
         "id": 213,
-        "order": 22,
+        "order": 24,
         "props": {
           "type": "t"
         },
@@ -281,7 +308,7 @@
       },
       {
         "id": 214,
-        "order": 23,
+        "order": 25,
         "props": {
           "type": "t"
         },
@@ -294,7 +321,7 @@
       },
       {
         "id": 284,
-        "order": 24,
+        "order": 26,
         "props": {
           "type": "t"
         },
@@ -307,7 +334,7 @@
       },
       {
         "id": 216,
-        "order": 26,
+        "order": 28,
         "props": {
           "type": "t"
         },
@@ -320,7 +347,7 @@
       },
       {
         "id": 220,
-        "order": 30,
+        "order": 32,
         "props": {
           "type": "t"
         },
@@ -333,7 +360,7 @@
       },
       {
         "id": 222,
-        "order": 32,
+        "order": 34,
         "props": {
           "type": "t"
         },
@@ -346,7 +373,7 @@
       },
       {
         "id": 223,
-        "order": 33,
+        "order": 35,
         "props": {
           "type": "t"
         },
@@ -359,7 +386,7 @@
       },
       {
         "id": 225,
-        "order": 35,
+        "order": 37,
         "props": {
           "type": "t"
         },
@@ -372,7 +399,7 @@
       },
       {
         "id": 226,
-        "order": 36,
+        "order": 38,
         "props": {
           "type": "t"
         },
@@ -385,7 +412,7 @@
       },
       {
         "id": 228,
-        "order": 38,
+        "order": 40,
         "props": {
           "type": "t"
         },
@@ -398,7 +425,7 @@
       },
       {
         "id": 229,
-        "order": 39,
+        "order": 41,
         "props": {
           "type": "t"
         },
@@ -411,7 +438,7 @@
       },
       {
         "id": 231,
-        "order": 41,
+        "order": 43,
         "props": {
           "type": "t"
         },
@@ -424,7 +451,7 @@
       },
       {
         "id": 232,
-        "order": 42,
+        "order": 44,
         "props": {
           "type": "t"
         },
@@ -437,7 +464,7 @@
       },
       {
         "id": 234,
-        "order": 44,
+        "order": 46,
         "props": {
           "type": "t"
         },
@@ -450,7 +477,7 @@
       },
       {
         "id": 235,
-        "order": 45,
+        "order": 47,
         "props": {
           "type": "t"
         },
@@ -463,7 +490,7 @@
       },
       {
         "id": 237,
-        "order": 47,
+        "order": 49,
         "props": {
           "type": "t"
         },
@@ -476,7 +503,7 @@
       },
       {
         "id": 238,
-        "order": 48,
+        "order": 50,
         "props": {
           "type": "t"
         },
@@ -489,7 +516,7 @@
       },
       {
         "id": 240,
-        "order": 50,
+        "order": 52,
         "props": {
           "type": "t"
         },
@@ -502,7 +529,7 @@
       },
       {
         "id": 241,
-        "order": 51,
+        "order": 53,
         "props": {
           "type": "t"
         },
@@ -515,7 +542,7 @@
       },
       {
         "id": 243,
-        "order": 53,
+        "order": 55,
         "props": {
           "type": "t"
         },
@@ -527,34 +554,34 @@
         }
       },
       {
-        "id": 244,
-        "order": 54,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Chrbtica'\")|where(\"i==0\")}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 246,
+        "id": 335,
         "order": 56,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ &lt;? }}<br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Dolné končatiny'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 337,
+        "order": 58,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 247,
-        "order": 57,
+        "order": 59,
         "props": {
           "type": "t"
         },
@@ -567,7 +594,7 @@
       },
       {
         "id": 249,
-        "order": 59,
+        "order": 61,
         "props": {
           "type": "t"
         },
@@ -580,7 +607,7 @@
       },
       {
         "id": 250,
-        "order": 60,
+        "order": 62,
         "props": {
           "type": "t"
         },
@@ -593,7 +620,7 @@
       },
       {
         "id": 252,
-        "order": 62,
+        "order": 64,
         "props": {
           "type": "t"
         },
@@ -606,7 +633,7 @@
       },
       {
         "id": 253,
-        "order": 63,
+        "order": 65,
         "props": {
           "type": "t"
         },
@@ -619,7 +646,7 @@
       },
       {
         "id": 255,
-        "order": 65,
+        "order": 67,
         "props": {
           "type": "t"
         },
@@ -632,7 +659,7 @@
       },
       {
         "id": 263,
-        "order": 66,
+        "order": 68,
         "props": {
           "type": "t"
         },
@@ -645,7 +672,7 @@
       },
       {
         "id": 285,
-        "order": 67,
+        "order": 69,
         "props": {
           "type": "t"
         },
@@ -658,176 +685,20 @@
       },
       {
         "id": 256,
-        "order": 68,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "<b>RF:<br></b>muž, vek M nad 55r, Ž nad 65r, fajčenie, DLP/c chol nad 4,9, LDL nad 3,0, HDL pod 1,0, TG nad 1,7/, glyk. 5,6-6,9/ pozit. OGTT, obezita nad 30BMI, obvod pása Mnad 102, Ž nad 88, RA pozit. na KVO M pod 55r, Ž pod 65r./ <br>Asymptom. poškodenie orgánov: pulzný TK nad 60mmHg, HĽK, zhrubnutie/plak v a. carotis, ABI menej ako 0,9, GF 30-60ml/min/1,73m2, MAU   <br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 301,
         "order": 70,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? zp==25 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 305,
-        "order": 74,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 306,
-        "order": 75,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp==25 &amp;&amp; var.holter==\"ON\" &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='5715'\")|trans(\"length\") == 0)}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 308,
-        "order": 77,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 309,
-        "order": 78,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp==27 &amp;&amp; var.holter==\"ON\" &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=730\")|where(\"s.value.id.props.id=='5715'\")|trans(\"length\") == 0)}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 311,
-        "order": 80,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 312,
-        "order": 81,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp==25 &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0)}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 317,
-        "order": 86,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 318,
-        "order": 87,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp==24 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 322,
-        "order": 91,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 323,
-        "order": 92,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp==27 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 326,
-        "order": 95,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
+            "value": "<b>RF:<br></b>{{ var.rf }}   <br>",
             "props": {}
           }
         }
       },
       {
         "id": 327,
-        "order": 96,
+        "order": 73,
         "props": {
           "type": "t"
         },
@@ -840,7 +711,7 @@
       },
       {
         "id": 328,
-        "order": 98,
+        "order": 75,
         "props": {
           "type": "t"
         },
@@ -853,7 +724,7 @@
       },
       {
         "id": 330,
-        "order": 100,
+        "order": 77,
         "props": {
           "type": "t"
         },
@@ -868,13 +739,13 @@
     "ra": [
       {
         "id": 192,
-        "order": 4,
+        "order": 6,
         "props": {
           "type": "ra"
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           },
           "kvo": {
@@ -887,13 +758,13 @@
     "oa": [
       {
         "id": 195,
-        "order": 7,
+        "order": 9,
         "props": {
           "type": "oa"
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -902,13 +773,13 @@
     "sa": [
       {
         "id": 198,
-        "order": 10,
+        "order": 12,
         "props": {
           "type": "sa"
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -917,13 +788,13 @@
     "la": [
       {
         "id": 281,
-        "order": 13,
+        "order": 15,
         "props": {
           "type": "la"
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -932,13 +803,13 @@
     "aa": [
       {
         "id": 210,
-        "order": 19,
+        "order": 21,
         "props": {
           "type": "aa"
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -947,13 +818,13 @@
     "ga": [
       {
         "id": 215,
-        "order": 25,
+        "order": 27,
         "props": {
           "type": "ga"
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -962,7 +833,7 @@
     "ab": [
       {
         "id": 217,
-        "order": 27,
+        "order": 29,
         "props": {
           "type": "ab"
         },
@@ -972,20 +843,6 @@
             "props": {}
           },
           "alkohol": {
-            "value": "Áno",
-            "props": {
-              "propValue": 1
-            }
-          },
-          "alkdavka": {
-            "value": "",
-            "props": {}
-          },
-          "alkdlzka": {
-            "value": "",
-            "props": {}
-          },
-          "alkpoznamka": {
             "value": "",
             "props": {}
           },
@@ -1003,7 +860,7 @@
     "zfp": [
       {
         "id": 218,
-        "order": 28,
+        "order": 30,
         "props": {
           "type": "zfp"
         },
@@ -1062,13 +919,13 @@
     "o": [
       {
         "id": 219,
-        "order": 29,
+        "order": 31,
         "props": {
           "type": "o"
         },
         "value": {
           "o": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -1077,7 +934,7 @@
     "pv": [
       {
         "id": 221,
-        "order": 31,
+        "order": 33,
         "props": {
           "type": "pv"
         },
@@ -1088,6 +945,14 @@
               "propValue": "Status preasens"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "pri vedomí, orientovaný, habitus normostenický, koža hydratovaná, čistá, sliznice ružové",
             "props": {}
@@ -1096,7 +961,7 @@
       },
       {
         "id": 224,
-        "order": 34,
+        "order": 36,
         "props": {
           "type": "pv"
         },
@@ -1107,6 +972,14 @@
               "propValue": "Zrak"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "VOD:  5/5    VOS: 5 /5     Farbocit: správny",
             "props": {}
@@ -1115,7 +988,7 @@
       },
       {
         "id": 227,
-        "order": 37,
+        "order": 39,
         "props": {
           "type": "pv"
         },
@@ -1126,15 +999,23 @@
               "propValue": "Sluch"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
-            "value": "v norme",
+            "value": "v norme<br>",
             "props": {}
           }
         }
       },
       {
         "id": 230,
-        "order": 40,
+        "order": 42,
         "props": {
           "type": "pv"
         },
@@ -1145,6 +1026,14 @@
               "propValue": "Hlava"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "mezocef. na poklop nebolestivá, výstupy  hl.nn. nebolestivé, šija voľná neoponuje, zrenice izokorické, FR výbavná, uši, nos bez výtoku",
             "props": {}
@@ -1153,7 +1042,7 @@
       },
       {
         "id": 233,
-        "order": 43,
+        "order": 45,
         "props": {
           "type": "pv"
         },
@@ -1164,6 +1053,14 @@
               "propValue": "Hrdlo"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "kľudné, tonzily nezv., bez čapov, jazky plazí v  strednej rovine, chrup sanovaný",
             "props": {}
@@ -1172,7 +1069,7 @@
       },
       {
         "id": 236,
-        "order": 46,
+        "order": 48,
         "props": {
           "type": "pv"
         },
@@ -1183,6 +1080,14 @@
               "propValue": "Krk"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "LU a ŠŽ nehmatám, jugula bez kongescie",
             "props": {}
@@ -1191,7 +1096,7 @@
       },
       {
         "id": 239,
-        "order": 49,
+        "order": 51,
         "props": {
           "type": "pv"
         },
@@ -1202,6 +1107,14 @@
               "propValue": "Hrudník"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "súmerný, Cor: AS prav. , ozvy ohraničené, Pulmo dýchanie vesikulárne bez VDF",
             "props": {}
@@ -1210,7 +1123,7 @@
       },
       {
         "id": 242,
-        "order": 52,
+        "order": 54,
         "props": {
           "type": "pv"
         },
@@ -1221,34 +1134,50 @@
               "propValue": "Brucho"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
-            "value": "mäkké priehmatné bez palp. citl. a hm. rezist.,  Pečeň a slezina nezv., tapott. bilat. negat.",
+            "value": "mäkké priehmatné bez palp. citl. a hm. rezist.,  Pečeň a slezina nezv., tapott. bilat. negat.<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 245,
-        "order": 55,
+        "id": 336,
+        "order": 57,
         "props": {
           "type": "pv"
         },
         "value": {
           "typ": {
-            "value": "Chrbtica",
+            "value": "Dolné končatiny",
             "props": {
-              "propValue": "Chrbtica"
+              "propValue": "Dolné končatiny"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
-            "value": "v ose",
+            "value": "bez edémov a varixov, bez známok zápalu, pulzácie ATP a ADP hmatné bilat.<br>",
             "props": {}
           }
         }
       },
       {
         "id": 248,
-        "order": 58,
+        "order": 60,
         "props": {
           "type": "pv"
         },
@@ -1259,6 +1188,14 @@
               "propValue": "RTG"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "",
             "props": {}
@@ -1267,7 +1204,7 @@
       },
       {
         "id": 251,
-        "order": 61,
+        "order": 63,
         "props": {
           "type": "pv"
         },
@@ -1277,6 +1214,14 @@
             "props": {
               "propValue": "USG"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": "",
@@ -1288,7 +1233,7 @@
     "ekg": [
       {
         "id": 287,
-        "order": 64,
+        "order": 66,
         "props": {
           "type": "ekg"
         },
@@ -1351,7 +1296,7 @@
     "odp": [
       {
         "id": 94,
-        "order": 69,
+        "order": 71,
         "props": {
           "type": "odp"
         },
@@ -1363,300 +1308,24 @@
         }
       }
     ],
-    "vd": [
+    "vlozit": [
       {
-        "id": 302,
-        "order": 71,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
-            "props": {
-              "id": "I10.00",
-              "idEzid": "02089398180@11",
-              "idClassid": "diagnoza"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 314,
-        "order": 83,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
-            "props": {
-              "idClassid": "diagnoza",
-              "idEzid": "02089398180@11",
-              "id": "I10.00"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 319,
-        "order": 88,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
-            "props": {
-              "idClassid": "diagnoza",
-              "idEzid": "02089398180@11",
-              "id": "I10.00"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 324,
-        "order": 93,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
-            "props": {
-              "id": "I10.00",
-              "idEzid": "02089398180@11",
-              "idClassid": "diagnoza"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
-    "vv": [
-      {
-        "id": 303,
+        "id": 333,
         "order": 72,
         "props": {
-          "type": "vv"
+          "type": "vlozit"
         },
         "value": {
-          "id": {
-            "value": "[H0004] Kontrolné vyšetrenie u poistenca s arteriálnou hypertenziou jeden krát za 6 mesiacov",
-            "props": {
-              "propBody": 0,
-              "idClassid": "vykon",
-              "idEzid": "02089725754@10",
-              "id": "H0004"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 304,
-        "order": 73,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
-            "props": {
-              "propType": "SVaLZ",
-              "propBody": 550,
-              "idClassid": "vykon",
-              "idEzid": "00000494187@10",
-              "id": 5702
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 307,
-        "order": 76,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.",
-            "props": {
-              "propType": "SVaLZ",
-              "propBody": 750,
-              "idClassid": "vykon",
-              "idEzid": "00000494302@10",
-              "id": 5715
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 310,
-        "order": 79,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.",
-            "props": {
-              "propType": "SVaLZ",
-              "propBody": 750,
-              "idClassid": "vykon",
-              "idEzid": "00000494302@10",
-              "id": 5715
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 315,
-        "order": 84,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
-            "props": {
-              "propBody": 0,
-              "id": "H0006",
-              "idEzid": "02089725770@10",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 320,
-        "order": 89,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
-            "props": {
-              "propBody": 180,
-              "id": 10,
-              "idEzid": "00000466565@10",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 321,
-        "order": 90,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
-            "props": {
-              "propBody": 550,
-              "propType": "SVaLZ",
-              "id": 5702,
-              "idEzid": "00000494187@10",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 325,
-        "order": 94,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
-            "props": {
-              "propBody": 180,
-              "id": 10,
-              "idEzid": "00000466565@10",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      }
-    ],
-    "h-score": [
-      {
-        "id": 316,
-        "order": 85,
-        "props": {
-          "type": "h-score"
-        },
-        "value": {
-          "score": {
-            "value": "0",
-            "props": {
-              "expr": "={{var.skore}}"
-            }
-          },
-          "x": {
-            "value": "1",
-            "props": {
-              "propValue": "1.0"
-            }
-          },
-          "risk": {
-            "value": "0",
+          "title": {
+            "value": "Bodovanie - hypertenzia, kontrolné",
             "props": {}
           },
-          "poznamka": {
+          "source": {
             "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "holter=var.holter",
             "props": {}
           }
         }
@@ -1665,7 +1334,7 @@
     "p": [
       {
         "id": 331,
-        "order": 97,
+        "order": 74,
         "props": {
           "type": "p"
         },
@@ -1675,9 +1344,9 @@
             "props": {}
           },
           "at": {
-            "value": "24.12.2019 23:57",
+            "value": "22.04.2020 12:33",
             "props": {
-              "propValue": "2019-12-24T22:57:48.698Z",
+              "propValue": "2020-04-22T10:33:34.833Z",
               "expr": "=+11m"
             }
           },
@@ -1695,7 +1364,7 @@
       },
       {
         "id": 96,
-        "order": 99,
+        "order": 76,
         "props": {
           "type": "p"
         },
@@ -1705,9 +1374,9 @@
             "props": {}
           },
           "at": {
-            "value": "24.06.2019 23:57",
+            "value": "22.10.2019 12:33",
             "props": {
-              "propValue": "2019-06-24T21:57:48.699Z",
+              "propValue": "2019-10-22T10:33:34.837Z",
               "expr": "=+5m"
             }
           },

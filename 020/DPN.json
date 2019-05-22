@@ -42,11 +42,11 @@
           "id": {
             "value": "[71.TDPN] Vystavenie preukazu o trvaní dočasnej pracovnej neschopnosti.",
             "props": {
-              "propType": "soc",
               "propBody": 35,
-              "idClassid": "vykon",
+              "propType": "soc",
+              "id": "71.TDPN",
               "idEzid": "curo-71.TDPN@7",
-              "id": "71.TDPN"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -58,5 +58,7 @@
     ]
   },
   "if": "",
+  "tags": [],
+  "vars": {},
   "source": "curo-open/curo-vzory#/020"
 }

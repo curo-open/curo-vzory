@@ -50,25 +50,6 @@
             "props": {}
           }
         }
-      },
-      {
-        "id": 1137,
-        "order": 107,
-        "props": {
-          "type": "premenna"
-        },
-        "value": {
-          "name": {
-            "value": "skore",
-            "props": {}
-          },
-          "type": {
-            "value": "výpočet SCORE",
-            "props": {
-              "propValue": "fn-score"
-            }
-          }
-        }
       }
     ],
     "t-nadpis": [
@@ -84,7 +65,7 @@
             "props": {}
           },
           "podnadpis": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -835,320 +816,8 @@
         }
       },
       {
-        "id": 996,
-        "order": 87,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp == 24 &amp;&amp; vek &gt;= 18}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 999,
-        "order": 90,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1000,
-        "order": 91,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp == 24 &amp;&amp; vek &gt;= 40}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1002,
-        "order": 93,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1071,
-        "order": 94,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? var.fob=='ON' &amp;&amp; zp == 24 &amp;&amp; vek &gt;= 50 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1009,
-        "order": 98,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1010,
-        "order": 99,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp == 25 &amp;&amp; vek &gt;= 18}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1013,
-        "order": 102,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1014,
-        "order": 103,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp == 25  &amp;&amp; vek &gt;= 40}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1070,
-        "order": 105,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1136,
-        "order": 106,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? (sessions|getSections(\"vv\")|where(\"d.period&gt;365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") &gt; 0 || sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; zp==25 &amp;&amp; vek &gt;= 40}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1141,
-        "order": 111,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1069,
-        "order": 112,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? var.fob=='ON' &amp;&amp; zp == 25  &amp;&amp; vek &gt;= 40 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1019,
-        "order": 116,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1020,
-        "order": 117,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp == 25 &amp;&amp; vek &gt;= 50}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1023,
-        "order": 120,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1024,
-        "order": 121,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp == 27 &amp;&amp; vek &gt;= 18}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1028,
-        "order": 126,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1032,
-        "order": 127,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp == 27 &amp;&amp; vek &gt;= 40}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1049,
-        "order": 130,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1048,
-        "order": 131,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? var.fob=='ON' &amp;&amp; zp == 27 &amp;&amp; vek &gt;= 40}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1037,
-        "order": 134,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1052,
-        "order": 135,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? var.extraVykony=='ON' }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1054,
-        "order": 140,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 1041,
-        "order": 141,
+        "order": 87,
         "props": {
           "type": "t"
         },
@@ -1161,7 +830,7 @@
       },
       {
         "id": 1043,
-        "order": 143,
+        "order": 89,
         "props": {
           "type": "t"
         },
@@ -1174,7 +843,7 @@
       },
       {
         "id": 1045,
-        "order": 145,
+        "order": 91,
         "props": {
           "type": "t"
         },
@@ -1397,6 +1066,14 @@
               "propValue": "Status preasens"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "pri vedomí, orientovaný, habitus normostenický, koža hydratovaná, čistá, sliznice ružové",
             "props": {}
@@ -1416,8 +1093,16 @@
               "propValue": "Vitálne funkcie"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -1434,6 +1119,14 @@
             "props": {
               "propValue": "Zrak"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": "VOD:  5/5    VOS: 5 /5     Farbocit: správny<br>",
@@ -1454,6 +1147,14 @@
               "propValue": "Sluch"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "v norme<br>",
             "props": {}
@@ -1472,6 +1173,14 @@
             "props": {
               "propValue": "Hlava"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": "mezocef. na poklop nebolestivá, výstupy  hl.nn. nebolestivé, šija voľná neoponuje, zrenice izokorické, FR výbavná, uši, nos bez výtoku<br>",
@@ -1492,6 +1201,14 @@
               "propValue": "Hrdlo"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "kľudné, tonzily nezv., bez čapov, jazky plazí v  strednej rovine, chrup sanovaný<br>",
             "props": {}
@@ -1510,6 +1227,14 @@
             "props": {
               "propValue": "Krk"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": "LU a ŠŽ nehmatám, jugula bez kongescie<br>",
@@ -1530,6 +1255,14 @@
               "propValue": "Hrudník"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "súmerný<br>",
             "props": {}
@@ -1548,6 +1281,14 @@
             "props": {
               "propValue": "Pľúca"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": "dýchanie vesikulárne bez VDF<br>",
@@ -1568,6 +1309,14 @@
               "propValue": "Srdce"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "akcia pravidelná, ozvy ohraničené, bez šelestu<br>",
             "props": {}
@@ -1586,6 +1335,14 @@
             "props": {
               "propValue": "Brucho"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": "mäkké priehmatné bez palp. citl. a hm. rezist.,  Pečeň a slezina nezv., tapott. bilat. negat.<br>",
@@ -1606,6 +1363,14 @@
               "propValue": "Chrbtica"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "v ose<br>",
             "props": {}
@@ -1624,6 +1389,14 @@
             "props": {
               "propValue": "Dolné končatiny"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": "bez edémov a varixov, bez známok zápalu, pulzácie ATP a ADP hmatné bilat.<br>",
@@ -1644,6 +1417,14 @@
               "propValue": "Lokomočný aparát"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": " kĺby bez deformít, zápal. a degenerat. zmien, bez palpačnej citlivosti, rozsahy pohyblivosti kĺbov a chrbtice v norme, svalstvo normálne vyvinuté, svalové spazmy neprítomné<br>",
             "props": {}
@@ -1663,6 +1444,14 @@
               "propValue": "RTG"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": " <br>",
             "props": {}
@@ -1681,6 +1470,14 @@
             "props": {
               "propValue": "USG"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": " <br>",
@@ -1775,684 +1572,10 @@
         }
       }
     ],
-    "vd": [
-      {
-        "id": 997,
-        "order": 88,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
-            "props": {
-              "id": "Z00.0",
-              "idEzid": "02089520809@9",
-              "idClassid": "diagnoza"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1006,
-        "order": 95,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
-            "props": {
-              "idClassid": "diagnoza",
-              "idEzid": "02089521690@9",
-              "id": "Z12.1"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1011,
-        "order": 100,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
-            "props": {
-              "id": "Z00.0",
-              "idEzid": "02089520809@9",
-              "idClassid": "diagnoza"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1138,
-        "order": 108,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
-            "props": {
-              "idClassid": "diagnoza",
-              "idEzid": "02089520809@10",
-              "id": "Z00.0"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1016,
-        "order": 113,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
-            "props": {
-              "idClassid": "diagnoza",
-              "idEzid": "02089521690@9",
-              "id": "Z12.1"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1021,
-        "order": 118,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
-            "props": {
-              "idClassid": "diagnoza",
-              "idEzid": "02089520809@9",
-              "id": "Z00.0"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1025,
-        "order": 122,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
-            "props": {
-              "id": "Z00.0",
-              "idEzid": "02089520809@9",
-              "idClassid": "diagnoza"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1145,
-        "order": 136,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
-            "props": {
-              "idClassid": "diagnoza",
-              "idEzid": "02089520809@11",
-              "id": "Z00.0"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
-    "vv": [
-      {
-        "id": 998,
-        "order": 89,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[160] Základná preventívna prehliadka. Výkon obsahuje komplexné vyšetrenie v rámci základnej preventívnej prehliadky vrátane prehliadky v rámci prevencie kardiovaskulárnych chorôb. Obsah vyšetrenia je zhodný s výkonom pod kódom 60. Výkon môže vykazovať lek",
-            "props": {
-              "propBody": 350,
-              "id": 160,
-              "idEzid": "00000467373@8",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1001,
-        "order": 92,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
-            "props": {
-              "propType": "SVaLZ",
-              "propBody": 550,
-              "idClassid": "vykon",
-              "idEzid": "00000494187@8",
-              "id": 5702
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1007,
-        "order": 96,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[159] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonom podľa č. 157, 158 a 160. Výkon môže vykazovať lekár so špecializáciou všeobecné lekárstvo",
-            "props": {
-              "propBody": 0,
-              "id": 159,
-              "idEzid": "02089691345@8",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1012,
-        "order": 101,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[160] Základná preventívna prehliadka. Výkon obsahuje komplexné vyšetrenie v rámci základnej preventívnej prehliadky vrátane prehliadky v rámci prevencie kardiovaskulárnych chorôb. Obsah vyšetrenia je zhodný s výkonom pod kódom 60. Výkon môže vykazovať lek",
-            "props": {
-              "propBody": 350,
-              "id": 160,
-              "idEzid": "00000467373@8",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1015,
-        "order": 104,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5702P] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
-            "props": {
-              "propBody": 550,
-              "id": "5702P",
-              "idEzid": "02089719112@8",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1139,
-        "order": 109,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
-            "props": {
-              "propBody": 0,
-              "idClassid": "vykon",
-              "idEzid": "02089725770@9",
-              "id": "H0006"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1017,
-        "order": 114,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[159] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonom podľa č. 157, 158 a 160. Výkon môže vykazovať lekár so špecializáciou všeobecné lekárstvo",
-            "props": {
-              "propBody": 0,
-              "id": 159,
-              "idEzid": "02089691345@8",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1022,
-        "order": 119,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[H0008] Stanovenie indexu ABI oscilometrickou metódou",
-            "props": {
-              "propBody": 0,
-              "idClassid": "vykon",
-              "idEzid": "02089552141@8",
-              "id": "H0008"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1026,
-        "order": 123,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[160] Základná preventívna prehliadka. Výkon obsahuje komplexné vyšetrenie v rámci základnej preventívnej prehliadky vrátane prehliadky v rámci prevencie kardiovaskulárnych chorôb. Obsah vyšetrenia je zhodný s výkonom pod kódom 60. Výkon môže vykazovať lek",
-            "props": {
-              "propBody": 350,
-              "id": 160,
-              "idEzid": "00000467373@8",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1027,
-        "order": 124,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[3671] Glukóza",
-            "props": {
-              "propBody": 40,
-              "propType": "SVaLZ",
-              "idClassid": "vykon",
-              "idEzid": "00000479568@8",
-              "id": 3671
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1030,
-        "order": 125,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[159b] Preventívne vyšetrenie celkového cholesterolu v 11. a 17. roku života a celkového cholesterolu a triacylglycerolov v 40. roku života. Okrem odberu sa vykazuje cielená anamnéza, posúdenie genetickej záťaže, posúdenie laboratórnych výsledkov, v prípade",
-            "props": {
-              "propBody": 100,
-              "idClassid": "vykon",
-              "idEzid": "00000467365@8",
-              "id": "159b"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1034,
-        "order": 128,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
-            "props": {
-              "propBody": 550,
-              "propType": "SVaLZ",
-              "id": 5702,
-              "idEzid": "00000494187@8",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1143,
-        "order": 129,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[H0008] Stanovenie indexu ABI oscilometrickou metódou",
-            "props": {
-              "propBody": 0,
-              "idClassid": "vykon",
-              "idEzid": "02089552141@9",
-              "id": "H0008"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1035,
-        "order": 132,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[159] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonom podľa č. 157, 158 a 160. Výkon môže vykazovať lekár so špecializáciou všeobecné lekárstvo",
-            "props": {
-              "propBody": 0,
-              "id": 159,
-              "idEzid": "02089691345@8",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1038,
-        "order": 137,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[250a] Odobratie krvi venepunkciou do jednej striekačky alebo do jednej skúmavky, vrátane odberovej súpravy, za každú súpravu.",
-            "props": {
-              "propBody": 80,
-              "idClassid": "vykon",
-              "idEzid": "00000467803@8",
-              "id": "250a"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1039,
-        "order": 138,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[3592] stanovenie sedimentačnej rýchlosti krviniek",
-            "props": {
-              "propType": "SVaLZ",
-              "propBody": 50,
-              "idClassid": "vykon",
-              "idEzid": "00000479048@8",
-              "id": 3592
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1040,
-        "order": 139,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[3525] Kompletný dôkaz základných patologických súčastí moču, za každú vzorku od pacienta",
-            "props": {
-              "propType": "SVaLZ",
-              "propBody": 50,
-              "idClassid": "vykon",
-              "idEzid": "00000478560@8",
-              "id": 3525
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      }
-    ],
-    "p": [
-      {
-        "id": 1008,
-        "order": 97,
-        "props": {
-          "type": "p"
-        },
-        "value": {
-          "text": {
-            "value": "FOB test vydaný, žiadať vrátenie na vyhodnotenie<br>",
-            "props": {}
-          },
-          "at": {
-            "value": "07.12.2018 09:04",
-            "props": {
-              "propValue": "2018-12-07T08:04:16.351Z",
-              "expr": "=teraz"
-            }
-          },
-          "priority": {
-            "value": "veľmi",
-            "props": {
-              "propValue": 20
-            }
-          },
-          "done": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1018,
-        "order": 115,
-        "props": {
-          "type": "p"
-        },
-        "value": {
-          "text": {
-            "value": "FOB test vydaný, žiadať vrátenie na vyhodnotenie<br>",
-            "props": {}
-          },
-          "at": {
-            "value": "07.12.2018 09:04",
-            "props": {
-              "propValue": "2018-12-07T08:04:16.354Z",
-              "expr": "=teraz"
-            }
-          },
-          "priority": {
-            "value": "veľmi",
-            "props": {
-              "propValue": 20
-            }
-          },
-          "done": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 1036,
-        "order": 133,
-        "props": {
-          "type": "p"
-        },
-        "value": {
-          "text": {
-            "value": "FOB test vydaný, žiadať vrátenie na vyhodnotenie<br>",
-            "props": {}
-          },
-          "at": {
-            "value": "07.12.2018 09:04",
-            "props": {
-              "propValue": "2018-12-07T08:04:16.355Z",
-              "expr": "=teraz"
-            }
-          },
-          "priority": {
-            "value": "veľmi",
-            "props": {
-              "propValue": 20
-            }
-          },
-          "done": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
-    "h-score": [
-      {
-        "id": 1140,
-        "order": 110,
-        "props": {
-          "type": "h-score"
-        },
-        "value": {
-          "score": {
-            "value": "0",
-            "props": {
-              "expr": "={{var.skore}}"
-            }
-          },
-          "x": {
-            "value": "1",
-            "props": {
-              "propValue": "1.0"
-            }
-          },
-          "risk": {
-            "value": "0",
-            "props": {}
-          },
-          "poznamka": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
     "z": [
       {
         "id": 1042,
-        "order": 142,
+        "order": 88,
         "props": {
           "type": "z"
         },
@@ -2465,13 +1588,36 @@
       },
       {
         "id": 1044,
-        "order": 144,
+        "order": 90,
         "props": {
           "type": "z"
         },
         "value": {
           "z": {
             "value": "Doporučenie: preventívna prehliadka u všeobecného lekára každé 2 roky, preventívna prehliadka u spádového urológa každé 3 roky<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vlozit": [
+      {
+        "id": 1147,
+        "order": 92,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Bodovanie - preventívka",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "holter=var.holter|extraVykony=var.extraVykony|fob=var.fob",
             "props": {}
           }
         }
