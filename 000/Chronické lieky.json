@@ -140,7 +140,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ pacient.typ == 'EU' }}<br>",
+            "value": "{{ ? pacient.typ == 'EU' }}<br>",
             "props": {}
           }
         }
@@ -266,9 +266,9 @@
             "value": "[4] Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani",
             "props": {
               "propBody": 200,
-              "idClassid": "vykon",
+              "id": 4,
               "idEzid": "00000466524@11",
-              "id": 4
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -288,9 +288,9 @@
             "value": "[1] Pod radou sa rozumie poskytnutie informácií pacientovi alebo zákonnému zástupcovi v súvislosti so zdravotným stavom. Výkon pod kódom 1 nemožno vykazovať súčasne s inými výkonmi. Výkon nemožno vykazovať pre telefonické objednávanie pacienta.",
             "props": {
               "propBody": 80,
-              "idClassid": "vykon",
+              "id": 1,
               "idEzid": "00000466508@9",
-              "id": 1
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -306,5 +306,5 @@
   "tags": [],
   "vars": {},
   "description": "",
-  "source": "curo-open/curo-vzory#/000"
+  "source": "curo-open/curo-vzory#/020"
 }

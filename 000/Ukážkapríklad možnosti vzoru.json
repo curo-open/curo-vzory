@@ -162,21 +162,216 @@
         }
       },
       {
-        "id": 20,
+        "id": 93,
         "order": 12,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "<br>",
+            "value": "pacient.typ - {{ pacient.typ }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 96,
+        "order": 13,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.tel - {{ pacient.tel }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 95,
+        "order": 14,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.email - {{ pacient.email }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 94,
+        "order": 15,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient.adresa - {{ pacient.adresa }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 20,
+        "order": 16,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 99,
+        "order": 17,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Premenne identity</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 98,
+        "order": 18,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "nazov identity - {{ identita.nazov }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 97,
+        "order": 19,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 53,
+        "order": 20,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Premenné dekurzu</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 54,
+        "order": 21,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "dekurz.datum - {{ dekurz.datum }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 55,
+        "order": 22,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "dekurz.cas - {{ dekurz.cas }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 101,
+        "order": 23,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 100,
+        "order": 24,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Ine premenne</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 85,
+        "order": 25,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "aktualny datum - ine.datum - {{ ine.datum }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 86,
+        "order": 26,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "aktualne cas - ine.cas - {{ ine.cas }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 87,
+        "order": 27,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
             "props": {}
           }
         }
       },
       {
         "id": 21,
-        "order": 13,
+        "order": 28,
         "props": {
           "type": "t"
         },
@@ -189,7 +384,7 @@
       },
       {
         "id": 24,
-        "order": 15,
+        "order": 30,
         "props": {
           "type": "t"
         },
@@ -202,20 +397,20 @@
       },
       {
         "id": 25,
-        "order": 16,
+        "order": 31,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
       },
       {
         "id": 26,
-        "order": 17,
+        "order": 32,
         "props": {
           "type": "t"
         },
@@ -228,7 +423,7 @@
       },
       {
         "id": 27,
-        "order": 18,
+        "order": 33,
         "props": {
           "type": "t"
         },
@@ -241,7 +436,7 @@
       },
       {
         "id": 28,
-        "order": 19,
+        "order": 34,
         "props": {
           "type": "t"
         },
@@ -254,7 +449,7 @@
       },
       {
         "id": 29,
-        "order": 20,
+        "order": 35,
         "props": {
           "type": "t"
         },
@@ -267,7 +462,7 @@
       },
       {
         "id": 30,
-        "order": 21,
+        "order": 36,
         "props": {
           "type": "t"
         },
@@ -280,7 +475,7 @@
       },
       {
         "id": 31,
-        "order": 22,
+        "order": 37,
         "props": {
           "type": "t"
         },
@@ -293,20 +488,761 @@
       },
       {
         "id": 32,
-        "order": 23,
+        "order": 38,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "<br>",
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 56,
+        "order": 39,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Zobrazenie sekcie kde hodnota je vo formate [kod] text</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 63,
+        "order": 40,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "sekcia td (bez zmeny ale spoj do riadku) - {{sessions|getSections('td')|trans('join', null)}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 57,
+        "order": 41,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "sekcia td (kod:text) - {{sessions|getSections('td')|trans('join', 'k:t')}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 58,
+        "order": 42,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "sekcia td (kod-text) - {{sessions|getSections('td')|trans('join', 'k-t')}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 59,
+        "order": 43,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "sekcia td (iba kod) - {{sessions|getSections('td')|trans('join', 'k')}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 60,
+        "order": 44,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "sekcia td (iba text) - {{sessions|getSections('td')|trans('join', 't')}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 61,
+        "order": 45,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 64,
+        "order": 46,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Skry hodnoty ktore boli zrusene</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 62,
+        "order": 47,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"td\")|where(\"!sekcia.zruseny\") }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 65,
+        "order": 48,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 67,
+        "order": 49,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Možnosti filtrovania, podmienky sa daju skladat za sebou</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 68,
+        "order": 50,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "posledna nájdena sekcia - |where(\"i==0\")<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 72,
+        "order": 51,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "všetky sekcie z posledného dekurzu - |where(\"d.isLast\")<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 66,
+        "order": 52,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "časová podmienka - |where(\"d.period&gt;365\")<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 69,
+        "order": 53,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pri lv sekcii podľa typu výsledku - |where('typ=\"tetanus\"')<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 70,
+        "order": 54,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "hodnoty v poli sekcie - |where(\"s.value.typ.props.propValue=='Zrak'\")<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 74,
+        "order": 55,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": " d|pred(s, \"vd\")  - najdi v dekurze <b>d</b>  (aktualny dekurz) sekciu <b>vd</b> ktorá je pred <b>s</b>  (aktualne sekcia) v reale to vyzera takto<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 73,
+        "order": 56,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "|where(\"s.value.id.props.id=='5175'\")|where('d|pred(s, \"vd\").value.id.props.id==\"I10\"')<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 75,
+        "order": 57,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "ak potrebujem overiť ze <b>vd</b>  začína s <b>XYZ</b> použijeme <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 76,
+        "order": 58,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "where(\"s.value.id.props.id=='5175'\")|where('d|pred(s, \"vd\").value.id.props.id|trans(\"startsWith\", \"I10\")')<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 156,
+        "order": 59,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "ak potrebujem overiť ze <b>sekcia</b>  obsahuje <b>XYZ</b> použijeme <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 157,
+        "order": 60,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "|where(\"s.value.typ.props.propValue|trans(\"contains\", \"I10\")\")<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 159,
+        "order": 61,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 158,
+        "order": 62,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? (sessions|getSections(\"z-lab\")|where(\"i==0\")|where(\"s.value.code.value|trans('contains', 'I10')\")|trans(\"length\") &gt; 0 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 161,
+        "order": 63,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "lab yy<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 167,
+        "order": 64,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 168,
+        "order": 65,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "lab ee<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 169,
+        "order": 66,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 164,
+        "order": 67,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 165,
+        "order": 68,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 166,
+        "order": 69,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? (sessions|getSections(\"th\")|where(\"i==0\")|where(\"s.value.th.value|trans('contains', 'I10')\")|trans(\"length\") &gt; 0 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 163,
+        "order": 70,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "th yy<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 170,
+        "order": 71,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 171,
+        "order": 72,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "th ee<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 172,
+        "order": 73,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 173,
+        "order": 74,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 176,
+        "order": 75,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 78,
+        "order": 76,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Ukážka kontroly vykázania daného výkonu v časovom období</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 129,
+        "order": 77,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? (sessions|getSections(\"vv\")|where(\"d.period&gt;365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") &gt; 0 || sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; zp==25 &amp;&amp; vek &gt;= 40 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 130,
+        "order": 78,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "vykonaju sa v tomto bloku<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 131,
+        "order": 79,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 132,
+        "order": 80,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "ak neboli splene podmienky vykona sa tento blok<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 133,
+        "order": 81,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 134,
+        "order": 82,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>vysvetlenie zapisu vyššie</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 140,
+        "order": 83,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "(sessions|getSections(\"vv\")|where(\"d.period&gt;365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") &gt; 0 || sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0)<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 135,
+        "order": 84,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "(sessions|getSections(\"vv\") - ziskal vsetku sekcie vv<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 136,
+        "order": 85,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "|where(\"d.period&gt;365\") - za časové obdobie dlhšie ako 365 dní<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 137,
+        "order": 86,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "|where(\"s.value.id.props.id=='H0006'\") - kde výkon sa rovná H0006<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 138,
+        "order": 87,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "|trans(\"length\") &gt; 0 - vyhodnoti sa ako pravda ak sa <b>našiel aspoň</b> jeden takýto vykon<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 139,
+        "order": 88,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "|| - alebo<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 141,
+        "order": 89,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "(sessions|getSections(\"vv\") - ziskal vsetku sekcie vv<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 142,
+        "order": 90,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "|where(\"d.period&lt;=365\") - za časové obdobie kratšie alebo rovné  365 dní<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 143,
+        "order": 91,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "|where(\"s.value.id.props.id=='H0006'\") - kde výkon sa rovná H0006<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 144,
+        "order": 92,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "|trans(\"length\") == 0 - vyhodnoti sa ako pravda ak sa <b>nenašiel ani</b> jeden takýto vykon<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 145,
+        "order": 93,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "&amp;&amp; zp==25  - a z ZP psienta sa rovná 25<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 146,
+        "order": 94,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "&amp;&amp; vek &gt;= 40 - a vek pacienta je vyšší alebo rovný 40 rokov<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 71,
+        "order": 95,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
             "props": {}
           }
         }
       },
       {
         "id": 33,
-        "order": 24,
+        "order": 96,
         "props": {
           "type": "t"
         },
@@ -319,7 +1255,7 @@
       },
       {
         "id": 40,
-        "order": 25,
+        "order": 97,
         "props": {
           "type": "t"
         },
@@ -332,7 +1268,7 @@
       },
       {
         "id": 42,
-        "order": 27,
+        "order": 99,
         "props": {
           "type": "t"
         },
@@ -345,7 +1281,7 @@
       },
       {
         "id": 46,
-        "order": 28,
+        "order": 100,
         "props": {
           "type": "t"
         },
@@ -358,7 +1294,7 @@
       },
       {
         "id": 48,
-        "order": 30,
+        "order": 102,
         "props": {
           "type": "t"
         },
@@ -371,33 +1307,111 @@
       },
       {
         "id": 44,
-        "order": 31,
+        "order": 103,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
       },
       {
         "id": 45,
-        "order": 32,
+        "order": 104,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "<b>Trasformacie dat - este nefunkcne</b><br>",
+            "value": "<b>Trasformacie dat </b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 84,
+        "order": 105,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "vysledkok sa trasformuje na text(nevlozi sa sekcia ale text) - |trans(\"text\")<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 79,
+        "order": 106,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "vrateny vysledok sa prevedie na cislo(kolko bolo najdenych vysledkov) - |trans(\"length\")<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 80,
+        "order": 107,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "mozni specifikovat zaciatok textu podla ktoreho hladat(filtrovat) - |trans(\"startsWith\", \"I10\")<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 81,
+        "order": 108,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "triedi položky - |sort('sekciaDatum', 'asc')<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 82,
+        "order": 109,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 83,
+        "order": 110,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
             "props": {}
           }
         }
       },
       {
         "id": 49,
-        "order": 33,
+        "order": 111,
         "props": {
           "type": "t"
         },
@@ -410,7 +1424,7 @@
       },
       {
         "id": 50,
-        "order": 34,
+        "order": 112,
         "props": {
           "type": "t"
         },
@@ -423,7 +1437,7 @@
       },
       {
         "id": 51,
-        "order": 35,
+        "order": 113,
         "props": {
           "type": "t"
         },
@@ -436,7 +1450,7 @@
       },
       {
         "id": 52,
-        "order": 36,
+        "order": 114,
         "props": {
           "type": "t"
         },
@@ -446,12 +1460,285 @@
             "props": {}
           }
         }
+      },
+      {
+        "id": 88,
+        "order": 115,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 89,
+        "order": 116,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Mapuj/transformuj sekciu z A na B</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 90,
+        "order": 117,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "použi data z pôvodnej sekcia v novej - |trans('mapSections', 'sectionFrom', 'sectionTo', {fieldFrom: \"fieldTo\"})<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 91,
+        "order": 118,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "transformuj všetky nezrušené td na sekciu, použitím hodnoty id (kódu diagnózy):<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 92,
+        "order": 119,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections('td')|where('!sekcia.zruseny')|trans('mapSections', 'td', 'vd', {id: \"id\"})}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 102,
+        "order": 120,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "v kombinacii s kodom choroby vieme vytvorit vykazovanie pre dispenzarizaciu<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 126,
+        "order": 121,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "|where('!sekcia.zruseny') - kontrola či td nebolo zrušené<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 127,
+        "order": 122,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "|where(\"s.value.idch.props.id==73\") - kontrola na kód choroby<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 128,
+        "order": 123,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "|where(\"s.value.zp.props.propValue!=0\") - kontrola či dispenzarizácia bola schválena ZP, toto validuje či hodnota \"schválené ZP\" nie je explicitne nastavená na nie, prejde to s hodnotami prázdne, bez určenia a áno<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 103,
+        "order": 124,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? sessions|getSections(\"td\")|where('!sekcia.zruseny')|where(\"s.value.idch.props.id==73\")|where(\"s.value.zp.props.propValue!=0\")|trans(\"length\") &gt; 0 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 104,
+        "order": 125,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "mozme vastavit vd hodnote diagnozy ako v td<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 106,
+        "order": 126,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections('td')|where(\"s.value.idch.props.id==73\")|trans('mapSections', 'td', 'vd', {id: \"id\"})}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 122,
+        "order": 128,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 147,
+        "order": 129,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 148,
+        "order": 130,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Vyhodnoť podmienku vo vzore podľa obsahu aktuálneho dekurzu</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 149,
+        "order": 131,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "napr. podľa vloženej diagnózy vo vzore chceme vloziť rôzny obsah, ak dekurz obsahuje diagnózu I10 urob <b>X</b> ak nie urob <b>Y</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 150,
+        "order": 132,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? sessions|getSections(\"vd\")|where(\"i==0\")|where('s.value.id.props.id|trans(\"startsWith\", \"I10\")')|trans(\"length\") &gt; 0  }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 151,
+        "order": 133,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "dekurz obsahoval I10, vykona sa tento blok<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 152,
+        "order": 134,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 153,
+        "order": 135,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "dekurz neobsahoval obsahoval I10, vykona sa tento blok<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 154,
+        "order": 136,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
       }
     ],
     "premenna": [
       {
         "id": 23,
-        "order": 14,
+        "order": 29,
         "props": {
           "type": "premenna"
         },
@@ -476,7 +1763,7 @@
     "pv": [
       {
         "id": 41,
-        "order": 26,
+        "order": 98,
         "props": {
           "type": "pv"
         },
@@ -487,8 +1774,16 @@
               "propValue": "Sluch"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
-            "value": "v norme",
+            "value": "v norme<br>",
             "props": {}
           }
         }
@@ -497,13 +1792,41 @@
     "ra": [
       {
         "id": 47,
-        "order": 29,
+        "order": 101,
         "props": {
           "type": "ra"
         },
         "value": {
           "text": {
             "value": "",
+            "props": {}
+          },
+          "kvo": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 125,
+        "order": 127,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "id": 62,
+              "idEzid": "00000117549@11",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
             "props": {}
           }
         }
