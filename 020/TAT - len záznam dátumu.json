@@ -1,0 +1,43 @@
+{
+  "type": null,
+  "summary": "",
+  "content": "<section data-x-id=\"2\" data-type=\"oc\" class=\"\"><aside></aside><label class=\"section-label  \">Druh očkovania:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"T\" data-id-ezid=\"00000115923@2\" data-id-classid=\"ockovanie\" title=\"[T] Tetanus\" style=\"width: 50ch;\">[T] Tetanus</div>​<label data-for=\"datum\" class=\"\">Dátum</label><div class=\"FieldDate hasActions\" data-name=\"datum\" data-prop-value=\"2018-05-17T22:00:00.000Z\">18.05.2018</div>​<label data-for=\"poznamka\" class=\" _noval\">Poznámka</label><div class=\"_noval Field\" data-name=\"poznamka\"></div></section><section data-x-id=\"4\" data-type=\"ol\" class=\"\"><aside></aside><label class=\"section-label  \">Očkovacia látka:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00020745493\" data-id-f=\"SUS INJ\" data-id-ul=\"\" data-id-atc=\"J07AM51\" data-id-sp=\"imu\" data-id-classid=\"liek\" data-id=\"33919\" data-prop-ol=\"1\" data-prop-gp=\"0\" data-prop-vnl=\"R\" data-prop-atc-name=\"Tetanový toxoid, kombinácie s diftériovým toxoidom\" data-prop-sdl=\"1\" data-prop-cena=\"6.02\" data-prop-sp-uhr=\"V\" title=\"[33919] IMOVAX D.T. ADULT | sus inj 1x0,5 ml (striek.inj.skl.napln.)\" style=\"width: 50ch;\">[33919] IMOVAX D.T. ADULT | sus inj 1x0,5 ml (striek.inj.skl.napln.)</div>​<label data-for=\"sn\" class=\" _noval\">šarza</label><div class=\"_noval Field\" data-name=\"sn\"></div>​<label data-for=\"qty\" class=\"\">množstvo ZVJ</label><div class=\"FieldR\" data-name=\"qty\" data-prop-value=\"1.00\">1</div>​<label data-for=\"text\" class=\" _noval\">poznámka</label><div class=\"_noval Field\" data-name=\"text\"></div></section><section data-x-id=\"6\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"Z27.1\" data-id-ezid=\"02089522383@9\" data-id-classid=\"diagnoza\" title=\"[Z27.1] Potreba imunizácie proti záškrtu – tetanu – čiernemu kašľu [DPT]\" style=\"width: 50ch;\">[Z27.1] Potreba imunizácie proti záškrtu – tetanu – čiernemu kašľu [DPT]</div>​<label data-for=\"text\" class=\" _noval\">/</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"8\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"252b\" data-id-ezid=\"00000467878@7\" data-id-classid=\"vykon\" data-prop-body=\"70\" title=\"[252b] Očkovanie.\" style=\"width: 50ch;\">[252b] Očkovanie.</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
+  "title": "TAT - len záznam dátumu",
+  "shortcut": "tatz",
+  "if": "",
+  "data": {
+    "_": {},
+    "oc": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[T] Tetanus",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000115923@2",
+              "id": "T"
+            }
+          },
+          "datum": {
+            "value": "",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "sumar-tat"
+  ],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020"
+}
