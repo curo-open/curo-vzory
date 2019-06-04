@@ -303,7 +303,7 @@
       },
       {
         "id": 151,
-        "order": 30,
+        "order": 32,
         "props": {
           "type": "t"
         },
@@ -316,7 +316,7 @@
       },
       {
         "id": 153,
-        "order": 32,
+        "order": 34,
         "props": {
           "type": "t"
         },
@@ -329,7 +329,7 @@
       },
       {
         "id": 154,
-        "order": 33,
+        "order": 35,
         "props": {
           "type": "t"
         },
@@ -342,7 +342,7 @@
       },
       {
         "id": 156,
-        "order": 35,
+        "order": 37,
         "props": {
           "type": "t"
         },
@@ -355,7 +355,7 @@
       },
       {
         "id": 157,
-        "order": 36,
+        "order": 38,
         "props": {
           "type": "t"
         },
@@ -368,7 +368,7 @@
       },
       {
         "id": 159,
-        "order": 38,
+        "order": 40,
         "props": {
           "type": "t"
         },
@@ -381,7 +381,7 @@
       },
       {
         "id": 160,
-        "order": 39,
+        "order": 41,
         "props": {
           "type": "t"
         },
@@ -394,7 +394,7 @@
       },
       {
         "id": 162,
-        "order": 41,
+        "order": 43,
         "props": {
           "type": "t"
         },
@@ -407,7 +407,7 @@
       },
       {
         "id": 163,
-        "order": 42,
+        "order": 44,
         "props": {
           "type": "t"
         },
@@ -420,7 +420,7 @@
       },
       {
         "id": 165,
-        "order": 44,
+        "order": 46,
         "props": {
           "type": "t"
         },
@@ -433,7 +433,7 @@
       },
       {
         "id": 166,
-        "order": 45,
+        "order": 47,
         "props": {
           "type": "t"
         },
@@ -446,7 +446,7 @@
       },
       {
         "id": 168,
-        "order": 47,
+        "order": 49,
         "props": {
           "type": "t"
         },
@@ -459,7 +459,7 @@
       },
       {
         "id": 169,
-        "order": 48,
+        "order": 50,
         "props": {
           "type": "t"
         },
@@ -472,7 +472,7 @@
       },
       {
         "id": 171,
-        "order": 50,
+        "order": 52,
         "props": {
           "type": "t"
         },
@@ -485,7 +485,7 @@
       },
       {
         "id": 172,
-        "order": 51,
+        "order": 53,
         "props": {
           "type": "t"
         },
@@ -498,7 +498,7 @@
       },
       {
         "id": 174,
-        "order": 53,
+        "order": 55,
         "props": {
           "type": "t"
         },
@@ -511,7 +511,7 @@
       },
       {
         "id": 240,
-        "order": 54,
+        "order": 56,
         "props": {
           "type": "t"
         },
@@ -524,7 +524,7 @@
       },
       {
         "id": 242,
-        "order": 56,
+        "order": 58,
         "props": {
           "type": "t"
         },
@@ -537,7 +537,7 @@
       },
       {
         "id": 178,
-        "order": 57,
+        "order": 59,
         "props": {
           "type": "t"
         },
@@ -550,7 +550,7 @@
       },
       {
         "id": 180,
-        "order": 59,
+        "order": 61,
         "props": {
           "type": "t"
         },
@@ -563,7 +563,7 @@
       },
       {
         "id": 181,
-        "order": 60,
+        "order": 62,
         "props": {
           "type": "t"
         },
@@ -576,7 +576,7 @@
       },
       {
         "id": 183,
-        "order": 62,
+        "order": 64,
         "props": {
           "type": "t"
         },
@@ -589,7 +589,7 @@
       },
       {
         "id": 234,
-        "order": 63,
+        "order": 65,
         "props": {
           "type": "t"
         },
@@ -602,7 +602,7 @@
       },
       {
         "id": 236,
-        "order": 65,
+        "order": 67,
         "props": {
           "type": "t"
         },
@@ -615,7 +615,7 @@
       },
       {
         "id": 237,
-        "order": 66,
+        "order": 68,
         "props": {
           "type": "t"
         },
@@ -628,7 +628,7 @@
       },
       {
         "id": 238,
-        "order": 67,
+        "order": 69,
         "props": {
           "type": "t"
         },
@@ -641,7 +641,7 @@
       },
       {
         "id": 187,
-        "order": 68,
+        "order": 70,
         "props": {
           "type": "t"
         },
@@ -747,10 +747,40 @@
         }
       }
     ],
+    "da": [
+      {
+        "id": 248,
+        "order": 27,
+        "props": {
+          "type": "da"
+        },
+        "value": {
+          "text": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "dz": [
+      {
+        "id": 249,
+        "order": 28,
+        "props": {
+          "type": "dz"
+        },
+        "value": {
+          "dz": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "ab": [
       {
         "id": 82,
-        "order": 27,
+        "order": 29,
         "props": {
           "type": "ab"
         },
@@ -777,7 +807,7 @@
     "zfp": [
       {
         "id": 83,
-        "order": 28,
+        "order": 30,
         "props": {
           "type": "zfp"
         },
@@ -836,7 +866,7 @@
     "o": [
       {
         "id": 88,
-        "order": 29,
+        "order": 31,
         "props": {
           "type": "o"
         },
@@ -851,7 +881,7 @@
     "pv": [
       {
         "id": 152,
-        "order": 31,
+        "order": 33,
         "props": {
           "type": "pv"
         },
@@ -878,7 +908,7 @@
       },
       {
         "id": 155,
-        "order": 34,
+        "order": 36,
         "props": {
           "type": "pv"
         },
@@ -905,7 +935,7 @@
       },
       {
         "id": 158,
-        "order": 37,
+        "order": 39,
         "props": {
           "type": "pv"
         },
@@ -932,7 +962,7 @@
       },
       {
         "id": 161,
-        "order": 40,
+        "order": 42,
         "props": {
           "type": "pv"
         },
@@ -959,7 +989,7 @@
       },
       {
         "id": 164,
-        "order": 43,
+        "order": 45,
         "props": {
           "type": "pv"
         },
@@ -986,7 +1016,7 @@
       },
       {
         "id": 167,
-        "order": 46,
+        "order": 48,
         "props": {
           "type": "pv"
         },
@@ -1013,7 +1043,7 @@
       },
       {
         "id": 170,
-        "order": 49,
+        "order": 51,
         "props": {
           "type": "pv"
         },
@@ -1040,7 +1070,7 @@
       },
       {
         "id": 173,
-        "order": 52,
+        "order": 54,
         "props": {
           "type": "pv"
         },
@@ -1067,7 +1097,7 @@
       },
       {
         "id": 241,
-        "order": 55,
+        "order": 57,
         "props": {
           "type": "pv"
         },
@@ -1094,7 +1124,7 @@
       },
       {
         "id": 179,
-        "order": 58,
+        "order": 60,
         "props": {
           "type": "pv"
         },
@@ -1121,7 +1151,7 @@
       },
       {
         "id": 182,
-        "order": 61,
+        "order": 63,
         "props": {
           "type": "pv"
         },
@@ -1150,7 +1180,7 @@
     "ekg": [
       {
         "id": 235,
-        "order": 64,
+        "order": 66,
         "props": {
           "type": "ekg"
         },
@@ -1213,7 +1243,7 @@
     "odp": [
       {
         "id": 94,
-        "order": 69,
+        "order": 71,
         "props": {
           "type": "odp"
         },
@@ -1228,7 +1258,7 @@
     "td": [
       {
         "id": 89,
-        "order": 70,
+        "order": 72,
         "props": {
           "type": "td"
         },
@@ -1236,9 +1266,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "E78.9",
               "idEzid": "02089382192@10",
-              "id": "E78.9"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1263,7 +1293,7 @@
     "p": [
       {
         "id": 96,
-        "order": 71,
+        "order": 73,
         "props": {
           "type": "p"
         },
@@ -1273,9 +1303,9 @@
             "props": {}
           },
           "at": {
-            "value": "22.10.2019 16:58",
+            "value": "04.11.2019 13:53",
             "props": {
-              "propValue": "2019-10-22T14:58:14.953Z",
+              "propValue": "2019-11-04T12:53:23.455Z",
               "expr": "=+5m"
             }
           },
@@ -1295,7 +1325,7 @@
     "vlozit": [
       {
         "id": 244,
-        "order": 72,
+        "order": 74,
         "props": {
           "type": "vlozit"
         },
