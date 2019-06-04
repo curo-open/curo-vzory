@@ -16,9 +16,9 @@
           "id": {
             "value": "[J11.8] Chrípka zapríčinená neidentifikovaným vírusom, s inými prejavmi",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "J11.8",
               "idEzid": "02089403527",
-              "id": "J11.8"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -56,9 +56,9 @@
           "id": {
             "value": "[00020036273] C-reaktívny protein na jednoúčelovom prístroji",
             "props": {
-              "idClassid": "labvys",
+              "id": "00020036273",
               "idEzid": "00020036273",
-              "id": "00020036273"
+              "idClassid": "labvys"
             }
           },
           "value": {
@@ -74,7 +74,48 @@
             "props": {}
           },
           "comment": {
-            "value": "<br>",
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 9,
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp == 27 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 5,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 10,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
             "props": {}
           }
         }
@@ -83,7 +124,7 @@
     "vv": [
       {
         "id": 8,
-        "order": 3,
+        "order": 4,
         "props": {
           "type": "vv"
         },
@@ -92,9 +133,32 @@
             "value": "[4571A] C-reaktívny proteín",
             "props": {
               "propBody": 380,
-              "idClassid": "vykon",
+              "id": "4571A",
               "idEzid": "02089716514",
-              "id": "4571A"
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 13,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[4571] C-reaktívny proteín",
+            "props": {
+              "propType": "SVaLZ",
+              "propBody": 380,
+              "idClassid": "vykon",
+              "idEzid": "00000486506@11",
+              "id": 4571
             }
           },
           "count": {
