@@ -20,7 +20,7 @@
             "props": {}
           },
           "podnadpis": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -732,8 +732,21 @@
         }
       },
       {
+        "id": 1145,
+        "order": 81,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"td\")|where(\"!sekcia.zruseny\")|trans('text')}} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 1141,
-        "order": 83,
+        "order": 84,
         "props": {
           "type": "t"
         },
@@ -746,7 +759,7 @@
       },
       {
         "id": 1043,
-        "order": 85,
+        "order": 86,
         "props": {
           "type": "t"
         },
@@ -759,7 +772,7 @@
       },
       {
         "id": 1045,
-        "order": 87,
+        "order": 88,
         "props": {
           "type": "t"
         },
@@ -982,6 +995,14 @@
               "propValue": "Status preasens"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "pri vedomí, orientovaný, habitus normostenický, koža hydratovaná, čistá, sliznice ružové",
             "props": {}
@@ -1001,8 +1022,16 @@
               "propValue": "Vitálne funkcie"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -1019,6 +1048,14 @@
             "props": {
               "propValue": "Zrak"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": "VOD:  5/5    VOS: 5 /5     Farbocit: správny<br>",
@@ -1039,6 +1076,14 @@
               "propValue": "Sluch"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "v norme<br>",
             "props": {}
@@ -1057,6 +1102,14 @@
             "props": {
               "propValue": "Hlava"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": "mezocef. na poklop nebolestivá, výstupy  hl.nn. nebolestivé, šija voľná neoponuje, zrenice izokorické, FR výbavná, uši, nos bez výtoku<br>",
@@ -1077,6 +1130,14 @@
               "propValue": "Hrdlo"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "kľudné, tonzily nezv., bez čapov, jazky plazí v  strednej rovine, chrup sanovaný<br>",
             "props": {}
@@ -1095,6 +1156,14 @@
             "props": {
               "propValue": "Krk"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": "LU a ŠŽ nehmatám, jugula bez kongescie<br>",
@@ -1115,6 +1184,14 @@
               "propValue": "Hrudník"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "súmerný<br>",
             "props": {}
@@ -1133,6 +1210,14 @@
             "props": {
               "propValue": "Pľúca"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": "dýchanie vesikulárne bez VDF<br>",
@@ -1153,6 +1238,14 @@
               "propValue": "Srdce"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "akcia pravidelná, ozvy ohraničené, bez šelestu<br>",
             "props": {}
@@ -1171,6 +1264,14 @@
             "props": {
               "propValue": "Brucho"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": "mäkké priehmatné bez palp. citl. a hm. rezist.,  Pečeň a slezina nezv., tapott. bilat. negat.<br>",
@@ -1191,6 +1292,14 @@
               "propValue": "Chrbtica"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": "v ose<br>",
             "props": {}
@@ -1209,6 +1318,14 @@
             "props": {
               "propValue": "Dolné končatiny"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": "bez edémov a varixov, bez známok zápalu, pulzácie ATP a ADP hmatné bilat.<br>",
@@ -1229,6 +1346,14 @@
               "propValue": "Lokomočný aparát"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": " kĺby bez deformít, zápal. a degenerat. zmien, bez palpačnej citlivosti, rozsahy pohyblivosti kĺbov a chrbtice v norme, svalstvo normálne vyvinuté, svalové spazmy neprítomné<br>",
             "props": {}
@@ -1248,6 +1373,14 @@
               "propValue": "RTG"
             }
           },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
           "popis": {
             "value": " <br>",
             "props": {}
@@ -1266,6 +1399,14 @@
             "props": {
               "propValue": "USG"
             }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
           },
           "popis": {
             "value": " <br>",
@@ -1340,7 +1481,7 @@
     "premenna": [
       {
         "id": 1143,
-        "order": 81,
+        "order": 82,
         "props": {
           "type": "premenna"
         },
@@ -1361,7 +1502,7 @@
     "h-score": [
       {
         "id": 1140,
-        "order": 82,
+        "order": 83,
         "props": {
           "type": "h-score"
         },
@@ -1390,7 +1531,7 @@
     "z": [
       {
         "id": 1042,
-        "order": 84,
+        "order": 85,
         "props": {
           "type": "z"
         },
@@ -1403,7 +1544,7 @@
       },
       {
         "id": 1044,
-        "order": 86,
+        "order": 87,
         "props": {
           "type": "z"
         },
