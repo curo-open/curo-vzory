@@ -1,0 +1,127 @@
+{
+  "summary": "",
+  "content": "<section data-x-id=\"17\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"_noval FieldHtml\" data-name=\"s\">cíti sa dobre, bolesti nemá, slabo špiní, plne kojí.<br></div></section><section data-x-id=\"18\" data-type=\"t\" class=\"\"><aside></aside><div class=\"_noval FieldHtml\" data-name=\"t\"><b>Pôrod:</b><br><br></div></section><section data-x-id=\"11\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"_noval FieldHtml\" data-name=\"o\">vulva bpn. epi sutura zhojená p.p. intentionem, spek.: sliznice ruožové, normál. pošvové prostredie,portio form., epitzelizované, bránka štrbina.<br>palp.: čípok sakrálne, formovaný, voľný, adnexálne oblasti obojstranne bez patologickej citlivosti a rezistencie, CD nebolestivý.<br></div></section><section data-x-id=\"15\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyšetrenia​:</label>​<label data-for=\"typ\" class=\" _noval\">Typ​</label><div class=\"_noval FieldList hasActions\" data-name=\"typ\" data-prop-value=\"TVS\">TVS</div>​<label data-for=\"date\" class=\" _noval\">dátum vyšetrenia​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div>​<label data-for=\"me\" class=\" _noval\">mnou vyžiadané​</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"me\"></div>​<label data-for=\"popis\" class=\" _noval\">popis:​</label><div class=\"_noval FieldHtml\" data-name=\"popis\">Uterus v AVF normálnej veľkosti, bez štrukturálnych zmien, endometrium , ováriá bilat. fyziol. vzhľadu a uloženia. CD bez voľnej tekutiny.<br></div></section><section data-x-id=\"4\" data-type=\"z\" class=\"\"><aside></aside><label class=\"section-label  \">Záver​:</label><div class=\"_noval FieldHtml\" data-name=\"z\">kontrolný KO.<br>Involúcia primeraná, šestonedelie fyziologické.<br></div></section><section data-x-id=\"6\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"_noval FieldSearch hasActions highlight truncate\" data-name=\"id\" data-ignore-visited=\"true\" title=\"[Z39.2] Ďalšie bežné sledovanie matky po pôrode\" style=\"width: 50ch;\" data-id=\"Z39.2\" data-id-ezid=\"02089523290@11\" data-id-classid=\"diagnoza\">[Z39.2] Ďalšie bežné sledovanie matky po pôrode</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"8\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" title=\"[2] Rady, aj cez telefon, medzi 19.oo - 08.oo hod.         (Obsah rady vid\" style=\"width: 50ch;\" data-id=\"2\" data-id-ezid=\"02089690792@11\" data-id-classid=\"vykon\" data-prop-body=\"200\">[2] Rady, aj cez telefon, medzi 19.oo - 08.oo hod.         (Obsah rady vid</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"9\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" title=\"[105] Vyšetrenie a rady šestonedielke v 6. až 8. týždni po pôrode, výkon sa môže vykazovať iba raz v súvislosti so šestonedelím.\" style=\"width: 50ch;\" data-id=\"105\" data-id-ezid=\"00000466961@11\" data-id-classid=\"vykon\" data-prop-body=\"250\">[105] Vyšetrenie a rady šestonedielke v 6. až 8. týždni po pôrode, výkon sa môže vykazovať iba raz v súvislosti so šestonedelím.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
+  "title": "Pooperačná kontrola",
+  "shortcut": "pok",
+  "if": "",
+  "data": {
+    "_": {},
+    "s": [
+      {
+        "id": 17,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "lepšie, pobolievanie primerané, teploty nemá, chuť do jedla + vetry +, močí bez dyzúrie, stolica+.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 11,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "brucho voľné, priehmatné, primerane citlivé<br>sutury po lsk portoch sa hoja p.p. int., bez inflamácie<br>Dk bez edémov a varixov<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 6,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z48.9] Následná chirurgická starostlivosť, bližšie neurčená",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089524074@11",
+              "id": "Z48.9"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 8,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov",
+            "props": {
+              "propBody": 250,
+              "idClassid": "vykon",
+              "idEzid": "00000466557@11",
+              "id": 8
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 9,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@11",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/009"
+}

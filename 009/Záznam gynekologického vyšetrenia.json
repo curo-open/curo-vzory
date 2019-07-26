@@ -1,0 +1,142 @@
+{
+  "summary": "",
+  "content": "<section data-x-id=\"11\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"_noval FieldHtml\" data-name=\"o\">alpačne: prsníky symetrické, koža bez eflorescencií, mamily symetrické, konické, prominujú, bez sekrécie,mammy bilat.glandulárneho pohmatu, bez patol.rezistencie, ev. ciltivosti. Axilly bez LAP. <br></div></section><section data-x-id=\"2\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyšetrenia​:</label>​<label data-for=\"typ\" class=\" _noval\">Typ​</label><div class=\"_noval FieldList hasActions\" data-name=\"typ\" data-prop-value=\"SONO prsníkov\">SONO prsníkov</div>​<label data-for=\"date\" class=\" _noval\">dátum vyšetrenia​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div>​<label data-for=\"me\" class=\" _noval\">mnou vyžiadané​</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"me\"></div>​<label data-for=\"popis\" class=\" _noval\">popis:​</label><div class=\"_noval FieldHtml\" data-name=\"popis\">koža, podkožie nezhrubnuté, žľaza fertilného typu pravidelnej echoštruktúry bez ložiskových zmien a porúch architektoniky.Patologickú ložiskovú léziu ani opakovaným skenovaním nediferencujem. Dukty nedilatované. Axilly bez LAP.<br></div></section><section data-x-id=\"4\" data-type=\"z\" class=\"\"><aside></aside><label class=\"section-label  \">Záver​:</label><div class=\"_noval FieldHtml\" data-name=\"z\">Fertilné mammy, bez sonopatologie.<br></div></section><section data-x-id=\"13\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"_noval FieldHtml\" data-name=\"odp\">ko SONO prsníkov o 1 rok, ev. p.p.<br></div></section><section data-x-id=\"6\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"_noval FieldSearch hasActions highlight truncate\" data-name=\"id\" data-ignore-visited=\"true\" title=\"[N60.9] Benígna dysplázia prsníka, bližšie neurčená\" style=\"width: 50ch;\" data-id=\"N60.9\" data-id-ezid=\"02089459081@11\" data-id-classid=\"diagnoza\">[N60.9] Benígna dysplázia prsníka, bližšie neurčená</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"8\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" title=\"[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov\" style=\"width: 50ch;\" data-id=\"8\" data-id-ezid=\"00000466557@11\" data-id-classid=\"vykon\" data-prop-body=\"250\">[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"9\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" title=\"[5308] Ultrazvukové vyšetrenie obidvoch prsníkov, axíl a regionálnych lymfatických uzlín.\" style=\"width: 50ch;\" data-id=\"5308\" data-id-ezid=\"00000492355@11\" data-id-classid=\"vykon\" data-prop-body=\"1500\" data-prop-type=\"SVaLZ\">[5308] Ultrazvukové vyšetrenie obidvoch prsníkov, axíl a regionálnych lymfatických uzlín.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
+  "title": "Záznam gynekologického vyšetrenia",
+  "shortcut": "zgv",
+  "if": "",
+  "data": {
+    "_": {},
+    "o": [
+      {
+        "id": 11,
+        "order": 0,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "vulva bpn., spek.:sliznice pošvy ružové, normálne pošv. prostredie, portio- epitelizované, bránka štrbina, TZ<br>palp.:pošva priestranná, čípok sakrálne, voľný, nebolestivý, uterus v AVF normálnej veľkosti, mobilný, nebolestivý, adnexálne oblasti obojstranne bez patol. rezistencie a citlivosti.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pv": [
+      {
+        "id": 15,
+        "order": 1,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "TVS",
+            "props": {
+              "propValue": "TVS"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "Uterus v AVF normálnej veľkosti, bez štrukturálnych zmien, endometrium , ováriá bilat. fyziol. vzhľadu a uloženia. CD bez voľnej tekutiny.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "Gynekologický palp. a usg nález fyziologický.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 6,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[D25.9] Leiomyóm maternice, bližšie neurčený",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089373696@11",
+              "id": "D25.9"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 8,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@11",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 9,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).",
+            "props": {
+              "propType": "SVaLZ",
+              "propBody": 1200,
+              "idClassid": "vykon",
+              "idEzid": "00000492314@11",
+              "id": 5305
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/009"
+}

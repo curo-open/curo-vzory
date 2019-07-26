@@ -1,0 +1,157 @@
+{
+  "summary": "",
+  "content": "<section data-x-id=\"2\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyšetrenia​:</label>​<label data-for=\"typ\" class=\" _noval\">Typ​</label><div class=\"_noval FieldList hasActions\" data-name=\"typ\" data-prop-value=\"TVS\">TVS</div>​<label data-for=\"date\" class=\" _noval\">dátum vyšetrenia​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div>​<label data-for=\"me\" class=\" _noval\">mnou vyžiadané​</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"me\"></div>​<label data-for=\"popis\" class=\" _noval\">popis:​</label><div class=\"_noval FieldHtml\" data-name=\"popis\">Uterus v AVF normálnej veľkosti, bez štrukturálnych zmien, endometrium v proliferačnej fáze, ováriá obojstranne normálnej veľkosti, vzhľadu a uloženia.Patologickú štruktúru v malej panve nediferencujem. CD bez voľnej tekutiny.<br></div></section><section data-x-id=\"4\" data-type=\"z\" class=\"\"><aside></aside><label class=\"section-label  \">Záver​:</label><div class=\"_noval FieldHtml\" data-name=\"z\">Nález na vnútorných rodidlách bez sonopatologie.<br></div></section><section data-x-id=\"6\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"_noval FieldSearch hasActions highlight truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"D25.0\" data-id-ezid=\"02089373662@11\" data-id-classid=\"diagnoza\" title=\"[D25.0] Submukózny leiomyóm maternice\" style=\"width: 50ch;\">[D25.0] Submukózny leiomyóm maternice</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"8\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"63\" data-id-ezid=\"00000117556@11\" data-id-classid=\"vykon\" data-prop-body=\"200\" title=\"[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"9\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"5305\" data-id-ezid=\"00000492314@11\" data-id-classid=\"vykon\" data-prop-body=\"1200\" data-prop-type=\"SVaLZ\" title=\"[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).\" style=\"width: 50ch;\">[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
+  "title": "SONO prsníkov",
+  "shortcut": "sonop",
+  "if": "",
+  "data": {
+    "_": {},
+    "o": [
+      {
+        "id": 11,
+        "order": 0,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "alpačne: prsníky symetrické, koža bez eflorescencií, mamily symetrické, konické, prominujú, bez sekrécie,mammy bilat.glandulárneho pohmatu, bez patol.rezistencie, ev. ciltivosti. Axilly bez LAP. <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pv": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "SONO prsníkov",
+            "props": {
+              "propValue": "SONO prsníkov"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "koža, podkožie nezhrubnuté, žľaza fertilného typu pravidelnej echoštruktúry bez ložiskových zmien a porúch architektoniky.Patologickú ložiskovú léziu ani opakovaným skenovaním nediferencujem. Dukty nedilatované. Axilly bez LAP.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "Fertilné mammy, bez sonopatologie.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 13,
+        "order": 3,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko SONO prsníkov o 1 rok, ev. p.p.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 6,
+        "order": 4,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[N60.9] Benígna dysplázia prsníka, bližšie neurčená",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089459081@11",
+              "id": "N60.9"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 8,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov",
+            "props": {
+              "propBody": 250,
+              "idClassid": "vykon",
+              "idEzid": "00000466557@11",
+              "id": 8
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 9,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5308] Ultrazvukové vyšetrenie obidvoch prsníkov, axíl a regionálnych lymfatických uzlín.",
+            "props": {
+              "propType": "SVaLZ",
+              "propBody": 1500,
+              "idClassid": "vykon",
+              "idEzid": "00000492355@11",
+              "id": 5308
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/009"
+}

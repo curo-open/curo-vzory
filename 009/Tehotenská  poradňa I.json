@@ -1,0 +1,463 @@
+{
+  "summary": "",
+  "content": "<section data-x-id=\"17\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"_noval FieldHtml\" data-name=\"s\"></div></section><section data-x-id=\"11\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\">vulva bpn., pošva priestranná, sliznice kľudné, vaginálny pahýľ voľný,bez palpačnej citlivosti, v digitálnom dosahu bez patol. rezistenice.<br></div></section><section data-x-id=\"19\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyšetrenia​:</label>​<label data-for=\"typ\" class=\"\">Typ​</label><div class=\"FieldList hasActions\" data-name=\"typ\" data-prop-value=\"TVS\">TVS</div>​<label data-for=\"date\" class=\" _noval\">dátum vyšetrenia​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div>​<label data-for=\"me\" class=\" _noval\">mnou vyžiadané​</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"me\"></div>​<label data-for=\"popis\" class=\"\">popis:​</label><div class=\"FieldHtml\" data-name=\"popis\">V dosahu sondy bez sonopatomorfologie,uterus a adnexá chýbajú, kontury MM hladké, bez voľnej tekutiny v CD.<br></div></section><section data-x-id=\"4\" data-type=\"z\" class=\"\"><aside></aside><label class=\"section-label  \">Záver​:</label><div class=\"_noval FieldHtml\" data-name=\"z\"></div></section><section data-x-id=\"21\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"_noval FieldHtml\" data-name=\"odp\"></div></section><section data-x-id=\"6\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089460865@11\" data-id=\"N94.9\" title=\"[N94.9] Odchýlka spojená so ženskými pohlavnými orgánmi a menštruačným cyklom, bližšie neurčená\" style=\"width: 50ch;\">[N94.9] Odchýlka spojená so ženskými pohlavnými orgánmi a menštruačným cyklom, bližšie neurčená</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"8\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000466557@11\" data-id=\"8\" data-prop-body=\"250\" title=\"[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov\" style=\"width: 50ch;\">[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"9\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000117556@11\" data-id=\"63\" data-prop-body=\"200\" title=\"[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"22\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000492314@11\" data-id=\"5305\" data-prop-type=\"SVaLZ\" data-prop-body=\"1200\" title=\"[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).\" style=\"width: 50ch;\">[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
+  "title": "Tehotenská  poradňa I",
+  "shortcut": "tp1",
+  "if": "",
+  "data": {
+    "_": {},
+    "s": [
+      {
+        "id": 27,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "cíti sa dobre, bolesti nemá, bez výtoku<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 29,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "spek.:normálne pošv. prostredie, sliznice ružové, portio- OE, TZ1. <br>brucho voľné, palp.:čípok sakrálne, formovaný, uzavretý, tuhý, uterus zv.ako g.m. III, okolie bpn. DK bpn. <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 34,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "GV:   __   TP:  __ <br>CI:  __      moč:  __   <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 42,
+        "order": 5,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "upozornit na sono, urobit ako osobitny vzor upozornit v  tt 10, 20, 30<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 43,
+        "order": 10,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "vd nastavit podla td<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "td": [
+      {
+        "id": 38,
+        "order": 3,
+        "props": {
+          "type": "td"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          },
+          "from": {
+            "value": "",
+            "props": {}
+          },
+          "to": {
+            "value": "",
+            "props": {}
+          },
+          "dispenzarizacia": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "zfp": [
+      {
+        "id": 36,
+        "order": 4,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "oh": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "",
+            "props": {}
+          },
+          "temp": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "sonogv": [
+      {
+        "id": 31,
+        "order": 6,
+        "props": {
+          "type": "sonogv"
+        },
+        "value": {
+          "plod": {
+            "value": "",
+            "props": {}
+          },
+          "akcia": {
+            "value": "+",
+            "props": {}
+          },
+          "pohyby": {
+            "value": "+",
+            "props": {}
+          },
+          "CLR": {
+            "value": "",
+            "props": {}
+          },
+          "BFHR": {
+            "value": "",
+            "props": {}
+          },
+          "NT": {
+            "value": "",
+            "props": {}
+          },
+          "NB": {
+            "value": "+",
+            "props": {}
+          },
+          "PPH": {
+            "value": "P V",
+            "props": {}
+          },
+          "PV": {
+            "value": "v norme",
+            "props": {}
+          },
+          "placenta": {
+            "value": "predná stena",
+            "props": {}
+          },
+          "gr": {
+            "value": "",
+            "props": {}
+          },
+          "bp": {
+            "value": "symetrická",
+            "props": {}
+          },
+          "gvtt": {
+            "value": "",
+            "props": {}
+          },
+          "gvdt": {
+            "value": "",
+            "props": {}
+          },
+          "ov": {
+            "value": "",
+            "props": {}
+          },
+          "TP": {
+            "value": "",
+            "props": {}
+          },
+          "zaver": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 4,
+        "order": 7,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "Grav ml. III __ intacta<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 21,
+        "order": 8,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "kontrola o 30 dní<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "obj": [
+      {
+        "id": 33,
+        "order": 9,
+        "props": {
+          "type": "obj",
+          "objId": "cjyisjx5s000e3q7c8t58k1hp"
+        },
+        "value": {
+          "type": {
+            "value": "Objednanie",
+            "props": {
+              "propValue": "O"
+            }
+          },
+          "cal": {
+            "value": "",
+            "props": {}
+          },
+          "time": {
+            "value": "24.08.2019 16:48",
+            "props": {
+              "propValue": "2019-08-24T14:48:33.553Z"
+            }
+          },
+          "duration": {
+            "value": "10",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          },
+          "display": {
+            "value": "1",
+            "props": {}
+          },
+          "style": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 6,
+        "order": 11,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z34.0] Dohľad nad normálnou prvou graviditou",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089522839@11",
+              "id": "Z34.0"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 9,
+        "order": 12,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov",
+            "props": {
+              "propBody": 250,
+              "idClassid": "vykon",
+              "idEzid": "00000466557@11",
+              "id": 8
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 22,
+        "order": 13,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[102] Prvé vyšetrenie v rámci predpôrodnej starostlivosti o tehotné s určením termínu pôrodu vrátane zisťovania anamnézy a vystavenia materského preukazu, ako aj rád tehotnej o starostlivosti v gravidite vr",
+            "props": {
+              "propBody": 320,
+              "idClassid": "vykon",
+              "idEzid": "00000466946@11",
+              "id": 102
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 41,
+        "order": 14,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).",
+            "props": {
+              "propType": "SVaLZ",
+              "propBody": 1200,
+              "idClassid": "vykon",
+              "idEzid": "00000492314@11",
+              "id": 5305
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 39,
+        "order": 15,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[120] Vyšetrenie stredného prúdu moča na bielkoviny a cukor, ako aj mikroskopické vyšetrenie močového sedimentu.",
+            "props": {
+              "propBody": 80,
+              "idClassid": "vykon",
+              "idEzid": "00000467050@11",
+              "id": 120
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 40,
+        "order": 16,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[122] Odobratie krvi zo žily na vykonanie vyšetrení v gravidite.",
+            "props": {
+              "propBody": 60,
+              "idClassid": "vykon",
+              "idEzid": "00000467076@11",
+              "id": 122
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/009"
+}

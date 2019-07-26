@@ -1,0 +1,432 @@
+{
+  "summary": "",
+  "content": "<section data-x-id=\"27\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"_noval FieldHtml\" data-name=\"s\">cíti sa dobre, bolesti nemá, bez výtoku<br></div></section><section data-x-id=\"29\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"_noval FieldHtml\" data-name=\"o\">spek.:normálne pošv. prostredie, sliznice ružové, portio- OE, TZ1. <br>brucho voľné, palp.:čípok sakrálne, formovaný, uzavretý, tuhý, uterus zv.ako g.m. III, okolie bpn. DK bpn. <br></div></section><section data-x-id=\"34\" data-type=\"t\" class=\"\"><aside></aside><div class=\"_noval FieldHtml\" data-name=\"t\">GV:   __   TP:  __ <br>CI:  __      moč:  __   <br></div></section><section data-x-id=\"38\" data-type=\"td\" class=\"\"><aside></aside><label class=\"section-label  \">Trvalá Dg.​:</label><div class=\"_noval FieldSearch hasActions\" data-name=\"id\" data-ignore-visited=\"true\"></div>​<label data-for=\"text\" class=\" _noval\">poznámka​</label><div class=\"_noval Field\" data-name=\"text\"></div>​<label data-for=\"from\" class=\" _noval\">zistené dňa​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"from\"></div>​<label data-for=\"to\" class=\" _noval\">platí do​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"to\"></div>​<label data-for=\"dispenzarizacia\" class=\" _noval\">sledovaný/dispenzarizovaný u mňa​</label><div class=\"_noval FieldBool hasActions\" data-name=\"dispenzarizacia\"></div>​<label data-for=\"lekar\" class=\"_noval hidden\">u lekára​</label><div class=\"_noval FieldSearch hasActions hidden\" data-name=\"lekar\"></div>​<label data-for=\"idch\" class=\"_noval hidden\">kód choroby​</label><div class=\"_noval FieldSearch hasActions hidden\" data-name=\"idch\"></div>​<label data-for=\"ok\" class=\"_noval hidden\">obdobie kontroly​</label><div class=\"_noval FieldList hasActions hidden\" data-name=\"ok\"></div>​<label data-for=\"frekvencia\" class=\"_noval hidden\">nasledujúca kontrola - frekvencia​</label><div class=\"_noval FieldN hidden\" data-name=\"frekvencia\"></div>​<label data-for=\"dlzka\" class=\"_noval hidden\">dĺžka dispenzarizácie(v mesiacoch)​</label><div class=\"_noval FieldN hidden\" data-name=\"dlzka\"></div>​<label data-for=\"zp\" class=\"_noval hidden\">schválené v ZP​</label><div class=\"_noval FieldBool hasActions hidden\" data-name=\"zp\"></div></section><section data-x-id=\"36\" data-type=\"zfp\" class=\"\"><aside></aside><label class=\"section-label  \">Základné fyzikálne parametre​:</label>​<label data-for=\"sys\" class=\" _noval\">tlak sys. (mmHg)​</label><div class=\"_noval FieldN\" data-name=\"sys\"></div>​<label data-for=\"diast\" class=\" _noval\">tlak diast. (mmHg)​</label><div class=\"_noval FieldN\" data-name=\"diast\"></div>​<label data-for=\"pulse\" class=\" _noval\">pulz​</label><div class=\"_noval FieldN\" data-name=\"pulse\"></div>​<label data-for=\"sf\" class=\" _noval\">SF (/min)​</label><div class=\"_noval FieldN minor\" data-name=\"sf\"></div>​<label data-for=\"df\" class=\" _noval\">DF (/min)​</label><div class=\"_noval FieldN minor\" data-name=\"df\"></div><br><label data-for=\"weight\" class=\" _noval\">hmotnosť (kg)​</label><div class=\"_noval FieldN\" data-name=\"weight\"></div>​<label data-for=\"height\" class=\" _noval\">výška (cm)​</label><div class=\"_noval FieldN\" data-name=\"height\"></div>​<label data-for=\"bmi\" class=\" _noval\">BMI​</label><div class=\"_noval FieldR locked\" data-name=\"bmi\"></div>​<label data-for=\"oh\" class=\" _noval\">Obvod pásu (cm)​</label><div class=\"_noval FieldN minor\" data-name=\"oh\"></div>​<label data-for=\"op\" class=\" _noval\">Obvod hlavy (cm)​</label><div class=\"_noval FieldN minor\" data-name=\"op\"></div>​<label data-for=\"o2\" class=\" _noval\">sat. O2 (%)​</label><div class=\"_noval FieldN minor\" data-name=\"o2\"></div>​<label data-for=\"temp\" class=\" _noval\">teplota (°C)​</label><div class=\"_noval FieldR minor\" data-name=\"temp\"></div></section><section data-x-id=\"42\" data-type=\"t\" class=\"\"><aside></aside><div class=\"_noval FieldHtml\" data-name=\"t\">upozornit na sono, urobit ako osobitny vzor upozornit v  tt 10, 20, 30<br></div></section><section data-x-id=\"31\" data-type=\"sonogv\" class=\"\"><aside></aside><label class=\"section-label  \">Tehotenské SONO​:</label>​<label data-for=\"plod\" class=\" _noval\">plod​</label><div class=\"_noval Field\" data-name=\"plod\"></div>​<label data-for=\"akcia\" class=\"\">akcia​</label><div class=\"Field\" data-name=\"akcia\">+</div>​<label data-for=\"pohyby\" class=\"\">pohyby​</label><div class=\"Field\" data-name=\"pohyby\">+</div>​<label data-for=\"CLR\" class=\" _noval\">CLR (v mm)​</label><div class=\"_noval FieldN\" data-name=\"CLR\"></div>​<label data-for=\"BFHR\" class=\" _noval\">BFHR (v min)​</label><div class=\"_noval FieldN\" data-name=\"BFHR\"></div>​<label data-for=\"NT\" class=\" _noval\">NT (v mm)​</label><div class=\"_noval FieldN\" data-name=\"NT\"></div>​<label data-for=\"NB\" class=\"\">NB​</label><div class=\"Field\" data-name=\"NB\">+</div>​<label data-for=\"PPH\" class=\"\">PPH​</label><div class=\"Field\" data-name=\"PPH\">P V</div>​<label data-for=\"PV\" class=\"\">PV​</label><div class=\"Field\" data-name=\"PV\">v norme</div>​<label data-for=\"placenta\" class=\"\">placenta​</label><div class=\"Field\" data-name=\"placenta\">predná stena</div>​<label data-for=\"gr\" class=\" _noval\">gr.​</label><div class=\"_noval Field\" data-name=\"gr\"></div>​<label data-for=\"bp\" class=\"\">biometria plodu​</label><div class=\"Field\" data-name=\"bp\">symetrická</div>​<label data-for=\"gvtt\" class=\" _noval\">odp. GV (tt)​</label><div class=\"_noval FieldN\" data-name=\"gvtt\"></div>​<label data-for=\"gvdt\" class=\" _noval\">+ (dt)​</label><div class=\"_noval FieldN\" data-name=\"gvdt\"></div>​<label data-for=\"ov\" class=\" _noval\">odhad váhy​</label><div class=\"_noval FieldN\" data-name=\"ov\"></div>​<label data-for=\"TP\" class=\" _noval\">TP​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"TP\"></div><br><label data-for=\"zaver\" class=\" _noval\">záver​</label><div class=\"_noval FieldHtml\" data-name=\"zaver\"></div></section><section data-x-id=\"4\" data-type=\"z\" class=\"\"><aside></aside><label class=\"section-label  \">Záver​:</label><div class=\"_noval FieldHtml\" data-name=\"z\">Grav ml. III __ intacta<br></div></section><section data-x-id=\"21\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"_noval FieldHtml\" data-name=\"odp\">kontrola o 30 dní<br></div></section><section data-x-id=\"33\" data-type=\"obj\" class=\"\" data-obj-id=\"cjyisjx5s000e3q7c8t58k1hp\"><aside></aside><label class=\"section-label  \">Objednanie​:</label><div class=\"FieldList hasActions\" data-name=\"type\" data-prop-value=\"O\">Objednanie</div>​<label data-for=\"cal\" class=\"\">kalendár​</label><div class=\"FieldList hasActions\" data-name=\"cal\"></div>​<label data-for=\"time\" class=\" _noval\">termín​</label><div class=\"_noval FieldDateTime hasActions\" placeholder=\"DD.MM.RRRR hh:mm\" data-name=\"time\" data-prop-value=\"2019-08-24T14:48:33.553Z\">24.08.2019 16:48</div>​<label data-for=\"duration\" class=\"\">trvanie​</label><div class=\"FieldN\" data-name=\"duration\">10</div>​<label data-for=\"text\" class=\" _noval\">poznámka​</label><div class=\"_noval Field\" data-name=\"text\"></div>​<label data-for=\"display\" class=\"\">zobrazenie​</label><div class=\"FieldN\" data-name=\"display\">1</div>​<label data-for=\"style\" class=\" _noval\">štýl​</label><div class=\"_noval FieldN\" data-name=\"style\">0</div></section><section data-x-id=\"43\" data-type=\"t\" class=\"\"><aside></aside><div class=\"_noval FieldHtml\" data-name=\"t\">vd nastavit podla td<br></div></section><section data-x-id=\"6\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" title=\"[Z34.0] Dohľad nad normálnou prvou graviditou\" style=\"width: 50ch;\" data-ignore-visited=\"true\" data-id=\"Z34.0\" data-id-ezid=\"02089522839@11\" data-id-classid=\"diagnoza\">[Z34.0] Dohľad nad normálnou prvou graviditou</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"9\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" title=\"[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov\" style=\"width: 50ch;\" data-ignore-visited=\"true\" data-id=\"8\" data-id-ezid=\"00000466557@11\" data-id-classid=\"vykon\" data-prop-body=\"250\">[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"22\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" title=\"[102] Prvé vyšetrenie v rámci predpôrodnej starostlivosti o tehotné s určením termínu pôrodu vrátane zisťovania anamnézy a vystavenia materského preukazu, ako aj rád tehotnej o starostlivosti v gravidite vr\" style=\"width: 50ch;\" data-ignore-visited=\"true\" data-id=\"102\" data-id-ezid=\"00000466946@11\" data-id-classid=\"vykon\" data-prop-body=\"320\">[102] Prvé vyšetrenie v rámci predpôrodnej starostlivosti o tehotné s určením termínu pôrodu vrátane zisťovania anamnézy a vystavenia materského preukazu, ako aj rád tehotnej o starostlivosti v gravidite vr</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"41\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"5305\" data-id-ezid=\"00000492314@11\" data-id-classid=\"vykon\" data-prop-body=\"1200\" data-prop-type=\"SVaLZ\" title=\"[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).\" style=\"width: 50ch;\">[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"39\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"120\" data-id-ezid=\"00000467050@11\" data-id-classid=\"vykon\" data-prop-body=\"80\" title=\"[120] Vyšetrenie stredného prúdu moča na bielkoviny a cukor, ako aj mikroskopické vyšetrenie močového sedimentu.\" style=\"width: 50ch;\">[120] Vyšetrenie stredného prúdu moča na bielkoviny a cukor, ako aj mikroskopické vyšetrenie močového sedimentu.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"40\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"122\" data-id-ezid=\"00000467076@11\" data-id-classid=\"vykon\" data-prop-body=\"60\" title=\"[122] Odobratie krvi zo žily na vykonanie vyšetrení v gravidite.\" style=\"width: 50ch;\">[122] Odobratie krvi zo žily na vykonanie vyšetrení v gravidite.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
+  "title": "Tehotenská  poradňa II",
+  "shortcut": "tp2",
+  "if": "",
+  "data": {
+    "_": {},
+    "s": [
+      {
+        "id": 27,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "dobre, pohyby cíti, bolesti nemá, bez výtoku<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 29,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "spek.:normálne pošv. prostredie, sliznice livídne,portio- OE, TZ1.<br>brucho voľné,palp.:čípok sakrálne,formovaný, uzavretý, tuhý,uterus zv.ako g.m. V /VI,VII, okolie bpn. DK bpn. <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 34,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "GV:   __    TP:  __ <br>CI:  __      moč:  __   <br>hm:  __     OP:+<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 42,
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "upozornit na sono, urobit ako osobitny vzor upozornit v  tt 10, 20, 30<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 43,
+        "order": 9,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "vd nastavit podla td<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "zfp": [
+      {
+        "id": 36,
+        "order": 3,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "oh": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "",
+            "props": {}
+          },
+          "temp": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "sonogv": [
+      {
+        "id": 31,
+        "order": 5,
+        "props": {
+          "type": "sonogv"
+        },
+        "value": {
+          "plod": {
+            "value": "",
+            "props": {}
+          },
+          "akcia": {
+            "value": "+",
+            "props": {}
+          },
+          "pohyby": {
+            "value": "+",
+            "props": {}
+          },
+          "CLR": {
+            "value": "",
+            "props": {}
+          },
+          "BFHR": {
+            "value": "",
+            "props": {}
+          },
+          "NT": {
+            "value": "",
+            "props": {}
+          },
+          "NB": {
+            "value": "+",
+            "props": {}
+          },
+          "PPH": {
+            "value": "P V",
+            "props": {}
+          },
+          "PV": {
+            "value": "v norme",
+            "props": {}
+          },
+          "placenta": {
+            "value": "predná stena",
+            "props": {}
+          },
+          "gr": {
+            "value": "",
+            "props": {}
+          },
+          "bp": {
+            "value": "symetrická",
+            "props": {}
+          },
+          "gvtt": {
+            "value": "",
+            "props": {}
+          },
+          "gvdt": {
+            "value": "",
+            "props": {}
+          },
+          "ov": {
+            "value": "",
+            "props": {}
+          },
+          "TP": {
+            "value": "",
+            "props": {}
+          },
+          "zaver": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 4,
+        "order": 6,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "Grav ml. III __ intacta<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 21,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "kontrola o 30 dní<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "obj": [
+      {
+        "id": 33,
+        "order": 8,
+        "props": {
+          "type": "obj",
+          "objId": "cjyisjx5s000e3q7c8t58k1hp"
+        },
+        "value": {
+          "type": {
+            "value": "Objednanie",
+            "props": {
+              "propValue": "O"
+            }
+          },
+          "cal": {
+            "value": "",
+            "props": {}
+          },
+          "time": {
+            "value": "23.08.2019 07:48",
+            "props": {
+              "propValue": "2019-08-23T05:48:59.632Z"
+            }
+          },
+          "duration": {
+            "value": "10",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          },
+          "display": {
+            "value": "1",
+            "props": {}
+          },
+          "style": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 6,
+        "order": 10,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z34.0] Dohľad nad normálnou prvou graviditou",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089522839@11",
+              "id": "Z34.0"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 9,
+        "order": 11,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov",
+            "props": {
+              "propBody": 250,
+              "idClassid": "vykon",
+              "idEzid": "00000466557@11",
+              "id": 8
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 22,
+        "order": 12,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[102] Prvé vyšetrenie v rámci predpôrodnej starostlivosti o tehotné s určením termínu pôrodu vrátane zisťovania anamnézy a vystavenia materského preukazu, ako aj rád tehotnej o starostlivosti v gravidite vr",
+            "props": {
+              "propBody": 320,
+              "idClassid": "vykon",
+              "idEzid": "00000466946@11",
+              "id": 102
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 41,
+        "order": 13,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).",
+            "props": {
+              "propType": "SVaLZ",
+              "propBody": 1200,
+              "idClassid": "vykon",
+              "idEzid": "00000492314@11",
+              "id": 5305
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 39,
+        "order": 14,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[120] Vyšetrenie stredného prúdu moča na bielkoviny a cukor, ako aj mikroskopické vyšetrenie močového sedimentu.",
+            "props": {
+              "propBody": 80,
+              "idClassid": "vykon",
+              "idEzid": "00000467050@11",
+              "id": 120
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 40,
+        "order": 15,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[122] Odobratie krvi zo žily na vykonanie vyšetrení v gravidite.",
+            "props": {
+              "propBody": 60,
+              "idClassid": "vykon",
+              "idEzid": "00000467076@11",
+              "id": 122
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/009"
+}

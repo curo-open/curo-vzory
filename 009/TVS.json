@@ -1,0 +1,126 @@
+{
+  "title": "TVS",
+  "shortcut": "tvs",
+  "summary": "",
+  "if": "",
+  "data": {
+    "_": {},
+    "pv": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "TVS",
+            "props": {
+              "propValue": "TVS"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "Uterus v AVF normálnej veľkosti, bez štrukturálnych zmien, endometrium v proliferačnej fáze, ováriá obojstranne normálnej veľkosti, vzhľadu a uloženia.Patologickú štruktúru v malej panve nediferencujem. CD bez voľnej tekutiny.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "Nález na vnútorných rodidlách bez sonopatologie.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[D25.0] Submukózny leiomyóm maternice",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089373662@11",
+              "id": "D25.0"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 8,
+        "order": 3,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@11",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 9,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).",
+            "props": {
+              "propType": "SVaLZ",
+              "propBody": 1200,
+              "idClassid": "vykon",
+              "idEzid": "00000492314@11",
+              "id": 5305
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/009"
+}
