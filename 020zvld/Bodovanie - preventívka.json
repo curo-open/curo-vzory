@@ -54,7 +54,7 @@
       },
       {
         "id": 3,
-        "order": 20,
+        "order": 21,
         "props": {
           "type": "premenna"
         },
@@ -137,7 +137,7 @@
       },
       {
         "id": 47,
-        "order": 8,
+        "order": 9,
         "props": {
           "type": "t"
         },
@@ -150,7 +150,7 @@
       },
       {
         "id": 48,
-        "order": 9,
+        "order": 10,
         "props": {
           "type": "t"
         },
@@ -163,7 +163,7 @@
       },
       {
         "id": 52,
-        "order": 12,
+        "order": 13,
         "props": {
           "type": "t"
         },
@@ -176,7 +176,7 @@
       },
       {
         "id": 53,
-        "order": 13,
+        "order": 14,
         "props": {
           "type": "t"
         },
@@ -189,7 +189,7 @@
       },
       {
         "id": 56,
-        "order": 15,
+        "order": 16,
         "props": {
           "type": "t"
         },
@@ -202,7 +202,7 @@
       },
       {
         "id": 57,
-        "order": 16,
+        "order": 17,
         "props": {
           "type": "t"
         },
@@ -215,7 +215,7 @@
       },
       {
         "id": 59,
-        "order": 18,
+        "order": 19,
         "props": {
           "type": "t"
         },
@@ -228,7 +228,7 @@
       },
       {
         "id": 2,
-        "order": 19,
+        "order": 20,
         "props": {
           "type": "t"
         },
@@ -241,7 +241,7 @@
       },
       {
         "id": 7,
-        "order": 23,
+        "order": 24,
         "props": {
           "type": "t"
         },
@@ -254,7 +254,7 @@
       },
       {
         "id": 8,
-        "order": 24,
+        "order": 25,
         "props": {
           "type": "t"
         },
@@ -267,7 +267,7 @@
       },
       {
         "id": 11,
-        "order": 27,
+        "order": 28,
         "props": {
           "type": "t"
         },
@@ -280,7 +280,7 @@
       },
       {
         "id": 12,
-        "order": 28,
+        "order": 29,
         "props": {
           "type": "t"
         },
@@ -293,7 +293,7 @@
       },
       {
         "id": 15,
-        "order": 30,
+        "order": 31,
         "props": {
           "type": "t"
         },
@@ -306,7 +306,7 @@
       },
       {
         "id": 16,
-        "order": 31,
+        "order": 32,
         "props": {
           "type": "t"
         },
@@ -319,7 +319,7 @@
       },
       {
         "id": 21,
-        "order": 35,
+        "order": 36,
         "props": {
           "type": "t"
         },
@@ -332,7 +332,7 @@
       },
       {
         "id": 22,
-        "order": 36,
+        "order": 37,
         "props": {
           "type": "t"
         },
@@ -345,7 +345,7 @@
       },
       {
         "id": 25,
-        "order": 39,
+        "order": 40,
         "props": {
           "type": "t"
         },
@@ -357,20 +357,20 @@
         }
       },
       {
-        "id": 26,
-        "order": 40,
+        "id": 62,
+        "order": 41,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? var.fob=='ON' &amp;&amp; zp == 27 &amp;&amp; vek &gt;= 40}}<br>",
+            "value": "{{ ? zp == 27 &amp;&amp; vek &gt;= 50}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 29,
+        "id": 65,
         "order": 43,
         "props": {
           "type": "t"
@@ -383,8 +383,34 @@
         }
       },
       {
-        "id": 30,
+        "id": 26,
         "order": 44,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? var.fob=='ON' &amp;&amp; zp == 27 &amp;&amp; vek &gt;= 40}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 29,
+        "order": 47,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 30,
+        "order": 48,
         "props": {
           "type": "t"
         },
@@ -397,7 +423,7 @@
       },
       {
         "id": 35,
-        "order": 48,
+        "order": 52,
         "props": {
           "type": "t"
         },
@@ -456,8 +482,30 @@
         }
       },
       {
+        "id": 60,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[159b] Preventívne vyšetrenie celkového cholesterolu v 11. a 17. roku života a celkového cholesterolu a triacylglycerolov v 40. roku života. Okrem odberu sa vykazuje cielená anamnéza, posúdenie genetickej záťaže, posúdenie laboratórnych výsledkov, v prípade",
+            "props": {
+              "propBody": 100,
+              "id": "159b",
+              "idEzid": "00000467365@11",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 50,
-        "order": 10,
+        "order": 11,
         "props": {
           "type": "vv"
         },
@@ -479,7 +527,7 @@
       },
       {
         "id": 55,
-        "order": 14,
+        "order": 15,
         "props": {
           "type": "vv"
         },
@@ -501,7 +549,7 @@
       },
       {
         "id": 58,
-        "order": 17,
+        "order": 18,
         "props": {
           "type": "vv"
         },
@@ -523,7 +571,7 @@
       },
       {
         "id": 5,
-        "order": 21,
+        "order": 22,
         "props": {
           "type": "vv"
         },
@@ -545,7 +593,7 @@
       },
       {
         "id": 9,
-        "order": 25,
+        "order": 26,
         "props": {
           "type": "vv"
         },
@@ -567,7 +615,7 @@
       },
       {
         "id": 14,
-        "order": 29,
+        "order": 30,
         "props": {
           "type": "vv"
         },
@@ -589,7 +637,7 @@
       },
       {
         "id": 18,
-        "order": 32,
+        "order": 33,
         "props": {
           "type": "vv"
         },
@@ -611,7 +659,7 @@
       },
       {
         "id": 19,
-        "order": 33,
+        "order": 34,
         "props": {
           "type": "vv"
         },
@@ -634,7 +682,7 @@
       },
       {
         "id": 20,
-        "order": 34,
+        "order": 35,
         "props": {
           "type": "vv"
         },
@@ -656,7 +704,7 @@
       },
       {
         "id": 23,
-        "order": 37,
+        "order": 38,
         "props": {
           "type": "vv"
         },
@@ -679,7 +727,7 @@
       },
       {
         "id": 24,
-        "order": 38,
+        "order": 39,
         "props": {
           "type": "vv"
         },
@@ -700,8 +748,30 @@
         }
       },
       {
+        "id": 63,
+        "order": 42,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[163] Vyšetrenie a včasné rozpoznanie hroziacej straty sebestačnosti u starých ľudí.",
+            "props": {
+              "propBody": 200,
+              "id": 163,
+              "idEzid": "00000467464@11",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 27,
-        "order": 41,
+        "order": 45,
         "props": {
           "type": "vv"
         },
@@ -723,7 +793,7 @@
       },
       {
         "id": 32,
-        "order": 45,
+        "order": 49,
         "props": {
           "type": "vv"
         },
@@ -745,7 +815,7 @@
       },
       {
         "id": 33,
-        "order": 46,
+        "order": 50,
         "props": {
           "type": "vv"
         },
@@ -768,7 +838,7 @@
       },
       {
         "id": 34,
-        "order": 47,
+        "order": 51,
         "props": {
           "type": "vv"
         },
@@ -793,7 +863,7 @@
     "p": [
       {
         "id": 51,
-        "order": 11,
+        "order": 12,
         "props": {
           "type": "p"
         },
@@ -822,7 +892,7 @@
       },
       {
         "id": 10,
-        "order": 26,
+        "order": 27,
         "props": {
           "type": "p"
         },
@@ -851,7 +921,7 @@
       },
       {
         "id": 28,
-        "order": 42,
+        "order": 46,
         "props": {
           "type": "p"
         },
@@ -882,7 +952,7 @@
     "h-score": [
       {
         "id": 6,
-        "order": 22,
+        "order": 23,
         "props": {
           "type": "h-score"
         },
