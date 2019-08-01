@@ -82,6 +82,32 @@
             "props": {}
           }
         }
+      },
+      {
+        "id": 19,
+        "order": 16,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp==27 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 23,
+        "order": 20,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
       }
     ],
     "vd": [
@@ -140,6 +166,27 @@
               "id": "E78.9",
               "idEzid": "02089382192@11",
               "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 20,
+        "order": 17,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089382192@11",
+              "id": "E78.9"
             }
           },
           "text": {
@@ -254,6 +301,51 @@
               "idClassid": "vykon",
               "idEzid": "00000494187@11",
               "id": 5702
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 21,
+        "order": 18,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
+            "props": {
+              "propBody": 180,
+              "id": 10,
+              "idEzid": "00000466565@11",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 22,
+        "order": 19,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
+            "props": {
+              "propBody": 550,
+              "propType": "SVaLZ",
+              "id": 5702,
+              "idEzid": "00000494187@11",
+              "idClassid": "vykon"
             }
           },
           "count": {
