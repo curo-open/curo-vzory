@@ -14,7 +14,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? zp == 27 }}<br>",
+            "value": "{{ ? zp == 25 }}<br>",
             "props": {}
           }
         }
@@ -48,18 +48,18 @@
     ],
     "vd": [
       {
-        "id": 9,
+        "id": 11,
         "order": 1,
         "props": {
           "type": "vd"
         },
         "value": {
           "id": {
-            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
+            "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
             "props": {
-              "id": "Z00.0",
-              "idEzid": "02089520809",
-              "idClassid": "diagnoza"
+              "idClassid": "diagnoza",
+              "idEzid": "02089521690@9",
+              "id": "Z12.1"
             }
           },
           "text": {
@@ -69,18 +69,18 @@
         }
       },
       {
-        "id": 11,
+        "id": 9,
         "order": 3,
         "props": {
           "type": "vd"
         },
         "value": {
           "id": {
-            "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
+            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "id": "Z12.1",
-              "idEzid": "02089521690@9",
-              "idClassid": "diagnoza"
+              "idClassid": "diagnoza",
+              "idEzid": "02089520809",
+              "id": "Z00.0"
             }
           },
           "text": {
@@ -101,9 +101,9 @@
           "id": {
             "value": "[00020036711] Stolica - okultné krvácanie",
             "props": {
-              "idClassid": "labvys",
+              "id": "00020036711",
               "idEzid": "00020036711",
-              "id": "00020036711"
+              "idClassid": "labvys"
             }
           },
           "value": {
@@ -115,9 +115,9 @@
             "props": {}
           },
           "date": {
-            "value": "14.03.2019",
+            "value": "02.09.2019",
             "props": {
-              "propValue": "2019-03-14T14:30:26.411Z",
+              "propValue": "2019-09-02T11:47:00.888Z",
               "expr": "=teraz"
             }
           },
@@ -140,9 +140,9 @@
             "value": "[159z] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonu pod kódom 160. Výkon môže vykazovať lekár všeobecnej starostlivosti vtedy, ak ho sám uskut",
             "props": {
               "propBody": 180,
-              "id": "159z",
+              "idClassid": "vykon",
               "idEzid": "02089731844@7",
-              "idClassid": "vykon"
+              "id": "159z"
             }
           },
           "count": {

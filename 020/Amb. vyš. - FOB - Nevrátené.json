@@ -14,7 +14,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? zp == 27 }}<br>",
+            "value": "{{ ? zp == 25 }}<br>",
             "props": {}
           }
         }
@@ -48,18 +48,18 @@
     ],
     "vd": [
       {
-        "id": 7,
+        "id": 9,
         "order": 1,
         "props": {
           "type": "vd"
         },
         "value": {
           "id": {
-            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
+            "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
             "props": {
-              "idClassid": "diagnoza",
-              "idEzid": "02089520809@9",
-              "id": "Z00.0"
+              "id": "Z12.1",
+              "idEzid": "02089521690@9",
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -69,18 +69,18 @@
         }
       },
       {
-        "id": 9,
+        "id": 7,
         "order": 3,
         "props": {
           "type": "vd"
         },
         "value": {
           "id": {
-            "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
+            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "idClassid": "diagnoza",
-              "idEzid": "02089521690@9",
-              "id": "Z12.1"
+              "id": "Z00.0",
+              "idEzid": "02089520809@9",
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -102,9 +102,9 @@
             "value": "[159x] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonu pod kódom 160. Výkon môže vykazovať lekár všeobecnej starostlivosti vtedy, ak poistenca po",
             "props": {
               "propBody": 180,
-              "idClassid": "vykon",
+              "id": "159x",
               "idEzid": "02089731851@8",
-              "id": "159x"
+              "idClassid": "vykon"
             }
           },
           "count": {

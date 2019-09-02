@@ -16,7 +16,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? zp == 27 }}<br>",
+            "value": "{{ ? zp == 25 }}<br>",
             "props": {}
           }
         }
@@ -50,18 +50,18 @@
     ],
     "vd": [
       {
-        "id": 2,
+        "id": 13,
         "order": 1,
         "props": {
           "type": "vd"
         },
         "value": {
           "id": {
-            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
+            "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
             "props": {
-              "id": "Z00.0",
-              "idEzid": "02089520809",
-              "idClassid": "diagnoza"
+              "idClassid": "diagnoza",
+              "idEzid": "02089521690@9",
+              "id": "Z12.1"
             }
           },
           "text": {
@@ -71,18 +71,18 @@
         }
       },
       {
-        "id": 13,
+        "id": 2,
         "order": 3,
         "props": {
           "type": "vd"
         },
         "value": {
           "id": {
-            "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
+            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "id": "Z12.1",
-              "idEzid": "02089521690@9",
-              "idClassid": "diagnoza"
+              "idClassid": "diagnoza",
+              "idEzid": "02089520809",
+              "id": "Z00.0"
             }
           },
           "text": {
@@ -98,16 +98,16 @@
         "order": 5,
         "props": {
           "type": "lv",
-          "priority": 20,
-          "comment": "Pozitivny nalez"
+          "comment": "Pozitivny nalez",
+          "priority": 20
         },
         "value": {
           "id": {
             "value": "[00020036711] Stolica - okultné krvácanie",
             "props": {
-              "id": "00020036711",
+              "idClassid": "labvys",
               "idEzid": "00020036711",
-              "idClassid": "labvys"
+              "id": "00020036711"
             }
           },
           "value": {
@@ -119,14 +119,14 @@
             "props": {}
           },
           "date": {
-            "value": "09.11.2018",
+            "value": "02.09.2019",
             "props": {
-              "propValue": "2018-11-09T11:25:52.641Z",
+              "propValue": "2019-09-02T11:48:11.030Z",
               "expr": "=teraz"
             }
           },
           "comment": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -176,17 +176,17 @@
           "odbor": {
             "value": "[048] gastroenterológia",
             "props": {
-              "idClassid": "zameranie",
+              "id": "048",
               "idEzid": "00000351718@5",
-              "id": "048"
+              "idClassid": "zameranie"
             }
           },
           "druh": {
             "value": "[2] ambulancia",
             "props": {
-              "idClassid": "cinnost",
+              "id": 2,
               "idEzid": "00000000273@3",
-              "id": 2
+              "idClassid": "cinnost"
             }
           },
           "presne": {
@@ -214,9 +214,9 @@
             "value": "[159a] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonu pod kódom 160. Výkon môže vykazovať lekár všeobecnej starostlivosti vtedy, ak ho sám uskut",
             "props": {
               "propBody": 180,
-              "idClassid": "vykon",
+              "id": "159a",
               "idEzid": "00000467357@7",
-              "id": "159a"
+              "idClassid": "vykon"
             }
           },
           "count": {
