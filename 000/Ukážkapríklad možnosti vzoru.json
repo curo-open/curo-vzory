@@ -1319,85 +1319,85 @@
         }
       },
       {
-        "id": 45,
+        "id": 177,
         "order": 104,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "<b>Trasformacie dat </b><br>",
+            "value": "<b>Pouzi specificku hodnotu z poslednykrat pouzitej sekcie</b><br>",
             "props": {}
           }
         }
       },
       {
-        "id": 84,
+        "id": 180,
         "order": 105,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "vysledkok sa trasformuje na text(nevlozi sa sekcia ale text) - |trans(\"text\")<br>",
+            "value": "{{ sessions|getSections(\"od\")|where(\"s.value.reason.props.propValue=='O'\")|where(\"i==0\")[0].s.value.reason.value}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 79,
+        "id": 189,
         "order": 106,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "vrateny vysledok sa prevedie na cislo(kolko bolo najdenych vysledkov) - |trans(\"length\")<br>",
+            "value": "{{ sessions|getSections(\"od\")|where(\"s.value.reason.props.propValue=='O'\")|where(\"i==0\")|trans('join', 't')}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 80,
+        "id": 179,
         "order": 107,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "mozni specifikovat zaciatok textu podla ktoreho hladat(filtrovat) - |trans(\"startsWith\", \"I10\")<br>",
+            "value": "{{ sessions|getSections(\"vd\")|where(\"i==0\")[0].s.value.id.value}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 81,
+        "id": 183,
         "order": 108,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "triedi položky - |sort('sekciaDatum', 'asc')<br>",
+            "value": "{{ sessions|getSections(\"vd\")|where(\"i==0\")[0].s.value.id.props.id}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 82,
+        "id": 185,
         "order": 109,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "",
+            "value": "alternativa ked sa pouzije specialne traformacie pre sekcie s [kod] text {{sessions|getSections('vd')|where(\"i==0\")|trans('join', 't')}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 83,
+        "id": 186,
         "order": 110,
         "props": {
           "type": "t"
@@ -1410,8 +1410,112 @@
         }
       },
       {
-        "id": 49,
+        "id": 184,
         "order": 111,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 45,
+        "order": 112,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Trasformacie dat </b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 84,
+        "order": 113,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "vysledkok sa trasformuje na text(nevlozi sa sekcia ale text) - |trans(\"text\")<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 79,
+        "order": 114,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "vrateny vysledok sa prevedie na cislo(kolko bolo najdenych vysledkov) - |trans(\"length\")<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 80,
+        "order": 115,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "mozni specifikovat zaciatok textu podla ktoreho hladat(filtrovat) - |trans(\"startsWith\", \"I10\")<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 81,
+        "order": 116,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "triedi položky - |sort('sekciaDatum', 'asc')<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 82,
+        "order": 117,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 83,
+        "order": 118,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 49,
+        "order": 119,
         "props": {
           "type": "t"
         },
@@ -1424,7 +1528,7 @@
       },
       {
         "id": 50,
-        "order": 112,
+        "order": 120,
         "props": {
           "type": "t"
         },
@@ -1437,7 +1541,7 @@
       },
       {
         "id": 51,
-        "order": 113,
+        "order": 121,
         "props": {
           "type": "t"
         },
@@ -1450,7 +1554,7 @@
       },
       {
         "id": 52,
-        "order": 114,
+        "order": 122,
         "props": {
           "type": "t"
         },
@@ -1463,7 +1567,7 @@
       },
       {
         "id": 88,
-        "order": 115,
+        "order": 123,
         "props": {
           "type": "t"
         },
@@ -1476,7 +1580,7 @@
       },
       {
         "id": 89,
-        "order": 116,
+        "order": 124,
         "props": {
           "type": "t"
         },
@@ -1489,7 +1593,7 @@
       },
       {
         "id": 90,
-        "order": 117,
+        "order": 125,
         "props": {
           "type": "t"
         },
@@ -1502,7 +1606,7 @@
       },
       {
         "id": 91,
-        "order": 118,
+        "order": 126,
         "props": {
           "type": "t"
         },
@@ -1515,7 +1619,7 @@
       },
       {
         "id": 92,
-        "order": 119,
+        "order": 127,
         "props": {
           "type": "t"
         },
@@ -1528,7 +1632,7 @@
       },
       {
         "id": 102,
-        "order": 120,
+        "order": 128,
         "props": {
           "type": "t"
         },
@@ -1541,7 +1645,7 @@
       },
       {
         "id": 126,
-        "order": 121,
+        "order": 129,
         "props": {
           "type": "t"
         },
@@ -1554,7 +1658,7 @@
       },
       {
         "id": 127,
-        "order": 122,
+        "order": 130,
         "props": {
           "type": "t"
         },
@@ -1567,7 +1671,7 @@
       },
       {
         "id": 128,
-        "order": 123,
+        "order": 131,
         "props": {
           "type": "t"
         },
@@ -1580,7 +1684,7 @@
       },
       {
         "id": 103,
-        "order": 124,
+        "order": 132,
         "props": {
           "type": "t"
         },
@@ -1593,7 +1697,7 @@
       },
       {
         "id": 104,
-        "order": 125,
+        "order": 133,
         "props": {
           "type": "t"
         },
@@ -1606,7 +1710,7 @@
       },
       {
         "id": 106,
-        "order": 126,
+        "order": 134,
         "props": {
           "type": "t"
         },
@@ -1619,7 +1723,7 @@
       },
       {
         "id": 122,
-        "order": 128,
+        "order": 136,
         "props": {
           "type": "t"
         },
@@ -1632,7 +1736,7 @@
       },
       {
         "id": 147,
-        "order": 129,
+        "order": 137,
         "props": {
           "type": "t"
         },
@@ -1645,7 +1749,7 @@
       },
       {
         "id": 148,
-        "order": 130,
+        "order": 138,
         "props": {
           "type": "t"
         },
@@ -1658,7 +1762,7 @@
       },
       {
         "id": 149,
-        "order": 131,
+        "order": 139,
         "props": {
           "type": "t"
         },
@@ -1671,7 +1775,7 @@
       },
       {
         "id": 150,
-        "order": 132,
+        "order": 140,
         "props": {
           "type": "t"
         },
@@ -1684,7 +1788,7 @@
       },
       {
         "id": 151,
-        "order": 133,
+        "order": 141,
         "props": {
           "type": "t"
         },
@@ -1697,7 +1801,7 @@
       },
       {
         "id": 152,
-        "order": 134,
+        "order": 142,
         "props": {
           "type": "t"
         },
@@ -1710,7 +1814,7 @@
       },
       {
         "id": 153,
-        "order": 135,
+        "order": 143,
         "props": {
           "type": "t"
         },
@@ -1723,7 +1827,7 @@
       },
       {
         "id": 154,
-        "order": 136,
+        "order": 144,
         "props": {
           "type": "t"
         },
@@ -1811,7 +1915,7 @@
     "vv": [
       {
         "id": 125,
-        "order": 127,
+        "order": 135,
         "props": {
           "type": "vv"
         },
@@ -1836,5 +1940,5 @@
   "tags": [],
   "vars": {},
   "summary": "",
-  "source": "curo-open/curo-vzory#/000"
+  "source": "curo-open/curo-vzory#/020"
 }
