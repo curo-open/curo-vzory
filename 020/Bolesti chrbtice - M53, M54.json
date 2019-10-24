@@ -1,0 +1,293 @@
+{
+  "title": "Bolesti chrbtice - M53, M54",
+  "shortcut": "m5x",
+  "if": "",
+  "data": {
+    "_": {},
+    "s": [
+      {
+        "id": 5,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bolesti chrbtice v oblasti:     s močením ťažkosti neudáva<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 6,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "<b>klin. C chrbtica:</b> pohyblivost' vo vsetkych rovinach redukovaná, bolestivá, tuhšie<br>PVS .palp.bolestivé, proc.spin. C/TH palp. bolestivé, krajné polohy C chrbtice provokujú pocit<br>vertiga. Koxy bilat. obmedzená a bolestivá pohyblivost' hlavne v rotáciách ,<br>Ľ a P rameno: obmedzené rotácie a elevácie, palp. bolest'v SA priestore, bez známok inflamácie a svalovej hypotrofie.<br>V  oblasti L-S - palpačná citlivosť na PS, spazmus PVS, Lassegue -, Thomayer-, Tapott bilat negat<br><br><b>obj. L chrbtica: </b>Predklon,inklinácie a rotácie lumbálnej chrbtice sú obmedzené.Tapott bilat negat,  dynamika redukovana, bolestiva, hypertonus pvs, palp. bolesti proc. spin. dis. L, tuhsie PVS, palp. botestlve, Tomayer +30cm, Lassegue bilat. pri dot'ahovanf pozit.retroflexia a inklinácie. Koxy bilat. pohyblivost' viazne v krajnych polohách, mierna palp. citlivosť na art. cox.<br><br><b>ostatný nález: </b>Pacient pri vedomí , orientovaný časovo i miestne , na otázky odpovedá adekvátne , bez latencie, bez lateralizácie, Hlava, krk BPN. Pharynx BPN. Pulmo:dýchanie vezikulárne, COR AS pravidelná, ozvy ohraničené, DK opuchy neprítomné,  Abdomen priehmatné BPN <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 7,
+        "order": 2,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "PN nechce , 1 x P,<br>Kľud na lôžku,následne telesné šetrenie,zákaz dvíhania bremien a obmedzenie stoja v predklone(šetriaci režim vertebropata), tekutiny, p.p. Revitanerv trong1x1 alebo  Milgamma 3x1.+ odp. liečbu. (Rp.).<br>Kontrola   podľa potreby,príp.po spotrebovaní liekov  ,  a/alebo s výsledkami odb.vyšetrení,<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 9,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M54.00] Panikulitída krku a chrbta na viacerých miestach",
+            "props": {
+              "id": "M54.00",
+              "idEzid": "02089437004@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 13,
+        "order": 4,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[15886] VERAL 50 mg | tbl ent 20x50 mg (blis.PVC/Al)",
+            "props": {
+              "propDpl": 1.08,
+              "propSpUhr": "S",
+              "propGp": 1,
+              "propUzp_1zvj": 0.062,
+              "propVnl": "R",
+              "propCena": 1.7,
+              "propSdl": 10,
+              "propAtcName": "Diklofenak",
+              "propOl": 0,
+              "id": 15886,
+              "idUl": "",
+              "idAtc": "M01AB05",
+              "idSp": "ora",
+              "idF": "TBL ENT",
+              "idEzid": "00020446514",
+              "idClassid": "liek"
+            }
+          },
+          "schedule": {
+            "value": "1-0-1-0, denne",
+            "props": {
+              "propType": "PEV1",
+              "propParts_morning": 1,
+              "propParts_noon": 0,
+              "propParts_evening": 1,
+              "propParts_sleepTime": 0,
+              "propPeriod_code": "D",
+              "propPeriod_t": "denne",
+              "propWay_code": ""
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "payoff": {
+            "value": "1,08",
+            "props": {
+              "propValue": 1.08
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 14,
+        "order": 5,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[85656] Dorsiflex 200 mg | tbl 30x200 mg (blis.Al/PVC)",
+            "props": {
+              "propDpl": 2.79,
+              "propSpUhr": "S",
+              "propGp": 1,
+              "propUzp_1zvj": 0.315,
+              "propVnl": "R",
+              "propCena": 4.37,
+              "propSdl": 5,
+              "propAtcName": "Mefenoxalón",
+              "propOl": 0,
+              "id": 85656,
+              "idUl": "mephenoxalonum",
+              "idAtc": "N05BX01",
+              "idSp": "ora",
+              "idF": "TBL",
+              "idEzid": "00020240420",
+              "idClassid": "liek"
+            }
+          },
+          "schedule": {
+            "value": "1-0-1-0, denne",
+            "props": {
+              "propType": "PEV1",
+              "propParts_morning": 1,
+              "propParts_noon": 0,
+              "propParts_evening": 1,
+              "propParts_sleepTime": 0,
+              "propPeriod_code": "D",
+              "propPeriod_t": "denne",
+              "propWay_code": ""
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "payoff": {
+            "value": "2,79",
+            "props": {
+              "propValue": 2.79
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 11,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[4] Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani",
+            "props": {
+              "propBody": 200,
+              "id": 4,
+              "idEzid": "00000466524@12",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "summary": "Bolesti chrbtice - M53, M54",
+  "type": "examination",
+  "source": "curo-open/curo-vzory#/020"
+}

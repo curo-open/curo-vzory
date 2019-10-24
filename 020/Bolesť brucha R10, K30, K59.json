@@ -1,0 +1,299 @@
+{
+  "title": "Bolesť brucha R10, K30, K59",
+  "shortcut": "r10",
+  "if": "",
+  "data": {
+    "_": {},
+    "s": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "Bolesti brucha, kŕče, hnačky, vetry, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "Brucho  je niveau hrudníka, priehmatné, bez hmatnej  rezistencie , palpačná citlivosť v epigastriu pod rebrovým oblúkom vpr-ľavo a laterálne, brušná stena bez peritoneálneho dráždenia. Peristaltika  počuteľná<br>ostatný nález: Pacient pri vedomí , orientovaný časovo i miestne , na otázky odpovedá adekvátne , bez latencie, bez lateralizácie, Hlava, krk BPN. Pharynx BPN. Pulmo:dýchanie vezikulárne, COR AS pravidelná, ozvy ohraničené, DK opuchy neprítomné,  Abdomen priehmatné BPN,  <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "aa": [
+      {
+        "id": 7,
+        "order": 2,
+        "props": {
+          "type": "aa"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 9,
+        "order": 3,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "Dieta D2,  Pri pretrvávaní ťažkostí - zajtra na výter,<br>Dodržiavanie prísneho dietetického režimu, Endiex 3x1,  Imodium 1x1 užiť len po hnačke, po skľudnení Hylak 3x50gtt, <br>dostatočný príjem tekutín a dietetického režimu podľa dohovoru (+Rp.)  Pri zhoršení kontrola na APS (alebo CP cestou RZP ) U nás p.p., alebo po doužívaní liekov, príp odb.vyšetrení s výsledkom. <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 10,
+        "order": 4,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[R10.4] Iná a bližšie neurčená bolesť brucha",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089478636@12",
+              "id": "R10.4"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 12,
+        "order": 5,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[37462] ENDIEX | cps dur 28x200 mg (blister PVC/Al)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Nifuroxazid",
+              "propVnl": "F",
+              "propGp": 0,
+              "propDpl": 4.98,
+              "idClassid": "liek",
+              "idEzid": "00020871539",
+              "idF": "CPS DUR",
+              "idSp": "ora",
+              "idAtc": "A07AX03",
+              "idUl": "nifuroxazidum",
+              "id": 37462
+            }
+          },
+          "schedule": {
+            "value": "2-2-2-0, denne",
+            "props": {
+              "propWay_code": "",
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propParts_sleepTime": 0,
+              "propParts_evening": 2,
+              "propParts_noon": 2,
+              "propParts_morning": 2,
+              "propType": "PEV1"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "payoff": {
+            "value": "4,98",
+            "props": {
+              "propValue": 4.98
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 13,
+        "order": 6,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[28256] Imodium | cps dur 20x2 mg (blis.PVC/Al)",
+            "props": {
+              "propGp": 0,
+              "propVnl": "F",
+              "propAtcName": "Loperamid",
+              "propOl": 0,
+              "id": 28256,
+              "idUl": "",
+              "idAtc": "A07DA03",
+              "idSp": "ora",
+              "idF": "CPS DUR",
+              "idEzid": "00020618021",
+              "idClassid": "liek"
+            }
+          },
+          "schedule": {
+            "value": "1-0-0-0, denne",
+            "props": {
+              "propType": "PEV1",
+              "propParts_morning": 1,
+              "propParts_noon": 0,
+              "propParts_evening": 0,
+              "propParts_sleepTime": 0,
+              "propPeriod_t": "denne",
+              "propPeriod_id": "D",
+              "propWay_code": ""
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "len pri hnačke",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 14,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[4] Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani",
+            "props": {
+              "propBody": 200,
+              "id": 4,
+              "idEzid": "00000466524@12",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "summary": "Bolesť brucha R10, K30, K59",
+  "type": "examination",
+  "source": "curo-open/curo-vzory#/020"
+}
