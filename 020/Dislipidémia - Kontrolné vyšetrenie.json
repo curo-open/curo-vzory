@@ -30,12 +30,35 @@
             "props": {}
           }
         }
+      },
+      {
+        "id": 302,
+        "order": 1,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "rfd",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "OFF",
+            "props": {}
+          }
+        }
       }
     ],
     "t-nadpis": [
       {
         "id": 122,
-        "order": 1,
+        "order": 2,
         "props": {
           "type": "t-nadpis"
         },
@@ -54,7 +77,7 @@
     "s": [
       {
         "id": 3,
-        "order": 2,
+        "order": 3,
         "props": {
           "type": "s"
         },
@@ -69,7 +92,7 @@
     "t": [
       {
         "id": 191,
-        "order": 3,
+        "order": 4,
         "props": {
           "type": "t"
         },
@@ -82,7 +105,7 @@
       },
       {
         "id": 193,
-        "order": 5,
+        "order": 6,
         "props": {
           "type": "t"
         },
@@ -95,7 +118,7 @@
       },
       {
         "id": 194,
-        "order": 6,
+        "order": 7,
         "props": {
           "type": "t"
         },
@@ -108,7 +131,7 @@
       },
       {
         "id": 196,
-        "order": 8,
+        "order": 9,
         "props": {
           "type": "t"
         },
@@ -121,7 +144,7 @@
       },
       {
         "id": 197,
-        "order": 9,
+        "order": 10,
         "props": {
           "type": "t"
         },
@@ -134,7 +157,7 @@
       },
       {
         "id": 199,
-        "order": 11,
+        "order": 12,
         "props": {
           "type": "t"
         },
@@ -147,7 +170,7 @@
       },
       {
         "id": 277,
-        "order": 12,
+        "order": 13,
         "props": {
           "type": "t"
         },
@@ -160,7 +183,7 @@
       },
       {
         "id": 279,
-        "order": 14,
+        "order": 15,
         "props": {
           "type": "t"
         },
@@ -173,7 +196,7 @@
       },
       {
         "id": 200,
-        "order": 15,
+        "order": 16,
         "props": {
           "type": "t"
         },
@@ -186,7 +209,7 @@
       },
       {
         "id": 282,
-        "order": 16,
+        "order": 17,
         "props": {
           "type": "t"
         },
@@ -199,7 +222,7 @@
       },
       {
         "id": 202,
-        "order": 17,
+        "order": 18,
         "props": {
           "type": "t"
         },
@@ -212,7 +235,7 @@
       },
       {
         "id": 209,
-        "order": 18,
+        "order": 19,
         "props": {
           "type": "t"
         },
@@ -225,7 +248,7 @@
       },
       {
         "id": 211,
-        "order": 20,
+        "order": 21,
         "props": {
           "type": "t"
         },
@@ -238,7 +261,7 @@
       },
       {
         "id": 212,
-        "order": 21,
+        "order": 22,
         "props": {
           "type": "t"
         },
@@ -251,7 +274,7 @@
       },
       {
         "id": 213,
-        "order": 22,
+        "order": 23,
         "props": {
           "type": "t"
         },
@@ -264,7 +287,7 @@
       },
       {
         "id": 214,
-        "order": 23,
+        "order": 24,
         "props": {
           "type": "t"
         },
@@ -277,7 +300,7 @@
       },
       {
         "id": 284,
-        "order": 24,
+        "order": 25,
         "props": {
           "type": "t"
         },
@@ -290,7 +313,7 @@
       },
       {
         "id": 216,
-        "order": 26,
+        "order": 27,
         "props": {
           "type": "t"
         },
@@ -303,7 +326,7 @@
       },
       {
         "id": 220,
-        "order": 32,
+        "order": 33,
         "props": {
           "type": "t"
         },
@@ -316,7 +339,7 @@
       },
       {
         "id": 222,
-        "order": 34,
+        "order": 35,
         "props": {
           "type": "t"
         },
@@ -329,7 +352,7 @@
       },
       {
         "id": 223,
-        "order": 35,
+        "order": 36,
         "props": {
           "type": "t"
         },
@@ -342,7 +365,7 @@
       },
       {
         "id": 225,
-        "order": 37,
+        "order": 38,
         "props": {
           "type": "t"
         },
@@ -355,7 +378,7 @@
       },
       {
         "id": 226,
-        "order": 38,
+        "order": 39,
         "props": {
           "type": "t"
         },
@@ -368,7 +391,7 @@
       },
       {
         "id": 228,
-        "order": 40,
+        "order": 41,
         "props": {
           "type": "t"
         },
@@ -381,7 +404,7 @@
       },
       {
         "id": 229,
-        "order": 41,
+        "order": 42,
         "props": {
           "type": "t"
         },
@@ -394,7 +417,7 @@
       },
       {
         "id": 231,
-        "order": 43,
+        "order": 44,
         "props": {
           "type": "t"
         },
@@ -407,7 +430,7 @@
       },
       {
         "id": 232,
-        "order": 44,
+        "order": 45,
         "props": {
           "type": "t"
         },
@@ -420,7 +443,7 @@
       },
       {
         "id": 234,
-        "order": 46,
+        "order": 47,
         "props": {
           "type": "t"
         },
@@ -433,7 +456,7 @@
       },
       {
         "id": 235,
-        "order": 47,
+        "order": 48,
         "props": {
           "type": "t"
         },
@@ -446,7 +469,7 @@
       },
       {
         "id": 237,
-        "order": 49,
+        "order": 50,
         "props": {
           "type": "t"
         },
@@ -459,7 +482,7 @@
       },
       {
         "id": 238,
-        "order": 50,
+        "order": 51,
         "props": {
           "type": "t"
         },
@@ -472,7 +495,7 @@
       },
       {
         "id": 240,
-        "order": 52,
+        "order": 53,
         "props": {
           "type": "t"
         },
@@ -485,7 +508,7 @@
       },
       {
         "id": 241,
-        "order": 53,
+        "order": 54,
         "props": {
           "type": "t"
         },
@@ -498,7 +521,7 @@
       },
       {
         "id": 243,
-        "order": 55,
+        "order": 56,
         "props": {
           "type": "t"
         },
@@ -511,7 +534,7 @@
       },
       {
         "id": 287,
-        "order": 56,
+        "order": 57,
         "props": {
           "type": "t"
         },
@@ -524,7 +547,7 @@
       },
       {
         "id": 289,
-        "order": 58,
+        "order": 59,
         "props": {
           "type": "t"
         },
@@ -537,7 +560,7 @@
       },
       {
         "id": 247,
-        "order": 59,
+        "order": 60,
         "props": {
           "type": "t"
         },
@@ -550,7 +573,7 @@
       },
       {
         "id": 249,
-        "order": 61,
+        "order": 62,
         "props": {
           "type": "t"
         },
@@ -563,7 +586,7 @@
       },
       {
         "id": 250,
-        "order": 62,
+        "order": 63,
         "props": {
           "type": "t"
         },
@@ -576,7 +599,7 @@
       },
       {
         "id": 252,
-        "order": 64,
+        "order": 65,
         "props": {
           "type": "t"
         },
@@ -589,7 +612,7 @@
       },
       {
         "id": 253,
-        "order": 65,
+        "order": 66,
         "props": {
           "type": "t"
         },
@@ -602,7 +625,7 @@
       },
       {
         "id": 255,
-        "order": 67,
+        "order": 68,
         "props": {
           "type": "t"
         },
@@ -615,7 +638,7 @@
       },
       {
         "id": 263,
-        "order": 68,
+        "order": 69,
         "props": {
           "type": "t"
         },
@@ -628,7 +651,7 @@
       },
       {
         "id": 285,
-        "order": 69,
+        "order": 70,
         "props": {
           "type": "t"
         },
@@ -641,7 +664,7 @@
       },
       {
         "id": 256,
-        "order": 70,
+        "order": 71,
         "props": {
           "type": "t"
         },
@@ -651,12 +674,38 @@
             "props": {}
           }
         }
+      },
+      {
+        "id": 299,
+        "order": 72,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? var.rfd=='ON' }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 301,
+        "order": 74,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
       }
     ],
     "ra": [
       {
         "id": 192,
-        "order": 4,
+        "order": 5,
         "props": {
           "type": "ra"
         },
@@ -675,7 +724,7 @@
     "oa": [
       {
         "id": 195,
-        "order": 7,
+        "order": 8,
         "props": {
           "type": "oa"
         },
@@ -690,7 +739,7 @@
     "sa": [
       {
         "id": 198,
-        "order": 10,
+        "order": 11,
         "props": {
           "type": "sa"
         },
@@ -705,7 +754,7 @@
     "la": [
       {
         "id": 281,
-        "order": 13,
+        "order": 14,
         "props": {
           "type": "la"
         },
@@ -720,7 +769,7 @@
     "aa": [
       {
         "id": 210,
-        "order": 19,
+        "order": 20,
         "props": {
           "type": "aa"
         },
@@ -735,12 +784,48 @@
     "ga": [
       {
         "id": 215,
-        "order": 25,
+        "order": 26,
         "props": {
           "type": "ga"
         },
         "value": {
           "text": {
+            "value": "",
+            "props": {}
+          },
+          "prvamen": {
+            "value": "",
+            "props": {}
+          },
+          "pravidelnost": {
+            "value": "",
+            "props": {}
+          },
+          "bolest": {
+            "value": "",
+            "props": {}
+          },
+          "cyklus": {
+            "value": "",
+            "props": {}
+          },
+          "menopauza": {
+            "value": "",
+            "props": {}
+          },
+          "porody": {
+            "value": "",
+            "props": {}
+          },
+          "potraty": {
+            "value": "",
+            "props": {}
+          },
+          "interrupcie": {
+            "value": "",
+            "props": {}
+          },
+          "posinterrupcia": {
             "value": "",
             "props": {}
           }
@@ -750,13 +835,13 @@
     "da": [
       {
         "id": 295,
-        "order": 27,
+        "order": 28,
         "props": {
           "type": "da"
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -765,7 +850,7 @@
     "dz": [
       {
         "id": 296,
-        "order": 28,
+        "order": 29,
         "props": {
           "type": "dz"
         },
@@ -780,7 +865,7 @@
     "ab": [
       {
         "id": 217,
-        "order": 29,
+        "order": 30,
         "props": {
           "type": "ab"
         },
@@ -807,7 +892,7 @@
     "zfp": [
       {
         "id": 218,
-        "order": 30,
+        "order": 31,
         "props": {
           "type": "zfp"
         },
@@ -866,7 +951,7 @@
     "o": [
       {
         "id": 219,
-        "order": 31,
+        "order": 32,
         "props": {
           "type": "o"
         },
@@ -881,7 +966,7 @@
     "pv": [
       {
         "id": 221,
-        "order": 33,
+        "order": 34,
         "props": {
           "type": "pv"
         },
@@ -908,7 +993,7 @@
       },
       {
         "id": 224,
-        "order": 36,
+        "order": 37,
         "props": {
           "type": "pv"
         },
@@ -935,7 +1020,7 @@
       },
       {
         "id": 227,
-        "order": 39,
+        "order": 40,
         "props": {
           "type": "pv"
         },
@@ -962,7 +1047,7 @@
       },
       {
         "id": 230,
-        "order": 42,
+        "order": 43,
         "props": {
           "type": "pv"
         },
@@ -989,7 +1074,7 @@
       },
       {
         "id": 233,
-        "order": 45,
+        "order": 46,
         "props": {
           "type": "pv"
         },
@@ -1016,7 +1101,7 @@
       },
       {
         "id": 236,
-        "order": 48,
+        "order": 49,
         "props": {
           "type": "pv"
         },
@@ -1043,7 +1128,7 @@
       },
       {
         "id": 239,
-        "order": 51,
+        "order": 52,
         "props": {
           "type": "pv"
         },
@@ -1070,7 +1155,7 @@
       },
       {
         "id": 242,
-        "order": 54,
+        "order": 55,
         "props": {
           "type": "pv"
         },
@@ -1097,7 +1182,7 @@
       },
       {
         "id": 288,
-        "order": 57,
+        "order": 58,
         "props": {
           "type": "pv"
         },
@@ -1124,7 +1209,7 @@
       },
       {
         "id": 248,
-        "order": 60,
+        "order": 61,
         "props": {
           "type": "pv"
         },
@@ -1151,7 +1236,7 @@
       },
       {
         "id": 251,
-        "order": 63,
+        "order": 64,
         "props": {
           "type": "pv"
         },
@@ -1180,7 +1265,7 @@
     "ekg": [
       {
         "id": 254,
-        "order": 66,
+        "order": 67,
         "props": {
           "type": "ekg"
         },
@@ -1240,10 +1325,54 @@
         }
       }
     ],
+    "vlozit": [
+      {
+        "id": 300,
+        "order": 73,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Rizikové faktory kardiovaskulárneho rizika",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 291,
+        "order": 77,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Bodovanie - dislipidémia, kontrolné",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "odp": [
       {
         "id": 94,
-        "order": 71,
+        "order": 75,
         "props": {
           "type": "odp"
         },
@@ -1258,7 +1387,7 @@
     "p": [
       {
         "id": 96,
-        "order": 72,
+        "order": 76,
         "props": {
           "type": "p"
         },
@@ -1268,9 +1397,9 @@
             "props": {}
           },
           "at": {
-            "value": "04.11.2019 13:53",
+            "value": "07.04.2020 14:30",
             "props": {
-              "propValue": "2019-11-04T12:53:08.853Z",
+              "propValue": "2020-04-07T12:30:36.284Z",
               "expr": "=+5m"
             }
           },
@@ -1281,29 +1410,6 @@
             }
           },
           "done": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
-    "vlozit": [
-      {
-        "id": 291,
-        "order": 73,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "Bodovanie - dislipidémia, kontrolné",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
             "value": "",
             "props": {}
           }

@@ -1,0 +1,27 @@
+{
+  "title": "Rizikové faktory kardiovaskulárneho rizika",
+  "shortcut": "rfd",
+  "summary": "",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Rizikové faktory kardiovaskulárneho rizika<br></b><br><b>Demografické a laboratórne parametre</b><br>Pohlavie (muži &gt; ženy)<br>Vek<br>Fajčenie (aj v minulosti)<br>Totálny cholesterol a HDL (High-density lipoprotein) cholesterol<br>Kyselina močová<br>Diabetes mellitus<br>Nadváha, alebo obezita<br>Rodinná anamnéza predčasného kardiovaskulárneho ochorenia (u muža &lt; 55 rokov, u ženy &lt; 65 rokov)<br>Rodinná anamnéza predčasnej artériovej hypertenzie (&lt;35 rokov)<br>Predčasná menopauza (&lt;45 rokov)<br>Sedavý životný štýl<br>Psychosociálne a socioekonomické faktory<br>Pokojová srdcová frekvencia &gt;80/min.<br><br><b>Asymptomatické orgánové poškodenie hypertenziou</b><br>Pulzový tlak ≥60mmHg u starších ľudí (≥65 rokov)<br>Rýchlosť pulzovej vlny (medzi karotickou a femorálnou artériou) &gt;10m/s<br>EKG znaky hypertrofie ľavej komory<br>Echokardiografické znaky hypertrofie ľavej komory<br>Mikroalbuminúria (30-300mg/24h) alebo<br>pomer albumín/kreatinín (30-300mg/g; 3,4-34mg/mmol), preferuje sa ranný moč<br>Chronická obličková choroba s glomerulárnou filtráciou &lt;59 ml/min./1,73m2<br>Členkovo-brachiálny index &lt;0,9<br>Pokročilá retinopatia (hemorágie, exsudáty alebo edém papily)<br><br><b>Kardiovaskulárne ochorenie</b><br>Cerebrofaskulárna choroba: ischemická, alebo hemoregická cievna mozgová príhoda, tranzitórny ischemický atak<br>Koronárna choroba srdca: akútny koronárny syndróm, stabilná angina pectoris, revaskularizácia myokardu (perkutánna koronárna intervencia, aortokoronárny bypass)<br>Aterosklerotický plak na zobrazovacích vyšetreniach<br>Srdcové zlyhávanie (aj so zachovanou ejekčnou frakciou)<br>Periférne artériové ochorenie dolných končatín<br>Fibrilácia predsiení<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020"
+}

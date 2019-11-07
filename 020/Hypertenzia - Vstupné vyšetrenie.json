@@ -29,8 +29,31 @@
         }
       },
       {
-        "id": 241,
+        "id": 255,
         "order": 1,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "rfd",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "OFF",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 241,
+        "order": 2,
         "props": {
           "type": "premenna"
         },
@@ -53,7 +76,7 @@
       },
       {
         "id": 242,
-        "order": 2,
+        "order": 3,
         "props": {
           "type": "premenna"
         },
@@ -78,7 +101,7 @@
     "t-nadpis": [
       {
         "id": 122,
-        "order": 3,
+        "order": 4,
         "props": {
           "type": "t-nadpis"
         },
@@ -97,7 +120,7 @@
     "s": [
       {
         "id": 3,
-        "order": 4,
+        "order": 5,
         "props": {
           "type": "s"
         },
@@ -112,7 +135,7 @@
     "t": [
       {
         "id": 208,
-        "order": 5,
+        "order": 6,
         "props": {
           "type": "t"
         },
@@ -125,7 +148,7 @@
       },
       {
         "id": 210,
-        "order": 7,
+        "order": 8,
         "props": {
           "type": "t"
         },
@@ -138,7 +161,7 @@
       },
       {
         "id": 211,
-        "order": 8,
+        "order": 9,
         "props": {
           "type": "t"
         },
@@ -151,7 +174,7 @@
       },
       {
         "id": 213,
-        "order": 10,
+        "order": 11,
         "props": {
           "type": "t"
         },
@@ -164,7 +187,7 @@
       },
       {
         "id": 214,
-        "order": 11,
+        "order": 12,
         "props": {
           "type": "t"
         },
@@ -177,7 +200,7 @@
       },
       {
         "id": 216,
-        "order": 13,
+        "order": 14,
         "props": {
           "type": "t"
         },
@@ -190,7 +213,7 @@
       },
       {
         "id": 217,
-        "order": 14,
+        "order": 15,
         "props": {
           "type": "t"
         },
@@ -203,7 +226,7 @@
       },
       {
         "id": 219,
-        "order": 16,
+        "order": 17,
         "props": {
           "type": "t"
         },
@@ -216,7 +239,7 @@
       },
       {
         "id": 220,
-        "order": 17,
+        "order": 18,
         "props": {
           "type": "t"
         },
@@ -229,7 +252,7 @@
       },
       {
         "id": 221,
-        "order": 18,
+        "order": 19,
         "props": {
           "type": "t"
         },
@@ -242,7 +265,7 @@
       },
       {
         "id": 223,
-        "order": 19,
+        "order": 20,
         "props": {
           "type": "t"
         },
@@ -255,7 +278,7 @@
       },
       {
         "id": 224,
-        "order": 20,
+        "order": 21,
         "props": {
           "type": "t"
         },
@@ -268,7 +291,7 @@
       },
       {
         "id": 226,
-        "order": 22,
+        "order": 23,
         "props": {
           "type": "t"
         },
@@ -281,7 +304,7 @@
       },
       {
         "id": 227,
-        "order": 23,
+        "order": 24,
         "props": {
           "type": "t"
         },
@@ -294,7 +317,7 @@
       },
       {
         "id": 228,
-        "order": 24,
+        "order": 25,
         "props": {
           "type": "t"
         },
@@ -307,7 +330,7 @@
       },
       {
         "id": 229,
-        "order": 25,
+        "order": 26,
         "props": {
           "type": "t"
         },
@@ -320,7 +343,7 @@
       },
       {
         "id": 230,
-        "order": 26,
+        "order": 27,
         "props": {
           "type": "t"
         },
@@ -333,7 +356,7 @@
       },
       {
         "id": 232,
-        "order": 28,
+        "order": 29,
         "props": {
           "type": "t"
         },
@@ -346,7 +369,7 @@
       },
       {
         "id": 151,
-        "order": 34,
+        "order": 35,
         "props": {
           "type": "t"
         },
@@ -359,7 +382,7 @@
       },
       {
         "id": 153,
-        "order": 36,
+        "order": 37,
         "props": {
           "type": "t"
         },
@@ -372,7 +395,7 @@
       },
       {
         "id": 154,
-        "order": 37,
+        "order": 38,
         "props": {
           "type": "t"
         },
@@ -385,7 +408,7 @@
       },
       {
         "id": 156,
-        "order": 39,
+        "order": 40,
         "props": {
           "type": "t"
         },
@@ -398,7 +421,7 @@
       },
       {
         "id": 157,
-        "order": 40,
+        "order": 41,
         "props": {
           "type": "t"
         },
@@ -411,7 +434,7 @@
       },
       {
         "id": 159,
-        "order": 42,
+        "order": 43,
         "props": {
           "type": "t"
         },
@@ -424,7 +447,7 @@
       },
       {
         "id": 160,
-        "order": 43,
+        "order": 44,
         "props": {
           "type": "t"
         },
@@ -437,7 +460,7 @@
       },
       {
         "id": 162,
-        "order": 45,
+        "order": 46,
         "props": {
           "type": "t"
         },
@@ -450,7 +473,7 @@
       },
       {
         "id": 163,
-        "order": 46,
+        "order": 47,
         "props": {
           "type": "t"
         },
@@ -463,7 +486,7 @@
       },
       {
         "id": 165,
-        "order": 48,
+        "order": 49,
         "props": {
           "type": "t"
         },
@@ -476,7 +499,7 @@
       },
       {
         "id": 166,
-        "order": 49,
+        "order": 50,
         "props": {
           "type": "t"
         },
@@ -489,7 +512,7 @@
       },
       {
         "id": 168,
-        "order": 51,
+        "order": 52,
         "props": {
           "type": "t"
         },
@@ -502,7 +525,7 @@
       },
       {
         "id": 169,
-        "order": 52,
+        "order": 53,
         "props": {
           "type": "t"
         },
@@ -515,7 +538,7 @@
       },
       {
         "id": 171,
-        "order": 54,
+        "order": 55,
         "props": {
           "type": "t"
         },
@@ -528,7 +551,7 @@
       },
       {
         "id": 172,
-        "order": 55,
+        "order": 56,
         "props": {
           "type": "t"
         },
@@ -541,7 +564,7 @@
       },
       {
         "id": 174,
-        "order": 57,
+        "order": 58,
         "props": {
           "type": "t"
         },
@@ -554,7 +577,7 @@
       },
       {
         "id": 235,
-        "order": 58,
+        "order": 59,
         "props": {
           "type": "t"
         },
@@ -567,7 +590,7 @@
       },
       {
         "id": 237,
-        "order": 60,
+        "order": 61,
         "props": {
           "type": "t"
         },
@@ -580,7 +603,7 @@
       },
       {
         "id": 178,
-        "order": 61,
+        "order": 62,
         "props": {
           "type": "t"
         },
@@ -593,7 +616,7 @@
       },
       {
         "id": 180,
-        "order": 63,
+        "order": 64,
         "props": {
           "type": "t"
         },
@@ -606,7 +629,7 @@
       },
       {
         "id": 181,
-        "order": 64,
+        "order": 65,
         "props": {
           "type": "t"
         },
@@ -619,7 +642,7 @@
       },
       {
         "id": 183,
-        "order": 66,
+        "order": 67,
         "props": {
           "type": "t"
         },
@@ -632,7 +655,7 @@
       },
       {
         "id": 247,
-        "order": 67,
+        "order": 68,
         "props": {
           "type": "t"
         },
@@ -645,7 +668,7 @@
       },
       {
         "id": 249,
-        "order": 69,
+        "order": 70,
         "props": {
           "type": "t"
         },
@@ -658,7 +681,7 @@
       },
       {
         "id": 184,
-        "order": 70,
+        "order": 71,
         "props": {
           "type": "t"
         },
@@ -671,7 +694,7 @@
       },
       {
         "id": 186,
-        "order": 72,
+        "order": 73,
         "props": {
           "type": "t"
         },
@@ -684,7 +707,7 @@
       },
       {
         "id": 192,
-        "order": 73,
+        "order": 74,
         "props": {
           "type": "t"
         },
@@ -697,7 +720,7 @@
       },
       {
         "id": 233,
-        "order": 74,
+        "order": 75,
         "props": {
           "type": "t"
         },
@@ -710,7 +733,7 @@
       },
       {
         "id": 187,
-        "order": 75,
+        "order": 76,
         "props": {
           "type": "t"
         },
@@ -720,12 +743,38 @@
             "props": {}
           }
         }
+      },
+      {
+        "id": 252,
+        "order": 77,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? var.rfd=='ON' }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 254,
+        "order": 79,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
       }
     ],
     "ra": [
       {
         "id": 209,
-        "order": 6,
+        "order": 7,
         "props": {
           "type": "ra"
         },
@@ -744,7 +793,7 @@
     "oa": [
       {
         "id": 212,
-        "order": 9,
+        "order": 10,
         "props": {
           "type": "oa"
         },
@@ -759,7 +808,7 @@
     "sa": [
       {
         "id": 215,
-        "order": 12,
+        "order": 13,
         "props": {
           "type": "sa"
         },
@@ -774,7 +823,7 @@
     "la": [
       {
         "id": 218,
-        "order": 15,
+        "order": 16,
         "props": {
           "type": "la"
         },
@@ -789,7 +838,7 @@
     "aa": [
       {
         "id": 225,
-        "order": 21,
+        "order": 22,
         "props": {
           "type": "aa"
         },
@@ -804,12 +853,48 @@
     "ga": [
       {
         "id": 231,
-        "order": 27,
+        "order": 28,
         "props": {
           "type": "ga"
         },
         "value": {
           "text": {
+            "value": "",
+            "props": {}
+          },
+          "prvamen": {
+            "value": "",
+            "props": {}
+          },
+          "pravidelnost": {
+            "value": "",
+            "props": {}
+          },
+          "bolest": {
+            "value": "",
+            "props": {}
+          },
+          "cyklus": {
+            "value": "",
+            "props": {}
+          },
+          "menopauza": {
+            "value": "",
+            "props": {}
+          },
+          "porody": {
+            "value": "",
+            "props": {}
+          },
+          "potraty": {
+            "value": "",
+            "props": {}
+          },
+          "interrupcie": {
+            "value": "",
+            "props": {}
+          },
+          "posinterrupcia": {
             "value": "",
             "props": {}
           }
@@ -819,7 +904,7 @@
     "da": [
       {
         "id": 244,
-        "order": 29,
+        "order": 30,
         "props": {
           "type": "da"
         },
@@ -834,7 +919,7 @@
     "dz": [
       {
         "id": 245,
-        "order": 30,
+        "order": 31,
         "props": {
           "type": "dz"
         },
@@ -849,7 +934,7 @@
     "ab": [
       {
         "id": 82,
-        "order": 31,
+        "order": 32,
         "props": {
           "type": "ab"
         },
@@ -876,7 +961,7 @@
     "zfp": [
       {
         "id": 83,
-        "order": 32,
+        "order": 33,
         "props": {
           "type": "zfp"
         },
@@ -935,7 +1020,7 @@
     "o": [
       {
         "id": 88,
-        "order": 33,
+        "order": 34,
         "props": {
           "type": "o"
         },
@@ -950,7 +1035,7 @@
     "pv": [
       {
         "id": 152,
-        "order": 35,
+        "order": 36,
         "props": {
           "type": "pv"
         },
@@ -977,7 +1062,7 @@
       },
       {
         "id": 155,
-        "order": 38,
+        "order": 39,
         "props": {
           "type": "pv"
         },
@@ -1004,7 +1089,7 @@
       },
       {
         "id": 158,
-        "order": 41,
+        "order": 42,
         "props": {
           "type": "pv"
         },
@@ -1031,7 +1116,7 @@
       },
       {
         "id": 161,
-        "order": 44,
+        "order": 45,
         "props": {
           "type": "pv"
         },
@@ -1058,7 +1143,7 @@
       },
       {
         "id": 164,
-        "order": 47,
+        "order": 48,
         "props": {
           "type": "pv"
         },
@@ -1085,7 +1170,7 @@
       },
       {
         "id": 167,
-        "order": 50,
+        "order": 51,
         "props": {
           "type": "pv"
         },
@@ -1112,7 +1197,7 @@
       },
       {
         "id": 170,
-        "order": 53,
+        "order": 54,
         "props": {
           "type": "pv"
         },
@@ -1139,7 +1224,7 @@
       },
       {
         "id": 173,
-        "order": 56,
+        "order": 57,
         "props": {
           "type": "pv"
         },
@@ -1166,7 +1251,7 @@
       },
       {
         "id": 236,
-        "order": 59,
+        "order": 60,
         "props": {
           "type": "pv"
         },
@@ -1193,7 +1278,7 @@
       },
       {
         "id": 179,
-        "order": 62,
+        "order": 63,
         "props": {
           "type": "pv"
         },
@@ -1220,7 +1305,7 @@
       },
       {
         "id": 182,
-        "order": 65,
+        "order": 66,
         "props": {
           "type": "pv"
         },
@@ -1247,7 +1332,7 @@
       },
       {
         "id": 248,
-        "order": 68,
+        "order": 69,
         "props": {
           "type": "pv"
         },
@@ -1276,7 +1361,7 @@
     "ekg": [
       {
         "id": 185,
-        "order": 71,
+        "order": 72,
         "props": {
           "type": "ekg"
         },
@@ -1336,10 +1421,54 @@
         }
       }
     ],
+    "vlozit": [
+      {
+        "id": 253,
+        "order": 78,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Rizikové faktory kardiovaskulárneho rizika",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 239,
+        "order": 83,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Bodovanie - hypertenzia, vstupné",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "holter=var.holter",
+            "props": {}
+          }
+        }
+      }
+    ],
     "odp": [
       {
         "id": 94,
-        "order": 76,
+        "order": 80,
         "props": {
           "type": "odp"
         },
@@ -1354,7 +1483,7 @@
     "td": [
       {
         "id": 89,
-        "order": 77,
+        "order": 81,
         "props": {
           "type": "td"
         },
@@ -1362,9 +1491,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "id": "I10.00",
+              "idClassid": "diagnoza",
               "idEzid": "02089398180@9",
-              "idClassid": "diagnoza"
+              "id": "I10.00"
             }
           },
           "text": {
@@ -1389,7 +1518,7 @@
     "p": [
       {
         "id": 96,
-        "order": 78,
+        "order": 82,
         "props": {
           "type": "p"
         },
@@ -1399,9 +1528,9 @@
             "props": {}
           },
           "at": {
-            "value": "04.11.2019 13:59",
+            "value": "07.04.2020 14:29",
             "props": {
-              "propValue": "2019-11-04T12:59:25.132Z",
+              "propValue": "2020-04-07T12:29:56.465Z",
               "expr": "=+5m"
             }
           },
@@ -1413,29 +1542,6 @@
           },
           "done": {
             "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
-    "vlozit": [
-      {
-        "id": 239,
-        "order": 79,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "Bodovanie - hypertenzia, vstupné",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "holter=var.holter",
             "props": {}
           }
         }
