@@ -6,8 +6,21 @@
     "_": {},
     "t": [
       {
-        "id": 3,
+        "id": 9,
         "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Pacient prichádza za účelom vystavenia potvrdenia o zdravotnej spôsobilosti viesť motorové vozidlá.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 10,
+        "order": 1,
         "props": {
           "type": "t"
         },
@@ -19,8 +32,8 @@
         }
       },
       {
-        "id": 4,
-        "order": 2,
+        "id": 12,
+        "order": 3,
         "props": {
           "type": "t"
         },
@@ -32,8 +45,8 @@
         }
       },
       {
-        "id": 6,
-        "order": 4,
+        "id": 14,
+        "order": 5,
         "props": {
           "type": "t"
         },
@@ -43,12 +56,129 @@
             "props": {}
           }
         }
+      },
+      {
+        "id": 15,
+        "order": 6,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? sessions|getSections(\"to\")|trans('length') &gt; 0}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 16,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"to\")|where(\"i==0\")}} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 17,
+        "order": 8,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "UPRAVIŤ - Stav stabilizovaný. Nelieči sa na epilepsiu ani závažné psychické ochorenia. Nemá DM ani závažné srdcové zlyhávanie.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 18,
+        "order": 9,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 20,
+        "order": 11,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 23,
+        "order": 14,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? sessions|getSections(\"zfp\")|trans('length') &gt; 0}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 24,
+        "order": 15,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"zfp\")|where(\"i==0\")}} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 25,
+        "order": 16,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 27,
+        "order": 18,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{?}}<br>",
+            "props": {}
+          }
+        }
       }
     ],
     "t-sposobilost-vodica": [
       {
-        "id": 2,
-        "order": 1,
+        "id": 11,
+        "order": 2,
         "props": {
           "type": "t-sposobilost-vodica"
         },
@@ -70,17 +200,15 @@
             "props": {}
           },
           "datum": {
-            "value": "27.05.2018",
+            "value": "11.11.2019",
             "props": {
-              "propValue": "2018-05-27T18:16:56.210Z",
-              "expr": "=dnes"
+              "propValue": "2019-11-11T09:40:09.099Z"
             }
           },
           "platny": {
-            "value": "27.05.2018",
+            "value": "11.11.2024",
             "props": {
-              "propValue": "2018-05-27T18:17:02.343Z",
-              "expr": "=dnes"
+              "propValue": "2024-11-11T09:40:09.100Z"
             }
           },
           "EC": {
@@ -124,8 +252,8 @@
         }
       },
       {
-        "id": 7,
-        "order": 3,
+        "id": 13,
+        "order": 4,
         "props": {
           "type": "t-sposobilost-vodica"
         },
@@ -147,15 +275,15 @@
             "props": {}
           },
           "datum": {
-            "value": "27.05.2018",
+            "value": "11.11.2019",
             "props": {
-              "propValue": "2018-05-27T18:15:49.342Z"
+              "propValue": "2019-11-11T09:40:09.104Z"
             }
           },
           "platny": {
-            "value": "27.05.2023",
+            "value": "11.11.2024",
             "props": {
-              "propValue": "2023-05-27T18:15:49.342Z"
+              "propValue": "2024-11-11T09:40:09.105Z"
             }
           },
           "EC": {
@@ -194,7 +322,132 @@
           }
         }
       }
+    ],
+    "to": [
+      {
+        "id": 19,
+        "order": 10,
+        "props": {
+          "type": "to"
+        },
+        "value": {
+          "text": {
+            "value": "Stav stabilizovaný. Nelieči sa na epilepsiu ani závažné psychické ochorenia. Nemá DM ani závažné srdcové zlyhávanie.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oa": [
+      {
+        "id": 21,
+        "order": 12,
+        "props": {
+          "type": "oa"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 22,
+        "order": 13,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "Kardiopulmonálne kompenzovaný, zrak, sluch orientačne v norme.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "zfp": [
+      {
+        "id": 26,
+        "order": 17,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "oh": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "",
+            "props": {}
+          },
+          "temp": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 28,
+        "order": 19,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "Spôsobilý aktuálne na vedenie MV ako vodič.<br>",
+            "props": {}
+          }
+        }
+      }
     ]
   },
+  "tags": [
+    "prehlad-vodic"
+  ],
+  "vars": {},
+  "description": "",
+  "summary": "",
   "source": "curo-open/curo-vzory#/020"
 }
