@@ -1,0 +1,51 @@
+{
+  "type": "examination",
+  "summary": "Výmenný lístok - uvoľnenie preskripcie viazaných liekov",
+  "content": "<section data-x-id=\"4\" data-type=\"vl\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Výmenný lístok​:</label><div class=\"FieldHtml _focus\" data-name=\"text\">Prosím láskavo o Vaše odborné vyšetrenie dif Dg a odporúčanie na liečbu<br>Dg:<br>Za spoluprácu vopred vďaka<br></div>​<label data-for=\"odbor\" class=\" _noval\">odborné zameranie:​</label><div class=\"_noval FieldSearch hasActions\" data-name=\"odbor\"></div>​<label data-for=\"druh\" class=\"\">druh špecializovaného útvaru​</label><div class=\"FieldSearch hasActions truncate\" data-name=\"druh\" data-id-classid=\"cinnost\" data-id-ezid=\"00000000273@3\" data-id=\"2\" title=\"[2] ambulancia\" style=\"width: 20ch;\">[2] ambulancia</div>​<label data-for=\"presne\" class=\"\">len text​</label><div class=\"FieldSwitchX hasActions\" data-name=\"presne\" data-prop-value=\"1\">x</div>​<label data-for=\"extended\" class=\" _noval\">zobraziť dodatočné atribúty​</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"extended\"></div>​<label data-for=\"patientInfo\" class=\"_noval hidden\">informácia pre pacienta:​</label><div class=\"_noval FieldHtml hidden\" data-name=\"patientInfo\"></div>​<label data-for=\"urgency\" class=\"hidden\">urgentnosť vyšetrenia:​</label><div class=\"FieldList hasActions hidden\" data-name=\"urgency\" data-prop-value=\"bezne\">Bežné</div>​<label data-for=\"platnost\" class=\"hidden\">platnosť​</label><div class=\"FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"platnost\" data-prop-value=\"2020-11-13T07:06:28.311Z\">13.11.2020</div></section>",
+  "title": "Výmenný lístok - uvoľnenie preskripcie viazaných liekov",
+  "shortcut": "vlup",
+  "if": "",
+  "data": {
+    "_": {},
+    "vl": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "Pacient ma žiada na predpisovanie Vami odporúčaných liekov. Vzhľadom na chýbajúce náležitosti v&nbsp;lek. správe podľa platného zákona o lieku, v&nbsp;súlade s § 119, odsek 5, 6 a&nbsp;11,  Vás žiadam o doplnenie všetkých informácii a odporúčaní pre VLD, vrátane uvoľnenia kódu odborného lekára v príslušnom špec. odbore  k viazaným liekom s vyznačením diagnózy (kód MKCH) a dátumom ukončenia platnosti uvoľnenia preskribčne viazných liekov. Ku&nbsp;indikačne obmedzeným liekom Vás žiadam uviesť konkrétnu diagnózu slovom aj kód MKCH s&nbsp;príslušným popisom k uhradeniu liečby v danej indikácii. <br>Za spoluprácu vopred vďaka<br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "",
+            "props": {}
+          },
+          "druh": {
+            "value": "[2] ambulancia",
+            "props": {
+              "id": 2,
+              "idEzid": "00000000273@3",
+              "idClassid": "cinnost"
+            }
+          },
+          "presne": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020"
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Výmenný lístok na žiadosť pacienta",
+  "shortcut": "vlzp",
+  "summary": "Výmenný lístok na žiadosť pacienta",
+  "if": "",
+  "data": {
+    "_": {},
+    "vl": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "NA ŽIADOSŤ PACIENTA. Prosím o Vaše odborné vyšetrenie Z uvedených dôvodov nie je súčasťou výpis zo zdr.dokumentácie<br>Dg Z53.2 <br>Za spoluprácu vopred vďaka<br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "",
+            "props": {}
+          },
+          "druh": {
+            "value": "[2] ambulancia",
+            "props": {
+              "idClassid": "cinnost",
+              "idEzid": "00000000273@3",
+              "id": 2
+            }
+          },
+          "presne": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "type": "examination",
+  "source": "curo-open/curo-vzory#/020"
+}

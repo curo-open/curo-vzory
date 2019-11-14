@@ -888,8 +888,60 @@
         }
       },
       {
-        "id": 1041,
+        "id": 1165,
         "order": 93,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pohlavie == \"female\" &amp;&amp; vek &gt;= 50}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1169,
+        "order": 95,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1171,
+        "order": 96,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pohlavie == \"male\" &amp;&amp; vek &gt;= 50}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1172,
+        "order": 98,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1041,
+        "order": 99,
         "props": {
           "type": "t"
         },
@@ -902,7 +954,7 @@
       },
       {
         "id": 1043,
-        "order": 95,
+        "order": 101,
         "props": {
           "type": "t"
         },
@@ -915,7 +967,7 @@
       },
       {
         "id": 1045,
-        "order": 97,
+        "order": 103,
         "props": {
           "type": "t"
         },
@@ -1022,7 +1074,35 @@
             "value": "",
             "props": {}
           },
+          "pravidelnost": {
+            "value": "",
+            "props": {}
+          },
+          "bolest": {
+            "value": "",
+            "props": {}
+          },
+          "cyklus": {
+            "value": "",
+            "props": {}
+          },
           "menopauza": {
+            "value": "",
+            "props": {}
+          },
+          "porody": {
+            "value": "",
+            "props": {}
+          },
+          "potraty": {
+            "value": "",
+            "props": {}
+          },
+          "interrupcie": {
+            "value": "",
+            "props": {}
+          },
+          "posinterrupcia": {
             "value": "",
             "props": {}
           }
@@ -1038,7 +1118,7 @@
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -1682,38 +1762,52 @@
         }
       }
     ],
-    "z": [
+    "vlozit": [
       {
-        "id": 1042,
+        "id": 1163,
         "order": 94,
         "props": {
-          "type": "z"
+          "type": "vlozit"
         },
         "value": {
-          "z": {
-            "value": "Doporučenie: preventívna prehliadka u všeobecného lekára každé 2 roky, preventívna prehliadka u spádového gynekológa raz ročne, <br>",
+          "title": {
+            "value": "Výmenný lístok GYN",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
             "props": {}
           }
         }
       },
       {
-        "id": 1044,
-        "order": 96,
+        "id": 1164,
+        "order": 97,
         "props": {
-          "type": "z"
+          "type": "vlozit"
         },
         "value": {
-          "z": {
-            "value": "Doporučenie: preventívna prehliadka u všeobecného lekára každé 2 roky, preventívna prehliadka u spádového urológa každé 3 roky<br>",
+          "title": {
+            "value": "Výmenný lístok URO, Z125",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
             "props": {}
           }
         }
-      }
-    ],
-    "vlozit": [
+      },
       {
         "id": 1147,
-        "order": 98,
+        "order": 104,
         "props": {
           "type": "vlozit"
         },
@@ -1728,6 +1822,34 @@
           },
           "vars": {
             "value": "holter=var.holter|extraVykony=var.extraVykony|fob=var.fob",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 1042,
+        "order": 100,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "Doporučenie: preventívna prehliadka u všeobecného lekára každé 2 roky, preventívna prehliadka u spádového gynekológa raz ročne, <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1044,
+        "order": 102,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "Doporučenie: preventívna prehliadka u všeobecného lekára každé 2 roky, preventívna prehliadka u spádového urológa každé 3 roky<br>",
             "props": {}
           }
         }

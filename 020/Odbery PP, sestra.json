@@ -1,0 +1,281 @@
+{
+  "type": "examination",
+  "summary": "Odbery PP, sestra",
+  "content": "<section data-x-id=\"1\" data-type=\"t\" class=\"\"><aside></aside><div class=\"_noval FieldHtml\" data-name=\"t\">Pri plnom vedomí svojím podpisom vyjadrujem svoj nesúhlas  s vyšetrením, lebo to považujem za zbytočné.  Bol som lekárom a zdravotníckym pracovníkom podrobne oboznámený s možnými následkami môjho rozhodnutia a dopadom na moje zdravie v budúcnosti. Napriek vysvetleniu možného vzniku a/alebo možného vývoja skrytého ochorenia alebo iných  priamo či nepriamo súvisiacich ochorení a aj tak nesúhlasím s navrhovaným vyšetrením - odberom biologického materiálu a jeho vyhodnotením v rámci preventívnych prehliadok.   <br></div></section>",
+  "title": "Odbery PP, sestra",
+  "shortcut": "odbpp",
+  "if": "",
+  "data": {
+    "_": {},
+    "s": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "Od poslednej návštevy bez zmeny zdr.stavu, dýcha sa  dobre , dnes ťažkosti neudáva<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 6,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": " Pri vedomí, orientovaný, psychomotorika nespomalená, bez hemorágii, poruchy rovnováhy neudáva<br>Opuchy DK: Ľ: neprít P: neprít. , varikozity DK: Ľ: neprít P: neprít. <br>Prav kontroly u ŠAS:  ?<br>Krv.skup: KS: ?   Rh:   , nepamätá si presne(zdelené pac.) <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 9,
+        "order": 2,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "bez závažných ťažkostí v súvislosti s odberom , pac. s odberom SÚHLASÍ <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "aa": [
+      {
+        "id": 10,
+        "order": 3,
+        "props": {
+          "type": "aa"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ab": [
+      {
+        "id": 11,
+        "order": 4,
+        "props": {
+          "type": "ab"
+        },
+        "value": {
+          "fajciar": {
+            "value": "",
+            "props": {}
+          },
+          "alkohol": {
+            "value": "",
+            "props": {}
+          },
+          "kava": {
+            "value": "",
+            "props": {}
+          },
+          "drogy": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 12,
+        "order": 5,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "odčítané  FW:   /h  ,  test FOB odovzdaný pacientovi  <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 18,
+        "order": 8,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ?  pohlavie == \"female\" &amp;&amp; vek &gt;= 50}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 20,
+        "order": 10,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 21,
+        "order": 11,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pohlavie == \"male\" &amp;&amp; vek &gt;= 50}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 23,
+        "order": 13,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 3,
+        "order": 14,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "odosielame na  URO / Gyn vyš (Z129) <b><u>ak nesuhlasi</u></b> vložit vzor nes#<br><br>Odber Lab mat k vyšetreniu, FW., + ven krv , stolica, moč <br>pacienta objednávame na následné lekárske vyšetrenie<br>UPOZORNENIE: vyšetrenie lekárom nesmie presiahnuť 30 dní po odbere - nutnosť opakovania odberu.<br>Prehlasujem a potvrdzujem svojim podpisom, že som si text prečítal a obsahu rozumiem a s navrhnutým postupom súhlasím<br>Pacientom nahlásená zmena termínu vyšetrenia:<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 15,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[159] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonom podľa č. 157, 158 a 160. Výkon môže vykazovať lekár so špecializáciou všeobecné lekárstvo",
+            "props": {
+              "propBody": 0,
+              "idClassid": "vykon",
+              "idEzid": "02089691345@12",
+              "id": 159
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "p": [
+      {
+        "id": 16,
+        "order": 7,
+        "props": {
+          "type": "p"
+        },
+        "value": {
+          "text": {
+            "value": "FOB test vydaný, žiadať vrátenie na vyhodnotenie<br>",
+            "props": {}
+          },
+          "at": {
+            "value": "15.11.2019 09:57",
+            "props": {
+              "propValue": "2019-11-15T08:57:04.649Z",
+              "expr": "=+1d"
+            }
+          },
+          "priority": {
+            "value": "veľmi",
+            "props": {
+              "propValue": 20
+            }
+          },
+          "done": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vlozit": [
+      {
+        "id": 19,
+        "order": 9,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Výmenný lístok GYN",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 22,
+        "order": 12,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Výmenný lístok URO, Z125",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020"
+}

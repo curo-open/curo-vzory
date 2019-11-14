@@ -1,0 +1,51 @@
+{
+  "type": "examination",
+  "summary": "Výmenný lístok - potvrdenie o zdravotnom stave",
+  "content": "<section data-x-id=\"2\" data-type=\"vl\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Výmenný lístok​:</label><div class=\"FieldHtml _focus\" data-name=\"text\">Pacient je dlhodobo na PN.<br>Pre posúdenie možnej invalidity  prosím o vyjadrenie k&nbsp;rozsahu nálezu, funkčných zmien plánovania doplňujúcich vyšetrení, príp. prognózy ochorenia.<br>Za spoluprácu vopred vďaka<br></div>​<label data-for=\"odbor\" class=\" _noval\">odborné zameranie:​</label><div class=\"_noval FieldSearch hasActions\" data-name=\"odbor\"></div>​<label data-for=\"druh\" class=\"\">druh špecializovaného útvaru​</label><div class=\"FieldSearch hasActions truncate\" data-name=\"druh\" data-id=\"2\" data-id-ezid=\"00000000273@3\" data-id-classid=\"cinnost\" title=\"[2] ambulancia\" style=\"width: 20ch;\">[2] ambulancia</div>​<label data-for=\"presne\" class=\"\">len text​</label><div class=\"FieldSwitchX hasActions\" data-name=\"presne\" data-prop-value=\"1\">x</div>​<label data-for=\"extended\" class=\" _noval\">zobraziť dodatočné atribúty​</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"extended\"></div>​<label data-for=\"patientInfo\" class=\"_noval hidden\">informácia pre pacienta:​</label><div class=\"_noval FieldHtml hidden\" data-name=\"patientInfo\"></div>​<label data-for=\"urgency\" class=\"hidden\">urgentnosť vyšetrenia:​</label><div class=\"FieldList hasActions hidden\" data-name=\"urgency\" data-prop-value=\"bezne\">Bežné</div>​<label data-for=\"platnost\" class=\"hidden\">platnosť​</label><div class=\"FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"platnost\" data-prop-value=\"2020-11-13T07:06:28.311Z\">13.11.2020</div></section>",
+  "title": "Výmenný lístok - potvrdenie o zdravotnom stave",
+  "shortcut": "vlzs",
+  "if": "",
+  "data": {
+    "_": {},
+    "vl": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "Potvrdenie o zdravotnom stave<br>Zdravotný stav dobrý, t.č bez známok infekčnosti, základné ochorenie stabilizované  <br>Menovaný je spôsobilý k nástupu na kúpeľnú liečbu<br>Potvrdenie o zdravotnom stave <br>Zdravotný stav menovaného je dobrý, <br>t.č. bez známok akútneho, či infekčného <br>ochorenia. <br>Chronické diagnózy sú stabilizované<br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "",
+            "props": {}
+          },
+          "druh": {
+            "value": "[2] ambulancia",
+            "props": {
+              "idClassid": "cinnost",
+              "idEzid": "00000000273@3",
+              "id": 2
+            }
+          },
+          "presne": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020"
+}

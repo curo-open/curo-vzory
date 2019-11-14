@@ -1,0 +1,182 @@
+{
+  "summary": "Vyšetrenie - komplexné",
+  "content": "<section data-x-id=\"2\" data-type=\"s\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml _focus\" data-name=\"s\"><br></div></section><section data-x-id=\"3\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\"></div></section><section data-x-id=\"4\" data-type=\"z\" class=\"\"><aside></aside><label class=\"section-label  \">Záver​:</label><div class=\"FieldHtml\" data-name=\"z\"></div></section><section data-x-id=\"5\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"_noval FieldSearch hasActions highlight\" data-name=\"id\"></div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"10\" data-type=\"r\" class=\"\"><aside></aside><label class=\"section-label  has-info\">Recept​:</label><div class=\"_noval FieldSearch hasActions highlight-bold\" data-name=\"id\"></div>​<label data-for=\"schedule\" class=\" _noval\">dávkovanie​</label><div class=\"_noval FieldMedicationSchedule hasActions\" data-name=\"schedule\"></div><br><label data-for=\"qty\" class=\"\">počet balení​</label><div class=\"FieldR\" data-name=\"qty\">1</div>​<label data-for=\"payoff\" class=\"\">doplatok celkom​</label><div class=\"FieldR locked\" data-name=\"payoff\" data-prop-value=\"0.00\">0</div>​<label data-for=\"atc\" class=\"_noval hidden\">cez ATC​</label><div class=\"_noval FieldSwitchLogical hasActions hidden\" data-name=\"atc\" data-prop-value=\"0\">nie</div>​<label data-for=\"instruction\" class=\" _noval\">inštrukcie​</label><div class=\"_noval Field\" data-name=\"instruction\"></div><br><label data-for=\"recommendedBy\" class=\" _noval\">odporúčajúci lekár​</label><div class=\"_noval FieldSearchLekar hasActions\" data-name=\"recommendedBy\"></div>​<label data-for=\"recommendedDate\" class=\"_noval hidden\">dátum odp.​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"recommendedDate\"></div>​<label data-for=\"untilDate\" class=\"_noval hidden\">platné do​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"untilDate\"></div>​<label data-for=\"noReplacement\" class=\"_noval hidden\">zákaz vydania náhrady​</label><div class=\"_noval FieldSwitchLogical hasActions hidden\" data-name=\"noReplacement\" data-prop-value=\"0\">nie</div>​<label data-for=\"repeatCount\" class=\"\">opakovaní​</label><div class=\"FieldN\" data-name=\"repeatCount\">1</div>​<label data-for=\"repeatAfter\" class=\"hidden\">dní medzi výberom​</label><div class=\"FieldN hidden\" data-name=\"repeatAfter\">30</div>​<label data-for=\"repeatLast\" class=\"_noval hidden\">posledný výber​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"repeatLast\"></div>​<label data-for=\"reasonPayoff\" class=\" _noval\">uhradí​</label><div class=\"_noval FieldSwitch hasActions\" data-name=\"reasonPayoff\"></div>​<label data-for=\"prodException\" class=\" _noval\">produkt na výnimku​</label><div class=\"_noval FieldSwitchLogical hasActions\" data-name=\"prodException\" data-prop-value=\"0\">nie</div>​<label data-for=\"force\" class=\"\">vynútený zápis​</label><div class=\"FieldSwitchLogical hasActions\" data-name=\"force\" data-prop-value=\"0\">nie</div>​<label data-for=\"forceReason\" class=\"_noval hidden\">dôvod v.z.​</label><div class=\"_noval Field hidden\" data-name=\"forceReason\"></div>​<label data-for=\"barcode\" class=\"_noval hidden\">čiarový kód​</label><div class=\"_noval Field readonly dontCopy hidden\" data-name=\"barcode\"></div>​<label data-for=\"note_zp\" class=\"_noval hidden\">poznámka ZP​</label><div class=\"_noval Field readonly dontCopy hidden\" data-name=\"note_zp\"></div>​<label data-for=\"status\" class=\"invisible _noval\">stav​</label><div class=\"_noval FieldN readonly dontCopy invisible\" data-name=\"status\"></div></section><section data-x-id=\"6\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"4\" data-id-ezid=\"00000466524\" data-id-classid=\"vykon\" data-prop-body=\"200\" title=\"[4] &quot;Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani\" style=\"width: 50ch;\">[4] \"Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
+  "title": "Vyšetrenie - komplexné",
+  "shortcut": "vykx",
+  "if": "",
+  "data": {
+    "_": {},
+    "s": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "ostatné: Nezadýchava sa , nekašle, teploty nemá, bolesti hlavy  nemá , závraty nemá, bolesti na hrudníku neudáva, bolesti brucha nemá,  bolesti DK nemá <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "ostatný nález:  Pacient pri vedomí , spolupracuje, orientácia časovo, miestne a odpovede na otázky bez latencie. Lateralizácia neprítomná. Hlava, krk BPN. Pharynx BPN. Pulmo:dýchanie vezikulárne, COR AS pravidelná, ozvy ohraničené, DK opuchy neprítomné,  Abdomen priehmatné BPN<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 14,
+        "order": 2,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "Dodržiavanie dohovoreného liečebného režimu,dostatočnej hydratácie,opatrení pre zdr. ŽŠ, vrátane monitoringu TK v domácom prostredí. Pokračujeme v doporučenej liečbe. (Rp.). <br>Kontrola   podľa potreby -po spotrebovaní liekov  ,  a/alebo s výsledkami odb.vyšetrení<br>V prípade zhoršenia stavu, alebo výskytu nežiadúcich účinkov liekov, alebo príznakov iného ochorenia kontrola ihneď, alebo cestou APS alebo RZP č.t.155!<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "premenna": [
+      {
+        "id": 16,
+        "order": 4,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "infsuhlas",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "ON",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 17,
+        "order": 5,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? var.infsuhlas == \"ON\" }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 18,
+        "order": 6,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pacient súhlasil s narhovaným postupom potvrdil to podpísanim informovaného súhlasu<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 19,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 5,
+        "order": 8,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 6,
+        "order": 9,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[4] \"Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani",
+            "props": {
+              "propBody": 200,
+              "id": 4,
+              "idEzid": "00000466524",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020"
+}
