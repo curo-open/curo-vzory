@@ -1,6 +1,6 @@
 {
   "title": "Výmenný lístok",
-  "shortcut": "4",
+  "shortcut": "vl",
   "content": "<section data-x-id=\"4\" data-type=\"vl\" class=\"\"><aside></aside><label class=\"section-label  \">Výmenný lístok:</label><div class=\"FieldHtml\" data-name=\"text\">Prosím o Vaše vyšetrenie a liečbu.<br>Ďakujem<br></div><label data-for=\"odbor\" class=\" _noval\">odborné zameranie:</label><div class=\"_noval FieldSearch hasActions\" data-name=\"odbor\"></div><label data-for=\"druh\" class=\" _noval\">druh špecializovaného útvaru</label><div class=\"_noval FieldSearch hasActions\" data-name=\"druh\"></div><label data-for=\"presne\" class=\" _noval\">len text</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"presne\"></div><label data-for=\"extended\" class=\" _noval\">zobraziť dodatočné atribúty</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"extended\"></div><label data-for=\"patientInfo\" class=\" _noval\">informácia pre pacienta:</label><div class=\"_noval FieldHtml\" data-name=\"patientInfo\"></div><label data-for=\"urgency\" class=\" _noval\">urgentnosť vyšetrenia:</label><div class=\"_noval FieldList hasActions\" data-name=\"urgency\"></div><label data-for=\"platnost\" class=\" _noval\">platnosť</label><div class=\"_noval FieldDate hasActions\" data-name=\"platnost\"></div></section>",
   "if": "",
   "data": {
@@ -14,7 +14,7 @@
         },
         "value": {
           "text": {
-            "value": "Prosím o Vaše vyšetrenie a liečbu.<br>Ďakujem<br>",
+            "value": "Prosím láskavo o Vaše odborné vyšetrenie dif Dg a odporúčanie na liečbu<br>Dg:<br>Za spoluprácu vopred vďaka<br>",
             "props": {}
           },
           "odbor": {
@@ -22,12 +22,18 @@
             "props": {}
           },
           "druh": {
-            "value": "",
-            "props": {}
+            "value": "[2] ambulancia",
+            "props": {
+              "id": 2,
+              "idEzid": "00000000273@3",
+              "idClassid": "cinnost"
+            }
           },
           "presne": {
-            "value": "",
-            "props": {}
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
           },
           "extended": {
             "value": "",
