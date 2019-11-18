@@ -17,7 +17,7 @@
             "props": {}
           },
           "podnadpis": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -106,7 +106,7 @@
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           },
           "kvo": {
@@ -125,7 +125,7 @@
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -140,7 +140,7 @@
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -155,7 +155,7 @@
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -170,7 +170,7 @@
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -291,7 +291,43 @@
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "",
+            "props": {}
+          },
+          "prvamen": {
+            "value": "",
+            "props": {}
+          },
+          "pravidelnost": {
+            "value": "",
+            "props": {}
+          },
+          "bolest": {
+            "value": "",
+            "props": {}
+          },
+          "cyklus": {
+            "value": "",
+            "props": {}
+          },
+          "menopauza": {
+            "value": "",
+            "props": {}
+          },
+          "porody": {
+            "value": "",
+            "props": {}
+          },
+          "potraty": {
+            "value": "",
+            "props": {}
+          },
+          "interrupcie": {
+            "value": "",
+            "props": {}
+          },
+          "posinterrupcia": {
+            "value": "",
             "props": {}
           }
         }
@@ -308,9 +344,9 @@
           "id": {
             "value": "[T] Tetanus",
             "props": {
-              "id": "T",
+              "idClassid": "ockovanie",
               "idEzid": "00000115923@2",
-              "idClassid": "ockovanie"
+              "id": "T"
             }
           },
           "datum": {
@@ -333,7 +369,7 @@
         },
         "value": {
           "s": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -348,7 +384,7 @@
         },
         "value": {
           "o": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -586,7 +622,7 @@
         },
         "value": {
           "z": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -634,9 +670,9 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z00.0",
               "idEzid": "02089520809@9",
-              "id": "Z00.0"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -655,9 +691,9 @@
           "id": {
             "value": "[Z00.8] Iné všeobecné vyšetrenie",
             "props": {
-              "id": "Z00.8",
+              "idClassid": "diagnoza",
               "idEzid": "02089520874@9",
-              "idClassid": "diagnoza"
+              "id": "Z00.8"
             }
           },
           "text": {
@@ -679,9 +715,9 @@
             "value": "[60] Komplexné vyšetrenie pacienta (kompletná anamnéza, vyšetrenie všetkých orgánových systémov, založenie zdravotnej dokumentácie, diagnostický záver, liečebný plán a (alebo) zaradenie do dispenzárnej starostlivosti, odoslanie pacienta na ďalšie laborató",
             "props": {
               "propBody": 350,
-              "idClassid": "vykon",
+              "id": 60,
               "idEzid": "00000466730@8",
-              "id": 60
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -701,9 +737,9 @@
             "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
               "propBody": 180,
-              "id": 10,
+              "idClassid": "vykon",
               "idEzid": "00000466565@9",
-              "idClassid": "vykon"
+              "id": 10
             }
           },
           "count": {
@@ -723,9 +759,9 @@
             "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
               "propBody": 180,
-              "idClassid": "vykon",
+              "id": 10,
               "idEzid": "00000466565@9",
-              "id": 10
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -737,7 +773,9 @@
     ]
   },
   "summary": "Vstupné vyšetrenie - Kapitácia",
-  "tags": [],
+  "tags": [
+    "prehlad-kapitacia"
+  ],
   "vars": {},
   "type": "examination",
   "source": "curo-open/curo-vzory#/020"
