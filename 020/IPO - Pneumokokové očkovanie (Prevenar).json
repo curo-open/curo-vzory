@@ -46,15 +46,15 @@
           "id": {
             "value": "[IPO] Invazívne pneumokokové ochorenia",
             "props": {
-              "id": "IPO",
+              "idClassid": "ockovanie",
               "idEzid": "00000346452@2",
-              "idClassid": "ockovanie"
+              "id": "IPO"
             }
           },
           "datum": {
-            "value": "02.09.2019",
+            "value": "20.11.2019",
             "props": {
-              "propValue": "2019-09-02T11:52:43.201Z",
+              "propValue": "2019-11-20T08:59:42.391Z",
               "expr": "=dnes"
             }
           },
@@ -76,23 +76,23 @@
           "id": {
             "value": "[85033] Prevenar 13 injekčná suspenzia | sus inj 1x0,5 ml (striek.inj.skl.napln.+ samost.ihla)",
             "props": {
-              "propDpl": 12.72,
-              "propSpUhr": "V",
-              "propIo": "ind.obm.",
-              "propGp": 0,
-              "propUzp_1zvj": 41.49,
-              "propVnl": "R",
-              "propCena": 54.21,
-              "propSdl": 1,
-              "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén konjugovaný",
               "propOl": 1,
-              "id": 85033,
-              "idUl": "",
-              "idAtc": "J07AL02",
-              "idSp": "imu",
-              "idF": "SUS INJ",
+              "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén konjugovaný",
+              "propSdl": 1,
+              "propCena": 54.21,
+              "propVnl": "R",
+              "propUzp_1zvj": 41.49,
+              "propGp": 0,
+              "propIo": "ind.obm.",
+              "propSpUhr": "V",
+              "propDpl": 12.72,
+              "idClassid": "liek",
               "idEzid": "00020008025",
-              "idClassid": "liek"
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07AL02",
+              "idUl": "",
+              "id": 85033
             }
           },
           "sn": {
@@ -112,10 +112,105 @@
         }
       }
     ],
+    "r": [
+      {
+        "id": 13,
+        "order": 4,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[85033] Prevenar 13 injekčná suspenzia | sus inj 1x0,5 ml (striek.inj.skl.napln.+ samost.ihla)",
+            "props": {
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén konjugovaný",
+              "propSdl": 1,
+              "propCena": 54.21,
+              "propVnl": "R",
+              "propUzp_1zvj": 50.872,
+              "propGp": 0,
+              "propIo": "ind.obm.",
+              "propSpUhr": "V",
+              "propDpl": 3.34,
+              "idClassid": "liek",
+              "idEzid": "00020008025",
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07AL02",
+              "idUl": "",
+              "id": 85033
+            }
+          },
+          "schedule": {
+            "value": "Ad Manus Medici, SUS",
+            "props": {
+              "propWay_code": "",
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propForm_id": "SUS",
+              "propForm_t": "suspenzia",
+              "propText": "",
+              "propType": "AMM"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "payoff": {
+            "value": "3,34",
+            "props": {
+              "propValue": 3.34
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
     "vd": [
       {
         "id": 6,
-        "order": 4,
+        "order": 5,
         "props": {
           "type": "vd"
         },
@@ -123,9 +218,9 @@
           "id": {
             "value": "[Z23.8] Potreba imunizácie proti inej jednotlivej baktériovej chorobe",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z23.8",
               "idEzid": "02089522193@12",
-              "id": "Z23.8"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -138,7 +233,7 @@
     "vv": [
       {
         "id": 8,
-        "order": 5,
+        "order": 6,
         "props": {
           "type": "vv"
         },
@@ -147,9 +242,9 @@
             "value": "[252b] Očkovanie.",
             "props": {
               "propBody": 70,
-              "idClassid": "vykon",
+              "id": "252b",
               "idEzid": "00000467878@7",
-              "id": "252b"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -161,7 +256,8 @@
     ]
   },
   "tags": [
-    "sumar-ipo"
+    "sumar-ipo",
+    "prehlad-oc-ipo"
   ],
   "vars": {},
   "summary": "IPO - Pneumokokové očkovanie (Prevenar)",

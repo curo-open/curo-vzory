@@ -51,9 +51,9 @@
             }
           },
           "datum": {
-            "value": "29.09.2018",
+            "value": "20.11.2019",
             "props": {
-              "propValue": "2018-09-29T15:04:26.939Z",
+              "propValue": "2019-11-20T08:59:32.156Z",
               "expr": "=dnes"
             }
           },
@@ -111,10 +111,105 @@
         }
       }
     ],
+    "r": [
+      {
+        "id": 13,
+        "order": 4,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[25092] ENGERIX-B 20 µg | sus inj 1x1 ml (striek.inj.skl.napln.)",
+            "props": {
+              "propDpl": 0,
+              "propSpUhr": "V",
+              "propIo": "ind.obm.",
+              "propGp": 0,
+              "propUzp_1zvj": 1,
+              "propVnl": "R",
+              "propCena": 12.73,
+              "propSdl": 1,
+              "propAtcName": "Očkovacia látka proti hepatitíde B, purifikovaný antigén",
+              "propOl": 1,
+              "id": 25092,
+              "idUl": "",
+              "idAtc": "J07BC01",
+              "idSp": "imu",
+              "idF": "SUS INJ",
+              "idEzid": "00020560546",
+              "idClassid": "liek"
+            }
+          },
+          "schedule": {
+            "value": "Ad Manus Medici, SUS",
+            "props": {
+              "propWay_code": "",
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propForm_id": "SUS",
+              "propForm_t": "suspenzia",
+              "propText": "",
+              "propType": "AMM"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
     "vd": [
       {
         "id": 6,
-        "order": 4,
+        "order": 5,
         "props": {
           "type": "vd"
         },
@@ -137,7 +232,7 @@
     "vv": [
       {
         "id": 8,
-        "order": 5,
+        "order": 6,
         "props": {
           "type": "vv"
         },
@@ -160,7 +255,8 @@
     ]
   },
   "tags": [
-    "sumar-vhb"
+    "sumar-vhb",
+    "prehlad-oc-vhb"
   ],
   "vars": {},
   "description": "Očkovanie proti Vírusovovej hepatitíde typu B (Vírusová hepatitída B)",

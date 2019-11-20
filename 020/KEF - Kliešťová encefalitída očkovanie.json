@@ -53,9 +53,9 @@
             }
           },
           "datum": {
-            "value": "29.09.2018",
+            "value": "20.11.2019",
             "props": {
-              "propValue": "2018-09-29T06:15:34.422Z",
+              "propValue": "2019-11-20T08:59:21.716Z",
               "expr": "=dnes"
             }
           },
@@ -198,6 +198,16 @@
             "value": "1",
             "props": {}
           },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
           "force": {
             "value": "nie",
             "props": {
@@ -237,7 +247,8 @@
     ]
   },
   "tags": [
-    "sumar-kef"
+    "sumar-kef",
+    "prehlad-oc-kef"
   ],
   "vars": {},
   "type": "examination",
