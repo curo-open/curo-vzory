@@ -1,7 +1,7 @@
 {
-  "title": "Nález pre kompenzáciu, preukaz, ...",
+  "title": "SP - Posudzovací nález pre kompenzáciu, preukaz, ...",
   "shortcut": "sp-kompenzacia",
-  "summary": "Nález pre kompenzáciu, preukaz, ...",
+  "summary": "SP - Posudzovací nález pre kompenzáciu, preukaz, ...",
   "if": "",
   "data": {
     "_": {},
@@ -18,7 +18,7 @@
             "props": {}
           },
           "anamneza_subjektivna": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           },
           "habitus": {
@@ -46,7 +46,7 @@
             "props": {}
           },
           "nalez_a": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           },
           "nalez_b": {
@@ -76,5 +76,9 @@
       }
     ]
   },
+  "tags": [
+    "prehlad-sp-posudzovaci"
+  ],
+  "vars": {},
   "source": "curo-open/curo-vzory#/020"
 }

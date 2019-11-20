@@ -52,7 +52,7 @@
             "props": {}
           },
           "vysledky_nalezov": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           },
           "vysledky_vesetreni": {
@@ -91,5 +91,9 @@
     ]
   },
   "type": "examination",
+  "tags": [
+    "prehlad-sp-prehliadky"
+  ],
+  "vars": {},
   "source": "curo-open/curo-vzory#/020"
 }
