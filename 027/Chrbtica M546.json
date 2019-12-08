@@ -1,0 +1,200 @@
+{
+  "content": "<section data-x-id=\"22\" data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"_noval FieldList hasActions\" data-name=\"reason\"></div>​<label data-for=\"datum\" class=\"_noval hidden\">zo dňa​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"id\" class=\"_noval hidden\">identifikátor​</label><div class=\"_noval Field hidden\" data-name=\"id\"></div></section><section data-x-id=\"25\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"_noval FieldHtml\" data-name=\"s\">Pac. odoslaná  ort. ako gonalgia. RTG inc. GA<br>S má asi 2 mesiace bol. LS s propag.  ku  kolenu vlavo. Bola na reumatol. vyš.-  negat.<br>chôdzu netoleruje, v noci nie.<br></div></section><section data-x-id=\"5\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"_noval FieldHtml\" data-name=\"o\">Pac. odoslaná  ort. ako gonalgia. RTG inc. GA<br>S má asi 2 mesiace bol. LS s propag.  ku  kolenu vlavo. Bola na reumatol. vyš.-  negat.<br>chôdzu netoleruje, v noci nie.<br></div></section><section data-x-id=\"7\" data-type=\"z\" class=\"\"><aside></aside><label class=\"section-label  \">Záver​:</label><div class=\"_noval FieldHtml\" data-name=\"z\">GA bil. incip. <br>LIS L5 l. sin. susp. <br>coxalgia l.  sin. <br>Ad RTG <br></div></section><section data-x-id=\"29\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"_noval FieldHtml\" data-name=\"th\"></div></section><section data-x-id=\"11\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"_noval FieldSearch hasActions highlight truncate\" data-name=\"id\" data-ignore-visited=\"true\" title=\"[M17.0] Primárna artróza kolenného kĺbu, obojstranná\" style=\"width: 50ch;\" data-id=\"M17.0\" data-id-ezid=\"02089425710@11\" data-id-classid=\"diagnoza\">[M17.0] Primárna artróza kolenného kĺbu, obojstranná</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"23\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" title=\"[505] Evalvácia funkčných porúch pohybového systému. Môže vykazovať len lekár s FBLR. Môže sa vykazovať u pacientov po NCMP, polytraume, pri transverzálnych léziách, u vertebrogénnych a imobilných pacientov\" style=\"width: 50ch;\" data-id=\"505\" data-id-ezid=\"00000475384@11\" data-id-classid=\"vykon\" data-prop-body=\"650\">[505] Evalvácia funkčných porúch pohybového systému. Môže vykazovať len lekár s FBLR. Môže sa vykazovať u pacientov po NCMP, polytraume, pri transverzálnych léziách, u vertebrogénnych a imobilných pacientov</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"19\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" title=\"[510] Cielená odborná inštruktáž - oboznámenie pacienta s používaním a obsluhou jednoduchých technických a kompenzačných pomôcok, zariadení a prístrojov (peroneálny stimulátor, TENS, skoliostop, myostimulátor, ortézy, protézy), inštruktáž o posturálnej živ\" style=\"width: 50ch;\" data-id=\"510\" data-id-ezid=\"00000469213@11\" data-id-classid=\"vykon\" data-prop-body=\"150\">[510] Cielená odborná inštruktáž - oboznámenie pacienta s používaním a obsluhou jednoduchých technických a kompenzačných pomôcok, zariadení a prístrojov (peroneálny stimulátor, TENS, skoliostop, myostimulátor, ortézy, protézy), inštruktáž o posturálnej živ</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"38\" data-type=\"vd\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"_noval FieldSearch hasActions highlight truncate _focus\" data-name=\"id\" data-ignore-visited=\"true\" title=\"[M51.1†] Poškodenie driekových a iných medzistavcových platničiek s radikulopatiou (G55.1*)\" style=\"width: 50ch;\" data-id=\"M51.1†\" data-id-ezid=\"02089436550@11\" data-id-classid=\"diagnoza\">[M51.1†] Poškodenie driekových a iných medzistavcových platničiek s radikulopatiou (G55.1*)</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section>",
+  "title": "Chrbtica M546",
+  "shortcut": "m546",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 22,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 25,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "Pac. má bol. Th chrbtice , obv. lek.  predpísal Dorsiflex, Flector<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "blok.  v seg.  Th6-8 do extenzie, tuhá, nemanipul., <br>refl. zmeny <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 7,
+        "order": 3,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "Th algic. sy s blok. v seg. Th6-8 a refl. zmenami <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 29,
+        "order": 4,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "1. 2x las. na Th bol. obl. spr. 0800,0725,27,28, <br>2. ET na Th bol. obl. 6-8,LP6LP6 P1947 trans<br>3. UZV na svaly periscap.a tesne k  Th 6-8 vlavo  P myospasmus á 1-2 min. <br>4. prid.  MT/ČM Th<br>4x, potom: <br>1. MgTh na  Th 2D P VAS s refl. zmenami <br>2. ČM/RM Th <br>3. ILTV-streč., dystrak , koaktiv. panva trup,  mobilta a stabil.  Th <br>4x, ex, ko  pp.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 11,
+        "order": 5,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M54.6] Bolesť v oblasti hrudníkovej chrbtice",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089437251@11",
+              "id": "M54.6"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 23,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[505] Evalvácia funkčných porúch pohybového systému. Môže vykazovať len lekár s FBLR. Môže sa vykazovať u pacientov po NCMP, polytraume, pri transverzálnych léziách, u vertebrogénnych a imobilných pacientov",
+            "props": {
+              "propBody": 650,
+              "idClassid": "vykon",
+              "idEzid": "00000475384@11",
+              "id": 505
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 39,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[507] Manipulačný výkon cielený, nárazový. Špecializovaný liečebný výkon s cielom upravit funkčnú poruchu na jednom mieste (za každý jeden výkon).",
+            "props": {
+              "propBody": 400,
+              "idClassid": "vykon",
+              "idEzid": "00000475392@11",
+              "id": 507
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 19,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[510] Cielená odborná inštruktáž - oboznámenie pacienta s používaním a obsluhou jednoduchých technických a kompenzačných pomôcok, zariadení a prístrojov (peroneálny stimulátor, TENS, skoliostop, myostimulátor, ortézy, protézy), inštruktáž o posturálnej živ",
+            "props": {
+              "propBody": 150,
+              "idClassid": "vykon",
+              "idEzid": "00000469213@11",
+              "id": 510
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 40,
+        "order": 9,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[578] Laseroterapia (liečebné využitie lasera). Môže vykazovať len lekár s osvedčením.",
+            "props": {
+              "propBody": 400,
+              "idClassid": "vykon",
+              "idEzid": "00000469247@11",
+              "id": 578
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/027"
+}

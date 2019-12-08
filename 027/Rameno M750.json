@@ -1,0 +1,200 @@
+{
+  "content": "<section data-x-id=\"22\" data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"_noval FieldList hasActions\" data-name=\"reason\"></div>​<label data-for=\"datum\" class=\"_noval hidden\">zo dňa​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"id\" class=\"_noval hidden\">identifikátor​</label><div class=\"_noval Field hidden\" data-name=\"id\"></div></section><section data-x-id=\"5\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"_noval FieldHtml\" data-name=\"o\">Pac.odoslaný  ort. ako  M773, RTG - negat. <br>Palp.bol.  úpon. m. quadratus plantae, mierny erytém,  pes planus<br></div></section><section data-x-id=\"7\" data-type=\"z\" class=\"\"><aside></aside><label class=\"section-label  \">Záver​:</label><div class=\"_noval FieldHtml\" data-name=\"z\">calcarcalcanei infer.  incip. <br>entesopatiam. quadratus plantae   l.dx.<br></div></section><section data-x-id=\"9\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"_noval FieldHtml\" data-name=\"th\">1. 4xlaser na P patu  na bol. miesto P 0800,0725, calcar, tendopa <br>2. ET na P patu  trans úpon m.  q. plantae vac P1947 LP6LP6 <br>3. UZV na obl.  P paty nu  úpon m.  q. plantae P tendopa 1-2 min.  <br>5x,<br>4. prid.  MT P noha<br>potom:<br>1. MgTh na P patu  p calcar 2D15-254 min. <br>2. MT/ČMP noha<br>3. UZV pokr. <br>5x,ex, ko p.p.<br></div></section><section data-x-id=\"11\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"_noval FieldSearch hasActions highlight truncate\" data-name=\"id\" data-ignore-visited=\"true\" title=\"[M77.3] Ostroha pätovej kosti [kohútia ostroha]\" style=\"width: 50ch;\" data-id=\"M77.3\" data-id-ezid=\"02089444414@11\" data-id-classid=\"diagnoza\">[M77.3] Ostroha pätovej kosti [kohútia ostroha]</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"17\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"63\" data-id-ezid=\"00000117556@11\" data-id-classid=\"vykon\" data-prop-body=\"200\" title=\"[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"19\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"510\" data-id-ezid=\"00000469213@11\" data-id-classid=\"vykon\" data-prop-body=\"150\" title=\"[510] Cielená odborná inštruktáž - oboznámenie pacienta s používaním a obsluhou jednoduchých technických a kompenzačných pomôcok, zariadení a prístrojov (peroneálny stimulátor, TENS, skoliostop, myostimulátor, ortézy, protézy), inštruktáž o posturálnej živ\" style=\"width: 50ch;\">[510] Cielená odborná inštruktáž - oboznámenie pacienta s používaním a obsluhou jednoduchých technických a kompenzačných pomôcok, zariadení a prístrojov (peroneálny stimulátor, TENS, skoliostop, myostimulátor, ortézy, protézy), inštruktáž o posturálnej živ</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"20\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"578\" data-id-ezid=\"00000469247@11\" data-id-classid=\"vykon\" data-prop-body=\"400\" title=\"[578] Laseroterapia (liečebné využitie lasera). Môže vykazovať len lekár s osvedčením.\" style=\"width: 50ch;\">[578] Laseroterapia (liečebné využitie lasera). Môže vykazovať len lekár s osvedčením.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
+  "title": "Rameno M750",
+  "shortcut": "m750",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 22,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 25,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "ac.má recidávu  ťažkostí bolestí PRK,  pozáťaž.<br>menop., sedavá  práca , farmakoter.  od bol.nemá, lieči  sa na tlak,noč.  bol. nemá.Pravák.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "AHPRK v plnom rozsahu,  zmen.  ster.,   a s komp. súhybom  CTh chrbt. bol.zad.  burzy.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 7,
+        "order": 3,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "St.p. potraumatic. sy bol. ramena l.dx. <br>Cpsadhesiva l.dx. <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 9,
+        "order": 4,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "1.2x laser ventr. na SA priest. spr. P 0800,0725,tendopa<br>2.MgTH na P rameno P PHS2D 15-25 min. <br>3.UZV na trap.  asvaly okolo  P lopat.  P myospasmus do 2 min.  a nazad.  burzu P tendopa 1 min.  <br>4x,<br>potom:1. ČM/MT PRK/CTh/Th<br>2.ILTV- centrácia,  stabil.,  koaktiv.,  rozsah,  McKenzie CD<br>3.MgTh pokr. <br>4x,potom: <br>1.ČM P rameno/CTh<br>2.ILTV- pokr.<br>4x,ex, ko pri pretrv.  ťažkostiach. Vtedy prosím zvážiť zákl. vyš. ŠŽ-TSH<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 11,
+        "order": 5,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M75.0] Adhezívna kapsulitída pleca",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089444182@11",
+              "id": "M75.0"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 17,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@11",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 19,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[510] Cielená odborná inštruktáž - oboznámenie pacienta s používaním a obsluhou jednoduchých technických a kompenzačných pomôcok, zariadení a prístrojov (peroneálny stimulátor, TENS, skoliostop, myostimulátor, ortézy, protézy), inštruktáž o posturálnej živ",
+            "props": {
+              "propBody": 150,
+              "idClassid": "vykon",
+              "idEzid": "00000469213@11",
+              "id": 510
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 23,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[503] Základné testovacie metódy, goniometrické vyšetrenie.",
+            "props": {
+              "propBody": 80,
+              "idClassid": "vykon",
+              "idEzid": "00000475368@11",
+              "id": 503
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 20,
+        "order": 9,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[578] Laseroterapia (liečebné využitie lasera). Môže vykazovať len lekár s osvedčením.",
+            "props": {
+              "propBody": 400,
+              "idClassid": "vykon",
+              "idEzid": "00000469247@11",
+              "id": 578
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/027"
+}

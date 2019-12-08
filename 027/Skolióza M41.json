@@ -1,0 +1,164 @@
+{
+  "title": "Skolióza M41",
+  "shortcut": "m41",
+  "if": "",
+  "data": {
+    "_": {},
+    "s": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "bez interných ochorení, alergia neudaná<br>postoj skoliotický, vyhladenie tailu <u>  </u> , depresia lopatky <u>  </u> , panva s eleváciou <u>  </u> , olovnica <u>  </u> , Thomayer  <u>  </u> cm , OII <u>  </u> cm, ORI <u>  </u> cm, Schober  <u>  </u> cm, Stibor <u>  </u> cm, lateroflexia dx <u>  </u> cm, sin <u>  </u> cm, Trendelenburg dx <u>  </u> , sin <u>  </u> , spine sign dx <u>  </u> , sin <u>  </u> , <br>chôdza <u>  </u> , na päty <u>  </u> , na špičky <u>  </u> , poskoky na PDK <u>  </u> , na LDK <u>  </u> , drep <u>  </u> , dlhý sed <u>  </u> , šikmý sed s eleváciou <u>  </u> , <br>hrudník <u>  </u> , skrátenie m. pect. major <u>  </u> , HSS <u>  </u> , brušná diastáza <u>  </u> <br>DUM <u>  </u> cm, DSM <u>  </u> cm <br>PBK: ER <u>  </u> °, IR <u>  </u> °, Patrik <u>  </u> °,  LBK : ER <u>  </u> °, IR <u>  </u> °, PAtrik <u>  </u> °<br>KK bez vybočenia, bez hyperextenzie <br>testy hypermobiity negat, koordinácia pohybov <u>  </u> , jemná motorika <u>  </u> <br>pedoskop: pes planus Godunov <u>  </u> , pes transversoplanus <u>  </u> , calcaneus valgus <u>  </u> °<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "zfp": [
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "oh": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "",
+            "props": {}
+          },
+          "temp": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 7,
+        "order": 3,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "Skolióza<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 9,
+        "order": 4,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M41.20] Iná idiopatická skolióza na viacerých miestach chrbtice",
+            "props": {
+              "id": "M41.20",
+              "idEzid": "02089431627@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 11,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[60] Komplexné vyšetrenie pacienta (kompletná anamnéza, vyšetrenie všetkých orgánových systémov, založenie zdravotnej dokumentácie, diagnostický záver, liečebný plán a (alebo) zaradenie do dispenzárnej starostlivosti, odoslanie pacienta na ďalšie laborató",
+            "props": {
+              "propBody": 350,
+              "id": 60,
+              "idEzid": "00000466730@13",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "summary": "Skolióza",
+  "type": "examination",
+  "source": "curo-open/curo-vzory#/027"
+}

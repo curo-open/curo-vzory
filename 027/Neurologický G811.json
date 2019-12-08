@@ -1,0 +1,262 @@
+{
+  "content": "<section data-x-id=\"22\" data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"_noval FieldList hasActions\" data-name=\"reason\"></div>​<label data-for=\"datum\" class=\"_noval hidden\">zo dňa​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"id\" class=\"_noval hidden\">identifikátor​</label><div class=\"_noval Field hidden\" data-name=\"id\"></div></section><section data-x-id=\"25\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"_noval FieldHtml\" data-name=\"s\">Seknutý v LS  vynut. poloha flekč., spasmus err.  spinae l. sin.  Lassague negat., Fras.  negat.<br></div></section><section data-x-id=\"5\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"_noval FieldHtml\" data-name=\"o\">chôdza postoj  vno,  dynam.  len  lahko asym.,  v záťaži provok.  skol. postavenie, oslab. later. stabilita vlavo, refl. zmeny +- <br></div></section><section data-x-id=\"7\" data-type=\"z\" class=\"\"><aside></aside><label class=\"section-label  \">Záver​:</label><div class=\"_noval FieldHtml\" data-name=\"z\">lumbalgias blok.L5S1 do  ext. <br></div></section><section data-x-id=\"29\" data-type=\"th\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"_noval FieldHtml _focus\" data-name=\"th\">1. mobilizácia do ext., <br>2.laser na LS spr. 08000725,27,28, <br>3. UZV na L err. spinae P myospasmus 1-2 min. <br>4. polohovanie- cKenzie - poloh. lehátko z fl.  do O a ext.<br>5. ILTV- ACTI, streč.  Mojž.,  McKenzie ext., Brunk I, Freeman I<br>ko <br></div></section><section data-x-id=\"11\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"_noval FieldSearch hasActions highlight truncate\" data-name=\"id\" data-ignore-visited=\"true\" title=\"[M54.5] Bolesť v krížovej oblasti\" style=\"width: 50ch;\" data-id=\"M54.5\" data-id-ezid=\"02089437244@11\" data-id-classid=\"diagnoza\">[M54.5] Bolesť v krížovej oblasti</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"23\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" title=\"[505] Evalvácia funkčných porúch pohybového systému. Môže vykazovať len lekár s FBLR. Môže sa vykazovať u pacientov po NCMP, polytraume, pri transverzálnych léziách, u vertebrogénnych a imobilných pacientov\" style=\"width: 50ch;\" data-id=\"505\" data-id-ezid=\"00000475384@11\" data-id-classid=\"vykon\" data-prop-body=\"650\">[505] Evalvácia funkčných porúch pohybového systému. Môže vykazovať len lekár s FBLR. Môže sa vykazovať u pacientov po NCMP, polytraume, pri transverzálnych léziách, u vertebrogénnych a imobilných pacientov</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"19\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" title=\"[509] Mäkké a mobilizačné techniky na chrbtici, periférnych kĺboch a svaloch. Špecializované liečebné výkony s cieľom upraviť funkčnú poruchu v oblasti pohybového systému (špeciálne mäkké techniky, PIR-postizometrická relaxácia, AGR-antigravitačná relaxáci\" style=\"width: 50ch;\" data-id=\"509\" data-id-ezid=\"00000475418@11\" data-id-classid=\"vykon\" data-prop-body=\"220\">[509] Mäkké a mobilizačné techniky na chrbtici, periférnych kĺboch a svaloch. Špecializované liečebné výkony s cieľom upraviť funkčnú poruchu v oblasti pohybového systému (špeciálne mäkké techniky, PIR-postizometrická relaxácia, AGR-antigravitačná relaxáci</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"32\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"578\" data-id-ezid=\"00000469247@11\" data-id-classid=\"vykon\" data-prop-body=\"400\" title=\"[578] Laseroterapia (liečebné využitie lasera). Môže vykazovať len lekár s osvedčením.\" style=\"width: 50ch;\">[578] Laseroterapia (liečebné využitie lasera). Môže vykazovať len lekár s osvedčením.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
+  "title": "Neurologický G811",
+  "shortcut": "g811",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 22,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 25,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bolieva ju  chron.  chrbát  a obl. LBK, bola aj na ort. vyš. , vyš.  so  sebou  nemá. Žije sama <br>chôdza s palicou, občasné prepnutie LKK a máva por. rovnováhy , <br>inak sa cíti  horšie, je deprimovaná , berie AD ,<br>neurol. sledovaná, berie Timonil, Novalgin, Tritico, Brintelix<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "chôdza zhoršená s cirkumdukciou  inverzia chodidla,  spasticita zvýrazn. , kontrakt. planty a bic.  fem.,  LHK vo fl.  postavenie IR add.,  súhyb s DKK, dysbal.  sval.  chrbtice, refl.  zmeny v Th bol.,  sedémom., LSI posunuté,  bol.  L bedro- sek. neurogén. podmien. decentr. postavenie s RTG nál. artrózy II, , JM LHK 0, bol. Prameno  z preťaž. desmog.  apar.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 7,
+        "order": 3,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "avostran. spastic. hemipar. po NCMP hemor. <br>kontrakt. LDK spastic.  a LHK<br>sek.  VAS CThLS<br>artrosis LBK II<br>SI algia a posun sek. podmien. <br>zníž.  sebeobsluha<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 29,
+        "order": 4,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "1. laser na PRK 2x ventr.  na bol.  obl.  spr.  P0800,0725,bursitis, artritis,  tendopa, 2x na LSI hor. P0800,0725,21,26, 2x na vel.  trochanter LBK P 0800,0725, tendopa, bursitis , dnes na Th chrbticu bol. obl.  0800,0725,27,28<br>2.6x UZV na trap.  err.  spinae l.dx.P myospasmus 2 min.  na LSI P pelvalgiasakralgia 1 min.  a na zad.  burzu  L ram. P tendopa 1 min. a okolo vel.  trochanteru  LBK P tendopa 1 min. <br>3. 6xET na Th bol.  chrbticu  trans P1947 LP6LP6/ na LSI trans / na LBK transtrochanter. , na zad.  burzu  LRK long. do  zad.  ax.  čiary / tarns cez  AGH l. sin.<br>potom: <br>1. ČM/RM/VM CTh/LS/LHK/LDK <br>2. ILTV- PNF l.sin.,  Bob.sekven., stabil., koaktiv.- ACT v L<br>3. MgTh na chrbt. long.  4D VAS s refl.  zmenami / prekrvenie 15-25 min.  <br>8x, ex, ko p.p.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 11,
+        "order": 5,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[G81.1] Spastická hemiparéza a hemiplégia",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089391797@11",
+              "id": "G81.1"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 38,
+        "order": 9,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M75.8] Iné poškodenie pleca",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089444240@11",
+              "id": "M75.8"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 39,
+        "order": 10,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M54.6] Bolesť v oblasti hrudníkovej chrbtice",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089437251@11",
+              "id": "M54.6"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 40,
+        "order": 11,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M54.5] Bolesť v krížovej oblasti",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089437244@11",
+              "id": "M54.5"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 41,
+        "order": 12,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M16.7] Iná sekundárna artróza bedrového kĺbu",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089425686@11",
+              "id": "M16.7"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 23,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[505] Evalvácia funkčných porúch pohybového systému. Môže vykazovať len lekár s FBLR. Môže sa vykazovať u pacientov po NCMP, polytraume, pri transverzálnych léziách, u vertebrogénnych a imobilných pacientov",
+            "props": {
+              "propBody": 650,
+              "idClassid": "vykon",
+              "idEzid": "00000475384@11",
+              "id": 505
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 19,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[510] Cielená odborná inštruktáž - oboznámenie pacienta s používaním a obsluhou jednoduchých technických a kompenzačných pomôcok, zariadení a prístrojov (peroneálny stimulátor, TENS, skoliostop, myostimulátor, ortézy, protézy), inštruktáž o posturálnej živ",
+            "props": {
+              "propBody": 150,
+              "idClassid": "vykon",
+              "idEzid": "00000469213@11",
+              "id": 510
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 32,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[578] Laseroterapia (liečebné využitie lasera). Môže vykazovať len lekár s osvedčením.",
+            "props": {
+              "propBody": 400,
+              "idClassid": "vykon",
+              "idEzid": "00000469247@11",
+              "id": 578
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/027"
+}

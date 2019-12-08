@@ -1,0 +1,222 @@
+{
+  "content": "<section data-x-id=\"22\" data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"_noval FieldList hasActions\" data-name=\"reason\"></div>​<label data-for=\"datum\" class=\"_noval hidden\">zo dňa​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"id\" class=\"_noval hidden\">identifikátor​</label><div class=\"_noval Field hidden\" data-name=\"id\"></div></section><section data-x-id=\"25\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"_noval FieldHtml\" data-name=\"s\">Chlapec narástol,  gracilné svalstvo, lahko  kyfotic.  držanie  hor.  Th <br>matkaudáva že by sa mohol  viac hýbať.<br></div></section><section data-x-id=\"5\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"_noval FieldHtml\" data-name=\"o\">kyfotic.držanie hor.  Th, s minima asym. lopatiek,  aj v záťaži, testy naHSS primer., bruš.  sval. primer., postavenie nôh v no, pohybovozvládne všetko.<br></div></section><section data-x-id=\"7\" data-type=\"z\" class=\"\"><aside></aside><label class=\"section-label  \">Záver​:</label><div class=\"_noval FieldHtml\" data-name=\"z\">Lahko kyfotic. postavenie Th hor.  v.s.  konštituč. <br>Dopor. dostatok pohybu, všestran. pohyb.  záťaž, vhod.  dychové hudob.  nástroje, plávanie, ko do konca r. p.p. <br></div></section><section data-x-id=\"11\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"_noval FieldSearch hasActions highlight truncate\" data-name=\"id\" data-ignore-visited=\"true\" title=\"[M40.04] Posturálna kyfóza hrudníkovej oblasti\" style=\"width: 50ch;\" data-id=\"M40.04\" data-id-ezid=\"02089430777@11\" data-id-classid=\"diagnoza\">[M40.04] Posturálna kyfóza hrudníkovej oblasti</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"17\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"63\" data-id-ezid=\"00000117556@11\" data-id-classid=\"vykon\" data-prop-body=\"200\" title=\"[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"23\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" title=\"[505] Evalvácia funkčných porúch pohybového systému. Môže vykazovať len lekár s FBLR. Môže sa vykazovať u pacientov po NCMP, polytraume, pri transverzálnych léziách, u vertebrogénnych a imobilných pacientov\" style=\"width: 50ch;\" data-id=\"505\" data-id-ezid=\"00000475384@11\" data-id-classid=\"vykon\" data-prop-body=\"650\">[505] Evalvácia funkčných porúch pohybového systému. Môže vykazovať len lekár s FBLR. Môže sa vykazovať u pacientov po NCMP, polytraume, pri transverzálnych léziách, u vertebrogénnych a imobilných pacientov</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"19\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"510\" data-id-ezid=\"00000469213@11\" data-id-classid=\"vykon\" data-prop-body=\"150\" title=\"[510] Cielená odborná inštruktáž - oboznámenie pacienta s používaním a obsluhou jednoduchých technických a kompenzačných pomôcok, zariadení a prístrojov (peroneálny stimulátor, TENS, skoliostop, myostimulátor, ortézy, protézy), inštruktáž o posturálnej živ\" style=\"width: 50ch;\">[510] Cielená odborná inštruktáž - oboznámenie pacienta s používaním a obsluhou jednoduchých technických a kompenzačných pomôcok, zariadení a prístrojov (peroneálny stimulátor, TENS, skoliostop, myostimulátor, ortézy, protézy), inštruktáž o posturálnej živ</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
+  "title": "Chrbtica M511",
+  "shortcut": "m511",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 22,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 25,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "Pac. má chron.  bol. LS od ___ po nesení  ťaž.  bremena.<br>recidíva bol., v LS s propag.  do P paty , vybrala 15 inf.  , MRI LS-Modic. I L5S1, och  a LD hedi  L5S1 s obštruk.  later.  rec.  a tlaku  na S1 dx.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "asym. v F lahká, dynam. zmen., Thom. 50, návret cez zarážku, Lassague vpravo + 45-50, testyHSSpos.,  skol. postaveniue sek.  v.s. <br>refl. zmeny +.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 7,
+        "order": 3,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "LIS L5S1 l.dx.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 29,
+        "order": 4,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "1.las. na LS spr. P0800,0725,27,28, 3x<br>2.MgTh na LS P LS sy Vas radik. 2D 15-25 min. 5x<br>3.prid.  MTLS<br>4.prid. ILTV- dystrak., HSS, koaktiv. <br>potom:<br>1.UZV na L svaly P myospasmus á 1 min.  <br>2.ČM/RMLS<br>3.ILTV- pokr.<br>do5x, ko.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 11,
+        "order": 5,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M40.04] Posturálna kyfóza hrudníkovej oblasti",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089430777@11",
+              "id": "M40.04"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 17,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@11",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 23,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[505] Evalvácia funkčných porúch pohybového systému. Môže vykazovať len lekár s FBLR. Môže sa vykazovať u pacientov po NCMP, polytraume, pri transverzálnych léziách, u vertebrogénnych a imobilných pacientov",
+            "props": {
+              "propBody": 650,
+              "idClassid": "vykon",
+              "idEzid": "00000475384@11",
+              "id": 505
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 19,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[510] Cielená odborná inštruktáž - oboznámenie pacienta s používaním a obsluhou jednoduchých technických a kompenzačných pomôcok, zariadení a prístrojov (peroneálny stimulátor, TENS, skoliostop, myostimulátor, ortézy, protézy), inštruktáž o posturálnej živ",
+            "props": {
+              "propBody": 150,
+              "idClassid": "vykon",
+              "idEzid": "00000469213@11",
+              "id": 510
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 26,
+        "order": 9,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[578] Laseroterapia (liečebné využitie lasera). Môže vykazovať len lekár s osvedčením.",
+            "props": {
+              "propBody": 400,
+              "idClassid": "vykon",
+              "idEzid": "00000469247@11",
+              "id": 578
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 27,
+        "order": 10,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[514] Individuálna liečebná telesná výchova II. Špeciálna systematická senzomotorická liečba funkčných a organických porúch centrálneho a periférneho systému alebo vrodených a získaných chýb pohybového apar",
+            "props": {
+              "propBody": 450,
+              "idClassid": "vykon",
+              "idEzid": "00000475434@11",
+              "id": 514
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/027"
+}
