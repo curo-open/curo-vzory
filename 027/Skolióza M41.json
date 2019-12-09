@@ -132,7 +132,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? vek =&lt; 10 }} <br>",
+            "value": "{{ ? pacient.vek &lt;= 10 }} <br>",
             "props": {}
           }
         }
@@ -158,7 +158,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? vek &gt; 10 &amp;&amp; vek &lt;= 18  }} <br>",
+            "value": "{{ ? pacient.vek &gt; 10 &amp;&amp; pacient.vek &lt;= 18  }} <br>",
             "props": {}
           }
         }
@@ -184,7 +184,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? vek &gt; 18 }} <br>",
+            "value": "{{ ? pacient.vek &gt; 18 }} <br>",
             "props": {}
           }
         }
