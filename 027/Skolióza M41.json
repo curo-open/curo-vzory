@@ -4,10 +4,25 @@
   "if": "",
   "data": {
     "_": {},
+    "od": [
+      {
+        "id": 28,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "s": [
       {
         "id": 2,
-        "order": 0,
+        "order": 1,
         "props": {
           "type": "s"
         },
@@ -22,7 +37,7 @@
     "o": [
       {
         "id": 3,
-        "order": 1,
+        "order": 2,
         "props": {
           "type": "o"
         },
@@ -37,7 +52,7 @@
     "zfp": [
       {
         "id": 5,
-        "order": 2,
+        "order": 3,
         "props": {
           "type": "zfp"
         },
@@ -96,7 +111,7 @@
     "z": [
       {
         "id": 7,
-        "order": 3,
+        "order": 4,
         "props": {
           "type": "z"
         },
@@ -108,10 +123,132 @@
         }
       }
     ],
+    "t": [
+      {
+        "id": 15,
+        "order": 5,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? vek =&lt; 10 }} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 16,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 21,
+        "order": 8,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? vek &gt; 10 &amp;&amp; vek &lt;= 18  }} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 23,
+        "order": 10,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 24,
+        "order": 11,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? vek &gt; 18 }} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 26,
+        "order": 13,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
     "vd": [
       {
+        "id": 18,
+        "order": 6,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M41.00] Infantilná idiopatická skolióza na viacerých miestach chrbtice",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089431403@12",
+              "id": "M41.00"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 22,
+        "order": 9,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M41.10] Juvenilná idiopatická skolióza na viacerých miestach chrbtice",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089431510@12",
+              "id": "M41.10"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 9,
-        "order": 4,
+        "order": 12,
         "props": {
           "type": "vd"
         },
@@ -134,17 +271,61 @@
     "vv": [
       {
         "id": 11,
-        "order": 5,
+        "order": 14,
         "props": {
           "type": "vv"
         },
         "value": {
           "id": {
-            "value": "[60] Komplexné vyšetrenie pacienta (kompletná anamnéza, vyšetrenie všetkých orgánových systémov, založenie zdravotnej dokumentácie, diagnostický záver, liečebný plán a (alebo) zaradenie do dispenzárnej starostlivosti, odoslanie pacienta na ďalšie laborató",
+            "value": "[503] Základné testovacie metódy, goniometrické vyšetrenie.",
             "props": {
-              "propBody": 350,
-              "id": 60,
-              "idEzid": "00000466730@13",
+              "propBody": 80,
+              "id": 503,
+              "idEzid": "00000475368@13",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 13,
+        "order": 15,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[504] Špeciálne vyšetrovacie metódy. Svalový test, vyšetrenie skrátených a oslabených svalov, zreťazenia, vývojová diagnostika dieťaťa, ergodiagnostické testovanie, špeciálne vyšetrenie chrbtice na počítačovom dynamometri a iné špecifické funkčné metódy.",
+            "props": {
+              "propBody": 300,
+              "id": 504,
+              "idEzid": "00000475376@13",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 14,
+        "order": 16,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[514] Individuálna liečebná telesná výchova II. Špeciálna systematická senzomotorická liečba funkčných a organických porúch centrálneho a periférneho systému alebo vrodených a získaných chýb pohybového apar",
+            "props": {
+              "propBody": 450,
+              "id": 514,
+              "idEzid": "00000475434@13",
               "idClassid": "vykon"
             }
           },

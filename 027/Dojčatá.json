@@ -7,10 +7,25 @@
   "if": "",
   "data": {
     "_": {},
+    "od": [
+      {
+        "id": 19,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "s": [
       {
         "id": 2,
-        "order": 0,
+        "order": 1,
         "props": {
           "type": "s"
         },
@@ -25,7 +40,7 @@
     "oa": [
       {
         "id": 13,
-        "order": 1,
+        "order": 2,
         "props": {
           "type": "oa"
         },
@@ -40,7 +55,7 @@
     "o": [
       {
         "id": 3,
-        "order": 2,
+        "order": 3,
         "props": {
           "type": "o"
         },
@@ -55,7 +70,7 @@
     "zfp": [
       {
         "id": 5,
-        "order": 3,
+        "order": 4,
         "props": {
           "type": "zfp"
         },
@@ -114,7 +129,7 @@
     "z": [
       {
         "id": 7,
-        "order": 4,
+        "order": 5,
         "props": {
           "type": "z"
         },
@@ -129,14 +144,18 @@
     "vd": [
       {
         "id": 9,
-        "order": 5,
+        "order": 6,
         "props": {
           "type": "vd"
         },
         "value": {
           "id": {
-            "value": "",
-            "props": {}
+            "value": "[G96.9] Choroba centrálnej nervovej sústavy, bližšie neurčená",
+            "props": {
+              "id": "G96.9",
+              "idEzid": "02089393025@12",
+              "idClassid": "diagnoza"
+            }
           },
           "text": {
             "value": "",
@@ -147,19 +166,63 @@
     ],
     "vv": [
       {
-        "id": 11,
-        "order": 6,
+        "id": 15,
+        "order": 7,
         "props": {
           "type": "vv"
         },
         "value": {
           "id": {
-            "value": "[60] Komplexné vyšetrenie pacienta (kompletná anamnéza, vyšetrenie všetkých orgánových systémov, založenie zdravotnej dokumentácie, diagnostický záver, liečebný plán a (alebo) zaradenie do dispenzárnej starostlivosti, odoslanie pacienta na ďalšie laborató",
+            "value": "[503] Základné testovacie metódy, goniometrické vyšetrenie.",
             "props": {
-              "propBody": 350,
+              "propBody": 80,
               "idClassid": "vykon",
-              "idEzid": "00000466730@13",
-              "id": 60
+              "idEzid": "00000475368@13",
+              "id": 503
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 16,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[504] Špeciálne vyšetrovacie metódy. Svalový test, vyšetrenie skrátených a oslabených svalov, zreťazenia, vývojová diagnostika dieťaťa, ergodiagnostické testovanie, špeciálne vyšetrenie chrbtice na počítačovom dynamometri a iné špecifické funkčné metódy.",
+            "props": {
+              "propBody": 300,
+              "idClassid": "vykon",
+              "idEzid": "00000475376@13",
+              "id": 504
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 17,
+        "order": 9,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[514] Individuálna liečebná telesná výchova II. Špeciálna systematická senzomotorická liečba funkčných a organických porúch centrálneho a periférneho systému alebo vrodených a získaných chýb pohybového apar",
+            "props": {
+              "propBody": 450,
+              "idClassid": "vykon",
+              "idEzid": "00000475434@13",
+              "id": 514
             }
           },
           "count": {

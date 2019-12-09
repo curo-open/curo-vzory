@@ -7,10 +7,25 @@
   "if": "",
   "data": {
     "_": {},
+    "od": [
+      {
+        "id": 23,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "s": [
       {
         "id": 2,
-        "order": 0,
+        "order": 1,
         "props": {
           "type": "s"
         },
@@ -25,7 +40,7 @@
     "oa": [
       {
         "id": 13,
-        "order": 1,
+        "order": 2,
         "props": {
           "type": "oa"
         },
@@ -40,7 +55,7 @@
     "aa": [
       {
         "id": 15,
-        "order": 2,
+        "order": 3,
         "props": {
           "type": "aa"
         },
@@ -55,7 +70,7 @@
     "o": [
       {
         "id": 3,
-        "order": 3,
+        "order": 4,
         "props": {
           "type": "o"
         },
@@ -70,7 +85,7 @@
     "th": [
       {
         "id": 17,
-        "order": 4,
+        "order": 5,
         "props": {
           "type": "th"
         },
@@ -85,7 +100,7 @@
     "zfp": [
       {
         "id": 5,
-        "order": 5,
+        "order": 6,
         "props": {
           "type": "zfp"
         },
@@ -144,7 +159,7 @@
     "z": [
       {
         "id": 7,
-        "order": 6,
+        "order": 7,
         "props": {
           "type": "z"
         },
@@ -159,14 +174,18 @@
     "vd": [
       {
         "id": 9,
-        "order": 7,
+        "order": 8,
         "props": {
           "type": "vd"
         },
         "value": {
           "id": {
-            "value": "",
-            "props": {}
+            "value": "[G54.4] Poškodenie bedrových a krížových nervových koreňov, nezatriedené inde",
+            "props": {
+              "id": "G54.4",
+              "idEzid": "02089390674@12",
+              "idClassid": "diagnoza"
+            }
           },
           "text": {
             "value": "",
@@ -177,18 +196,62 @@
     ],
     "vv": [
       {
-        "id": 11,
-        "order": 8,
+        "id": 19,
+        "order": 9,
         "props": {
           "type": "vv"
         },
         "value": {
           "id": {
-            "value": "[60] Komplexné vyšetrenie pacienta (kompletná anamnéza, vyšetrenie všetkých orgánových systémov, založenie zdravotnej dokumentácie, diagnostický záver, liečebný plán a (alebo) zaradenie do dispenzárnej starostlivosti, odoslanie pacienta na ďalšie laborató",
+            "value": "[503] Základné testovacie metódy, goniometrické vyšetrenie.",
             "props": {
-              "propBody": 350,
-              "id": 60,
-              "idEzid": "00000466730@13",
+              "propBody": 80,
+              "idClassid": "vykon",
+              "idEzid": "00000475368@13",
+              "id": 503
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 20,
+        "order": 10,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[504] Špeciálne vyšetrovacie metódy. Svalový test, vyšetrenie skrátených a oslabených svalov, zreťazenia, vývojová diagnostika dieťaťa, ergodiagnostické testovanie, špeciálne vyšetrenie chrbtice na počítačovom dynamometri a iné špecifické funkčné metódy.",
+            "props": {
+              "propBody": 300,
+              "idClassid": "vykon",
+              "idEzid": "00000475376@13",
+              "id": 504
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 21,
+        "order": 11,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[509] Mäkké a mobilizačné techniky na chrbtici, periférnych kĺboch a svaloch. Špecializované liečebné výkony s cieľom upraviť funkčnú poruchu v oblasti pohybového systému (špeciálne mäkké techniky, PIR-postizometrická relaxácia, AGR-antigravitačná relaxáci",
+            "props": {
+              "propBody": 220,
+              "id": 509,
+              "idEzid": "00000475418@13",
               "idClassid": "vykon"
             }
           },
