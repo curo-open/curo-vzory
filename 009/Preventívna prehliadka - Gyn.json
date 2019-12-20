@@ -360,6 +360,42 @@
           "text": {
             "value": "menarché ako __ ročná,  MC prav. 28/ 5  <br>    P:0       UPT: 0        Ab:0<br>",
             "props": {}
+          },
+          "prvamen": {
+            "value": "",
+            "props": {}
+          },
+          "pravidelnost": {
+            "value": "",
+            "props": {}
+          },
+          "bolest": {
+            "value": "",
+            "props": {}
+          },
+          "cyklus": {
+            "value": "",
+            "props": {}
+          },
+          "menopauza": {
+            "value": "",
+            "props": {}
+          },
+          "porody": {
+            "value": "",
+            "props": {}
+          },
+          "potraty": {
+            "value": "",
+            "props": {}
+          },
+          "interrupcie": {
+            "value": "",
+            "props": {}
+          },
+          "posinterrupcia": {
+            "value": "",
+            "props": {}
           }
         }
       }
@@ -476,9 +512,9 @@
           "id": {
             "value": "[Z01.4] Gynekologické vyšetrenie (celkové) (rutinné)",
             "props": {
-              "id": "Z01.4",
+              "idClassid": "diagnoza",
               "idEzid": "02089520932@11",
-              "idClassid": "diagnoza"
+              "id": "Z01.4"
             }
           },
           "text": {
@@ -500,9 +536,9 @@
             "value": "[4] Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani",
             "props": {
               "propBody": 200,
-              "id": 4,
+              "idClassid": "vykon",
               "idEzid": "00000466524@11",
-              "idClassid": "vykon"
+              "id": 4
             }
           },
           "count": {
@@ -522,9 +558,9 @@
             "value": "[157] Vyšetrenie na včasnú diagnostiku rakoviny u ženy vrátane rád, ak vyšetrenie trvá dlhšie ako 20 minút. (Anamnéza, inšpekcia a palpácia prsníkov, inšpekcia genitálií, vyšetrenie per rectum, nastavenie s",
             "props": {
               "propBody": 220,
-              "id": 157,
+              "idClassid": "vykon",
               "idEzid": "00000467332@11",
-              "idClassid": "vykon"
+              "id": 157
             }
           },
           "count": {
@@ -544,9 +580,9 @@
             "value": "[1070] Kolposkopia. Výkon pod kódom 1070 sa môže vykazovať pri výkonoch s kódmi 60, 62, 63 a 157.",
             "props": {
               "propBody": 150,
-              "id": 1070,
+              "idClassid": "vykon",
               "idEzid": "00000469411@11",
-              "idClassid": "vykon"
+              "id": 1070
             }
           },
           "count": {
@@ -565,11 +601,11 @@
           "id": {
             "value": "[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).",
             "props": {
-              "propBody": 1200,
               "propType": "SVaLZ",
-              "id": 5305,
+              "propBody": 1200,
+              "idClassid": "vykon",
               "idEzid": "00000492314@11",
-              "idClassid": "vykon"
+              "id": 5305
             }
           },
           "count": {
@@ -588,11 +624,11 @@
           "id": {
             "value": "[5308] Ultrazvukové vyšetrenie obidvoch prsníkov, axíl a regionálnych lymfatických uzlín.",
             "props": {
-              "propBody": 1500,
               "propType": "SVaLZ",
-              "id": 5308,
+              "propBody": 1500,
+              "idClassid": "vykon",
               "idEzid": "00000492355@11",
-              "idClassid": "vykon"
+              "id": 5308
             }
           },
           "count": {
@@ -603,7 +639,9 @@
       }
     ]
   },
-  "tags": [],
+  "tags": [
+    "sumar-ppg"
+  ],
   "vars": {},
   "summary": "Preventívna prehliadka - Gyn",
   "type": "examination",

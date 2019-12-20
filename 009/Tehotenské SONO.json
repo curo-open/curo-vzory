@@ -1,0 +1,141 @@
+{
+  "title": "Tehotenské SONO",
+  "shortcut": "ts",
+  "summary": "Tehotenské SONO",
+  "if": "",
+  "data": {
+    "_": {},
+    "sonogv": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "sonogv"
+        },
+        "value": {
+          "plod": {
+            "value": "",
+            "props": {}
+          },
+          "akcia": {
+            "value": "+",
+            "props": {}
+          },
+          "pohyby": {
+            "value": "+",
+            "props": {}
+          },
+          "CLR": {
+            "value": "",
+            "props": {}
+          },
+          "BFHR": {
+            "value": "",
+            "props": {}
+          },
+          "NT": {
+            "value": "",
+            "props": {}
+          },
+          "NB": {
+            "value": "+",
+            "props": {}
+          },
+          "PPH": {
+            "value": "P I",
+            "props": {}
+          },
+          "PV": {
+            "value": "v norme",
+            "props": {}
+          },
+          "placenta": {
+            "value": "predná stena",
+            "props": {}
+          },
+          "gr": {
+            "value": "",
+            "props": {}
+          },
+          "bp": {
+            "value": "symetrická",
+            "props": {}
+          },
+          "gvtt": {
+            "value": "",
+            "props": {}
+          },
+          "gvdt": {
+            "value": "",
+            "props": {}
+          },
+          "ov": {
+            "value": "",
+            "props": {}
+          },
+          "TP": {
+            "value": "",
+            "props": {}
+          },
+          "zaver": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 7,
+        "order": 1,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z34.0] Dohľad nad normálnou prvou graviditou",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089522839@11",
+              "id": "Z34.0"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 11,
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[108] Ultrazvukové sledovanie tehotenstva vrátane biometrie a posúdenie vývoja orgánov vrátane obrazovej dokumentácie, za každé vyšetrenie.",
+            "props": {
+              "propBody": 350,
+              "id": 108,
+              "idEzid": "00000466979@11",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "sumar-ts"
+  ],
+  "vars": {},
+  "type": "examination",
+  "source": "curo-open/curo-vzory#/009"
+}

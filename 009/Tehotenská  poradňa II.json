@@ -45,7 +45,7 @@
         },
         "value": {
           "t": {
-            "value": "GV:   __    TP:  __ <br>CI:  __      moč:  __   <br>hm:  __     OP:+<br>",
+            "value": "GV:  <u>  </u>   TP:  <u>  </u><br>CI:  <u>  </u>    moč: <u>  </u> <br>hm:  <u>  </u>   OP:+<br>",
             "props": {}
           }
         }
@@ -209,7 +209,7 @@
             "props": {}
           },
           "zaver": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -239,7 +239,7 @@
         },
         "value": {
           "odp": {
-            "value": "kontrola o 30 dní<br>",
+            "value": "kontrola o 28 dní<br>",
             "props": {}
           }
         }
@@ -314,41 +314,19 @@
     ],
     "vv": [
       {
-        "id": 9,
+        "id": 22,
         "order": 11,
         "props": {
           "type": "vv"
         },
         "value": {
           "id": {
-            "value": "[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov",
+            "value": "[103] Vyšetrenie a rady v priebehu gravidity s vyhodnotením výsledkov laboratórnych vyšetrení so zreteľom na riziká gravidity.",
             "props": {
-              "propBody": 250,
+              "propBody": 200,
               "idClassid": "vykon",
-              "idEzid": "00000466557@11",
-              "id": 8
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 22,
-        "order": 12,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[102] Prvé vyšetrenie v rámci predpôrodnej starostlivosti o tehotné s určením termínu pôrodu vrátane zisťovania anamnézy a vystavenia materského preukazu, ako aj rád tehotnej o starostlivosti v gravidite vr",
-            "props": {
-              "propBody": 320,
-              "idClassid": "vykon",
-              "idEzid": "00000466946@11",
-              "id": 102
+              "idEzid": "00000466953@13",
+              "id": 103
             }
           },
           "count": {
@@ -359,7 +337,7 @@
       },
       {
         "id": 41,
-        "order": 13,
+        "order": 12,
         "props": {
           "type": "vv"
         },
@@ -382,7 +360,7 @@
       },
       {
         "id": 39,
-        "order": 14,
+        "order": 13,
         "props": {
           "type": "vv"
         },
@@ -404,7 +382,7 @@
       },
       {
         "id": 40,
-        "order": 15,
+        "order": 14,
         "props": {
           "type": "vv"
         },
@@ -426,7 +404,9 @@
       }
     ]
   },
-  "tags": [],
+  "tags": [
+    "sumar-tp"
+  ],
   "vars": {},
   "source": "curo-open/curo-vzory#/009"
 }
