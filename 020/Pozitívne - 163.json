@@ -1,0 +1,63 @@
+{
+  "type": "examination",
+  "summary": "163 - Pozitívne",
+  "content": "<section data-x-id=\"2\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"_noval FieldSearch hasActions highlight truncate\" data-name=\"id\" data-ignore-visited=\"true\" title=\"[Z01.80] Objasnenie predispozície k malígnym poruchám srdcového rytmu\" style=\"width: 50ch;\" data-id=\"Z01.80\" data-id-ezid=\"02089520981@12\" data-id-classid=\"diagnoza\">[Z01.80] Objasnenie predispozície k malígnym poruchám srdcového rytmu</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"4\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"163\" data-id-ezid=\"00000467464@13\" data-id-classid=\"vykon\" data-prop-body=\"200\" title=\"[163] Vyšetrenie a včasné rozpoznanie hroziacej straty sebestačnosti u starých ľudí.\" style=\"width: 50ch;\">[163] Vyšetrenie a včasné rozpoznanie hroziacej straty sebestačnosti u starých ľudí.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
+  "title": "Pozitívne - 163",
+  "shortcut": "163p",
+  "if": "",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z03.2] Pozorovanie pri podozrení na duševnú poruchu a poruchu správania",
+            "props": {
+              "id": "Z03.2",
+              "idEzid": "02089521161@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[163] Vyšetrenie a včasné rozpoznanie hroziacej straty sebestačnosti u starých ľudí.",
+            "props": {
+              "propBody": 200,
+              "id": 163,
+              "idEzid": "00000467464@13",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "sumar-pp"
+  ],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020"
+}

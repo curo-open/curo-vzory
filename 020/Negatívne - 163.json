@@ -1,0 +1,62 @@
+{
+  "title": "Negatívne - 163",
+  "shortcut": "163n",
+  "summary": "163 - Negatívne",
+  "if": "",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z01.80] Objasnenie predispozície k malígnym poruchám srdcového rytmu",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089520981@12",
+              "id": "Z01.80"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[163] Vyšetrenie a včasné rozpoznanie hroziacej straty sebestačnosti u starých ľudí.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000467464@13",
+              "id": 163
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "sumar-pp"
+  ],
+  "vars": {},
+  "type": "examination",
+  "source": "curo-open/curo-vzory#/020"
+}
