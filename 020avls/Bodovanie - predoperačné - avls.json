@@ -134,12 +134,12 @@
         },
         "value": {
           "id": {
-            "value": "[8+PREDOP] Pripočítateľná položka k výkonu 8 za predoperačné vyšetrenie pre poisťovňu Dôvera",
+            "value": "[60b] Komplexné predoperačné vyšetrenie vrátane odberov krvi, zhodnotenie laboratórnych a prístrojových vyšetrení.",
             "props": {
-              "propBody": 250,
-              "id": "8+PREDOP",
-              "idEzid": "curo-8+PREDOP@11",
-              "idClassid": "vykon"
+              "propBody": 0,
+              "idClassid": "vykon",
+              "idEzid": "02089719450@13",
+              "id": "60b"
             }
           },
           "count": {
@@ -223,11 +223,12 @@
         },
         "value": {
           "id": {
-            "value": "[5702Z] EKG",
+            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propBody": 0,
-              "id": "5702Z",
-              "idEzid": "curo-5702Z@11",
+              "propBody": 550,
+              "propType": "SVaLZ",
+              "id": 5702,
+              "idEzid": "00000494187@11",
               "idClassid": "vykon"
             }
           },
