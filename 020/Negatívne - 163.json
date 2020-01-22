@@ -14,11 +14,11 @@
         },
         "value": {
           "id": {
-            "value": "[Z01.80] Objasnenie predispozície k malígnym poruchám srdcového rytmu",
+            "value": "[Z01.88] Iné bližšie určené špeciálne vyšetrenie",
             "props": {
               "idClassid": "diagnoza",
-              "idEzid": "02089520981@12",
-              "id": "Z01.80"
+              "idEzid": "02089521005@12",
+              "id": "Z01.88"
             }
           },
           "text": {
@@ -40,9 +40,9 @@
             "value": "[163] Vyšetrenie a včasné rozpoznanie hroziacej straty sebestačnosti u starých ľudí.",
             "props": {
               "propBody": 200,
-              "idClassid": "vykon",
+              "id": 163,
               "idEzid": "00000467464@13",
-              "id": 163
+              "idClassid": "vykon"
             }
           },
           "count": {
