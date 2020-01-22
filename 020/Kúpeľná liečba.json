@@ -5,10 +5,82 @@
   "if": "",
   "data": {
     "_": {},
+    "vd": [
+      {
+        "id": 7,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 10,
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{? zp==24 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{?}}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-navrh": [
+      {
+        "id": 9,
+        "order": 2,
+        "props": {
+          "type": "z-navrh"
+        },
+        "value": {
+          "typ": {
+            "value": "kúpele",
+            "props": {
+              "propValue": "KS"
+            }
+          },
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "c": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "t-kupelna-starostlivost": [
       {
         "id": 2,
-        "order": 0,
+        "order": 4,
         "props": {
           "type": "t-kupelna-starostlivost"
         },
@@ -60,7 +132,7 @@
             "props": {}
           },
           "anamneza": {
-            "value": "{{&lt; sessions|getSections(\"ra\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"oa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"pa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"la\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"ga\")|where(\"i==0\")|trans(\"text\")}}<br>",
+            "value": "{{&lt; sessions|getSections(\"ra\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"oa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"pa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"la\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br>{{&lt; sessions|getSections(\"ga\")|where(\"i==0\")|trans(\"text\")}}<br>",
             "props": {}
           },
           "datum": {
@@ -84,7 +156,7 @@
             "props": {}
           },
           "ine": {
-            "value": "{{&lt; sessions|getSections(\"b-lv\")|where(\"i==0\")|trans(\"text\")}}",
+            "value": "{{&lt; sessions|getSections(\"b-lv\")|where(\"i==0\")|trans(\"text\")}}<br>",
             "props": {}
           },
           "EKG": {
@@ -102,16 +174,60 @@
         }
       }
     ],
-    "t": [
+    "zfp": [
       {
-        "id": 3,
-        "order": 1,
+        "id": 5,
+        "order": 5,
         "props": {
-          "type": "t"
+          "type": "zfp"
         },
         "value": {
-          "t": {
-            "value": "{{&lt; sessions|getSections(\"zfp\")|where(\"i==0\")}}<br>",
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "oh": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "",
+            "props": {}
+          },
+          "temp": {
+            "value": "",
             "props": {}
           }
         }
@@ -119,5 +235,9 @@
     ]
   },
   "type": "examination",
+  "tags": [
+    "tlacivo"
+  ],
+  "vars": {},
   "source": "curo-open/curo-vzory#/020"
 }

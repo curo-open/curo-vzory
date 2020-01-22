@@ -14,7 +14,7 @@
         },
         "value": {
           "anamneza_osobna": {
-            "value": "{{&lt; sessions|getSections(\"ra\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"oa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"pa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"la\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"ga\")|where(\"i==0\")|trans(\"text\")}}<br>",
+            "value": "{{&lt; sessions|getSections(\"ra\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"oa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"pa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"la\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br>{{&lt; sessions|getSections(\"ga\")|where(\"i==0\")|trans(\"text\")}}<br>",
             "props": {}
           },
           "anamneza_subjektivna": {
@@ -60,16 +60,60 @@
         }
       }
     ],
-    "t": [
+    "zfp": [
       {
-        "id": 3,
+        "id": 5,
         "order": 1,
         "props": {
-          "type": "t"
+          "type": "zfp"
         },
         "value": {
-          "t": {
-            "value": "{{&lt; sessions|getSections(\"zfp\")|where(\"i==0\")}}<br>",
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "oh": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "",
+            "props": {}
+          },
+          "temp": {
+            "value": "",
             "props": {}
           }
         }
