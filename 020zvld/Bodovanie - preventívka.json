@@ -433,6 +433,45 @@
             "props": {}
           }
         }
+      },
+      {
+        "id": 67,
+        "order": 53,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp == 25 || zp==27 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 70,
+        "order": 54,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<u>nezabudnite vykázať 163 kognitívny test</u>, použite F4 a napište 163<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 69,
+        "order": 55,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
       }
     ],
     "vv": [
