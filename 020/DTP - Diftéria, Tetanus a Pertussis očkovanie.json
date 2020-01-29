@@ -1,0 +1,413 @@
+{
+  "description": "Očkovanie proti Tetanu a diftérii",
+  "type": "examination",
+  "summary": "DTP - Diftéria, Tetanus a Pertussis očkovanie",
+  "content": "<section data-x-id=\"10\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\">bez ťažkostí, prechlad. sa necíti<br></div></section><section data-x-id=\"11\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\">KP komp., TT 36,6°C, Intramuskulárne podanie inj. Bez komplikácií po podaní.<br></div></section><section data-x-id=\"13\" data-type=\"premenna\" class=\"\"><aside></aside><label class=\"section-label  \">Premenná​:</label>​<label data-for=\"name\" class=\"\">meno​</label><div class=\"Field\" data-name=\"name\">vacdite</div>​<label data-for=\"type\" class=\"\">typ​</label><div class=\"FieldList hasActions\" data-name=\"type\" data-prop-value=\"text\">text</div>​<label data-for=\"value\" class=\"\">hodnota​</label><div class=\"Field\" data-name=\"value\">ON</div>​<label data-for=\"valueLong\" class=\"_noval hidden\">hodnota​</label><div class=\"_noval FieldHtml hidden\" data-name=\"valueLong\"></div></section><section data-x-id=\"2\" data-type=\"oc\" class=\"\"><aside></aside><label class=\"section-label  \">Druh očkovania​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"ockovanie\" data-id-ezid=\"00000115923@2\" data-id=\"T\" title=\"[T] Tetanus\" style=\"width: 50ch;\">[T] Tetanus</div>​<label data-for=\"datum\" class=\"\">Dátum​</label><div class=\"FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\" data-expr=\"=dnes\" data-prop-value=\"2020-01-29T13:39:53.494Z\">29.01.2020</div>​<label data-for=\"poznamka\" class=\" _noval\">Poznámka​</label><div class=\"_noval Field\" data-name=\"poznamka\"></div></section><section data-x-id=\"30\" data-type=\"oc\" class=\"\"><aside></aside><label class=\"section-label  \">Druh očkovania​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"D\" data-id-ezid=\"00000115915@2\" data-id-classid=\"ockovanie\" title=\"[D] Diftéria\" style=\"width: 50ch;\">[D] Diftéria</div>​<label data-for=\"datum\" class=\"\">Dátum​</label><div class=\"FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\" data-expr=\"=dnes\" data-prop-value=\"2020-01-29T13:40:27.863Z\">29.01.2020</div>​<label data-for=\"poznamka\" class=\" _noval\">Poznámka​</label><div class=\"_noval Field\" data-name=\"poznamka\"></div></section><section data-x-id=\"25\" data-type=\"t\" class=\"_focus\"><aside></aside><div class=\"FieldHtml _focus\" data-name=\"t\">{{ ? zp == 27 }}<br></div></section><section data-x-id=\"29\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089520809@11\" data-id=\"Z00.0\" title=\"[Z00.0] Všeobecné lekárske vyšetrenie\" style=\"width: 50ch;\">[Z00.0] Všeobecné lekárske vyšetrenie</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"27\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ : }}<br></div></section><section data-x-id=\"6\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089522425@10\" data-id=\"Z27.8\" title=\"[Z27.8] Potreba imunizácie proti inej kombinácii infekčných chorôb\" style=\"width: 50ch;\">[Z27.8] Potreba imunizácie proti inej kombinácii infekčných chorôb</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"28\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"14\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? var.vacdite==\"ON\" }}<br></div></section><section data-x-id=\"20\" data-type=\"ol\" class=\"\"><aside></aside><label class=\"section-label  \">Očkovacia látka​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"3161C\" data-id-ul=\"\" data-id-atc=\"J07AM51\" data-id-sp=\"ims\" data-id-f=\"SUS INJ\" data-id-ezid=\"00021240643\" data-id-classid=\"liek\" data-prop-dpl=\"0\" data-prop-sp-uhr=\"V\" data-prop-io=\"ind.obm.\" data-prop-gp=\"0\" data-prop-uzp_1zvj=\"1\" data-prop-vnl=\"R\" data-prop-cena=\"9.96\" data-prop-sdl=\"1\" data-prop-atc-name=\"Tetanový toxoid, kombinácie s diftériovým toxoidom\" data-prop-ol=\"1\" title=\"[3161C] VACDITE | sus inj 1x0,5 ml (amp.skl.)\" style=\"width: 50ch;\">[3161C] VACDITE | sus inj 1x0,5 ml (amp.skl.)</div>​<label data-for=\"sn\" class=\" _noval\">šarza​</label><div class=\"_noval Field\" data-name=\"sn\"></div>​<label data-for=\"qty\" class=\" _noval\">množstvo ZVJ​</label><div class=\"_noval FieldR\" data-name=\"qty\"></div>​<label data-for=\"text\" class=\" _noval\">poznámka​</label><div class=\"_noval Field\" data-name=\"text\"></div></section><section data-x-id=\"22\" data-type=\"r\" class=\"\"><aside></aside><label class=\"section-label  has-info\">R​:</label><div class=\"FieldSearch hasActions highlight-bold truncate\" data-name=\"id\" data-id=\"3161C\" data-id-ul=\"\" data-id-atc=\"J07AM51\" data-id-sp=\"ims\" data-id-f=\"SUS INJ\" data-id-ezid=\"00021240643\" data-id-classid=\"liek\" data-prop-dpl=\"0\" data-prop-sp-uhr=\"V\" data-prop-io=\"ind.obm.\" data-prop-gp=\"0\" data-prop-uzp_1zvj=\"1\" data-prop-vnl=\"R\" data-prop-cena=\"9.96\" data-prop-sdl=\"1\" data-prop-atc-name=\"Tetanový toxoid, kombinácie s diftériovým toxoidom\" data-prop-ol=\"1\" title=\"[3161C] VACDITE | sus inj 1x0,5 ml (amp.skl.)\" style=\"width: 50ch;\">[3161C] VACDITE | sus inj 1x0,5 ml (amp.skl.)</div>​<label data-for=\"schedule\" class=\"\">dáv.​</label><div class=\"FieldMedicationSchedule hasActions\" data-name=\"schedule\" data-prop-unit_id=\"\" data-prop-form_t=\"suspenzia\" data-prop-form_id=\"SUS\" data-prop-text=\"\" data-prop-period_t=\"denne\" data-prop-period_id=\"D\" data-prop-way_id=\"\" data-prop-intervaldavkovania=\"!denne\" data-prop-type=\"AMM\">Ad Manus Medici, SUS</div>​<label data-for=\"qty\" class=\"\"># bal.​</label><div class=\"FieldR hasActions\" data-name=\"qty\">1</div>​<label data-for=\"repeatCount\" class=\"\">rep.​</label><div class=\"FieldN hasActions\" data-name=\"repeatCount\">1</div>​<label data-for=\"repeatAfter\" class=\"ss hidden\">dní medzi výberom​</label><div class=\"FieldN ss hidden\" data-name=\"repeatAfter\">30</div>​<label data-for=\"repeatLast\" class=\"ss _noval hidden\">posledný výber​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"repeatLast\"></div>​<label data-for=\"recommendedBy\" class=\"ss _noval\">odp. lek.​</label><div class=\"_noval FieldSearchLekar hasActions ss\" data-name=\"recommendedBy\"></div>​<label data-for=\"recommendedDate\" class=\"ss _noval hidden\">dátum odp.​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"recommendedDate\"></div>​<label data-for=\"untilDate\" class=\"ss _noval hidden\">platné do​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"untilDate\"></div>​<label data-for=\"noReplacement\" class=\"ss _noval hidden\">náhrada​</label><div class=\"_noval FieldSwitchLogical hasActions ss hidden\" data-name=\"noReplacement\" data-prop-value=\"0\">nie</div>​<label data-for=\"payoff\" class=\"ss _noval\">doplatok​</label><div class=\"_noval FieldR locked ss\" data-name=\"payoff\"></div>​<label data-for=\"atc\" class=\"ss\">cez ATC​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"atc\" data-prop-value=\"0\">nie</div>​<label data-for=\"instruction\" class=\"ss _noval\">inštrukcie​</label><div class=\"_noval Field ss\" data-name=\"instruction\"></div>​<label data-for=\"reasonPayoff\" class=\"ss _noval\">uhradí​</label><div class=\"_noval FieldSwitch hasActions ss\" data-name=\"reasonPayoff\"></div>​<label data-for=\"prodException\" class=\"ss\">výnimka​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"prodException\" data-prop-value=\"0\">nie</div>​<label data-for=\"force\" class=\"ss\">vyn. zápis​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"force\" data-prop-value=\"0\">nie</div>​<label data-for=\"forceReason\" class=\"ss _noval hidden\">dôvod v.z.​</label><div class=\"_noval Field ss hidden\" data-name=\"forceReason\"></div>​<label data-for=\"barcode\" class=\"_noval hidden\">čiarový kód​</label><div class=\"_noval Field readonly dontCopy hidden\" data-name=\"barcode\"></div>​<label data-for=\"note_zp\" class=\"ss _noval hidden\">poznámka ZP​</label><div class=\"_noval Field readonly dontCopy ss hidden\" data-name=\"note_zp\"></div>​<label data-for=\"status\" class=\"invisible ss\">stav​</label><div class=\"FieldN readonly dontCopy invisible ss\" data-name=\"status\">0</div></section><section data-x-id=\"15\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ : }}<br></div></section><section data-x-id=\"4\" data-type=\"ol\" class=\"\"><aside></aside><label class=\"section-label  \">Očkovacia látka​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"liek\" data-id-ezid=\"00020746236\" data-id-f=\"SUS INJ\" data-id-sp=\"imu\" data-id-atc=\"J07AM51\" data-id-ul=\"\" data-id=\"33998\" data-prop-ol=\"1\" data-prop-atc-name=\"Tetanový toxoid, kombinácie s diftériovým toxoidom\" data-prop-sdl=\"10\" data-prop-cena=\"99.6\" data-prop-vnl=\"R\" data-prop-uzp_1zvj=\"1\" data-prop-gp=\"0\" data-prop-io=\"ind.obm.\" data-prop-sp-uhr=\"V\" data-prop-dpl=\"0\" title=\"[33998] IMOVAX D.T. ADULT | sus inj 10x0,5 ml (striek.inj.skl.napln.)\" style=\"width: 50ch;\">[33998] IMOVAX D.T. ADULT | sus inj 10x0,5 ml (striek.inj.skl.napln.)</div>​<label data-for=\"sn\" class=\" _noval\">šarza​</label><div class=\"_noval Field\" data-name=\"sn\"></div>​<label data-for=\"qty\" class=\"\">množstvo ZVJ​</label><div class=\"FieldR\" data-name=\"qty\" data-prop-value=\"1.00\">1</div>​<label data-for=\"text\" class=\" _noval\">poznámka​</label><div class=\"_noval Field\" data-name=\"text\"></div></section><section data-x-id=\"24\" data-type=\"r\" class=\"\"><aside></aside><label class=\"section-label  has-info\">R​:</label><div class=\"FieldSearch hasActions highlight-bold truncate\" data-name=\"id\" data-id-classid=\"liek\" data-id-ezid=\"00020746236\" data-id-f=\"SUS INJ\" data-id-sp=\"imu\" data-id-atc=\"J07AM51\" data-id-ul=\"\" data-id=\"33998\" data-prop-ol=\"1\" data-prop-atc-name=\"Tetanový toxoid, kombinácie s diftériovým toxoidom\" data-prop-sdl=\"10\" data-prop-cena=\"99.6\" data-prop-vnl=\"R\" data-prop-uzp_1zvj=\"1\" data-prop-gp=\"0\" data-prop-io=\"ind.obm.\" data-prop-sp-uhr=\"V\" data-prop-dpl=\"0\" title=\"[33998] IMOVAX D.T. ADULT | sus inj 10x0,5 ml (striek.inj.skl.napln.)\" style=\"width: 50ch;\">[33998] IMOVAX D.T. ADULT | sus inj 10x0,5 ml (striek.inj.skl.napln.)</div>​<label data-for=\"schedule\" class=\"\">dáv.​</label><div class=\"FieldMedicationSchedule hasActions\" data-name=\"schedule\" data-prop-unit_id=\"\" data-prop-form_t=\"suspenzia\" data-prop-form_id=\"SUS\" data-prop-text=\"\" data-prop-period_t=\"denne\" data-prop-period_id=\"D\" data-prop-way_t=\"intramuskulárne (i.m.)\" data-prop-way_id=\"IM\" data-prop-intervaldavkovania=\"!denne\" data-prop-type=\"AMM\">Ad Manus Medici, SUS</div>​<label data-for=\"qty\" class=\"\"># bal.​</label><div class=\"FieldR hasActions\" data-name=\"qty\">1</div>​<label data-for=\"repeatCount\" class=\"\">rep.​</label><div class=\"FieldN hasActions\" data-name=\"repeatCount\">1</div>​<label data-for=\"repeatAfter\" class=\"ss hidden\">dní medzi výberom​</label><div class=\"FieldN ss hidden\" data-name=\"repeatAfter\">30</div>​<label data-for=\"repeatLast\" class=\"ss _noval hidden\">posledný výber​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"repeatLast\"></div>​<label data-for=\"recommendedBy\" class=\"ss _noval\">odp. lek.​</label><div class=\"_noval FieldSearchLekar hasActions ss\" data-name=\"recommendedBy\"></div>​<label data-for=\"recommendedDate\" class=\"ss _noval hidden\">dátum odp.​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"recommendedDate\"></div>​<label data-for=\"untilDate\" class=\"ss _noval hidden\">platné do​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"untilDate\"></div>​<label data-for=\"noReplacement\" class=\"ss _noval hidden\">náhrada​</label><div class=\"_noval FieldSwitchLogical hasActions ss hidden\" data-name=\"noReplacement\" data-prop-value=\"0\">nie</div>​<label data-for=\"payoff\" class=\"ss _noval\">doplatok​</label><div class=\"_noval FieldR locked ss\" data-name=\"payoff\"></div>​<label data-for=\"atc\" class=\"ss\">cez ATC​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"atc\" data-prop-value=\"0\">nie</div>​<label data-for=\"instruction\" class=\"ss _noval\">inštrukcie​</label><div class=\"_noval Field ss\" data-name=\"instruction\"></div>​<label data-for=\"reasonPayoff\" class=\"ss _noval\">uhradí​</label><div class=\"_noval FieldSwitch hasActions ss\" data-name=\"reasonPayoff\"></div>​<label data-for=\"prodException\" class=\"ss\">výnimka​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"prodException\" data-prop-value=\"0\">nie</div>​<label data-for=\"force\" class=\"ss\">vyn. zápis​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"force\" data-prop-value=\"0\">nie</div>​<label data-for=\"forceReason\" class=\"ss _noval hidden\">dôvod v.z.​</label><div class=\"_noval Field ss hidden\" data-name=\"forceReason\"></div>​<label data-for=\"barcode\" class=\"_noval hidden\">čiarový kód​</label><div class=\"_noval Field readonly dontCopy hidden\" data-name=\"barcode\"></div>​<label data-for=\"note_zp\" class=\"ss _noval hidden\">poznámka ZP​</label><div class=\"_noval Field readonly dontCopy ss hidden\" data-name=\"note_zp\"></div>​<label data-for=\"status\" class=\"invisible ss\">stav​</label><div class=\"FieldN readonly dontCopy invisible ss\" data-name=\"status\">0</div></section><section data-x-id=\"16\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"8\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000467878@7\" data-id=\"252b\" data-prop-body=\"70\" title=\"[252b] Očkovanie.\" style=\"width: 50ch;\">[252b] Očkovanie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
+  "title": "DTP - Diftéria, Tetanus a Pertussis očkovanie",
+  "shortcut": "oc-dtp",
+  "if": "",
+  "data": {
+    "_": {},
+    "s": [
+      {
+        "id": 10,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bez ťažkostí, prechlad. sa necíti<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 11,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "KP komp., TT 36,6°C, Intramuskulárne podanie inj. Bez komplikácií po podaní.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "premenna": [
+      {
+        "id": 13,
+        "order": 2,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "vacdite",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "ON",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oc": [
+      {
+        "id": 2,
+        "order": 3,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[T] Tetanus",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000115923@2",
+              "id": "T"
+            }
+          },
+          "datum": {
+            "value": "29.01.2020",
+            "props": {
+              "propValue": "2020-01-29T13:46:10.955Z",
+              "expr": "=dnes"
+            }
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 30,
+        "order": 4,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[D] Diftéria",
+            "props": {
+              "id": "D",
+              "idEzid": "00000115915@2",
+              "idClassid": "ockovanie"
+            }
+          },
+          "datum": {
+            "value": "29.01.2020",
+            "props": {
+              "propValue": "2020-01-29T13:46:10.957Z",
+              "expr": "=dnes"
+            }
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 31,
+        "order": 5,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[P] Pertussis",
+            "props": {
+              "id": "P",
+              "idEzid": "00000346304@2",
+              "idClassid": "ockovanie"
+            }
+          },
+          "datum": {
+            "value": "29.01.2020",
+            "props": {
+              "propValue": "2020-01-29T13:46:10.958Z",
+              "expr": "=dnes"
+            }
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 25,
+        "order": 6,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp == 27 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 27,
+        "order": 8,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 28,
+        "order": 10,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 29,
+        "order": 7,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089520809@11",
+              "id": "Z00.0"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 6,
+        "order": 9,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z27.1] Potreba imunizácie proti záškrtu – tetanu – čiernemu kašľu [DPT]",
+            "props": {
+              "id": "Z27.1",
+              "idEzid": "02089522383@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ol": [
+      {
+        "id": 20,
+        "order": 11,
+        "props": {
+          "type": "ol"
+        },
+        "value": {
+          "id": {
+            "value": "[45368] Boostrix | sus inj 1x0,5 ml (striek.skl.napl.)",
+            "props": {
+              "propDpl": 13.21,
+              "propSpUhr": "S",
+              "propUnit": "DF",
+              "propIo": "ind.obm.",
+              "propGp": 0,
+              "propBal": 1,
+              "propUzp_1zvj": 3.3,
+              "propVnl": "R",
+              "propCena": 16.51,
+              "propSdl": 1,
+              "propAtcName": "Očkovacia látka proti čiernemu kašľu, purifikovaný antigén, kombinácie s toxoidmi",
+              "propOl": 1,
+              "id": 45368,
+              "idUl": "",
+              "idAtc": "J07AJ52",
+              "idSp": "imu",
+              "idF": "SUS INJ",
+              "idEzid": "00020917324",
+              "idClassid": "liek"
+            }
+          },
+          "sn": {
+            "value": "",
+            "props": {}
+          },
+          "qty": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 22,
+        "order": 12,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[45368] Boostrix | sus inj 1x0,5 ml (striek.skl.napl.)",
+            "props": {
+              "propDpl": 13.21,
+              "propSpUhr": "S",
+              "propUnit": "DF",
+              "propIo": "ind.obm.",
+              "propGp": 0,
+              "propBal": 1,
+              "propUzp_1zvj": 3.3,
+              "propVnl": "R",
+              "propCena": 16.51,
+              "propSdl": 1,
+              "propAtcName": "Očkovacia látka proti čiernemu kašľu, purifikovaný antigén, kombinácie s toxoidmi",
+              "propOl": 1,
+              "id": 45368,
+              "idUl": "",
+              "idAtc": "J07AJ52",
+              "idSp": "imu",
+              "idF": "SUS INJ",
+              "idEzid": "00020917324",
+              "idClassid": "liek"
+            }
+          },
+          "schedule": {
+            "value": "Ad Manus Medici, SUS",
+            "props": {
+              "propUnit_id": "",
+              "propForm_t": "suspenzia",
+              "propForm_id": "SUS",
+              "propText": "",
+              "propPeriod_t": "denne",
+              "propPeriod_id": "D",
+              "propWay_id": "",
+              "propIntervaldavkovania": "!denne",
+              "propType": "AMM"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {}
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "13,21",
+            "props": {
+              "propValue": 13.21
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 8,
+        "order": 13,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[252b] Očkovanie.",
+            "props": {
+              "propBody": 70,
+              "idClassid": "vykon",
+              "idEzid": "00000467878@7",
+              "id": "252b"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "sumar-dtp",
+    "prehlad-oc-dtp",
+    "oc"
+  ],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020"
+}
