@@ -1,6 +1,6 @@
 {
   "title": "Bolesti chrbtice - M53, M54",
-  "shortcut": "m5x",
+  "shortcut": "m54",
   "if": "",
   "data": {
     "_": {},
@@ -60,9 +60,9 @@
           "id": {
             "value": "[M54.00] Panikulitída krku a chrbta na viacerých miestach",
             "props": {
-              "id": "M54.00",
+              "idClassid": "diagnoza",
               "idEzid": "02089437004@12",
-              "idClassid": "diagnoza"
+              "id": "M54.00"
             }
           },
           "text": {
@@ -83,35 +83,35 @@
           "id": {
             "value": "[15886] VERAL 50 mg | tbl ent 20x50 mg (blis.PVC/Al)",
             "props": {
-              "propDpl": 1.08,
-              "propSpUhr": "S",
-              "propGp": 1,
-              "propUzp_1zvj": 0.062,
-              "propVnl": "R",
-              "propCena": 1.7,
-              "propSdl": 10,
-              "propAtcName": "Diklofenak",
               "propOl": 0,
-              "id": 15886,
-              "idUl": "",
-              "idAtc": "M01AB05",
-              "idSp": "ora",
-              "idF": "TBL ENT",
+              "propAtcName": "Diklofenak",
+              "propSdl": 10,
+              "propCena": 1.7,
+              "propVnl": "R",
+              "propUzp_1zvj": 0.062,
+              "propGp": 1,
+              "propSpUhr": "S",
+              "propDpl": 1.08,
+              "idClassid": "liek",
               "idEzid": "00020446514",
-              "idClassid": "liek"
+              "idF": "TBL ENT",
+              "idSp": "ora",
+              "idAtc": "M01AB05",
+              "idUl": "",
+              "id": 15886
             }
           },
           "schedule": {
             "value": "1-0-1-0, denne",
             "props": {
-              "propType": "PEV1",
-              "propParts_morning": 1,
-              "propParts_noon": 0,
-              "propParts_evening": 1,
-              "propParts_sleepTime": 0,
-              "propPeriod_code": "D",
+              "propWay_code": "",
               "propPeriod_t": "denne",
-              "propWay_code": ""
+              "propPeriod_code": "D",
+              "propParts_sleepTime": 0,
+              "propParts_evening": 1,
+              "propParts_noon": 0,
+              "propParts_morning": 1,
+              "propType": "PEV1"
             }
           },
           "qty": {
@@ -120,14 +120,8 @@
               "propValue": "1.00"
             }
           },
-          "payoff": {
-            "value": "1,08",
-            "props": {
-              "propValue": 1.08
-            }
-          },
-          "instruction": {
-            "value": "",
+          "repeatCount": {
+            "value": "1",
             "props": {}
           },
           "recommendedBy": {
@@ -140,8 +134,14 @@
               "propValue": 0
             }
           },
-          "repeatCount": {
-            "value": "1",
+          "payoff": {
+            "value": "1,08",
+            "props": {
+              "propValue": 1.08
+            }
+          },
+          "instruction": {
+            "value": "",
             "props": {}
           },
           "reasonPayoff": {
@@ -176,35 +176,35 @@
           "id": {
             "value": "[85656] Dorsiflex 200 mg | tbl 30x200 mg (blis.Al/PVC)",
             "props": {
-              "propDpl": 2.79,
-              "propSpUhr": "S",
-              "propGp": 1,
-              "propUzp_1zvj": 0.315,
-              "propVnl": "R",
-              "propCena": 4.37,
-              "propSdl": 5,
-              "propAtcName": "Mefenoxalón",
               "propOl": 0,
-              "id": 85656,
-              "idUl": "mephenoxalonum",
-              "idAtc": "N05BX01",
-              "idSp": "ora",
-              "idF": "TBL",
+              "propAtcName": "Mefenoxalón",
+              "propSdl": 5,
+              "propCena": 4.37,
+              "propVnl": "R",
+              "propUzp_1zvj": 0.315,
+              "propGp": 1,
+              "propSpUhr": "S",
+              "propDpl": 2.79,
+              "idClassid": "liek",
               "idEzid": "00020240420",
-              "idClassid": "liek"
+              "idF": "TBL",
+              "idSp": "ora",
+              "idAtc": "N05BX01",
+              "idUl": "mephenoxalonum",
+              "id": 85656
             }
           },
           "schedule": {
             "value": "1-0-1-0, denne",
             "props": {
-              "propType": "PEV1",
-              "propParts_morning": 1,
-              "propParts_noon": 0,
-              "propParts_evening": 1,
-              "propParts_sleepTime": 0,
-              "propPeriod_code": "D",
+              "propWay_code": "",
               "propPeriod_t": "denne",
-              "propWay_code": ""
+              "propPeriod_code": "D",
+              "propParts_sleepTime": 0,
+              "propParts_evening": 1,
+              "propParts_noon": 0,
+              "propParts_morning": 1,
+              "propType": "PEV1"
             }
           },
           "qty": {
@@ -213,14 +213,8 @@
               "propValue": "1.00"
             }
           },
-          "payoff": {
-            "value": "2,79",
-            "props": {
-              "propValue": 2.79
-            }
-          },
-          "instruction": {
-            "value": "",
+          "repeatCount": {
+            "value": "1",
             "props": {}
           },
           "recommendedBy": {
@@ -233,8 +227,14 @@
               "propValue": 0
             }
           },
-          "repeatCount": {
-            "value": "1",
+          "payoff": {
+            "value": "2,79",
+            "props": {
+              "propValue": 2.79
+            }
+          },
+          "instruction": {
+            "value": "",
             "props": {}
           },
           "reasonPayoff": {
@@ -272,9 +272,9 @@
             "value": "[4] Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani",
             "props": {
               "propBody": 200,
-              "id": 4,
+              "idClassid": "vykon",
               "idEzid": "00000466524@12",
-              "idClassid": "vykon"
+              "id": 4
             }
           },
           "count": {
@@ -285,7 +285,9 @@
       }
     ]
   },
-  "tags": [],
+  "tags": [
+    "choroba"
+  ],
   "vars": {},
   "summary": "Bolesti chrbtice - M53, M54",
   "type": "examination",

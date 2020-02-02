@@ -131,6 +131,14 @@
               "propValue": "1.00"
             }
           },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
           "payoff": {
             "value": "4,98",
             "props": {
@@ -145,14 +153,6 @@
           },
           "instruction": {
             "value": "",
-            "props": {}
-          },
-          "recommendedBy": {
-            "value": "",
-            "props": {}
-          },
-          "repeatCount": {
-            "value": "1",
             "props": {}
           },
           "reasonPayoff": {
@@ -219,6 +219,14 @@
               "propValue": "1.00"
             }
           },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
           "payoff": {
             "value": "0",
             "props": {
@@ -233,14 +241,6 @@
           },
           "instruction": {
             "value": "len pri hnačke",
-            "props": {}
-          },
-          "recommendedBy": {
-            "value": "",
-            "props": {}
-          },
-          "repeatCount": {
-            "value": "1",
             "props": {}
           },
           "reasonPayoff": {
@@ -291,7 +291,9 @@
       }
     ]
   },
-  "tags": [],
+  "tags": [
+    "choroba"
+  ],
   "vars": {},
   "summary": "Bolesť brucha R10, K30, K59",
   "type": "examination",

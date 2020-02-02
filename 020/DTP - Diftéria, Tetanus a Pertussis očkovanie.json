@@ -80,9 +80,9 @@
             }
           },
           "datum": {
-            "value": "29.01.2020",
+            "value": "02.02.2020",
             "props": {
-              "propValue": "2020-01-29T13:46:10.955Z",
+              "propValue": "2020-02-02T18:00:17.265Z",
               "expr": "=dnes"
             }
           },
@@ -108,9 +108,9 @@
             }
           },
           "datum": {
-            "value": "29.01.2020",
+            "value": "02.02.2020",
             "props": {
-              "propValue": "2020-01-29T13:46:10.957Z",
+              "propValue": "2020-02-02T18:00:17.266Z",
               "expr": "=dnes"
             }
           },
@@ -136,9 +136,9 @@
             }
           },
           "datum": {
-            "value": "29.01.2020",
+            "value": "02.02.2020",
             "props": {
-              "propValue": "2020-01-29T13:46:10.958Z",
+              "propValue": "2020-02-02T18:00:17.267Z",
               "expr": "=dnes"
             }
           },
@@ -406,7 +406,7 @@
   "tags": [
     "sumar-dtp",
     "prehlad-oc-dtp",
-    "oc"
+    "ocko"
   ],
   "vars": {},
   "source": "curo-open/curo-vzory#/020"

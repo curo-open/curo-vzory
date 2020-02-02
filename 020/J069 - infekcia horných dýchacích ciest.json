@@ -102,7 +102,7 @@
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -175,14 +175,8 @@
             "value": "2",
             "props": {}
           },
-          "payoff": {
-            "value": "3,44",
-            "props": {
-              "propValue": 3.44
-            }
-          },
-          "instruction": {
-            "value": "",
+          "repeatCount": {
+            "value": "1",
             "props": {}
           },
           "recommendedBy": {
@@ -195,13 +189,25 @@
               "propValue": 0
             }
           },
-          "repeatCount": {
-            "value": "1",
+          "payoff": {
+            "value": "3,44",
+            "props": {
+              "propValue": 3.44
+            }
+          },
+          "instruction": {
+            "value": "",
             "props": {}
           },
           "reasonPayoff": {
             "value": "",
             "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
           },
           "force": {
             "value": "nie",
@@ -256,14 +262,8 @@
             "value": "1",
             "props": {}
           },
-          "payoff": {
-            "value": "4,84",
-            "props": {
-              "propValue": 4.84
-            }
-          },
-          "instruction": {
-            "value": "",
+          "repeatCount": {
+            "value": "1",
             "props": {}
           },
           "recommendedBy": {
@@ -276,13 +276,25 @@
               "propValue": 0
             }
           },
-          "repeatCount": {
-            "value": "1",
+          "payoff": {
+            "value": "4,84",
+            "props": {
+              "propValue": 4.84
+            }
+          },
+          "instruction": {
+            "value": "",
             "props": {}
           },
           "reasonPayoff": {
             "value": "",
             "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
           },
           "force": {
             "value": "nie",
@@ -306,7 +318,7 @@
         },
         "value": {
           "z": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -402,14 +414,16 @@
             "props": {}
           },
           "comment": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
       }
     ]
   },
-  "tags": [],
+  "tags": [
+    "choroba"
+  ],
   "vars": {},
   "source": "curo-open/curo-vzory#/020"
 }
