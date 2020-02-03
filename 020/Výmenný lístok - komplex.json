@@ -23,9 +23,9 @@
           "druh": {
             "value": "[2] ambulancia",
             "props": {
-              "idClassid": "cinnost",
+              "id": 2,
               "idEzid": "00000000273@3",
-              "id": 2
+              "idClassid": "cinnost"
             }
           },
           "presne": {
@@ -42,7 +42,9 @@
       }
     ]
   },
-  "tags": [],
+  "tags": [
+    "vl"
+  ],
   "vars": {},
   "summary": "Výmenný lístok - komplex ",
   "source": "curo-open/curo-vzory#/020"

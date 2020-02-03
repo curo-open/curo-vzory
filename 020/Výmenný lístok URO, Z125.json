@@ -22,17 +22,17 @@
           "odbor": {
             "value": "[012] urológia",
             "props": {
-              "idClassid": "zameranie",
+              "id": "012",
               "idEzid": "00000351429@8",
-              "id": "012"
+              "idClassid": "zameranie"
             }
           },
           "druh": {
             "value": "[2] ambulancia",
             "props": {
-              "id": 2,
+              "idClassid": "cinnost",
               "idEzid": "00000000273@3",
-              "idClassid": "cinnost"
+              "id": 2
             }
           },
           "presne": {
@@ -49,7 +49,9 @@
       }
     ]
   },
-  "tags": [],
+  "tags": [
+    "vl"
+  ],
   "vars": {},
   "source": "curo-open/curo-vzory#/020"
 }
