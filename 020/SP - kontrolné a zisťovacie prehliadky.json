@@ -5,10 +5,31 @@
   "if": "",
   "data": {
     "_": {},
+    "od": [
+      {
+        "id": 7,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "na základe vyžiadania Sociálnou poisťovňou",
+            "props": {
+              "propValue": "SP"
+            }
+          },
+          "datumVyziadania": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "t-sp-prehliadky": [
       {
         "id": 2,
-        "order": 0,
+        "order": 1,
         "props": {
           "type": "t-sp-prehliadky"
         },
@@ -18,9 +39,9 @@
             "props": {}
           },
           "datum": {
-            "value": "22.01.2020",
+            "value": "04.02.2020",
             "props": {
-              "propValue": "2020-01-22T16:16:03.160Z",
+              "propValue": "2020-02-04T13:44:48.873Z",
               "expr": "=dnes"
             }
           },
@@ -78,7 +99,7 @@
     "zfp": [
       {
         "id": 5,
-        "order": 1,
+        "order": 2,
         "props": {
           "type": "zfp"
         },
@@ -129,6 +150,31 @@
           },
           "temp": {
             "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 9,
+        "order": 3,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[74.PZAK] Vystavenie lekárskeho nálezu, alebo výpis zo zdravotnej dokumentácie na účely sociálneho poistenia podľa osobitného predpisu.",
+            "props": {
+              "propType": "soc",
+              "propBody": 300,
+              "idClassid": "vykon",
+              "idEzid": "curo-74.PZAK@13",
+              "id": "74.PZAK"
+            }
+          },
+          "count": {
+            "value": "1",
             "props": {}
           }
         }
