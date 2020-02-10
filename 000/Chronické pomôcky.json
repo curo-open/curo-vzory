@@ -21,8 +21,21 @@
     ],
     "t": [
       {
-        "id": 1,
+        "id": 7,
         "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? sessions|getSections(\"pp\")|where(\"s.props.priority&gt;0\")|trans(\"length\") &gt; 0}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 8,
+        "order": 2,
         "props": {
           "type": "t"
         },
@@ -32,12 +45,107 @@
             "props": {}
           }
         }
+      },
+      {
+        "id": 9,
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 5,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pp": [
+      {
+        "id": 13,
+        "order": 4,
+        "props": {
+          "type": "pp"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "need": {
+            "value": "dočasná",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reason": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "namieru": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
       }
     ],
     "vv": [
       {
         "id": 5,
-        "order": 2,
+        "order": 6,
         "props": {
           "type": "vv"
         },
@@ -61,7 +169,9 @@
   },
   "summary": "Chronické pomôcky",
   "type": "examination",
-  "tags": [],
+  "tags": [
+    "pomocky"
+  ],
   "vars": {},
   "source": "curo-open/curo-vzory#/000"
 }

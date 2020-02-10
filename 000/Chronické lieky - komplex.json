@@ -196,7 +196,8 @@
         "id": 13,
         "order": 6,
         "props": {
-          "type": "r"
+          "type": "r",
+          "error": true
         },
         "value": {
           "id": {
@@ -213,20 +214,20 @@
             "value": "1",
             "props": {}
           },
-          "payoff": {
-            "value": "",
-            "props": {}
-          },
-          "instruction": {
-            "value": "",
+          "repeatCount": {
+            "value": "1",
             "props": {}
           },
           "recommendedBy": {
             "value": "",
             "props": {}
           },
-          "repeatCount": {
-            "value": "1",
+          "payoff": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "",
             "props": {}
           },
           "reasonPayoff": {
@@ -324,7 +325,9 @@
       }
     ]
   },
-  "tags": [],
+  "tags": [
+    "lieky"
+  ],
   "vars": {},
   "source": "curo-open/curo-vzory#/000"
 }

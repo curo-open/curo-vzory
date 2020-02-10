@@ -1,0 +1,87 @@
+{
+  "description": "",
+  "summary": "Odber krvi - delegovaný",
+  "content": "<section data-x-id=\"17\" data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"_noval FieldList hasActions\" data-name=\"reason\"></div>​<label data-for=\"datum\" class=\"_noval hidden\">zo dňa​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"datumVyziadania\" class=\"_noval hidden\">dátum vyžiadania​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datumVyziadania\"></div>​<label data-for=\"id\" class=\"_noval hidden\">identifikátor​</label><div class=\"_noval Field hidden\" data-name=\"id\"></div></section><section data-x-id=\"4\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"_noval FieldSearch hasActions highlight\" data-name=\"id\"></div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"15\" data-type=\"z-lab\" class=\"\"><aside></aside><label class=\"section-label  \">Žiadanka o laboratórne vyšetrenie​:</label>​<label data-for=\"code\" class=\" _noval\">kód preddefinovaného vyšetrenia​</label><div class=\"_noval Field\" data-name=\"code\"></div>​<label data-for=\"comment\" class=\" _noval\">poznámka​</label><div class=\"_noval FieldHtml\" data-name=\"comment\"></div>​<label data-for=\"recommendedBy\" class=\" _noval\">odporúčajúci lekár​</label><div class=\"_noval FieldSearchLekar hasActions\" data-name=\"recommendedBy\"></div>​<label data-for=\"labData\" class=\"invisible _noval\">lab data​</label><div class=\"_noval Field invisible\" data-name=\"labData\"></div></section><section data-x-id=\"6\" data-type=\"vv\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000478305@13\" data-id=\"250d\" data-prop-type=\"SVaLZ\" data-prop-body=\"160\" title=\"[250d] Odobratie krvi venepunkciou do jednej striekačky alebo do jednej skúmavky, vrátane odberovej súpravy, za každú súpravu.\" style=\"width: 50ch;\">[250d] Odobratie krvi venepunkciou do jednej striekačky alebo do jednej skúmavky, vrátane odberovej súpravy, za každú súpravu.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN _focus\" data-name=\"count\">0</div></section>",
+  "title": "Odber krvi - delegovaný",
+  "shortcut": "okd",
+  "if": "",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-lab": [
+      {
+        "id": 15,
+        "order": 1,
+        "props": {
+          "type": "z-lab"
+        },
+        "value": {
+          "code": {
+            "value": "",
+            "props": {}
+          },
+          "comment": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "labData": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[250d] Odobratie krvi venepunkciou do jednej striekačky alebo do jednej skúmavky, vrátane odberovej súpravy, za každú súpravu.",
+            "props": {
+              "propBody": 160,
+              "propType": "SVaLZ",
+              "id": "250d",
+              "idEzid": "00000478305@13",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "sestra"
+  ],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/000"
+}

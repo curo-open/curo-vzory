@@ -1,0 +1,111 @@
+{
+  "title": "Príkaz na prepravu / dopravu",
+  "shortcut": "pdo",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t-prikaz-na-prepravu": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "t-prikaz-na-prepravu"
+        },
+        "value": {
+          "obmedzenia": {
+            "value": "",
+            "props": {}
+          },
+          "so_sprievodcom": {
+            "value": "",
+            "props": {}
+          },
+          "doprava_z": {
+            "value": "",
+            "props": {}
+          },
+          "doprava_do": {
+            "value": "",
+            "props": {}
+          },
+          "pristavenie": {
+            "value": "",
+            "props": {}
+          },
+          "vozidlo": {
+            "value": "",
+            "props": {}
+          },
+          "typ": {
+            "value": "článok III/1a",
+            "props": {}
+          },
+          "dovod": {
+            "value": "Podla paragrafu 11/1 ZNR SR 98/95",
+            "props": {}
+          },
+          "datum": {
+            "value": "10.02.2020",
+            "props": {
+              "propValue": "2020-02-10T10:45:42.407Z",
+              "expr": "=dnes"
+            }
+          },
+          "kod": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[4] Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000466524@10",
+              "id": 4
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "summary": "Príkaz na prepravu / dopravu",
+  "if": "",
+  "tags": [
+    "sestra"
+  ],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/000"
+}

@@ -177,7 +177,8 @@
         "id": 13,
         "order": 5,
         "props": {
-          "type": "r"
+          "type": "r",
+          "error": true
         },
         "value": {
           "id": {
@@ -194,27 +195,31 @@
             "value": "1",
             "props": {}
           },
-          "payoff": {
-            "value": "0",
-            "props": {
-              "propValue": "0.00"
-            }
-          },
-          "instruction": {
-            "value": "",
+          "repeatCount": {
+            "value": "1",
             "props": {}
           },
           "recommendedBy": {
             "value": "",
             "props": {}
           },
-          "repeatCount": {
-            "value": "1",
+          "payoff": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "",
             "props": {}
           },
           "reasonPayoff": {
             "value": "",
             "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
           },
           "force": {
             "value": "nie",
@@ -303,8 +308,10 @@
   },
   "summary": "Chronické lieky",
   "type": "examination",
-  "tags": [],
+  "tags": [
+    "lieky"
+  ],
   "vars": {},
   "description": "",
-  "source": "curo-open/curo-vzory#/020"
+  "source": "curo-open/curo-vzory#/000"
 }
