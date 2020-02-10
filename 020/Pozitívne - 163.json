@@ -18,9 +18,9 @@
           "id": {
             "value": "[Z03.2] Pozorovanie pri podozrení na duševnú poruchu a poruchu správania",
             "props": {
-              "id": "Z03.2",
+              "idClassid": "diagnoza",
               "idEzid": "02089521161@12",
-              "idClassid": "diagnoza"
+              "id": "Z03.2"
             }
           },
           "text": {
@@ -42,9 +42,9 @@
             "value": "[163] Vyšetrenie a včasné rozpoznanie hroziacej straty sebestačnosti u starých ľudí.",
             "props": {
               "propBody": 200,
-              "id": 163,
+              "idClassid": "vykon",
               "idEzid": "00000467464@13",
-              "idClassid": "vykon"
+              "id": 163
             }
           },
           "count": {

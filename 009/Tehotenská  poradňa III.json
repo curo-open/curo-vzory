@@ -313,9 +313,9 @@
           "id": {
             "value": "[Z34.0] Dohľad nad normálnou prvou graviditou",
             "props": {
-              "id": "Z34.0",
+              "idClassid": "diagnoza",
               "idEzid": "02089522839@11",
-              "idClassid": "diagnoza"
+              "id": "Z34.0"
             }
           },
           "text": {
@@ -337,9 +337,9 @@
             "value": "[103] Vyšetrenie a rady v priebehu gravidity s vyhodnotením výsledkov laboratórnych vyšetrení so zreteľom na riziká gravidity.",
             "props": {
               "propBody": 200,
-              "idClassid": "vykon",
+              "id": 103,
               "idEzid": "00000466953@11",
-              "id": 103
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -359,9 +359,9 @@
             "value": "[108] Ultrazvukové sledovanie tehotenstva vrátane biometrie a posúdenie vývoja orgánov vrátane obrazovej dokumentácie, za každé vyšetrenie.",
             "props": {
               "propBody": 350,
-              "idClassid": "vykon",
+              "id": 108,
               "idEzid": "00000466979@11",
-              "id": 108
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -381,9 +381,9 @@
             "value": "[120] Vyšetrenie stredného prúdu moča na bielkoviny a cukor, ako aj mikroskopické vyšetrenie močového sedimentu.",
             "props": {
               "propBody": 80,
-              "id": 120,
+              "idClassid": "vykon",
               "idEzid": "00000467050@11",
-              "idClassid": "vykon"
+              "id": 120
             }
           },
           "count": {
@@ -403,9 +403,9 @@
             "value": "[122] Odobratie krvi zo žily na vykonanie vyšetrení v gravidite.",
             "props": {
               "propBody": 60,
-              "id": 122,
+              "idClassid": "vykon",
               "idEzid": "00000467076@11",
-              "idClassid": "vykon"
+              "id": 122
             }
           },
           "count": {
@@ -417,7 +417,8 @@
     ]
   },
   "tags": [
-    "sumar-tp"
+    "sumar-tp",
+    "monitory"
   ],
   "vars": {},
   "type": "examination",

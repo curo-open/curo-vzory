@@ -1,0 +1,27 @@
+{
+  "title": "Trvalá medikácia",
+  "shortcut": "tm",
+  "summary": "",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/000"
+}

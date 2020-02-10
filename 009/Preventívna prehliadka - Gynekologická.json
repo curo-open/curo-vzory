@@ -1,5 +1,5 @@
 {
-  "title": "Preventívna prehliadka - Gyn",
+  "title": "Preventívna prehliadka - Gynekologická",
   "shortcut": "ppg",
   "if": "",
   "data": {
@@ -640,10 +640,11 @@
     ]
   },
   "tags": [
-    "sumar-ppg"
+    "sumar-ppg",
+    "monitory"
   ],
   "vars": {},
-  "summary": "Preventívna prehliadka - Gyn",
+  "summary": "Preventívna prehliadka - Gynekologická",
   "type": "examination",
   "source": "curo-open/curo-vzory#/009"
 }

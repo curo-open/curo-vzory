@@ -1,0 +1,89 @@
+{
+  "title": "Všetky vymenné lístky za 90 dní",
+  "shortcut": "9",
+  "data": {
+    "_": {},
+    "s": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "žiada o odborné vyšetrenie<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 1,
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"vl\")|where(\"d.period&lt;90\")}}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
+            "props": {
+              "id": "Z00.0",
+              "idEzid": "02089520809@9",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 7,
+        "order": 3,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[4] \"Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani",
+            "props": {
+              "propBody": 200,
+              "id": 4,
+              "idEzid": "00000466524",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "if": "",
+  "summary": "",
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/000"
+}

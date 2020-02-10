@@ -1491,9 +1491,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "I10.00",
               "idEzid": "02089398180@9",
-              "id": "I10.00"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1528,9 +1528,9 @@
             "props": {}
           },
           "at": {
-            "value": "07.04.2020 14:29",
+            "value": "09.07.2020 14:17",
             "props": {
-              "propValue": "2020-04-07T12:29:56.465Z",
+              "propValue": "2020-07-09T12:17:28.001Z",
               "expr": "=+5m"
             }
           },
@@ -1549,7 +1549,8 @@
     ]
   },
   "tags": [
-    "sumar-hyper"
+    "sumar-hyper",
+    "monitory"
   ],
   "vars": {},
   "summary": "Hypertenzia - Vstupné vyšetrenie",

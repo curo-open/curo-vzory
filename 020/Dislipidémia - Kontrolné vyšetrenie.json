@@ -1397,9 +1397,9 @@
             "props": {}
           },
           "at": {
-            "value": "07.04.2020 14:30",
+            "value": "09.07.2020 22:19",
             "props": {
-              "propValue": "2020-04-07T12:30:36.284Z",
+              "propValue": "2020-07-09T20:19:33.471Z",
               "expr": "=+5m"
             }
           },
@@ -1418,7 +1418,8 @@
     ]
   },
   "tags": [
-    "sumar-lipid"
+    "sumar-lipid",
+    "monitory"
   ],
   "vars": {},
   "source": "curo-open/curo-vzory#/020"

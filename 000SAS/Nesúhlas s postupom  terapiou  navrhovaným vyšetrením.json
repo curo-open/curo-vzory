@@ -1,0 +1,28 @@
+{
+  "title": "Nesúhlas s postupom / terapiou / navrhovaným vyšetrením",
+  "shortcut": "nes",
+  "summary": "Nesúhlas s postupom / terapiou / navrhovaným vyšetrením",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Pri plnom vedomí svojím podpisom vyjadrujem svoj nesúhlas  s vyšetrením, lebo to považujem za zbytočné.  Bol som lekárom a zdravotníckym pracovníkom podrobne oboznámený s možnými následkami môjho rozhodnutia a dopadom na moje zdravie v budúcnosti. Napriek vysvetleniu možného vzniku a/alebo možného vývoja skrytého ochorenia alebo iných  priamo či nepriamo súvisiacich ochorení a aj tak nesúhlasím s navrhovaným vyšetrením - odberom biologického materiálu a jeho vyhodnotením v rámci preventívnych prehliadok.   <br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "type": "examination",
+  "source": "curo-open/curo-vzory#/000"
+}

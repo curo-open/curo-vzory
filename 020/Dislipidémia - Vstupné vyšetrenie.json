@@ -1395,9 +1395,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "id": "E78.9",
+              "idClassid": "diagnoza",
               "idEzid": "02089382192@10",
-              "idClassid": "diagnoza"
+              "id": "E78.9"
             }
           },
           "text": {
@@ -1432,9 +1432,9 @@
             "props": {}
           },
           "at": {
-            "value": "07.04.2020 14:31",
+            "value": "09.07.2020 14:17",
             "props": {
-              "propValue": "2020-04-07T12:31:09.446Z",
+              "propValue": "2020-07-09T12:17:44.081Z",
               "expr": "=+5m"
             }
           },
@@ -1453,7 +1453,8 @@
     ]
   },
   "tags": [
-    "sumar-lipid"
+    "sumar-lipid",
+    "monitory"
   ],
   "vars": {},
   "source": "curo-open/curo-vzory#/020"
