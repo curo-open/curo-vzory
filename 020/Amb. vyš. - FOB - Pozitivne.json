@@ -59,9 +59,9 @@
           "id": {
             "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
             "props": {
-              "id": "Z12.1",
+              "idClassid": "diagnoza",
               "idEzid": "02089521690@9",
-              "idClassid": "diagnoza"
+              "id": "Z12.1"
             }
           },
           "text": {
@@ -80,9 +80,9 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "id": "Z00.0",
+              "idClassid": "diagnoza",
               "idEzid": "02089520809",
-              "idClassid": "diagnoza"
+              "id": "Z00.0"
             }
           },
           "text": {
@@ -98,16 +98,16 @@
         "order": 5,
         "props": {
           "type": "lv",
-          "priority": 20,
-          "comment": "Pozitivny nalez"
+          "comment": "Pozitivny nalez",
+          "priority": 20
         },
         "value": {
           "id": {
             "value": "[00020036711] Stolica - okultné krvácanie",
             "props": {
-              "id": "00020036711",
+              "idClassid": "labvys",
               "idEzid": "00020036711",
-              "idClassid": "labvys"
+              "id": "00020036711"
             }
           },
           "value": {
@@ -121,7 +121,7 @@
           "date": {
             "value": "13.02.2020",
             "props": {
-              "propValue": "2020-02-13T08:11:53.729Z",
+              "propValue": "2020-02-13T09:04:21.820Z",
               "expr": "=teraz"
             }
           },
@@ -176,17 +176,17 @@
           "odbor": {
             "value": "[048] gastroenterológia",
             "props": {
-              "idClassid": "zameranie",
+              "id": "048",
               "idEzid": "00000351718@5",
-              "id": "048"
+              "idClassid": "zameranie"
             }
           },
           "druh": {
             "value": "[2] ambulancia",
             "props": {
-              "idClassid": "cinnost",
+              "id": 2,
               "idEzid": "00000000273@3",
-              "id": 2
+              "idClassid": "cinnost"
             }
           },
           "presne": {
@@ -214,9 +214,9 @@
             "value": "[159a] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonu pod kódom 160. Výkon môže vykazovať lekár všeobecnej starostlivosti vtedy, ak ho sám uskut",
             "props": {
               "propBody": 180,
-              "idClassid": "vykon",
+              "id": "159a",
               "idEzid": "00000467357@7",
-              "id": "159a"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -228,7 +228,8 @@
     ]
   },
   "tags": [
-    "sumar-fob"
+    "sumar-fob",
+    "sestra"
   ],
   "vars": {},
   "source": "curo-open/curo-vzory#/020"
