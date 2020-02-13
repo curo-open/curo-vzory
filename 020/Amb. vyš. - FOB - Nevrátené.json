@@ -14,7 +14,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? zp == 25 }}<br>",
+            "value": "{{ ? zp == 25  ||  zp == 24  }}<br>",
             "props": {}
           }
         }
@@ -116,7 +116,8 @@
     ]
   },
   "tags": [
-    "sumar-fob"
+    "sumar-fob",
+    "dekurz"
   ],
   "vars": {},
   "source": "curo-open/curo-vzory#/020"

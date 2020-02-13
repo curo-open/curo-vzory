@@ -14,7 +14,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? zp == 25 }}<br>",
+            "value": "{{ ? zp == 25 ||  zp == 24  }}<br>",
             "props": {}
           }
         }
@@ -57,9 +57,9 @@
           "id": {
             "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z12.1",
               "idEzid": "02089521690@9",
-              "id": "Z12.1"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -78,9 +78,9 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z00.0",
               "idEzid": "02089520809",
-              "id": "Z00.0"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -101,9 +101,9 @@
           "id": {
             "value": "[00020036711] Stolica - okultné krvácanie",
             "props": {
-              "id": "00020036711",
+              "idClassid": "labvys",
               "idEzid": "00020036711",
-              "idClassid": "labvys"
+              "id": "00020036711"
             }
           },
           "value": {
@@ -115,9 +115,9 @@
             "props": {}
           },
           "date": {
-            "value": "02.09.2019",
+            "value": "13.02.2020",
             "props": {
-              "propValue": "2019-09-02T11:47:00.888Z",
+              "propValue": "2020-02-13T07:58:11.174Z",
               "expr": "=teraz"
             }
           },
@@ -140,9 +140,9 @@
             "value": "[159z] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonu pod kódom 160. Výkon môže vykazovať lekár všeobecnej starostlivosti vtedy, ak ho sám uskut",
             "props": {
               "propBody": 180,
-              "idClassid": "vykon",
+              "id": "159z",
               "idEzid": "02089731844@7",
-              "id": "159z"
+              "idClassid": "vykon"
             }
           },
           "count": {
