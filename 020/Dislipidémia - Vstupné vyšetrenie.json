@@ -26,7 +26,7 @@
             }
           },
           "value": {
-            "value": "Bolesti hlavy, závraty, poruchy zraku neudáva, bez bolesti na hrudníku, neodpadol, bez palpitícií, dýcha sa dobre, nohy mu nepuchnú, s močením ťažkosti neudáva, klaudikačné bolesti ani pocit chladnýc končatín nemá, bez dyspepsie, hmotnosť stabil, anam. chrápania",
+            "value": "Bolesti hlavy, závraty, poruchy zraku neudáva, bez bolesti na hrudníku, neodpadol, bez palpitácií, dýcha sa dobre, nohy mu nepuchnú, s močením ťažkosti neudáva, klaudikačné bolesti ani pocit chladných končatín nemá, bez dyspepsie, hmotnosť stabil, anam. chrápania",
             "props": {}
           }
         }
@@ -1395,9 +1395,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "E78.9",
               "idEzid": "02089382192@10",
-              "id": "E78.9"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1432,9 +1432,9 @@
             "props": {}
           },
           "at": {
-            "value": "09.07.2020 14:17",
+            "value": "17.07.2020 09:47",
             "props": {
-              "propValue": "2020-07-09T12:17:44.081Z",
+              "propValue": "2020-07-17T07:47:28.959Z",
               "expr": "=+5m"
             }
           },
