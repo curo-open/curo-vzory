@@ -1,0 +1,160 @@
+{
+  "title": "Zápal močových ciest a bolesti v podbruší - N30.0",
+  "shortcut": "n300",
+  "summary": "Zápal močových ciest a bolesti v podbruší - N30.0",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 9,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>HAK: </b><br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 5,
+        "order": 3,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pm": [
+      {
+        "id": 7,
+        "order": 4,
+        "props": {
+          "type": "pm"
+        },
+        "value": {
+          "datumpm": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 10,
+        "order": 5,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[N30.0] Akútna cystitída",
+            "props": {
+              "id": "N30.0",
+              "idEzid": "02089457770@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 12,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "id": 63,
+              "idEzid": "00000117556@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 13,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).",
+            "props": {
+              "propBody": 1200,
+              "propType": "SVaLZ",
+              "id": 5305,
+              "idEzid": "00000492314@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "choroba"
+  ],
+  "vars": {},
+  "type": "examination",
+  "source": "curo-open/curo-vzory#/009"
+}

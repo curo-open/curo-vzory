@@ -1,0 +1,133 @@
+{
+  "type": "examination",
+  "summary": "Bolesti v podbruší u tehotnej v  III. trimestri - O47.0",
+  "content": "<section data-x-id=\"2\" data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"_noval FieldList hasActions\" data-name=\"reason\"></div>​<label data-for=\"datum\" class=\"_noval hidden\">zo dňa​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"datumVyziadania\" class=\"_noval hidden\">dátum vyžiadania​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datumVyziadania\"></div>​<label data-for=\"id\" class=\"_noval hidden\">identifikátor​</label><div class=\"_noval Field hidden\" data-name=\"id\"></div></section><section data-x-id=\"4\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"_noval FieldHtml\" data-name=\"s\">bolesti v podbruší, bez krvácania, trvajúce krvácanie<br></div></section><section data-x-id=\"9\" data-type=\"t\" class=\"_focus\"><aside></aside><div class=\"FieldHtml _focus\" data-name=\"t\"><b>HAK: </b><br></div></section><section data-x-id=\"5\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"_noval FieldHtml\" data-name=\"o\"></div></section><section data-x-id=\"7\" data-type=\"pm\" class=\"\"><aside></aside><label class=\"section-label  \">Posledná menštruácia​:</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"datumpm\"></div></section><section data-x-id=\"10\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" title=\"[O20.0] Hroziaci potrat (abortus imminens)\" style=\"width: 50ch;\" data-ignore-visited=\"true\" data-id=\"O20.0\" data-id-ezid=\"02089462374@12\" data-id-classid=\"diagnoza\">[O20.0] Hroziaci potrat (abortus imminens)</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"13\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions\" data-name=\"id\" style=\"\" data-ignore-visited=\"true\"></div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">0</div></section>",
+  "title": "Bolesti v podbruší u tehotnej v  III. trimestri - O47.0",
+  "shortcut": "o470",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bolesti v podbruší trvajúce asi , bez krvácania, PV stojí, pohyby cíti, výtoky nepozoruje<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 9,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>HAK: </b><br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 5,
+        "order": 3,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pm": [
+      {
+        "id": 7,
+        "order": 4,
+        "props": {
+          "type": "pm"
+        },
+        "value": {
+          "datumpm": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 10,
+        "order": 5,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[O47.0] Falošná pôrodná činnosť pred ukončením 37. týždňa gravidity",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089464107@12",
+              "id": "O47.0"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 13,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "count": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "choroba"
+  ],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/009"
+}
