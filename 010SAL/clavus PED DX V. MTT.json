@@ -1,0 +1,70 @@
+{
+  "title": "clavus PED DX V. MTT",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[L84.0] Kurie oko a mozo&#x13E;",
+            "props": {
+              "id": "L84",
+              "idEzid": "00000051953@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] D&#xF4;kladn&#xE9; vy&#x161;etrenie jedn&#xE9;ho org&#xE1;nov&#xE9;ho syst&#xE9;mu alebo kontroln&#xE9; vy&#x161;etrenie vr&#xE1;tane r&#xE1;d a dokument&#xE1;cie.",
+            "props": {
+              "id": "63",
+              "idEzid": "00000117556@14",
+              "propBody": "200"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: reklamuje bolestiv&#xFA; rezistenciu na pravej ploske nohy\nAA: alergiu na lieky a potraviny neud&#xE1;va\nO.: eupnoe, anikter., acyanoza, na pravej ploske nohy, v oblasti V. MTT palp. alg. hyperkeratot rezistencia, bez inflam a flukt.\nDg.: Clavus ped l sin\nTh.: excisio in toto v LA 1% Mes., sutura Prolen 3/0, ko o 7-10 dn&#xED;, nedostupova&#x165;, ko p.p. sk&#xF4;r\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "CLAVUS"
+  ]
+}

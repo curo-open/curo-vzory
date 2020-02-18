@@ -1,0 +1,67 @@
+{
+  "title": "Colica renalis",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[N23.0] Obli&#x10D;kov&#xE1; kolika, bli&#x17E;&#x161;ie neur&#x10D;en&#xE1;",
+            "props": {
+              "id": "N23",
+              "idEzid": "00000059659@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S: pac. reklamuje n&#xE1;hle vznikl&#xFA; siln&#xFA;, tup&#xFA; boles&#x165; v lumb&#xE1;lnej krajine v&#x13E;avo/vpravo\nO: vedomie luc&#xED;dne, poloha akt&#xED;vna, ko&#x17E;a &#x10D;ist&#xE1;, anikter., acyanot., eupnoe, abdomen m&#xE4;kk&#xE9;, dobre priehmatn&#xE9;, bez patolog. rezistencie\nB-R-P negat., Murphy negat., TPT v&#x13E;avo/vpravo pozit.\nDg.: Colica renalis l sin / dx\nTh.:\nDop.: Ad urologiam NsP Zvolen.\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling"
+}

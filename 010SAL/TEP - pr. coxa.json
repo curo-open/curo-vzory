@@ -1,0 +1,112 @@
+{
+  "title": "TEP - pr. coxa",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S71.0] Otvoren&#xE1; rana bedra",
+            "props": {
+              "id": "S71.0",
+              "idEzid": "02089492165@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] D&#xF4;kladn&#xE9; vy&#x161;etrenie jedn&#xE9;ho org&#xE1;nov&#xE9;ho syst&#xE9;mu alebo kontroln&#xE9; vy&#x161;etrenie vr&#xE1;tane r&#xE1;d a dokument&#xE1;cie.",
+            "props": {
+              "id": "63",
+              "idEzid": "00000117556@14",
+              "propBody": "200"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2007] Odstr&#xE1;nenie sut&#xFA;ry alebo stehov z ve&#x13E;kej rany.",
+            "props": {
+              "id": "2007",
+              "idEzid": "00000474346@14",
+              "propBody": "60"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[200] Obv&#xE4;z s v&#xFD;nimkou r&#xFD;chlych obv&#xE4;zov a sprejov, o&#x10D;n&#xFD;ch a u&#x161;n&#xFD;ch klapiek, trojuholn&#xED;kov&#xFD;ch &#x161;atiek, hotov&#xFD;ch n&#xE1;plast&#xED; alebo hotov&#xFD;ch kravatov&#xFD;ch obv&#xE4;zov na rany. Obv&#xE4;zy pod&#x13E;a v&#xFD;konu pod k&#xF3;dom 200 sa nem&#xF4;&#x17E;u nevykazova&#x165;, ke&#x10F; sl&#xFA;&#x17E;ia na krytie r&#xE1;n, ktor&#xE9; vzni",
+            "props": {
+              "id": "200",
+              "idEzid": "00000467498@14",
+              "propBody": "70"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "4",
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Pac po op. - TEP -\nDg.: Coxarthrosis l dx\nS.: lep&#x161;ie, pobolievanie v pr. koxe miernej&#x161;ie\nO.: prient., poloha akt., ch&#xF4;dza o NB, eupnoe, anikter., acyanoza\nSPL : rana po TEP nad pr. bedr. zhybom s primeran&#xFD;m hojen&#xED;m, bez inflam a secer.\nTh.: toaleta, desinf., stehy ex, krytie\nDop.: telesn&#xE9; &#x161;etrenie, nedostupova&#x165; 6 ty&#x17E;., ko d&#x13E;a dop ORT\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "Stehy - St.p. OPER"
+  ]
+}

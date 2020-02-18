@@ -1,0 +1,91 @@
+{
+  "title": "Chondropathio patellae l dx",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M25.5] Boles&#x165; k&#x13A;bu na viacer&#xFD;ch miestach",
+            "props": {
+              "id": "M25.50",
+              "idEzid": "02089429639@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[231] Cirkul&#xE1;rny pohybov&#xFD; obv&#xE4;z kolena.",
+            "props": {
+              "id": "231",
+              "idEzid": "00000467704@14",
+              "propBody": "360"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: pac. ud&#xE1;va bolesti kolien, viac vpravo\nO.: orient., poloha akt&#xED;vna, eupnoe, anikter., acyanoza\nSPL : pr. koleno bez naplne a balotementu, manevre negat., bez zn. instability v oboch rovin&#xE1;ch, mierna palp. alg medial kompartmentu a parapatelarne medialne, l&#xFA;pav&#xFD; fenom&#xE9;m pod patelou pri F cca 130 st\nDg.: chondropathio patellae l dx\nTh.: NSA, k&#x13E;udov&#xFD; re&#x17E;im, ko o 10-14 dn&#xED;, p.p. sk&#xF4;r\n\n\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "ORTOPEDIA"
+  ]
+}

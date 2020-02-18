@@ -1,0 +1,48 @@
+{
+  "title": "Thorax cont - ko pp",
+  "data": {
+    "_": {},
+    "vv": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] D&#xF4;kladn&#xE9; vy&#x161;etrenie jedn&#xE9;ho org&#xE1;nov&#xE9;ho syst&#xE9;mu alebo kontroln&#xE9; vy&#x161;etrenie vr&#xE1;tane r&#xE1;d a dokument&#xE1;cie.",
+            "props": {
+              "id": "63",
+              "idEzid": "00000117556@14",
+              "propBody": "200"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S : c&#xED;ti sa dobre, bez &#x165;a&#x17E;kost&#xED;, bez pocitu du&#x161;nosti\nO : vedomie luc&#xED;dne, orient., eupnoe, acyanoza, anikterus, hrudn&#xED;k klenut&#xFD;, s&#xFA;mern&#xFD;, stabiln&#xFD; v oboch smeroch, &#xFA;stup palp. alg., d&#xFD;chanie vezikul&#xE1;rne, &#x10D;ist&#xE9;, symetrick&#xE9;\nZ : klin. stav zlep&#x161;en&#xFD;, telesn&#xE9; &#x161;etrenie ty&#x17E;., ko p.p.\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "KONTROLA - TRAUMA Dg"
+  ]
+}

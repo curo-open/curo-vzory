@@ -1,0 +1,111 @@
+{
+  "title": "INF - INCIZIA inflamovanej rany",
+  "data": {
+    "_": {},
+    "vv": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] D&#xF4;kladn&#xE9; vy&#x161;etrenie jedn&#xE9;ho org&#xE1;nov&#xE9;ho syst&#xE9;mu alebo kontroln&#xE9; vy&#x161;etrenie vr&#xE1;tane r&#xE1;d a dokument&#xE1;cie.",
+            "props": {
+              "id": "63",
+              "idEzid": "00000117556@14",
+              "propBody": "200"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[407] Infiltra&#x10D;n&#xE1; anest&#xE9;zia jednej oblasti s pou&#x17E;it&#xED;m lok&#xE1;lneho anestetika v mno&#x17E;stve viac ako 5 ml. Tento v&#xFD;kon m&#xF4;&#x17E;e vykazova&#x165; lek&#xE1;r so &#x161;pecializ&#xE1;ciou v odbore v&#x161;eobecn&#xE9; lek&#xE1;rstvo, chirurg, traumatol&#xF3;g, al",
+            "props": {
+              "id": "407",
+              "idEzid": "00000468728@14",
+              "propBody": "120"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2146] Otvorenie flegm&#xF3;ny alebo exc&#xED;zia karbunkla.",
+            "props": {
+              "id": "2146",
+              "idEzid": "00000474635@14",
+              "propBody": "400"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[200] Obv&#xE4;z s v&#xFD;nimkou r&#xFD;chlych obv&#xE4;zov a sprejov, o&#x10D;n&#xFD;ch a u&#x161;n&#xFD;ch klapiek, trojuholn&#xED;kov&#xFD;ch &#x161;atiek, hotov&#xFD;ch n&#xE1;plast&#xED; alebo hotov&#xFD;ch kravatov&#xFD;ch obv&#xE4;zov na rany. Obv&#xE4;zy pod&#x13E;a v&#xFD;konu pod k&#xF3;dom 200 sa nem&#xF4;&#x17E;u nevykazova&#x165;, ke&#x10F; sl&#xFA;&#x17E;ia na krytie r&#xE1;n, ktor&#xE9; vzni",
+            "props": {
+              "id": "200",
+              "idEzid": "00000467498@14",
+              "propBody": "70"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "4",
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S : reklamuje pobolievanie v oblasti rany, pulz. boles&#x165;, bez febril&#xED;t\nO : orient., poloha akt., eupnoe, anikter., acyanoza, rana je inflamovan&#xE1;, edem s hyper&#xE9;miou okolia rany bez akt. supur&#xE1;cie, rana s nazna&#x10D;enou fluktuaciou, po inc&#xED;zii s akt. supuraciou, bez zn. lymphangoit&#xED;dy\nTh.: dezinf., toaleta, LA 1% Mes. 10 ml, inc&#xED;zia, evakuacia pusu s preplachom H2O2 opakovane, krytie, band., ko o 2 dni, dop ATB\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "PREVÄZ RANY"
+  ]
+}

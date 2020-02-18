@@ -1,0 +1,112 @@
+{
+  "title": "abrupt tend dig III. man l DX",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S66.3] Poranenie svalu a &#x161;&#x13E;achy vystiera&#x10D;a in&#xE9;ho prsta v &#xFA;rovni z&#xE1;p&#xE4;stia a ruky",
+            "props": {
+              "id": "S66.3",
+              "idEzid": "02089491811@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] D&#xF4;kladn&#xE9; vy&#x161;etrenie jedn&#xE9;ho org&#xE1;nov&#xE9;ho syst&#xE9;mu alebo kontroln&#xE9; vy&#x161;etrenie vr&#xE1;tane r&#xE1;d a dokument&#xE1;cie.",
+            "props": {
+              "id": "63",
+              "idEzid": "00000117556@14",
+              "propBody": "200"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokument&#xE1;cie, ak nie je vykonan&#xE9; pracoviskom RTG, vr&#xE1;tane popisu v zdravotnej dokument&#xE1;cii.",
+            "props": {
+              "id": "15d",
+              "idEzid": "02089714121@14",
+              "propBody": "150"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[228] Sadrov&#xFD; dlahov&#xFD; obv&#xE4;z.",
+            "props": {
+              "id": "228",
+              "idEzid": "00000467670@14",
+              "propBody": "375"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "4",
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: reklamuje semiphlek&#x10D;n&#xE9; postavenie v oblasti distal. phalangu III. prsta pravej ruky, &#xFA;raz pred viac ako t&#xFD;&#x17E;.\nO.: orient., poloha akt., eupnoe, anikter., acyanoza\nSPL : semiflek&#x10D;n&#xE9; postavenie DIP zhybu na III. prste pravej ruky\nbez NCP, bez inflam.\nRTG : abruptio tend. reg insert. tend. E pro dig III. man l dx\nTh.: hyperexten&#x10D;n&#xE1; dla&#x17E;ka\nAd plast chir FNsP FDR BB - dop konziliar vy&#x161;.\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "TRAUMA - šlachy"
+  ]
+}

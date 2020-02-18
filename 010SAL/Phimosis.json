@@ -1,0 +1,67 @@
+{
+  "title": "Phimosis",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[N47.0] Hyperplastick&#xE1; predko&#x17E;ka, fim&#xF3;za a parafim&#xF3;za",
+            "props": {
+              "id": "N47",
+              "idEzid": "00000060632@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] D&#xF4;kladn&#xE9; vy&#x161;etrenie jedn&#xE9;ho org&#xE1;nov&#xE9;ho syst&#xE9;mu alebo kontroln&#xE9; vy&#x161;etrenie vr&#xE1;tane r&#xE1;d a dokument&#xE1;cie.",
+            "props": {
+              "id": "63",
+              "idEzid": "00000117556@14",
+              "propBody": "200"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Subj.: matka ud&#xE1;va nemo&#x17E;nos&#x165; retrakcie predko&#x17E;ky u die&#x165;a&#x165;a\nObj.: poloha akt&#xED;vna, eupnoe, abdomen m&#xE4;kk&#xE9;, priehmatn&#xE9;, nebolestiv&#xE9;, penis : nemo&#x17E;nos&#x165; retrakcie predko&#x17E;ky cez glans penis, predko&#x17E;ka je &#xFA;zka, bez zn. balanit&#xED;dy, testes bpn\nDg.: Phimosis\nDop.: elekt. DIP, Ad chirurgiam NsP Zvolen :\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling"
+}

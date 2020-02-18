@@ -1,0 +1,70 @@
+{
+  "title": "Thorax cont - 2-3 tyž DX",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S20.2] Pomlia&#x17E;denie hrudn&#xED;ka",
+            "props": {
+              "id": "S20.2",
+              "idEzid": "02089485235@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] D&#xF4;kladn&#xE9; vy&#x161;etrenie jedn&#xE9;ho org&#xE1;nov&#xE9;ho syst&#xE9;mu alebo kontroln&#xE9; vy&#x161;etrenie vr&#xE1;tane r&#xE1;d a dokument&#xE1;cie.",
+            "props": {
+              "id": "63",
+              "idEzid": "00000117556@14",
+              "propBody": "200"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S : pac. sa c&#xED;ti lep&#x161;ie s pretrv&#xE1;vaj&#xFA;cimi boles&#x165;ami pravej strany hrudn&#xED;ka v mieste udretia pri zaka&#x161;lan&#xED; a n&#xE1;hlej zmene polohy, bolesti bez propag&#xE1;cie\nO : vedomie luc&#xED;dne, orient., poloha akt&#xED;vna, eupnoe, anikterus, acyan&#xF3;za, palp. hrudn&#xED;k stabiln&#xFD; v oboch smeroch, bez krepitu, palp. alg. v mieste udretia pr. hemithoraxu miernej&#x161;ia, d&#xFD;chanie vezikul&#xE1;rne, &#x10D;ist&#xE9;, symetrick&#xE9; obojstranne\nZ : stav primeran&#xFD;, bez zn&#xE1;mok du&#x161;nosti, ko o 2-3 ty&#x17E;., p.p. sk&#xF4;r\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "KONTROLA - TRAUMA Dg"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "title": "Per SEC - secer./dehisc+krusty",
+  "data": {
+    "_": {},
+    "vv": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] D&#xF4;kladn&#xE9; vy&#x161;etrenie jedn&#xE9;ho org&#xE1;nov&#xE9;ho syst&#xE9;mu alebo kontroln&#xE9; vy&#x161;etrenie vr&#xE1;tane r&#xE1;d a dokument&#xE1;cie.",
+            "props": {
+              "id": "63",
+              "idEzid": "00000117556@14",
+              "propBody": "200"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2018] O&#x161;etrenie malej rany hojacej sa per secundam.",
+            "props": {
+              "id": "2018",
+              "idEzid": "00000474460@14",
+              "propBody": "150"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[200] Obv&#xE4;z s v&#xFD;nimkou r&#xFD;chlych obv&#xE4;zov a sprejov, o&#x10D;n&#xFD;ch a u&#x161;n&#xFD;ch klapiek, trojuholn&#xED;kov&#xFD;ch &#x161;atiek, hotov&#xFD;ch n&#xE1;plast&#xED; alebo hotov&#xFD;ch kravatov&#xFD;ch obv&#xE4;zov na rany. Obv&#xE4;zy pod&#x13E;a v&#xFD;konu pod k&#xF3;dom 200 sa nem&#xF4;&#x17E;u nevykazova&#x165;, ke&#x10F; sl&#xFA;&#x17E;ia na krytie r&#xE1;n, ktor&#xE9; vzni",
+            "props": {
+              "id": "200",
+              "idEzid": "00000467498@14",
+              "propBody": "70"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: c&#xED;ti sa dobre, bez febril&#xED;t, bez bolest&#xED;\nO.: orient., poloha akt., eunoe, anikter., acyanoza\nlokal.: rana sa hoj&#xED; per secundam, mierna secern&#xE1;cia po znesen&#xED; hyper. keratot. kr&#xFA;st pri parc. dehiscencii s progreduj&#xFA;cou granul&#xE1;ciou spodiny\nTh.: desinf., toaleta, znesenie kr&#xFA;st marg., stehy ex, H2O2 lokal., krytie\ndop lokal o&#x161;. doma, ko p.p. pri akomko&#x13E;vek zhor&#x161;en&#xED;, resp. nezlep&#x161;en&#xED;\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "STEHY - Vybratie stehov"
+  ]
+}

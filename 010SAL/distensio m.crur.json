@@ -1,0 +1,47 @@
+{
+  "title": "distensio m.crur",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S86.2] Poranenie svalu (svalov) a &#x161;&#x13E;achy (&#x161;liach) prednej svalovej skupiny v &#xFA;rovni predkolenia",
+            "props": {
+              "id": "S86.2",
+              "idEzid": "02089493874@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: pac. reklamuje bolesti v oblasti l&#xFD;tkov&#xE9;ho svalu po &#x161;myknut&#xED;\nO.: orient., poloha akt., eupnoe, anikter., acyanoza, ch&#xF4;dza s napadan&#xED;m na &#x13E;av&#xFA;/prav&#xFA; nohu, SPL: &#x13E;av&#xE1;/prav&#xE1; DK s plp. alg v oblasti medial hlavy\nm. gastrocnemius bez klin. zn. funk&#x10D;nej l&#xE9;zie, bez NCP\nDg.: Distensio mm. gastrocnemii cruris l sin/dx /cap.med./\nTh.: NSA\nDop.: k&#x13E;udov&#xFD; re&#x17E;im s polohovan&#xED;m kon&#x10D;atiny\nko vy&#x161;etrenie o 7-10 dn&#xED;, p.p. sk&#xF4;r\n\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "TRAUMA - distensio MM"
+  ]
+}

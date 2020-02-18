@@ -1,0 +1,22 @@
+{
+  "title": "§ inform. súhlas",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Svoj&#xED;m podpisom potvrdzujem, &#x17E;e som bol oh&#x13E;aduplne a bez n&#xE1;tlaku zrozumitelne informovan&#xFD; o &#xFA;&#x10D;ele, povahe, n&#xE1;sledkoch a rizik&#xE1;ch poskytnutia zdravotnej starostlivosti, o mo&#x17E;nostiach vo&#x13E;by navrhovan&#xFD;ch postupov a rizik&#xE1;ch odmietnutia poskytnutia zdravotnej starostlivosti.\n\nPodpis pacienta: ............................. Pe&#x10D;iatka lek&#xE1;ra:\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling"
+}

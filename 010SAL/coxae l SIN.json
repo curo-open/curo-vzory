@@ -1,0 +1,70 @@
+{
+  "title": "coxae l SIN",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S70.0] Pomlia&#x17E;denie bedra",
+            "props": {
+              "id": "S70.0",
+              "idEzid": "02089492058@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: pac. reklamuje bolesti v &#x13E;avom bedrovom zhybe po udret&#xED; pri p&#xE1;de, po &#xFA;raze sa mohol postavi&#x165;, zhor&#x161;enie bolest&#xED; v stoji a pri ch&#xF4;dzi\nO.: orient., poloha akt., eupnoe, anikter., acyanoza\nlebka poklop. negat, izokoria, fotoreakcia v norme, ameningeal.\nhrudn&#xED;k klenut&#xFD;, s&#xFA;mern&#xFD;, stabiln&#xFD; v oboch smeroch\npalp. alg nad ve&#x13E;k&#xFD;m trochanterom &#x13E;avej koxy s pas&#xED;vne primeranou dynamikou - terminalne alg., v kolene dynamika pln&#xE1;, &#x13E;av&#xE1; DK bez NCP\nHoman negat., Lowemberg negat., perif. pulz. na ADP a ATP hmatn&#xE9;\nRTG.: &#x13E;av&#xE1; koxa bez TZ na skelete\nDg.: Contusio coxae l sin\nTh.: NSA, analgetik&#xE1;\nDop.: k&#x13E;udov&#xFD; re&#x17E;im, telesn&#xE9; &#x161;etrenie, ko o ty&#x17E;. p.p. pri akomko&#x13E;vek zhor&#x161;en&#xED; sk&#xF4;r\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "TRAUMA - CONTUSIO"
+  ]
+}

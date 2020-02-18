@@ -1,0 +1,153 @@
+{
+  "title": "haemarth.genus DX",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S83.6] Vyvrtnutie a natiahnutie inej a bli&#x17E;&#x161;ie neur&#x10D;enej &#x10D;asti kolena",
+            "props": {
+              "id": "S83.6",
+              "idEzid": "02089493650@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M25.06] Hemartros predkolenia (ihlica, p&#xED;&#x161;&#x165;ala, kolenn&#xFD; k&#x13A;b)",
+            "props": {
+              "id": "M25.06",
+              "idEzid": "02089429142@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokument&#xE1;cie, ak nie je vykonan&#xE9; pracoviskom RTG, vr&#xE1;tane popisu v zdravotnej dokument&#xE1;cii.",
+            "props": {
+              "id": "15d",
+              "idEzid": "02089714121@14",
+              "propBody": "150"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "4",
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[301] Punkcia lak&#x165;ov&#xE9;ho alebo kolenn&#xE9;ho k&#x13A;bu.",
+            "props": {
+              "id": "301",
+              "idEzid": "00000468264@14",
+              "propBody": "150"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "5",
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[207] Spev&#x148;uj&#xFA;ci n&#xE1;plastov&#xFD; obv&#xE4;z ve&#x13E;k&#xE9;ho k&#x13A;bu.",
+            "props": {
+              "id": "207",
+              "idEzid": "00000467530@14",
+              "propBody": "120"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "6",
+        "order": 6,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Subj.: pac. reklamuje bolesti prav&#xE9;ho kolena a opuch po podvrtnut&#xED; pri p&#xE1;de\nObj.: vedomie luc&#xED;dne, poloha akt&#xED;vna, ch&#xF4;dza s napadan&#xED;m na pr.DK\nprav&#xE9; koleno s tenznou n&#xE1;pl&#x148;ou a balotementom pately, dynamika pre alg. obmedzen&#xE1;, punkcia cca 50 ml haemarthrosu, manevre na leziu meniskova instabilitu pre algicitu nehodnotiteln&#xE9;\nRTG : bez TZ na skelete kolena\nDg.: Haemarthros genus l dx - st.p. dist. genus\nTh : pukcia haemarthrosu, analgetik&#xE1;\nDop.: k&#x13E;udov&#xFD; re&#x17E;im s polohovan&#xED;m kon&#x10D;atiny, ort&#xE9;za, ko o 3-4 dni\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "TRAUMA - DISTORSIO"
+  ]
+}

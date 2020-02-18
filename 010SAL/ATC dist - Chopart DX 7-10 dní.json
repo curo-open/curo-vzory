@@ -1,0 +1,25 @@
+{
+  "title": "ATC dist - Chopart DX 7-10 dní",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: pretrvavaj&#xFA;ce bolesti pr. &#x10D;lenka\nO.: orient., poloha akt&#xED;vna, eupnoe, anikter., acyanoza, palp. alg. v mieste poranenia pr. &#x10D;lenka miernej&#x161;ia, nad Chopartov&#xFD;m zhybom pretrv&#xE1;va, ustupuj&#xFA;ci ed&#xE9;m, stav obj. zlep&#x161;en&#xFD;, bez NCP\nTh.: band.\nDop.: pokra&#x10D;ova&#x165; v lie&#x10D;be, ko o 7-l0 dn&#xED;\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "KONTROLA - TRAUMA Dg"
+  ]
+}

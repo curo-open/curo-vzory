@@ -1,0 +1,91 @@
+{
+  "title": "Artralgia ATC l SIN",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M25.57] Boles&#x165; k&#x13A;bu &#x10D;lenka a nohy (predpriehlavok, priehlavok, prsty nohy, &#x10D;lenkov&#xFD; k&#x13A;b, in&#xE9; k&#x13A;by nohy)",
+            "props": {
+              "id": "M25.57",
+              "idEzid": "02089429704@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] D&#xF4;kladn&#xE9; vy&#x161;etrenie jedn&#xE9;ho org&#xE1;nov&#xE9;ho syst&#xE9;mu alebo kontroln&#xE9; vy&#x161;etrenie vr&#xE1;tane r&#xE1;d a dokument&#xE1;cie.",
+            "props": {
+              "id": "63",
+              "idEzid": "00000117556@14",
+              "propBody": "200"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokument&#xE1;cie, ak nie je vykonan&#xE9; pracoviskom RTG, vr&#xE1;tane popisu v zdravotnej dokument&#xE1;cii.",
+            "props": {
+              "id": "15d",
+              "idEzid": "02089714121@14",
+              "propBody": "150"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Subj.: pac. ud&#xE1;va bolesti &#x13E;av&#xE9;ho &#x10D;lenka bez &#xFA;razu, obmedzen&#xFA; hybnos&#x165; v &#x10D;lenkovom zhybe\nObj.: vedomie luc&#xED;dne, poloha akt&#xED;vna, ko&#x17E;a &#x10D;ist&#xE1;, anikter., acyanot., eupnoe, &#x13E;av&#xE9; ATC normokonfigurovan&#xE9;, mierne palp. algick&#xE9;, akt&#xED;vna hybnos&#x165; obmedzen&#xE1;, pas&#xED;vna terminalne algick&#xE1;, ATC s miernou palp. alg., bez NCP\nRTG : bez traumat. zmien na skelete &#x13E;. ATC\nDg.: artralgia ATC l sin\nTh.: analgetik&#xE1;, NSA\nDop.: telesn&#xE9; &#x161;etrenie, NSA, ORT vy&#x161; p.p., \n\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "ORTOPEDIA"
+  ]
+}

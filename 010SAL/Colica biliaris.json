@@ -1,0 +1,67 @@
+{
+  "title": "Colica biliaris",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[K80.2] Kame&#x148; &#x17E;l&#x10D;n&#xED;ka bez cholecystit&#xED;dy, bez prejavov ob&#x161;trukcie &#x17E;l&#x10D;ov&#xFD;ch ciest",
+            "props": {
+              "id": "K80.20",
+              "idEzid": "02089411553@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[60] Komplexn&#xE9; vy&#x161;etrenie pacienta (kompletn&#xE1; anamn&#xE9;za, vy&#x161;etrenie v&#x161;etk&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov, zalo&#x17E;enie zdravotnej dokument&#xE1;cie, diagnostick&#xFD; z&#xE1;ver, lie&#x10D;ebn&#xFD; pl&#xE1;n a (alebo) zaradenie do dispenz&#xE1;rnej starostlivosti, odoslanie pacienta na &#x10F;al&#x161;ie laborat&#xF3;",
+            "props": {
+              "id": "60",
+              "idEzid": "00000466730@14",
+              "propBody": "350"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S : pac. reklamuje bolesti brucha pod PRO s propag&#xE1;ciou bolesti pod pr. lopatku, nauzea so zvracan&#xED;m, slabos&#x165;, afebril.\nO : vedomie luc&#xED;dne, poloha akt&#xED;vna, eupnoe, anikterus, acyanoza, abdomen makk&#xE9;, priehmatn&#xE9; s palp. algicitou pr. hypochondria a epigastria bez znamok peritoneal. dr&#xE1;&#x17E;denia, Murphy nazna&#x10D;en&#xFD;, hypogastrium volne priehmatn&#xE9;, B-R-P negat., per rectum : nevy&#x161;.\nDg.: Colica biliaris - v.s. cholecystolithiasis\nTh :\nDop.: Ad chirurgiam NsP Zvolen - dop. spasmoanalget. inf. lie&#x10D;bu a USG vy&#x161;. biliarneho traktu\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling"
+}

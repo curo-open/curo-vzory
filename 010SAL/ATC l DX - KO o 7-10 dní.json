@@ -1,0 +1,25 @@
+{
+  "title": "ATC l DX - KO o 7-10 dní",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: bolesti v pr. &#x10D;lenku miernej&#x161;ie, pretrvavaj&#xFA; pri z&#xE1;&#x165;a&#x17E;i\nO.: orient., poloha akt., eupnoe, anikter., acyanoza\nSPL : pr. &#x10D;lenok s resorbuj&#xFA;cim sa haematomom a ustupuj&#xFA;cim ed&#xE9;mom s palp. alg. pod lateral. malleolom a nad Chopart. zhybom\nZ.: st. p. dist ATC l dx\nDop.: pokra&#x10D;ova&#x165; v lie&#x10D;be, NSA lokal., telesn&#xE9; &#x161;etrenie\nko o 7-10 dn&#xED;, potom RHB\n\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "KONTROLA - TRAUMA Dg"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "title": "hallux bilat (ung.) - KO P.P.",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[L60.0] Zarastaj&#xFA;ci necht",
+            "props": {
+              "id": "L60.0",
+              "idEzid": "02089414888@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] D&#xF4;kladn&#xE9; vy&#x161;etrenie jedn&#xE9;ho org&#xE1;nov&#xE9;ho syst&#xE9;mu alebo kontroln&#xE9; vy&#x161;etrenie vr&#xE1;tane r&#xE1;d a dokument&#xE1;cie.",
+            "props": {
+              "id": "63",
+              "idEzid": "00000117556@14",
+              "propBody": "200"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S : c&#xED;ti sa dobre, afebril., bez bolesti na oboch palcoch n&#xF4;h\nO : vedomie luc., orient., poloha akt., eupnoe, anikter., acyanoza, rany po abl&#xE1;cii nechta na oboch halluxoch bez inflam&#xE1;cie a bez secern&#xE1;cie, bez rozvoja inflam a phlegm&#xF3;ny na halox oboch n&#xF4;h\nTh.: sine\nDop.: ko p.p.\n\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "PREVÄZ RANY - Hallux st.p.ABL"
+  ]
+}

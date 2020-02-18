@@ -1,0 +1,67 @@
+{
+  "title": "SINUS pilonidalis",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[L05.9] Pilonid&#xE1;lna cysta bez abscesu",
+            "props": {
+              "id": "L05.9",
+              "idEzid": "02089412916@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: rezistencia v oblasti kr&#xED;&#x17E;ovej kosti a kostr&#x10D;e\nO.: orientovan&#xFD;, poloha akt&#xED;vna, ko&#x17E;a &#x10D;ist&#xE1;, anikter., acyanot.\nabdomen kludn&#xE9;, palp. nebolestiv&#xE1; rezistencia v distal. S oblasti\nDg.: Sinus pilonidalis\nTh.: sine\nDop.: Ad chirurgiam Nem ZV:\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling"
+}

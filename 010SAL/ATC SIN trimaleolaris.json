@@ -1,0 +1,69 @@
+{
+  "title": "ATC SIN trimaleolaris",
+  "data": {
+    "_": {},
+    "vv": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[228] Sadrov&#xFD; dlahov&#xFD; obv&#xE4;z.",
+            "props": {
+              "id": "228",
+              "idEzid": "00000467670@14",
+              "propBody": "375"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: pac ud&#xE1;va bolesti &#x13E;. &#x10D;lenka po udret&#xED; pri p&#xE1;de\nO.: orient., poloha akt., eupnoe, anikter., acyan&#xF3;za\ned&#xE9;m, haematom a palp. bolestivos&#x165; &#x13E;. TC zhybu s obmedzenou hybnos&#x165;ou\nbez NCP\nRTG : &#x13E;. ATC v 2 proj. : fractura malleoli lateralis disloc, fractura malleoli med cum disloc minima, abruptio margo post tibiae cum disloc min\nDg.: fractura trimalleolaris TC l sin\nTh.: sadr dlaha\nDop.: ad chirurgiam NsP ZV - dop rep. a OS\n\n\n\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "TRAUMA - FRACTURA"
+  ]
+}

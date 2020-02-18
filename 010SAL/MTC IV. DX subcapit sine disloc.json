@@ -1,0 +1,25 @@
+{
+  "title": "MTC IV. DX subcapit sine disloc",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Subj.: pac. reklamuje bolesti pravej ruky po udret&#xED;\nObj.: vedomie luc&#xED;dne, poloha akt&#xED;vna, eupnoe, ko&#x17E;a anikter., acyanot., prav&#xE1; ruka s palp. algicitou a edemom v oblasti IV.MTC s max. IV.MTCPh zhybu, akt&#xED;vna hybnos&#x165; IV. prsta obmedzen&#xE1; v MTCPh a PIPh zhybe pre alg., bez NCP\nDg.: RTG : fr. subcapitis MTC IV. man l dx cum sine disloc\nTh.: sadr. dlaha, analgetik&#xE1;, ko o ty&#x17E;. s ko RTG\n\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "TRAUMA - fractura MAN"
+  ]
+}

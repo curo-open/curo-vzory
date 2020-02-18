@@ -1,0 +1,25 @@
+{
+  "title": "PHS postraumat DX",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S : pac. reklamuje bolesti prav&#xE9;ho pleca po dv&#xED;han&#xED; bremena, pri dv&#xED;han&#xED; pocit lupnutia\nO : vedomie luc&#xED;dne, eupnoe, anikterus, acyanoza, hrudn&#xED;k kelnut&#xFD;\nstabiln&#xFD;, palp. alg. prav&#xE9;ho AHS s obbmedzen&#xED;m akt. abd. do 80 st., pas&#xED;vna abd. do 9O st., klin. bez funk&#x10D;nej l&#xE9;zie m. biceps brachii, bez l&#xE9;zie man&#x17E;ety rot&#xE1;torov, bez NCP\nRTG : artrot. zmeny bez znamok traumat lezie skeletu\nDg.: PHS l dx postraumat.\nDop.: telesn&#xE9; &#x161;etrenie, analgetik&#xE1;, z&#xE1;ves, ko o 7 - lO dn&#xED;, p.p. ko sk&#xF4;r\n\n\n\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "ORTOPEDIA"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "title": "Gonarthrosis l sin",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M25.5] Boles&#x165; k&#x13A;bu na viacer&#xFD;ch miestach",
+            "props": {
+              "id": "M25.50",
+              "idEzid": "02089429639@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: reklamuje bolesti &#x13E;. kolena, &#xFA;razov&#xFD; dej neguje\nO.: orient., poloha akt., eupnoe, anikter., acyanoza\nSPL.: palp. alg. medial. kompartment a parapatelarne medialne s plnou dynamikou &#x13E;. kolena bez naplne a balotementu\nRTG : z&#xFA;&#x17E;en&#xE1; k&#x13A;b. &#x161;trbina &#x13E;av&#xE9;ho kolena medialne, bez TZ na skelete\nDg.: gonarthrosis l sin\nTh.: NSA, telesn&#xE9; &#x161;etrenie ty&#x17E;., ORT vy&#x161;.\n\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "ORTOPEDIA"
+  ]
+}

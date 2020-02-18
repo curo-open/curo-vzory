@@ -1,0 +1,91 @@
+{
+  "title": "DIG V. man DX",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S60.0] Pomlia&#x17E;denie prsta (prstov) ruky bez po&#x161;kodenia nechta",
+            "props": {
+              "id": "S60.0",
+              "idEzid": "02089490714@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[204] Cirkul&#xE1;rny obv&#xE4;z hlavy, drieku, stabilizuj&#xFA;ci obv&#xE4;z krku, ramenn&#xE9;ho alebo bedrov&#xE9;ho k&#x13A;bu alebo jednej kon&#x10D;atiny cez najmenej dva k&#x13A;by ako obv&#xE4;z rany alebo na uvedenie kon&#x10D;atiny do pokojn&#xE9;ho stavu, ale",
+            "props": {
+              "id": "204",
+              "idEzid": "00000467514@14",
+              "propBody": "100"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: reklamuje udretie V. prsta na pravej ruke\nO.: orient., poloha akt., eupnoe, anikter., acyanoza\nedem, haematom a palp. alg. MTCPh / PIPh / DIPh zhybu V. prsta pravej ruky\nRTG.: bez TZ na skelete V. prsta pravej ruky\nDg.: Contusio dig V. man l dx\nTh.: band.\nDop.: telesn&#xE9; &#x161;etrenie, NSA, ko o 7-10 dn\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "TRAUMA - contusio MAN"
+  ]
+}

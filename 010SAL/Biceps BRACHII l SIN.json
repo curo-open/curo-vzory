@@ -1,0 +1,70 @@
+{
+  "title": "Biceps BRACHII l SIN",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S46.1] Poranenie svalu a &#x161;&#x13E;achy dlhej hlavy dvojhlav&#xE9;ho svalu ramena (m. biceps brachii)",
+            "props": {
+              "id": "S46.1",
+              "idEzid": "02089489500@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] D&#xF4;kladn&#xE9; vy&#x161;etrenie jedn&#xE9;ho org&#xE1;nov&#xE9;ho syst&#xE9;mu alebo kontroln&#xE9; vy&#x161;etrenie vr&#xE1;tane r&#xE1;d a dokument&#xE1;cie.",
+            "props": {
+              "id": "63",
+              "idEzid": "00000117556@14",
+              "propBody": "200"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: reklamuje pobolievanie &#x13E;. ramena s predchadzaj&#xFA;cim pocitum prasknutia\nO.: orient., poloha akt., eupnoe, anikter., acyanoza, &#x13E;. humerus\ns dekonfigurovan&#xFD;m bru&#x161;kom dlhej hlavy bicepsu, bez funk&#x10D;nej l&#xE9;zie svalu\nDg.: ruptura tend. capitis longi bicip. brachii humeri l sin\nTh.: k&#x13E;udov&#xFD; re&#x17E;im, ko o 1-2 ty&#x17E;., p.p. sk&#xF4;r\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "TRAUMA - distensio MM"
+  ]
+}

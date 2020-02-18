@@ -1,0 +1,112 @@
+{
+  "title": "hydrosadenitis ax SIN bez INC",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[L02.2] Ko&#x17E;n&#xFD; absces, furunkul a karbunkul trupu",
+            "props": {
+              "id": "L02.2",
+              "idEzid": "02089412668@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] D&#xF4;kladn&#xE9; vy&#x161;etrenie jedn&#xE9;ho org&#xE1;nov&#xE9;ho syst&#xE9;mu alebo kontroln&#xE9; vy&#x161;etrenie vr&#xE1;tane r&#xE1;d a dokument&#xE1;cie.",
+            "props": {
+              "id": "63",
+              "idEzid": "00000117556@14",
+              "propBody": "200"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2018] O&#x161;etrenie malej rany hojacej sa per secundam.",
+            "props": {
+              "id": "2018",
+              "idEzid": "00000474460@14",
+              "propBody": "150"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[200] Obv&#xE4;z s v&#xFD;nimkou r&#xFD;chlych obv&#xE4;zov a sprejov, o&#x10D;n&#xFD;ch a u&#x161;n&#xFD;ch klapiek, trojuholn&#xED;kov&#xFD;ch &#x161;atiek, hotov&#xFD;ch n&#xE1;plast&#xED; alebo hotov&#xFD;ch kravatov&#xFD;ch obv&#xE4;zov na rany. Obv&#xE4;zy pod&#x13E;a v&#xFD;konu pod k&#xF3;dom 200 sa nem&#xF4;&#x17E;u nevykazova&#x165;, ke&#x10F; sl&#xFA;&#x17E;ia na krytie r&#xE1;n, ktor&#xE9; vzni",
+            "props": {
+              "id": "200",
+              "idEzid": "00000467498@14",
+              "propBody": "70"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "4",
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: reklamuje rezistenciu v &#x13E;avej axile\nO.: orient., poloha akt., eupnoe, anikter., acyanoza\npr. axila s palp. hmatnou hydrosadenit&#xED;dou bez znamok inflam a supur\nDg.: hydrosadenitis axillae l sin\nTh.: Vi&#x161;nevski balsam lokal.\nDop.: alkohol obklad 2-3 x denne 3-5 min&#xFA;t, ko p.p., pri akomko&#x13E;vek zhor&#x161;en&#xED; indikovan&#xE1; inc&#xED;zia, pou&#x10D;en&#xFD;\n\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "ABS - ABSCES phlegmona"
+  ]
+}

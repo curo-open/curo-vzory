@@ -1,0 +1,91 @@
+{
+  "title": "genus L SIN",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S80.0] Pomlia&#x17E;denie kolena",
+            "props": {
+              "id": "S80.0",
+              "idEzid": "02089492967@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[207] Spev&#x148;uj&#xFA;ci n&#xE1;plastov&#xFD; obv&#xE4;z ve&#x13E;k&#xE9;ho k&#x13A;bu.",
+            "props": {
+              "id": "207",
+              "idEzid": "00000467530@14",
+              "propBody": "120"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S : ud&#xE1;va udretie pri p&#xE1;de a bolesti &#x13E;av&#xE9;ho kolena\nO : vedomie luc&#xED;dne, orient., poloha akt&#xED;vna, eupnoe, anikter.\nacyanot., &#x13E;av&#xE9; koleno bez naplne a balotementu s excoriaciou a palp. alg. v oblasti tuberositas t&#xED;bie a prepatelarne, bez NCP, dynamika pln&#xE1;, manevre negat., bez znamok instability\nRTG : bez TZ na skelete kolena\nDg.: contusio genus l sin\nTh.: analgetik&#xE1;, band.\nDop.: k&#x13E;udov&#xFD; re&#x17E;im s polohovan&#xED;m kon&#x10D;atiny, ko o 7-10 dn&#xED;\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "TRAUMA - CONTUSIO"
+  ]
+}

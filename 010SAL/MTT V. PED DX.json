@@ -1,0 +1,25 @@
+{
+  "title": "MTT V. PED DX",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Subj.: pac. reklamuje bolesti pravej nohy po podvrtnut&#xED;\nObj.: vedomie luc&#xED;dne, poloha akt&#xED;vna, eupnoe, aniktrerus, acya&#xF3;za, ch&#xF4;dza s napadan&#xED;m na prav&#xFA; DK, edem, haematom a palp. algicita s max. v oblasti b&#xE1;zy V. MTT pravej nohy, bez NCP\nDg : RTG : Fractura /abruptio/ baseos MTT V. ped l dx sine disloc\nTh.: sadr. dlaha, analgetik&#xE1;, ko o ty&#x17E;.\n\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "TRAUMA - fractura PED"
+  ]
+}

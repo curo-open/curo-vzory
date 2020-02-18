@@ -1,0 +1,91 @@
+{
+  "title": "genus l DX",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S80.0] Pomlia&#x17E;denie kolena",
+            "props": {
+              "id": "S80.0",
+              "idEzid": "02089492967@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] D&#xF4;kladn&#xE9; vy&#x161;etrenie jedn&#xE9;ho org&#xE1;nov&#xE9;ho syst&#xE9;mu alebo kontroln&#xE9; vy&#x161;etrenie vr&#xE1;tane r&#xE1;d a dokument&#xE1;cie.",
+            "props": {
+              "id": "63",
+              "idEzid": "00000117556@14",
+              "propBody": "200"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[207] Spev&#x148;uj&#xFA;ci n&#xE1;plastov&#xFD; obv&#xE4;z ve&#x13E;k&#xE9;ho k&#x13A;bu.",
+            "props": {
+              "id": "207",
+              "idEzid": "00000467530@14",
+              "propBody": "120"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S : ud&#xE1;va udretie pri p&#xE1;de a bolesti prav&#xE9;ho kolena\nO : vedomie luc&#xED;dne, orient., poloha akt&#xED;vna, eupnoe, anikter.\nacyanot., prav&#xE9; koleno bez naplne a balotementu s excoriaciou a palp. alg. v oblasti tuberositas t&#xED;bie a prepatelarne, bez NCP, dynamika pln&#xE1;, manevre negat., bez znamok instability\nRTG : bez TZ na skelete kolena\nDg.: contusio genus l dx\nTh.: analgetik&#xE1;, band.\nDop.: k&#x13E;udov&#xFD; re&#x17E;im s polohovan&#xED;m kon&#x10D;atiny, ko o 7-10 dn&#xED;\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "TRAUMA - CONTUSIO"
+  ]
+}

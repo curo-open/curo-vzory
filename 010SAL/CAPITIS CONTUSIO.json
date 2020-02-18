@@ -1,0 +1,69 @@
+{
+  "title": "CAPITIS CONTUSIO",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S0..0] S0..0",
+            "props": {
+              "id": "S0..0"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] D&#xF4;kladn&#xE9; vy&#x161;etrenie jedn&#xE9;ho org&#xE1;nov&#xE9;ho syst&#xE9;mu alebo kontroln&#xE9; vy&#x161;etrenie vr&#xE1;tane r&#xE1;d a dokument&#xE1;cie.",
+            "props": {
+              "id": "63",
+              "idEzid": "00000117556@14",
+              "propBody": "200"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: c&#xED;ti sa lep&#x161;ie, bez nauzey a zvracania, bez z&#xE1;vratov, bolesti hlavy neguje\nO.: vedomie luc&#xED;dne, orient., poloha akt., eupnoe, anikter., acyanoza, izokoria, ameningeal., fotoreakcia spr&#xE1;vna, lebka poklop negat., maxila a mandibula palp. negat., jarmov&#xE9; obl&#xFA;ky a v&#xFD;stupy hlavov&#xFD;ch nervov bpn, u&#x161;i a nos bez v&#xFD;toku\nZ.: stav zlep&#x161;en&#xFD;, aktualne bez neurovegetat. Sy, ko p.p.\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "KONTROLA - TRAUMA Dg"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "title": "KO o 2-3 DNI - nebolí, nesecernuje",
+  "data": {
+    "_": {},
+    "vv": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] D&#xF4;kladn&#xE9; vy&#x161;etrenie jedn&#xE9;ho org&#xE1;nov&#xE9;ho syst&#xE9;mu alebo kontroln&#xE9; vy&#x161;etrenie vr&#xE1;tane r&#xE1;d a dokument&#xE1;cie.",
+            "props": {
+              "id": "63",
+              "idEzid": "00000117556@14",
+              "propBody": "200"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2018] O&#x161;etrenie malej rany hojacej sa per secundam.",
+            "props": {
+              "id": "2018",
+              "idEzid": "00000474460@14",
+              "propBody": "150"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S: pac. bez &#x165;a&#x17E;kost&#xED;, afebriln&#xFD;, c&#xED;ti sa lep&#x161;ie\nO: vedomie luc., orient., poloha akt., eupnoe, anikter., acyanoza, lokal. rana k&#x13E;udn&#xE1;, bez inflam&#xE1;cie a hyper&#xE9;mie, nesecernuje\nTh.: dezinf., toaleta, krytie, band.\nDop.: ko o 2-3 dni, p.p. sk&#xF4;r.\n\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "PREVÄZ RANY - KO"
+  ]
+}

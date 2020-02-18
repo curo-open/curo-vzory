@@ -1,0 +1,70 @@
+{
+  "title": "Gastropathia",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[K29.6] In&#xE1; gastrit&#xED;da",
+            "props": {
+              "id": "K29.6",
+              "idEzid": "02089408302@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: pac. reklamuje bolesti epigastria, nieko&#x13E;kod&#x148;ov&#xE9;, nezvracal, vetry a stolica v norme\nO.: orient., poloha akt., ko&#x17E;a &#x10D;ist&#xE1;, anikter., acyanot., eupnoe\nabdomen v niveau, m&#xE4;kk&#xE9;, priehmatn&#xE9;, bez patolog. rezistencie\nbez peritoneal. dr&#xE1;&#x17E;denia, B-R-P negat., TPT negat.\nDg.: Epigastralgia - gastropathia, UBD??, gastritis ??\nTh.: antacid&#xE1;\nDop.: gastroenterolog. vy&#x161;etrenie\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "DYSPEPSIE"
+  ]
+}

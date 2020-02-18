@@ -1,0 +1,91 @@
+{
+  "title": "cap.radi l DX",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S52.0] Zlomenina horn&#xE9;ho konca lak&#x165;ovej kosti: &#x10D;as&#x165; bli&#x17E;&#x161;ie neur&#x10D;en&#xE1;",
+            "props": {
+              "id": "S52.00",
+              "idEzid": "02089489906@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[237] Sadrov&#xFD; dlahov&#xFD; obv&#xE4;z, ktor&#xFD; siaha najmenej cez dva velk&#xE9; k&#x13A;by (rameno, lake&#x165;, ruka, koleno, &#x10D;lenok).",
+            "props": {
+              "id": "237",
+              "idEzid": "00000467746@14",
+              "propBody": "1125"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: reklamuje bolesti prav&#xE9;ho lak&#x165;a po udret&#xED; pri p&#xE1;de\nO.: orient., poloha akt., eupnoe, anikter., acyanoza, edem, haematom a palp. alg proximal. predlaktia vpravo, P/S pr. lak&#x165;a obmedzen&#xE9; - terminal. alg., bez NCP, dynamika v RC zhybe pln&#xE1;, terminalne nebolestiv&#xE1;\nDg.: RTG.: fr. cap. radii l dx sine disloc\nTh.: sadr dlaha, ko o 10-14 dn&#xED;\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "TRAUMA - FRACTURA"
+  ]
+}

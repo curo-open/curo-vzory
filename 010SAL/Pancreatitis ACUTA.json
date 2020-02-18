@@ -1,0 +1,67 @@
+{
+  "title": "Pancreatitis ACUTA",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[K85.0] Idiopatick&#xE1; ak&#xFA;tna pankreatit&#xED;da, bez org&#xE1;novej komplik&#xE1;cie",
+            "props": {
+              "id": "K85.00",
+              "idEzid": "02089411934@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S : pac. reklamuje n&#xE1;hle vznikl&#xFA; boles&#x165; brucha so zvracan&#xED;m, celkov&#xE1; slabos&#x165;, nauzea\nO : vedomie luc&#xED;dne, poloha antalgick&#xE1;, eupnoe, anikterus, acyanoza, abdomen s v&#xFD;raznou palpa&#x10D;nou bolestivos&#x165;ou epigastria a oboch hypochondri&#xED;, viac v&#x13E;avo s obrazom peritonealneho dr&#xE1;&#x17E;denia, hypogastri&#xE1; priehmatn&#xE9;, palp. algick&#xE9;\nDg.: Pancreatitis acuta\nTh.:\nDop.: Ad chirurgiam NsP Zvolen - dop. pr&#xED;jem pacienta.\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling"
+}

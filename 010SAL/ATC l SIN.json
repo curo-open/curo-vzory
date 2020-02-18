@@ -1,0 +1,25 @@
+{
+  "title": "ATC l SIN",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: lep&#x161;ie, pretrvavaj&#xFA;ce pobolievanie v mieste udretia &#x13E;. &#x10D;lenka\nO.: orient., poloha akt., eupnoe, anikter., acyanoza\nSPL : pretrvavaj&#xFA;ca palp. alg. v mieste podvrtnutia &#x13E;. TC zhybu pod lateral. malleolom a nad Chopart. zhybom, bez edemu a NCP s terminal. viaznucou dynamikou &#x13E;. TC zhybu\nDop.: RHB lie&#x10D;ba\n\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "KONTROLA na RHB"
+  ]
+}

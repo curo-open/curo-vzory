@@ -1,0 +1,48 @@
+{
+  "title": "NEZLEPŠENÝ stav - TRAUMA",
+  "data": {
+    "_": {},
+    "vv": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] D&#xF4;kladn&#xE9; vy&#x161;etrenie jedn&#xE9;ho org&#xE1;nov&#xE9;ho syst&#xE9;mu alebo kontroln&#xE9; vy&#x161;etrenie vr&#xE1;tane r&#xE1;d a dokument&#xE1;cie.",
+            "props": {
+              "id": "63",
+              "idEzid": "00000117556@14",
+              "propBody": "200"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: afebriln&#xFD;, stav len mierne zlep&#x161;en&#xFD;, pretrvavaj&#xFA;ce pobolievanie\nO.: orient., poloha akt&#xED;vna, eupnoe, acyanoza, anikter., pretrv&#xE1;vaj&#xFA;ci mierny ed&#xE9;m s palp. alg., dynamika pre algicitu obmedzen&#xE1;, bez NCP\nZ.: stav len mierne zlep&#x161;en&#xFD;, takmer nezmenen&#xFD;, pokra&#x10D;ova&#x165; v lie&#x10D;be\nDop.: ko o 5-7 dn&#xED;, p.p. sk&#xF4;r\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "KONTROLA TRAUMA"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "title": "SI synchondr. traumat.",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S33.7] Vyvrtnutie a natiahnutie in&#xFD;ch a bli&#x17E;&#x161;ie neur&#x10D;en&#xFD;ch &#x10D;ast&#xED; driekovej chrbtice a panvy",
+            "props": {
+              "id": "S33.7",
+              "idEzid": "02089487397@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S33.7] Vyvrtnutie a natiahnutie in&#xFD;ch a bli&#x17E;&#x161;ie neur&#x10D;en&#xFD;ch &#x10D;ast&#xED; driekovej chrbtice a panvy",
+            "props": {
+              "id": "S33.7",
+              "idEzid": "02089487397@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Subj.: pac. reklamuje bolesti kr&#xED;&#x17E;ov od &#xFA;dretia pri p&#xE1;de, stav\nzhor&#x161;en&#xFD; pri pohybe\nObj.: vedomie luc&#xED;dne, orientovan&#xFD;, poloha akt&#xED;vna, ko&#x17E;a &#x10D;ist&#xE1;\nanikter., acyanot., ch&#xF4;dza bez na&#xFA;adania, chrbtica poklopovo nebolestiv&#xE1;, Thomayer 15 cm, palp. alg. v oblasti &#x13E;avej / pravej SI synch., bez edemu, LS a SCo prechod palp. nebolestiv&#xFD;\nRTG : bez traumat. zmien na skelete LS chrbtice\nDg.: Synchondrositis SI l sin / dx postraumat\nDop.: analgetik&#xE1;, telesn&#xE9; &#x161;etrenie, potom RHB lie&#x10D;ba\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "TRAUMA"
+  ]
+}

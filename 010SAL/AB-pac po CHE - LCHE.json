@@ -1,0 +1,108 @@
+{
+  "title": "*AB-pac po CHE - LCHE",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[K80.20] Kame&#x148; &#x17E;l&#x10D;n&#xED;ka bez cholecystit&#xED;dy, bez prejavov ob&#x161;trukcie &#x17E;l&#x10D;ov&#xFD;ch ciest",
+            "props": {
+              "id": "K80.20",
+              "idEzid": "02089411553@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z48.0] Starostlivos&#x165; o chirurgick&#xE9; obv&#xE4;zy a sut&#xFA;ry",
+            "props": {
+              "id": "Z48.0",
+              "idEzid": "02089524058@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] D&#xF4;kladn&#xE9; vy&#x161;etrenie jedn&#xE9;ho org&#xE1;nov&#xE9;ho syst&#xE9;mu alebo kontroln&#xE9; vy&#x161;etrenie vr&#xE1;tane r&#xE1;d a dokument&#xE1;cie.",
+            "props": {
+              "id": "63",
+              "idEzid": "00000117556@14",
+              "propBody": "200"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2007] Odstr&#xE1;nenie sut&#xFA;ry alebo stehov z ve&#x13E;kej rany.",
+            "props": {
+              "id": "2007",
+              "idEzid": "00000474346@14",
+              "propBody": "60"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "4",
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "pac. po LCHE\nS.: dobre, afebril.\nO.: orient., poloha akt., eupnoe, anikter., acyan&#xF3;za\nabdomen v niveau, makk&#xE9;, dobre priehmatn&#xE9;, bez patolog rezstencie a\nperitoneal dr&#xE1;&#x17E;denia, pooper. rany v epigastriu, v umbiliku a v pr. mesogastriu s primeran&#xFD;m hojen&#xED;m, bez inflam a secer.\nDg.: st.p. LCHE propt. cholecystolith.\nTh.: toaleta, desinf., stehy ex, krytie, ko p.p.\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling"
+}

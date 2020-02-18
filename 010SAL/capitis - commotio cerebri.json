@@ -1,0 +1,91 @@
+{
+  "title": "capitis - commotio cerebri",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S06.0] Otras mozgu",
+            "props": {
+              "id": "S06.0",
+              "idEzid": "02089483545@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokument&#xE1;cie, ak nie je vykonan&#xE9; pracoviskom RTG, vr&#xE1;tane popisu v zdravotnej dokument&#xE1;cii.",
+            "props": {
+              "id": "15d",
+              "idEzid": "02089714121@14",
+              "propBody": "150"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Subj.: pac. reklamuje bolesti hlavy od &#xFA;razu, po &#xFA;raze nauzea, intermitentne z&#xE1;vrate\nObj.: vedomie luc&#xED;dne, poloha akt&#xED;vna, ko&#x17E;a anikter., acyanot., TK 120/8O, P 76/min, zrenice izokorick&#xE9;, fotoreakcia spravna, ameningel., lebka poklopovo negat., palp. alg. v O oblasti, dynamika C chrbtice pln&#xE1;, jarmov&#xE9; obluky a mandibula bpn, hrudn&#xED;k klenut&#xFD;, stabiln&#xFD;, d&#xFD;chanie vezikul&#xE1;rne, &#x10D;ist&#xE9;, abdomen m&#xE4;kk&#xE9;, priehmatn&#xE9;, bez patologickej rezistencie, B-R-P negat., TPT bilat negat., Murphy negat.\nRTG : lebka v 2 proj.: bez traumat. zmien na skelete\nDg.: Commotio cerebri\nDop.: neurolog. vy&#x161;etrenie\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "TRAUMA - CONTUSIO"
+  ]
+}

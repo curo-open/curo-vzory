@@ -1,0 +1,112 @@
+{
+  "title": "AHS SIN",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S43.00] Vyk&#x13A;benie plecov&#xE9;ho k&#x13A;bu, bli&#x17E;&#x161;ie neur&#x10D;en&#xE9;",
+            "props": {
+              "id": "S43.00",
+              "idEzid": "02089489187@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2405] Repoz&#xED;cia lux&#xE1;cie lak&#x165;ov&#xE9;ho, ramenn&#xE9;ho alebo kolenn&#xE9;ho zhybu.",
+            "props": {
+              "id": "2405",
+              "idEzid": "00000474973@14",
+              "propBody": "420"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[201] Obv&#xE4;z hrudn&#xED;ka alebo Desaultov obv&#xE4;z s v&#xFD;nimkou obv&#xE4;zu pupka.",
+            "props": {
+              "id": "201",
+              "idEzid": "00000467506@14",
+              "propBody": "400"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "4",
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Subj.: pac. reklamuje bolesti &#x13E;av&#xE9;ho ramenn&#xE9;ho zhybu po udret&#xED; pri p&#xE1;de, hybnos&#x165; obmedzen&#xE1;\nObj.: vedomie luc&#xED;dne, orientovan&#xFD;, poloha akt&#xED;vna, ko&#x17E;a &#x10D;ist&#xE1;, anikter., acyanot., hrudn&#xED;k klenut&#xFD;, stabiln&#xFD;, &#x13E;av&#xE9; AHS dekonfigurovan&#xE9;, palpa&#x10D;ne bolestiv&#xE9;, hlava humeru mimo glenoidal. jamku, hybnos&#x165; glenohumer&#xE1;lneho k&#x13A;bu nulov&#xE1; pre bolestivos&#x165;\nDg.: RTG: Luxatio humeri l. sin\nTh.: repoz&#xED;cia pod&#x13E;a Hippocrata, Desault\nDop.: k&#x13E;udov&#xFD; re&#x17E;im, ko o ty&#x17E;.\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "TRAUMA - LUXATIO"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "title": "cruris l DX",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S80.1] Pomlia&#x17E;denie in&#xFD;ch a bli&#x17E;&#x161;ie neur&#x10D;en&#xFD;ch &#x10D;ast&#xED; predkolenia",
+            "props": {
+              "id": "S80.1",
+              "idEzid": "02089492975@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[204] Cirkul&#xE1;rny obv&#xE4;z hlavy, drieku, stabilizuj&#xFA;ci obv&#xE4;z krku, ramenn&#xE9;ho alebo bedrov&#xE9;ho k&#x13A;bu alebo jednej kon&#x10D;atiny cez najmenej dva k&#x13A;by ako obv&#xE4;z rany alebo na uvedenie kon&#x10D;atiny do pokojn&#xE9;ho stavu, ale",
+            "props": {
+              "id": "204",
+              "idEzid": "00000467514@14",
+              "propBody": "100"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: pac. reklamuje bolesti prav&#xE9;ho predkolenia po udret&#xED;, zakopnut&#xED;\nO.: orient., poloha akt., eupnoe, anikter., acyanoza, ko&#x17E;a &#x10D;ist&#xE1;, anikter.\nna pravom predkolen&#xED; edem, hyperemia a palp. alg. v strednej 1/3 pr.\npredkolenia, bez NCP, dynamika v pr. kolennom a TC zhybe pln&#xE1;, bez krepitu a dekonfiguracie\nDg.: Contusio cruris l dx\nTh.: analget., ko o ty&#x17E;.\n\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "TRAUMA - CONTUSIO"
+  ]
+}

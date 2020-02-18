@@ -1,0 +1,130 @@
+{
+  "title": "Kliešť - ex-hlavička",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[W57.0] Uhryznutie alebo u&#x161;tipnutie nejedovat&#xFD;m hmyzom a in&#xFD;mi nejedovat&#xFD;mi &#x10D;l&#xE1;nkono&#x17E;cami - MU: Domov",
+            "props": {
+              "id": "W57.0",
+              "idEzid": "02089534024@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] D&#xF4;kladn&#xE9; vy&#x161;etrenie jedn&#xE9;ho org&#xE1;nov&#xE9;ho syst&#xE9;mu alebo kontroln&#xE9; vy&#x161;etrenie vr&#xE1;tane r&#xE1;d a dokument&#xE1;cie.",
+            "props": {
+              "id": "63",
+              "idEzid": "00000117556@14",
+              "propBody": "200"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2000] Prv&#xE9; o&#x161;etrenie malej rany.",
+            "props": {
+              "id": "2000",
+              "idEzid": "00000474270@14",
+              "propBody": "100"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2008] Odstr&#xE1;nenie cudzieho telesa ulo&#x17E;en&#xE9;ho a hmatn&#xE9;ho pod povrchom ko&#x17E;e alebo sliznice.",
+            "props": {
+              "id": "2008",
+              "idEzid": "00000474353@14",
+              "propBody": "100"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "4",
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[200] Obv&#xE4;z s v&#xFD;nimkou r&#xFD;chlych obv&#xE4;zov a sprejov, o&#x10D;n&#xFD;ch a u&#x161;n&#xFD;ch klapiek, trojuholn&#xED;kov&#xFD;ch &#x161;atiek, hotov&#xFD;ch n&#xE1;plast&#xED; alebo hotov&#xFD;ch kravatov&#xFD;ch obv&#xE4;zov na rany. Obv&#xE4;zy pod&#x13E;a v&#xFD;konu pod k&#xF3;dom 200 sa nem&#xF4;&#x17E;u nevykazova&#x165;, ke&#x10F; sl&#xFA;&#x17E;ia na krytie r&#xE1;n, ktor&#xE9; vzni",
+            "props": {
+              "id": "200",
+              "idEzid": "00000467498@14",
+              "propBody": "70"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "5",
+        "order": 5,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: pac. reklamuje hlavi&#x10D;ku klie&#x161;&#x165;a v bodnej ranke po u&#x161;tipnut&#xED;\nO.: orient., poloha akt., eupnoe, anikter., acyanoza\nbodn&#xE1; ranka s hyperem. lemom a rezid. z hlavi&#x10D;ky klie&#x161;&#x165;a v oblasti\nDg.: V. punctum insecti reg\ncum corporis alieni insecti\nTh.: toaleta, desinf., extractio capit. ix. ricinus, toaleta, krytie, band.\nDop.: ko vy&#x161;etrenie OL o 2-3 dni, odber krvi na borelie o 2-3 ty&#x17E;.\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling"
+}

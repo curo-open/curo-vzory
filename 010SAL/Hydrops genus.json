@@ -1,0 +1,132 @@
+{
+  "title": "Hydrops genus",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M25.5] Boles&#x165; k&#x13A;bu na viacer&#xFD;ch miestach",
+            "props": {
+              "id": "M25.50",
+              "idEzid": "02089429639@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M25.4] V&#xFD;potok v k&#x13A;be na viacer&#xFD;ch miestach",
+            "props": {
+              "id": "M25.40",
+              "idEzid": "02089429522@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[301] Punkcia lak&#x165;ov&#xE9;ho alebo kolenn&#xE9;ho k&#x13A;bu.",
+            "props": {
+              "id": "301",
+              "idEzid": "00000468264@14",
+              "propBody": "150"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "4",
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[231] Cirkul&#xE1;rny pohybov&#xFD; obv&#xE4;z kolena.",
+            "props": {
+              "id": "231",
+              "idEzid": "00000467704@14",
+              "propBody": "360"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "5",
+        "order": 5,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: pac reklamuje ne&#xFA;razov&#xFD; opuch a bolesti pr./&#x13E;. kolena\nO.: orient., poloha akt., eupnoe, anikter., acyanoza\nch&#xF4;dza s napadan&#xED;m na &#x13E;av&#xFA;/prav&#xFA; DK\nSPL.: tenzn&#xE1; n&#xE1;pl&#x148; &#x13E;av&#xE9;ho/prav&#xE9;ho kolena, dynamika terminalne viazne, alg.\nDg.: Hydrops genus l sin/dx\nTh.: punkcia cca 35 ml hydropsu, band., ko o 3-5 dn&#xED;\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "ORTOPEDIA"
+  ]
+}

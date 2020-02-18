@@ -1,0 +1,91 @@
+{
+  "title": "ATC l MED SIN disloc",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S82.0] Zlomenina jab&#x13A;&#x10D;ka [patella]",
+            "props": {
+              "id": "S82.0",
+              "idEzid": "02089493197@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[228] Sadrov&#xFD; dlahov&#xFD; obv&#xE4;z.",
+            "props": {
+              "id": "228",
+              "idEzid": "00000467670@14",
+              "propBody": "375"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: reklamuje bolesti &#x13E;. &#x10D;lenka po podvrtnut&#xED; nohy pri p&#xE1;de\nO.: orient., poloha akt, eupnoe, anikter., acyanoza\nSPL : edem, haematom s max. palp. alg. v oblasti medial. malleolu\nbez NCP\nDg.: RTG : fractura malleoli med ATC l sin disloc\nTh.: sadr dlaha, ad chirurgiam NsP ZV - dop OS\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "TRAUMA - FRACTURA"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "title": "VAS L - L5-S1 SIN",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M54.5] Boles&#x165; v kr&#xED;&#x17E;ovej oblasti",
+            "props": {
+              "id": "M54.5",
+              "idEzid": "02089437244@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M54.17] Radikulopatia v driekovokr&#xED;&#x17E;ovej oblasti",
+            "props": {
+              "id": "M54.17",
+              "idEzid": "02089437186@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: pac ud&#xE1;va bolestivos&#x165; v oblasti driekovej chrbtice bez &#xFA;razov&#xE9;ho deja, propag&#xE1;cia bolesti do &#x13E;. DK\nO.: orient., poloha akt&#xED;va, ch&#xF4;dza v norme, bez napadania\nhrudn&#xED;k klenut&#xFD;, stabiln&#xFD; v oboch rovin&#xE1;ch, d&#xFD;chanie vezikul&#xE1;rne\n&#x10D;ist&#xE9;, symetrick&#xE9;, palp. algicita LS prechodu a L oblasti paravertebralne s hyperon. PVS L chrbtice s blok. postaven&#xED;m, dynamika L chrbtice obmedzen&#xE1;, obe SI synch. nebolestiv&#xE9;, kostr&#x10D; palp. negat., Lassegue v&#x13E;avo +\nRTG: bez traumat. zmien na skelete ThL chrbtice\nDg.: VAS LS chrbtice - radicular Sy L5-S1 l sin\nTh.: analgetik&#xE1;, myorelaxanci&#xE1;\nDop.: NMRI, k&#x13E;udov&#xFD; re&#x17E;im, ko o l0-14 dn&#xED;, p.p. sk&#xF4;r\n\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling"
+}

@@ -1,0 +1,70 @@
+{
+  "title": "MTC V. man",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S62.0] Zlomenina os naviculare",
+            "props": {
+              "id": "S62.0",
+              "idEzid": "02089490961@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Subj.: pac. reklamuje bolesti &#x13E;avej/pravej ruky po udret&#xED;\nObj.: vedomie luc&#xED;dne, poloha akt&#xED;vna, eupnoe, ko&#x17E;a anikter., acyanot., &#x13E;av&#xE1;/prav&#xE1; ruka s palp. algicitou a edemom v oblasti V.MTC a MTCPh zhybu\nakt&#xED;vna hybnos&#x165; V. prsta obmedzen&#xE1; v PTCPh a PIPh zhybe pre alg.\nbez NCP\nDg.: RTG : fractura /abruptio/epiphyseolysis/ baseos/diaphyseos/subcapitis MTC V. man l sin/dx sine disloc./cum disloc. minima\nTh.: sadr. dlaha, analgetik&#xE1;, ko o ty&#x17E;.\n\n\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "TRAUMA - fractura MAN"
+  ]
+}

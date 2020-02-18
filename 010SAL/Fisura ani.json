@@ -1,0 +1,70 @@
+{
+  "title": "Fisura ani",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[K60.0] Ak&#xFA;tna an&#xE1;lna fis&#xFA;ra",
+            "props": {
+              "id": "K60.0",
+              "idEzid": "02089410191@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Subj.: pac. reklamuje bolesti v oblasti kone&#x10D;n&#xED;ka zhor&#x161;en&#xE9; defek&#xE1;ciou, intermitentne krvacania po stolici\nObj.: vedomie luc&#xED;dne, poloha akt&#xED;vna, ko&#x17E;a anikter., acyanot., eupnoe, abdomen m&#xE4;kk&#xE9;, dobre priehmatn&#xE9;, bez patolog. rezistencie a peritoneal. dr&#xE1;&#x17E;denia, Murphy negat., B-R-P negat., TPT bilat. negat.\nPer rectum : anus bpn, mierne hyperton. sfinktery, palp. alg. zadnej kommisury pri indag&#xE1;cii, steny rekta hladke, ampula polopr&#xE1;zdna, Douglas nevyklenuje, nebolestiv&#xFD;, na rukavici stopy hnedej stolice bez zn. krvacania\nDg.: Fissura ani\nTh : Redctogesic ung, telesn&#xE9; &#x161;etrenie, dietny re&#x17E;im, sedacie kupele, ko o lO-l4 dn&#xED;\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "HEMOROIDY"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "title": "FEMOR - fr.pertroch. DX",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S72.10] Zlomenina stehnovej kosti, trochanterov&#xE1;, bli&#x17E;&#x161;ie neur&#x10D;en&#xE1;",
+            "props": {
+              "id": "S72.10",
+              "idEzid": "02089492371@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Pac. po oper&#xE1;cii - osteosynthesis\npre Dg.: Fractura pertrochanterica fem l dx\nS.: dobre, bez &#x165;a&#x17E;kost&#xED;\nO.: orient., poloha navoz&#xED;ku., eupnoe, anikter., acyan&#xF3;za\nSPL : miesto zlomeniny pr. femoru - bez palp. alg nad velk&#xFD;m trochanterom, haematom a edem zresorb., dynamika pr. koxy primeran&#xE1;, takmer pln&#xE1;, PDK bez NCP\nko RTG : stav zhojen&#xFD; konsolidovan&#xFD;m kalusom, OsM Fix in situ\nZ.: stav zhojen&#xFD;\nDop.: RHB, ko o 6M, p.p. sk&#xF4;r\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "KONTROLA - TRAUMA OP"
+  ]
+}

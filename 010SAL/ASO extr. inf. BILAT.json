@@ -1,0 +1,70 @@
+{
+  "title": "ASO extr. inf. BILAT",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[I70.21] Ateroskler&#xF3;za kon&#x10D;atinov&#xFD;ch tepien s postihnut&#xED;m panvy a doln&#xFD;ch kon&#x10D;at&#xED;n, s ischemickou boles&#x165;ou po z&#xE1;&#x165;a&#x17E;i",
+            "props": {
+              "id": "I70.21",
+              "idEzid": "02089401794@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Subj.: pac. reklamuje bolesti oboch doln&#xFD;ch kon&#x10D;at&#xED;n po prejden&#xED; cca 80 m, po kr&#xE1;tkom oddychu kr&#x10D;ovit&#xE1; boles&#x165; l&#xFD;tka ust&#xFA;pi\nObj.: vedomie luc&#xED;dne, orientovan&#xFD; poloha akt&#xED;vna, ko&#x17E;a &#x10D;ist&#xE1;, anikter., abdomen m&#xE4;kk&#xE9;, priehmatn&#xE9;, bez patolog. rezistencie, obe inguiny bpn, pulz&#xE1;cie na a. femoralis bilateralne hmatn&#xE9;, obe DK s oslaben&#xFD;mi pulz&#xE1;ciami na ATP a ADP, a. popliea hmatn&#xE9;, akr&#xE1; chladnej&#x161;ie, kolorit ko&#x17E;e bled&#x161;&#xED;\nDg.: AS obliterans extr. inf. bilat\nTh.: Enelbin tbl, Trental tbl, Secatoxin gtt.\nDop.: USG perif aa.DKK, Angiochirurgick&#xE9; vy&#x161;etrenie\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "CIEVY : ASO, CVI, TrFleb, Vari"
+  ]
+}

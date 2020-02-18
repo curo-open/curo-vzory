@@ -1,0 +1,91 @@
+{
+  "title": "rhizathrosis l SIN",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M18.1] In&#xE1; prim&#xE1;rna artr&#xF3;za prv&#xE9;ho karpometakarpov&#xE9;ho k&#x13A;bu",
+            "props": {
+              "id": "M18.1",
+              "idEzid": "02089425801@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokument&#xE1;cie, ak nie je vykonan&#xE9; pracoviskom RTG, vr&#xE1;tane popisu v zdravotnej dokument&#xE1;cii.",
+            "props": {
+              "id": "15d",
+              "idEzid": "02089714121@14",
+              "propBody": "150"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: pac. reklamuje bolesti &#x13E;. z&#xE1;p&#xE4;stia a pri flexii &#x13E;av&#xE9;ho palca ruky\nO.: orient., poloha akt., eupnoe, &#x13E;. ruka s palp. alg. vo fossa tabatiere a nad b&#xE1;zou I. MTC bez NCP\nDg.: RTG: Rhizathrosis man l sin\nTh.: NSA\nDop.: ORT vy&#x161;.\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "ORTOPEDIA"
+  ]
+}

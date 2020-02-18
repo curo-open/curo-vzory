@@ -1,0 +1,70 @@
+{
+  "title": "CVI -C4 l SIN",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[I83.9] Varixy doln&#xFD;ch kon&#x10D;at&#xED;n bez vredu alebo z&#xE1;palu",
+            "props": {
+              "id": "I83.9",
+              "idEzid": "02089402677@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: pac. reklamuje bolesti &#x13E;avej DKK s op&#xFA;chan&#xED;m zhor&#x161;en&#xED;m ve&#x10D;er a dlh&#x161;&#xED;m st&#xE1;t&#xED;m\nO.: orient., poloha akt., eupnoe, anikter., acyanoza, ch&#xF4;dza s miernym napadan&#xED;m na &#x13E;av&#xFA; DK s miernym perimaleolar edem v terene CVI s hyperpegmentaciami, dermatoskleroza s indur&#xE1;ciou podko&#x17E;ia s max. nad medial. malleolom, povodie VSM bez palp. alg. - postrombophlebitis varicosa s circumscript. hyperemiou, Homans negat., Lowemberg negat., perig pulz na ADP a ATP hmatn&#xE9;, na ATP oslaben&#xE9;\nDg.: CVI - C4 /trof. ko&#x17E;n&#xE9; zmeny/\ntrombophlebitis varicosa cruris superfic l sin\nTh.: Detralex tbl\nDop.: USG vy&#x161; H&#x17D;S, ko o 7-10 dn&#xED;, p.p. sk&#xF4;r\n\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "CIEVY : ASO, CVI, TrFleb, Vari"
+  ]
+}

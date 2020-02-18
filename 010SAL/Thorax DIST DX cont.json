@@ -1,0 +1,91 @@
+{
+  "title": "Thorax DIST DX cont",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S20.2] Pomlia&#x17E;denie hrudn&#xED;ka",
+            "props": {
+              "id": "S20.2",
+              "idEzid": "02089485235@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokument&#xE1;cie, ak nie je vykonan&#xE9; pracoviskom RTG, vr&#xE1;tane popisu v zdravotnej dokument&#xE1;cii.",
+            "props": {
+              "id": "15d",
+              "idEzid": "02089714121@14",
+              "propBody": "150"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: pac. reklamuje bolesti prav&#xE9;ho hrudn&#xED;ka po udret&#xED;\nO.: vedomie luc&#xED;dne, orient., poloha akt&#xED;vna, eupnoe, ko&#x17E;a &#x10D;ist&#xE1;, anikter., acyanot., hrudn&#xED;k klenut&#xFD;, s&#xFA;mern&#xFD;, palp.stabiln&#xFD; v oboch rovin&#xE1;ch, palp. alg. distalnej l/3 prav&#xE9;ho hemithoraxu s maximom v strednej axilarnej &#x10D;iare bez krepitu, d&#xFD;chanie vezikul&#xE1;rne, &#x10D;ist&#xE9;, symetrick&#xE9;\nRTG : bez TZ na skelete hrudn&#xED;ka, bez zn. PNO\nDg.: Contusio thoracis l dx\nTh : analgetik&#xE1;\nDop.: k&#x13E;udov&#xFD; re&#x17E;im, telesn&#xE9; &#x161;etrenie, ko o ty&#x17E;., p.p. pri akomko&#x13E;vek\nzhor&#x161;en&#xED; ko sk&#xF4;r resp. na LSPP\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "TRAUMA - CONTUSIO"
+  ]
+}

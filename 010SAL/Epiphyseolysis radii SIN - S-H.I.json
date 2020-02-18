@@ -1,0 +1,91 @@
+{
+  "title": "Epiphyseolysis radii SIN - S-H.I",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S52.50] Zlomenina doln&#xE9;ho konca vretennej kosti: bli&#x17E;&#x161;ie neur&#x10D;en&#xE1;",
+            "props": {
+              "id": "S52.50",
+              "idEzid": "02089490078@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[228] Sadrov&#xFD; dlahov&#xFD; obv&#xE4;z.",
+            "props": {
+              "id": "228",
+              "idEzid": "00000467670@14",
+              "propBody": "375"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Subj.: pac. reklamuje bolesti dist&#xE1;lneho predlaktia v&#x13E;avo po udret&#xED;\nObj.: vedomie luc&#xED;dne, poloha akt&#xED;vna, mierny edem s palp. alg. distalneho radia v&#x13E;avo bez NCP a dekonfigur&#xE1;cie z&#xE1;p&#xE4;stia\ndynamika &#x13E;. ARC terminalne alg., obmedzen&#xE1;\nDg.: RTG : Epiphyseolysis radii part. distal. l sin sine disloc\n-S-H I.\nTh.: sadrov&#xE1; dlaha, k&#x13E;udov&#xFD; re&#x17E;im, ko o ty&#x17E;-. p.p. sk&#xF4;r\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "TRAUMA - FRACTURA"
+  ]
+}

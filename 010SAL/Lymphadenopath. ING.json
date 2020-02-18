@@ -1,0 +1,67 @@
+{
+  "title": "Lymphadenopath. ING",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[I88.9] Ne&#x161;pecifick&#xE1; lymfadenit&#xED;da, bli&#x17E;&#x161;ie neur&#x10D;en&#xE1;",
+            "props": {
+              "id": "I88.9",
+              "idEzid": "02089402909@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S : pac. reklamuje rezistenciu v oblasti &#x13E;avej / pravej ing.\nO : vedomie luc&#xED;dne, poloha akt&#xED;vna, anikter., acyanoza, abdomen\nm&#xE4;kk&#xE9;, dobre priehmatn&#xE9;, bez patolog. rezistencie a palp. alg.\n&#x13E;av&#xE1; / prav&#xE1; inguina s hmatnou, dobre ohrani&#x10D;enou a palp. minimalne citlivou LU, dobre pohyblivou oproti spodine, bez inflamacie okolia\nDg.: Lymphadenopathia reg. ing. l sin / dx\nkom o 1-2 ty&#x17E;.\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling"
+}

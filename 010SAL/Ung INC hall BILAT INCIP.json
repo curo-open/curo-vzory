@@ -1,0 +1,64 @@
+{
+  "title": "Ung INC hall BILAT INCIP",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[L60.0] Zarastaj&#xFA;ci necht",
+            "props": {
+              "id": "L60.0",
+              "idEzid": "02089414888@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[L02.4] Ko&#x17E;n&#xFD; absces, furunkul a karbunkul kon&#x10D;atiny",
+            "props": {
+              "id": "L02.4",
+              "idEzid": "02089412684@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S : reklamuje bolesti &#x13E;av&#xE9;ho a prav&#xE9;ho halluxu a zarastanie nechta\nO : vedomie luc&#xED;dne, orientovan&#xFD;, poloha akt&#xED;vna, anikter., acyanot.\nnazna&#x10D;en&#xFD; zarastaj&#xFA;ci nechet na oboch halluxoch bez NCP, aktualne bez inflamacie, okolia bez akt. supur&#xE1;cies palp. alg. paraungu&#xE1;lne\nDg : Unguis incarnatus hallucis l bilat incip\nTh.: toaleta, desinf., Vi&#x161;nevsky balsam, krytie, band.\nDop.: alkoholov&#xE9; obklady\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling"
+}

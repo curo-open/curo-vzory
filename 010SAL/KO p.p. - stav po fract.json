@@ -1,0 +1,25 @@
+{
+  "title": "KO p.p. - stav po fract",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: dobre, bez &#x165;a&#x17E;kost&#xED;\nO.: orient., poloha akt., eupnoe, anikter., acyan&#xF3;za\nSPL : miesto zlomeniny - bez palp. alg, haematom a edem zresorb., bez NCP, dynamika pln&#xE1;\nZ.: stav zhojen&#xFD;\nDop.: ko p.p.\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "KONTROLA - TRAUMA úraz"
+  ]
+}

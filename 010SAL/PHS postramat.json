@@ -1,0 +1,70 @@
+{
+  "title": "PHS postramat",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S40.0] Pomlia&#x17E;denie pleca a ramena",
+            "props": {
+              "id": "S40.0",
+              "idEzid": "02089488627@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S : pac. reklamuje bolesti &#x13E;av&#xE9;ho pleca po dv&#xED;han&#xED; bremena, pri dv&#xED;han&#xED; pocit lupnutia\nO : vedomie luc&#xED;dne, eupnoe, anikterus, acyanoza, hrudn&#xED;k kelnut&#xFD;\nstabiln&#xFD;, palp. alg. &#x13E;av&#xE9;ho AHS s obbmedzen&#xED;m akt. abd. do 80 st., pas&#xED;vna abd. do 9O st., klin. bez funk&#x10D;nej l&#xE9;zie m. biceps brachii, bez l&#xE9;zie man&#x17E;ety rot&#xE1;torov, bez NCP\nRTG : artrot. zmeny bez znamok traumat lezie skeletu\nDg.: PHS l sin postraumat.\nDop.: telesn&#xE9; &#x161;etrenie, analgetik&#xE1;, z&#xE1;ves, ko o 7 - lO dn&#xED;, p.p. ko sk&#xF4;r\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "ORTOPEDIA"
+  ]
+}

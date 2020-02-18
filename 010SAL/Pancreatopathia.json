@@ -1,0 +1,70 @@
+{
+  "title": "Pancreatopathia",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[K86.1] In&#xE1; chronick&#xE1; pankreatit&#xED;da",
+            "props": {
+              "id": "K86.1",
+              "idEzid": "02089412122@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Subj.: pac. reklamuje poruchy travenia v zmysle pobolievania brucha a nafukovanie po jedle, pobolievanie oboch hypochondri&#xED; a v epigastriu, netoleruje mastn&#xE9; jedl&#xE1;\nObj.: vedomie luc&#xED;dne, poloha akt&#xED;vna, eupnoe, anikterus, acyanoza\nabdomen m&#xE4;kk&#xE9;, dobre priehmatn&#xE9;, bez patolog. rezistencie a peritoneal. dr&#xE1;&#x17E;denia, mierna palp.alg. epigastria a &#x13E;av&#xE9;ho hypochondria, Murphy negat., B-R-P negat., TPT bilat negat.\nPer rectum : nevy&#x161;.\nDg.: Dyspept. Sy - pancreatopathia / biliar. eti.??/\nZ : bez znamok NPB\nDop.: gastroenterolog. vy&#x161;etrenie - GEA Dr. Mozolu - PLK NsP Zvolen\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "DYSPEPSIE"
+  ]
+}

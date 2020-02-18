@@ -1,0 +1,70 @@
+{
+  "title": "c ABDOMINIS",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S30.0] Pomlia&#x17E;denie driekovokr&#xED;&#x17E;ovej oblasti a panvy",
+            "props": {
+              "id": "S30.0",
+              "idEzid": "02089486670@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: udret&#xFD; do brucha\nO.: orientovan&#xFD;, poloha akt&#xED;vna, ko&#x17E;a &#x10D;ist&#xE1;, anikter., acyanot.\neupnoe, hrudn&#xED;k klenut&#xFD;, d&#xFD;chanie vezikul&#xE1;rne, symetrick&#xE9;\nabdomen makk&#xE9;, priehmatn&#xE9;, palp. alg. epigastria a &#x13E;. hypochondria\nbez znamok peritone&#xE1;lneho dr&#xE1;&#x17E;denia, B-R-P negat., Murphy negat.\nTPT bilat negat.\nDg.: Contusio abdominis\nTh.: sine\nDop.: USG vy&#x161; brucha\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "CONTUSIO"
+  ]
+}

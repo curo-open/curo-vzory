@@ -1,0 +1,25 @@
+{
+  "title": "RHB - ARC l DX / loco typico DX",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: lep&#x161;ie, pretrvavaj&#xFA;ce pobolievanie v mieste zlomeniny distal. r&#xE1;dia vpravo\nO.: orient., poloha akt., eupnoe, anikter., acyanoza\nSPL : pretrvavaj&#xFA;ci mierny edem s palp. alg a viaznucou dynamikou pr. RC zhybu, bez NCP\nDop.: RHB lie&#x10D;ba - viaznuca dynamika pr. ARC\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "KONTROLA na RHB"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "DIG IV. ped l SIN",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: reklamuje pobolievanie a opuch &#x13E;avej nohy po udret&#xED; &#x13E;. nohy\nbol&#xED; ju najviac IV. prsta &#x13E;. nohy\nO.: orient., poloha akt&#xED;vna, eupnoe, anikter., acyanoza, edem s palp. alg. v oblasti IV. prsta na &#x13E;avej nohe, bez NCP, bez krepitu a dekonfiguracie, dynamika v ATC pln&#xE1;, AMTTPh a AIPh intaktn&#xE9;\nRTG.: bez TZ na skelete\nDg.: contusio dig. IV. ped l sin\ntelesn&#xE9; &#x161;etrenie, ko o 7-10 dn\n\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "TRAUMA - contusio PED"
+  ]
+}

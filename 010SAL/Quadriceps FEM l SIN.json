@@ -1,0 +1,70 @@
+{
+  "title": "Quadriceps FEM l SIN",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S76.1] Poranenie &#x161;tvorhlav&#xE9;ho svalu stehna [m. quadriceps femoris] a jeho &#x161;&#x13E;achy",
+            "props": {
+              "id": "S76.1",
+              "idEzid": "02089492777@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: reklamuje bolesti &#x13E;av&#xE9;ho stehna po natiahnut&#xED;\nO.: orient., poloha akt., eupnoe, anikter., acyanoza, ch&#xF4;dza s napadan&#xED;m na &#x13D;DK, palp. alg. med. tretina &#x13E;av&#xE9;ho stehna ventr&#xE1;lne, bez haematomu a fukn&#x10D;n&#xE9;ho deficitu, dynamika v koxe aj kolene pln&#xE1;, terminal. alg.\nDg.: distensio m. quadric. fem. l sin\nTh.: NSA\ntelesn&#xE9; &#x161;etrenie, ko o 7-10 dn\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "TRAUMA - distensio MM"
+  ]
+}

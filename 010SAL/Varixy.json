@@ -1,0 +1,70 @@
+{
+  "title": "Varixy",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[I83.9] Varixy doln&#xFD;ch kon&#x10D;at&#xED;n bez vredu alebo z&#xE1;palu",
+            "props": {
+              "id": "I83.9",
+              "idEzid": "02089402677@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Subj.: pac. reklamuje bolesti &#x13E;avej / pravej dolnej kon&#x10D;atiny, zhor&#x161;enie dlhodob&#xFD;m st&#xE1;t&#xED;m\nObj.: vedomie luc&#xED;dne, poloha akt&#xED;vna, ch&#xF4;dza bez napadania, eupnoe, anikterus, acyanoza, &#x13E;av&#xE1; / prav&#xE1; DK bez edemu, Plantarny Sy negat., Homans negat., Loewenberg negat., varikozne konvol&#xFA;ty v povod&#xED; VSM na &#x13E;avom / pravom predkolen&#xED; bez inflamacie, palp. s ojedinel&#xFD;mi flebolitmi bez palp. algicity, perif. pulz. na ADP a ATP hmatn&#xE9;, akr&#xE1; tepl&#xE9; s primeran&#xFD;m koloritom\nDg.: Varices cruris l sin / dx\nDop.: Detralex tbl., band&#xE1;&#x17E;, elekt. varikotomiu d&#x13E;a rozhodnutia pac., ko o 2 ty&#x17E;.\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "CIEVY : ASO, CVI, TrFleb, Vari"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "title": "AHS /DX/ - ko p.p.",
+  "data": {
+    "_": {},
+    "vv": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] D&#xF4;kladn&#xE9; vy&#x161;etrenie jedn&#xE9;ho org&#xE1;nov&#xE9;ho syst&#xE9;mu alebo kontroln&#xE9; vy&#x161;etrenie vr&#xE1;tane r&#xE1;d a dokument&#xE1;cie.",
+            "props": {
+              "id": "63",
+              "idEzid": "00000117556@14",
+              "propBody": "200"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: pac. sa c&#xED;ti dobre, bez bolesti pr. ramena\nO.: orient., poloha akt., eupnoe, acyanoza, anikter.\nlokal. n&#xE1;lez na pr. AHS priazniv&#xFD;, bez palp. algicity, bez edemu a NCP s primeranou dynamikou pr. HS zhybu\nZ.: chirurg. lie&#x10D;ba ukon&#x10D;en&#xE1;, ko p.p.\n\n\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "KONTROLA kontrol vyš"
+  ]
+}

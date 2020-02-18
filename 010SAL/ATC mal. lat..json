@@ -1,0 +1,91 @@
+{
+  "title": "ATC mal. lat.",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S82.6] Zlomenina vonkaj&#x161;ieho &#x10D;lenka",
+            "props": {
+              "id": "S82.6",
+              "idEzid": "02089493353@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielen&#xE9; vy&#x161;etrenie dvoch alebo viacer&#xFD;ch org&#xE1;nov&#xFD;ch syst&#xE9;mov alebo dispenz&#xE1;rna kontrola (cielen&#xE1; anamn&#xE9;za, resp. anamn&#xE9;za od poslednej kontroly), popis subjekt&#xED;vnych obtia&#x17E;&#xED;, objekt&#xED;vny n&#xE1;lez, vyp&#xED;sanie spr&#xE1;vy, z&#xE1;ver, vypracovanie pl&#xE1;nu do nasleduj&#xFA;c",
+            "props": {
+              "id": "62",
+              "idEzid": "00000117549@14",
+              "propBody": "250"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[228] Sadrov&#xFD; dlahov&#xFD; obv&#xE4;z.",
+            "props": {
+              "id": "228",
+              "idEzid": "00000467670@14",
+              "propBody": "375"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "3",
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Subj.: pac. reklamuje bolestivos&#x165; &#x13E;av&#xE9;ho / prav&#xE9;ho &#x10D;lenkov&#xE9;ho zhybu po podvrtnut&#xED; nohy pri p&#xE1;de\nObj.: vedomie luc&#xED;dne, poloha akt&#xED;vna, anikter., acyan&#xF3;za\nedem, haematom s v&#xFD;raznou palp. algicitou lateral. malleolu &#x13E;./p. ATC s v&#xFD;razne obmedzenou dynamikou, bez NCP\nRTG : fractura malleoli lateralis ATC l sin / dx sine disloc\ncum disloc minima\nDg.: fractura malleoli lat. ATC l sin / dx\nTh.: sadr. dlaha, analgetik&#xE1;\nDop.: k&#x13E;udov&#xFD; re&#x17E;im s polohovan&#xED;m kon&#x10D;atiny, ko o ty&#x17E;.\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "TRAUMA - FRACTURA"
+  ]
+}

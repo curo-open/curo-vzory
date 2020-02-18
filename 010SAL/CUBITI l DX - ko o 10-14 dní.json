@@ -1,0 +1,70 @@
+{
+  "title": "CUBITI l DX - ko o 10-14 dní",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S50.0] Pomlia&#x17E;denie lak&#x165;a",
+            "props": {
+              "id": "S50.0",
+              "idEzid": "02089489666@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "1",
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] D&#xF4;kladn&#xE9; vy&#x161;etrenie jedn&#xE9;ho org&#xE1;nov&#xE9;ho syst&#xE9;mu alebo kontroln&#xE9; vy&#x161;etrenie vr&#xE1;tane r&#xE1;d a dokument&#xE1;cie.",
+            "props": {
+              "id": "63",
+              "idEzid": "00000117556@14",
+              "propBody": "200"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": "2",
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S.: bolesti pr. lak&#x165;a miernej&#x161;ie, hybnos&#x165; &#x10D;iasto&#x10D;ne zlep&#x161;en&#xE1;\nO.: orient., poloha akt., eupnoe, anikter., acyanoza\npr. lake&#x165; s ustupuj&#xFA;cim ed&#xE9;mom, dynamika mierne zlep&#x161;en&#xE1; (cca o 1/3)\nTh.: NSA\nDop.: telesn&#xE9; &#x161;etrenie a ko o 10-14 dn&#xED;, p.p. sk&#xF4;r\n\n",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling",
+  "tags": [
+    "KONTROLA - TRAUMA Dg"
+  ]
+}
