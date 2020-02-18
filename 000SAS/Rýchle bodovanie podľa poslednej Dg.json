@@ -1,0 +1,30 @@
+{
+  "title": "Rýchle bodovanie podľa poslednej Dg.",
+  "shortcut": "bdg",
+  "summary": "Bodovanie",
+  "if": "",
+  "data": {
+    "_": {},
+    "bod": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "bod"
+        },
+        "value": {
+          "bod": {
+            "value": "{{ sessions|getSections(\"vd\")|where(\"i==0\")[0].s.value.id.props.id}},<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "vykony"
+  ],
+  "vars": {},
+  "type": "examination",
+  "source": "curo-open/curo-vzory#/000SAS"
+}
