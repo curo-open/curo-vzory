@@ -7,25 +7,10 @@
   "if": "",
   "data": {
     "_": {},
-    "od": [
-      {
-        "id": 2,
-        "order": 0,
-        "props": {
-          "type": "od"
-        },
-        "value": {
-          "reason": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
     "s": [
       {
         "id": 4,
-        "order": 1,
+        "order": 0,
         "props": {
           "type": "s"
         },
@@ -40,7 +25,7 @@
     "t": [
       {
         "id": 9,
-        "order": 2,
+        "order": 1,
         "props": {
           "type": "t"
         },
@@ -52,25 +37,10 @@
         }
       }
     ],
-    "o": [
-      {
-        "id": 5,
-        "order": 3,
-        "props": {
-          "type": "o"
-        },
-        "value": {
-          "o": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
     "pm": [
       {
         "id": 7,
-        "order": 4,
+        "order": 2,
         "props": {
           "type": "pm"
         },
@@ -82,10 +52,55 @@
         }
       }
     ],
+    "o": [
+      {
+        "id": 18,
+        "order": 3,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "vulva bpn., spek.:sliznice pošvy ružové, normálne pošv. prostredie, portio- epitelizované, bránka štrbina, TZ<br>palp.:pošva priestranná, čípok sakrálne, voľný, nebolestivý, uterus v AVF normálnej veľkosti, mobilný, nebolestivý, adnexálne oblasti obojstranne bez patol. rezistencie a citlivosti.<br>Odobratý ster z pošvy na K+C<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 20,
+        "order": 4,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "poučená, o výsledku kultivácie sa bude informovať.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 21,
+        "order": 5,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "Colpitis acuta n.s., inak gyn.palp. nález fyziologický.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
     "vd": [
       {
         "id": 10,
-        "order": 5,
+        "order": 6,
         "props": {
           "type": "vd"
         },
@@ -93,9 +108,9 @@
           "id": {
             "value": "[N76.0] Akútna vaginitída",
             "props": {
-              "id": "N76.0",
+              "idClassid": "diagnoza",
               "idEzid": "02089459503@12",
-              "idClassid": "diagnoza"
+              "id": "N76.0"
             }
           },
           "text": {
@@ -108,7 +123,7 @@
     "vv": [
       {
         "id": 12,
-        "order": 6,
+        "order": 7,
         "props": {
           "type": "vv"
         },
@@ -117,9 +132,9 @@
             "value": "[167] Odobratie a fixácia sterového materiálu na cytologické vyšetrenie z porcia a z cervixu vrátane nákladov.",
             "props": {
               "propBody": 30,
-              "id": 167,
+              "idClassid": "vykon",
               "idEzid": "00000469577@14",
-              "idClassid": "vykon"
+              "id": 167
             }
           },
           "count": {
@@ -130,7 +145,7 @@
       },
       {
         "id": 13,
-        "order": 7,
+        "order": 8,
         "props": {
           "type": "vv"
         },
@@ -139,9 +154,9 @@
             "value": "[298] Odobratie, príprava a odoslanie sterového materiálu na mikrobiologické vyšetrenie, prípadne aj fixácia vrátane nákladov. Výkony pod kódmi 157, 161, 167, 297 a 298 sa viackrát popri sebe nemôžu vykazovať.",
             "props": {
               "propBody": 80,
-              "id": 298,
+              "idClassid": "vykon",
               "idEzid": "00000468223@14",
-              "idClassid": "vykon"
+              "id": 298
             }
           },
           "count": {

@@ -265,9 +265,9 @@
             "props": {}
           },
           "time": {
-            "value": "07.03.2020 23:14",
+            "value": "17.03.2020 16:11",
             "props": {
-              "propValue": "2020-03-07T22:14:30.428Z",
+              "propValue": "2020-03-17T15:11:37.734Z",
               "expr": "=+4t"
             }
           },
@@ -301,9 +301,9 @@
           "id": {
             "value": "[Z34.0] Dohľad nad normálnou prvou graviditou",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z34.0",
               "idEzid": "02089522839@11",
-              "id": "Z34.0"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -325,9 +325,9 @@
             "value": "[103] Vyšetrenie a rady v priebehu gravidity s vyhodnotením výsledkov laboratórnych vyšetrení so zreteľom na riziká gravidity.",
             "props": {
               "propBody": 200,
-              "idClassid": "vykon",
+              "id": 103,
               "idEzid": "00000466953@13",
-              "id": 103
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -344,13 +344,12 @@
         },
         "value": {
           "id": {
-            "value": "[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).",
+            "value": "[108] Ultrazvukové sledovanie tehotenstva vrátane biometrie a posúdenie vývoja orgánov vrátane obrazovej dokumentácie, za každé vyšetrenie.",
             "props": {
-              "propType": "SVaLZ",
-              "propBody": 1200,
+              "propBody": 350,
               "idClassid": "vykon",
-              "idEzid": "00000492314@11",
-              "id": 5305
+              "idEzid": "00000466979@14",
+              "id": 108
             }
           },
           "count": {
@@ -370,9 +369,9 @@
             "value": "[120] Vyšetrenie stredného prúdu moča na bielkoviny a cukor, ako aj mikroskopické vyšetrenie močového sedimentu.",
             "props": {
               "propBody": 80,
-              "idClassid": "vykon",
+              "id": 120,
               "idEzid": "00000467050@11",
-              "id": 120
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -392,9 +391,9 @@
             "value": "[122] Odobratie krvi zo žily na vykonanie vyšetrení v gravidite.",
             "props": {
               "propBody": 60,
-              "idClassid": "vykon",
+              "id": 122,
               "idEzid": "00000467076@11",
-              "id": 122
+              "idClassid": "vykon"
             }
           },
           "count": {

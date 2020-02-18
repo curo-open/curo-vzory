@@ -7,25 +7,10 @@
   "if": "",
   "data": {
     "_": {},
-    "od": [
-      {
-        "id": 2,
-        "order": 0,
-        "props": {
-          "type": "od"
-        },
-        "value": {
-          "reason": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
     "s": [
       {
         "id": 4,
-        "order": 1,
+        "order": 0,
         "props": {
           "type": "s"
         },
@@ -40,13 +25,28 @@
     "t": [
       {
         "id": 9,
-        "order": 2,
+        "order": 1,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
             "value": "<b>HAK: </b><br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pm": [
+      {
+        "id": 7,
+        "order": 2,
+        "props": {
+          "type": "pm"
+        },
+        "value": {
+          "datumpm": {
+            "value": "",
             "props": {}
           }
         }
@@ -61,22 +61,66 @@
         },
         "value": {
           "o": {
-            "value": "",
+            "value": "palpačne: prsníky symetrické, koža bez eflorescencií, mamily symetrické, konické, prominujú, bez sekrécie,mammy bilat.glandulárneho pohmatu, bez patol.rezistencie, ev. ciltivosti. Axilly bez LAP. <br>",
             "props": {}
           }
         }
       }
     ],
-    "pm": [
+    "pv": [
       {
-        "id": 7,
+        "id": 15,
         "order": 4,
         "props": {
-          "type": "pm"
+          "type": "pv"
         },
         "value": {
-          "datumpm": {
+          "typ": {
+            "value": "SONO prsníkov",
+            "props": {
+              "propValue": "SONO prsníkov"
+            }
+          },
+          "date": {
             "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "koža, podkožie nezhrubnuté, žľaza fertilného typu pravidelnej echoštruktúry bez ložiskových zmien a porúch architektoniky.Patologickú ložiskovú léziu ani opakovaným skenovaním nediferencujem. Dukty nedilatované. Axilly bez LAP.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 17,
+        "order": 5,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "Fertilné mammy, bez sonopatologie.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 19,
+        "order": 6,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "SONO prsníkov o 1 rok, ev. p.p.<br>",
             "props": {}
           }
         }
@@ -85,7 +129,7 @@
     "vd": [
       {
         "id": 10,
-        "order": 5,
+        "order": 7,
         "props": {
           "type": "vd"
         },
@@ -93,9 +137,9 @@
           "id": {
             "value": "[N63] Hrčka v prsníku, bližšie neurčená",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "N63",
               "idEzid": "00000061002@12",
-              "id": "N63"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -108,7 +152,7 @@
     "vv": [
       {
         "id": 12,
-        "order": 6,
+        "order": 8,
         "props": {
           "type": "vv"
         },
@@ -117,9 +161,9 @@
             "value": "[156] Palpačné vyšetrenie prsníkov a regionálnych lymfatických uzlín. Výkon sa môže vykazovať, ak nie je súčasťou iného vykazovaného výkonu.",
             "props": {
               "propBody": 110,
-              "id": 156,
+              "idClassid": "vykon",
               "idEzid": "00000467324@14",
-              "idClassid": "vykon"
+              "id": 156
             }
           },
           "count": {
@@ -130,7 +174,7 @@
       },
       {
         "id": 13,
-        "order": 7,
+        "order": 9,
         "props": {
           "type": "vv"
         },
@@ -138,11 +182,11 @@
           "id": {
             "value": "[5308] Ultrazvukové vyšetrenie obidvoch prsníkov, axíl a regionálnych lymfatických uzlín.",
             "props": {
-              "propBody": 1500,
               "propType": "SVaLZ",
-              "id": 5308,
+              "propBody": 1500,
+              "idClassid": "vykon",
               "idEzid": "00000492355@14",
-              "idClassid": "vykon"
+              "id": 5308
             }
           },
           "count": {

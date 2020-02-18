@@ -7,25 +7,10 @@
   "if": "",
   "data": {
     "_": {},
-    "od": [
-      {
-        "id": 2,
-        "order": 0,
-        "props": {
-          "type": "od"
-        },
-        "value": {
-          "reason": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
     "s": [
       {
         "id": 4,
-        "order": 1,
+        "order": 0,
         "props": {
           "type": "s"
         },
@@ -40,13 +25,13 @@
     "t": [
       {
         "id": 9,
-        "order": 2,
+        "order": 1,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "<b>HAK: </b><br>",
+            "value": "<b>GV:<br>TK:<br>Moč: </b><br>",
             "props": {}
           }
         }
@@ -55,12 +40,46 @@
     "o": [
       {
         "id": 5,
-        "order": 3,
+        "order": 2,
         "props": {
           "type": "o"
         },
         "value": {
           "o": {
+            "value": "MOP II,portio epitelizované, TZ1.palp.: čípok sakrálne, formovaný, uzavretý, tuhý, uterus normotonický,klenby prázdne. Dk: bez edémov<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 15,
+        "order": 3,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "Grav. ml. intacta<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "k": [
+      {
+        "id": 17,
+        "order": 4,
+        "props": {
+          "type": "k"
+        },
+        "value": {
+          "by": {
+            "value": "",
+            "props": {}
+          },
+          "after": {
             "value": "",
             "props": {}
           }
@@ -70,7 +89,7 @@
     "pm": [
       {
         "id": 7,
-        "order": 4,
+        "order": 5,
         "props": {
           "type": "pm"
         },
@@ -85,7 +104,7 @@
     "vd": [
       {
         "id": 10,
-        "order": 5,
+        "order": 6,
         "props": {
           "type": "vd"
         },
@@ -93,9 +112,9 @@
           "id": {
             "value": "[O47.0] Falošná pôrodná činnosť pred ukončením 37. týždňa gravidity",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "O47.0",
               "idEzid": "02089464107@12",
-              "id": "O47.0"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -108,17 +127,67 @@
     "vv": [
       {
         "id": 13,
-        "order": 6,
+        "order": 7,
         "props": {
           "type": "vv"
         },
         "value": {
           "id": {
-            "value": "",
-            "props": {}
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
           },
           "count": {
-            "value": "0",
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 18,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).",
+            "props": {
+              "propType": "SVaLZ",
+              "propBody": 1200,
+              "idClassid": "vykon",
+              "idEzid": "00000492314@14",
+              "id": 5305
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 19,
+        "order": 9,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[118] Externé kardiotokografické vyšetrenie (CTG). Výkon pod kódom 118 sa môže vykazovať za jeden deň aj v prípade dvojčiat a trojčiat, najviac dva razy.",
+            "props": {
+              "propBody": 230,
+              "idClassid": "vykon",
+              "idEzid": "00000467043@14",
+              "id": 118
+            }
+          },
+          "count": {
+            "value": "1",
             "props": {}
           }
         }

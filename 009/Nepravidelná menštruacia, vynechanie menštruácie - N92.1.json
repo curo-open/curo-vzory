@@ -7,25 +7,10 @@
   "if": "",
   "data": {
     "_": {},
-    "od": [
-      {
-        "id": 2,
-        "order": 0,
-        "props": {
-          "type": "od"
-        },
-        "value": {
-          "reason": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
     "s": [
       {
         "id": 4,
-        "order": 1,
+        "order": 0,
         "props": {
           "type": "s"
         },
@@ -40,7 +25,7 @@
     "t": [
       {
         "id": 9,
-        "order": 2,
+        "order": 1,
         "props": {
           "type": "t"
         },
@@ -52,25 +37,10 @@
         }
       }
     ],
-    "o": [
-      {
-        "id": 5,
-        "order": 3,
-        "props": {
-          "type": "o"
-        },
-        "value": {
-          "o": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
     "pm": [
       {
         "id": 7,
-        "order": 4,
+        "order": 2,
         "props": {
           "type": "pm"
         },
@@ -82,10 +52,33 @@
         }
       }
     ],
+    "vlozit": [
+      {
+        "id": 15,
+        "order": 3,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Záznam gynekologického vyšetrenia",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "vd": [
       {
         "id": 10,
-        "order": 5,
+        "order": 4,
         "props": {
           "type": "vd"
         },
@@ -108,7 +101,7 @@
     "vv": [
       {
         "id": 12,
-        "order": 6,
+        "order": 5,
         "props": {
           "type": "vv"
         },
@@ -130,7 +123,7 @@
       },
       {
         "id": 13,
-        "order": 7,
+        "order": 6,
         "props": {
           "type": "vv"
         },

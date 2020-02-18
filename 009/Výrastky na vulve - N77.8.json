@@ -7,25 +7,10 @@
   "if": "",
   "data": {
     "_": {},
-    "od": [
-      {
-        "id": 2,
-        "order": 0,
-        "props": {
-          "type": "od"
-        },
-        "value": {
-          "reason": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
     "s": [
       {
         "id": 4,
-        "order": 1,
+        "order": 0,
         "props": {
           "type": "s"
         },
@@ -40,13 +25,28 @@
     "t": [
       {
         "id": 9,
-        "order": 2,
+        "order": 1,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
             "value": "<b>HAK: </b><br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pm": [
+      {
+        "id": 7,
+        "order": 2,
+        "props": {
+          "type": "pm"
+        },
+        "value": {
+          "datumpm": {
+            "value": "",
             "props": {}
           }
         }
@@ -61,22 +61,22 @@
         },
         "value": {
           "o": {
-            "value": "",
+            "value": "vulva bpn., spek.:sliznice pošvy ružové, normálne pošv. prostredie, portio- epitelizované, bránka štrbina, TZ<br>palp.:pošva priestranná, čípok sakrálne, voľný, nebolestivý, uterus v AVF normálnej veľkosti, mobilný, nebolestivý, adnexálne oblasti obojstranne bez patol. rezistencie a citlivosti.<br>",
             "props": {}
           }
         }
       }
     ],
-    "pm": [
+    "z": [
       {
-        "id": 7,
+        "id": 15,
         "order": 4,
         "props": {
-          "type": "pm"
+          "type": "z"
         },
         "value": {
-          "datumpm": {
-            "value": "",
+          "z": {
+            "value": "Condylomata vulvae, inak gynekologický palp. nález fyziologický.<br>",
             "props": {}
           }
         }
@@ -124,29 +124,6 @@
           },
           "count": {
             "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 13,
-        "order": 7,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).",
-            "props": {
-              "propBody": 1200,
-              "propType": "SVaLZ",
-              "id": 5305,
-              "idEzid": "00000492314@14",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "0",
             "props": {}
           }
         }

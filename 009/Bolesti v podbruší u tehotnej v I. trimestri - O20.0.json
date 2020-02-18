@@ -7,31 +7,16 @@
   "if": "",
   "data": {
     "_": {},
-    "od": [
-      {
-        "id": 2,
-        "order": 0,
-        "props": {
-          "type": "od"
-        },
-        "value": {
-          "reason": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
     "s": [
       {
         "id": 4,
-        "order": 1,
+        "order": 0,
         "props": {
           "type": "s"
         },
         "value": {
           "s": {
-            "value": "bolesti v podbruší, bez krvácania, trvajúce krvácanie<br>",
+            "value": "niekoľko dní trvaúce bolesti v podbruší, bez výtoku, ev. krvácania<br>",
             "props": {}
           }
         }
@@ -40,13 +25,13 @@
     "t": [
       {
         "id": 9,
-        "order": 2,
+        "order": 1,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "<b>HAK: </b><br>",
+            "value": "<b>GV:    <br>TK:      <br>Moč:</b><br>",
             "props": {}
           }
         }
@@ -55,27 +40,46 @@
     "o": [
       {
         "id": 5,
-        "order": 3,
+        "order": 2,
         "props": {
           "type": "o"
         },
         "value": {
           "o": {
-            "value": "",
+            "value": "MOP II,portio OE,TZ1.palp.: čípok sakrálne, formovaný, uzavretý, tuhý, brucho<br>",
             "props": {}
           }
         }
       }
     ],
-    "pm": [
+    "z": [
       {
-        "id": 7,
-        "order": 4,
+        "id": 15,
+        "order": 3,
         "props": {
-          "type": "pm"
+          "type": "z"
         },
         "value": {
-          "datumpm": {
+          "z": {
+            "value": "Grav ml. intacta<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "k": [
+      {
+        "id": 19,
+        "order": 4,
+        "props": {
+          "type": "k"
+        },
+        "value": {
+          "by": {
+            "value": "",
+            "props": {}
+          },
+          "after": {
             "value": "",
             "props": {}
           }
@@ -114,11 +118,39 @@
         },
         "value": {
           "id": {
-            "value": "",
-            "props": {}
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "id": 63,
+              "idEzid": "00000117556@14",
+              "idClassid": "vykon"
+            }
           },
           "count": {
-            "value": "0",
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 16,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).",
+            "props": {
+              "propBody": 1200,
+              "propType": "SVaLZ",
+              "id": 5305,
+              "idEzid": "00000492314@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
             "props": {}
           }
         }

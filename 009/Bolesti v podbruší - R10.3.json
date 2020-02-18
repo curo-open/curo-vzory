@@ -7,25 +7,10 @@
   "if": "",
   "data": {
     "_": {},
-    "od": [
-      {
-        "id": 2,
-        "order": 0,
-        "props": {
-          "type": "od"
-        },
-        "value": {
-          "reason": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
     "s": [
       {
         "id": 4,
-        "order": 1,
+        "order": 0,
         "props": {
           "type": "s"
         },
@@ -40,7 +25,7 @@
     "t": [
       {
         "id": 9,
-        "order": 2,
+        "order": 1,
         "props": {
           "type": "t"
         },
@@ -52,25 +37,10 @@
         }
       }
     ],
-    "o": [
-      {
-        "id": 5,
-        "order": 3,
-        "props": {
-          "type": "o"
-        },
-        "value": {
-          "o": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
     "pm": [
       {
         "id": 7,
-        "order": 4,
+        "order": 2,
         "props": {
           "type": "pm"
         },
@@ -82,10 +52,33 @@
         }
       }
     ],
+    "vlozit": [
+      {
+        "id": 18,
+        "order": 3,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Záznam gynekologického vyšetrenia",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "vd": [
       {
         "id": 10,
-        "order": 5,
+        "order": 4,
         "props": {
           "type": "vd"
         },
@@ -93,9 +86,9 @@
           "id": {
             "value": "[R10.3] Bolesť v iných častiach podbrušia",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "R10.3",
               "idEzid": "02089478628@12",
-              "id": "R10.3"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -108,7 +101,7 @@
     "vv": [
       {
         "id": 12,
-        "order": 6,
+        "order": 5,
         "props": {
           "type": "vv"
         },
@@ -117,9 +110,9 @@
             "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
             "props": {
               "propBody": 200,
-              "idClassid": "vykon",
+              "id": 63,
               "idEzid": "00000117556@14",
-              "id": 63
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -130,7 +123,7 @@
       },
       {
         "id": 13,
-        "order": 7,
+        "order": 6,
         "props": {
           "type": "vv"
         },
@@ -138,11 +131,11 @@
           "id": {
             "value": "[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 1200,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5305,
               "idEzid": "00000492314@14",
-              "id": 5305
+              "idClassid": "vykon"
             }
           },
           "count": {
