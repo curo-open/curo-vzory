@@ -1,0 +1,69 @@
+{
+  "title": "Rectoskop.vyš.",
+  "data": {
+    "_": {},
+    "r-ml": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "r-ml"
+        },
+        "value": {
+          "title": {
+            "value": "Rectoskop.vy&#x161;. [M01000]",
+            "props": {}
+          },
+          "schedule": {
+            "value": "pod&#x13E;a doporu&#x10D;enia",
+            "props": {
+              "propType": "DOP",
+              "propText": ""
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "Magnesii sulfurici sicc\n                   75,0\nD. ad scat.,",
+            "props": {}
+          },
+          "priprava": {
+            "value": "",
+            "props": {}
+          },
+          "aplikacia": {
+            "value": "de&#x148; pred vy&#x161;etren&#xED;m o 16-18-20 hod. pol. ly&#x17E;. pr&#xE1;&#x161;ku do poh&#xE1;ra vody",
+            "props": {}
+          },
+          "prodException": {
+            "value": "",
+            "props": {}
+          },
+          "force": {
+            "value": "",
+            "props": {}
+          },
+          "forceReason": {
+            "value": "",
+            "props": {}
+          },
+          "barcode": {
+            "value": "",
+            "props": {}
+          },
+          "note_zp": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling"
+}

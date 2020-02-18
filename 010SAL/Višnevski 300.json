@@ -1,0 +1,69 @@
+{
+  "title": "Višnevski 300",
+  "data": {
+    "_": {},
+    "r-ml": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "r-ml"
+        },
+        "value": {
+          "title": {
+            "value": "Vi&#x161;nevski 300 [M01000]",
+            "props": {}
+          },
+          "schedule": {
+            "value": "pod&#x13E;a doporu&#x10D;enia",
+            "props": {
+              "propType": "DOP",
+              "propText": ""
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "Balsamum Vi&#x161;nevski gr. 300",
+            "props": {}
+          },
+          "priprava": {
+            "value": "",
+            "props": {}
+          },
+          "aplikacia": {
+            "value": "lokalne zvonku",
+            "props": {}
+          },
+          "prodException": {
+            "value": "",
+            "props": {}
+          },
+          "force": {
+            "value": "",
+            "props": {}
+          },
+          "forceReason": {
+            "value": "",
+            "props": {}
+          },
+          "barcode": {
+            "value": "",
+            "props": {}
+          },
+          "note_zp": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/saling"
+}
