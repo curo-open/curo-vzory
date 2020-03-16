@@ -50,10 +50,40 @@
         }
       }
     ],
+    "ea": [
+      {
+        "id": 16,
+        "order": 3,
+        "props": {
+          "type": "ea"
+        },
+        "value": {
+          "text": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ca": [
+      {
+        "id": 17,
+        "order": 4,
+        "props": {
+          "type": "ca"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "z": [
       {
         "id": 7,
-        "order": 3,
+        "order": 5,
         "props": {
           "type": "z"
         },
@@ -68,7 +98,7 @@
     "odp": [
       {
         "id": 8,
-        "order": 4,
+        "order": 6,
         "props": {
           "type": "odp"
         },
@@ -80,10 +110,80 @@
         }
       }
     ],
+    "vd": [
+      {
+        "id": 14,
+        "order": 7,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[U07.2] Podozrenie z infekcie COVID-19",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089528679@13",
+              "id": "U07.2"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 19,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[1] Pod radou sa rozumie poskytnutie informácií pacientovi alebo zákonnému zástupcovi v súvislosti so zdravotným stavom. Výkon pod kódom 1 nemožno vykazovať súčasne s inými výkonmi. Výkon nemožno vykazovať pre telefonické objednávanie pacienta.",
+            "props": {
+              "propBody": 80,
+              "idClassid": "vykon",
+              "idEzid": "00000466508@15",
+              "id": 1
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 12,
+        "order": 10,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[71.DPN] Vystavenie potvrdenia o dočasnej pracovnej neschopnosti.",
+            "props": {
+              "propType": "soc",
+              "propBody": 35,
+              "idClassid": "vykon",
+              "idEzid": "curo-71.DPN@15",
+              "id": "71.DPN"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
     "pn": [
       {
         "id": 10,
-        "order": 5,
+        "order": 9,
         "props": {
           "type": "pn"
         },
@@ -132,31 +232,6 @@
           },
           "comment": {
             "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
-    "vv": [
-      {
-        "id": 12,
-        "order": 6,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[71.DPN] Vystavenie potvrdenia o dočasnej pracovnej neschopnosti.",
-            "props": {
-              "propType": "soc",
-              "propBody": 35,
-              "idClassid": "vykon",
-              "idEzid": "curo-71.DPN@15",
-              "id": "71.DPN"
-            }
-          },
-          "count": {
-            "value": "1",
             "props": {}
           }
         }
