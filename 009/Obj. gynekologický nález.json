@@ -6,10 +6,25 @@
   "if": "",
   "data": {
     "_": {},
+    "pm": [
+      {
+        "id": 24,
+        "order": 0,
+        "props": {
+          "type": "pm"
+        },
+        "value": {
+          "datumpm": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "s": [
       {
         "id": 17,
-        "order": 0,
+        "order": 1,
         "props": {
           "type": "s"
         },
@@ -21,10 +36,25 @@
         }
       }
     ],
+    "t": [
+      {
+        "id": 27,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>HAK: </b><br>",
+            "props": {}
+          }
+        }
+      }
+    ],
     "o": [
       {
         "id": 11,
-        "order": 1,
+        "order": 3,
         "props": {
           "type": "o"
         },
@@ -39,7 +69,7 @@
     "pv": [
       {
         "id": 19,
-        "order": 2,
+        "order": 4,
         "props": {
           "type": "pv"
         },
@@ -68,7 +98,7 @@
     "z": [
       {
         "id": 4,
-        "order": 3,
+        "order": 5,
         "props": {
           "type": "z"
         },
@@ -83,7 +113,7 @@
     "odp": [
       {
         "id": 21,
-        "order": 4,
+        "order": 6,
         "props": {
           "type": "odp"
         },
@@ -98,7 +128,7 @@
     "vd": [
       {
         "id": 6,
-        "order": 5,
+        "order": 7,
         "props": {
           "type": "vd"
         },
@@ -106,9 +136,9 @@
           "id": {
             "value": "[N94.9] Odchýlka spojená so ženskými pohlavnými orgánmi a menštruačným cyklom, bližšie neurčená",
             "props": {
-              "id": "N94.9",
+              "idClassid": "diagnoza",
               "idEzid": "02089460865@11",
-              "idClassid": "diagnoza"
+              "id": "N94.9"
             }
           },
           "text": {
@@ -121,7 +151,7 @@
     "vv": [
       {
         "id": 8,
-        "order": 6,
+        "order": 8,
         "props": {
           "type": "vv"
         },
@@ -130,9 +160,9 @@
             "value": "[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov",
             "props": {
               "propBody": 250,
-              "id": 8,
+              "idClassid": "vykon",
               "idEzid": "00000466557@11",
-              "idClassid": "vykon"
+              "id": 8
             }
           },
           "count": {
@@ -143,7 +173,7 @@
       },
       {
         "id": 9,
-        "order": 7,
+        "order": 9,
         "props": {
           "type": "vv"
         },
@@ -152,9 +182,9 @@
             "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
             "props": {
               "propBody": 200,
-              "id": 63,
+              "idClassid": "vykon",
               "idEzid": "00000117556@11",
-              "idClassid": "vykon"
+              "id": 63
             }
           },
           "count": {
@@ -165,7 +195,7 @@
       },
       {
         "id": 22,
-        "order": 8,
+        "order": 10,
         "props": {
           "type": "vv"
         },
@@ -173,11 +203,11 @@
           "id": {
             "value": "[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).",
             "props": {
-              "propBody": 1200,
               "propType": "SVaLZ",
-              "id": 5305,
+              "propBody": 1200,
+              "idClassid": "vykon",
               "idEzid": "00000492314@11",
-              "idClassid": "vykon"
+              "id": 5305
             }
           },
           "count": {

@@ -1,0 +1,150 @@
+{
+  "type": "examination",
+  "summary": "Obj. gynekologický nález",
+  "content": "<section data-x-id=\"24\" data-type=\"pm\" class=\"\"><aside></aside><label class=\"section-label  \">Posledná menštruácia​:</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"datumpm\"></div></section><section data-x-id=\"17\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"_noval FieldHtml\" data-name=\"s\"></div></section><section data-x-id=\"27\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\"><b>HAK: </b><br></div></section><section data-x-id=\"11\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\">vulva bpn., spek.:sliznice pošvy ružové, normálne pošv. prostredie, portio- epitelizované, bránka štrbina, TZ<br>palp.:pošva priestranná, čípok sakrálne, voľný, nebolestivý, uterus v AVF normálnej veľkosti, mobilný, nebolestivý, adnexálne oblasti obojstranne bez patol. rezistencie a citlivosti.<br></div></section><section data-x-id=\"19\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyš.​:</label><div class=\"FieldList hasActions highlight\" data-name=\"typ\" data-prop-value=\"TVS\">TVS</div>​<label data-for=\"date\" class=\"ss _noval\">dátum vyšetrenia​</label><div class=\"_noval FieldDate hasActions ss\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div>​<label data-for=\"me\" class=\"ss _noval\">mnou vyžiadané​</label><div class=\"_noval FieldSwitchX hasActions ss\" data-name=\"me\"></div>​<label data-for=\"popis\" class=\"\">popis:​</label><div class=\"FieldHtml\" data-name=\"popis\">Uterus v AVF normálnej veľkosti, bez štrukturálnych zmien, endometrium , ováriá bilat. fyziol. vzhľadu a uloženia. CD bez voľnej tekutiny.<br></div></section><section data-x-id=\"4\" data-type=\"z\" class=\"\"><aside></aside><label class=\"section-label  \">Záver​:</label><div class=\"FieldHtml\" data-name=\"z\">Gynekologický palp. a usg nález fyziologický.<br></div></section><section data-x-id=\"21\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\">Poučená, KO podľa PP<br></div></section><section data-x-id=\"6\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"N94.9\" data-id-ezid=\"02089460865@11\" data-id-classid=\"diagnoza\" title=\"[N94.9] Odchýlka spojená so ženskými pohlavnými orgánmi a menštruačným cyklom, bližšie neurčená\" style=\"width: 50ch;\">[N94.9] Odchýlka spojená so ženskými pohlavnými orgánmi a menštruačným cyklom, bližšie neurčená</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"8\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"8\" data-id-ezid=\"00000466557@11\" data-id-classid=\"vykon\" data-prop-body=\"250\" title=\"[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov\" style=\"width: 50ch;\">[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"9\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"63\" data-id-ezid=\"00000117556@11\" data-id-classid=\"vykon\" data-prop-body=\"200\" title=\"[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"22\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"5305\" data-id-ezid=\"00000492314@11\" data-id-classid=\"vykon\" data-prop-body=\"1200\" data-prop-type=\"SVaLZ\" title=\"[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).\" style=\"width: 50ch;\">[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
+  "title": "Obj. gynekologický nález - bez výkonov",
+  "shortcut": "ognbv",
+  "if": "",
+  "data": {
+    "_": {},
+    "pm": [
+      {
+        "id": 24,
+        "order": 0,
+        "props": {
+          "type": "pm"
+        },
+        "value": {
+          "datumpm": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 17,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 27,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>HAK: </b><br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 11,
+        "order": 3,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "vulva bpn., spek.:sliznice pošvy ružové, normálne pošv. prostredie, portio- epitelizované, bránka štrbina, TZ<br>palp.:pošva priestranná, čípok sakrálne, voľný, nebolestivý, uterus v AVF normálnej veľkosti, mobilný, nebolestivý, adnexálne oblasti obojstranne bez patol. rezistencie a citlivosti.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pv": [
+      {
+        "id": 19,
+        "order": 4,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "TVS",
+            "props": {
+              "propValue": "TVS"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "Uterus v AVF normálnej veľkosti, bez štrukturálnych zmien, endometrium , ováriá bilat. fyziol. vzhľadu a uloženia. CD bez voľnej tekutiny.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 4,
+        "order": 5,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "Gynekologický palp. a usg nález fyziologický.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 21,
+        "order": 6,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "Poučená, KO podľa PP<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "bod": [
+      {
+        "id": 29,
+        "order": 7,
+        "props": {
+          "type": "bod"
+        },
+        "value": {
+          "bod": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "dekurz"
+  ],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/009"
+}

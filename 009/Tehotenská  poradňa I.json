@@ -51,21 +51,8 @@
         }
       },
       {
-        "id": 42,
-        "order": 4,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "upozornit na sono, urobit ako osobitny vzor upozornit v  tt 10, 20, 30<br>",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 43,
-        "order": 9,
+        "order": 8,
         "props": {
           "type": "t"
         },
@@ -139,7 +126,7 @@
     "sonogv": [
       {
         "id": 31,
-        "order": 5,
+        "order": 4,
         "props": {
           "type": "sonogv"
         },
@@ -208,6 +195,10 @@
             "value": "",
             "props": {}
           },
+          "cervikometria": {
+            "value": "",
+            "props": {}
+          },
           "zaver": {
             "value": "",
             "props": {}
@@ -218,7 +209,7 @@
     "z": [
       {
         "id": 4,
-        "order": 6,
+        "order": 5,
         "props": {
           "type": "z"
         },
@@ -233,7 +224,7 @@
     "odp": [
       {
         "id": 21,
-        "order": 7,
+        "order": 6,
         "props": {
           "type": "odp"
         },
@@ -248,7 +239,7 @@
     "obj": [
       {
         "id": 33,
-        "order": 8,
+        "order": 7,
         "props": {
           "type": "obj",
           "objId": "cjyisjx5s000e3q7c8t58k1hp"
@@ -265,9 +256,9 @@
             "props": {}
           },
           "time": {
-            "value": "17.03.2020 16:11",
+            "value": "13.05.2020 10:10",
             "props": {
-              "propValue": "2020-03-17T15:11:19.832Z",
+              "propValue": "2020-05-13T08:10:48.782Z",
               "expr": "=+4t"
             }
           },
@@ -293,7 +284,7 @@
     "vd": [
       {
         "id": 6,
-        "order": 10,
+        "order": 9,
         "props": {
           "type": "vd"
         },
@@ -316,7 +307,7 @@
     "vv": [
       {
         "id": 22,
-        "order": 11,
+        "order": 10,
         "props": {
           "type": "vv"
         },
@@ -338,7 +329,7 @@
       },
       {
         "id": 41,
-        "order": 12,
+        "order": 11,
         "props": {
           "type": "vv"
         },
@@ -360,7 +351,7 @@
       },
       {
         "id": 39,
-        "order": 13,
+        "order": 12,
         "props": {
           "type": "vv"
         },
@@ -382,7 +373,7 @@
       },
       {
         "id": 44,
-        "order": 14,
+        "order": 13,
         "props": {
           "type": "vv"
         },
@@ -404,7 +395,7 @@
       },
       {
         "id": 40,
-        "order": 15,
+        "order": 14,
         "props": {
           "type": "vv"
         },

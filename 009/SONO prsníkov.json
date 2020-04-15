@@ -6,10 +6,25 @@
   "if": "",
   "data": {
     "_": {},
+    "s": [
+      {
+        "id": 15,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "o": [
       {
         "id": 11,
-        "order": 0,
+        "order": 1,
         "props": {
           "type": "o"
         },
@@ -24,7 +39,7 @@
     "pv": [
       {
         "id": 2,
-        "order": 1,
+        "order": 2,
         "props": {
           "type": "pv"
         },
@@ -53,7 +68,7 @@
     "z": [
       {
         "id": 4,
-        "order": 2,
+        "order": 3,
         "props": {
           "type": "z"
         },
@@ -68,7 +83,7 @@
     "odp": [
       {
         "id": 13,
-        "order": 3,
+        "order": 4,
         "props": {
           "type": "odp"
         },
@@ -83,7 +98,7 @@
     "vd": [
       {
         "id": 6,
-        "order": 4,
+        "order": 5,
         "props": {
           "type": "vd"
         },
@@ -91,9 +106,9 @@
           "id": {
             "value": "[N60.8] Iná benígna dysplázia prsníka",
             "props": {
-              "id": "N60.8",
+              "idClassid": "diagnoza",
               "idEzid": "02089459073@11",
-              "idClassid": "diagnoza"
+              "id": "N60.8"
             }
           },
           "text": {
@@ -105,28 +120,6 @@
     ],
     "vv": [
       {
-        "id": 8,
-        "order": 5,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[156] Palpačné vyšetrenie prsníkov a regionálnych lymfatických uzlín. Výkon sa môže vykazovať, ak nie je súčasťou iného vykazovaného výkonu.",
-            "props": {
-              "propBody": 110,
-              "idClassid": "vykon",
-              "idEzid": "00000467324@13",
-              "id": 156
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 9,
         "order": 6,
         "props": {
@@ -136,11 +129,11 @@
           "id": {
             "value": "[5308] Ultrazvukové vyšetrenie obidvoch prsníkov, axíl a regionálnych lymfatických uzlín.",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 1500,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5308,
               "idEzid": "00000492355@11",
-              "id": 5308
+              "idClassid": "vykon"
             }
           },
           "count": {

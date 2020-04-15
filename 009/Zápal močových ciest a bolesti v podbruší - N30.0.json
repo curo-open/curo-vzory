@@ -5,10 +5,25 @@
   "if": "",
   "data": {
     "_": {},
+    "pm": [
+      {
+        "id": 7,
+        "order": 0,
+        "props": {
+          "type": "pm"
+        },
+        "value": {
+          "datumpm": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "s": [
       {
         "id": 4,
-        "order": 0,
+        "order": 1,
         "props": {
           "type": "s"
         },
@@ -23,28 +38,13 @@
     "t": [
       {
         "id": 9,
-        "order": 1,
+        "order": 2,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
             "value": "<b>HAK: <br>Moč orientačne:</b><br>",
-            "props": {}
-          }
-        }
-      }
-    ],
-    "pm": [
-      {
-        "id": 7,
-        "order": 2,
-        "props": {
-          "type": "pm"
-        },
-        "value": {
-          "datumpm": {
-            "value": "",
             "props": {}
           }
         }
@@ -84,9 +84,9 @@
           "id": {
             "value": "[N30.0] Akútna cystitída",
             "props": {
-              "id": "N30.0",
+              "idClassid": "diagnoza",
               "idEzid": "02089457770@12",
-              "idClassid": "diagnoza"
+              "id": "N30.0"
             }
           },
           "text": {
@@ -108,9 +108,9 @@
             "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
             "props": {
               "propBody": 200,
-              "id": 63,
+              "idClassid": "vykon",
               "idEzid": "00000117556@14",
-              "idClassid": "vykon"
+              "id": 63
             }
           },
           "count": {
@@ -129,11 +129,11 @@
           "id": {
             "value": "[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).",
             "props": {
-              "propBody": 1200,
               "propType": "SVaLZ",
-              "id": 5305,
+              "propBody": 1200,
+              "idClassid": "vykon",
               "idEzid": "00000492314@14",
-              "idClassid": "vykon"
+              "id": 5305
             }
           },
           "count": {

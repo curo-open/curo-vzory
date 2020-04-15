@@ -7,10 +7,25 @@
   "if": "",
   "data": {
     "_": {},
+    "pm": [
+      {
+        "id": 7,
+        "order": 0,
+        "props": {
+          "type": "pm"
+        },
+        "value": {
+          "datumpm": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "s": [
       {
         "id": 4,
-        "order": 0,
+        "order": 1,
         "props": {
           "type": "s"
         },
@@ -25,28 +40,13 @@
     "t": [
       {
         "id": 9,
-        "order": 1,
+        "order": 2,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
             "value": "<b>HAK: </b><br>",
-            "props": {}
-          }
-        }
-      }
-    ],
-    "pm": [
-      {
-        "id": 7,
-        "order": 2,
-        "props": {
-          "type": "pm"
-        },
-        "value": {
-          "datumpm": {
-            "value": "",
             "props": {}
           }
         }
@@ -137,9 +137,9 @@
           "id": {
             "value": "[N63] Hrčka v prsníku, bližšie neurčená",
             "props": {
-              "id": "N63",
+              "idClassid": "diagnoza",
               "idEzid": "00000061002@12",
-              "idClassid": "diagnoza"
+              "id": "N63"
             }
           },
           "text": {
@@ -161,9 +161,9 @@
             "value": "[156] Palpačné vyšetrenie prsníkov a regionálnych lymfatických uzlín. Výkon sa môže vykazovať, ak nie je súčasťou iného vykazovaného výkonu.",
             "props": {
               "propBody": 110,
-              "idClassid": "vykon",
+              "id": 156,
               "idEzid": "00000467324@14",
-              "id": 156
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -182,11 +182,11 @@
           "id": {
             "value": "[5308] Ultrazvukové vyšetrenie obidvoch prsníkov, axíl a regionálnych lymfatických uzlín.",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 1500,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5308,
               "idEzid": "00000492355@14",
-              "id": 5308
+              "idClassid": "vykon"
             }
           },
           "count": {

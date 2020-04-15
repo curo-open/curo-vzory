@@ -95,9 +95,9 @@
           "id": {
             "value": "[Z34.0] Dohľad nad normálnou prvou graviditou",
             "props": {
-              "id": "Z34.0",
+              "idClassid": "diagnoza",
               "idEzid": "02089522839@11",
-              "idClassid": "diagnoza"
+              "id": "Z34.0"
             }
           },
           "text": {
@@ -119,9 +119,9 @@
             "value": "[108] Ultrazvukové sledovanie tehotenstva vrátane biometrie a posúdenie vývoja orgánov vrátane obrazovej dokumentácie, za každé vyšetrenie.",
             "props": {
               "propBody": 350,
-              "idClassid": "vykon",
+              "id": 108,
               "idEzid": "00000466979@11",
-              "id": 108
+              "idClassid": "vykon"
             }
           },
           "count": {

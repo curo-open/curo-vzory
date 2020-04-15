@@ -7,10 +7,25 @@
   "if": "",
   "data": {
     "_": {},
+    "pm": [
+      {
+        "id": 7,
+        "order": 0,
+        "props": {
+          "type": "pm"
+        },
+        "value": {
+          "datumpm": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "s": [
       {
         "id": 4,
-        "order": 0,
+        "order": 1,
         "props": {
           "type": "s"
         },
@@ -25,28 +40,13 @@
     "t": [
       {
         "id": 9,
-        "order": 1,
+        "order": 2,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
             "value": "<b>HAK: </b><br>",
-            "props": {}
-          }
-        }
-      }
-    ],
-    "pm": [
-      {
-        "id": 7,
-        "order": 2,
-        "props": {
-          "type": "pm"
-        },
-        "value": {
-          "datumpm": {
-            "value": "",
             "props": {}
           }
         }
@@ -108,9 +108,9 @@
           "id": {
             "value": "[N76.0] Akútna vaginitída",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "N76.0",
               "idEzid": "02089459503@12",
-              "id": "N76.0"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -132,9 +132,9 @@
             "value": "[167] Odobratie a fixácia sterového materiálu na cytologické vyšetrenie z porcia a z cervixu vrátane nákladov.",
             "props": {
               "propBody": 30,
-              "idClassid": "vykon",
+              "id": 167,
               "idEzid": "00000469577@14",
-              "id": 167
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -154,9 +154,9 @@
             "value": "[298] Odobratie, príprava a odoslanie sterového materiálu na mikrobiologické vyšetrenie, prípadne aj fixácia vrátane nákladov. Výkony pod kódmi 157, 161, 167, 297 a 298 sa viackrát popri sebe nemôžu vykazovať.",
             "props": {
               "propBody": 80,
-              "idClassid": "vykon",
+              "id": 298,
               "idEzid": "00000468223@14",
-              "id": 298
+              "idClassid": "vykon"
             }
           },
           "count": {
