@@ -140,27 +140,92 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.typ == 'EU' }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 19,
-        "order": 13,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
+            "value": "{{ ? pacient.typ == 'EU'  }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 21,
-        "order": 15,
+        "order": 13,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 24,
+        "order": 14,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{? zp == 24 &amp;&amp; pacient.typ != 'EU'   }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 26,
+        "order": 16,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 28,
+        "order": 17,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{? zp == 25 &amp;&amp; pacient.typ != 'EU'   }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 30,
+        "order": 19,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 32,
+        "order": 20,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{? zp == 27 &amp;&amp; pacient.typ != 'EU'   }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 34,
+        "order": 22,
         "props": {
           "type": "t"
         },
@@ -271,9 +336,9 @@
             "value": "[4] Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani",
             "props": {
               "propBody": 200,
-              "id": 4,
+              "idClassid": "vykon",
               "idEzid": "00000466524@11",
-              "idClassid": "vykon"
+              "id": 4
             }
           },
           "count": {
@@ -284,7 +349,7 @@
       },
       {
         "id": 3,
-        "order": 14,
+        "order": 15,
         "props": {
           "type": "vv"
         },
@@ -293,9 +358,53 @@
             "value": "[1] Pod radou sa rozumie poskytnutie informácií pacientovi alebo zákonnému zástupcovi v súvislosti so zdravotným stavom. Výkon pod kódom 1 nemožno vykazovať súčasne s inými výkonmi. Výkon nemožno vykazovať pre telefonické objednávanie pacienta.",
             "props": {
               "propBody": 80,
-              "id": 1,
+              "idClassid": "vykon",
               "idEzid": "00000466508@9",
-              "idClassid": "vykon"
+              "id": 1
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 29,
+        "order": 18,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[70] Opätovné vystavenie lekárskeho predpisu alebo lekárskeho poukazu.",
+            "props": {
+              "propBody": 50,
+              "idClassid": "vykon",
+              "idEzid": "02089691105@18",
+              "id": 70
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 33,
+        "order": 21,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[70] Opätovné vystavenie lekárskeho predpisu alebo lekárskeho poukazu.",
+            "props": {
+              "propBody": 50,
+              "idClassid": "vykon",
+              "idEzid": "02089691105@18",
+              "id": 70
             }
           },
           "count": {
