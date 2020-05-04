@@ -336,9 +336,9 @@
             "value": "[4] Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani",
             "props": {
               "propBody": 200,
-              "idClassid": "vykon",
+              "id": 4,
               "idEzid": "00000466524@11",
-              "id": 4
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -355,12 +355,12 @@
         },
         "value": {
           "id": {
-            "value": "[1] Pod radou sa rozumie poskytnutie informácií pacientovi alebo zákonnému zástupcovi v súvislosti so zdravotným stavom. Výkon pod kódom 1 nemožno vykazovať súčasne s inými výkonmi. Výkon nemožno vykazovať pre telefonické objednávanie pacienta.",
+            "value": "[70] Opätovné vystavenie lekárskeho predpisu alebo lekárskeho poukazu.",
             "props": {
-              "propBody": 80,
+              "propBody": 50,
               "idClassid": "vykon",
-              "idEzid": "00000466508@9",
-              "id": 1
+              "idEzid": "02089691105@18",
+              "id": 70
             }
           },
           "count": {
@@ -380,9 +380,9 @@
             "value": "[70] Opätovné vystavenie lekárskeho predpisu alebo lekárskeho poukazu.",
             "props": {
               "propBody": 50,
-              "idClassid": "vykon",
+              "id": 70,
               "idEzid": "02089691105@18",
-              "id": 70
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -402,9 +402,9 @@
             "value": "[70] Opätovné vystavenie lekárskeho predpisu alebo lekárskeho poukazu.",
             "props": {
               "propBody": 50,
-              "idClassid": "vykon",
+              "id": 70,
               "idEzid": "02089691105@18",
-              "id": 70
+              "idClassid": "vykon"
             }
           },
           "count": {
