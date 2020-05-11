@@ -59,7 +59,7 @@
         },
         "value": {
           "text": {
-            "value": "<br>",
+            "value": "",
             "props": {}
           }
         }
@@ -121,9 +121,9 @@
           "id": {
             "value": "[U07.2] Podozrenie z infekcie COVID-19",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "U07.2",
               "idEzid": "02089528679@13",
-              "id": "U07.2"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -142,12 +142,12 @@
         },
         "value": {
           "id": {
-            "value": "[1] Pod radou sa rozumie poskytnutie informácií pacientovi alebo zákonnému zástupcovi v súvislosti so zdravotným stavom. Výkon pod kódom 1 nemožno vykazovať súčasne s inými výkonmi. Výkon nemožno vykazovať pre telefonické objednávanie pacienta.",
+            "value": "[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky",
             "props": {
-              "propBody": 80,
+              "propBody": 0,
               "idClassid": "vykon",
-              "idEzid": "00000466508@15",
-              "id": 1
+              "idEzid": "02089894014@19",
+              "id": "1b"
             }
           },
           "count": {
@@ -166,11 +166,11 @@
           "id": {
             "value": "[71.DPN] Vystavenie potvrdenia o dočasnej pracovnej neschopnosti.",
             "props": {
-              "propType": "soc",
               "propBody": 35,
-              "idClassid": "vykon",
+              "propType": "soc",
+              "id": "71.DPN",
               "idEzid": "curo-71.DPN@15",
-              "id": "71.DPN"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -193,16 +193,16 @@
             "props": {}
           },
           "date": {
-            "value": "16.03.2020",
+            "value": "11.05.2020",
             "props": {
-              "propValue": "2020-03-16T10:35:47.134Z",
+              "propValue": "2020-05-11T09:21:56.752Z",
               "expr": "=dnes"
             }
           },
           "date_vystavene": {
-            "value": "16.03.2020",
+            "value": "11.05.2020",
             "props": {
-              "propValue": "2020-03-16T10:35:39.831Z",
+              "propValue": "2020-05-11T09:21:56.755Z",
               "expr": "=dnes"
             }
           },
@@ -223,10 +223,6 @@
             "props": {}
           },
           "vychadzky_do": {
-            "value": "",
-            "props": {}
-          },
-          "vyziadane_datum": {
             "value": "",
             "props": {}
           },
