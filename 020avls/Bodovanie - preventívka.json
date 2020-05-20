@@ -156,7 +156,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? var.fob=='ON' &amp;&amp; zp == 24 &amp;&amp; vek &gt;= 50 }}<br>",
+            "value": "{{ ? var.fob=='ON' &amp;&amp; zp == 24 &amp;&amp; vek &gt;= 40 }}<br>",
             "props": {}
           }
         }
@@ -234,7 +234,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? (sessions|getSections(\"vv\")|where(\"d.period&gt;365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") &gt; 0 || sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; zp==25 &amp;&amp; vek &gt;= 40}}<br>",
+            "value": "{{ ? (sessions|getSections(\"vv\")|where(\"d.period&gt;365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") &gt; 0 || sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; zp != 24 &amp;&amp; vek &gt;= 40}}<br>",
             "props": {}
           }
         }
@@ -912,9 +912,10 @@
             "props": {}
           },
           "at": {
-            "value": "04.03.2019 20:58",
+            "value": "22.05.2020 00:18",
             "props": {
-              "propValue": "2019-03-04T19:58:08.605Z"
+              "propValue": "2020-05-21T22:18:30.642Z",
+              "expr": "=+1d"
             }
           },
           "priority": {
@@ -941,9 +942,10 @@
             "props": {}
           },
           "at": {
-            "value": "04.03.2019 20:45",
+            "value": "22.05.2020 00:18",
             "props": {
-              "propValue": "2019-03-04T19:45:45.726Z"
+              "propValue": "2020-05-21T22:18:30.647Z",
+              "expr": "=+1d"
             }
           },
           "priority": {
@@ -970,9 +972,10 @@
             "props": {}
           },
           "at": {
-            "value": "04.03.2019 20:45",
+            "value": "22.05.2020 00:18",
             "props": {
-              "propValue": "2019-03-04T19:45:45.733Z"
+              "propValue": "2020-05-21T22:18:30.652Z",
+              "expr": "=+1d"
             }
           },
           "priority": {

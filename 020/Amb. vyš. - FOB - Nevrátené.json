@@ -57,9 +57,9 @@
           "id": {
             "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z12.1",
               "idEzid": "02089521690@9",
-              "id": "Z12.1"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -78,9 +78,9 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z00.0",
               "idEzid": "02089520809@9",
-              "id": "Z00.0"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -102,9 +102,9 @@
             "value": "[159x] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonu pod kódom 160. Výkon môže vykazovať lekár všeobecnej starostlivosti vtedy, ak poistenca po",
             "props": {
               "propBody": 180,
-              "idClassid": "vykon",
+              "id": "159x",
               "idEzid": "02089731851@8",
-              "id": "159x"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -116,8 +116,7 @@
     ]
   },
   "tags": [
-    "sumar-fob",
-    "dekurz"
+    "sumar-fob"
   ],
   "vars": {},
   "source": "curo-open/curo-vzory#/020"

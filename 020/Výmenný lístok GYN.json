@@ -16,23 +16,23 @@
         },
         "value": {
           "text": {
-            "value": "URO: Subj: t.č. ťažkosti primerané veku.<br>Prosím o Vaše odb skríning.<br>vyšetrenie p.p. Z123, Z124, Z126<br>Za spoluprácu vopred vďaka<br>",
+            "value": "Subj: t.č. ťažkosti primerané veku.<br>Prosím o Vaše odb skríning.<br>vyšetrenie p.p. Z123, Z124, Z126<br>Za spoluprácu vopred vďaka<br>",
             "props": {}
           },
           "odbor": {
             "value": "[009] gynekológia a pôrodníctvo",
             "props": {
-              "id": "009",
+              "idClassid": "zameranie",
               "idEzid": "00000351395@8",
-              "idClassid": "zameranie"
+              "id": "009"
             }
           },
           "druh": {
             "value": "[2] ambulancia",
             "props": {
-              "id": 2,
+              "idClassid": "cinnost",
               "idEzid": "00000000273@3",
-              "idClassid": "cinnost"
+              "id": 2
             }
           },
           "presne": {
