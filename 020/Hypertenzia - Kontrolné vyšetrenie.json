@@ -733,20 +733,20 @@
         }
       },
       {
-        "id": 253,
+        "id": 360,
         "order": 77,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{&lt;? sessions|getSections(\"ekg\")|where(\"i==0\")}} <br>",
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='USG karotídy'\")|where(\"i==0\")}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 255,
+        "id": 362,
         "order": 79,
         "props": {
           "type": "t"
@@ -759,8 +759,60 @@
         }
       },
       {
-        "id": 263,
+        "id": 364,
         "order": 80,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.value=='Očné pozadie'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 366,
+        "order": 82,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 253,
+        "order": 83,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"ekg\")|where(\"i==0\")}} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 255,
+        "order": 85,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 263,
+        "order": 86,
         "props": {
           "type": "t"
         },
@@ -773,7 +825,7 @@
       },
       {
         "id": 285,
-        "order": 81,
+        "order": 87,
         "props": {
           "type": "t"
         },
@@ -786,7 +838,7 @@
       },
       {
         "id": 256,
-        "order": 82,
+        "order": 88,
         "props": {
           "type": "t"
         },
@@ -799,7 +851,7 @@
       },
       {
         "id": 348,
-        "order": 83,
+        "order": 89,
         "props": {
           "type": "t"
         },
@@ -812,7 +864,7 @@
       },
       {
         "id": 349,
-        "order": 85,
+        "order": 91,
         "props": {
           "type": "t"
         },
@@ -825,7 +877,7 @@
       },
       {
         "id": 327,
-        "order": 88,
+        "order": 94,
         "props": {
           "type": "t"
         },
@@ -838,7 +890,7 @@
       },
       {
         "id": 328,
-        "order": 90,
+        "order": 96,
         "props": {
           "type": "t"
         },
@@ -851,7 +903,7 @@
       },
       {
         "id": 330,
-        "order": 92,
+        "order": 98,
         "props": {
           "type": "t"
         },
@@ -1502,12 +1554,64 @@
             "props": {}
           }
         }
+      },
+      {
+        "id": 361,
+        "order": 78,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "USG karotídy",
+            "props": {
+              "propValue": "USG karotídy"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 365,
+        "order": 81,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Očné pozadie",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "",
+            "props": {}
+          }
+        }
       }
     ],
     "ekg": [
       {
         "id": 287,
-        "order": 78,
+        "order": 84,
         "props": {
           "type": "ekg"
         },
@@ -1570,7 +1674,7 @@
     "vlozit": [
       {
         "id": 351,
-        "order": 84,
+        "order": 90,
         "props": {
           "type": "vlozit"
         },
@@ -1591,7 +1695,7 @@
       },
       {
         "id": 333,
-        "order": 87,
+        "order": 93,
         "props": {
           "type": "vlozit"
         },
@@ -1614,7 +1718,7 @@
     "odp": [
       {
         "id": 94,
-        "order": 86,
+        "order": 92,
         "props": {
           "type": "odp"
         },
@@ -1629,7 +1733,7 @@
     "p": [
       {
         "id": 331,
-        "order": 89,
+        "order": 95,
         "props": {
           "type": "p"
         },
@@ -1639,9 +1743,9 @@
             "props": {}
           },
           "at": {
-            "value": "26.01.2021 10:26",
+            "value": "28.04.2021 14:57",
             "props": {
-              "propValue": "2021-01-26T09:26:52.693Z",
+              "propValue": "2021-04-28T12:57:55.083Z",
               "expr": "=+11m"
             }
           },
@@ -1659,7 +1763,7 @@
       },
       {
         "id": 96,
-        "order": 91,
+        "order": 97,
         "props": {
           "type": "p"
         },
@@ -1669,9 +1773,9 @@
             "props": {}
           },
           "at": {
-            "value": "26.07.2020 10:26",
+            "value": "28.10.2020 14:57",
             "props": {
-              "propValue": "2020-07-26T08:26:52.696Z",
+              "propValue": "2020-10-28T13:57:55.084Z",
               "expr": "=+5m"
             }
           },

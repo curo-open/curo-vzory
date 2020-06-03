@@ -1514,85 +1514,33 @@
         }
       },
       {
-        "id": 184,
+        "id": 202,
         "order": 119,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "",
+            "value": "<b>Vyhodnot podmienku v premennej a spoj dohromady</b><br>",
             "props": {}
           }
         }
       },
       {
-        "id": 45,
-        "order": 120,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "<b>Trasformacie dat </b><br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 84,
-        "order": 121,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "vysledkok sa trasformuje na text(nevlozi sa sekcia ale text) - |trans(\"text\")<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 79,
-        "order": 122,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "vrateny vysledok sa prevedie na cislo(kolko bolo najdenych vysledkov) - |trans(\"length\")<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 80,
+        "id": 204,
         "order": 123,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "mozni specifikovat zaciatok textu podla ktoreho hladat(filtrovat) - |trans(\"startsWith\", \"I10\")<br>",
+            "value": " {{ [var.ichs,var.ah,var.lip]|trans('joinStrings', ', ') }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 81,
-        "order": 124,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "triedi položky - |sort('sekciaDatum', 'asc')<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 82,
+        "id": 211,
         "order": 125,
         "props": {
           "type": "t"
@@ -1605,7 +1553,7 @@
         }
       },
       {
-        "id": 83,
+        "id": 212,
         "order": 126,
         "props": {
           "type": "t"
@@ -1618,8 +1566,99 @@
         }
       },
       {
-        "id": 49,
+        "id": 45,
         "order": 127,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Trasformacie dat </b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 84,
+        "order": 128,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "vysledkok sa trasformuje na text(nevlozi sa sekcia ale text) - |trans(\"text\")<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 79,
+        "order": 129,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "vrateny vysledok sa prevedie na cislo(kolko bolo najdenych vysledkov) - |trans(\"length\")<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 80,
+        "order": 130,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "mozni specifikovat zaciatok textu podla ktoreho hladat(filtrovat) - |trans(\"startsWith\", \"I10\")<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 81,
+        "order": 131,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "triedi položky - |sort('sekciaDatum', 'asc')<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 82,
+        "order": 132,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "spoji premmenne pomocou &lt;spojitka ciarka, bodka&gt; |trans('joinStrings', ',')<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 83,
+        "order": 133,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 49,
+        "order": 134,
         "props": {
           "type": "t"
         },
@@ -1632,7 +1671,7 @@
       },
       {
         "id": 50,
-        "order": 128,
+        "order": 135,
         "props": {
           "type": "t"
         },
@@ -1645,7 +1684,7 @@
       },
       {
         "id": 51,
-        "order": 129,
+        "order": 136,
         "props": {
           "type": "t"
         },
@@ -1658,7 +1697,7 @@
       },
       {
         "id": 52,
-        "order": 130,
+        "order": 137,
         "props": {
           "type": "t"
         },
@@ -1671,7 +1710,7 @@
       },
       {
         "id": 88,
-        "order": 131,
+        "order": 138,
         "props": {
           "type": "t"
         },
@@ -1684,7 +1723,7 @@
       },
       {
         "id": 89,
-        "order": 132,
+        "order": 139,
         "props": {
           "type": "t"
         },
@@ -1697,7 +1736,7 @@
       },
       {
         "id": 90,
-        "order": 133,
+        "order": 140,
         "props": {
           "type": "t"
         },
@@ -1710,7 +1749,7 @@
       },
       {
         "id": 91,
-        "order": 134,
+        "order": 141,
         "props": {
           "type": "t"
         },
@@ -1723,7 +1762,7 @@
       },
       {
         "id": 92,
-        "order": 135,
+        "order": 142,
         "props": {
           "type": "t"
         },
@@ -1736,7 +1775,7 @@
       },
       {
         "id": 102,
-        "order": 136,
+        "order": 143,
         "props": {
           "type": "t"
         },
@@ -1749,7 +1788,7 @@
       },
       {
         "id": 126,
-        "order": 137,
+        "order": 144,
         "props": {
           "type": "t"
         },
@@ -1762,7 +1801,7 @@
       },
       {
         "id": 127,
-        "order": 138,
+        "order": 145,
         "props": {
           "type": "t"
         },
@@ -1775,7 +1814,7 @@
       },
       {
         "id": 128,
-        "order": 139,
+        "order": 146,
         "props": {
           "type": "t"
         },
@@ -1788,7 +1827,7 @@
       },
       {
         "id": 103,
-        "order": 140,
+        "order": 147,
         "props": {
           "type": "t"
         },
@@ -1801,7 +1840,7 @@
       },
       {
         "id": 104,
-        "order": 141,
+        "order": 148,
         "props": {
           "type": "t"
         },
@@ -1814,7 +1853,7 @@
       },
       {
         "id": 106,
-        "order": 142,
+        "order": 149,
         "props": {
           "type": "t"
         },
@@ -1827,7 +1866,7 @@
       },
       {
         "id": 122,
-        "order": 144,
+        "order": 151,
         "props": {
           "type": "t"
         },
@@ -1840,7 +1879,7 @@
       },
       {
         "id": 147,
-        "order": 145,
+        "order": 152,
         "props": {
           "type": "t"
         },
@@ -1853,7 +1892,7 @@
       },
       {
         "id": 148,
-        "order": 146,
+        "order": 153,
         "props": {
           "type": "t"
         },
@@ -1866,7 +1905,7 @@
       },
       {
         "id": 149,
-        "order": 147,
+        "order": 154,
         "props": {
           "type": "t"
         },
@@ -1879,7 +1918,7 @@
       },
       {
         "id": 150,
-        "order": 148,
+        "order": 155,
         "props": {
           "type": "t"
         },
@@ -1892,7 +1931,7 @@
       },
       {
         "id": 151,
-        "order": 149,
+        "order": 156,
         "props": {
           "type": "t"
         },
@@ -1905,7 +1944,7 @@
       },
       {
         "id": 152,
-        "order": 150,
+        "order": 157,
         "props": {
           "type": "t"
         },
@@ -1918,7 +1957,7 @@
       },
       {
         "id": 153,
-        "order": 151,
+        "order": 158,
         "props": {
           "type": "t"
         },
@@ -1931,7 +1970,7 @@
       },
       {
         "id": 154,
-        "order": 152,
+        "order": 159,
         "props": {
           "type": "t"
         },
@@ -1963,6 +2002,75 @@
           },
           "value": {
             "value": "abcdef",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 205,
+        "order": 120,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "ichs",
+            "props": {}
+          },
+          "type": {
+            "value": "výraz",
+            "props": {
+              "propValue": "expr"
+            }
+          },
+          "value": {
+            "value": "sessions|getSections('td')|where(\"s.value.idch.props.id==81\")|trans(\"length\") &gt; 0 ? 'ICHS' : '' ",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 206,
+        "order": 121,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "ah",
+            "props": {}
+          },
+          "type": {
+            "value": "výraz",
+            "props": {
+              "propValue": "expr"
+            }
+          },
+          "value": {
+            "value": "sessions|getSections('td')|where(\"s.value.idch.props.id==73\")|trans(\"length\") &gt; 0 ? 'arteriálnu hypertenziu' : '' ",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 209,
+        "order": 122,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "lip",
+            "props": {}
+          },
+          "type": {
+            "value": "výraz",
+            "props": {
+              "propValue": "expr"
+            }
+          },
+          "value": {
+            "value": "sessions|getSections('td')|where(\"s.value.idch.props.id==43\")|trans(\"length\") &gt; 0 ? 'hyperlipoproteinémiu' : '' ",
             "props": {}
           }
         }
@@ -2016,10 +2124,25 @@
         }
       }
     ],
+    "to": [
+      {
+        "id": 208,
+        "order": 124,
+        "props": {
+          "type": "to"
+        },
+        "value": {
+          "text": {
+            "value": "Pacientka sa dostavila na dispenzárne vyšetrenie pre  {{ [var.ichs,var.ah,var.lip]|trans('joinStrings', ', ') }}. Dodržuje všetky doporučené nefarmakologické a farmakologické liečebné opatrenia.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
     "vv": [
       {
         "id": 125,
-        "order": 143,
+        "order": 150,
         "props": {
           "type": "vv"
         },

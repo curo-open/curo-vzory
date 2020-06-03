@@ -22,17 +22,17 @@
           "odbor": {
             "value": "[009] gynekológia a pôrodníctvo",
             "props": {
-              "idClassid": "zameranie",
+              "id": "009",
               "idEzid": "00000351395@8",
-              "id": "009"
+              "idClassid": "zameranie"
             }
           },
           "druh": {
             "value": "[2] ambulancia",
             "props": {
-              "idClassid": "cinnost",
+              "id": 2,
               "idEzid": "00000000273@3",
-              "id": 2
+              "idClassid": "cinnost"
             }
           },
           "presne": {

@@ -1,57 +1,15 @@
 {
   "title": "Podaná injekcia",
-  "shortcut": "6",
+  "shortcut": "pi",
   "content": "<section data-x-id=\"3\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaná diagnóza:</label><div class=\"_noval FieldSearch hasActions\" data-name=\"id\"></div></section><section data-x-id=\"4\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"252\" data-id-ezid=\"00000467852\" data-id-classid=\"vykon\" title=\"[252] Injekcia intrakutánna, subkutánna, submukózna, subkonjuktiválna alebo intramuskulárna.\" style=\"width: 50ch;\">[252] Injekcia intrakutánna, subkutánna, submukózna, subkonjuktiválna alebo intramuskulárna.</div><label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"7\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">podaná injekcia <br></div></section>",
   "summary": "Podaná injekcia",
   "type": "examination",
   "data": {
     "_": {},
-    "vd": [
-      {
-        "id": 3,
-        "order": 0,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[M54.4] Lumboischialgia",
-            "props": {
-              "idClassid": "diagnoza",
-              "idEzid": "02089437236",
-              "id": "M54.4"
-            }
-          }
-        }
-      }
-    ],
-    "vv": [
-      {
-        "id": 4,
-        "order": 1,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[252] Injekcia intrakutánna, subkutánna, submukózna, subkonjuktiválna alebo intramuskulárna.",
-            "props": {
-              "idClassid": "vykon",
-              "idEzid": "00000467852",
-              "id": 252
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      }
-    ],
     "t": [
       {
         "id": 7,
-        "order": 2,
+        "order": 0,
         "props": {
           "type": "t"
         },
@@ -62,7 +20,108 @@
           }
         }
       }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M54.4] Lumboischialgia",
+            "props": {
+              "id": "M54.4",
+              "idEzid": "02089437236",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[252] Injekcia intrakutánna, subkutánna, submukózna, subkonjuktiválna alebo intramuskulárna.",
+            "props": {
+              "id": 252,
+              "idEzid": "00000467852",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pl": [
+      {
+        "id": 9,
+        "order": 3,
+        "props": {
+          "type": "pl"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "payoff": {
+            "value": "",
+            "props": {}
+          },
+          "dpljed": {
+            "value": "",
+            "props": {}
+          },
+          "dpl": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "uhradazp": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "kodl": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
     ]
   },
+  "description": "",
+  "if": "",
+  "tags": [
+    "sestra"
+  ],
+  "vars": {},
   "source": "curo-open/curo-vzory#/020"
 }

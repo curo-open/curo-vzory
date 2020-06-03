@@ -357,9 +357,9 @@
           "id": {
             "value": "[T] Tetanus",
             "props": {
-              "idClassid": "ockovanie",
+              "id": "T",
               "idEzid": "00000115923@2",
-              "id": "T"
+              "idClassid": "ockovanie"
             }
           },
           "datum": {
@@ -683,9 +683,9 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "id": "Z00.0",
+              "idClassid": "diagnoza",
               "idEzid": "02089520809@9",
-              "idClassid": "diagnoza"
+              "id": "Z00.0"
             }
           },
           "text": {
@@ -704,9 +704,9 @@
           "id": {
             "value": "[Z00.8] Iné všeobecné vyšetrenie",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z00.8",
               "idEzid": "02089520874@9",
-              "id": "Z00.8"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -728,9 +728,9 @@
             "value": "[60] Komplexné vyšetrenie pacienta (kompletná anamnéza, vyšetrenie všetkých orgánových systémov, založenie zdravotnej dokumentácie, diagnostický záver, liečebný plán a (alebo) zaradenie do dispenzárnej starostlivosti, odoslanie pacienta na ďalšie laborató",
             "props": {
               "propBody": 350,
-              "id": 60,
+              "idClassid": "vykon",
               "idEzid": "00000466730@8",
-              "idClassid": "vykon"
+              "id": 60
             }
           },
           "count": {
@@ -750,9 +750,9 @@
             "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
               "propBody": 180,
-              "idClassid": "vykon",
+              "id": 10,
               "idEzid": "00000466565@9",
-              "id": 10
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -772,9 +772,9 @@
             "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
               "propBody": 180,
-              "id": 10,
+              "idClassid": "vykon",
               "idEzid": "00000466565@9",
-              "idClassid": "vykon"
+              "id": 10
             }
           },
           "count": {
@@ -787,7 +787,8 @@
   },
   "summary": "Vstupné vyšetrenie - Kapitácia",
   "tags": [
-    "prehlad-kapitacia"
+    "prehlad-kapitacia",
+    "sestra"
   ],
   "vars": {},
   "type": "examination",

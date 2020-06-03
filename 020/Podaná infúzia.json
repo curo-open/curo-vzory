@@ -6,10 +6,25 @@
   "type": "examination",
   "data": {
     "_": {},
+    "t": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "podaná infúzia <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
     "vd": [
       {
         "id": 2,
-        "order": 0,
+        "order": 1,
         "props": {
           "type": "vd"
         },
@@ -17,9 +32,9 @@
           "id": {
             "value": "[M54.4] Lumboischialgia",
             "props": {
-              "id": "M54.4",
+              "idClassid": "diagnoza",
               "idEzid": "02089437236",
-              "idClassid": "diagnoza"
+              "id": "M54.4"
             }
           },
           "text": {
@@ -32,7 +47,7 @@
     "vv": [
       {
         "id": 3,
-        "order": 1,
+        "order": 2,
         "props": {
           "type": "vv"
         },
@@ -40,9 +55,9 @@
           "id": {
             "value": "[272] Infúzia intravenózna v trvaní viac ako 30 minú vrátane výmeny infúznych fliaš.",
             "props": {
-              "idClassid": "vykon",
+              "id": 272,
               "idEzid": "00000468025",
-              "id": 272
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -52,16 +67,50 @@
         }
       }
     ],
-    "t": [
+    "pl": [
       {
-        "id": 4,
-        "order": 2,
+        "id": 6,
+        "order": 3,
         "props": {
-          "type": "t"
+          "type": "pl"
         },
         "value": {
-          "t": {
-            "value": "podaná infúzia <br>",
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "payoff": {
+            "value": "",
+            "props": {}
+          },
+          "dpljed": {
+            "value": "",
+            "props": {}
+          },
+          "dpl": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "uhradazp": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "kodl": {
+            "value": "",
             "props": {}
           }
         }
@@ -69,5 +118,9 @@
     ]
   },
   "if": "",
+  "tags": [
+    "sestra"
+  ],
+  "vars": {},
   "source": "curo-open/curo-vzory#/020"
 }

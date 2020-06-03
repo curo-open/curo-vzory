@@ -944,7 +944,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? var.vl=='ON' &amp;&amp; pohlavie == \"male\" &amp;&amp; vek &gt;= 50}}<br>",
+            "value": "{{ ? var.vl=='ON' &amp;&amp; pohlavie == \"male\" &amp;&amp; vek &gt;= 50 &amp;&amp; zp == 24 }}<br>",
             "props": {}
           }
         }
@@ -963,8 +963,34 @@
         }
       },
       {
-        "id": 1041,
+        "id": 1175,
         "order": 100,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? var.vl=='ON' &amp;&amp; pohlavie == \"male\" &amp;&amp; vek &gt;= 40  &amp;&amp; zp != 24 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1177,
+        "order": 102,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1041,
+        "order": 103,
         "props": {
           "type": "t"
         },
@@ -977,7 +1003,7 @@
       },
       {
         "id": 1043,
-        "order": 102,
+        "order": 105,
         "props": {
           "type": "t"
         },
@@ -990,7 +1016,7 @@
       },
       {
         "id": 1045,
-        "order": 104,
+        "order": 107,
         "props": {
           "type": "t"
         },
@@ -1837,8 +1863,29 @@
         }
       },
       {
+        "id": 1176,
+        "order": 101,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Výmenný lístok URO, Z125",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 1147,
-        "order": 105,
+        "order": 108,
         "props": {
           "type": "vlozit"
         },
@@ -1861,7 +1908,7 @@
     "z": [
       {
         "id": 1042,
-        "order": 101,
+        "order": 104,
         "props": {
           "type": "z"
         },
@@ -1874,7 +1921,7 @@
       },
       {
         "id": 1044,
-        "order": 103,
+        "order": 106,
         "props": {
           "type": "z"
         },

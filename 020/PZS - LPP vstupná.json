@@ -65,7 +65,7 @@
             "props": {}
           },
           "podnadpis": {
-            "value": "Periodická lekárska preventívna prehliadka vo vzťahu k práci<br>",
+            "value": "Vstupná lekárska preventívna prehliadka vo vzťahu k práci<br>",
             "props": {}
           }
         }
@@ -805,6 +805,7 @@
     ],
     "zfp": [
       {
+        "id": 5,
         "order": 5,
         "props": {
           "type": "zfp"
@@ -951,6 +952,42 @@
         },
         "value": {
           "text": {
+            "value": "",
+            "props": {}
+          },
+          "prvamen": {
+            "value": "",
+            "props": {}
+          },
+          "pravidelnost": {
+            "value": "",
+            "props": {}
+          },
+          "bolest": {
+            "value": "",
+            "props": {}
+          },
+          "cyklus": {
+            "value": "",
+            "props": {}
+          },
+          "menopauza": {
+            "value": "",
+            "props": {}
+          },
+          "porody": {
+            "value": "",
+            "props": {}
+          },
+          "potraty": {
+            "value": "",
+            "props": {}
+          },
+          "interrupcie": {
+            "value": "",
+            "props": {}
+          },
+          "posinterrupcia": {
             "value": "",
             "props": {}
           }

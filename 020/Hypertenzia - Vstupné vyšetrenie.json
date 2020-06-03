@@ -1597,9 +1597,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "I10.00",
               "idEzid": "02089398180@9",
-              "id": "I10.00"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1634,9 +1634,9 @@
             "props": {}
           },
           "at": {
-            "value": "26.07.2020 10:27",
+            "value": "26.07.2020 10:49",
             "props": {
-              "propValue": "2020-07-26T08:27:10.010Z",
+              "propValue": "2020-07-26T08:49:47.530Z",
               "expr": "=+5m"
             }
           },

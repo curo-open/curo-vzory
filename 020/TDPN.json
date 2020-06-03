@@ -17,9 +17,10 @@
             "props": {}
           },
           "praceneschopny_do": {
-            "value": "02.05.2018",
+            "value": "28.05.2020",
             "props": {
-              "propValue": "2018-05-02T07:38:16.925Z"
+              "propValue": "2020-05-28T12:31:32.526Z",
+              "expr": "=dnes"
             }
           },
           "zmena_diagnozy": {
@@ -42,11 +43,11 @@
           "id": {
             "value": "[71.TDPN] Vystavenie preukazu o trvaní dočasnej pracovnej neschopnosti.",
             "props": {
-              "propBody": 35,
               "propType": "soc",
-              "id": "71.TDPN",
+              "propBody": 35,
+              "idClassid": "vykon",
               "idEzid": "curo-71.TDPN@7",
-              "idClassid": "vykon"
+              "id": "71.TDPN"
             }
           },
           "count": {

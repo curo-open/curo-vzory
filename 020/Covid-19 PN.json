@@ -121,9 +121,9 @@
           "id": {
             "value": "[U07.2] Podozrenie z infekcie COVID-19",
             "props": {
-              "id": "U07.2",
+              "idClassid": "diagnoza",
               "idEzid": "02089528679@13",
-              "idClassid": "diagnoza"
+              "id": "U07.2"
             }
           },
           "text": {
@@ -145,9 +145,9 @@
             "value": "[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
+              "id": "1b",
               "idEzid": "02089894014@19",
-              "id": "1b"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -166,11 +166,11 @@
           "id": {
             "value": "[71.DPN] Vystavenie potvrdenia o dočasnej pracovnej neschopnosti.",
             "props": {
-              "propBody": 35,
               "propType": "soc",
-              "id": "71.DPN",
+              "propBody": 35,
+              "idClassid": "vykon",
               "idEzid": "curo-71.DPN@15",
-              "idClassid": "vykon"
+              "id": "71.DPN"
             }
           },
           "count": {
@@ -193,18 +193,22 @@
             "props": {}
           },
           "date": {
-            "value": "11.05.2020",
+            "value": "20.05.2020",
             "props": {
-              "propValue": "2020-05-11T09:21:56.752Z",
+              "propValue": "2020-05-20T11:45:29.618Z",
               "expr": "=dnes"
             }
           },
           "date_vystavene": {
-            "value": "11.05.2020",
+            "value": "20.05.2020",
             "props": {
-              "propValue": "2020-05-11T09:21:56.755Z",
+              "propValue": "2020-05-20T11:45:29.620Z",
               "expr": "=dnes"
             }
+          },
+          "znacka": {
+            "value": "",
+            "props": {}
           },
           "for": {
             "value": "",
