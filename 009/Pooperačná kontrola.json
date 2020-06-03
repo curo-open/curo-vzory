@@ -62,9 +62,9 @@
           "id": {
             "value": "[Z48.9] Následná chirurgická starostlivosť, bližšie neurčená",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z48.9",
               "idEzid": "02089524074@11",
-              "id": "Z48.9"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -86,9 +86,9 @@
             "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
             "props": {
               "propBody": 200,
-              "idClassid": "vykon",
+              "id": 63,
               "idEzid": "00000117556@11",
-              "id": 63
+              "idClassid": "vykon"
             }
           },
           "count": {

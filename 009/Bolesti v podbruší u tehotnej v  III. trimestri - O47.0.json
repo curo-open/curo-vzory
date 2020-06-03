@@ -112,9 +112,9 @@
           "id": {
             "value": "[O47.0] Falošná pôrodná činnosť pred ukončením 37. týždňa gravidity",
             "props": {
-              "id": "O47.0",
+              "idClassid": "diagnoza",
               "idEzid": "02089464107@12",
-              "idClassid": "diagnoza"
+              "id": "O47.0"
             }
           },
           "text": {
@@ -136,9 +136,9 @@
             "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
             "props": {
               "propBody": 200,
-              "idClassid": "vykon",
+              "id": 63,
               "idEzid": "00000117556@14",
-              "id": 63
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -157,11 +157,11 @@
           "id": {
             "value": "[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 1200,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5305,
               "idEzid": "00000492314@14",
-              "id": 5305
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -181,9 +181,9 @@
             "value": "[118] Externé kardiotokografické vyšetrenie (CTG). Výkon pod kódom 118 sa môže vykazovať za jeden deň aj v prípade dvojčiat a trojčiat, najviac dva razy.",
             "props": {
               "propBody": 230,
-              "idClassid": "vykon",
+              "id": 118,
               "idEzid": "00000467043@14",
-              "id": 118
+              "idClassid": "vykon"
             }
           },
           "count": {

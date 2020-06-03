@@ -512,9 +512,9 @@
           "id": {
             "value": "[Z01.4] Gynekologické vyšetrenie (celkové) (rutinné)",
             "props": {
-              "id": "Z01.4",
+              "idClassid": "diagnoza",
               "idEzid": "02089520932@11",
-              "idClassid": "diagnoza"
+              "id": "Z01.4"
             }
           },
           "text": {
@@ -526,19 +526,19 @@
     ],
     "vv": [
       {
-        "id": 27,
+        "id": 58,
         "order": 32,
         "props": {
           "type": "vv"
         },
         "value": {
           "id": {
-            "value": "[4] Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani",
+            "value": "[156] Palpačné vyšetrenie prsníkov a regionálnych lymfatických uzlín. Výkon sa môže vykazovať, ak nie je súčasťou iného vykazovaného výkonu.",
             "props": {
-              "propBody": 200,
-              "id": 4,
-              "idEzid": "00000466524@11",
-              "idClassid": "vykon"
+              "propBody": 110,
+              "idClassid": "vykon",
+              "idEzid": "00000467324@20",
+              "id": 156
             }
           },
           "count": {
@@ -558,9 +558,31 @@
             "value": "[157] Vyšetrenie na včasnú diagnostiku rakoviny u ženy vrátane rád, ak vyšetrenie trvá dlhšie ako 20 minút. (Anamnéza, inšpekcia a palpácia prsníkov, inšpekcia genitálií, vyšetrenie per rectum, nastavenie s",
             "props": {
               "propBody": 220,
-              "id": 157,
+              "idClassid": "vykon",
               "idEzid": "00000467332@11",
-              "idClassid": "vykon"
+              "id": 157
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 57,
+        "order": 34,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[297] Odobratie, príprava a odoslanie sterového materiálu na cytologické vyšetrenie, prípadne aj fixácia vrátane nákladov.",
+            "props": {
+              "propBody": 50,
+              "idClassid": "vykon",
+              "idEzid": "00000468215@20",
+              "id": 297
             }
           },
           "count": {
@@ -571,7 +593,7 @@
       },
       {
         "id": 29,
-        "order": 34,
+        "order": 35,
         "props": {
           "type": "vv"
         },
@@ -580,9 +602,9 @@
             "value": "[1070] Kolposkopia. Výkon pod kódom 1070 sa môže vykazovať pri výkonoch s kódmi 60, 62, 63 a 157.",
             "props": {
               "propBody": 150,
-              "id": 1070,
+              "idClassid": "vykon",
               "idEzid": "00000469411@11",
-              "idClassid": "vykon"
+              "id": 1070
             }
           },
           "count": {
@@ -593,7 +615,7 @@
       },
       {
         "id": 30,
-        "order": 35,
+        "order": 36,
         "props": {
           "type": "vv"
         },
@@ -601,11 +623,11 @@
           "id": {
             "value": "[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).",
             "props": {
-              "propBody": 1200,
               "propType": "SVaLZ",
-              "id": 5305,
+              "propBody": 1200,
+              "idClassid": "vykon",
               "idEzid": "00000492314@11",
-              "idClassid": "vykon"
+              "id": 5305
             }
           },
           "count": {
@@ -616,7 +638,7 @@
       },
       {
         "id": 31,
-        "order": 36,
+        "order": 37,
         "props": {
           "type": "vv"
         },
@@ -624,11 +646,11 @@
           "id": {
             "value": "[5308] Ultrazvukové vyšetrenie obidvoch prsníkov, axíl a regionálnych lymfatických uzlín.",
             "props": {
-              "propBody": 1500,
               "propType": "SVaLZ",
-              "id": 5308,
+              "propBody": 1500,
+              "idClassid": "vykon",
               "idEzid": "00000492355@11",
-              "idClassid": "vykon"
+              "id": 5308
             }
           },
           "count": {

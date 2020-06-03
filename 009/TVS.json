@@ -60,9 +60,9 @@
           "id": {
             "value": "[D25.0] Submukózny leiomyóm maternice",
             "props": {
-              "id": "D25.0",
+              "idClassid": "diagnoza",
               "idEzid": "02089373662@11",
-              "idClassid": "diagnoza"
+              "id": "D25.0"
             }
           },
           "text": {
@@ -84,9 +84,9 @@
             "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
             "props": {
               "propBody": 200,
-              "id": 63,
+              "idClassid": "vykon",
               "idEzid": "00000117556@11",
-              "idClassid": "vykon"
+              "id": 63
             }
           },
           "count": {
@@ -105,11 +105,11 @@
           "id": {
             "value": "[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).",
             "props": {
-              "propBody": 1200,
               "propType": "SVaLZ",
-              "id": 5305,
+              "propBody": 1200,
+              "idClassid": "vykon",
               "idEzid": "00000492314@11",
-              "idClassid": "vykon"
+              "id": 5305
             }
           },
           "count": {

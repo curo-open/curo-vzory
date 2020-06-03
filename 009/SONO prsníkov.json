@@ -106,9 +106,9 @@
           "id": {
             "value": "[N60.8] Iná benígna dysplázia prsníka",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "N60.8",
               "idEzid": "02089459073@11",
-              "id": "N60.8"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -120,8 +120,30 @@
     ],
     "vv": [
       {
-        "id": 9,
+        "id": 16,
         "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[156] Palpačné vyšetrenie prsníkov a regionálnych lymfatických uzlín. Výkon sa môže vykazovať, ak nie je súčasťou iného vykazovaného výkonu.",
+            "props": {
+              "propBody": 110,
+              "idClassid": "vykon",
+              "idEzid": "00000467324@20",
+              "id": 156
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 9,
+        "order": 7,
         "props": {
           "type": "vv"
         },
@@ -129,11 +151,11 @@
           "id": {
             "value": "[5308] Ultrazvukové vyšetrenie obidvoch prsníkov, axíl a regionálnych lymfatických uzlín.",
             "props": {
-              "propBody": 1500,
               "propType": "SVaLZ",
-              "id": 5308,
+              "propBody": 1500,
+              "idClassid": "vykon",
               "idEzid": "00000492355@11",
-              "idClassid": "vykon"
+              "id": 5308
             }
           },
           "count": {

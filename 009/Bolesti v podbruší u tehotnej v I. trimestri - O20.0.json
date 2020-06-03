@@ -97,9 +97,9 @@
           "id": {
             "value": "[O20.0] Hroziaci potrat (abortus imminens)",
             "props": {
-              "id": "O20.0",
+              "idClassid": "diagnoza",
               "idEzid": "02089462374@12",
-              "idClassid": "diagnoza"
+              "id": "O20.0"
             }
           },
           "text": {
@@ -121,9 +121,9 @@
             "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
             "props": {
               "propBody": 200,
-              "id": 63,
+              "idClassid": "vykon",
               "idEzid": "00000117556@14",
-              "idClassid": "vykon"
+              "id": 63
             }
           },
           "count": {
@@ -142,11 +142,11 @@
           "id": {
             "value": "[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).",
             "props": {
-              "propBody": 1200,
               "propType": "SVaLZ",
-              "id": 5305,
+              "propBody": 1200,
+              "idClassid": "vykon",
               "idEzid": "00000492314@14",
-              "idClassid": "vykon"
+              "id": 5305
             }
           },
           "count": {

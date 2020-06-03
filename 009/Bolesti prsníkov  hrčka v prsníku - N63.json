@@ -137,9 +137,9 @@
           "id": {
             "value": "[N63] Hrčka v prsníku, bližšie neurčená",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "N63",
               "idEzid": "00000061002@12",
-              "id": "N63"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -161,9 +161,9 @@
             "value": "[156] Palpačné vyšetrenie prsníkov a regionálnych lymfatických uzlín. Výkon sa môže vykazovať, ak nie je súčasťou iného vykazovaného výkonu.",
             "props": {
               "propBody": 110,
-              "id": 156,
+              "idClassid": "vykon",
               "idEzid": "00000467324@14",
-              "idClassid": "vykon"
+              "id": 156
             }
           },
           "count": {
@@ -182,11 +182,11 @@
           "id": {
             "value": "[5308] Ultrazvukové vyšetrenie obidvoch prsníkov, axíl a regionálnych lymfatických uzlín.",
             "props": {
-              "propBody": 1500,
               "propType": "SVaLZ",
-              "id": 5308,
+              "propBody": 1500,
+              "idClassid": "vykon",
               "idEzid": "00000492355@14",
-              "idClassid": "vykon"
+              "id": 5308
             }
           },
           "count": {

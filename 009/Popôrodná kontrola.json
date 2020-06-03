@@ -106,9 +106,9 @@
           "id": {
             "value": "[Z39.2] Ďalšie bežné sledovanie matky po pôrode",
             "props": {
-              "id": "Z39.2",
+              "idClassid": "diagnoza",
               "idEzid": "02089523290@11",
-              "idClassid": "diagnoza"
+              "id": "Z39.2"
             }
           },
           "text": {
@@ -120,30 +120,8 @@
     ],
     "vv": [
       {
-        "id": 8,
-        "order": 6,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
-            "props": {
-              "propBody": 200,
-              "idClassid": "vykon",
-              "idEzid": "00000117556@14",
-              "id": 63
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 9,
-        "order": 7,
+        "order": 6,
         "props": {
           "type": "vv"
         },
@@ -152,9 +130,9 @@
             "value": "[105] Vyšetrenie a rady šestonedielke v 6. až 8. týždni po pôrode, výkon sa môže vykazovať iba raz v súvislosti so šestonedelím.",
             "props": {
               "propBody": 250,
-              "id": 105,
+              "idClassid": "vykon",
               "idEzid": "00000466961@11",
-              "idClassid": "vykon"
+              "id": 105
             }
           },
           "count": {

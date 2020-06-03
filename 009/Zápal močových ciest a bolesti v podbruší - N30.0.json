@@ -84,9 +84,9 @@
           "id": {
             "value": "[N30.0] Akútna cystitída",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "N30.0",
               "idEzid": "02089457770@12",
-              "id": "N30.0"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -108,9 +108,9 @@
             "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
             "props": {
               "propBody": 200,
-              "idClassid": "vykon",
+              "id": 63,
               "idEzid": "00000117556@14",
-              "id": 63
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -129,11 +129,11 @@
           "id": {
             "value": "[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 1200,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5305,
               "idEzid": "00000492314@14",
-              "id": 5305
+              "idClassid": "vykon"
             }
           },
           "count": {

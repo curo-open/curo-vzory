@@ -256,9 +256,9 @@
             "props": {}
           },
           "time": {
-            "value": "13.05.2020 10:11",
+            "value": "01.07.2020 13:41",
             "props": {
-              "propValue": "2020-05-13T08:11:22.197Z",
+              "propValue": "2020-07-01T11:41:09.517Z",
               "expr": "=+4t"
             }
           },
@@ -292,9 +292,9 @@
           "id": {
             "value": "[Z34.0] Dohľad nad normálnou prvou graviditou",
             "props": {
-              "id": "Z34.0",
+              "idClassid": "diagnoza",
               "idEzid": "02089522839@11",
-              "idClassid": "diagnoza"
+              "id": "Z34.0"
             }
           },
           "text": {
@@ -316,9 +316,9 @@
             "value": "[103] Vyšetrenie a rady v priebehu gravidity s vyhodnotením výsledkov laboratórnych vyšetrení so zreteľom na riziká gravidity.",
             "props": {
               "propBody": 200,
-              "id": 103,
+              "idClassid": "vykon",
               "idEzid": "00000466953@13",
-              "idClassid": "vykon"
+              "id": 103
             }
           },
           "count": {
@@ -338,9 +338,9 @@
             "value": "[108] Ultrazvukové sledovanie tehotenstva vrátane biometrie a posúdenie vývoja orgánov vrátane obrazovej dokumentácie, za každé vyšetrenie.",
             "props": {
               "propBody": 350,
-              "idClassid": "vykon",
+              "id": 108,
               "idEzid": "00000466979@14",
-              "id": 108
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -360,9 +360,31 @@
             "value": "[120] Vyšetrenie stredného prúdu moča na bielkoviny a cukor, ako aj mikroskopické vyšetrenie močového sedimentu.",
             "props": {
               "propBody": 80,
-              "id": 120,
+              "idClassid": "vykon",
               "idEzid": "00000467050@11",
-              "idClassid": "vykon"
+              "id": 120
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 44,
+        "order": 13,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[121] Orientačné vyšetrenie moču na baktérie pomocou dôkazu nitritovou skúškou.",
+            "props": {
+              "propBody": 25,
+              "idClassid": "vykon",
+              "idEzid": "00000467068@20",
+              "id": 121
             }
           },
           "count": {
@@ -373,7 +395,7 @@
       },
       {
         "id": 40,
-        "order": 13,
+        "order": 14,
         "props": {
           "type": "vv"
         },
@@ -382,9 +404,9 @@
             "value": "[122] Odobratie krvi zo žily na vykonanie vyšetrení v gravidite.",
             "props": {
               "propBody": 60,
-              "id": 122,
+              "idClassid": "vykon",
               "idEzid": "00000467076@11",
-              "idClassid": "vykon"
+              "id": 122
             }
           },
           "count": {
