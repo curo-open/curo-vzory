@@ -1,0 +1,214 @@
+{
+  "description": "Zloženie sádry po zlomenine vonk. členka vpravo",
+  "type": null,
+  "summary": "fr. ATC mal.lat. SIN - EX - sadra",
+  "content": "<section data-x-id=\"1\" data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"_noval FieldList hasActions\" data-name=\"reason\"></div>​<label data-for=\"datum\" class=\"_noval hidden\">zo dňa​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"datumVyziadania\" class=\"_noval hidden\">dátum vyžiadania​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datumVyziadania\"></div>​<label data-for=\"id\" class=\"_noval hidden\">identifikátor​</label><div class=\"_noval Field hidden\" data-name=\"id\"></div></section><section data-x-id=\"2\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"_noval FieldHtml\" data-name=\"s\">dobre, bolesti ustúpili, afebril.<br></div></section><section data-x-id=\"3\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"_noval FieldHtml\" data-name=\"o\">orient., polohaa kt., eupnoe, anikter., acyanoza, chôdza o NB<br>SPL : mierny perimalleolar edem bez NCP s miernou palp. alg. nad lateral. malleolom pr. TC zhybu<br>RTG : stav zhojený konsolidovaným kalusom<br></div></section><section data-x-id=\"4\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"_noval FieldSearch hasActions highlight truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"S82.6\" data-id-ezid=\"02089493353@12\" data-id-classid=\"diagnoza\" title=\"[S82.6] Zlomenina vonkajšieho členka\" style=\"width: 50ch;\">[S82.6] Zlomenina vonkajšieho členka</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\">Fr. mall. lateral. ATC l dx</div></section><section data-x-id=\"5\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"63\" data-id-ezid=\"00000117556@14\" data-id-classid=\"vykon\" data-prop-body=\"200\" title=\"[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"9\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"15d\" data-id-ezid=\"02089714121@14\" data-id-classid=\"vykon\" data-prop-body=\"150\" title=\"[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.\" style=\"width: 50ch;\">[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"11\" data-type=\"vv\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"246\" data-id-ezid=\"00000467787@14\" data-id-classid=\"vykon\" data-prop-body=\"170\" title=\"[246] Odňatie cirkulárneho sadrového obväzu.\" style=\"width: 50ch;\">[246] Odňatie cirkulárneho sadrového obväzu.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN _focus\" data-name=\"count\">1</div></section><section data-x-id=\"6\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"_noval FieldHtml\" data-name=\"th\">sadra ex, band.<br></div></section><section data-x-id=\"7\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"_noval FieldHtml\" data-name=\"odp\">postupne rozvičovať pr. TC zhyb, nedostupovať, ko o 7-10 dní, potom RHB<br></div></section>",
+  "title": "fr. ATC mal.lat. SIN - EX - sadra",
+  "shortcut": "fmles",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "kontrola pacienta",
+            "props": {
+              "propValue": "K"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "dobre, bolesti ustúpili, afebril.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., polohaa kt., eupnoe, anikter., acyanoza, chôdza o NB<br>SPL : mierny perimalleolar edem bez NCP s miernou palp. alg. nad lateral. malleolom ľ. TC zhybu<br>RTG : stav zhojený konsolidovaným kalusom<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S82.6] Zlomenina vonkajšieho členka",
+            "props": {
+              "id": "S82.6",
+              "idEzid": "02089493353@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "Fr. mall. lateral. ATC l sin",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 5,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "id": 63,
+              "idEzid": "00000117556@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 9,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "id": "15d",
+              "idEzid": "02089714121@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[246] Odňatie cirkulárneho sadrového obväzu.",
+            "props": {
+              "propBody": 170,
+              "id": 246,
+              "idEzid": "00000467787@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 6,
+        "order": 7,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "sadra ex, band.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 7,
+        "order": 8,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "postupne rozvičovať ľ. TC zhyb, nedostupovať, ko o 7-10 dní, potom RHB<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-rtg": [
+      {
+        "id": 13,
+        "order": 9,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S82.6] Zlomenina vonkajšieho členka",
+            "props": {
+              "id": "S82.6",
+              "idEzid": "02089493353@13",
+              "idClassid": "diagnoza"
+            }
+          },
+          "predmet": {
+            "value": "ľ. členok",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "konsolidácia kalusu",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

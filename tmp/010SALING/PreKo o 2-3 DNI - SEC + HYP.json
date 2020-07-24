@@ -1,0 +1,177 @@
+{
+  "type": null,
+  "summary": "PreKo o 2-3 DNI - SEC + HYP",
+  "description": "Preväz a kontrola o 2-3 DNI - rana Secernuje + Hyperemia",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-ezid=\"02089412643@12\" data-id=\"L02.0\" title=\"[L02.0] Kožný absces, furunkul a karbunkul tváre\" style=\"width: 50ch;\">[L02.0] Kožný absces, furunkul a karbunkul tváre</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000117556@14\" data-id=\"63\" data-prop-body=\"200\" title=\"[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000474460@14\" data-id=\"2018\" data-prop-body=\"150\" title=\"[2018] Ošetrenie malej rany hojacej sa per secundam.\" style=\"width: 50ch;\">[2018] Ošetrenie malej rany hojacej sa per secundam.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000467498@14\" data-id=\"200\" data-prop-body=\"70\" title=\"[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni\" style=\"width: 50ch;\">[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"4\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: pac afebrilná, pobolievanie v rane\nO.: vedomie lucídne, orient., poloha aktívna, eupnoe, anikter., acyanoza, SPL: rana nesecernuje, hyperemie okolia, bez rozvoja phlegmóny\nTh.: prevaz, toaleta, krytie, band.\nDop.: ko o 2-3 dni, podľa potreby skôr\n<br></div></section><section data-x-id=\"6\" data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"_noval FieldList hasActions\" data-name=\"reason\"></div>​<label data-for=\"datum\" class=\" _noval\">zo dňa​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"datumVyziadania\" class=\" _noval\">dátum vyžiadania​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"datumVyziadania\"></div>​<label data-for=\"id\" class=\" _noval\">identifikátor​</label><div class=\"_noval Field\" data-name=\"id\"></div></section><section data-x-id=\"7\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\">pac afebril., pobolievanie v rane<br></div></section><section data-x-id=\"8\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\">vedomie lucídne, orient., poloha aktívna, eupnoe, anikter., acyanoza, <br>SPL: rana nesecernuje, hyperemia okolia, bez rozvoja phlegmóny<br></div></section><section data-x-id=\"9\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"FieldHtml\" data-name=\"th\">prevaz, toaleta, krytie, band.<br></div></section><section data-x-id=\"10\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\">ko o 2-3 dni, podľa potreby skôr<br></div></section>",
+  "title": "PreKo o 2-3 DNI - SEC + HYP",
+  "shortcut": "pkNSH23",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 6,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 7,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac afebril., pobolievanie v rane<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 8,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "vedomie lucídne, orient., poloha aktívna, eupnoe, anikter., acyanoza, <br>SPL: rana serosangv. secernuje, hyperemia okolia, bez rozvoja phlegmóny<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[L02.0] Kožný absces, furunkul a karbunkul tváre",
+            "props": {
+              "idEzid": "02089412643@12",
+              "id": "L02.0"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2018] Ošetrenie malej rany hojacej sa per secundam.",
+            "props": {
+              "propBody": 150,
+              "idEzid": "00000474460@14",
+              "id": 2018
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 3,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni",
+            "props": {
+              "propBody": 70,
+              "idEzid": "00000467498@14",
+              "id": 200
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 9,
+        "order": 7,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "prevaz, toaleta, krytie, band.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 10,
+        "order": 8,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o 2-3 dni, podľa potreby skôr<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

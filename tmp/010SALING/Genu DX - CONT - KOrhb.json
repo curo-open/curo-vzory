@@ -1,0 +1,137 @@
+{
+  "description": "Kontrola pravého kolena po kontúzii s odoslaním na RHB",
+  "type": null,
+  "summary": "Genu DX - CONT - KOrhb",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate _focus\" data-name=\"id\" data-id=\"S80.0\" data-id-ezid=\"02089492967@12\" title=\"[S80.0] Pomlia&amp;#x17E;denie kolena\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[S80.0] Pomliaždenie kolena</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"63\" data-id-ezid=\"00000117556@14\" data-prop-body=\"200\" title=\"[63] D&amp;#xF4;kladn&amp;#xE9; vy&amp;#x161;etrenie jedn&amp;#xE9;ho org&amp;#xE1;nov&amp;#xE9;ho syst&amp;#xE9;mu alebo kontroln&amp;#xE9; vy&amp;#x161;etrenie vr&amp;#xE1;tane r&amp;#xE1;d a dokument&amp;#xE1;cie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: lepšie\nO.: orient., poloha akt., eupnoe, anikter., acyanoza\npr. koleno bez naplne a balotementu, terminal. F viazne, manevre negat\npalp. alg suprapatelarne\nDop.: RHB liečba pac po úraze - pohmoždení pr. kolena s terminal. viaznucou F\n</div></section>",
+  "title": "Genu DX - CONT - KOrhb",
+  "shortcut": "gcdkr",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "kontrola pacienta",
+            "props": {
+              "propValue": "K"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "lepšie<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanoza<br>pr. koleno bez naplne a balotementu, terminal. F viazne, manevre negat., mierna palp. alg. prepatelarne,<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S80.0] Pomliaždenie kolena",
+            "props": {
+              "idEzid": "02089492967@12",
+              "id": "S80.0"
+            }
+          },
+          "text": {
+            "value": "st.p. cont. genu l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 6,
+        "order": 5,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "NSA p.p., <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "RHB liečba pac po pohmoždení pr. kolena s terminal. viaznucou F<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

@@ -1,0 +1,233 @@
+{
+  "description": "Pohmoždenie a odrenina pravého kolena",
+  "type": null,
+  "summary": "Genu DX - Contusio + excor",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate _focus\" data-name=\"id\" data-id=\"S80.0\" data-id-ezid=\"02089492967@12\" title=\"[S80.0] Pomlia&amp;#x17E;denie kolena\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[S80.0] Pomliaždenie kolena</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"63\" data-id-ezid=\"00000117556@14\" data-prop-body=\"200\" title=\"[63] D&amp;#xF4;kladn&amp;#xE9; vy&amp;#x161;etrenie jedn&amp;#xE9;ho org&amp;#xE1;nov&amp;#xE9;ho syst&amp;#xE9;mu alebo kontroln&amp;#xE9; vy&amp;#x161;etrenie vr&amp;#xE1;tane r&amp;#xE1;d a dokument&amp;#xE1;cie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"207\" data-id-ezid=\"00000467530@14\" data-prop-body=\"120\" title=\"[207] Spev&amp;#x148;uj&amp;#xFA;ci n&amp;#xE1;plastov&amp;#xFD; obv&amp;#xE4;z ve&amp;#x13E;k&amp;#xE9;ho k&amp;#x13A;bu.\" style=\"width: 50ch;\">[207] Spevňujúci náplastový obväz veľkého kĺbu.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S : udáva udretie pri páde a bolesti pravého kolena\nO : vedomie lucídne, orient., poloha aktívna, eupnoe, anikter.\nacyanot., pravé koleno bez naplne a balotementu s excoriaciou a palp. alg. v oblasti tuberositas tíbie a prepatelarne, bez NCP, dynamika plná, manevre negat., bez znamok instability\nRTG : bez TZ na skelete kolena\nDg.: contusio genus l dx\nTh.: analgetiká, band.\nDop.: kľudový režim s polohovaním končatiny, ko o 7-10 dní\n</div></section>",
+  "title": "Genu DX - Contusio + excor",
+  "shortcut": "gced",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "neodkladná starostlivosť",
+            "props": {
+              "propValue": "A"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "udretie pri páde a bolesti pravého kolena<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "vedomie lucídne, orient., poloha aktívna, eupnoe, anikter.<br>acyanot., pravé koleno bez naplne a balotementu s excoriaciou <br>a palp. alg. v oblasti tuberositas tíbie a prepatelarne, bez NCP, dynamika plná, manevre negat., bez znamok instability<br>RTG : bez TZ na skelete kolena<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S80.0] Pomliaždenie kolena",
+            "props": {
+              "idEzid": "02089492967@12",
+              "id": "S80.0"
+            }
+          },
+          "text": {
+            "value": "Contusio genu l dx",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 13,
+        "order": 4,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S81.0] Otvorená rana kolena",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089493072@12",
+              "id": "S81.0"
+            }
+          },
+          "text": {
+            "value": "Excoriatio genu l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "idClassid": "vykon",
+              "idEzid": "02089714121@14",
+              "id": "15d"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2003] Prvé ošetrenie veľkej rany.",
+            "props": {
+              "propBody": 170,
+              "id": 2003,
+              "idEzid": "00000474304@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 7,
+        "order": 8,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "toaleta, desinf, krytie, band, NSA, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 8,
+        "order": 9,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "kľudový režim s polohovaním končatiny, ko o 7-10 dní<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-rtg": [
+      {
+        "id": 9,
+        "order": 10,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S80.0] Pomliaždenie kolena",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089492967@12",
+              "id": "S80.0"
+            }
+          },
+          "predmet": {
+            "value": "pr. koleno",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

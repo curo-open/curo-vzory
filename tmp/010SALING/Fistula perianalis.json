@@ -1,0 +1,180 @@
+{
+  "tags": [
+    "dekurz"
+  ],
+  "content": "<section data-x-id=\"2\" data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"FieldList hasActions\" data-name=\"reason\" data-prop-value=\"K\">kontrola pacienta</div>​<label data-for=\"datum\" class=\"_noval hidden\">zo dňa​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"datumVyziadania\" class=\"_noval hidden\">dátum vyžiadania​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datumVyziadania\"></div>​<label data-for=\"id\" class=\"_noval hidden\">identifikátor​</label><div class=\"_noval Field hidden\" data-name=\"id\"></div></section><section data-x-id=\"3\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\">pac. reklamuje hrčku v oblasti konečníka, občasná secernácia, <br></div></section><section data-x-id=\"4\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\">vedomie lucídne, poloha aktívna, anikterus, acyanóza, abdomen priehmatné, mäkké, bez patologickej rezistencie, B-R-P negat.<br>Per rectum : anus : hypergranulované ústie perianal. fituly na č.: 3 v GP polohe bez inflam., nasondovaná do 2-2,5 cm,  <br></div></section><section data-x-id=\"5\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089410241@13\" data-id=\"K60.5\" title=\"[K60.5] Anorektálna fistula\" style=\"width: 50ch;\">[K60.5] Anorektálna fistula</div>​<label data-for=\"text\" class=\"\">/​</label><div class=\"Field minor\" data-name=\"text\">Fistula perianalis</div></section><section data-x-id=\"6\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000117556@20\" data-id=\"63\" data-prop-body=\"200\" title=\"[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"7\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"FieldHtml\" data-name=\"th\">antihemoroidáliá lokálne, <br></div></section><section data-x-id=\"8\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\">sedacie kupele, Ad chirurgiam - elekt. chirurg. riešenie, <br></div></section><section data-x-id=\"9\" data-type=\"vl\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Výmenný lístok​:</label><div class=\"FieldHtml\" data-name=\"text\">Ad chirurgiam NsP LC : P.T. prim.MUDr.Brunčák -  pacient odoslaný na oper. riešenie, <br>Pon : 10-12 hod<br>Str : 8,30-10 hod<br></div>​<label data-for=\"odbor\" class=\"\">odborné zameranie:​</label><div class=\"FieldSearch hasActions truncate\" data-name=\"odbor\" data-id-classid=\"zameranie\" data-id-ezid=\"00000351403@9\" data-id=\"010\" title=\"[010] chirurgia\" style=\"width: 20ch;\">[010] chirurgia</div>​<label data-for=\"druh\" class=\"\">druh špecializovaného útvaru​</label><div class=\"FieldSearch hasActions truncate\" data-name=\"druh\" data-id-classid=\"cinnost\" data-id-ezid=\"00000000273@3\" data-id=\"2\" title=\"[2] ambulancia\" style=\"width: 20ch;\">[2] ambulancia</div>​<label data-for=\"presne\" class=\"\">len text​</label><div class=\"FieldSwitchX hasActions\" data-name=\"presne\" data-prop-value=\"1\">x</div>​<label data-for=\"extended\" class=\" _noval\">zobraziť dodatočné atribúty​</label><div class=\"_noval FieldSwitchX hasActions _focus\" data-name=\"extended\"></div>​<label data-for=\"patientInfo\" class=\"_noval hidden\">informácia pre pacienta:​</label><div class=\"_noval FieldHtml hidden\" data-name=\"patientInfo\"></div>​<label data-for=\"urgency\" class=\"hidden\">urgentnosť vyšetrenia:​</label><div class=\"FieldList hasActions hidden\" data-name=\"urgency\" data-prop-value=\"bezne\">Bežné</div>​<label data-for=\"platnost\" class=\"hidden\">platnosť​</label><div class=\"FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"platnost\" data-prop-value=\"2021-06-16T05:18:59.595Z\">16.06.2021</div></section>",
+  "title": "Fistula perianalis",
+  "shortcut": "fp",
+  "summary": "Fistula perianalis",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "kontrola pacienta",
+            "props": {
+              "propValue": "K"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac. reklamuje hrčku v oblasti konečníka, občasná secernácia, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "vedomie lucídne, poloha aktívna, anikterus, acyanóza, abdomen priehmatné, mäkké, bez patologickej rezistencie, B-R-P negat.<br>Per rectum : anus : ústie perianal. fituly na č.: 3 v GP polohe bez inflam., nasondovaná do 2-2,5 cm,  <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 5,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[K60.5] Anorektálna fistula",
+            "props": {
+              "id": "K60.5",
+              "idEzid": "02089410241@13",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "Fistula perianalis",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 6,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "id": 63,
+              "idEzid": "00000117556@20",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 7,
+        "order": 5,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "antihemoroidáliá lokálne, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 8,
+        "order": 6,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "sedacie kupele, Ad chirurgiam - elekt. chirurg. riešenie, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vl": [
+      {
+        "id": 9,
+        "order": 7,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "Ad chirurgiam NsP LC : P.T. prim.MUDr.Brunčák -  pacient odoslaný na oper. riešenie, <br>Pon : 10-12 hod<br>Str : 8,30-10 hod<br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "[010] chirurgia",
+            "props": {
+              "id": "010",
+              "idEzid": "00000351403@9",
+              "idClassid": "zameranie"
+            }
+          },
+          "druh": {
+            "value": "[2] ambulancia",
+            "props": {
+              "id": 2,
+              "idEzid": "00000000273@3",
+              "idClassid": "cinnost"
+            }
+          },
+          "presne": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

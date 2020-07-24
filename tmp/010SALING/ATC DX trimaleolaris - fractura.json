@@ -1,0 +1,214 @@
+{
+  "type": null,
+  "summary": "",
+  "description": "Trimalleolárna zlomenina pr. členka",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: pac udáva bolesti pr. členka po udretí pri páde\nO.: orient., poloha akt., eupnoe, anikter., acyanóza\nedém, haematom a palp. bolestivosť pr. TC zhybu s obmedzenou hybnosťou, bez NCP\nRTG : pr. ATC v 2 proj. : fractura malleoli lateralis disloc, fractura malleoli med cum disloc minima, abruptio margo post tibiae cum disloc min\nDg.: fractura trimalleolaris TC l dx disloc\nTh.: sadr dlaha\nDop.: ad chirurgiam NsP ZV - dop rep. a OS\n</div></section>",
+  "title": "ATC DX trimaleolaris - fractura",
+  "shortcut": "frtrimdx",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "neodkladná starostlivosť",
+            "props": {
+              "propValue": "A"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": " pac udáva bolesti pr. členka po udretí pri páde<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanóza<br>edém, haematom a palp. bolestivosť pr. TC zhybu s obmedzenou hybnosťou, bez NCP<br>RTG : pr. ATC v 2 proj. : fractura malleoli lateralis disloc, fractura malleoli med cum disloc minima, abruptio margo post tibiae cum disloc min<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S82.82] Trimaleolárna zlomenina",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089493395@12",
+              "id": "S82.82"
+            }
+          },
+          "text": {
+            "value": "fractura trimalleolaris TC l dx disloc",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 5,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 9,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "idClassid": "vykon",
+              "idEzid": "02089714121@14",
+              "id": "15d"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[228] Sadrový dlahový obväz.",
+            "props": {
+              "propBody": 375,
+              "idClassid": "vykon",
+              "idEzid": "00000467670@14",
+              "id": 228
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 6,
+        "order": 7,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "sadr dlaha<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 7,
+        "order": 8,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ad chirurgiam NsP ZV - dop rep. a OS<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-rtg": [
+      {
+        "id": 15,
+        "order": 9,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S82.82] Trimaleolárna zlomenina",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089493395@12",
+              "id": "S82.82"
+            }
+          },
+          "predmet": {
+            "value": "pr. členok",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "fr?",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

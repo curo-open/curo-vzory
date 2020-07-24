@@ -1,0 +1,130 @@
+{
+  "description": "Kontrola po distorzii ľavého ATC - ko p.p.",
+  "type": null,
+  "summary": "ATC l SIN - DISTORSIO - KOpp",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"_focus\"><aside></aside><div class=\"FieldHtml _focus\" data-name=\"t\">S.: pac. sa cíti dobre, bez bolestí v ľ. členku\nO.: orient., poloha akt., eupnoe, acyanoza, anikter.\nlokal. nález priaznivý, bez palp. algicity ľ. TC zhybu, bez perimalleolar. edemu a NCP s primeranou dynamikou ľ. ATC\nZ.: chirurg. liečba ukončená, telesné šetrenie cca tyž., ko p.p.\n\n<br></div></section>",
+  "title": "ATC l SIN - DISTORSIO - KOpp",
+  "shortcut": "atcdskpp",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "kontrola pacienta",
+            "props": {
+              "propValue": "K"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac. sa cíti dobre, bez bolestí v ľ. členku<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, acyanoza, anikter.<br>lokal. nález priaznivý, bez palp. algicity ľ. TC zhybu, bez perimalleolar. edemu a NCP s primeranou dynamikou ľ. ATC<br>Z.: chirurg. liečba ukončená, telesné šetrenie cca tyž<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 5,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 6,
+        "order": 5,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "NSA p.p., <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko p.p.,<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

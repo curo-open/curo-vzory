@@ -1,0 +1,30 @@
+{
+  "title": "Kontrola OD - výkon",
+  "shortcut": "odkovv",
+  "summary": "Kontrola OD - výkon",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "kontrola pacienta",
+            "props": {
+              "propValue": "K"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "description": "Odoslanie - Kontrola pacienta",
+  "source": "curo-open/curo-vzory#/010SALING"
+}

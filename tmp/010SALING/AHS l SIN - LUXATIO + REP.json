@@ -1,0 +1,374 @@
+{
+  "type": null,
+  "summary": "AHS l DX - LUXATIO + REP",
+  "description": "Repozícia luxácie sin. AHS",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"S43.00\" data-id-ezid=\"02089489187@12\" title=\"[S43.00] Vyk&amp;#x13A;benie plecov&amp;#xE9;ho k&amp;#x13A;bu, bli&amp;#x17E;&amp;#x161;ie neur&amp;#x10D;en&amp;#xE9;\" style=\"width: 50ch;\">[S43.00] Vykĺbenie plecového kĺbu, bližšie neurčené</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"62\" data-id-ezid=\"00000117549@14\" data-prop-body=\"250\" title=\"[62] Cielen&amp;#xE9; vy&amp;#x161;etrenie dvoch alebo viacer&amp;#xFD;ch org&amp;#xE1;nov&amp;#xFD;ch syst&amp;#xE9;mov alebo dispenz&amp;#xE1;rna kontrola (cielen&amp;#xE1; anamn&amp;#xE9;za, resp. anamn&amp;#xE9;za od poslednej kontroly), popis subjekt&amp;#xED;vnych obtia&amp;#x17E;&amp;#xED;, objekt&amp;#xED;vny n&amp;#xE1;lez, vyp&amp;#xED;sanie spr&amp;#xE1;vy, z&amp;#xE1;ver, vypracovanie pl&amp;#xE1;nu do nasleduj&amp;#xFA;c\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"2405\" data-id-ezid=\"00000474973@14\" data-prop-body=\"420\" title=\"[2405] Repoz&amp;#xED;cia lux&amp;#xE1;cie lak&amp;#x165;ov&amp;#xE9;ho, ramenn&amp;#xE9;ho alebo kolenn&amp;#xE9;ho zhybu.\" style=\"width: 50ch;\">[2405] Repozícia luxácie lakťového, ramenného alebo kolenného zhybu.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"201\" data-id-ezid=\"00000467506@14\" data-prop-body=\"400\" title=\"[201] Obv&amp;#xE4;z hrudn&amp;#xED;ka alebo Desaultov obv&amp;#xE4;z s v&amp;#xFD;nimkou obv&amp;#xE4;zu pupka.\" style=\"width: 50ch;\">[201] Obväz hrudníka alebo Desaultov obväz s výnimkou obväzu pupka.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"4\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">Subj.: pac. reklamuje bolesti pravého ramenného zhybu po udretí pri páde, hybnosť obmedzená\nObj.: vedomie lucídne, orientovaný, poloha aktívna, koža čistá, anikter., acyanot., hrudník klenutý, stabilný, pravé AHS dekonfigurované, palpačne bolestivé, hlava humeru mimo glenoidal. jamku, hybnosť glenohumerálneho kĺbu nulová pre bolestivosť\nDg.: RTG: Luxatio humeri l. dx\nTh.: repozícia podľa Hippocrata, Desault\nDop.: kľudový režim, ko o tyž.\n</div></section>",
+  "title": "AHS l SIN - LUXATIO + REP",
+  "shortcut": "lux ahs sin r",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "13": [
+          "recommendedBy"
+        ]
+      }
+    },
+    "od": [
+      {
+        "id": 5,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 6,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac. reklamuje bolesti ľavého ramenného zhybu po udretí pri páde, hybnosť obmedzená<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 7,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "vedomie lucídne, orientovaný, poloha aktívna, koža čistá, anikter., acyanot., hrudník klenutý, stabilný, ľavé AHS dekonfigurované, palpačne bolestivé, hlava humeru mimo glenoidal. jamku, hybnosť glenohumerálneho kĺbu nulová pre bolestivosť<br>RTG: Luxatio humeri l. sin<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S43.00] Vykĺbenie plecového kĺbu, bližšie neurčené",
+            "props": {
+              "idEzid": "02089489187@12",
+              "id": "S43.00"
+            }
+          },
+          "text": {
+            "value": "Luxatio humeri l. sin",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "idEzid": "00000117549@14",
+              "id": 62
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2405] Repozícia luxácie lakťového, ramenného alebo kolenného zhybu.",
+            "props": {
+              "propBody": 420,
+              "idEzid": "00000474973@14",
+              "id": 2405
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pp": [
+      {
+        "id": 13,
+        "order": 6,
+        "props": {
+          "type": "pp",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[J71248] Ortéza Thuasne Immo Classic | fixátor ramena a lakťa",
+            "props": {
+              "propPo_4": "CHI",
+              "propPo_3": "013",
+              "propPo_2": "027",
+              "propPo_1": "ORT",
+              "propPo_0": "039",
+              "propCena": 5.61,
+              "propDpl": 4,
+              "idClassid": "pomocka",
+              "idEzid": "00020180154",
+              "idV": "THU-FR",
+              "id": "J71248"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "need": {
+            "value": "dočasná",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reason": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {
+              "error": "Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára"
+            }
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "namieru": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 8,
+        "order": 7,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "repozícia, ortéza<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 15,
+        "order": 8,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[07226] Dexadol 25 mg gro por | gro por 10x25 mg (vre. Al/PE)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Dexketoprofen",
+              "propSdl": 3.333,
+              "propCena": 3.74,
+              "propVnl": "R",
+              "propUzp_1zvj": 0.114,
+              "propBal": 10,
+              "propGp": 1,
+              "propUnit": "DF",
+              "propSpUhr": "S",
+              "propDpl": 3.36,
+              "idClassid": "liek",
+              "idEzid": "00020330205",
+              "idF": "GRO POR",
+              "idSp": "ora",
+              "idAtc": "M01AE17",
+              "idUl": "dexketoprofenum",
+              "id": "07226"
+            }
+          },
+          "schedule": {
+            "value": "1-0-1-0, denne",
+            "props": {
+              "propWay_code": "",
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propParts_sleepTime": 0,
+              "propParts_evening": 1,
+              "propParts_noon": 0,
+              "propParts_morning": 1,
+              "propType": "PEV1"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "payoff": {
+            "value": "3,36",
+            "props": {
+              "propValue": 3.36
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 9,
+        "order": 9,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "kľudový režim, ko o tyž.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-rtg": [
+      {
+        "id": 11,
+        "order": 10,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S43.00] Vykĺbenie plecového kĺbu, bližšie neurčené",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089489187@12",
+              "id": "S43.00"
+            }
+          },
+          "predmet": {
+            "value": "",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

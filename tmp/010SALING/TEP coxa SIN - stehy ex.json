@@ -1,0 +1,198 @@
+{
+  "type": null,
+  "summary": "TEP coxa SIN - stehy ex",
+  "description": "Vybratie stehov po TEP ľavej koxy",
+  "content": "<section data-x-id=\"5\" data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"_noval FieldList hasActions\" data-name=\"reason\"></div>​<label data-for=\"datum\" class=\" _noval\">zo dňa​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"datumVyziadania\" class=\" _noval\">dátum vyžiadania​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"datumVyziadania\"></div>​<label data-for=\"id\" class=\" _noval\">identifikátor​</label><div class=\"_noval Field\" data-name=\"id\"></div></section><section data-x-id=\"6\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\">Pac po op. - TEP -<br>Dg.: Coxarthrosis l dx<br>S.: lepšie, pobolievanie v pr. koxe miernejšie<br></div></section><section data-x-id=\"7\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\">prient., poloha akt., chôdza o NB, eupnoe, anikter., acyanoza<br>SPL : rana po TEP nad pr. bedr. zhybom s primeraným hojením, bez inflam a secer.<br></div></section><section data-x-id=\"3\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"S71.0\" data-id-ezid=\"02089492165@12\" title=\"[S71.0] Otvorená rana bedra\" style=\"width: 50ch;\">[S71.0] Otvorená rana bedra</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"63\" data-id-ezid=\"00000117556@14\" data-prop-body=\"200\" title=\"[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"2007\" data-id-ezid=\"00000474346@14\" data-prop-body=\"60\" title=\"[2007] Odstránenie sutúry alebo stehov z veľkej rany.\" style=\"width: 50ch;\">[2007] Odstránenie sutúry alebo stehov z veľkej rany.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"200\" data-id-ezid=\"00000467498@14\" data-prop-body=\"70\" title=\"[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni\" style=\"width: 50ch;\">[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"8\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"FieldHtml\" data-name=\"th\"> toaleta, desinf., stehy ex, krytie<br></div></section><section data-x-id=\"9\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\">telesné šetrenie, nedostupovať 6 tyž., ko dľa dop ORT<br></div></section>",
+  "title": "TEP coxa SIN - stehy ex",
+  "shortcut": "steTcs",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 5,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 6,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "Pac po op. - TEP -<br>Dg.: Coxarthrosis l sin<br>S.: lepšie, pobolievanie v ľ. koxe miernejšie<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 7,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "prient., poloha akt., chôdza o NB, eupnoe, anikter., acyanoza<br>SPL : rana po TEP nad ľ. bedr. zhybom s primeraným hojením, bez inflam a secer.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 11,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M16.0] Primárna artróza bedrového kĺbu, obojstranná",
+            "props": {
+              "id": "M16.0",
+              "idEzid": "02089425611@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "Coxarthrosis l sin",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 3,
+        "order": 4,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S71.0] Otvorená rana bedra",
+            "props": {
+              "idEzid": "02089492165@12",
+              "id": "S71.0"
+            }
+          },
+          "text": {
+            "value": "st.p. TEP coxae l sin",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2007] Odstránenie sutúry alebo stehov z veľkej rany.",
+            "props": {
+              "propBody": 60,
+              "idEzid": "00000474346@14",
+              "id": 2007
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 3,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni",
+            "props": {
+              "propBody": 70,
+              "idEzid": "00000467498@14",
+              "id": 200
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 8,
+        "order": 8,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": " toaleta, desinf., stehy ex, krytie<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 9,
+        "order": 9,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "telesné šetrenie, nedostupovať 6 tyž., ko dľa dop ORT<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

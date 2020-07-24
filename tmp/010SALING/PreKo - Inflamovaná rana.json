@@ -1,0 +1,153 @@
+{
+  "type": null,
+  "summary": "PreKo - Inflamovaná rana",
+  "description": "Preväz inflamovanej rany bez supurácie",
+  "content": "<section data-x-id=\"\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"63\" data-id-ezid=\"00000117556@14\" data-prop-body=\"200\" title=\"[63] D&amp;#xF4;kladn&amp;#xE9; vy&amp;#x161;etrenie jedn&amp;#xE9;ho org&amp;#xE1;nov&amp;#xE9;ho syst&amp;#xE9;mu alebo kontroln&amp;#xE9; vy&amp;#x161;etrenie vr&amp;#xE1;tane r&amp;#xE1;d a dokument&amp;#xE1;cie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"2018\" data-id-ezid=\"00000474460@14\" data-prop-body=\"150\" title=\"[2018] O&amp;#x161;etrenie malej rany hojacej sa per secundam.\" style=\"width: 50ch;\">[2018] Ošetrenie malej rany hojacej sa per secundam.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S : reklamuje pobolievanie v oblasti rany, pulz. bolesť, bez febrilít\nO : orient., poloha akt., eupnoe, anikter., acyanoza, rana je inflamovaná, edem s hyperémiou okolia rany bez akt. supurácie, rana nesecernuje, bez akt. supuracie, bez zn. lymphangoitídy\nTh.: dezinf., toaleta, krytie, ko o 2 dni, dop ATB\n</div></section>",
+  "title": "PreKo - Inflamovaná rana",
+  "shortcut": "pkinf",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pobolievanie v oblasti rany, pulz. bolesť, bez febrilít<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanoza, rana je inflamovaná, edem s hyperémiou okolia rany bez akt. supurácie, rana nesecernuje, bez akt. supuracie, bez zn. lymphangoitídy<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 6,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 4,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2018] Ošetrenie malej rany hojacej sa per secundam.",
+            "props": {
+              "propBody": 150,
+              "idEzid": "00000474460@14",
+              "id": 2018
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 8,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "dezinf., toaleta, krytie,<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 9,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o 2 dni, dop ATB<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

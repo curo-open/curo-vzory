@@ -1,0 +1,159 @@
+{
+  "type": null,
+  "summary": "Combustio palmae man l dx",
+  "description": "Popálenina na dlani pr. ruky",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: popálil si dlaň pravej ruky\nO.: orient., eupnoe, acyanoza\ncca 2,5x3 cm popálenina s hyperem spodinou a evak. bulami\nv oblasti dlane pravej ruky\nDg.: Combustio gr II.-II.a. reg palmae man l dx\nTh.: toaleta, desinf., Višnevski balsam, krytie, band\nDop.: ko o 2-3 dni\n</div></section>",
+  "title": "Combustio palmae man l DX",
+  "shortcut": "com man dx",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "popálil si dlaň pravej ruky<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., eupnoe, acyanoza<br>cca 2,5x3 cm popálenina s hyperem spodinou a evak. bulami<br>v oblasti dlane pravej ruky<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[T23.20] Popálenina zápästia a ruky 2a. stupňa",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089498493@12",
+              "id": "T23.20"
+            }
+          },
+          "text": {
+            "value": "Combustio gr II.-II.a. reg palmae man l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 5,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 9,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2011] Prvotné ošetrenie popáleniny I. alebo II. stupňa (ruka, noha, tvár), za každú popáleninu (toilette, debridement, topické prostriedky).",
+            "props": {
+              "propBody": 250,
+              "idClassid": "vykon",
+              "idEzid": "00000474379@14",
+              "id": 2011
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 6,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": " toaleta, desinf., Višnevski balsam, krytie, band<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 7,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o 2-3 dni, p.p. skôr<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

@@ -1,0 +1,111 @@
+{
+  "description": "Predpis lieku Dexadol 20 tbl",
+  "summary": "Dexadol 20 tbl",
+  "content": "<section data-x-id=\"10\" data-type=\"r\" class=\"\"><aside></aside><label class=\"section-label  has-info\">R​:</label><div class=\"FieldSearch hasActions highlight-bold truncate\" data-name=\"id\" data-id=\"07226\" data-id-ul=\"dexketoprofenum\" data-id-atc=\"M01AE17\" data-id-sp=\"ora\" data-id-f=\"GRO POR\" data-id-ezid=\"00020330205\" data-id-classid=\"liek\" data-prop-dpl=\"3.36\" data-prop-sp-uhr=\"S\" data-prop-unit=\"DF\" data-prop-gp=\"1\" data-prop-bal=\"10\" data-prop-uzp_1zvj=\"0.114\" data-prop-vnl=\"R\" data-prop-cena=\"3.74\" data-prop-sdl=\"3.333\" data-prop-atc-name=\"Dexketoprofén\" data-prop-ol=\"0\" title=\"[07226] Dexadol 25 mg gro por | gro por 10x25 mg (vre. Al/PE)\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[07226] Dexadol 25 mg gro por | gro por 10x25 mg (vre. Al/PE)</div>​<label data-for=\"schedule\" class=\"\">dáv.​</label><div class=\"FieldMedicationSchedule hasActions\" data-name=\"schedule\" data-prop-type=\"PEV1\" data-prop-parts_morning=\"1\" data-prop-parts_noon=\"0\" data-prop-parts_evening=\"1\" data-prop-parts_sleep-time=\"0\" data-prop-period_code=\"D\" data-prop-period_t=\"denne\" data-prop-way_code=\"\">1-0-1-0, denne</div>​<label data-for=\"qty\" class=\"\"># bal.​</label><div class=\"FieldR hasActions\" data-name=\"qty\" data-prop-value=\"1.00\">1</div>​<label data-for=\"repeatCount\" class=\" _noval\">rep.​</label><div class=\"_noval FieldN hasActions\" data-name=\"repeatCount\"></div>​<label data-for=\"repeatAfter\" class=\"ss hidden\">dní medzi výberom​</label><div class=\"FieldN ss hidden\" data-name=\"repeatAfter\">30</div>​<label data-for=\"repeatLast\" class=\"ss _noval hidden\">posledný výber​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"repeatLast\"></div>​<label data-for=\"repeatFixedUntil\" class=\"ss _noval hidden\">predpis vydrží do​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"repeatFixedUntil\"></div>​<label data-for=\"recommendedBy\" class=\"ss _noval\">odp. lek.​</label><div class=\"_noval FieldSearchLekar hasActions ss\" data-name=\"recommendedBy\"></div>​<label data-for=\"recommendedDate\" class=\"ss _noval hidden\">dátum odp.​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"recommendedDate\"></div>​<label data-for=\"untilDate\" class=\"ss _noval hidden\">platné do​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"untilDate\"></div>​<label data-for=\"noReplacement\" class=\"ss\">náhrada​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"noReplacement\" data-prop-value=\"0\">nie</div>​<label data-for=\"payoff\" class=\"ss\">doplatok​</label><div class=\"FieldR locked ss\" data-name=\"payoff\" data-prop-value=\"3.36\">3,36</div>​<label data-for=\"atc\" class=\"ss _noval hidden\">cez ATC​</label><div class=\"_noval FieldSwitchLogical hasActions ss hidden\" data-name=\"atc\" data-prop-value=\"0\">nie</div>​<label data-for=\"instruction\" class=\"ss _noval\">inštrukcie​</label><div class=\"_noval Field ss\" data-name=\"instruction\"></div>​<label data-for=\"reasonPayoff\" class=\"ss _noval\">uhradí​</label><div class=\"_noval FieldSwitch hasActions ss\" data-name=\"reasonPayoff\"></div>​<label data-for=\"prodException\" class=\"ss\">výnimka​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"prodException\" data-prop-value=\"0\">nie</div>​<label data-for=\"force\" class=\"ss\">vyn. zápis​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"force\" data-prop-value=\"0\">nie</div>​<label data-for=\"forceReason\" class=\"ss _noval hidden\">dôvod v.z.​</label><div class=\"_noval Field ss hidden\" data-name=\"forceReason\"></div>​<label data-for=\"barcode\" class=\"_noval hidden\">čiarový kód​</label><div class=\"_noval Field readonly dontCopy hidden\" data-name=\"barcode\"></div>​<label data-for=\"note_zp\" class=\"ss _noval hidden\">poznámka ZP​</label><div class=\"_noval Field readonly dontCopy ss hidden\" data-name=\"note_zp\"></div>​<label data-for=\"status\" class=\"invisible ss\">stav​</label><div class=\"FieldN readonly dontCopy invisible ss\" data-name=\"status\">0</div></section>",
+  "title": "Dexadol 20 tbl",
+  "shortcut": "ldex20",
+  "if": "",
+  "data": {
+    "_": {},
+    "r": [
+      {
+        "id": 10,
+        "order": 0,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[07227] Dexadol 25 mg gro por | gro por 20x25 mg (vre. Al/PE)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Dexketoprofén",
+              "propSdl": 6.667,
+              "propCena": 5.07,
+              "propVnl": "R",
+              "propUzp_1zvj": 0.114,
+              "propBal": 20,
+              "propGp": 1,
+              "propUnit": "DF",
+              "propSpUhr": "S",
+              "propDpl": 4.31,
+              "idClassid": "liek",
+              "idEzid": "00020323499",
+              "idF": "GRO POR",
+              "idSp": "ora",
+              "idAtc": "M01AE17",
+              "idUl": "dexketoprofenum",
+              "id": "07227"
+            }
+          },
+          "schedule": {
+            "value": "1-0-1-0, denne",
+            "props": {
+              "propWay_code": "",
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propParts_sleepTime": 0,
+              "propParts_evening": 1,
+              "propParts_noon": 0,
+              "propParts_morning": 1,
+              "propType": "PEV1"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "payoff": {
+            "value": "4,31",
+            "props": {
+              "propValue": 4.31
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

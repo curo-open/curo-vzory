@@ -1,0 +1,54 @@
+{
+  "title": "Bruncak",
+  "shortcut": "vlbru",
+  "description": "Prim. MUDr. Brunčák. Výmenný lístok",
+  "summary": "Bruncak",
+  "if": "",
+  "data": {
+    "_": {},
+    "vl": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "Ad chirurgiam NsP LC : P.T. prim.MUDr.Brunčák -  pacient odoslaný na oper. riešenie, <br>Pon : 10-12 hod<br>Str : 8,30-10 hod<br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "[010] chirurgia",
+            "props": {
+              "id": "010",
+              "idEzid": "00000351403@8",
+              "idClassid": "zameranie"
+            }
+          },
+          "druh": {
+            "value": "[2] ambulancia",
+            "props": {
+              "id": 2,
+              "idEzid": "00000000273@3",
+              "idClassid": "cinnost"
+            }
+          },
+          "presne": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

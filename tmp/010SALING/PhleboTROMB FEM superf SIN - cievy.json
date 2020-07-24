@@ -1,0 +1,628 @@
+{
+  "description": "Povrchová flebotrombóza ľavého stehna",
+  "type": null,
+  "summary": "PhleboTROMB FEM superf SIN - cievy",
+  "content": "<section data-x-id=\"4\" data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"_noval FieldList hasActions\" data-name=\"reason\"></div>​<label data-for=\"datum\" class=\"_noval hidden\">zo dňa​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"datumVyziadania\" class=\"_noval hidden\">dátum vyžiadania​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datumVyziadania\"></div>​<label data-for=\"id\" class=\"_noval hidden\">identifikátor​</label><div class=\"_noval Field hidden\" data-name=\"id\"></div></section><section data-x-id=\"5\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\">pac. reklamuje bolesti a začervenania pravej nohy resp. predkolenia cca 3-4 dni, afebril, <br></div></section><section data-x-id=\"6\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\">orient., poloha aktívna, eupnoe, anikter., acyanoza, chôdza s napadaním na pravú DK, hrudník - dýchanie vezikulárne, symetrické, cor AS prav., palp. alg. tuhý a hyperem. pruh v povodí v.s.magna resp. nad varikoz. konvolútmi na ventromedial. strane predkolenia, Homans negat., Lowenberg negat., perif. pulz. na ADP a ATP hmatné<br></div></section><section data-x-id=\"10\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089402503@12\" data-id=\"I80.0\" title=\"[I80.0] Trombóza, flebitída a tromboflebitída povrchových žíl dolných končatín\" style=\"width: 50ch;\">[I80.0] Trombóza, flebitída a tromboflebitída povrchových žíl dolných končatín</div>​<label data-for=\"text\" class=\"\">/​</label><div class=\"Field minor\" data-name=\"text\">Phlebotrombosis cruris l dx superficialis</div></section><section data-x-id=\"4\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089402651@12\" data-id=\"I83.1\" title=\"[I83.1] Varixy dolných končatín so zápalom\" style=\"width: 50ch;\">[I83.1] Varixy dolných končatín so zápalom</div>​<label data-for=\"text\" class=\"\">/​</label><div class=\"Field minor\" data-name=\"text\">Varices cruris l dx cum phleg. incip.</div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000117549@14\" data-id=\"62\" data-prop-body=\"250\" title=\"[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000467498@14\" data-id=\"200\" data-prop-body=\"70\" title=\"[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni\" style=\"width: 50ch;\">[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"7\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"FieldHtml\" data-name=\"th\">Flebaven, ANP, ATB, Višnevsky balsam lokal., band., <br></div></section><section data-x-id=\"8\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\">ko o 2-3 dní, podľa potreby pri akomkoľvek zhoršení stavu ko ihneď, pac. poučený o rizikách pri progresii stavu, dop. lokalne natierať Lioton gel<br></div></section><section data-x-id=\"14\" data-type=\"r\" class=\"\"><aside></aside><label class=\"section-label  has-info\">R​:</label><div class=\"FieldSearch hasActions highlight-bold truncate\" data-name=\"id\" data-id-classid=\"liek\" data-id-ezid=\"00021260609\" data-id-f=\"TBL\" data-id-sp=\"ora\" data-id-atc=\"C05CA03\" data-id-ul=\"diosminum\" data-id=\"5036C\" data-prop-ol=\"0\" data-prop-atc-name=\"Diozmín\" data-prop-vnl=\"R\" data-prop-bal=\"60\" data-prop-gp=\"0\" data-prop-unit=\"DF\" title=\"[5036C] Flebaven 1 000 mg tablety | tbl 60x1000 mg (blis.PVC/PVDC/Al)\" style=\"width: 50ch;\">[5036C] Flebaven 1 000 mg tablety | tbl 60x1000 mg (blis.PVC/PVDC/Al)</div>​<label data-for=\"schedule\" class=\"\">dáv.​</label><div class=\"FieldMedicationSchedule hasActions\" data-name=\"schedule\" data-prop-way_code=\"\" data-prop-period_t=\"denne\" data-prop-period_code=\"D\" data-prop-parts_sleep-time=\"0\" data-prop-parts_evening=\"1\" data-prop-parts_noon=\"1\" data-prop-parts_morning=\"1\" data-prop-type=\"PEV1\">1-1-1-0, denne</div>​<label data-for=\"qty\" class=\"\"># bal.​</label><div class=\"FieldR hasActions\" data-name=\"qty\" data-prop-value=\"1.00\">1</div>​<label data-for=\"repeatCount\" class=\" _noval\">rep.​</label><div class=\"_noval FieldN hasActions\" data-name=\"repeatCount\"></div>​<label data-for=\"repeatAfter\" class=\"ss hidden\">dní medzi výberom​</label><div class=\"FieldN ss hidden\" data-name=\"repeatAfter\">30</div>​<label data-for=\"repeatLast\" class=\"ss _noval hidden\">posledný výber​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"repeatLast\"></div>​<label data-for=\"recommendedBy\" class=\"ss _noval\">odp. lek.​</label><div class=\"_noval FieldSearchLekar hasActions ss\" data-name=\"recommendedBy\"></div>​<label data-for=\"recommendedDate\" class=\"ss _noval hidden\">dátum odp.​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"recommendedDate\"></div>​<label data-for=\"untilDate\" class=\"ss _noval hidden\">platné do​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"untilDate\"></div>​<label data-for=\"noReplacement\" class=\"ss _noval hidden\">náhrada​</label><div class=\"_noval FieldSwitchLogical hasActions ss hidden\" data-name=\"noReplacement\" data-prop-value=\"0\">nie</div>​<label data-for=\"payoff\" class=\"ss\">doplatok​</label><div class=\"FieldR locked ss\" data-name=\"payoff\" data-prop-value=\"0.00\">0</div>​<label data-for=\"atc\" class=\"ss\">cez ATC​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"atc\" data-prop-value=\"0\">nie</div>​<label data-for=\"instruction\" class=\"ss _noval\">inštrukcie​</label><div class=\"_noval Field ss\" data-name=\"instruction\"></div>​<label data-for=\"reasonPayoff\" class=\"ss _noval\">uhradí​</label><div class=\"_noval FieldSwitch hasActions ss\" data-name=\"reasonPayoff\"></div>​<label data-for=\"prodException\" class=\"ss\">výnimka​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"prodException\" data-prop-value=\"0\">nie</div>​<label data-for=\"force\" class=\"ss\">vyn. zápis​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"force\" data-prop-value=\"0\">nie</div>​<label data-for=\"forceReason\" class=\"ss _noval hidden\">dôvod v.z.​</label><div class=\"_noval Field ss hidden\" data-name=\"forceReason\"></div>​<label data-for=\"barcode\" class=\"_noval hidden\">čiarový kód​</label><div class=\"_noval Field readonly dontCopy hidden\" data-name=\"barcode\"></div>​<label data-for=\"note_zp\" class=\"ss _noval hidden\">poznámka ZP​</label><div class=\"_noval Field readonly dontCopy ss hidden\" data-name=\"note_zp\"></div>​<label data-for=\"status\" class=\"invisible ss\">stav​</label><div class=\"FieldN readonly dontCopy invisible ss\" data-name=\"status\">0</div></section><section data-x-id=\"16\" data-type=\"r\" class=\"\"><aside></aside><label class=\"section-label  has-info\">R​:</label><div class=\"FieldSearch hasActions highlight-bold truncate\" data-name=\"id\" data-id-classid=\"liek\" data-id-ezid=\"00020550232\" data-id-f=\"CPS DUR\" data-id-sp=\"ora\" data-id-atc=\"J01FF01\" data-id-ul=\"\" data-id=\"83458\" data-prop-ol=\"0\" data-prop-atc-name=\"Klindamycín\" data-prop-sdl=\"4\" data-prop-cena=\"5.15\" data-prop-vnl=\"R\" data-prop-uzp_1zvj=\"0.966\" data-prop-bal=\"16\" data-prop-gp=\"1\" data-prop-unit=\"DF\" data-prop-sp-uhr=\"S\" data-prop-dpl=\"1.29\" title=\"[83458] DALACIN C 300 mg | cps dur 16x300 mg (blis.PVC/Al)\" style=\"width: 50ch;\">[83458] DALACIN C 300 mg | cps dur 16x300 mg (blis.PVC/Al)</div>​<label data-for=\"schedule\" class=\"\">dáv.​</label><div class=\"FieldMedicationSchedule hasActions\" data-name=\"schedule\" data-prop-period_t=\"denne\" data-prop-period_code=\"D\" data-prop-way_code=\"\" data-prop-unitsperhour=\"1\" data-prop-hours=\"6\" data-prop-type=\"PEV2\">á 6 hod. 1  </div>​<label data-for=\"qty\" class=\"\"># bal.​</label><div class=\"FieldR hasActions\" data-name=\"qty\" data-prop-value=\"1.00\">1</div>​<label data-for=\"repeatCount\" class=\" _noval\">rep.​</label><div class=\"_noval FieldN hasActions\" data-name=\"repeatCount\"></div>​<label data-for=\"repeatAfter\" class=\"ss hidden\">dní medzi výberom​</label><div class=\"FieldN ss hidden\" data-name=\"repeatAfter\">30</div>​<label data-for=\"repeatLast\" class=\"ss _noval hidden\">posledný výber​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"repeatLast\"></div>​<label data-for=\"recommendedBy\" class=\"ss _noval\">odp. lek.​</label><div class=\"_noval FieldSearchLekar hasActions ss\" data-name=\"recommendedBy\"></div>​<label data-for=\"recommendedDate\" class=\"ss _noval hidden\">dátum odp.​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"recommendedDate\"></div>​<label data-for=\"untilDate\" class=\"ss _noval hidden\">platné do​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"untilDate\"></div>​<label data-for=\"noReplacement\" class=\"ss\">náhrada​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"noReplacement\" data-prop-value=\"0\">nie</div>​<label data-for=\"payoff\" class=\"ss\">doplatok​</label><div class=\"FieldR locked ss\" data-name=\"payoff\" data-prop-value=\"1.29\">1,29</div>​<label data-for=\"atc\" class=\"ss _noval hidden\">cez ATC​</label><div class=\"_noval FieldSwitchLogical hasActions ss hidden\" data-name=\"atc\" data-prop-value=\"0\">nie</div>​<label data-for=\"instruction\" class=\"ss _noval\">inštrukcie​</label><div class=\"_noval Field ss\" data-name=\"instruction\"></div>​<label data-for=\"reasonPayoff\" class=\"ss _noval\">uhradí​</label><div class=\"_noval FieldSwitch hasActions ss\" data-name=\"reasonPayoff\"></div>​<label data-for=\"prodException\" class=\"ss\">výnimka​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"prodException\" data-prop-value=\"0\">nie</div>​<label data-for=\"force\" class=\"ss\">vyn. zápis​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"force\" data-prop-value=\"0\">nie</div>​<label data-for=\"forceReason\" class=\"ss _noval hidden\">dôvod v.z.​</label><div class=\"_noval Field ss hidden\" data-name=\"forceReason\"></div>​<label data-for=\"barcode\" class=\"_noval hidden\">čiarový kód​</label><div class=\"_noval Field readonly dontCopy hidden\" data-name=\"barcode\"></div>​<label data-for=\"note_zp\" class=\"ss _noval hidden\">poznámka ZP​</label><div class=\"_noval Field readonly dontCopy ss hidden\" data-name=\"note_zp\"></div>​<label data-for=\"status\" class=\"invisible ss\">stav​</label><div class=\"FieldN readonly dontCopy invisible ss\" data-name=\"status\">0</div></section><section data-x-id=\"18\" data-type=\"r\" class=\"\"><aside></aside><label class=\"section-label  has-info\">R​:</label><div class=\"FieldSearch hasActions highlight-bold truncate\" data-name=\"id\" data-id-classid=\"liek\" data-id-ezid=\"00020217410\" data-id-f=\"TBL\" data-id-sp=\"ora\" data-id-atc=\"B01AC06\" data-id-ul=\"\" data-id=\"99295\" data-prop-ol=\"0\" data-prop-atc-name=\"Kyselina acetylsalicylová\" data-prop-vnl=\"F\" data-prop-bal=\"20\" data-prop-gp=\"0\" data-prop-unit=\"DF\" data-prop-dpl=\"0.71\" title=\"[99295] ANOPYRIN 100 mg | tbl 20x100 mg (blis.PVC/PVDC/Al)\" style=\"width: 50ch;\">[99295] ANOPYRIN 100 mg | tbl 20x100 mg (blis.PVC/PVDC/Al)</div>​<label data-for=\"schedule\" class=\"\">dáv.​</label><div class=\"FieldMedicationSchedule hasActions\" data-name=\"schedule\" data-prop-way_code=\"\" data-prop-period_t=\"denne\" data-prop-period_code=\"D\" data-prop-parts_sleep-time=\"0\" data-prop-parts_evening=\"0\" data-prop-parts_noon=\"0\" data-prop-parts_morning=\"1\" data-prop-type=\"PEV1\">1-0-0-0, denne</div>​<label data-for=\"qty\" class=\"\"># bal.​</label><div class=\"FieldR hasActions\" data-name=\"qty\" data-prop-value=\"1.00\">1</div>​<label data-for=\"repeatCount\" class=\" _noval\">rep.​</label><div class=\"_noval FieldN hasActions\" data-name=\"repeatCount\"></div>​<label data-for=\"repeatAfter\" class=\"ss hidden\">dní medzi výberom​</label><div class=\"FieldN ss hidden\" data-name=\"repeatAfter\">30</div>​<label data-for=\"repeatLast\" class=\"ss _noval hidden\">posledný výber​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"repeatLast\"></div>​<label data-for=\"recommendedBy\" class=\"ss _noval\">odp. lek.​</label><div class=\"_noval FieldSearchLekar hasActions ss\" data-name=\"recommendedBy\"></div>​<label data-for=\"recommendedDate\" class=\"ss _noval hidden\">dátum odp.​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"recommendedDate\"></div>​<label data-for=\"untilDate\" class=\"ss _noval hidden\">platné do​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"untilDate\"></div>​<label data-for=\"noReplacement\" class=\"ss _noval hidden\">náhrada​</label><div class=\"_noval FieldSwitchLogical hasActions ss hidden\" data-name=\"noReplacement\" data-prop-value=\"0\">nie</div>​<label data-for=\"payoff\" class=\"ss\">doplatok​</label><div class=\"FieldR locked ss\" data-name=\"payoff\" data-prop-value=\"0.71\">0,71</div>​<label data-for=\"atc\" class=\"ss\">cez ATC​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"atc\" data-prop-value=\"0\">nie</div>​<label data-for=\"instruction\" class=\"ss _noval\">inštrukcie​</label><div class=\"_noval Field ss\" data-name=\"instruction\"></div>​<label data-for=\"reasonPayoff\" class=\"ss _noval\">uhradí​</label><div class=\"_noval FieldSwitch hasActions ss\" data-name=\"reasonPayoff\"></div>​<label data-for=\"prodException\" class=\"ss\">výnimka​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"prodException\" data-prop-value=\"0\">nie</div>​<label data-for=\"force\" class=\"ss\">vyn. zápis​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"force\" data-prop-value=\"0\">nie</div>​<label data-for=\"forceReason\" class=\"ss _noval hidden\">dôvod v.z.​</label><div class=\"_noval Field ss hidden\" data-name=\"forceReason\"></div>​<label data-for=\"barcode\" class=\"_noval hidden\">čiarový kód​</label><div class=\"_noval Field readonly dontCopy hidden\" data-name=\"barcode\"></div>​<label data-for=\"note_zp\" class=\"ss _noval hidden\">poznámka ZP​</label><div class=\"_noval Field readonly dontCopy ss hidden\" data-name=\"note_zp\"></div>​<label data-for=\"status\" class=\"invisible ss\">stav​</label><div class=\"FieldN readonly dontCopy invisible ss\" data-name=\"status\">0</div></section>",
+  "title": "PhleboTROMB FEM superf SIN - cievy",
+  "shortcut": "ptfss",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac. reklamuje bolesti a začervenania ľavého stehna na vnútornej strane, afebril, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha aktívna, eupnoe, anikter., acyanoza, chôdza s napadaním na ľavú DK, hrudník - dýchanie vezikulárne, symetrické, cor AS prav., palp. alg. tuhý a hyperem. pruh v povodí v.s.magna resp. nad varikoz. konvolútmi na ventromedial. strane stehna, Homans negat., Lowenberg negat., perif. pulz. na ADP a ATP hmatné<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 10,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[I80.0] Trombóza, flebitída a tromboflebitída povrchových žíl dolných končatín",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089402503@12",
+              "id": "I80.0"
+            }
+          },
+          "text": {
+            "value": "Phlebotrombosis femoris l sin superficialis",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 4,
+        "order": 4,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[I83.1] Varixy dolných končatín so zápalom",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089402651@12",
+              "id": "I83.1"
+            }
+          },
+          "text": {
+            "value": "Varices femoris l sin cum phleg. incip.",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "idEzid": "00000117549@14",
+              "id": 62
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni",
+            "props": {
+              "propBody": 70,
+              "idClassid": "vykon",
+              "idEzid": "00000467498@14",
+              "id": 200
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 7,
+        "order": 7,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "Flebaven, ANP, ATB, Višnevsky balsam lokal., band., <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 8,
+        "order": 8,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o 2-3 dní, podľa potreby pri akomkoľvek zhoršení stavu ko ihneď, pac. poučený o rizikách pri progresii stavu, dop. lokalne natierať Lioton gel<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 14,
+        "order": 9,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[5036C] Flebaven 1 000 mg tablety | tbl 60x1000 mg (blis.PVC/PVDC/Al)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Diozmín",
+              "propVnl": "R",
+              "propBal": 60,
+              "propGp": 0,
+              "propUnit": "DF",
+              "idClassid": "liek",
+              "idEzid": "00021260609",
+              "idF": "TBL",
+              "idSp": "ora",
+              "idAtc": "C05CA03",
+              "idUl": "diosminum",
+              "id": "5036C"
+            }
+          },
+          "schedule": {
+            "value": "1-1-1-0, denne",
+            "props": {
+              "propWay_code": "",
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propParts_sleepTime": 0,
+              "propParts_evening": 1,
+              "propParts_noon": 1,
+              "propParts_morning": 1,
+              "propType": "PEV1"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 16,
+        "order": 10,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[83458] DALACIN C 300 mg | cps dur 16x300 mg (blis.PVC/Al)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Klindamycín",
+              "propSdl": 4,
+              "propCena": 5.15,
+              "propVnl": "R",
+              "propUzp_1zvj": 0.966,
+              "propBal": 16,
+              "propGp": 1,
+              "propUnit": "DF",
+              "propSpUhr": "S",
+              "propDpl": 1.29,
+              "idClassid": "liek",
+              "idEzid": "00020550232",
+              "idF": "CPS DUR",
+              "idSp": "ora",
+              "idAtc": "J01FF01",
+              "idUl": "",
+              "id": 83458
+            }
+          },
+          "schedule": {
+            "value": "á 6 hod. 1  ",
+            "props": {
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propWay_code": "",
+              "propUnitsperhour": 1,
+              "propHours": 6,
+              "propType": "PEV2"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "payoff": {
+            "value": "1,29",
+            "props": {
+              "propValue": 1.29
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 18,
+        "order": 11,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[99295] ANOPYRIN 100 mg | tbl 20x100 mg (blis.PVC/PVDC/Al)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Kyselina acetylsalicylová",
+              "propVnl": "F",
+              "propBal": 20,
+              "propGp": 0,
+              "propUnit": "DF",
+              "propDpl": 0.71,
+              "idClassid": "liek",
+              "idEzid": "00020217410",
+              "idF": "TBL",
+              "idSp": "ora",
+              "idAtc": "B01AC06",
+              "idUl": "",
+              "id": 99295
+            }
+          },
+          "schedule": {
+            "value": "1-0-0-0, denne",
+            "props": {
+              "propWay_code": "",
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propParts_sleepTime": 0,
+              "propParts_evening": 0,
+              "propParts_noon": 0,
+              "propParts_morning": 1,
+              "propType": "PEV1"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0,71",
+            "props": {
+              "propValue": 0.71
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vlozit": [
+      {
+        "id": 20,
+        "order": 12,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "vb250",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pp": [
+      {
+        "id": 22,
+        "order": 13,
+        "props": {
+          "type": "pp"
+        },
+        "value": {
+          "id": {
+            "value": "[A57024] Kompres gázový GAZIN nesterilný | 10 x 10 cm, 100 ks, osem vrstvový",
+            "props": {
+              "propDpl": 0,
+              "propCena": 4.59,
+              "id": "A57024",
+              "idV": "LRI-DE",
+              "idEzid": "00020138236",
+              "idClassid": "pomocka"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "need": {
+            "value": "dočasná",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reason": {
+            "value": "Phlebotrombosis fem l dx superficialis<br>",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "namieru": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 24,
+        "order": 14,
+        "props": {
+          "type": "pp"
+        },
+        "value": {
+          "id": {
+            "value": "[A21499] Obväz fixačný Gekalast® | 10 cm x 4 m / 20 ks",
+            "props": {
+              "propDpl": 0.72,
+              "propCena": 1.79,
+              "id": "A21499",
+              "idV": "LRI-DE",
+              "idEzid": "00020154936",
+              "idClassid": "pomocka"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "need": {
+            "value": "dočasná",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reason": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "namieru": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

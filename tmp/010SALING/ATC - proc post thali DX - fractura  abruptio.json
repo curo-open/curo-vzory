@@ -1,0 +1,179 @@
+{
+  "type": null,
+  "summary": "ATC - proc post thali DX - fractura / abruptio",
+  "description": "Abrupcia proc post thali vpravo",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"S82.3\" title=\"[S82.3] S82.3\" style=\"width: 50ch;\">[S82.3] S82.3</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"62\" data-id-ezid=\"00000117549@14\" data-prop-body=\"250\" title=\"[62] Cielen&amp;#xE9; vy&amp;#x161;etrenie dvoch alebo viacer&amp;#xFD;ch org&amp;#xE1;nov&amp;#xFD;ch syst&amp;#xE9;mov alebo dispenz&amp;#xE1;rna kontrola (cielen&amp;#xE1; anamn&amp;#xE9;za, resp. anamn&amp;#xE9;za od poslednej kontroly), popis subjekt&amp;#xED;vnych obtia&amp;#x17E;&amp;#xED;, objekt&amp;#xED;vny n&amp;#xE1;lez, vyp&amp;#xED;sanie spr&amp;#xE1;vy, z&amp;#xE1;ver, vypracovanie pl&amp;#xE1;nu do nasleduj&amp;#xFA;c\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"228\" data-id-ezid=\"00000467670@14\" data-prop-body=\"375\" title=\"[228] Sadrov&amp;#xFD; dlahov&amp;#xFD; obv&amp;#xE4;z.\" style=\"width: 50ch;\">[228] Sadrový dlahový obväz.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">Subj.: pac. reklamuje bolesti ľavého / pravého členkového zhybu po páde a udretí\nObj.: vedomie lucídne, poloha aktívna, koža čistá, anikter., acyanot., ľavý / pravý ATC bez NCP s palp. alg. v oblasti za lateral. malleolom\nDg.: RTG : abruptio proc. posterior thali l sin / dx\nTh.: dlaha\nDop.: telesné šetrenie s polohovaním končatiny, ko o tyž.\n</div></section>",
+  "title": "ATC - proc post thali DX - fractura / abruptio",
+  "shortcut": "fr thali dx",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac. reklamuje bolesti pravého členkového zhybu po páde a udretí<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "vedomie lucídne, poloha aktívna, koža čistá, anikter., acyanot., pravý ATC bez NCP s palp. alg. v oblasti za lateral. malleolom<br>Dg.: RTG : abruptio proc. posterior thali l dx<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": "",
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S92.1] Zlomenina členkovej kosti",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089494336@12",
+              "id": "S92.1"
+            }
+          },
+          "text": {
+            "value": " abruptio proc. posterior thali l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "idEzid": "00000117549@14",
+              "id": 62
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 10,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "idClassid": "vykon",
+              "idEzid": "02089714121@14",
+              "id": "15d"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[228] Sadrový dlahový obväz.",
+            "props": {
+              "propBody": 375,
+              "idEzid": "00000467670@14",
+              "id": 228
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 7,
+        "order": 7,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "sadr dlaha<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 8,
+        "order": 8,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "telesné šetrenie s polohovaním končatiny, ko o tyž.<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

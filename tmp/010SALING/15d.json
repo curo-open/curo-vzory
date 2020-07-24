@@ -1,0 +1,38 @@
+{
+  "description": "Výkon 15d",
+  "summary": "15d",
+  "content": "<section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" title=\"[2018a] Ošetrenie veľkej rany hojacej sa per secundam.\" style=\"width: 50ch;\" data-id=\"2018a\" data-id-ezid=\"00000474478@19\" data-id-classid=\"vykon\" data-prop-body=\"400\">[2018a] Ošetrenie veľkej rany hojacej sa per secundam.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
+  "title": "15d",
+  "shortcut": "15d",
+  "if": "",
+  "data": {
+    "_": {},
+    "vv": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "idClassid": "vykon",
+              "idEzid": "02089714121@19",
+              "id": "15d"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

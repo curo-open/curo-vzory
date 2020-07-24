@@ -1,0 +1,38 @@
+{
+  "description": "Výkon 407",
+  "summary": "407",
+  "content": "<section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"410\" data-id-ezid=\"00000468736@19\" data-id-classid=\"vykon\" data-prop-body=\"110\" title=\"[410] Lokálna anestézia pri bolestivom ošetrení, pri jednom ošetrení. Tento výkon môže vykazovať lekár so špecializáciou v odbore všeobecné lekárstvo, chirurg, traumatológ, algeziológ alebo lekári ostatných\" style=\"width: 50ch;\">[410] Lokálna anestézia pri bolestivom ošetrení, pri jednom ošetrení. Tento výkon môže vykazovať lekár so špecializáciou v odbore všeobecné lekárstvo, chirurg, traumatológ, algeziológ alebo lekári ostatných</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
+  "title": "407",
+  "shortcut": "407",
+  "if": "",
+  "data": {
+    "_": {},
+    "vv": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[407] Infiltračná anestézia jednej oblasti s použitím lokálneho anestetika v množstve viac ako 5 ml. Tento výkon môže vykazovať lekár so špecializáciou v odbore všeobecné lekárstvo, chirurg, traumatológ, al",
+            "props": {
+              "propBody": 120,
+              "idClassid": "vykon",
+              "idEzid": "00000468728@19",
+              "id": 407
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

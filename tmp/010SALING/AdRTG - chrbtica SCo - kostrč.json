@@ -1,0 +1,45 @@
+{
+  "description": "RTG vyšetrenie kostrč",
+  "summary": "AdRTG - chrbtica SCo - kostrč",
+  "content": "<section data-x-id=\"2\" data-type=\"z-rtg\" class=\"\"><aside></aside><label class=\"section-label  \">Žiadanka RTG​:</label>​<label data-for=\"dg_text\" class=\"\">Diagnóza​</label><div class=\"FieldSearch hasActions truncate\" data-name=\"dg_text\" title=\"[S33.2] Vykĺbenie sakroiliakálneho kĺbu a krížovokostrčového spojenia\" style=\"width: 50ch;\" data-ignore-visited=\"true\" data-id=\"S33.2\" data-id-ezid=\"02089487322@12\" data-id-classid=\"diagnoza\">[S33.2] Vykĺbenie sakroiliakálneho kĺbu a krížovokostrčového spojenia</div>​<label data-for=\"predmet\" class=\"\">Ktorá oblasť má byť vyšetrená​</label><div class=\"Field\" data-name=\"predmet\">SI synch + sacrum</div>​<label data-for=\"ocakavanie\" class=\"\">Očakávanie/otázka​</label><div class=\"Field\" data-name=\"ocakavanie\">fract.?</div>​<label data-for=\"epikriza\" class=\" _noval\">Epikríza​</label><div class=\"_noval Field\" data-name=\"epikriza\"></div></section>",
+  "title": "AdRTG - chrbtica SCo - kostrč",
+  "shortcut": "arsc",
+  "if": "",
+  "data": {
+    "_": {},
+    "z-rtg": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S33.2] Vykĺbenie sakroiliakálneho kĺbu a krížovokostrčového spojenia",
+            "props": {
+              "id": "S33.2",
+              "idEzid": "02089487322@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "predmet": {
+            "value": "sacrum + kostrč",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "fract.?",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

@@ -1,0 +1,326 @@
+{
+  "description": "Bolesti ľavého ramena bez úrazu.",
+  "type": null,
+  "summary": "Artralgia AHS l SIN",
+  "content": "<section data-x-id=\"1\" data-type=\"od\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"_noval FieldList hasActions _focus\" data-name=\"reason\"></div>​<label data-for=\"datum\" class=\"_noval hidden\">zo dňa​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"datumVyziadania\" class=\"_noval hidden\">dátum vyžiadania​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datumVyziadania\"></div>​<label data-for=\"id\" class=\"_noval hidden\">identifikátor​</label><div class=\"_noval Field hidden\" data-name=\"id\"></div></section><section data-x-id=\"2\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\">pac. reklamuje bolesti a pocit pichnutia ľavého pleca bez úrazu, obmedzenú hybnosť v ramennom zhybe<br></div></section><section data-x-id=\"3\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\">vedomie lucídne, poloha aktívna, koža čistá, anikter., acyanot., eupnoe, hrudník palp. stabilný, nebolestivý, ľavé AHS normokonfigurované, mierne palp. algické, aktívna hybnosť obmedzená, pasívna terminalne algická, AAC bez palp. alg. a príznaku klávesy<br>RTG : bez traumat. zmien na skelete ľ.AHS<br></div></section><section data-x-id=\"4\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"M25.52\" data-id-ezid=\"02089429654@12\" data-id-classid=\"diagnoza\" title=\"[M25.52] Bolesť kĺbu nadlaktia (ramenná kosť, lakťový kĺb)\" style=\"width: 50ch;\">[M25.52] Bolesť kĺbu nadlaktia (ramenná kosť, lakťový kĺb)</div>​<label data-for=\"text\" class=\"\">/​</label><div class=\"Field minor\" data-name=\"text\">Arthralgia AHS l sin</div></section><section data-x-id=\"5\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"63\" data-id-ezid=\"00000117556@14\" data-id-classid=\"vykon\" data-prop-body=\"200\" title=\"[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"9\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"15d\" data-id-ezid=\"02089714121@14\" data-id-classid=\"vykon\" data-prop-body=\"150\" title=\"[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.\" style=\"width: 50ch;\">[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"6\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"FieldHtml\" data-name=\"th\">analgetiká, NSA<br></div></section><section data-x-id=\"7\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\">ORT vyš<br></div></section><section data-x-id=\"11\" data-type=\"z-rtg\" class=\"\"><aside></aside><label class=\"section-label  \">Žiadanka RTG​:</label>​<label data-for=\"dg_text\" class=\"\">Diagnóza​</label><div class=\"FieldSearch hasActions truncate\" data-name=\"dg_text\" data-id=\"M25.52\" data-id-ezid=\"02089429654@12\" data-id-classid=\"diagnoza\" title=\"[M25.52] Bolesť kĺbu nadlaktia (ramenná kosť, lakťový kĺb)\" style=\"width: 50ch;\">[M25.52] Bolesť kĺbu nadlaktia (ramenná kosť, lakťový kĺb)</div>​<label data-for=\"predmet\" class=\"\">Ktorá oblasť má byť vyšetrená​</label><div class=\"Field\" data-name=\"predmet\">ľ. AHS</div>​<label data-for=\"ocakavanie\" class=\"\">Očakávanie/otázka​</label><div class=\"Field\" data-name=\"ocakavanie\">diff dg bolestí ľ. ramena</div>​<label data-for=\"epikriza\" class=\" _noval\">Epikríza​</label><div class=\"_noval Field\" data-name=\"epikriza\"></div></section><section data-x-id=\"13\" data-type=\"vl\" class=\"\"><aside></aside><label class=\"section-label  \">Výmenný lístok​:</label><div class=\"FieldHtml\" data-name=\"text\">Ad ortopediam - dop konz. vš. pac s neúrazovou bolesťou ľ. ramena.<br></div>​<label data-for=\"odbor\" class=\"\">odborné zameranie:​</label><div class=\"FieldSearch hasActions truncate\" data-name=\"odbor\" data-id=\"011\" data-id-ezid=\"00000351411@8\" data-id-classid=\"zameranie\" title=\"[011] ortopédia\" style=\"width: 20ch;\">[011] ortopédia</div>​<label data-for=\"druh\" class=\"\">druh špecializovaného útvaru​</label><div class=\"FieldSearch hasActions truncate\" data-name=\"druh\" data-id=\"2\" data-id-ezid=\"00000000273@3\" data-id-classid=\"cinnost\" title=\"[2] ambulancia\" style=\"width: 20ch;\">[2] ambulancia</div>​<label data-for=\"presne\" class=\" _noval\">len text​</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"presne\"></div>​<label data-for=\"extended\" class=\" _noval\">zobraziť dodatočné atribúty​</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"extended\"></div>​<label data-for=\"patientInfo\" class=\"_noval hidden\">informácia pre pacienta:​</label><div class=\"_noval FieldHtml hidden\" data-name=\"patientInfo\"></div>​<label data-for=\"urgency\" class=\"hidden\">urgentnosť vyšetrenia:​</label><div class=\"FieldList hasActions hidden\" data-name=\"urgency\" data-prop-value=\"bezne\">Bežné</div>​<label data-for=\"platnost\" class=\"hidden\">platnosť​</label><div class=\"FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"platnost\" data-prop-value=\"2021-02-21T22:50:14.644Z\">21.02.2021</div></section>",
+  "title": "PHS l SIN - ORT",
+  "shortcut": "phss",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac. reklamuje bolesti a pocit pichnutia pravého pleca po dvíhaní bremena, obmedzenú hybnosť v ramennom zhybe<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "vedomie lucídne, poloha aktívna, koža čistá, anikter., acyanot., eupnoe, hrudník palp. stabilný, nebolestivý, pravé AHS normokonfigurované, mierne palp. algické, aktívna hybnosť obmedzená, pasívna terminalne algická, AAC bez palp. alg. a príznaku klávesy<br>RTG : bez traumat. zmien na skelete ľ.AHS<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M25.52] Bolesť kĺbu nadlaktia (ramenná kosť, lakťový kĺb)",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089429654@12",
+              "id": "M25.52"
+            }
+          },
+          "text": {
+            "value": "PHS l sin",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 5,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 9,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "idClassid": "vykon",
+              "idEzid": "02089714121@14",
+              "id": "15d"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 6,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "analgetiká, NSA<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 15,
+        "order": 7,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[07226] Dexadol 25 mg gro por | gro por 10x25 mg (vre. Al/PE)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Dexketoprofen",
+              "propSdl": 3.333,
+              "propCena": 3.74,
+              "propVnl": "R",
+              "propUzp_1zvj": 0.114,
+              "propBal": 10,
+              "propGp": 1,
+              "propUnit": "DF",
+              "propSpUhr": "S",
+              "propDpl": 3.36,
+              "idClassid": "liek",
+              "idEzid": "00020330205",
+              "idF": "GRO POR",
+              "idSp": "ora",
+              "idAtc": "M01AE17",
+              "idUl": "dexketoprofenum",
+              "id": "07226"
+            }
+          },
+          "schedule": {
+            "value": "1-0-1-0, denne",
+            "props": {
+              "propWay_code": "",
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propParts_sleepTime": 0,
+              "propParts_evening": 1,
+              "propParts_noon": 0,
+              "propParts_morning": 1,
+              "propType": "PEV1"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "payoff": {
+            "value": "3,36",
+            "props": {
+              "propValue": 3.36
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 7,
+        "order": 8,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o 2 tyž., pri nezlepšení ORT vyš<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-rtg": [
+      {
+        "id": 11,
+        "order": 9,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[M25.52] Bolesť kĺbu nadlaktia (ramenná kosť, lakťový kĺb)",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089429654@12",
+              "id": "M25.52"
+            }
+          },
+          "predmet": {
+            "value": "ľ. AHS",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "diff dg bolestí ľ. ramena",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vl": [
+      {
+        "id": 13,
+        "order": 10,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "Ad ortopediam - dop konz. vš. pac s neúrazovou bolesťou ľ. ramena. PHS l sin<br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "[011] ortopédia",
+            "props": {
+              "idClassid": "zameranie",
+              "idEzid": "00000351411@8",
+              "id": "011"
+            }
+          },
+          "druh": {
+            "value": "[2] ambulancia",
+            "props": {
+              "idClassid": "cinnost",
+              "idEzid": "00000000273@3",
+              "id": 2
+            }
+          },
+          "presne": {
+            "value": "",
+            "props": {}
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

@@ -1,0 +1,156 @@
+{
+  "type": null,
+  "summary": "Hernia ING l DX - stehy ex",
+  "description": "Vybratie stehov po op. ING hernie vpravo",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-ezid=\"02089408815@12\" data-id=\"K40.90\" title=\"[K40.90] Jednostranná alebo neurčená slabinová prietrž bez obštrukcie a bez gangrény, neoznačená ako recidivujúca\" style=\"width: 50ch;\">[K40.90] Jednostranná alebo neurčená slabinová prietrž bez obštrukcie a bez gangrény, neoznačená ako recidivujúca</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000117556@14\" data-id=\"63\" data-prop-body=\"200\" title=\"[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000474346@14\" data-id=\"2007\" data-prop-body=\"60\" title=\"[2007] Odstránenie sutúry alebo stehov z veľkej rany.\" style=\"width: 50ch;\">[2007] Odstránenie sutúry alebo stehov z veľkej rany.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">Pac. po operácii :\npre Dg.: Hernia ing l dx\nsubj. dobre, bez ťažkostí, bez febrilít, bolesti nemá\nobj.: orient., poloha akt., eupnoe, anikter., acyanoza, abdomen kludné, priehmatné\nlokal.: suturovaná rana v pravej inguine zhojená p.p.i., palp. nebolestivá, nesecernuje, bez inflam okolia\ndop.: toaleta, stehy ex, ko p.p.\n</div></section>",
+  "title": "Hernia ING l DX - stehy ex",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 11,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "Pac. po operácii :<br>pre Dg.: Hernia ing l dx<br>subj. dobre, bez ťažkostí, bez febrilít, bolesti nemá<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanoza, abdomen kludné, priehmatné, suturovaná rana v pravej inguine zhojená p.p.i., palp. nebolestivá, nesecernuje, bez inflam okolia<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 2,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[K40.90] Jednostranná alebo neurčená slabinová prietrž bez obštrukcie a bez gangrény, neoznačená ako recidivujúca",
+            "props": {
+              "idEzid": "02089408815@12",
+              "id": "K40.90"
+            }
+          },
+          "text": {
+            "value": "Hernia ing. l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2007] Odstránenie sutúry alebo stehov z veľkej rany.",
+            "props": {
+              "propBody": 60,
+              "idEzid": "00000474346@14",
+              "id": 2007
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 8,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "toaleta, desinf., stehy ex, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 9,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "telesné šetrenie, ko p.p., <br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "shortcut": "ste her i dx",
+  "source": "curo-open/curo-vzory#/010SALING"
+}

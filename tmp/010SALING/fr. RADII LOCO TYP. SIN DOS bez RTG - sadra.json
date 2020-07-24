@@ -1,0 +1,159 @@
+{
+  "description": "Dosadrovanie zlomeniny distálneho rádia vľavo",
+  "type": null,
+  "summary": "fr. RADII LOCO TYP. SIN DOS bez RTG - sadra",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S : pac sa cíti lepšie, bolesti neguje, sadra netlačí, bez febril., pravá ruka netŕpne\nO : orient., poloha akt., eupnoe, anikter., acyanoza, mierna palp. alg. v mieste zlomeniny P dist. rádia, pr. predlaktie a ruka bez edému a NCP, RTG.: neindikované - nepredpokladaná disloc.\nTh.: dosadrovanie, ko o 3-4 tyž.\n\n<br></div></section><section data-x-id=\"1\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"_noval FieldHtml\" data-name=\"s\">pac sa cíti lepšie, bolesti neguje, sadra netlačí, bez febril., pravá ruka netŕpne<br></div></section><section data-x-id=\"2\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"_noval FieldHtml\" data-name=\"o\">orient., poloha akt., eupnoe, anikter., acyanoza, mierna palp. alg. v mieste zlomeniny P dist. rádia, pr. predlaktie a ruka bez edému a NCP, RTG.: neindikované - nepredpokladaná disloc.<br></div></section><section data-x-id=\"3\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"_noval FieldSearch hasActions highlight\" data-name=\"id\"></div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"4\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"63\" data-id-ezid=\"00000117556@14\" data-id-classid=\"vykon\" data-prop-body=\"200\" title=\"[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"9\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"230\" data-id-ezid=\"00000467696@14\" data-id-classid=\"vykon\" data-prop-body=\"550\" title=\"[230] Cirkulárny sadrový obväz, prípadne ako sadrová ochrana.\" style=\"width: 50ch;\">[230] Cirkulárny sadrový obväz, prípadne ako sadrová ochrana.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"5\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"_noval FieldHtml\" data-name=\"th\">dosadrovanie, NSA<br></div></section><section data-x-id=\"6\" data-type=\"odp\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"_noval FieldHtml _focus\" data-name=\"odp\">ko o 3-4 tyž.<br></div></section>",
+  "title": "fr. RADII LOCO TYP. SIN DOS bez RTG - sadra",
+  "shortcut": "frltds",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 11,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 1,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac sa cíti lepšie, bolesti neguje, sadra netlačí, bez febril., ľavá ruka netŕpne<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 2,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanoza, mierna palp. alg. v mieste zlomeniny ľavého dist. rádia, ľ. predlaktie a ruka bez edému a NCP, RTG.: neindikované - nepredpokladaná disloc.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S52.50] Zlomenina dolného konca vretennej kosti: bližšie neurčená",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089490078@12",
+              "id": "S52.50"
+            }
+          },
+          "text": {
+            "value": "Fr. radii loco typico l sin",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 4,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 9,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[230] Cirkulárny sadrový obväz, prípadne ako sadrová ochrana.",
+            "props": {
+              "propBody": 550,
+              "idClassid": "vykon",
+              "idEzid": "00000467696@14",
+              "id": 230
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 5,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "dosadrovanie, NSA<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 6,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o 3-4 tyž.<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

@@ -1,0 +1,233 @@
+{
+  "description": "Pohmoždenie a odrenina ľavého kolena",
+  "type": null,
+  "summary": "Genu SIN - Contusio + excor",
+  "content": "<section data-x-id=\"4\" data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"_noval FieldList hasActions\" data-name=\"reason\"></div>​<label data-for=\"datum\" class=\"_noval hidden\">zo dňa​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"datumVyziadania\" class=\"_noval hidden\">dátum vyžiadania​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datumVyziadania\"></div>​<label data-for=\"id\" class=\"_noval hidden\">identifikátor​</label><div class=\"_noval Field hidden\" data-name=\"id\"></div></section><section data-x-id=\"5\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\">udretie pri páde a bolesti pravého kolena<br></div></section><section data-x-id=\"6\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\">vedomie lucídne, orient., poloha aktívna, eupnoe, anikter.<br>acyanot., pravé koleno bez naplne a balotementu s excoriaciou <br>a palp. alg. v oblasti tuberositas tíbie a prepatelarne, bez NCP, dynamika plná, manevre negat., bez znamok instability<br>RTG : bez TZ na skelete kolena<br></div></section><section data-x-id=\"3\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"S80.0\" data-id-ezid=\"02089492967@12\" title=\"[S80.0] Pomliaždenie kolena\" style=\"width: 50ch;\">[S80.0] Pomliaždenie kolena</div>​<label data-for=\"text\" class=\"\">/​</label><div class=\"Field minor\" data-name=\"text\">Contusio genu l dx</div></section><section data-x-id=\"13\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"_noval FieldSearch hasActions highlight truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"S81.0\" data-id-ezid=\"02089493072@12\" data-id-classid=\"diagnoza\" title=\"[S81.0] Otvorená rana kolena\" style=\"width: 50ch;\">[S81.0] Otvorená rana kolena</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\">Excoriatio genu l dx</div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"63\" data-id-ezid=\"00000117556@14\" data-prop-body=\"200\" title=\"[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"15d\" data-id-ezid=\"02089714121@14\" data-id-classid=\"vykon\" data-prop-body=\"150\" title=\"[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.\" style=\"width: 50ch;\">[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"11\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000474304@14\" data-id=\"2003\" data-prop-body=\"170\" title=\"[2003] Prvé ošetrenie veľkej rany.\" style=\"width: 50ch;\">[2003] Prvé ošetrenie veľkej rany.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"7\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"FieldHtml\" data-name=\"th\">toaleta, desinf, krytie, band, NSA, <br></div></section><section data-x-id=\"8\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\">kľudový režim s polohovaním končatiny, ko o 7-10 dní<br></div></section><section data-x-id=\"9\" data-type=\"z-rtg\" class=\"\"><aside></aside><label class=\"section-label  \">Žiadanka RTG​:</label>​<label data-for=\"dg_text\" class=\"\">Diagnóza​</label><div class=\"FieldSearch hasActions truncate\" data-name=\"dg_text\" data-id=\"S80.0\" data-id-ezid=\"02089492967@12\" data-id-classid=\"diagnoza\" title=\"[S80.0] Pomliaždenie kolena\" style=\"width: 50ch;\">[S80.0] Pomliaždenie kolena</div>​<label data-for=\"predmet\" class=\"\">Ktorá oblasť má byť vyšetrená​</label><div class=\"Field\" data-name=\"predmet\">pr. koleno</div>​<label data-for=\"ocakavanie\" class=\" _noval\">Očakávanie/otázka​</label><div class=\"_noval Field\" data-name=\"ocakavanie\"></div>​<label data-for=\"epikriza\" class=\" _noval\">Epikríza​</label><div class=\"_noval Field\" data-name=\"epikriza\"></div></section>",
+  "title": "Genu SIN - Contusio + excor",
+  "shortcut": "gcse",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "neodkladná starostlivosť",
+            "props": {
+              "propValue": "A"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "udretie pri páde a bolesti ľavého kolena<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "vedomie lucídne, orient., poloha aktívna, eupnoe, anikter.<br>acyanot., ľavé koleno bez naplne a balotementu s excoriaciou <br>a palp. alg. v oblasti tuberositas tíbie a prepatelarne, bez NCP, dynamika plná, manevre negat., bez znamok instability<br>RTG : bez TZ na skelete kolena<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S80.0] Pomliaždenie kolena",
+            "props": {
+              "idEzid": "02089492967@12",
+              "id": "S80.0"
+            }
+          },
+          "text": {
+            "value": "Contusio genu l sin",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 13,
+        "order": 4,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S81.0] Otvorená rana kolena",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089493072@12",
+              "id": "S81.0"
+            }
+          },
+          "text": {
+            "value": "Excoriatio genu l sin",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "idClassid": "vykon",
+              "idEzid": "02089714121@14",
+              "id": "15d"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2003] Prvé ošetrenie veľkej rany.",
+            "props": {
+              "propBody": 170,
+              "id": 2003,
+              "idEzid": "00000474304@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 7,
+        "order": 8,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "toaleta, desinf, krytie, band, NSA, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 8,
+        "order": 9,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "kľudový režim s polohovaním končatiny, ko o 7-10 dní<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-rtg": [
+      {
+        "id": 9,
+        "order": 10,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S80.0] Pomliaždenie kolena",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089492967@12",
+              "id": "S80.0"
+            }
+          },
+          "predmet": {
+            "value": "ľ. koleno",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "fract?",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

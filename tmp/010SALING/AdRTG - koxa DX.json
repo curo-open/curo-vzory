@@ -1,0 +1,45 @@
+{
+  "description": "RTG vyšetrenie pr. koxa - RTG coxae dx",
+  "summary": "AdRTG - koxa DX",
+  "content": "<section data-x-id=\"2\" data-type=\"z-rtg\" class=\"\"><aside></aside><label class=\"section-label  \">Žiadanka RTG​:</label>​<label data-for=\"dg_text\" class=\"\">Diagnóza​</label><div class=\"FieldSearch hasActions truncate\" data-name=\"dg_text\" data-id=\"S80.0\" data-id-ezid=\"02089492967@12\" data-id-classid=\"diagnoza\" title=\"[S80.0] Pomliaždenie kolena\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[S80.0] Pomliaždenie kolena</div>​<label data-for=\"predmet\" class=\"\">Ktorá oblasť má byť vyšetrená​</label><div class=\"Field\" data-name=\"predmet\">pr. koleno</div>​<label data-for=\"ocakavanie\" class=\"\">Očakávanie/otázka​</label><div class=\"Field\" data-name=\"ocakavanie\">fract.?</div>​<label data-for=\"epikriza\" class=\" _noval\">Epikríza​</label><div class=\"_noval Field\" data-name=\"epikriza\"></div></section>",
+  "title": "AdRTG - koxa DX",
+  "shortcut": "rtgcdx",
+  "if": "",
+  "data": {
+    "_": {},
+    "z-rtg": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S70.0] Pomliaždenie bedra",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089492058@13",
+              "id": "S70.0"
+            }
+          },
+          "predmet": {
+            "value": "pr. koxa",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "fract.?",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

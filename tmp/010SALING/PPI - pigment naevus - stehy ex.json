@@ -1,0 +1,174 @@
+{
+  "type": null,
+  "summary": "P.P.I. - pigment naevus - stehy ex",
+  "description": "Vybratie stehov z rany zhojenej p.p.i. po exc naevus pigmentosus - NP",
+  "content": "<section data-x-id=\"\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"63\" data-id-ezid=\"00000117556@14\" data-prop-body=\"200\" title=\"[63] D&amp;#xF4;kladn&amp;#xE9; vy&amp;#x161;etrenie jedn&amp;#xE9;ho org&amp;#xE1;nov&amp;#xE9;ho syst&amp;#xE9;mu alebo kontroln&amp;#xE9; vy&amp;#x161;etrenie vr&amp;#xE1;tane r&amp;#xE1;d a dokument&amp;#xE1;cie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"2006\" data-id-ezid=\"00000469270@14\" data-prop-body=\"40\" title=\"[2006] Odstr&amp;#xE1;nenie sut&amp;#xFA;ry alebo svoriek z malej rany, pr&amp;#xED;padne pri viacn&amp;#xE1;sobnom o&amp;#x161;etren&amp;#xED;. Pri odstranovan&amp;#xED; sut&amp;#xFA;ry pri v&amp;#xFD;kone pod k&amp;#xF3;dom 2860 sa v&amp;#xFD;kon pod k&amp;#xF3;dom 2006 vykazuje pre ka&amp;#x17E;d&amp;#xFA; kon&amp;#x10D;atinu najviac &amp;#x161;es&amp;#x165; r\" style=\"width: 50ch;\">[2006] Odstránenie sutúry alebo svoriek z malej rany, prípadne pri viacnásobnom ošetrení. Pri odstranovaní sutúry pri výkone pod kódom 2860 sa výkon pod kódom 2006 vykazuje pre každú končatinu najviac šesť r</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: afebril., ranka nebolí\nO.: orient., poloha akt., eupnoe, anikter., acyanoza\nSPL : sut. ranka po ecízii pigment naevu\nkľudná, zhojená per primam intentionem\nTh.: desinf., stehy ex, krytie band.\nDop.: ko p.p.\n</div></section>",
+  "title": "PPI - pigment naevus - stehy ex",
+  "shortcut": "steppin",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "afebril., ranka nebolí<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "O.: orient., poloha akt., eupnoe, anikter., acyanoza<br>SPL : sut. ranka po ecízii pigment naevu<br>kľudná, zhojená per primam intentionem<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 6,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[D22.9] Melanocytový névus, bližšie neurčený",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089373548@12",
+              "id": "D22.9"
+            }
+          },
+          "text": {
+            "value": "Naevus pigment. reg",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 4,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2006] Odstránenie sutúry alebo svoriek z malej rany, prípadne pri viacnásobnom ošetrení. Pri odstranovaní sutúry pri výkone pod kódom 2860 sa výkon pod kódom 2006 vykazuje pre každú končatinu najviac šesť r",
+            "props": {
+              "propBody": 40,
+              "idEzid": "00000469270@14",
+              "id": 2006
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 8,
+        "order": 7,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "desinf., stehy ex, krytie band.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 9,
+        "order": 8,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko p.p.,<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

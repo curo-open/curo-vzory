@@ -1,0 +1,377 @@
+{
+  "type": null,
+  "summary": "Panaritium DIG I. DX INC",
+  "description": "Panaritium pollicis man l dx - incízia",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-ezid=\"02089412684@12\" data-id=\"L02.4\" title=\"[L02.4] Kožný absces, furunkul a karbunkul končatiny\" style=\"width: 50ch;\">[L02.4] Kožný absces, furunkul a karbunkul končatiny</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000117549@14\" data-id=\"62\" data-prop-body=\"250\" title=\"[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000468728@14\" data-id=\"407\" data-prop-body=\"120\" title=\"[407] Infiltračná anestézia jednej oblasti s použitím lokálneho anestetika v množstve viac ako 5 ml. Tento výkon môže vykazovať lekár so špecializáciou v odbore všeobecné lekárstvo, chirurg, traumatológ, al\" style=\"width: 50ch;\">[407] Infiltračná anestézia jednej oblasti s použitím lokálneho anestetika v množstve viac ako 5 ml. Tento výkon môže vykazovať lekár so špecializáciou v odbore všeobecné lekárstvo, chirurg, traumatológ, al</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000474635@14\" data-id=\"2146\" data-prop-body=\"400\" title=\"[2146] Otvorenie flegmóny alebo excízia karbunkla.\" style=\"width: 50ch;\">[2146] Otvorenie flegmóny alebo excízia karbunkla.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"4\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000467498@14\" data-id=\"200\" data-prop-body=\"70\" title=\"[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni\" style=\"width: 50ch;\">[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"5\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">Subj.: pac. reklamuje bolesti I. prsta pravej ruky\nObj.: vedomie lucídne, orientovaná, poloha aktívna, koža čistá, anikter., acyanot., eupnoe\nSPL: palp. alg. distal. phalangu I. pravej ruky, fluktuacia s hyperemiou okolia\nDg.: Panaritium dig. I. man l dx\nTh.: incízia a ekprimacia v LA l% Mes. 10 ml, toaleta, krytie\nDop.: ko o 1-2 dni, p.p. skôr\n</div></section>",
+  "title": "Panaritium DIG I. DX INC",
+  "shortcut": "pan d1 dx inc",
+  "if": "",
+  "data": {
+    "_": {},
+    "s": [
+      {
+        "id": 6,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac. reklamuje bolesti palca pravej ruky<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 7,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "vedomie lucídne, orientovaná, poloha aktívna, koža čistá, anikter., acyanot., eupnoe<br>SPL: palp. alg. distal. phalangu palca pravej ruky, fluktuacia s hyperemiou okolia<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 8,
+        "order": 2,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[L02.4] Kožný absces, furunkul a karbunkul končatiny",
+            "props": {
+              "id": "L02.4",
+              "idEzid": "02089412684@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "Panaritium pollicis l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 9,
+        "order": 3,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "id": 63,
+              "idEzid": "00000117556@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 10,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[421] Zvodná anestézia prsta na ruke alebo nohe.",
+            "props": {
+              "propBody": 180,
+              "idClassid": "vykon",
+              "idEzid": "00000468751@14",
+              "id": 421
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2146] Otvorenie flegmóny alebo excízia karbunkla.",
+            "props": {
+              "propBody": 400,
+              "id": 2146,
+              "idEzid": "00000474635@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 16,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2030] Zavedenie jedného alebo viacerých drénov do rany.",
+            "props": {
+              "propBody": 30,
+              "id": 2030,
+              "idEzid": "00000474536@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 18,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni",
+            "props": {
+              "propBody": 70,
+              "id": 200,
+              "idEzid": "00000467498@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pl": [
+      {
+        "id": 20,
+        "order": 5,
+        "props": {
+          "type": "pl"
+        },
+        "value": {
+          "id": {
+            "value": "[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)",
+            "props": {
+              "propDpl": 4.37,
+              "propSpUhr": "AS",
+              "propUnit": "DF",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": 0.077,
+              "propVnl": "R",
+              "propCena": 12.07,
+              "propSdl": 100,
+              "propAtcName": "Amidy",
+              "propOl": 0,
+              "id": "00502",
+              "idUl": "",
+              "idAtc": "N01BB",
+              "idSp": "?",
+              "idF": "SOL INJ",
+              "idEzid": "00020288130",
+              "idClassid": "liek"
+            }
+          },
+          "qty": {
+            "value": "10",
+            "props": {
+              "propValue": "10.00"
+            }
+          },
+          "payoff": {
+            "value": "",
+            "props": {}
+          },
+          "dpljed": {
+            "value": "",
+            "props": {}
+          },
+          "dpl": {
+            "value": "4,37",
+            "props": {
+              "propValue": 4.37
+            }
+          },
+          "uhradazp": {
+            "value": "7,7",
+            "props": {
+              "propValue": "7.70"
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "kodl": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 12,
+        "order": 9,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "toaleta, desinf., incízia a ekprimacia v LA l% Mes. 10 ml, toaleta, krytie<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 13,
+        "order": 10,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ATB, ko o 1-2 dni, p.p. skôr, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 14,
+        "order": 11,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[83458] DALACIN C 300 mg | cps dur 16x300 mg (blis.PVC/Al)",
+            "props": {
+              "propDpl": 1.29,
+              "propSpUhr": "S",
+              "propUnit": "DF",
+              "propGp": 1,
+              "propBal": 16,
+              "propUzp_1zvj": 0.966,
+              "propVnl": "R",
+              "propCena": 5.15,
+              "propSdl": 4,
+              "propAtcName": "Klindamycín",
+              "propOl": 0,
+              "id": 83458,
+              "idUl": "",
+              "idAtc": "J01FF01",
+              "idSp": "ora",
+              "idF": "CPS DUR",
+              "idEzid": "00020550232",
+              "idClassid": "liek"
+            }
+          },
+          "schedule": {
+            "value": "á 6 hod. 1 tableta(y) ",
+            "props": {
+              "propType": "PEV2",
+              "propHours": 6,
+              "propUnitsperhour": 1,
+              "propUnit_t": "tableta(y)",
+              "propUnit_id": "TAB",
+              "propWay_code": "",
+              "propPeriod_code": "D",
+              "propPeriod_t": "denne"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "payoff": {
+            "value": "1,29",
+            "props": {
+              "propValue": 1.29
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "Absces"
+  ],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

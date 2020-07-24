@@ -1,0 +1,61 @@
+{
+  "description": "",
+  "summary": "Histológia - PN 1",
+  "content": "<section data-x-id=\"38\" data-type=\"z-histologicky-material\" class=\"can-collapse\"><aside><i class=\"material-icons section-collapse\" title=\"Skryť\">remove_circle</i><i class=\"material-icons section-uncollapse\" title=\"Ukázať\">add_circle</i></aside><label class=\"section-label  \">Sprievodný list k zásielke histologického materiálu​:</label>​<label data-for=\"odoslane\" class=\" _noval\">čas​</label><div class=\"_noval FieldDateTime hasActions\" placeholder=\"DD.MM.RRRR hh:mm\" data-name=\"odoslane\"></div>​<label data-for=\"predmet\" class=\"\">predmet:​</label><div class=\"FieldHtml\" data-name=\"predmet\"></div>​<label data-for=\"fixacia\" class=\"\">fixácia​</label><div class=\"Field\" data-name=\"fixacia\">formalín</div>​<label data-for=\"trvanie\" class=\" _noval\">trvanie​</label><div class=\"_noval Field\" data-name=\"trvanie\"></div>​<label data-for=\"pred_ozarovanie\" class=\" _noval\">ožarovanie​</label><div class=\"_noval Field\" data-name=\"pred_ozarovanie\"></div>​<label data-for=\"pred_vysetrenie\" class=\" _noval\">predchádzajúce vyš.​</label><div class=\"_noval Field\" data-name=\"pred_vysetrenie\"></div>​<label data-for=\"dg\" class=\" _noval\">dg.:​</label><div class=\"_noval FieldSearch hasActions\" data-name=\"dg\"></div>​<label data-for=\"dg_text\" class=\" _noval\">klinická diagnóza:​</label><div class=\"_noval FieldHtml\" data-name=\"dg_text\"></div></section>",
+  "title": "Histológia - PN 1",
+  "shortcut": "histPN1",
+  "if": "",
+  "data": {
+    "_": {},
+    "z-histologicky-material": [
+      {
+        "id": 39,
+        "order": 0,
+        "props": {
+          "type": "z-histologicky-material"
+        },
+        "value": {
+          "odoslane": {
+            "value": "",
+            "props": {}
+          },
+          "predmet": {
+            "value": "Naevus pigment<br>",
+            "props": {}
+          },
+          "fixacia": {
+            "value": "formalín",
+            "props": {}
+          },
+          "trvanie": {
+            "value": "",
+            "props": {}
+          },
+          "pred_ozarovanie": {
+            "value": "",
+            "props": {}
+          },
+          "pred_vysetrenie": {
+            "value": "",
+            "props": {}
+          },
+          "dg": {
+            "value": "[D22.9] Melanocytový névus, bližšie neurčený",
+            "props": {
+              "id": "D22.9",
+              "idEzid": "02089373548@13",
+              "idClassid": "diagnoza"
+            }
+          },
+          "dg_text": {
+            "value": "Naevus pigment<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

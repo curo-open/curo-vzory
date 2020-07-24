@@ -1,0 +1,191 @@
+{
+  "type": null,
+  "summary": "PreKo SUTURA - NnPp 2-3 dní",
+  "description": "Preväz suturovaných rán po excízii pig. naevov",
+  "content": "<section data-x-id=\"\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"63\" data-id-ezid=\"00000117556@14\" data-prop-body=\"200\" title=\"[63] D&amp;#xF4;kladn&amp;#xE9; vy&amp;#x161;etrenie jedn&amp;#xE9;ho org&amp;#xE1;nov&amp;#xE9;ho syst&amp;#xE9;mu alebo kontroln&amp;#xE9; vy&amp;#x161;etrenie vr&amp;#xE1;tane r&amp;#xE1;d a dokument&amp;#xE1;cie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"2018\" data-id-ezid=\"00000474460@14\" data-prop-body=\"150\" title=\"[2018] O&amp;#x161;etrenie malej rany hojacej sa per secundam.\" style=\"width: 50ch;\">[2018] Ošetrenie malej rany hojacej sa per secundam.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"200\" data-id-ezid=\"00000467498@14\" data-prop-body=\"70\" title=\"[200] Obv&amp;#xE4;z s v&amp;#xFD;nimkou r&amp;#xFD;chlych obv&amp;#xE4;zov a sprejov, o&amp;#x10D;n&amp;#xFD;ch a u&amp;#x161;n&amp;#xFD;ch klapiek, trojuholn&amp;#xED;kov&amp;#xFD;ch &amp;#x161;atiek, hotov&amp;#xFD;ch n&amp;#xE1;plast&amp;#xED; alebo hotov&amp;#xFD;ch kravatov&amp;#xFD;ch obv&amp;#xE4;zov na rany. Obv&amp;#xE4;zy pod&amp;#x13E;a v&amp;#xFD;konu pod k&amp;#xF3;dom 200 sa nem&amp;#xF4;&amp;#x17E;u nevykazova&amp;#x165;, ke&amp;#x10F; sl&amp;#xFA;&amp;#x17E;ia na krytie r&amp;#xE1;n, ktor&amp;#xE9; vzni\" style=\"width: 50ch;\">[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: afebrilný, bolesti neguje\nO.: orient., eupnoe, anikter, acyanoza\nSPL.: suturované rany po excízii pigment naevov s primeraným hojením, bez inflam a secer., haematom subcut v resorpcii\nTh.: desinf. rán, krytie\nDop.: ko o 3-5 dní, p.p. skôr\n</div></section>",
+  "title": "PreKo SUTURA - NnPp 2-3 dní",
+  "shortcut": "psrrn23",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "afebrilný, bolesti neguje<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "O.: orient., eupnoe, anikter, acyanoza<br>SPL.: suturované rany po excízii pigment naevov s primeraným hojením, bez inflam a secer., haematom subcut v resorpcii<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 7,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 12,
+        "order": 4,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 4,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2018] Ošetrenie malej rany hojacej sa per secundam.",
+            "props": {
+              "propBody": 150,
+              "idEzid": "00000474460@14",
+              "id": 2018
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni",
+            "props": {
+              "propBody": 70,
+              "idEzid": "00000467498@14",
+              "id": 200
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 9,
+        "order": 8,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "desinf. rán, krytie<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 10,
+        "order": 9,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o 2-3 dni, p.p. skôr<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

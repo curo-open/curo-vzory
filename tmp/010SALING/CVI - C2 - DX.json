@@ -1,0 +1,266 @@
+{
+  "description": "Chronická venózna insuficiencia  C2 vpravo - cievy",
+  "type": null,
+  "summary": "CVI - C2 - DX",
+  "content": "<section data-x-id=\"4\" data-type=\"od\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"_noval FieldList hasActions _focus\" data-name=\"reason\"></div>​<label data-for=\"datum\" class=\"_noval hidden\">zo dňa​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"datumVyziadania\" class=\"_noval hidden\">dátum vyžiadania​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datumVyziadania\"></div>​<label data-for=\"id\" class=\"_noval hidden\">identifikátor​</label><div class=\"_noval Field hidden\" data-name=\"id\"></div></section><section data-x-id=\"5\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\">pac. udáva kŕče, bolesť, pocit ťažkých nôh a intermitentne pálenie DK<br></div></section><section data-x-id=\"6\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\">orient., poloha akt., eupnoe, anikter., acyanoza, chôdza bez napadania, obe DK bez edemu, lýtka volné, palp. nebolestivé, perif. pulz. hmatné na ADP aj ATP obojstranne, Lowemberg bilat negat., Homans bilat negat., Plant Sy bilat negat., obe predkolenia bez varikozít<br></div></section><section data-x-id=\"1\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"I83.9\" data-id-ezid=\"02089402677@12\" title=\"[I83.9] Varixy dolných končatín bez vredu alebo zápalu\" style=\"width: 50ch;\">[I83.9] Varixy dolných končatín bez vredu alebo zápalu</div>​<label data-for=\"text\" class=\"\">/​</label><div class=\"Field minor\" data-name=\"text\">CVI - C0 - bilat</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"62\" data-id-ezid=\"00000117549@14\" data-prop-body=\"250\" title=\"[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"7\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"FieldHtml\" data-name=\"th\">venotoniká<br></div></section><section data-x-id=\"10\" data-type=\"r\" class=\"\"><aside></aside><label class=\"section-label  has-info\">R​:</label><div class=\"FieldSearch hasActions highlight-bold truncate\" data-name=\"id\" data-id-classid=\"liek\" data-id-ezid=\"00021260302\" data-id-f=\"TBL\" data-id-sp=\"ora\" data-id-atc=\"C05CA03\" data-id-ul=\"diosminum\" data-id=\"5037C\" data-prop-ol=\"0\" data-prop-atc-name=\"Diozmín\" data-prop-vnl=\"R\" data-prop-bal=\"90\" data-prop-gp=\"0\" data-prop-unit=\"DF\" title=\"[5037C] Flebaven 1 000 mg tablety | tbl 90x1000 mg (blis.PVC/PVDC/Al)\" style=\"width: 50ch;\">[5037C] Flebaven 1 000 mg tablety | tbl 90x1000 mg (blis.PVC/PVDC/Al)</div>​<label data-for=\"schedule\" class=\"\">dáv.​</label><div class=\"FieldMedicationSchedule hasActions\" data-name=\"schedule\" data-prop-way_code=\"\" data-prop-period_t=\"denne\" data-prop-period_code=\"D\" data-prop-parts_sleep-time=\"0\" data-prop-parts_evening=\"1\" data-prop-parts_noon=\"0\" data-prop-parts_morning=\"1\" data-prop-type=\"PEV1\">1-0-1-0, denne</div>​<label data-for=\"qty\" class=\"\"># bal.​</label><div class=\"FieldR hasActions\" data-name=\"qty\" data-prop-value=\"1.00\">1</div>​<label data-for=\"repeatCount\" class=\" _noval\">rep.​</label><div class=\"_noval FieldN hasActions\" data-name=\"repeatCount\"></div>​<label data-for=\"repeatAfter\" class=\"ss hidden\">dní medzi výberom​</label><div class=\"FieldN ss hidden\" data-name=\"repeatAfter\">30</div>​<label data-for=\"repeatLast\" class=\"ss _noval hidden\">posledný výber​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"repeatLast\"></div>​<label data-for=\"recommendedBy\" class=\"ss _noval\">odp. lek.​</label><div class=\"_noval FieldSearchLekar hasActions ss\" data-name=\"recommendedBy\"></div>​<label data-for=\"recommendedDate\" class=\"ss _noval hidden\">dátum odp.​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"recommendedDate\"></div>​<label data-for=\"untilDate\" class=\"ss _noval hidden\">platné do​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"untilDate\"></div>​<label data-for=\"noReplacement\" class=\"ss _noval hidden\">náhrada​</label><div class=\"_noval FieldSwitchLogical hasActions ss hidden\" data-name=\"noReplacement\" data-prop-value=\"0\">nie</div>​<label data-for=\"payoff\" class=\"ss\">doplatok​</label><div class=\"FieldR locked ss\" data-name=\"payoff\" data-prop-value=\"0.00\">0</div>​<label data-for=\"atc\" class=\"ss\">cez ATC​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"atc\" data-prop-value=\"0\">nie</div>​<label data-for=\"instruction\" class=\"ss _noval\">inštrukcie​</label><div class=\"_noval Field ss\" data-name=\"instruction\"></div>​<label data-for=\"reasonPayoff\" class=\"ss _noval\">uhradí​</label><div class=\"_noval FieldSwitch hasActions ss\" data-name=\"reasonPayoff\"></div>​<label data-for=\"prodException\" class=\"ss\">výnimka​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"prodException\" data-prop-value=\"0\">nie</div>​<label data-for=\"force\" class=\"ss\">vyn. zápis​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"force\" data-prop-value=\"0\">nie</div>​<label data-for=\"forceReason\" class=\"ss _noval hidden\">dôvod v.z.​</label><div class=\"_noval Field ss hidden\" data-name=\"forceReason\"></div>​<label data-for=\"barcode\" class=\"_noval hidden\">čiarový kód​</label><div class=\"_noval Field readonly dontCopy hidden\" data-name=\"barcode\"></div>​<label data-for=\"note_zp\" class=\"ss _noval hidden\">poznámka ZP​</label><div class=\"_noval Field readonly dontCopy ss hidden\" data-name=\"note_zp\"></div>​<label data-for=\"status\" class=\"invisible ss\">stav​</label><div class=\"FieldN readonly dontCopy invisible ss\" data-name=\"status\">0</div></section><section data-x-id=\"8\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\">USG vyš HŽS, ko o 10-14 dní<br></div></section><section data-x-id=\"12\" data-type=\"z-ultrazvukove-vysetrenie\" class=\"\"><aside></aside><label class=\"section-label  \">Sprievodný list na ultrazvukové vyšetrenie​:</label>​<label data-for=\"dg\" class=\"\">dg.:​</label><div class=\"FieldSearch hasActions truncate\" data-name=\"dg\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089402677@12\" data-id=\"I83.9\" title=\"[I83.9] Varixy dolných končatín bez vredu alebo zápalu\" style=\"width: 50ch;\">[I83.9] Varixy dolných končatín bez vredu alebo zápalu</div>​<label data-for=\"anamneza\" class=\"\">anamnéza​</label><div class=\"Field\" data-name=\"anamneza\">bolesti DKK</div>​<label data-for=\"vysledky\" class=\" _noval\">vyšetrenia​</label><div class=\"_noval Field\" data-name=\"vysledky\"></div>​<label data-for=\"pred\" class=\" _noval\">predchádzajúce ultra.​</label><div class=\"_noval Field\" data-name=\"pred\"></div>​<label data-for=\"predmet\" class=\"\">predmet/vyšetrovaná oblasť​</label><div class=\"Field\" data-name=\"predmet\">HVS oboch DKK</div>​<label data-for=\"ocakavanie\" class=\"\">očakávanie/otázka​</label><div class=\"Field\" data-name=\"ocakavanie\">CVI</div></section>",
+  "title": "CVI - C2 - DX",
+  "shortcut": "cvic2d",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac. udáva kŕče, bolesť, pocit ťažkej nohy a intermitentne pálenie PDK<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "O.: orient., poloha akt., eupnoe, anikter., acyanoza, chôdza bez napadania, <br>SPL : pr. DK bez perimalleolar edemu, Homans bilat negat., Lowemberg bilat negat., perif. pulz na ADP a ATP dobre hmatné, v povodí VSM vpravo na distal. predkolení medialne pod kožou palpovatelné kmeňové varixy, palp. aktualne bolestivé, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 1,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[I83.9] Varixy dolných končatín bez vredu alebo zápalu",
+            "props": {
+              "id": "I83.9",
+              "idEzid": "02089402677@12"
+            }
+          },
+          "text": {
+            "value": "Varices cruris l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 2,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "id": 62,
+              "idEzid": "00000117549@14"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 7,
+        "order": 5,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "venotoniká<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 10,
+        "order": 6,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[5037C] Flebaven 1 000 mg tablety | tbl 90x1000 mg (blis.PVC/PVDC/Al)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Diozmín",
+              "propVnl": "R",
+              "propBal": 90,
+              "propGp": 0,
+              "propUnit": "DF",
+              "idClassid": "liek",
+              "idEzid": "00021260302",
+              "idF": "TBL",
+              "idSp": "ora",
+              "idAtc": "C05CA03",
+              "idUl": "diosminum",
+              "id": "5037C"
+            }
+          },
+          "schedule": {
+            "value": "1-0-1-0, denne",
+            "props": {
+              "propWay_code": "",
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propParts_sleepTime": 0,
+              "propParts_evening": 1,
+              "propParts_noon": 0,
+              "propParts_morning": 1,
+              "propType": "PEV1"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 8,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "USG vyš HŽS, ko o 10-14 dní<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-ultrazvukove-vysetrenie": [
+      {
+        "id": 12,
+        "order": 8,
+        "props": {
+          "type": "z-ultrazvukove-vysetrenie"
+        },
+        "value": {
+          "dg": {
+            "value": "[I83.9] Varixy dolných končatín bez vredu alebo zápalu",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089402677@12",
+              "id": "I83.9"
+            }
+          },
+          "anamneza": {
+            "value": "bolesti DKK",
+            "props": {}
+          },
+          "vysledky": {
+            "value": "",
+            "props": {}
+          },
+          "pred": {
+            "value": "",
+            "props": {}
+          },
+          "predmet": {
+            "value": "HVS oboch DKK",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "CVI",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

@@ -1,0 +1,188 @@
+{
+  "description": "Pohmoždenie pravého predkolenia",
+  "type": null,
+  "summary": "Cruris l DX - Contusio",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate _focus\" data-name=\"id\" data-id=\"S80.1\" data-id-ezid=\"02089492975@12\" title=\"[S80.1] Pomlia&amp;#x17E;denie in&amp;#xFD;ch a bli&amp;#x17E;&amp;#x161;ie neur&amp;#x10D;en&amp;#xFD;ch &amp;#x10D;ast&amp;#xED; predkolenia\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[S80.1] Pomliaždenie iných a bližšie neurčených častí predkolenia</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"62\" data-id-ezid=\"00000117549@14\" data-prop-body=\"250\" title=\"[62] Cielen&amp;#xE9; vy&amp;#x161;etrenie dvoch alebo viacer&amp;#xFD;ch org&amp;#xE1;nov&amp;#xFD;ch syst&amp;#xE9;mov alebo dispenz&amp;#xE1;rna kontrola (cielen&amp;#xE1; anamn&amp;#xE9;za, resp. anamn&amp;#xE9;za od poslednej kontroly), popis subjekt&amp;#xED;vnych obtia&amp;#x17E;&amp;#xED;, objekt&amp;#xED;vny n&amp;#xE1;lez, vyp&amp;#xED;sanie spr&amp;#xE1;vy, z&amp;#xE1;ver, vypracovanie pl&amp;#xE1;nu do nasleduj&amp;#xFA;c\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"204\" data-id-ezid=\"00000467514@14\" data-prop-body=\"100\" title=\"[204] Cirkul&amp;#xE1;rny obv&amp;#xE4;z hlavy, drieku, stabilizuj&amp;#xFA;ci obv&amp;#xE4;z krku, ramenn&amp;#xE9;ho alebo bedrov&amp;#xE9;ho k&amp;#x13A;bu alebo jednej kon&amp;#x10D;atiny cez najmenej dva k&amp;#x13A;by ako obv&amp;#xE4;z rany alebo na uvedenie kon&amp;#x10D;atiny do pokojn&amp;#xE9;ho stavu, ale\" style=\"width: 50ch;\">[204] Cirkulárny obväz hlavy, drieku, stabilizujúci obväz krku, ramenného alebo bedrového kĺbu alebo jednej končatiny cez najmenej dva kĺby ako obväz rany alebo na uvedenie končatiny do pokojného stavu, ale</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: pac. reklamuje bolesti pravého predkolenia po udretí, zakopnutí\nO.: orient., poloha akt., eupnoe, anikter., acyanoza, koža čistá, anikter.\nna pravom predkolení edem, hyperemia a palp. alg. v strednej 1/3 pr.\npredkolenia, bez NCP, dynamika v pr. kolennom a TC zhybe plná, bez krepitu a dekonfiguracie\nDg.: Contusio cruris l dx\nTh.: analget., ko o tyž.\n\n</div></section>",
+  "title": "Cruris l DX - Contusio",
+  "shortcut": "crucd",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bolesti pravého predkolenia po udretí<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanoza, koža čistá, anikter.<br>na pravom predkolení edem, hyperemia a palp. alg. v strednej 1/3 pr.<br>predkolenia, bez NCP, dynamika v pr. kolennom a TC zhybe plná, bez krepitu a dekonfiguracie <br>RTG: bez TZ na skelete<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S80.1] Pomliaždenie iných a bližšie neurčených častí predkolenia",
+            "props": {
+              "id": "S80.1",
+              "idEzid": "02089492975@12"
+            }
+          },
+          "text": {
+            "value": "Contusio cruris l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "id": 62,
+              "idEzid": "00000117549@14"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "id": "15d",
+              "idEzid": "02089714121@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 8,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "telesné šetrenie s polohovaním končatiny, analget., ko o tyž.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-rtg": [
+      {
+        "id": 9,
+        "order": 8,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S80.1] Pomliaždenie iných a bližšie neurčených častí predkolenia",
+            "props": {
+              "id": "S80.1",
+              "idEzid": "02089492975@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "predmet": {
+            "value": "pr. predkolenie",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "Fract?",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

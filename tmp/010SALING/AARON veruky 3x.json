@@ -1,0 +1,398 @@
+{
+  "type": null,
+  "summary": "AARON veruky 3x",
+  "description": "AARON veruky 3x",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"D21.0\" data-id-ezid=\"02089373373@12\" title=\"[D21.0] Nezhubn&amp;#xFD; n&amp;#xE1;dor spojivov&amp;#xE9;ho a in&amp;#xE9;ho m&amp;#xE4;kk&amp;#xE9;ho tkaniva hlavy, tv&amp;#xE1;re a krku\" style=\"width: 50ch;\">[D21.0] Nezhubný nádor spojivového a iného mäkkého tkaniva hlavy, tváre a krku</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"63\" data-id-ezid=\"00000117556@14\" data-prop-body=\"200\" title=\"[63] D&amp;#xF4;kladn&amp;#xE9; vy&amp;#x161;etrenie jedn&amp;#xE9;ho org&amp;#xE1;nov&amp;#xE9;ho syst&amp;#xE9;mu alebo kontroln&amp;#xE9; vy&amp;#x161;etrenie vr&amp;#xE1;tane r&amp;#xE1;d a dokument&amp;#xE1;cie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"406\" data-id-ezid=\"00000468710@14\" data-prop-body=\"100\" title=\"[406] Infiltra&amp;#x10D;n&amp;#xE1; anest&amp;#xE9;zia jednej oblasti s pou&amp;#x17E;it&amp;#xED;m lok&amp;#xE1;lneho anestetika v mno&amp;#x17E;stve do 5 ml.\" style=\"width: 50ch;\">[406] Infiltračná anestézia jednej oblasti s použitím lokálneho anestetika v množstve do 5 ml.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"2100\" data-id-ezid=\"00000474544@14\" data-prop-body=\"160\" title=\"[2100] Exc&amp;#xED;zia mal&amp;#xE9;ho k&amp;#xFA;ska sliznice alebo ko&amp;#x17E;e (mal&amp;#xFD; ben&amp;#xED;gny tumor, napr&amp;#xED;klad epulis, hyperpl&amp;#xE1;zia, leukoplakia, probat&amp;#xF3;rna exc&amp;#xED;zia) alebo exc&amp;#xED;zia mal&amp;#xE9;ho, v ko&amp;#x17E;i ulo&amp;#x17E;en&amp;#xE9;ho n&amp;#xE1;doru.\" style=\"width: 50ch;\">[2100] Excízia malého kúska sliznice alebo kože (malý benígny tumor, napríklad epulis, hyperplázia, leukoplakia, probatórna excízia) alebo excízia malého, v koži uloženého nádoru.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"4\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: reklamuje TU - verukózne naevy v oblasti\nO.: orient., poloha akt., eupnoe, anikter., acyanoza\nSPL : verukózne naevy seu verruky elastickej konzistencie na širokej stopke v oblasti\nDg.: naevus verrucosus\nTh.: LA 1% Mes. 10 ml, excísio in toto - elektrokoagulačným nožom AARON 940, krytie, band.\n</div></section>",
+  "title": "AARON veruky 3x",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 19,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "aa": [
+      {
+        "id": 16,
+        "order": 1,
+        "props": {
+          "type": "aa"
+        },
+        "value": {
+          "text": {
+            "value": "alergiu na lieky resp. Mesocain inj neguje<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "reklamuje a praje si odstrániť TU - verukózne naevy v oblasti<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 6,
+        "order": 3,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "O.: orient., poloha akt., eupnoe, anikter., acyanoza<br>SPL : verukózne naevy seu verruky elastickej konzistencie na širokej stopke v oblasti<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 7,
+        "order": 4,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[D21.9] Nezhubný nádor spojivového a iného mäkkého tkaniva, bližšie neurčený",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089373449@12",
+              "id": "D21.9"
+            }
+          },
+          "text": {
+            "value": "Naevus verrucosus reg",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 8,
+        "order": 5,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[D21.9] Nezhubný nádor spojivového a iného mäkkého tkaniva, bližšie neurčený",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089373449@12",
+              "id": "D21.9"
+            }
+          },
+          "text": {
+            "value": "Naevus verrucosus reg",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 17,
+        "order": 6,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[D21.9] Nezhubný nádor spojivového a iného mäkkého tkaniva, bližšie neurčený",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089373449@12",
+              "id": "D21.9"
+            }
+          },
+          "text": {
+            "value": "Naevus verrucosus reg",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 9,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "id": 63,
+              "idEzid": "00000117556@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 10,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[410] Lokálna anestézia pri bolestivom ošetrení, pri jednom ošetrení. Tento výkon môže vykazovať lekár so špecializáciou v odbore všeobecné lekárstvo, chirurg, traumatológ, algeziológ alebo lekári ostatných",
+            "props": {
+              "propBody": 110,
+              "id": 410,
+              "idEzid": "00000468736@15",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "3",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 10,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2100] Excízia malého kúska sliznice alebo kože (malý benígny tumor, napríklad epulis, hyperplázia, leukoplakia, probatórna excízia) alebo excízia malého, v koži uloženého nádoru.",
+            "props": {
+              "propBody": 160,
+              "id": 2100,
+              "idEzid": "00000474544@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "3",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pl": [
+      {
+        "id": 13,
+        "order": 9,
+        "props": {
+          "type": "pl"
+        },
+        "value": {
+          "id": {
+            "value": "[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)",
+            "props": {
+              "propDpl": 4.37,
+              "propSpUhr": "AS",
+              "propUnit": "DF",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": 0.077,
+              "propVnl": "R",
+              "propCena": 12.07,
+              "propSdl": 100,
+              "propAtcName": "Amidy",
+              "propOl": 0,
+              "id": "00502",
+              "idUl": "",
+              "idAtc": "N01BB",
+              "idSp": "?",
+              "idF": "SOL INJ",
+              "idEzid": "00020288130",
+              "idClassid": "liek"
+            }
+          },
+          "qty": {
+            "value": "15",
+            "props": {
+              "propValue": "15.00"
+            }
+          },
+          "payoff": {
+            "value": "",
+            "props": {}
+          },
+          "dpljed": {
+            "value": "",
+            "props": {}
+          },
+          "dpl": {
+            "value": "6,55",
+            "props": {
+              "propValue": 6.55
+            }
+          },
+          "uhradazp": {
+            "value": "11,55",
+            "props": {
+              "propValue": 11.55
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "kodl": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 12,
+        "order": 11,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": " toaleta, desinf., LA 1% Mes 10 ml, 3x elektroexcisio in toto, krytie, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 14,
+        "order": 12,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "telesné šetrenie, lokal. Ialugen crm lokal., ko o 2-3 tyž., p.p. <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 15,
+        "order": 13,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[55951] Ialugen Plus | crm der 1x20 g (tuba Al)",
+            "props": {
+              "propSpUhr": "S",
+              "propUnit": "DF",
+              "propGp": 0,
+              "propBal": 1,
+              "propVnl": "F",
+              "propCena": 4.59,
+              "propSdl": 20,
+              "propAtcName": "Sulfadiazín, strieborná soľ, kombinácie",
+              "propOl": 0,
+              "id": 55951,
+              "idUl": "sulfadiazinum argenteum",
+              "idAtc": "D06BA51",
+              "idSp": "cut",
+              "idF": "CRM DER",
+              "idEzid": "00020614756",
+              "idClassid": "liek"
+            }
+          },
+          "schedule": {
+            "value": "podľa doporučenia",
+            "props": {
+              "propType": "DOP",
+              "propText": "",
+              "propPeriod_code": "D",
+              "propPeriod_t": "denne",
+              "propWay_code": ""
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "shortcut": "av3",
+  "source": "curo-open/curo-vzory#/010SALING"
+}

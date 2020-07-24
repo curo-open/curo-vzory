@@ -1,0 +1,321 @@
+{
+  "type": null,
+  "summary": "Naevi pigmentosi 2x - excisio",
+  "description": "Pigmentové névy 2x",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">Pac. odoslaný DER. na excíziu pigment. naevov\nAA : alergiu na Mesocain neudáva\nS : reklamuje materské znamienka v oblasti\nO : orient., poloha akt., eupnoe, anikterus, acyanoza\nlokal.: naevus pigment. reg.\nTh.: excisio in toto v LA l% Mes.10 ml, sutura AT, krytie\nko o tyž., p.p. skôr\n</div></section>",
+  "title": "Naevi pigmentosi 2x - excisio",
+  "shortcut": "np2",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 25,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "[A35946018/P18042018201] JEŽÍKOVÁ Dušana",
+            "props": {
+              "propValue": "O",
+              "idClassid": "lekar",
+              "idPsc": 96001,
+              "idPzs": "P18042018201",
+              "idOdb": "018",
+              "idEzid": "00020091351",
+              "id": "A35946018"
+            }
+          },
+          "datum": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "aa": [
+      {
+        "id": 26,
+        "order": 1,
+        "props": {
+          "type": "aa"
+        },
+        "value": {
+          "text": {
+            "value": "alergiu na Mesocain inj <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 27,
+        "order": 2,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac odoslaná DER na ext. PN, udáva materské znamienka v oblasti<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 28,
+        "order": 3,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., eupnoe, anikter., acyanóza, poloha akt.,<br>SPL:  pig. naevy v oblasti<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 29,
+        "order": 4,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[D22.9] Melanocytový névus, bližšie neurčený",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089373548@12",
+              "id": "D22.9"
+            }
+          },
+          "text": {
+            "value": "Naevus pigment. reg",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 37,
+        "order": 5,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[D22.9] Melanocytový névus, bližšie neurčený",
+            "props": {
+              "id": "D22.9",
+              "idEzid": "02089373548@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "Naevus pigment. reg",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 30,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "id": 63,
+              "idEzid": "00000117556@14"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 31,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[410] Lokálna anestézia pri bolestivom ošetrení, pri jednom ošetrení. Tento výkon môže vykazovať lekár so špecializáciou v odbore všeobecné lekárstvo, chirurg, traumatológ, algeziológ alebo lekári ostatných",
+            "props": {
+              "propBody": 110,
+              "id": 410,
+              "idEzid": "00000468736@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "2",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 32,
+        "order": 9,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2100] Excízia malého kúska sliznice alebo kože (malý benígny tumor, napríklad epulis, hyperplázia, leukoplakia, probatórna excízia) alebo excízia malého, v koži uloženého nádoru.",
+            "props": {
+              "propBody": 160,
+              "idClassid": "vykon",
+              "idEzid": "00000474544@14",
+              "id": 2100
+            }
+          },
+          "count": {
+            "value": "2",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 33,
+        "order": 10,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni",
+            "props": {
+              "propBody": 70,
+              "idClassid": "vykon",
+              "id": 200,
+              "idEzid": "00000467498@14"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pl": [
+      {
+        "id": 35,
+        "order": 8,
+        "props": {
+          "type": "pl"
+        },
+        "value": {
+          "id": {
+            "value": "[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)",
+            "props": {
+              "propDpl": 4.37,
+              "propSpUhr": "AS",
+              "propUnit": "DF",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": 0.077,
+              "propVnl": "R",
+              "propCena": 12.07,
+              "propSdl": 100,
+              "propAtcName": "Amidy",
+              "propOl": 0,
+              "id": "00502",
+              "idUl": "",
+              "idAtc": "N01BB",
+              "idSp": "?",
+              "idF": "SOL INJ",
+              "idEzid": "00020288130",
+              "idClassid": "liek"
+            }
+          },
+          "qty": {
+            "value": "10",
+            "props": {
+              "propValue": "10.00"
+            }
+          },
+          "payoff": {
+            "value": "",
+            "props": {}
+          },
+          "dpljed": {
+            "value": "",
+            "props": {}
+          },
+          "dpl": {
+            "value": "4,37",
+            "props": {
+              "propValue": 4.37
+            }
+          },
+          "uhradazp": {
+            "value": "7,7",
+            "props": {
+              "propValue": "7.70"
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "kodl": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 34,
+        "order": 11,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "toaleta, desinf., LA 1 % Mes. 10 ml, 2x excisio in toto, sutura, krytie, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 36,
+        "order": 12,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o 2-3 dni, stehy ex o 7-10 dní, ko p.p. kedykoľvek, <br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "excizie"
+  ],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

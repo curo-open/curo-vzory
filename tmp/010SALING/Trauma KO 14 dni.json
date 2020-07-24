@@ -1,0 +1,113 @@
+{
+  "type": null,
+  "summary": "Trauma KO 14 dni",
+  "description": "trauma všeob - ko o 2 tyž",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: pac. sa cíti lepšie, bez febrilít, udáva mierne pobolievanie v mieste poranenia\nO.: orient., poloha aktívna, eupnoe, anikter., acyanoza, palp. alg. v mieste poranenia miernejšia, ustupujúci edém, stav zlepšený, bez NCP\nDop.: pokračovať v liečbe, ko o 14 dní\n</div></section>",
+  "title": "Trauma KO 14 dni",
+  "shortcut": "t14d",
+  "if": "",
+  "data": {
+    "_": {},
+    "s": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac. sa cíti lepšie, bez febrilít, udáva mierne pobolievanie v mieste poranenia<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha aktívna, eupnoe, anikter., acyanoza, palp. alg. v mieste poranenia miernejšia, ustupujúci edém, stav zlepšený, bez NCP<br>Dop.: pokračovať v liečbe, ko o 14 dní<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 8,
+        "order": 3,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 10,
+        "order": 4,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 4,
+        "order": 5,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

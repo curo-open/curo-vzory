@@ -1,0 +1,233 @@
+{
+  "type": null,
+  "summary": "Genu DX - Distorsio + Laesio MM",
+  "description": "Podvrtnutie pravého kolena s léziou med. menisku",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-ezid=\"02089493510@12\" data-id=\"S83.2\" title=\"[S83.2] Trhlina menisku, akútna\" style=\"width: 50ch;\">[S83.2] Trhlina menisku, akútna</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000117549@14\" data-id=\"62\" data-prop-body=\"250\" title=\"[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000467530@14\" data-id=\"207\" data-prop-body=\"120\" title=\"[207] Spevňujúci náplastový obväz veľkého kĺbu.\" style=\"width: 50ch;\">[207] Spevňujúci náplastový obväz veľkého kĺbu.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">Subj.: pac. reklamuje bolesti ľavého/pravého kolena po podvrtnutí pri páde\nObj.: vedomie lucídne, poloha aktívna, chôdza s napadaním na ľ/pDK, ľavé / pravé koleno bez naplne a balotementu pately s palp. alg. medial. štrbiny, Steinman pozit na leziu med. men., bez znamok instability, zasuvky negat., Lachman negat.\nRTG : neindikované\nDg.: Dist. genus l sin / dx, Laesio men. med l sin / dx\nTh : analgetiká\nDop.: kľudový režim s polohovaním končatiny, ortéza, ko o tyž., p.p.skôr\n</div></section>",
+  "title": "Genu DX - Distorsio + Laesio MM",
+  "shortcut": "gdMMd",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "neodkladná starostlivosť",
+            "props": {
+              "propValue": "A"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac. reklamuje bolesti pravého kolena po podvrtnutí<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "vedomie lucídne, poloha aktívna, chôdza s napadaním na pDK, pravé koleno bez naplne a balotementu pately s palp. alg. medial. štrbiny, Steinman pozit na leziu med. men., bez znamok instability, zasuvky negat., Lachman negat.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pv": [
+      {
+        "id": 7,
+        "order": 3,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "RTG",
+            "props": {
+              "propValue": "RTG"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "bez TZ na skelete pr. kolena<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 8,
+        "order": 4,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S83.6] Vyvrtnutie a natiahnutie inej a bližšie neurčenej časti kolena",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089493650@12",
+              "id": "S83.6"
+            }
+          },
+          "text": {
+            "value": "Distorsio genu l dx",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 15,
+        "order": 5,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S83.2] Trhlina menisku, akútna",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089493510@12",
+              "id": "S83.2"
+            }
+          },
+          "text": {
+            "value": "Laesio MM genu l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 9,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "idClassid": "vykon",
+              "idEzid": "00000117549@14",
+              "id": 62
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 10,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "idClassid": "vykon",
+              "idEzid": "02089714121@14",
+              "id": "15d"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni",
+            "props": {
+              "propBody": 70,
+              "idClassid": "vykon",
+              "idEzid": "00000467498@14",
+              "id": 200
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 12,
+        "order": 9,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "analgetiká, band.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 13,
+        "order": 10,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "telesné šetrenie, kľudový režim s polohovaním končatiny, ko o tyž.<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

@@ -1,0 +1,285 @@
+{
+  "description": "Pohmoženie pravej strany hrudníka",
+  "type": null,
+  "summary": "Thorax MED l DX - Contusio",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate _focus\" data-name=\"id\" data-id=\"S20.0\" data-id-ezid=\"02089485151@12\" title=\"[S20.0] Pomlia&amp;#x17E;denie prsn&amp;#xED;ka\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[S20.0] Pomliaždenie prsníka</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"62\" data-id-ezid=\"00000117549@14\" data-prop-body=\"250\" title=\"[62] Cielen&amp;#xE9; vy&amp;#x161;etrenie dvoch alebo viacer&amp;#xFD;ch org&amp;#xE1;nov&amp;#xFD;ch syst&amp;#xE9;mov alebo dispenz&amp;#xE1;rna kontrola (cielen&amp;#xE1; anamn&amp;#xE9;za, resp. anamn&amp;#xE9;za od poslednej kontroly), popis subjekt&amp;#xED;vnych obtia&amp;#x17E;&amp;#xED;, objekt&amp;#xED;vny n&amp;#xE1;lez, vyp&amp;#xED;sanie spr&amp;#xE1;vy, z&amp;#xE1;ver, vypracovanie pl&amp;#xE1;nu do nasleduj&amp;#xFA;c\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"15d\" data-id-ezid=\"02089714121@14\" data-prop-body=\"150\" title=\"[15d] Zhodnotenie rtg dokument&amp;#xE1;cie, ak nie je vykonan&amp;#xE9; pracoviskom RTG, vr&amp;#xE1;tane popisu v zdravotnej dokument&amp;#xE1;cii.\" style=\"width: 50ch;\">[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">Subj.: pac. reklamuje bolesti hrudníka po udretí, bolesti pri zakašľaní, dýcha sa mu dobre\nObj.: orientovaný, poloha aktívna, koža čistá, anikter., acyanot., eupnoe, hrudník klenutý, súmerný, stabilný v oboch smeroch, bez krepitu, palp. alg. stredná 1/3 pravého hemithoraxu v MCČ a parasternalne, dýchanie vezikulárne, čisté, symetrické\nRTG : bez traumat. zmien na skelete hrudníka, bez PNO\nDg.: Contusio thoracis l dx\nTh.: NSA\nDop.: telesné šetrenie, kľudový režim, ko o tyž.\n</div></section>",
+  "title": "Thorax MED l DX - Contusio",
+  "shortcut": "ThMcd",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac. reklamuje bolesti hrudníka po udretí, bolesti pri zakašľaní, dýcha sa mu dobre<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orientovaný, poloha aktívna, koža čistá, anikter., acyanot., eupnoe, hrudník klenutý, súmerný, stabilný v oboch smeroch, bez krepitu, palp. alg. stredná 1/3 pravého hemithoraxu v MCČ a parasternalne, dýchanie vezikulárne, čisté, symetrické<br>RTG : bez traumat. zmien na skelete hrudníka, bez PNO<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S20.2] Pomliaždenie hrudníka",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089485235@12",
+              "id": "S20.2"
+            }
+          },
+          "text": {
+            "value": "Contusio thoracis l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "idEzid": "00000117549@14",
+              "id": 62
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "idEzid": "02089714121@14",
+              "id": "15d"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "NSA<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 11,
+        "order": 7,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[07226] Dexadol 25 mg gro por | gro por 10x25 mg (vre. Al/PE)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Dexketoprofen",
+              "propSdl": 3.333,
+              "propCena": 3.74,
+              "propVnl": "R",
+              "propUzp_1zvj": 0.114,
+              "propBal": 10,
+              "propGp": 1,
+              "propUnit": "DF",
+              "propSpUhr": "S",
+              "propDpl": 3.36,
+              "idClassid": "liek",
+              "idEzid": "00020330205",
+              "idF": "GRO POR",
+              "idSp": "ora",
+              "idAtc": "M01AE17",
+              "idUl": "dexketoprofenum",
+              "id": "07226"
+            }
+          },
+          "schedule": {
+            "value": "1-0-1-0, denne",
+            "props": {
+              "propWay_code": "",
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propParts_sleepTime": 0,
+              "propParts_evening": 1,
+              "propParts_noon": 0,
+              "propParts_morning": 1,
+              "propType": "PEV1"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "payoff": {
+            "value": "3,36",
+            "props": {
+              "propValue": 3.36
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 8,
+        "order": 8,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "telesné šetrenie, kľudový režim, ko o tyž.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-rtg": [
+      {
+        "id": 9,
+        "order": 9,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S20.2] Pomliaždenie hrudníka",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089485235@12",
+              "id": "S20.2"
+            }
+          },
+          "predmet": {
+            "value": "pravá strana hrudníka",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "fract?",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

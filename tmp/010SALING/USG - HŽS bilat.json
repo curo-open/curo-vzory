@@ -1,0 +1,52 @@
+{
+  "title": "USG - HŽS bilat",
+  "shortcut": "usghzs",
+  "description": "USG vyš - CVI C2 bilat ",
+  "summary": "USG - HŽS",
+  "if": "",
+  "data": {
+    "_": {},
+    "z-ultrazvukove-vysetrenie": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "z-ultrazvukove-vysetrenie"
+        },
+        "value": {
+          "dg": {
+            "value": "[I83.9] Varixy dolných končatín bez vredu alebo zápalu",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089402677@12",
+              "id": "I83.9"
+            }
+          },
+          "anamneza": {
+            "value": "opuch a pocit ťažkých nôh, CVI DKK bilat",
+            "props": {}
+          },
+          "vysledky": {
+            "value": "",
+            "props": {}
+          },
+          "pred": {
+            "value": "",
+            "props": {}
+          },
+          "predmet": {
+            "value": "USG HŽS obojstranne",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "CVI bilat",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

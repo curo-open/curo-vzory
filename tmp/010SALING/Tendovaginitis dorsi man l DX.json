@@ -1,0 +1,390 @@
+{
+  "description": "Tendovaginitída na pravej ruke dorzálne",
+  "type": null,
+  "summary": "Tendovaginitis dorsi man l DX",
+  "content": "<section data-x-id=\"4\" data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"_noval FieldList hasActions\" data-name=\"reason\" data-ignore-visited=\"true\"></div>​<label data-for=\"datum\" class=\"_noval hidden\">zo dňa​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"datumVyziadania\" class=\"_noval hidden\">dátum vyžiadania​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datumVyziadania\"></div>​<label data-for=\"id\" class=\"_noval hidden\">identifikátor​</label><div class=\"_noval Field hidden\" data-name=\"id\"></div></section><section data-x-id=\"5\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"_noval FieldHtml\" data-name=\"s\">udáva bolesti na dorze ľavej ruky po preťažení<br></div></section><section data-x-id=\"6\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"_noval FieldHtml\" data-name=\"o\">orient., poloha akt., eupnoe, anikter., acyanoza, palp. alg. a edem na dorzal. strane ľ. ruky nad šl. extenzorov<br></div></section><section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"M67.34\" data-id-ezid=\"02089441840@12\" title=\"[M67.34] Prechodn&amp;#xE1; synovit&amp;#xED;da ruky (z&amp;#xE1;p&amp;#xE4;stie, z&amp;#xE1;prstie, prsty, k&amp;#x13A;by medzi t&amp;#xFD;mito kos&amp;#x165;ami)\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[M67.34] Prechodná synovitída ruky (zápästie, záprstie, prsty, kĺby medzi týmito kosťami)</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"63\" data-id-ezid=\"00000117556@14\" data-prop-body=\"200\" title=\"[63] D&amp;#xF4;kladn&amp;#xE9; vy&amp;#x161;etrenie jedn&amp;#xE9;ho org&amp;#xE1;nov&amp;#xE9;ho syst&amp;#xE9;mu alebo kontroln&amp;#xE9; vy&amp;#x161;etrenie vr&amp;#xE1;tane r&amp;#xE1;d a dokument&amp;#xE1;cie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"15d\" data-id-ezid=\"02089714121@14\" data-prop-body=\"150\" title=\"[15d] Zhodnotenie rtg dokument&amp;#xE1;cie, ak nie je vykonan&amp;#xE9; pracoviskom RTG, vr&amp;#xE1;tane popisu v zdravotnej dokument&amp;#xE1;cii.\" style=\"width: 50ch;\">[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"7\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"_noval FieldHtml\" data-name=\"th\">NSA, ortéza<br></div></section><section data-x-id=\"12\" data-type=\"r\" class=\"\"><aside></aside><label class=\"section-label  has-info\">R​:</label><div class=\"_noval FieldSearch hasActions highlight-bold truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"07226\" data-id-ul=\"dexketoprofenum\" data-id-atc=\"M01AE17\" data-id-sp=\"ora\" data-id-f=\"GRO POR\" data-id-ezid=\"00020330205\" data-id-classid=\"liek\" data-prop-dpl=\"3.36\" data-prop-sp-uhr=\"S\" data-prop-unit=\"DF\" data-prop-gp=\"1\" data-prop-bal=\"10\" data-prop-uzp_1zvj=\"0.114\" data-prop-vnl=\"R\" data-prop-cena=\"3.74\" data-prop-sdl=\"3.333\" data-prop-atc-name=\"Dexketoprofen\" data-prop-ol=\"0\" title=\"[07226] Dexadol 25 mg gro por | gro por 10x25 mg (vre. Al/PE)\" style=\"width: 50ch;\">[07226] Dexadol 25 mg gro por | gro por 10x25 mg (vre. Al/PE)</div>​<label data-for=\"schedule\" class=\" _noval\">dáv.​</label><div class=\"_noval FieldMedicationSchedule hasActions\" data-name=\"schedule\" data-prop-type=\"PEV1\" data-prop-parts_morning=\"1\" data-prop-parts_noon=\"0\" data-prop-parts_evening=\"1\" data-prop-parts_sleep-time=\"0\" data-prop-period_code=\"D\" data-prop-period_t=\"denne\" data-prop-way_code=\"\">1-0-1-0, denne</div>​<label data-for=\"qty\" class=\"\"># bal.​</label><div class=\"FieldR hasActions\" data-name=\"qty\" data-prop-value=\"1.00\">1</div>​<label data-for=\"repeatCount\" class=\"\">rep.​</label><div class=\"FieldN hasActions\" data-name=\"repeatCount\"></div>​<label data-for=\"repeatAfter\" class=\"ss hidden\">dní medzi výberom​</label><div class=\"FieldN ss hidden\" data-name=\"repeatAfter\"></div>​<label data-for=\"repeatLast\" class=\"ss _noval hidden\">posledný výber​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"repeatLast\"></div>​<label data-for=\"recommendedBy\" class=\"ss _noval\">odp. lek.​</label><div class=\"_noval FieldSearchLekar hasActions ss\" data-name=\"recommendedBy\"></div>​<label data-for=\"recommendedDate\" class=\"ss _noval hidden\">dátum odp.​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"recommendedDate\"></div>​<label data-for=\"untilDate\" class=\"ss _noval hidden\">platné do​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"untilDate\"></div>​<label data-for=\"noReplacement\" class=\"ss _noval\">náhrada​</label><div class=\"_noval FieldSwitchLogical hasActions ss\" data-name=\"noReplacement\" data-prop-value=\"0\">nie</div>​<label data-for=\"payoff\" class=\"ss _noval\">doplatok​</label><div class=\"_noval FieldR locked ss\" data-name=\"payoff\" data-prop-value=\"3.36\">3,36</div>​<label data-for=\"atc\" class=\"ss _noval hidden\">cez ATC​</label><div class=\"_noval FieldSwitchLogical hasActions ss hidden\" data-name=\"atc\" data-prop-value=\"0\">nie</div>​<label data-for=\"instruction\" class=\"ss _noval\">inštrukcie​</label><div class=\"_noval Field ss\" data-name=\"instruction\"></div>​<label data-for=\"reasonPayoff\" class=\"ss _noval\">uhradí​</label><div class=\"_noval FieldSwitch hasActions ss\" data-name=\"reasonPayoff\"></div>​<label data-for=\"prodException\" class=\"ss _noval\">výnimka​</label><div class=\"_noval FieldSwitchLogical hasActions ss\" data-name=\"prodException\" data-prop-value=\"0\">nie</div>​<label data-for=\"force\" class=\"ss _noval\">vyn. zápis​</label><div class=\"_noval FieldSwitchLogical hasActions ss\" data-name=\"force\" data-prop-value=\"0\">nie</div>​<label data-for=\"forceReason\" class=\"ss _noval hidden\">dôvod v.z.​</label><div class=\"_noval Field ss hidden\" data-name=\"forceReason\"></div>​<label data-for=\"barcode\" class=\"_noval hidden\">čiarový kód​</label><div class=\"_noval Field readonly dontCopy hidden\" data-name=\"barcode\"></div>​<label data-for=\"note_zp\" class=\"ss _noval hidden\">poznámka ZP​</label><div class=\"_noval Field readonly dontCopy ss hidden\" data-name=\"note_zp\"></div>​<label data-for=\"status\" class=\"invisible ss _noval\">stav​</label><div class=\"_noval FieldN readonly dontCopy invisible ss\" data-name=\"status\">0</div></section><section data-x-id=\"10\" data-type=\"pp\" class=\"err\" data-error=\"true\"><aside><i class=\"material-icons error\">error</i></aside><label class=\"section-label  \">Zdr. pomôcka​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"J39131\" data-id-v=\"THU-FR\" data-id-ezid=\"00020174595\" data-id-classid=\"pomocka\" data-prop-dpl=\"0\" data-prop-cena=\"13.68\" data-prop-po_0=\"CHI\" data-prop-po_1=\"037\" data-prop-po_2=\"039\" data-prop-po_3=\"ORT\" data-prop-po_4=\"027\" data-prop-po_5=\"013\" title=\"[J39131] Ortéza zápästia a palca Ligaflex Manu | s výstuhou s kovovými dlahami, pravá / ľavá\" style=\"width: 50ch;\">[J39131] Ortéza zápästia a palca Ligaflex Manu | s výstuhou s kovovými dlahami, pravá / ľavá</div>​<label data-for=\"qty\" class=\"\">počet​</label><div class=\"FieldR\" data-name=\"qty\" data-prop-value=\"1.00\">1</div>​<label data-for=\"need\" class=\"ss\">potreba​</label><div class=\"FieldList hasActions ss\" data-name=\"need\" data-prop-value=\"0\">dočasná</div>​<label data-for=\"repeatCount\" class=\"\">rep.​</label><div class=\"FieldN\" data-name=\"repeatCount\">1</div>​<label data-for=\"repeatAfter\" class=\"ss hidden\">dní medzi výberom​</label><div class=\"FieldN ss hidden\" data-name=\"repeatAfter\">30</div><br class=\"ss\"><label data-for=\"repeatLast\" class=\"ss _noval hidden\">posledný výber​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"repeatLast\"></div>​<label data-for=\"reason\" class=\"ss _noval\">odôvodnenie​</label><div class=\"_noval FieldHtml ss\" data-name=\"reason\">Tendovaginitis dorsi man l sin<br></div>​<label data-for=\"recommendedBy\" class=\" _noval\">odp. lek​</label><div class=\"_noval FieldSearchLekar hasActions\" data-name=\"recommendedBy\" data-error=\"Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára\"></div>​<label data-for=\"recommendedDate\" class=\"ss _noval hidden\">dátum odp.​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"recommendedDate\" data-error=\"Predpis má preskripčné obmedzenia, nezadali ste dátum odporúčania\"></div>​<label data-for=\"untilDate\" class=\"ss _noval hidden\">platné do​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"untilDate\"></div>​<label data-for=\"noReplacement\" class=\"ss _noval\">náhrada​</label><div class=\"_noval FieldSwitchLogical hasActions ss\" data-name=\"noReplacement\" data-prop-value=\"0\">nie</div>​<label data-for=\"reasonPayoff\" class=\"ss _noval\">uhradí​</label><div class=\"_noval FieldSwitch hasActions ss\" data-name=\"reasonPayoff\"></div>​<label data-for=\"prodException\" class=\"ss _noval\">produkt na výnimku​</label><div class=\"_noval FieldSwitchLogical hasActions ss\" data-name=\"prodException\" data-prop-value=\"0\">nie</div>​<label data-for=\"force\" class=\"ss _noval\">vynútený zápis​</label><div class=\"_noval FieldSwitchLogical hasActions ss\" data-name=\"force\" data-prop-value=\"0\">nie</div>​<label data-for=\"forceReason\" class=\"ss _noval hidden\">dôvod v.z.​</label><div class=\"_noval Field ss hidden\" data-name=\"forceReason\"></div><br class=\"ss\"><label data-for=\"namieru\" class=\"ss _noval\">na mieru​</label><div class=\"_noval FieldHtml ss\" data-name=\"namieru\"></div>​<label data-for=\"barcode\" class=\"ss _noval hidden\">čiarový kód​</label><div class=\"_noval Field readonly dontCopy ss hidden\" data-name=\"barcode\"></div>​<label data-for=\"note_zp\" class=\"ss _noval hidden\">poznámka ZP​</label><div class=\"_noval Field readonly dontCopy ss hidden\" data-name=\"note_zp\"></div>​<label data-for=\"status\" class=\"invisible ss _noval\">stav​</label><div class=\"_noval FieldN readonly dontCopy invisible ss\" data-name=\"status\">0</div></section><section data-x-id=\"8\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"_noval FieldHtml\" data-name=\"odp\">ko o 7-10 dní, <br></div></section><section data-x-id=\"13\" data-type=\"z-rtg\" class=\"\"><aside></aside><label class=\"section-label  \">Žiadanka RTG​:</label>​<label data-for=\"dg_text\" class=\" _noval\">Diagnóza​</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"dg_text\" data-ignore-visited=\"true\" data-id=\"M67.34\" data-id-ezid=\"02089441840@12\" data-id-classid=\"diagnoza\" title=\"[M67.34] Prechodná synovitída ruky (zápästie, záprstie, prsty, kĺby medzi týmito kosťami)\" style=\"width: 50ch;\">[M67.34] Prechodná synovitída ruky (zápästie, záprstie, prsty, kĺby medzi týmito kosťami)</div>​<label data-for=\"predmet\" class=\" _noval\">Ktorá oblasť má byť vyšetrená​</label><div class=\"_noval Field\" data-name=\"predmet\">ľavá ruka</div>​<label data-for=\"ocakavanie\" class=\" _noval\">Očakávanie/otázka​</label><div class=\"_noval Field\" data-name=\"ocakavanie\">TZ?</div>​<label data-for=\"epikriza\" class=\" _noval\">Epikríza​</label><div class=\"_noval Field\" data-name=\"epikriza\"></div></section>",
+  "title": "Tendovaginitis dorsi man l DX",
+  "shortcut": "tvmdd",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "10": [
+          "recommendedDate"
+        ]
+      }
+    },
+    "od": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "udáva bolesti na dorze pravej ruky po preťažení<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanoza, palp. alg. a edem na dorzal. strane pr. ruky nad šl. extenzorov<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": "",
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M67.34] Prechodná synovitída ruky (zápästie, záprstie, prsty, kĺby medzi týmito kosťami)",
+            "props": {
+              "idEzid": "02089441840@12",
+              "id": "M67.34"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "idEzid": "02089714121@14",
+              "id": "15d"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "NSA, ortéza<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 12,
+        "order": 7,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[07226] Dexadol 25 mg gro por | gro por 10x25 mg (vre. Al/PE)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Dexketoprofen",
+              "propSdl": 3.333,
+              "propCena": 3.74,
+              "propVnl": "R",
+              "propUzp_1zvj": 0.114,
+              "propBal": 10,
+              "propGp": 1,
+              "propUnit": "DF",
+              "propSpUhr": "S",
+              "propDpl": 3.36,
+              "idClassid": "liek",
+              "idEzid": "00020330205",
+              "idF": "GRO POR",
+              "idSp": "ora",
+              "idAtc": "M01AE17",
+              "idUl": "dexketoprofenum",
+              "id": "07226"
+            }
+          },
+          "schedule": {
+            "value": "1-0-1-0, denne",
+            "props": {
+              "propWay_code": "",
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propParts_sleepTime": 0,
+              "propParts_evening": 1,
+              "propParts_noon": 0,
+              "propParts_morning": 1,
+              "propType": "PEV1"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "payoff": {
+            "value": "3,36",
+            "props": {
+              "propValue": 3.36
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pp": [
+      {
+        "id": 10,
+        "order": 8,
+        "props": {
+          "type": "pp",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[J39131] Ortéza zápästia a palca Ligaflex Manu | s výstuhou s kovovými dlahami, pravá / ľavá",
+            "props": {
+              "propPo_5": "013",
+              "propPo_4": "027",
+              "propPo_3": "ORT",
+              "propPo_2": "039",
+              "propPo_1": "037",
+              "propPo_0": "CHI",
+              "propCena": 13.68,
+              "propDpl": 0,
+              "idClassid": "pomocka",
+              "idEzid": "00020174595",
+              "idV": "THU-FR",
+              "id": "J39131"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "need": {
+            "value": "dočasná",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reason": {
+            "value": "Tendovaginitis dorsi man l dx<br>",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "[A58684010/N60426010201] ŠALING Juraj",
+            "props": {
+              "idClassid": "lekar",
+              "idPsc": 96212,
+              "idPzs": "N60426010201",
+              "idOdb": "010",
+              "idEzid": "00020813077",
+              "id": "A58684010"
+            }
+          },
+          "recommendedDate": {
+            "value": "",
+            "props": {
+              "error": "Predpis má preskripčné obmedzenia, nezadali ste dátum odporúčania"
+            }
+          },
+          "untilDate": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "namieru": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 8,
+        "order": 9,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o 7-10 dní, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-rtg": [
+      {
+        "id": 13,
+        "order": 10,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[M67.34] Prechodná synovitída ruky (zápästie, záprstie, prsty, kĺby medzi týmito kosťami)",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089441840@12",
+              "id": "M67.34"
+            }
+          },
+          "predmet": {
+            "value": "pravá ruka",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "TZ?",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

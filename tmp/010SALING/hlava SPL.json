@@ -1,0 +1,30 @@
+{
+  "type": null,
+  "summary": "hlava SPL",
+  "description": "hlava",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">hlava mesocephalická, calva poklop. nebolestivá, výstupy hlav. nervov negat., maxila, jarmové obluky a mandibula palp. negat., izokoria\nfotoreakcia správna, ameninegeal.\n</div></section>",
+  "title": "hlava SPL",
+  "shortcut": "hlaspl",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "hlava mesocephalická, calva poklop. nebolestivá, výstupy hlav. nervov negat., maxila, jarmové obluky a mandibula palp. negat., izokoria\nfotoreakcia správna, ameninegeal.\n<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

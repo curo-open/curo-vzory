@@ -1,0 +1,325 @@
+{
+  "description": "Chondropatia pravej pately",
+  "type": null,
+  "summary": "Chondropathio patellae DX - ORT",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate _focus\" data-name=\"id\" data-id=\"M25.50\" data-id-ezid=\"02089429639@12\" title=\"[M25.5] Boles&amp;#x165; k&amp;#x13A;bu na viacer&amp;#xFD;ch miestach\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[M25.5] Bolesť kĺbu na viacerých miestach</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"62\" data-id-ezid=\"00000117549@14\" data-prop-body=\"250\" title=\"[62] Cielen&amp;#xE9; vy&amp;#x161;etrenie dvoch alebo viacer&amp;#xFD;ch org&amp;#xE1;nov&amp;#xFD;ch syst&amp;#xE9;mov alebo dispenz&amp;#xE1;rna kontrola (cielen&amp;#xE1; anamn&amp;#xE9;za, resp. anamn&amp;#xE9;za od poslednej kontroly), popis subjekt&amp;#xED;vnych obtia&amp;#x17E;&amp;#xED;, objekt&amp;#xED;vny n&amp;#xE1;lez, vyp&amp;#xED;sanie spr&amp;#xE1;vy, z&amp;#xE1;ver, vypracovanie pl&amp;#xE1;nu do nasleduj&amp;#xFA;c\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"231\" data-id-ezid=\"00000467704@14\" data-prop-body=\"360\" title=\"[231] Cirkul&amp;#xE1;rny pohybov&amp;#xFD; obv&amp;#xE4;z kolena.\" style=\"width: 50ch;\">[231] Cirkulárny pohybový obväz kolena.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: pac. udáva bolesti kolien, viac vpravo\nO.: orient., poloha aktívna, eupnoe, anikter., acyanoza\nSPL : pr. koleno bez naplne a balotementu, manevre negat., bez zn. instability v oboch rovinách, mierna palp. alg medial kompartmentu a parapatelarne medialne, lúpavý fenomém pod patelou pri F cca 130 st\nDg.: chondropathio patellae l dx\nTh.: NSA, kľudový režim, ko o 10-14 dní, p.p. skôr\n\n\n</div></section>",
+  "title": "Chondropathio patellae DX - ORT",
+  "shortcut": "chpd",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac. udáva bolesti pr. kolena<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha aktívna, eupnoe, anikter., acyanoza<br>SPL : pr. koleno bez naplne a balotementu, manevre negat., bez zn. instability v oboch rovinách, mierna palp. alg medial kompartmentu a parapatelarne medialne, lúpavý fenomém pod patelou pri F cca 130 st<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M22.2] Patelofemorálna porucha",
+            "props": {
+              "id": "M22.2",
+              "idEzid": "02089427203@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "Chondropathio patellae l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "id": 62,
+              "idEzid": "00000117549@14"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "id": "15d",
+              "idEzid": "02089714121@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 9,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "NSA<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 14,
+        "order": 7,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[07226] Dexadol 25 mg gro por | gro por 10x25 mg (vre. Al/PE)",
+            "props": {
+              "propDpl": 3.36,
+              "propSpUhr": "S",
+              "propUnit": "DF",
+              "propGp": 1,
+              "propBal": 10,
+              "propUzp_1zvj": 0.114,
+              "propVnl": "R",
+              "propCena": 3.74,
+              "propSdl": 3.333,
+              "propAtcName": "Dexketoprofen",
+              "propOl": 0,
+              "id": "07226",
+              "idUl": "dexketoprofenum",
+              "idAtc": "M01AE17",
+              "idSp": "ora",
+              "idF": "GRO POR",
+              "idEzid": "00020330205",
+              "idClassid": "liek"
+            }
+          },
+          "schedule": {
+            "value": "1-0-1-0, denne",
+            "props": {
+              "propType": "PEV1",
+              "propParts_morning": 1,
+              "propParts_noon": 0,
+              "propParts_evening": 1,
+              "propParts_sleepTime": 0,
+              "propPeriod_code": "D",
+              "propPeriod_t": "denne",
+              "propWay_code": ""
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "payoff": {
+            "value": "3,36",
+            "props": {
+              "propValue": 3.36
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 10,
+        "order": 8,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ORT vyš,<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vl": [
+      {
+        "id": 11,
+        "order": 9,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "Ad ortopediam. Dop vyš pav s F-P Sy pr. kolena.<br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "[011] ortopédia",
+            "props": {
+              "id": "011",
+              "idEzid": "00000351411@8",
+              "idClassid": "zameranie"
+            }
+          },
+          "druh": {
+            "value": "[2] ambulancia",
+            "props": {
+              "id": 2,
+              "idEzid": "00000000273@3",
+              "idClassid": "cinnost"
+            }
+          },
+          "presne": {
+            "value": "",
+            "props": {}
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-rtg": [
+      {
+        "id": 12,
+        "order": 10,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[M22.2] Patelofemorálna porucha",
+            "props": {
+              "id": "M22.2",
+              "idEzid": "02089427203@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "predmet": {
+            "value": "pr. koleno",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

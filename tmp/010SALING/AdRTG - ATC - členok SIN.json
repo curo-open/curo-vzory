@@ -1,0 +1,45 @@
+{
+  "description": "RTG vyšetrenie ľ. členka - RTG atc dx",
+  "summary": "AdRTG - ATC - členok SIN",
+  "content": "<section data-x-id=\"2\" data-type=\"z-rtg\" class=\"\"><aside></aside><label class=\"section-label  \">Žiadanka RTG​:</label>​<label data-for=\"dg_text\" class=\" _noval\">Diagnóza​</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"dg_text\" data-ignore-visited=\"true\" data-id=\"S90.0\" data-id-ezid=\"02089494054@12\" data-id-classid=\"diagnoza\" title=\"[S90.0] Pomliaždenie členka\" style=\"width: 50ch;\">[S90.0] Pomliaždenie členka</div>​<label data-for=\"predmet\" class=\" _noval\">Ktorá oblasť má byť vyšetrená​</label><div class=\"_noval Field\" data-name=\"predmet\">pr. členok</div>​<label data-for=\"ocakavanie\" class=\" _noval\">Očakávanie/otázka​</label><div class=\"_noval Field\" data-name=\"ocakavanie\">fract.?</div>​<label data-for=\"epikriza\" class=\" _noval\">Epikríza​</label><div class=\"_noval Field\" data-name=\"epikriza\"></div></section>",
+  "title": "AdRTG - ATC - členok SIN",
+  "shortcut": "aratcs",
+  "if": "",
+  "data": {
+    "_": {},
+    "z-rtg": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S90.0] Pomliaždenie členka",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089494054@12",
+              "id": "S90.0"
+            }
+          },
+          "predmet": {
+            "value": "ľ. členok",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "fract.?",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

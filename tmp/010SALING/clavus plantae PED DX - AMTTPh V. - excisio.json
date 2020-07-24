@@ -1,0 +1,274 @@
+{
+  "description": "Kurie oko na ploske pravej nohy - AMTTPh V. - excisio",
+  "type": null,
+  "summary": "clavus plantae PED DX - AMTTPh V. - excisio",
+  "content": "<section data-x-id=\"1\" data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"_noval FieldList hasActions\" data-name=\"reason\"></div>​<label data-for=\"datum\" class=\"_noval hidden\">zo dňa​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"datumVyziadania\" class=\"_noval hidden\">dátum vyžiadania​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datumVyziadania\"></div>​<label data-for=\"id\" class=\"_noval hidden\">identifikátor​</label><div class=\"_noval Field hidden\" data-name=\"id\"></div></section><section data-x-id=\"2\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\">reklamuje bolestivú rezistenciu na pravej ploske nohy<br></div></section><section data-x-id=\"3\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\">na pravej ploske nohy, v oblasti I. MTTPh zhybu<br>palp. alg. hyper+keratot rezistencia, bez inflam a flukt.<br></div></section><section data-x-id=\"7\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"L84\" data-id-ezid=\"00000051953@12\" data-id-classid=\"diagnoza\" title=\"[L84] Kurie oko a mozoľ\" style=\"width: 50ch;\">[L84] Kurie oko a mozoľ</div>​<label data-for=\"text\" class=\"\">/​</label><div class=\"Field minor\" data-name=\"text\">Clavus planta ped l dx reg AMTTPh I.</div></section><section data-x-id=\"4\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"FieldHtml\" data-name=\"th\">excisio in toto v LA 1% Mes., sutura, <br></div></section><section data-x-id=\"5\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\">ko o 2-3 dni, stehy ex o 7-10 dní, nedostupovať, ko p.p. skôr<br></div></section>",
+  "title": "clavus plantae PED DX - AMTTPh V. - excisio",
+  "shortcut": " cpdmtt5",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "neodkladná starostlivosť",
+            "props": {
+              "propValue": "A"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "reklamuje bolestivú rezistenciu na pravej ploske nohy<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "na pravej ploske nohy, v oblasti V. MTTPh zhybu<br>palp. alg. hyper+keratot rezistencia, bez inflam a flukt.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 7,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[L84] Kurie oko a mozoľ",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "00000051953@12",
+              "id": "L84"
+            }
+          },
+          "text": {
+            "value": "Clavus planta ped l dx reg AMTTPh V.",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 9,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@18",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[407] Infiltračná anestézia jednej oblasti s použitím lokálneho anestetika v množstve viac ako 5 ml. Tento výkon môže vykazovať lekár so špecializáciou v odbore všeobecné lekárstvo, chirurg, traumatológ, al",
+            "props": {
+              "propBody": 120,
+              "idClassid": "vykon",
+              "idEzid": "00000468728@18",
+              "id": 407
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 13,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2100] Excízia malého kúska sliznice alebo kože (malý benígny tumor, napríklad epulis, hyperplázia, leukoplakia, probatórna excízia) alebo excízia malého, v koži uloženého nádoru.",
+            "props": {
+              "propBody": 160,
+              "idClassid": "vykon",
+              "idEzid": "00000474544@18",
+              "id": 2100
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 15,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni",
+            "props": {
+              "propBody": 70,
+              "idClassid": "vykon",
+              "idEzid": "00000467498@18",
+              "id": 200
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pl": [
+      {
+        "id": 17,
+        "order": 6,
+        "props": {
+          "type": "pl"
+        },
+        "value": {
+          "id": {
+            "value": "[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Amidy",
+              "propSdl": 100,
+              "propCena": 12.07,
+              "propVnl": "R",
+              "propUzp_1zvj": 0.077,
+              "propBal": 10,
+              "propGp": 0,
+              "propZvjPocetBal": 100,
+              "propUnit": "DF",
+              "propSpUhr": "AS",
+              "propDpl": 4.37,
+              "idClassid": "liek",
+              "idEzid": "00020288130",
+              "idF": "SOL INJ",
+              "idSp": "?",
+              "idAtc": "N01BB",
+              "idUl": "",
+              "id": "00502"
+            }
+          },
+          "qty": {
+            "value": "10",
+            "props": {
+              "propValue": "10.00"
+            }
+          },
+          "payoff": {
+            "value": "",
+            "props": {}
+          },
+          "dpljed": {
+            "value": "",
+            "props": {}
+          },
+          "dpl": {
+            "value": "0,44",
+            "props": {
+              "propValue": 0.44
+            }
+          },
+          "uhradazp": {
+            "value": "0,77",
+            "props": {
+              "propValue": 0.77
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "kodl": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 4,
+        "order": 9,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "toaleta, desinf., excisio in toto v LA 1% Mes. 10 ml, sutura, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 5,
+        "order": 10,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o 2-3 dni, stehy ex o 7-10 dní, nedostupovať, ko p.p. skôr<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

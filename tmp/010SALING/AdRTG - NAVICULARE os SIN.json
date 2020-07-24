@@ -1,0 +1,45 @@
+{
+  "description": "RTG vyšetrenie ľ. zápästie - os naviculare vľavo",
+  "summary": "AdRTG - NAVICULARE os SIN",
+  "content": "<section data-x-id=\"2\" data-type=\"z-rtg\" class=\"\"><aside></aside><label class=\"section-label  \">Žiadanka RTG​:</label>​<label data-for=\"dg_text\" class=\"\">Diagnóza​</label><div class=\"FieldSearch hasActions truncate\" data-name=\"dg_text\" title=\"[S62.0] Zlomenina os naviculare\" style=\"width: 50ch;\" data-ignore-visited=\"true\" data-id=\"S62.0\" data-id-ezid=\"02089490961@12\" data-id-classid=\"diagnoza\">[S62.0] Zlomenina os naviculare</div>​<label data-for=\"predmet\" class=\"\">Ktorá oblasť má byť vyšetrená​</label><div class=\"Field\" data-name=\"predmet\">pr. zápästie - os naviculare</div>​<label data-for=\"ocakavanie\" class=\"\">Očakávanie/otázka​</label><div class=\"Field\" data-name=\"ocakavanie\">fract.?</div>​<label data-for=\"epikriza\" class=\" _noval\">Epikríza​</label><div class=\"_noval Field\" data-name=\"epikriza\"></div></section>",
+  "title": "AdRTG - NAVICULARE os SIN",
+  "shortcut": "arons",
+  "if": "",
+  "data": {
+    "_": {},
+    "z-rtg": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S62.0] Zlomenina os naviculare",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089490961@12",
+              "id": "S62.0"
+            }
+          },
+          "predmet": {
+            "value": "ľ. zápästie - os naviculare",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "fract.?",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

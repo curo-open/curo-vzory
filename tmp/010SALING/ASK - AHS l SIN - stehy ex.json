@@ -1,0 +1,197 @@
+{
+  "type": null,
+  "summary": "ASK - AHS l SIN - stehy ex",
+  "description": "Vybratie stehov po ASK ľ. AHS",
+  "content": "<section data-x-id=\"12\" data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"_noval FieldList hasActions\" data-name=\"reason\"></div>​<label data-for=\"datum\" class=\" _noval\">zo dňa​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"datumVyziadania\" class=\" _noval\">dátum vyžiadania​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"datumVyziadania\"></div>​<label data-for=\"id\" class=\" _noval\">identifikátor​</label><div class=\"_noval Field\" data-name=\"id\"></div></section><section data-x-id=\"7\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\"> hybnosť pr. AHS ešte viazne, bolesti <br></div></section><section data-x-id=\"8\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\"> orient., poloha akt., eupnoe, anikter., acyanoza<br>SPL: pr. AHS normokonfig, bez palp. alg a bez NCP, op. rany zhojené p.p.i., dynamika pr. AHS terminal. viazne<br></div></section><section data-x-id=\"2\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-ezid=\"02089488742@12\" data-id=\"S41.7\" title=\"[S41.7] Viaceré otvorené rany pleca a ramena\" style=\"width: 50ch;\">[S41.7] Viaceré otvorené rany pleca a ramena</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-ezid=\"02089429654@12\" data-id=\"M25.52\" title=\"[M25.52] Bolesť kĺbu nadlaktia (ramenná kosť, lakťový kĺb)\" style=\"width: 50ch;\">[M25.52] Bolesť kĺbu nadlaktia (ramenná kosť, lakťový kĺb)</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"2\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-ezid=\"02089488627@12\" data-id=\"S40.0\" title=\"[S40.0] Pomliaždenie pleca a ramena\" style=\"width: 50ch;\">[S40.0] Pomliaždenie pleca a ramena</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"3\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000117556@14\" data-id=\"63\" data-prop-body=\"200\" title=\"[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"4\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000469270@14\" data-id=\"2006\" data-prop-body=\"40\" title=\"[2006] Odstránenie sutúry alebo svoriek z malej rany, prípadne pri viacnásobnom ošetrení. Pri odstranovaní sutúry pri výkone pod kódom 2860 sa výkon pod kódom 2006 vykazuje pre každú končatinu najviac šesť r\" style=\"width: 50ch;\">[2006] Odstránenie sutúry alebo svoriek z malej rany, prípadne pri viacnásobnom ošetrení. Pri odstranovaní sutúry pri výkone pod kódom 2860 sa výkon pod kódom 2006 vykazuje pre každú končatinu najviac šesť r</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">3</div></section><section data-x-id=\"9\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"FieldHtml\" data-name=\"th\">toaleta, desinf., stehy ex, krytie, <br></div></section><section data-x-id=\"10\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\">telesné šetrenie, ko o tyž., potom rhb, <br></div></section>",
+  "title": "ASK - AHS l SIN - stehy ex",
+  "shortcut": "askahsstes",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 12,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 7,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": " hybnosť pr. AHS ešte viazne, bolesti <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 8,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": " orient., poloha akt., eupnoe, anikter., acyanoza<br>SPL: pr. AHS normokonfig, bez palp. alg a bez NCP, op. rany zhojené p.p.i., dynamika pr. AHS terminal. viazne<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 2,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S41.7] Viaceré otvorené rany pleca a ramena",
+            "props": {
+              "idEzid": "02089488742@12",
+              "id": "S41.7"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M25.52] Bolesť kĺbu nadlaktia (ramenná kosť, lakťový kĺb)",
+            "props": {
+              "idEzid": "02089429654@12",
+              "id": "M25.52"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 5,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S40.0] Pomliaždenie pleca a ramena",
+            "props": {
+              "idEzid": "02089488627@12",
+              "id": "S40.0"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 3,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 4,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2006] Odstránenie sutúry alebo svoriek z malej rany, prípadne pri viacnásobnom ošetrení. Pri odstranovaní sutúry pri výkone pod kódom 2860 sa výkon pod kódom 2006 vykazuje pre každú končatinu najviac šesť r",
+            "props": {
+              "propBody": 40,
+              "idClassid": "vykon",
+              "idEzid": "00000469270@14",
+              "id": 2006
+            }
+          },
+          "count": {
+            "value": "3",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 9,
+        "order": 8,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "toaleta, desinf., stehy ex, krytie, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 10,
+        "order": 9,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "telesné šetrenie, ko o tyž., potom rhb, <br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

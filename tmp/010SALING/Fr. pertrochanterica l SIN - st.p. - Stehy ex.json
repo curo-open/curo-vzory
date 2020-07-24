@@ -1,0 +1,156 @@
+{
+  "type": null,
+  "summary": "Fr. pertrochanterica l SIN - st.p. - Stehy ex",
+  "description": "Vybratie stehov po op. pertrochanterickej zlomreniny vľavo",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-ezid=\"02089492389@12\" data-id=\"S72.11\" title=\"[S72.11] Zlomenina stehnovej kosti, intertrochanterová\" style=\"width: 50ch;\">[S72.11] Zlomenina stehnovej kosti, intertrochanterová</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000117556@14\" data-id=\"63\" data-prop-body=\"200\" title=\"[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000474346@14\" data-id=\"2007\" data-prop-body=\"60\" title=\"[2007] Odstránenie sutúry alebo stehov z veľkej rany.\" style=\"width: 50ch;\">[2007] Odstránenie sutúry alebo stehov z veľkej rany.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: dobre, afebrilný\nO.: orient., poloha akt., chôdza o NB, eupnoe, anikter., acyanóza\npr. koxa palp. bpn, rana zhojená p.p.i.\npasívna dynamika primeraná, PDK bez NCP\nTh.: toaleta, desinf., stehy ex, krytie, band.\nDop.: ko o mesiac (RTG), potom predpokladaná RHB\n\n<br></div></section><section data-x-id=\"4\" data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"_noval FieldList hasActions\" data-name=\"reason\"></div>​<label data-for=\"datum\" class=\" _noval\">zo dňa​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"datumVyziadania\" class=\" _noval\">dátum vyžiadania​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"datumVyziadania\"></div>​<label data-for=\"id\" class=\" _noval\">identifikátor​</label><div class=\"_noval Field\" data-name=\"id\"></div></section><section data-x-id=\"5\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\">dobre, afebrilný<br></div></section><section data-x-id=\"6\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\">orient., poloha akt., chôdza o NB, eupnoe, anikter., acyanóza<br>pr. koxa palp. bpn, rana zhojená p.p.i.<br>pasívna dynamika primeraná, PDK bez NCP<br></div></section><section data-x-id=\"7\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"FieldHtml\" data-name=\"th\">toaleta, desinf., stehy ex, krytie, band.<br></div></section><section data-x-id=\"8\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\">ko o mesiac (RTG), potom predpokladaná RHB<br></div></section>",
+  "title": "Fr. pertrochanterica l SIN - st.p. - Stehy ex",
+  "shortcut": "ste frper sin",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "dobre, afebrilný<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., chôdza o NB, eupnoe, anikter., acyanóza<br>ľ. koxa palp. bpn, rana zhojená p.p.i.<br>pasívna dynamika primeraná, ĽDK bez NCP<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S72.11] Zlomenina stehnovej kosti, intertrochanterová",
+            "props": {
+              "idEzid": "02089492389@12",
+              "id": "S72.11"
+            }
+          },
+          "text": {
+            "value": "st.p. fr. pertrochanterica SIN",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2007] Odstránenie sutúry alebo stehov z veľkej rany.",
+            "props": {
+              "propBody": 60,
+              "idEzid": "00000474346@14",
+              "id": 2007
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "toaleta, desinf., stehy ex, krytie, band.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 8,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o mesiac (RTG), potom predpokladaná RHB<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

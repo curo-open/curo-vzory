@@ -1,0 +1,137 @@
+{
+  "type": null,
+  "summary": "Quadriceps FEM l SIN - Distensio",
+  "description": "Natiahnutie štvorhlavého svalu ľavého stehna",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-ezid=\"02089492777@12\" data-id=\"S76.1\" title=\"[S76.1] Poranenie štvorhlavého svalu stehna [m. quadriceps femoris] a jeho šľachy\" style=\"width: 50ch;\">[S76.1] Poranenie štvorhlavého svalu stehna [m. quadriceps femoris] a jeho šľachy</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000117556@14\" data-id=\"63\" data-prop-body=\"200\" title=\"[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: reklamuje bolesti pravého stehna po natiahnutí\nO.: orient., poloha akt., eupnoe, anikter., acyanoza, chôdza s napadaním na ĽDK, palp. alg. med. tretina pravého stehna ventrálne, bez haematomu a fuknčného deficitu, dynamika v koxe aj kolene plná, terminal. alg.\nDg.: distensio m. quadric. fem. l dx\nTh.: NSA\nDop.: telesné šetrenie, ko o 7-10 dn\n<br></div></section>",
+  "title": "Quadriceps FEM l SIN - Distensio",
+  "shortcut": "di QF sin",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 11,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 12,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bolesti ľavého stehna po natiahnutí<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 13,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanoza, chôdza s napadaním na PDK, palp. alg. med. tretina ľavého stehna ventrálne, bez haematomu a fuknčného deficitu, dynamika v koxe aj kolene pasívne primeraná, terminal. alg.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 14,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S76.1] Poranenie štvorhlavého svalu stehna [m. quadriceps femoris] a jeho šľachy",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089492777@12",
+              "id": "S76.1"
+            }
+          },
+          "text": {
+            "value": "distensio m. quadric. fem. l sin",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 15,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 16,
+        "order": 5,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "NSA<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 17,
+        "order": 6,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "telesné šetrenie, ko o 7-10 dní<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

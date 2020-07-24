@@ -1,0 +1,266 @@
+{
+  "description": "Odstránenie clavu na palci ľavej nohy - AARON",
+  "type": null,
+  "summary": "Clavus Hallucis SIN - AARON",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate _focus\" data-name=\"id\" data-id-ezid=\"00000051953@12\" data-id=\"L84\" title=\"[L84.0] Kurie oko a mozoľ\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[L84.0] Kurie oko a mozoľ</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000117549@14\" data-id=\"62\" data-prop-body=\"250\" title=\"[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000468728@14\" data-id=\"407\" data-prop-body=\"120\" title=\"[407] Infiltračná anestézia jednej oblasti s použitím lokálneho anestetika v množstve viac ako 5 ml. Tento výkon môže vykazovať lekár so špecializáciou v odbore všeobecné lekárstvo, chirurg, traumatológ, al\" style=\"width: 50ch;\">[407] Infiltračná anestézia jednej oblasti s použitím lokálneho anestetika v množstve viac ako 5 ml. Tento výkon môže vykazovať lekár so špecializáciou v odbore všeobecné lekárstvo, chirurg, traumatológ, al</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000474544@14\" data-id=\"2100\" data-prop-body=\"160\" title=\"[2100] Excízia malého kúska sliznice alebo kože (malý benígny tumor, napríklad epulis, hyperplázia, leukoplakia, probatórna excízia) alebo excízia malého, v koži uloženého nádoru.\" style=\"width: 50ch;\">[2100] Excízia malého kúska sliznice alebo kože (malý benígny tumor, napríklad epulis, hyperplázia, leukoplakia, probatórna excízia) alebo excízia malého, v koži uloženého nádoru.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"4\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000467498@14\" data-id=\"200\" data-prop-body=\"70\" title=\"[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni\" style=\"width: 50ch;\">[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"5\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: bolestivá rezistencia na ľavej nohe\nO.: orient, eupnoe, anikter., acyanoza\nSPL: cca 0,5-0,7 rezistencia na palci ľavej nohy na distal. phalangu dorzálne, bez inflam a secer.\nDg.: Clavus hallucis ped l sin\nTh.: toaleta, desinf., LA 1% Mes. 10 ml, electroexcisio in toto, Višbevski balsam, krytie, band., ko o 2-3 dni\n</div></section>",
+  "title": "Clavus Hallucis SIN - AARON",
+  "shortcut": "AAhpcs",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 6,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 7,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bolestivá rezistencia na ľavej nohe<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 8,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient, eupnoe, anikter., acyanoza<br>SPL: cca 0,5-0,7 rezistencia na palci ľavej nohy na distal. phalangu, bez inflam a secer.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[L84.0] Kurie oko a mozoľ",
+            "props": {
+              "idEzid": "00000051953@12",
+              "id": "L84"
+            }
+          },
+          "text": {
+            "value": "Clavus hallucis ped l sin",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "idEzid": "00000117549@14",
+              "id": 62
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[407] Infiltračná anestézia jednej oblasti s použitím lokálneho anestetika v množstve viac ako 5 ml. Tento výkon môže vykazovať lekár so špecializáciou v odbore všeobecné lekárstvo, chirurg, traumatológ, al",
+            "props": {
+              "propBody": 120,
+              "idEzid": "00000468728@14",
+              "id": 407
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 3,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2100] Excízia malého kúska sliznice alebo kože (malý benígny tumor, napríklad epulis, hyperplázia, leukoplakia, probatórna excízia) alebo excízia malého, v koži uloženého nádoru.",
+            "props": {
+              "propBody": 160,
+              "idEzid": "00000474544@14",
+              "id": 2100
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 4,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni",
+            "props": {
+              "propBody": 70,
+              "idEzid": "00000467498@14",
+              "id": 200
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 9,
+        "order": 8,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "toaleta, desinf., LA 1% Mes. 10 ml, electroexcisio in toto, Višbevski balsam, krytie, band.,<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pl": [
+      {
+        "id": 12,
+        "order": 9,
+        "props": {
+          "type": "pl"
+        },
+        "value": {
+          "id": {
+            "value": "[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)",
+            "props": {
+              "propDpl": 4.37,
+              "propSpUhr": "AS",
+              "propUnit": "DF",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": 0.077,
+              "propVnl": "R",
+              "propCena": 12.07,
+              "propSdl": 100,
+              "propAtcName": "Amidy",
+              "propOl": 0,
+              "id": "00502",
+              "idUl": "",
+              "idAtc": "N01BB",
+              "idSp": "?",
+              "idF": "SOL INJ",
+              "idEzid": "00020288130",
+              "idClassid": "liek"
+            }
+          },
+          "qty": {
+            "value": "10",
+            "props": {
+              "propValue": "10.00"
+            }
+          },
+          "payoff": {
+            "value": "",
+            "props": {}
+          },
+          "dpljed": {
+            "value": "",
+            "props": {}
+          },
+          "dpl": {
+            "value": "4,37",
+            "props": {
+              "propValue": 4.37
+            }
+          },
+          "uhradazp": {
+            "value": "7,7",
+            "props": {
+              "propValue": "7.70"
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "kodl": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 10,
+        "order": 10,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o 2-3 dni<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

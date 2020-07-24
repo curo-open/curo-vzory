@@ -1,0 +1,246 @@
+{
+  "description": "Punkcia burzitídy na pravom lakti s podaním kortikoidov",
+  "type": null,
+  "summary": "Bursitis OLEC l DX (+ D) - ORT",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate _focus\" data-name=\"id\" data-id=\"M70.2\" data-id-ezid=\"02089442509@12\" title=\"[M70.2] Burzit&amp;#xED;da olekranu\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[M70.2] Burzitída olekranu</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"63\" data-id-ezid=\"00000117556@14\" data-prop-body=\"200\" title=\"[63] D&amp;#xF4;kladn&amp;#xE9; vy&amp;#x161;etrenie jedn&amp;#xE9;ho org&amp;#xE1;nov&amp;#xE9;ho syst&amp;#xE9;mu alebo kontroln&amp;#xE9; vy&amp;#x161;etrenie vr&amp;#xE1;tane r&amp;#xE1;d a dokument&amp;#xE1;cie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"301\" data-id-ezid=\"00000468264@14\" data-prop-body=\"150\" title=\"[301] Punkcia lak&amp;#x165;ov&amp;#xE9;ho alebo kolenn&amp;#xE9;ho k&amp;#x13A;bu.\" style=\"width: 50ch;\">[301] Punkcia lakťového alebo kolenného kĺbu.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"255\" data-id-ezid=\"00000467902@14\" data-prop-body=\"110\" title=\"[255] Injekcia intraartikul&amp;#xE1;rna.\" style=\"width: 50ch;\">[255] Injekcia intraartikulárna.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"4\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"207\" data-id-ezid=\"00000467530@14\" data-prop-body=\"120\" title=\"[207] Spev&amp;#x148;uj&amp;#xFA;ci n&amp;#xE1;plastov&amp;#xFD; obv&amp;#xE4;z ve&amp;#x13E;k&amp;#xE9;ho k&amp;#x13A;bu.\" style=\"width: 50ch;\">[207] Spevňujúci náplastový obväz veľkého kĺbu.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"5\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">Subj.: pac. reklamuje opäť opuch v oblasti pravého lakťa\nObj.: vedomie lucídne, poloha aktívna, anikter., acyanoza, eupnoe\nfluktuacia nad pravým olecranon bez obmedzenia hybnosti\nv lakťovom zhybe, bez NCP, bez palp. alg.\nDg.: Bursitis olecranii l dx\nTh.: punkcia cca 5 ml serosangv. vypotku + Diprophos inj i.a., bandáž, ko o tyž. p.p.\n</div></section>",
+  "title": "Bursitis OLEC l DX (+ D) - ORT",
+  "shortcut": "bodd",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 16,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 6,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac. udáva opäť opuch v oblasti pravého lakťa<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 7,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "vedomie lucídne, poloha aktívna, anikter., acyanoza, eupnoe<br>fluktuacia nad pravým olecranon bez obmedzenia hybnosti v lakťovom zhybe, bez NCP, bez palp. alg.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 2,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M70.2] Burzitída olekranu",
+            "props": {
+              "idEzid": "02089442509@12",
+              "id": "M70.2"
+            }
+          },
+          "text": {
+            "value": "Bursitis olecrani l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[301] Punkcia lakťového alebo kolenného kĺbu.",
+            "props": {
+              "propBody": 150,
+              "idEzid": "00000468264@14",
+              "id": 301
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 4,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni",
+            "props": {
+              "propBody": 70,
+              "idClassid": "vykon",
+              "idEzid": "00000467498@14",
+              "id": 200
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 10,
+        "order": 7,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "punkcia cca 5 ml serosangv. vypotku + Dexamed inj i.a., bandáž<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pl": [
+      {
+        "id": 14,
+        "order": 8,
+        "props": {
+          "type": "pl"
+        },
+        "value": {
+          "id": {
+            "value": "[84090] DEXAMED | sol inj 10x2 ml/8 mg (amp.skl.hnedá)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Dexametazón",
+              "propSdl": 53,
+              "propCena": 4.04,
+              "propVnl": "R",
+              "propUzp_1zvj": 0.077,
+              "propBal": 10,
+              "propGp": 0,
+              "propUnit": "DF",
+              "propSpUhr": "A",
+              "propDpl": 0,
+              "idClassid": "liek",
+              "idEzid": "00020541769",
+              "idF": "SOL INJ",
+              "idSp": "ivm",
+              "idAtc": "H02AB02",
+              "idUl": "",
+              "id": 84090
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "payoff": {
+            "value": "",
+            "props": {}
+          },
+          "dpljed": {
+            "value": "",
+            "props": {}
+          },
+          "dpl": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "uhradazp": {
+            "value": "0,4",
+            "props": {
+              "propValue": "0.40"
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "kodl": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 11,
+        "order": 9,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": " ko o tyž. p.p.<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

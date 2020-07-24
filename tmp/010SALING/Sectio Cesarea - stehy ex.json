@@ -1,0 +1,156 @@
+{
+  "type": null,
+  "summary": null,
+  "description": "Vybratie stehov - st.p. Sectio Cesarea",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"S31.1\" data-id-ezid=\"02089486894@12\" title=\"[S31.1] Otvoren&amp;#xE1; rana bru&amp;#x161;nej steny\" style=\"width: 50ch;\">[S31.1] Otvorená rana brušnej steny</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"63\" data-id-ezid=\"00000117556@14\" data-prop-body=\"200\" title=\"[63] D&amp;#xF4;kladn&amp;#xE9; vy&amp;#x161;etrenie jedn&amp;#xE9;ho org&amp;#xE1;nov&amp;#xE9;ho syst&amp;#xE9;mu alebo kontroln&amp;#xE9; vy&amp;#x161;etrenie vr&amp;#xE1;tane r&amp;#xE1;d a dokument&amp;#xE1;cie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"2007\" data-id-ezid=\"00000474346@14\" data-prop-body=\"60\" title=\"[2007] Odstr&amp;#xE1;nenie sut&amp;#xFA;ry alebo stehov z ve&amp;#x13E;kej rany.\" style=\"width: 50ch;\">[2007] Odstránenie sutúry alebo stehov z veľkej rany.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">Pac po SC\nsubj. dobre, bez ťažkostí, bez febrilít, bolesti nemá\nobj.: orient., poloha akt., eupnoe, anikter., acyanoza, abdomen priehmatné, kludné, palp. nebolestivé\nlokal. hypogastrium: suturovaná rana v podbrušku zhojená p.p.i., palp. nebolestivá, nesecernuje, bez inflam okolia\nDg.: st.p. sect. Cesarea\ndop.: toaleta, desinf., stehy ex, ko p.p.\n\n</div></section>",
+  "title": "Sectio Cesarea - stehy ex",
+  "shortcut": "ste SC",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "Pac po SC<br>subj. dobre, bez ťažkostí, bez febrilít, bolesti nemá<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "obj.: orient., poloha akt., eupnoe, anikter., acyanoza, abdomen priehmatné, kludné, palp. nebolestivé<br>lokal. hypogastrium: suturovaná rana v podbrušku zhojená p.p.i., palp. nebolestivá, nesecernuje, bez inflam okolia<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": "",
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S31.1] Otvorená rana brušnej steny",
+            "props": {
+              "idEzid": "02089486894@12",
+              "id": "S31.1"
+            }
+          },
+          "text": {
+            "value": "st.p. sect. Cesarea",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2007] Odstránenie sutúry alebo stehov z veľkej rany.",
+            "props": {
+              "propBody": 60,
+              "idEzid": "00000474346@14",
+              "id": 2007
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "toaleta, desinf., stehy ex<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 8,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko p.p., <br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

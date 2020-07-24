@@ -1,0 +1,214 @@
+{
+  "description": "Zloženie sádry po zlomenine vonk. členka vpravo",
+  "type": null,
+  "summary": "fr. ATC mal.lat. DX - EX - sadra",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"_focus\"><aside></aside><div class=\"FieldHtml _focus\" data-name=\"t\">S.: dobre, bolesti ustúpili, afebril.\nO.: orient., polohaa kt., eupnoe, anikter., acyanoza, chôdza o NB\nSPL : mierny perimalleolar edem bez NCP s miernou palp. alg. nad lateral. malleolom pr. TC zhybu\nRTG : stav zhojený konsolidovaným kalusom\nTh.: sadra ex, band.\nDop.: postupne rozvičovať pr. TC zhyb, nedostupovať, ko o 7-10 dní, potom RHB\n<br></div></section>",
+  "title": "fr. ATC mal.lat. DX - EX - sadra",
+  "shortcut": "fmled",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "kontrola pacienta",
+            "props": {
+              "propValue": "K"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "dobre, bolesti ustúpili, afebril.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., polohaa kt., eupnoe, anikter., acyanoza, chôdza o NB<br>SPL : mierny perimalleolar edem bez NCP s miernou palp. alg. nad lateral. malleolom pr. TC zhybu<br>RTG : stav zhojený konsolidovaným kalusom<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S82.6] Zlomenina vonkajšieho členka",
+            "props": {
+              "id": "S82.6",
+              "idEzid": "02089493353@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "Fr. mall. lateral. ATC l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 5,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "id": 63,
+              "idEzid": "00000117556@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 9,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "id": "15d",
+              "idEzid": "02089714121@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[246] Odňatie cirkulárneho sadrového obväzu.",
+            "props": {
+              "propBody": 170,
+              "id": 246,
+              "idEzid": "00000467787@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 6,
+        "order": 7,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "sadra ex, band.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 7,
+        "order": 8,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "postupne rozvičovať pr. TC zhyb, nedostupovať, ko o 7-10 dní, potom RHB<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-rtg": [
+      {
+        "id": 13,
+        "order": 9,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S82.6] Zlomenina vonkajšieho členka",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089493353@13",
+              "id": "S82.6"
+            }
+          },
+          "predmet": {
+            "value": "pr. členok",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "konsolidácia kalusu",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

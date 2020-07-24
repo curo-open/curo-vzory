@@ -1,0 +1,249 @@
+{
+  "type": null,
+  "summary": "cap.radii l DX - fractura",
+  "description": "Zlomenina hlavičky pr. rádia",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-ezid=\"02089489906@12\" data-id=\"S52.00\" title=\"[S52.0] Zlomenina horného konca lakťovej kosti: časť bližšie neurčená\" style=\"width: 50ch;\">[S52.0] Zlomenina horného konca lakťovej kosti: časť bližšie neurčená</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000117549@14\" data-id=\"62\" data-prop-body=\"250\" title=\"[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000467746@14\" data-id=\"237\" data-prop-body=\"1125\" title=\"[237] Sadrový dlahový obväz, ktorý siaha najmenej cez dva velké kĺby (rameno, lakeť, ruka, koleno, členok).\" style=\"width: 50ch;\">[237] Sadrový dlahový obväz, ktorý siaha najmenej cez dva velké kĺby (rameno, lakeť, ruka, koleno, členok).</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: reklamuje bolesti pravého lakťa po udretí pri páde\nO.: orient., poloha akt., eupnoe, anikter., acyanoza, edem, haematom a palp. alg proximal. predlaktia vpravo, P/S pr. lakťa obmedzené - terminal. alg., bez NCP, dynamika v RC zhybe plná, terminalne nebolestivá\nDg.: RTG.: fr. cap. radii l dx sine disloc\nTh.: sadr dlaha, ko o 10-14 dní\n</div></section>",
+  "title": "cap.radii l DX - fractura",
+  "shortcut": "fr capra dx",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "10": [
+          "recommendedBy"
+        ]
+      }
+    },
+    "od": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "neodkladná starostlivosť",
+            "props": {
+              "propValue": "A"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bolesti pravého lakťa po udretí pri páde<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanoza, edem, haematom a palp. alg proximal. predlaktia vpravo, P/S pr. lakťa obmedzené - terminal. alg., bez NCP, dynamika v RC zhybe plná, terminalne nebolestivá<br>RTG.: fr. cap. radii l dx sine disloc<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": "",
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S52.0] Zlomenina horného konca lakťovej kosti: časť bližšie neurčená",
+            "props": {
+              "id": "S52.00",
+              "idEzid": "02089489906@12"
+            }
+          },
+          "text": {
+            "value": "fr. cap. radii l dx sine disloc",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "id": 62,
+              "idEzid": "00000117549@14"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "idClassid": "vykon",
+              "idEzid": "02089714121@14",
+              "id": "15d"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "ortéza<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 8,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o 10-14 dní, p.p. ko skôr<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pp": [
+      {
+        "id": 10,
+        "order": 8,
+        "props": {
+          "type": "pp",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[J71248] Ortéza Thuasne Immo Classic | fixátor ramena a lakťa",
+            "props": {
+              "propPo_4": "CHI",
+              "propPo_3": "013",
+              "propPo_2": "027",
+              "propPo_1": "ORT",
+              "propPo_0": "039",
+              "propCena": 5.61,
+              "propDpl": 4,
+              "idClassid": "pomocka",
+              "idEzid": "00020180154",
+              "idV": "THU-FR",
+              "id": "J71248"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "need": {
+            "value": "dočasná",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reason": {
+            "value": "fr. cap. radii l dx sine disloc<br>",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {
+              "error": "Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára"
+            }
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "namieru": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

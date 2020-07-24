@@ -1,0 +1,30 @@
+{
+  "type": null,
+  "summary": "hrudník SPL",
+  "description": "hrudník",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">hrudník klenutý, súmerný, palp. stabilný v oboch rovinách, nebolestivý, dýchanie vezikulárne, čisté, symetrické\ncor AS pravidelná, ozvy ohraničené, bez šelestov\n</div></section>",
+  "title": "hrudník SPL",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "hrudník klenutý, súmerný, palp. stabilný v oboch rovinách, nebolestivý, dýchanie vezikulárne, čisté, symetrické, cor AS pravidelná, ozvy ohraničené, bez šelestov<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "shortcut": "hruspl",
+  "source": "curo-open/curo-vzory#/010SALING"
+}

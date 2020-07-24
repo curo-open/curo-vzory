@@ -1,0 +1,30 @@
+{
+  "description": "Informovaný súhlas INF",
+  "type": null,
+  "summary": "Informovaný súhlas MEDICOM",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"_focus\"><aside></aside><div class=\"FieldHtml _focus\" data-name=\"t\">Svojím podpisom potvrdzujem, že som bol ohľaduplne a bez nátlaku zrozumitelne informovaný o účele, povahe, následkoch a rizikách poskytnutia zdravotnej starostlivosti, o možnostiach voľby navrhovaných postupov a rizikách odmietnutia poskytnutia zdravotnej starostlivosti.\n\nPodpis pacienta: ............................. Pečiatka lekára:\n<br></div></section>",
+  "title": "Informovaný súhlas MEDICOM",
+  "shortcut": "inf",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Svojím podpisom potvrdzujem, že som bol ohľaduplne a bez nátlaku zrozumitelne informovaný o účele, povahe, následkoch a rizikách poskytnutia zdravotnej starostlivosti, o možnostiach voľby navrhovaných postupov a rizikách odmietnutia poskytnutia zdravotnej starostlivosti.\n\n                                                                                                                                                                                                                                                                     Podpis pacienta: ............................. \n<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

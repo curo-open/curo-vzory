@@ -1,0 +1,247 @@
+{
+  "type": null,
+  "summary": "ARC l DX - DISTORSIO",
+  "description": "Podvrtnutie pr. zápästia",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"S63.50\" data-id-ezid=\"02089491472@12\" title=\"[S63.50] Vyvrtnutie a natiahnutie z&amp;#xE1;p&amp;#xE4;stia, &amp;#x10D;as&amp;#x165; bli&amp;#x17E;&amp;#x161;ie neur&amp;#x10D;en&amp;#xE1;\" style=\"width: 50ch;\">[S63.50] Vyvrtnutie a natiahnutie zápästia, časť bližšie neurčená</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"62\" data-id-ezid=\"00000117549@14\" data-prop-body=\"250\" title=\"[62] Cielen&amp;#xE9; vy&amp;#x161;etrenie dvoch alebo viacer&amp;#xFD;ch org&amp;#xE1;nov&amp;#xFD;ch syst&amp;#xE9;mov alebo dispenz&amp;#xE1;rna kontrola (cielen&amp;#xE1; anamn&amp;#xE9;za, resp. anamn&amp;#xE9;za od poslednej kontroly), popis subjekt&amp;#xED;vnych obtia&amp;#x17E;&amp;#xED;, objekt&amp;#xED;vny n&amp;#xE1;lez, vyp&amp;#xED;sanie spr&amp;#xE1;vy, z&amp;#xE1;ver, vypracovanie pl&amp;#xE1;nu do nasleduj&amp;#xFA;c\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"15d\" data-id-ezid=\"02089714121@14\" data-prop-body=\"150\" title=\"[15d] Zhodnotenie rtg dokument&amp;#xE1;cie, ak nie je vykonan&amp;#xE9; pracoviskom RTG, vr&amp;#xE1;tane popisu v zdravotnej dokument&amp;#xE1;cii.\" style=\"width: 50ch;\">[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: pobolievanie pr. zápästia\nO.: orient., poloha akt., eupnoe, anikter., acyanoza\nSPL : mierna palp. alg. s terminalne viaznucou a alg dynamikou pr. RC zhybu\nRTG : bez TZ na skelete\nDg.: distorsio ARC l dx\nTh.: NSA, ortéza\nDop.: telesné šetrenie 1-2 tyž ko p.p.\n</div></section>",
+  "title": "ARC l DX - DISTORSIO",
+  "shortcut": "arcdd",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "10": [
+          "recommendedBy"
+        ]
+      }
+    },
+    "od": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pobolievanie pr. zápästia po podvrtnutí resp. udretí, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanoza<br>SPL : mierna palp. alg. s terminalne viaznucou a alg dynamikou pr. RC zhybu<br>RTG : bez TZ na skelete<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S63.50] Vyvrtnutie a natiahnutie zápästia, časť bližšie neurčená",
+            "props": {
+              "id": "S63.50",
+              "idEzid": "02089491472@12"
+            }
+          },
+          "text": {
+            "value": "Distorsio ARC l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "id": 62,
+              "idEzid": "00000117549@14"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "id": "15d",
+              "idEzid": "02089714121@14"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "NSA, ortéza<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 8,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "Dop.: telesné šetrenie 1-2 tyž ko p.p.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pp": [
+      {
+        "id": 10,
+        "order": 8,
+        "props": {
+          "type": "pp",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[J39131] Ortéza zápästia a palca Ligaflex Manu | s výstuhou s kovovými dlahami, pravá / ľavá",
+            "props": {
+              "propDpl": 0,
+              "propCena": 13.68,
+              "propPo_5": "013",
+              "propPo_4": "027",
+              "propPo_3": "ORT",
+              "propPo_2": "039",
+              "propPo_1": "037",
+              "propPo_0": "CHI",
+              "id": "J39131",
+              "idV": "THU-FR",
+              "idEzid": "00020174595",
+              "idClassid": "pomocka"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "need": {
+            "value": "dočasná",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reason": {
+            "value": "Distorsio ARC l dx<br>",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {
+              "error": "Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára"
+            }
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "namieru": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

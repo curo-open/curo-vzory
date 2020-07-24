@@ -1,0 +1,153 @@
+{
+  "type": null,
+  "summary": null,
+  "description": "Kontrola brucha - abdomen",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"K30\" data-id-ezid=\"00000045864@12\" title=\"[K30.0] Dyspepsia\" style=\"width: 50ch;\">[K30.0] Dyspepsia</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"63\" data-id-ezid=\"00000117556@14\" data-prop-body=\"200\" title=\"[63] D&amp;#xF4;kladn&amp;#xE9; vy&amp;#x161;etrenie jedn&amp;#xE9;ho org&amp;#xE1;nov&amp;#xE9;ho syst&amp;#xE9;mu alebo kontroln&amp;#xE9; vy&amp;#x161;etrenie vr&amp;#xE1;tane r&amp;#xE1;d a dokument&amp;#xE1;cie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S : pac. sa cíti lepšie, ústup obtiaží\nO : vedomie lucídne, orient., eupnoe, poloha aktívna, koža čistá, anikter., acyanot., abdomen v niveau hrudníka, dých. vlna plynule prechádza k symph., palp. mäkké, dobre priehmatné, bez patolog.\nrezistencie, s ústupom palp. algicity, B-R-P negat., Murphy negat.\nZ.: klin. stav zlepšený, pac. afebril., ko p.p.\n</div></section>",
+  "title": "Ko Abdomen Brucho negat",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 11,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "kontrola pacienta",
+            "props": {
+              "propValue": "K"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": " pac. sa cíti lepšie, ústup obtiaží<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": " vedomie lucídne, orient., eupnoe, poloha aktívna, koža čistá, anikter., acyanot., abdomen v niveau hrudníka, dých. vlna plynule prechádza k symph., palp. mäkké, dobre priehmatné, bez patolog.<br>rezistencie, s ústupom palp. algicity, B-R-P negat., Murphy negat.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 5,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[K30] Dyspepsia",
+            "props": {
+              "id": "K30",
+              "idEzid": "00000045864@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "Dyspepsia - ko vyš., ",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "id": 63,
+              "idEzid": "00000117556@14"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 7,
+        "order": 5,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "sine<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 9,
+        "order": 6,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "bez rozvoja NPB<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 8,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "telesné šetrenie, dietny režim, ko p.p., <br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "shortcut": "abdko",
+  "source": "curo-open/curo-vzory#/010SALING"
+}

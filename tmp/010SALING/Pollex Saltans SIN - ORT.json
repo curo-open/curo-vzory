@@ -1,0 +1,364 @@
+{
+  "description": "Skákavý palec pravej ruky",
+  "type": null,
+  "summary": "Pollex Saltans SIN - ORT",
+  "content": "<section data-x-id=\"6\" data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"_noval FieldList hasActions\" data-name=\"reason\"></div>​<label data-for=\"datum\" class=\"_noval hidden\">zo dňa​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"datumVyziadania\" class=\"_noval hidden\">dátum vyžiadania​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datumVyziadania\"></div>​<label data-for=\"id\" class=\"_noval hidden\">identifikátor​</label><div class=\"_noval Field hidden\" data-name=\"id\"></div></section><section data-x-id=\"7\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\">pac. reklamuje skákavý prst - lúpavý fenomen pri flexii v IPh a MTCPh zhybe palca pravej ruky<br></div></section><section data-x-id=\"8\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\">orient., poloha akt., eupnoe, palp. alg s hmatnou rezistenciou na palmárnej strane I. MTCPh zhybu pravej ruky s lúpavým fenoménom pri F/E v IPh a MTCPh zhybe, bez NCP<br></div></section><section data-x-id=\"3\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-ezid=\"02089440743@12\" data-id=\"M65.3\" title=\"[M65.3] Skákavý prst [digitus recellens]\" style=\"width: 50ch;\">[M65.3] Skákavý prst [digitus recellens]</div>​<label data-for=\"text\" class=\"\">/​</label><div class=\"Field minor\" data-name=\"text\">Pollex saltans l dx /tendovaginitis stenotisans/</div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000117549@14\" data-id=\"62\" data-prop-body=\"250\" title=\"[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000468728@14\" data-id=\"407\" data-prop-body=\"120\" title=\"[407] Infiltračná anestézia jednej oblasti s použitím lokálneho anestetika v množstve viac ako 5 ml. Tento výkon môže vykazovať lekár so špecializáciou v odbore všeobecné lekárstvo, chirurg, traumatológ, al\" style=\"width: 50ch;\">[407] Infiltračná anestézia jednej oblasti s použitím lokálneho anestetika v množstve viac ako 5 ml. Tento výkon môže vykazovať lekár so špecializáciou v odbore všeobecné lekárstvo, chirurg, traumatológ, al</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"12\" data-type=\"pl\" class=\"\"><aside></aside><label class=\"section-label  has-info\">Podaný liek​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"liek\" data-id-ezid=\"00020288130\" data-id-f=\"SOL INJ\" data-id-sp=\"?\" data-id-atc=\"N01BB\" data-id-ul=\"\" data-id=\"00502\" data-prop-ol=\"0\" data-prop-atc-name=\"Amidy\" data-prop-sdl=\"100\" data-prop-cena=\"12.07\" data-prop-vnl=\"R\" data-prop-uzp_1zvj=\"0.077\" data-prop-bal=\"10\" data-prop-gp=\"0\" data-prop-unit=\"DF\" data-prop-sp-uhr=\"AS\" data-prop-dpl=\"4.37\" title=\"[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)\" style=\"width: 50ch;\">[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)</div>​<label data-for=\"qty\" class=\"\">množstvo ZVJ​</label><div class=\"FieldR\" data-name=\"qty\" data-prop-value=\"15.00\">15</div>​<label data-for=\"payoff\" class=\" _noval\">prepíš jed. cenu ZP​</label><div class=\"_noval FieldR\" data-name=\"payoff\"></div>​<label data-for=\"dpljed\" class=\" _noval\">prepíš jed. cenu pacienta​</label><div class=\"_noval FieldR\" data-name=\"dpljed\"></div>​<label data-for=\"dpl\" class=\"\">dopl. pacient​</label><div class=\"FieldR locked\" data-name=\"dpl\" data-prop-value=\"6.55\">6,55</div>​<label data-for=\"uhradazp\" class=\"\">úhrada ZP​</label><div class=\"FieldR locked\" data-name=\"uhradazp\" data-prop-value=\"11.55\">11,55</div>​<label data-for=\"typ\" class=\" _noval\">špecifické podmienky​</label><div class=\"_noval FieldList hasActions\" data-name=\"typ\"></div>​<label data-for=\"kodl\" class=\" _noval\">alt. kód lieku​</label><div class=\"_noval Field\" data-name=\"kodl\"></div></section><section data-x-id=\"3\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000474791@14\" data-id=\"2226\" data-prop-body=\"800\" title=\"[2226] Operácia tendosynovitídy v oblasti zhybu na ruke alebo angulárnych segmentov prsta.\" style=\"width: 50ch;\">[2226] Operácia tendosynovitídy v oblasti zhybu na ruke alebo angulárnych segmentov prsta.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"4\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000467498@14\" data-id=\"200\" data-prop-body=\"70\" title=\"[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni\" style=\"width: 50ch;\">[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"9\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"FieldHtml\" data-name=\"th\">LA 1% Mes. 15 ml, z cca 1,5 cm incízie preťatie zhrubnutého prstenca pošvy šlachy s parcialnou resekciou, sutura, krytie<br></div></section><section data-x-id=\"14\" data-type=\"r\" class=\"\"><aside></aside><label class=\"section-label  has-info\">R​:</label><div class=\"FieldSearch hasActions highlight-bold truncate\" data-name=\"id\" data-id-classid=\"liek\" data-id-ezid=\"00020330205\" data-id-f=\"GRO POR\" data-id-sp=\"ora\" data-id-atc=\"M01AE17\" data-id-ul=\"dexketoprofenum\" data-id=\"07226\" data-prop-ol=\"0\" data-prop-atc-name=\"Dexketoprofen\" data-prop-sdl=\"3.333\" data-prop-cena=\"3.74\" data-prop-vnl=\"R\" data-prop-uzp_1zvj=\"0.114\" data-prop-bal=\"10\" data-prop-gp=\"1\" data-prop-unit=\"DF\" data-prop-sp-uhr=\"S\" data-prop-dpl=\"3.36\" title=\"[07226] Dexadol 25 mg gro por | gro por 10x25 mg (vre. Al/PE)\" style=\"width: 50ch;\">[07226] Dexadol 25 mg gro por | gro por 10x25 mg (vre. Al/PE)</div>​<label data-for=\"schedule\" class=\"\">dáv.​</label><div class=\"FieldMedicationSchedule hasActions\" data-name=\"schedule\" data-prop-way_code=\"\" data-prop-period_t=\"denne\" data-prop-period_code=\"D\" data-prop-parts_sleep-time=\"0\" data-prop-parts_evening=\"1\" data-prop-parts_noon=\"0\" data-prop-parts_morning=\"1\" data-prop-type=\"PEV1\">1-0-1-0, denne</div>​<label data-for=\"qty\" class=\"\"># bal.​</label><div class=\"FieldR hasActions\" data-name=\"qty\" data-prop-value=\"1.00\">1</div>​<label data-for=\"repeatCount\" class=\" _noval\">rep.​</label><div class=\"_noval FieldN hasActions\" data-name=\"repeatCount\"></div>​<label data-for=\"repeatAfter\" class=\"ss hidden\">dní medzi výberom​</label><div class=\"FieldN ss hidden\" data-name=\"repeatAfter\">30</div>​<label data-for=\"repeatLast\" class=\"ss _noval hidden\">posledný výber​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"repeatLast\"></div>​<label data-for=\"recommendedBy\" class=\"ss _noval\">odp. lek.​</label><div class=\"_noval FieldSearchLekar hasActions ss\" data-name=\"recommendedBy\"></div>​<label data-for=\"recommendedDate\" class=\"ss _noval hidden\">dátum odp.​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"recommendedDate\"></div>​<label data-for=\"untilDate\" class=\"ss _noval hidden\">platné do​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"untilDate\"></div>​<label data-for=\"noReplacement\" class=\"ss\">náhrada​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"noReplacement\" data-prop-value=\"0\">nie</div>​<label data-for=\"payoff\" class=\"ss\">doplatok​</label><div class=\"FieldR locked ss\" data-name=\"payoff\" data-prop-value=\"3.36\">3,36</div>​<label data-for=\"atc\" class=\"ss _noval hidden\">cez ATC​</label><div class=\"_noval FieldSwitchLogical hasActions ss hidden\" data-name=\"atc\" data-prop-value=\"0\">nie</div>​<label data-for=\"instruction\" class=\"ss _noval\">inštrukcie​</label><div class=\"_noval Field ss\" data-name=\"instruction\"></div>​<label data-for=\"reasonPayoff\" class=\"ss _noval\">uhradí​</label><div class=\"_noval FieldSwitch hasActions ss\" data-name=\"reasonPayoff\"></div>​<label data-for=\"prodException\" class=\"ss\">výnimka​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"prodException\" data-prop-value=\"0\">nie</div>​<label data-for=\"force\" class=\"ss\">vyn. zápis​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"force\" data-prop-value=\"0\">nie</div>​<label data-for=\"forceReason\" class=\"ss _noval hidden\">dôvod v.z.​</label><div class=\"_noval Field ss hidden\" data-name=\"forceReason\"></div>​<label data-for=\"barcode\" class=\"_noval hidden\">čiarový kód​</label><div class=\"_noval Field readonly dontCopy hidden\" data-name=\"barcode\"></div>​<label data-for=\"note_zp\" class=\"ss _noval hidden\">poznámka ZP​</label><div class=\"_noval Field readonly dontCopy ss hidden\" data-name=\"note_zp\"></div>​<label data-for=\"status\" class=\"invisible ss\">stav​</label><div class=\"FieldN readonly dontCopy invisible ss\" data-name=\"status\">0</div></section><section data-x-id=\"10\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\">ko o 3 a 7 dní, p.p. ko skôr<br></div></section>",
+  "title": "Pollex Saltans SIN - ORT",
+  "shortcut": "ds1s",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 6,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 7,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac. reklamuje skákavý prst - lúpavý fenomen pri flexii v IPh a MTCPh zhybe palca ľavej ruky<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 8,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, palp. alg s hmatnou rezistenciou na palmárnej strane I. MTCPh zhybu ľavej ruky s lúpavým fenoménom pri F/E v IPh a MTCPh zhybe, bez NCP<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M65.3] Skákavý prst [digitus recellens]",
+            "props": {
+              "id": "M65.3",
+              "idEzid": "02089440743@12"
+            }
+          },
+          "text": {
+            "value": "Pollex saltans l sin /tendovaginitis stenotisans/",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "id": 62,
+              "idEzid": "00000117549@14"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[407] Infiltračná anestézia jednej oblasti s použitím lokálneho anestetika v množstve viac ako 5 ml. Tento výkon môže vykazovať lekár so špecializáciou v odbore všeobecné lekárstvo, chirurg, traumatológ, al",
+            "props": {
+              "propBody": 120,
+              "id": 407,
+              "idEzid": "00000468728@14"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 3,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2226] Operácia tendosynovitídy v oblasti zhybu na ruke alebo angulárnych segmentov prsta.",
+            "props": {
+              "propBody": 800,
+              "id": 2226,
+              "idEzid": "00000474791@14"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 4,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni",
+            "props": {
+              "propBody": 70,
+              "id": 200,
+              "idEzid": "00000467498@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pl": [
+      {
+        "id": 12,
+        "order": 6,
+        "props": {
+          "type": "pl"
+        },
+        "value": {
+          "id": {
+            "value": "[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)",
+            "props": {
+              "propDpl": 4.37,
+              "propSpUhr": "AS",
+              "propUnit": "DF",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": 0.077,
+              "propVnl": "R",
+              "propCena": 12.07,
+              "propSdl": 100,
+              "propAtcName": "Amidy",
+              "propOl": 0,
+              "id": "00502",
+              "idUl": "",
+              "idAtc": "N01BB",
+              "idSp": "?",
+              "idF": "SOL INJ",
+              "idEzid": "00020288130",
+              "idClassid": "liek"
+            }
+          },
+          "qty": {
+            "value": "15",
+            "props": {
+              "propValue": "15.00"
+            }
+          },
+          "payoff": {
+            "value": "",
+            "props": {}
+          },
+          "dpljed": {
+            "value": "",
+            "props": {}
+          },
+          "dpl": {
+            "value": "6,55",
+            "props": {
+              "propValue": 6.55
+            }
+          },
+          "uhradazp": {
+            "value": "11,55",
+            "props": {
+              "propValue": 11.55
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "kodl": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 9,
+        "order": 9,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "LA 1% Mes. 15 ml, z cca 1,5 cm incízie preťatie zhrubnutého prstenca pošvy šlachy s parcialnou resekciou, sutura, krytie<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 14,
+        "order": 10,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[07226] Dexadol 25 mg gro por | gro por 10x25 mg (vre. Al/PE)",
+            "props": {
+              "propDpl": 3.36,
+              "propSpUhr": "S",
+              "propUnit": "DF",
+              "propGp": 1,
+              "propBal": 10,
+              "propUzp_1zvj": 0.114,
+              "propVnl": "R",
+              "propCena": 3.74,
+              "propSdl": 3.333,
+              "propAtcName": "Dexketoprofen",
+              "propOl": 0,
+              "id": "07226",
+              "idUl": "dexketoprofenum",
+              "idAtc": "M01AE17",
+              "idSp": "ora",
+              "idF": "GRO POR",
+              "idEzid": "00020330205",
+              "idClassid": "liek"
+            }
+          },
+          "schedule": {
+            "value": "1-0-1-0, denne",
+            "props": {
+              "propType": "PEV1",
+              "propParts_morning": 1,
+              "propParts_noon": 0,
+              "propParts_evening": 1,
+              "propParts_sleepTime": 0,
+              "propPeriod_code": "D",
+              "propPeriod_t": "denne",
+              "propWay_code": ""
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "payoff": {
+            "value": "3,36",
+            "props": {
+              "propValue": 3.36
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 10,
+        "order": 11,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o 3 a 7 dní, p.p. ko skôr<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

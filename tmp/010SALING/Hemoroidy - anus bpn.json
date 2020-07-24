@@ -1,0 +1,227 @@
+{
+  "description": "Vyšetrenie hemoroidov - anus bpn",
+  "type": null,
+  "summary": "Hemoroidy - anus bpn",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate _focus\" data-name=\"id\" data-id=\"K64.2\" data-id-ezid=\"02089410548@12\" title=\"[K64.2] Hemoroidy 3. stup&amp;#x148;a\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[K64.2] Hemoroidy 3. stupňa</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"62\" data-id-ezid=\"00000117549@14\" data-prop-body=\"250\" title=\"[62] Cielen&amp;#xE9; vy&amp;#x161;etrenie dvoch alebo viacer&amp;#xFD;ch org&amp;#xE1;nov&amp;#xFD;ch syst&amp;#xE9;mov alebo dispenz&amp;#xE1;rna kontrola (cielen&amp;#xE1; anamn&amp;#xE9;za, resp. anamn&amp;#xE9;za od poslednej kontroly), popis subjekt&amp;#xED;vnych obtia&amp;#x17E;&amp;#xED;, objekt&amp;#xED;vny n&amp;#xE1;lez, vyp&amp;#xED;sanie spr&amp;#xE1;vy, z&amp;#xE1;ver, vypracovanie pl&amp;#xE1;nu do nasleduj&amp;#xFA;c\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">Subj.: pac. reklamuje bolesti v oblasti konečníka zhoršené pri defekácii, intermitentne prúžok krvi na papieri po stolici\nObj.: vedomie lucídne, poloha aktívna, koža čistá, anikter., acyanot., abdomen mäkké, priehmatné, bez patolog. rezistencie a palp. algicity\nMurphy negat., Blumberg-Rowsing-Plenies negat, TPT bilat. negat.\nPer rectum : anus : bez inflam a trombot., bez palp. alg., sfinktery normotonické, steny recta na dosah prsta hladké, ampula prázdna, Douglas nevyklenuje, palp. nebolestivý\nDg.: Nodi haemorrhoidales\nTh.: Detralex tbl, Faktu ung.\nDop.: telesné šetrenie, dietny režim, kontrol. vyš. o 2 tyž.\n</div></section>",
+  "title": "Hemoroidy - anus bpn",
+  "shortcut": "hembpn",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "ac. reklamuje bolesti v oblasti konečníka zhoršené pri defekácii, intermitentne prúžok krvi na papieri po stolici<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "vedomie lucídne, poloha aktívna, koža čistá, anikter., acyanot., abdomen mäkké, priehmatné, bez patolog. rezistencie a palp. algicity<br>Murphy negat., Blumberg-Rowsing-Plenies negat, TPT bilat. negat.<br>Per rectum : anus : bez inflam a trombot., bez palp. alg., sfinktery normotonické, steny recta na dosah prsta hladké, ampula prázdna, Douglas nevyklenuje, palp. nebolestivý<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": "",
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[K64.2] Hemoroidy 3. stupňa",
+            "props": {
+              "id": "K64.2",
+              "idEzid": "02089410548@12"
+            }
+          },
+          "text": {
+            "value": "Nodi haemorrhoidales",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "id": 62,
+              "idEzid": "00000117549@14"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 6,
+        "order": 5,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "Venotoniká, antihemoroidáliá lokálne, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "sedacie kúpele, telesné šetrenie, dietny režim, kontrol. vyš. o 2 tyž.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 9,
+        "order": 7,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[5037C] Flebaven 1 000 mg tablety | tbl 90x1000 mg (blis.PVC/PVDC/Al)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Diozmín",
+              "propVnl": "R",
+              "propBal": 90,
+              "propGp": 0,
+              "propUnit": "DF",
+              "idClassid": "liek",
+              "idEzid": "00021260302",
+              "idF": "TBL",
+              "idSp": "ora",
+              "idAtc": "C05CA03",
+              "idUl": "diosminum",
+              "id": "5037C"
+            }
+          },
+          "schedule": {
+            "value": "1-0-1-0, denne",
+            "props": {
+              "propWay_code": "",
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propParts_sleepTime": 0,
+              "propParts_evening": 1,
+              "propParts_noon": 0,
+              "propParts_morning": 1,
+              "propType": "PEV1"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

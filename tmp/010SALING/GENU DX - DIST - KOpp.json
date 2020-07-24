@@ -1,0 +1,139 @@
+{
+  "description": "Kontrola po distorzii pravého kolena - KO p.p.",
+  "type": null,
+  "summary": "GENU DX - DIST - KOpp",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"_focus\"><aside></aside><div class=\"FieldHtml _focus\" data-name=\"t\">S.: dobre, bez ťažkostí, bolesti pr. kolena ustúpili\nO.: orient., poloha akt., eupnoe, anikter., acyanóza\nSPL : pr. koleno - bez palp. alg, bez haematomu a edemu, zresorb., bez NCP, dynamika pr. kolena plná\nZ.: stav zhojený\nDop.: ko p.p.\n<br></div></section>",
+  "title": "GENU DX - DIST - KOpp",
+  "shortcut": "gddkp",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "kontrola pacienta",
+            "props": {
+              "propValue": "K"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "dobre, bez ťažkostí, bolesti pr. kolena ustúpili<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanóza<br>SPL : pr. koleno - bez palp. alg, bez haematomu a edemu, zresorb., bez NCP, dynamika pr. kolena plná<br>Z.: stav zhojený<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S83.40] Vyvrtnutie a natiahnutie kolenného kĺbu, bližšie neurčený bočný väz",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089493544@12",
+              "id": "S83.40"
+            }
+          },
+          "text": {
+            "value": "st.p. dist. genu l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 5,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 6,
+        "order": 5,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "NSA p.p., <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko p.p., <br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

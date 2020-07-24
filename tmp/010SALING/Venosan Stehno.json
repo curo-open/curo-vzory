@@ -1,0 +1,103 @@
+{
+  "title": "Venosan Stehno",
+  "shortcut": "venos",
+  "description": "Venosan - kompresívna terapia po stehno",
+  "summary": "Venosan Stehno",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "2": [
+          "recommendedBy"
+        ]
+      }
+    },
+    "pp": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "pp",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[G81901] Pancuchy stehenné Venosan 6002, | S-XL, kompres. trieda 2",
+            "props": {
+              "propPo_4": "018",
+              "propPo_3": "001",
+              "propPo_2": "CHI",
+              "propPo_1": "068",
+              "propPo_0": "056",
+              "propCena": 16.91,
+              "propDpl": 0,
+              "idClassid": "pomocka",
+              "idEzid": "00020657060",
+              "idV": "SAZ-CH",
+              "id": "G81901"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "need": {
+            "value": "dočasná",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reason": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {
+              "error": "Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára"
+            }
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "namieru": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

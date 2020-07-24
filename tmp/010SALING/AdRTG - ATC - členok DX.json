@@ -1,0 +1,44 @@
+{
+  "title": "AdRTG - ATC - členok DX",
+  "shortcut": "aratcd",
+  "description": "RTG vyšetrenie pr. členka - RTG atc dx",
+  "summary": "AdRTG - ATC - členok DX",
+  "if": "",
+  "data": {
+    "_": {},
+    "z-rtg": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S90.0] Pomliaždenie členka",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089494054@12",
+              "id": "S90.0"
+            }
+          },
+          "predmet": {
+            "value": "pr. členok",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "fract.?",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

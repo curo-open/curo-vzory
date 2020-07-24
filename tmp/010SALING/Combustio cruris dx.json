@@ -1,0 +1,137 @@
+{
+  "type": null,
+  "summary": "Combustio cruris dx",
+  "description": "Popálenina na pr. predkolení",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: pac udáva popáleninu na pr. predkolení\nO.: orient., poloha akt., eupnoe, anikter., acyanoza\npopálenina na pr. predkolení - hyperem spodina a secernácia, bez rozvoja phlegmóny\nDg.: Combusio cruris l dx gr II\nTh.: toaleta, desinf., krytie, band., ko o 2 dni\n</div></section>",
+  "title": "Combustio cruris dx",
+  "shortcut": "com cr dx",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac udáva popáleninu na pr. predkolení<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanoza<br>popálenina na pr. predkolení - hyperem spodina a secernácia, bez rozvoja phlegmóny<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[T24.20] Popálenina bedra a dolnej končatiny okrem členka a nohy 2a. stupňa",
+            "props": {
+              "id": "T24.20",
+              "idEzid": "02089498626@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "Combusio cruris l dx gr II",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 5,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2011] Prvotné ošetrenie popáleniny I. alebo II. stupňa (ruka, noha, tvár), za každú popáleninu (toilette, debridement, topické prostriedky).",
+            "props": {
+              "propBody": 250,
+              "id": 2011,
+              "idEzid": "00000474379@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 6,
+        "order": 5,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "toaleta, desinf., krytie, band.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o 2-3 dni, p.p. skôr, <br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

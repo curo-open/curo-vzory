@@ -1,0 +1,156 @@
+{
+  "type": null,
+  "summary": "Capitis F l DX - p.p.i. - stehy ex",
+  "description": "Vybratie stehov  F vpravo",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"S01.80\" data-id-ezid=\"02089482943@12\" title=\"[S01.80] Otvoren&amp;#xE1; rana in&amp;#xFD;ch &amp;#x10D;ast&amp;#xED; hlavy, bli&amp;#x17E;&amp;#x161;ie neur&amp;#x10D;en&amp;#xE1;\" style=\"width: 50ch;\">[S01.80] Otvorená rana iných častí hlavy, bližšie neurčená</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"63\" data-id-ezid=\"00000117556@14\" data-prop-body=\"200\" title=\"[63] D&amp;#xF4;kladn&amp;#xE9; vy&amp;#x161;etrenie jedn&amp;#xE9;ho org&amp;#xE1;nov&amp;#xE9;ho syst&amp;#xE9;mu alebo kontroln&amp;#xE9; vy&amp;#x161;etrenie vr&amp;#xE1;tane r&amp;#xE1;d a dokument&amp;#xE1;cie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"2007\" data-id-ezid=\"00000474346@14\" data-prop-body=\"60\" title=\"[2007] Odstr&amp;#xE1;nenie sut&amp;#xFA;ry alebo stehov z ve&amp;#x13E;kej rany.\" style=\"width: 50ch;\">[2007] Odstránenie sutúry alebo stehov z veľkej rany.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: cíti sa dobre, bez febrilít, bez bolestí hlavy, závrate nemá\nO.: orient., poloha akt., eunoe, anikter., acyanoza\nizokoria, fotoreakcia správna, ameningeal., lebka poklop negat.\nlokal.: rana F vpravo zhojená p.p.i.\nTh.: desinf., toaleta, stehy ex, krytie\nZ.: bez neurovegetat Sy\ndop lokal oš. doma, ko p.p. pri akomkoľvek zhoršení, resp. nezlepšení\n\n</div></section>",
+  "title": "Capitis F l DX - p.p.i. - stehy ex",
+  "shortcut": "steCFdx",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "cíti sa dobre, bez febrilít, bez bolestí hlavy, závrate nemá<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eunoe, anikter., acyanoza<br>izokoria, fotoreakcia správna, ameningeal., lebka poklop negat.<br>lokal.: rana F vpravo zhojená p.p.i.<br>Z.: bez neurovegetat Sy<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S01.80] Otvorená rana iných častí hlavy, bližšie neurčená",
+            "props": {
+              "idEzid": "02089482943@12",
+              "id": "S01.80"
+            }
+          },
+          "text": {
+            "value": "V. lacerocont. capitis reg F l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2007] Odstránenie sutúry alebo stehov z veľkej rany.",
+            "props": {
+              "propBody": 60,
+              "idEzid": "00000474346@14",
+              "id": 2007
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "desinf., toaleta, stehy ex, krytie<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 8,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "lokal oš. doma, ko p.p. pri akomkoľvek zhoršení, resp. nezlepšení<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

@@ -1,0 +1,176 @@
+{
+  "type": null,
+  "summary": "Mastopathia l dx",
+  "description": "Gynekomastia vpravo",
+  "content": "<section data-x-id=\"1\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\">pac. reklamuje rezistenciu v oblasti na prsníku vľavo<br></div></section><section data-x-id=\"2\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\">orient., poloha akt., eupnoe, anikter., acyanoza, palp. hmatná elastická, dobre ohraničená rezistencia, pohyblivá oproti spodine na ľavom prsníku retroareolárne, <br></div></section><section data-x-id=\"3\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089459032@12\" data-id=\"N60.1\" title=\"[N60.1] Difúzna cystická mastopatia\" style=\"width: 50ch;\">[N60.1] Difúzna cystická mastopatia</div>​<label data-for=\"text\" class=\"\">/​</label><div class=\"Field minor\" data-name=\"text\">Mastopathia l sin</div></section><section data-x-id=\"4\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000117556@14\" data-id=\"63\" data-prop-body=\"200\" title=\"[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"5\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"FieldHtml\" data-name=\"th\">sine<br></div></section><section data-x-id=\"6\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\">USG vyš., ko s výsl., p.p. ko skôr, <br></div></section><section data-x-id=\"7\" data-type=\"z-ultrazvukove-vysetrenie\" class=\"\"><aside></aside><label class=\"section-label  \">Sprievodný list na ultrazvukové vyšetrenie​:</label>​<label data-for=\"dg\" class=\"\">dg.:​</label><div class=\"FieldSearch hasActions truncate\" data-name=\"dg\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089459032@12\" data-id=\"N60.1\" title=\"[N60.1] Difúzna cystická mastopatia\" style=\"width: 50ch;\">[N60.1] Difúzna cystická mastopatia</div>​<label data-for=\"anamneza\" class=\"\">anamnéza​</label><div class=\"Field\" data-name=\"anamneza\">rezistencia ľavého prsníka</div>​<label data-for=\"vysledky\" class=\" _noval\">vyšetrenia​</label><div class=\"_noval Field\" data-name=\"vysledky\"></div>​<label data-for=\"pred\" class=\" _noval\">predchádzajúce ultra.​</label><div class=\"_noval Field\" data-name=\"pred\"></div>​<label data-for=\"predmet\" class=\"\">predmet/vyšetrovaná oblasť​</label><div class=\"Field\" data-name=\"predmet\">ľ. prsník</div>​<label data-for=\"ocakavanie\" class=\"\">očakávanie/otázka​</label><div class=\"Field\" data-name=\"ocakavanie\">mastopathia l sin </div></section>",
+  "title": "Mastopathia l dx",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 9,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 1,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac. reklamuje rezistenciu v oblasti na prsníku vpravo<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 2,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanoza, palp. hmatná elastická, dobre ohraničená rezistencia, pohyblivá oproti spodine na ľavom prsníku retroareolárne, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[N60.1] Difúzna cystická mastopatia",
+            "props": {
+              "id": "N60.1",
+              "idEzid": "02089459032@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "Mastopathia l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 4,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "id": 63,
+              "idEzid": "00000117556@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 5,
+        "order": 5,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "sine<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 6,
+        "order": 6,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "USG vyš., ko s výsl., p.p. ko skôr, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-ultrazvukove-vysetrenie": [
+      {
+        "id": 7,
+        "order": 7,
+        "props": {
+          "type": "z-ultrazvukove-vysetrenie"
+        },
+        "value": {
+          "dg": {
+            "value": "[N60.1] Difúzna cystická mastopatia",
+            "props": {
+              "id": "N60.1",
+              "idEzid": "02089459032@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "anamneza": {
+            "value": "rezistencia pravého prsníka",
+            "props": {}
+          },
+          "vysledky": {
+            "value": "",
+            "props": {}
+          },
+          "pred": {
+            "value": "",
+            "props": {}
+          },
+          "predmet": {
+            "value": "pr. prsník",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "mastopathia l dx",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "shortcut": "mast dx",
+  "source": "curo-open/curo-vzory#/010SALING"
+}

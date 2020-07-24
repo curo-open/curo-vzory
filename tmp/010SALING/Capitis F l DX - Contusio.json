@@ -1,0 +1,167 @@
+{
+  "description": "Pomoždenie hlavy F vpravo",
+  "type": null,
+  "summary": "Capitis F l DX - Contusio",
+  "content": "<section data-x-id=\"4\" data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"_noval FieldList hasActions\" data-name=\"reason\"></div>​<label data-for=\"datum\" class=\"_noval hidden\">zo dňa​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"datumVyziadania\" class=\"_noval hidden\">dátum vyžiadania​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datumVyziadania\"></div>​<label data-for=\"id\" class=\"_noval hidden\">identifikátor​</label><div class=\"_noval Field hidden\" data-name=\"id\"></div></section><section data-x-id=\"5\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\">bolesti hlavy po udretí pri páde, bezvedomie neguje, bez zvracania a nauzey<br></div></section><section data-x-id=\"6\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\">vedomie lucídne, chôdza istá, bez titubácií, lebka normocephalická, poklopovo negat., palp. alg. v P oblasti vpravo, zrenice izokorické, fotoreakcia správna, ameningeal., dynamika C chrbtice primeraná, nos palp. negat., výstupy hlavových nervov nebolestivé, jarmové oblúky a mandibula bpn<br>RTG : lebka v 2 proj.: bez traumat. zmien na skelete<br></div></section><section data-x-id=\"3\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"S00.05\" data-id-ezid=\"02089482091@12\" data-id-classid=\"diagnoza\" title=\"[S00.05] Povrchové poranenie vlasatej kože hlavy: pomliaždenie\" style=\"width: 50ch;\">[S00.05] Povrchové poranenie vlasatej kože hlavy: pomliaždenie</div>​<label data-for=\"text\" class=\"\">/​</label><div class=\"Field minor\" data-name=\"text\">Contusio capitis reg P l dx</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"62\" data-id-ezid=\"00000117549@14\" data-prop-body=\"250\" title=\"[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"7\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"FieldHtml\" data-name=\"th\">NSA<br></div></section><section data-x-id=\"8\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\"> kľudový režim, pri pretrvávaní bolestí hlavy dop neurolog. vyš., ko o tyž., ko pri akomkoľvek zhoršení stavu ihneď, <br></div></section><section data-x-id=\"9\" data-type=\"z-rtg\" class=\"\"><aside></aside><label class=\"section-label  \">Žiadanka RTG​:</label>​<label data-for=\"dg_text\" class=\" _noval\">Diagnóza​</label><div class=\"_noval FieldSearch hasActions\" data-name=\"dg_text\"></div>​<label data-for=\"predmet\" class=\"\">Ktorá oblasť má byť vyšetrená​</label><div class=\"Field\" data-name=\"predmet\">lebka</div>​<label data-for=\"ocakavanie\" class=\"\">Očakávanie/otázka​</label><div class=\"Field\" data-name=\"ocakavanie\">fract?</div>​<label data-for=\"epikriza\" class=\" _noval\">Epikríza​</label><div class=\"_noval Field\" data-name=\"epikriza\"></div></section>",
+  "title": "Capitis F l DX - Contusio",
+  "shortcut": "ccFdx",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bolesti hlavy po udretí pri páde, bezvedomie neguje, bez zvracania a nauzey<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "vedomie lucídne, chôdza istá, bez titubácií, lebka normocephalická, poklopovo negat., palp. alg. vo F oblasti vpravo, zrenice izokorické, fotoreakcia správna, ameningeal., dynamika C chrbtice primeraná, nos palp. negat., výstupy hlavových nervov nebolestivé, jarmové oblúky a mandibula bpn<br>RTG : lebka v 2 proj.: bez traumat. zmien na skelete<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S00.05] Povrchové poranenie vlasatej kože hlavy: pomliaždenie",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089482091@12",
+              "id": "S00.05"
+            }
+          },
+          "text": {
+            "value": "Contusio capitis reg F l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 2,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "idEzid": "00000117549@14",
+              "id": 62
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 7,
+        "order": 5,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "NSA<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 8,
+        "order": 6,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": " kľudový režim, pri pretrvávaní bolestí hlavy dop neurolog. vyš., ko o tyž., ko pri akomkoľvek zhoršení stavu ihneď, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-rtg": [
+      {
+        "id": 9,
+        "order": 7,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S00.00] Povrchové poranenie vlasatej kože hlavy: druh poranenia bližšie neurčený",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089482042@13",
+              "id": "S00.00"
+            }
+          },
+          "predmet": {
+            "value": "lebka",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "fract?",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

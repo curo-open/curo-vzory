@@ -1,0 +1,247 @@
+{
+  "type": null,
+  "summary": "ARC l DX - DISTORSIO",
+  "description": "Podvrtnutie pr. zápästia",
+  "content": "<section data-x-id=\"4\" data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"_noval FieldList hasActions\" data-name=\"reason\"></div>​<label data-for=\"datum\" class=\" _noval\">zo dňa​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"datumVyziadania\" class=\" _noval\">dátum vyžiadania​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"datumVyziadania\"></div>​<label data-for=\"id\" class=\" _noval\">identifikátor​</label><div class=\"_noval Field\" data-name=\"id\"></div></section><section data-x-id=\"5\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\">pobolievanie pr. zápästia po podvrtnutí resp. udretí, <br></div></section><section data-x-id=\"6\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\">orient., poloha akt., eupnoe, anikter., acyanoza<br>SPL : mierna palp. alg. s terminalne viaznucou a alg dynamikou pr. RC zhybu<br>RTG : bez TZ na skelete<br></div></section><section data-x-id=\"3\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-ezid=\"02089491472@12\" data-id=\"S63.50\" title=\"[S63.50] Vyvrtnutie a natiahnutie zápästia, časť bližšie neurčená\" style=\"width: 50ch;\">[S63.50] Vyvrtnutie a natiahnutie zápästia, časť bližšie neurčená</div>​<label data-for=\"text\" class=\"\">/​</label><div class=\"Field minor\" data-name=\"text\">Distorsio ARC l dx</div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000117549@14\" data-id=\"62\" data-prop-body=\"250\" title=\"[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"02089714121@14\" data-id=\"15d\" data-prop-body=\"150\" title=\"[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.\" style=\"width: 50ch;\">[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"7\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"FieldHtml\" data-name=\"th\">NSA, ortéza<br></div></section><section data-x-id=\"8\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\">Dop.: telesné šetrenie 1-2 tyž ko p.p.<br></div></section><section data-x-id=\"10\" data-type=\"pp\" class=\"\" data-error=\"true\"><aside><i class=\"material-icons error\">error</i></aside><label class=\"section-label  \">Zdr. pomôcka​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"pomocka\" data-id-ezid=\"00020174595\" data-id-v=\"THU-FR\" data-id=\"J39131\" data-prop-po_0=\"CHI\" data-prop-po_1=\"037\" data-prop-po_2=\"039\" data-prop-po_3=\"ORT\" data-prop-po_4=\"027\" data-prop-po_5=\"013\" data-prop-cena=\"13.68\" data-prop-dpl=\"0\" title=\"[J39131] Ortéza zápästia a palca Ligaflex Manu | s výstuhou s kovovými dlahami, pravá / ľavá\" style=\"width: 50ch;\">[J39131] Ortéza zápästia a palca Ligaflex Manu | s výstuhou s kovovými dlahami, pravá / ľavá</div>​<label data-for=\"qty\" class=\"\">počet​</label><div class=\"FieldR\" data-name=\"qty\" data-prop-value=\"1.00\">1</div>​<label data-for=\"need\" class=\"ss\">potreba​</label><div class=\"FieldList hasActions ss\" data-name=\"need\" data-prop-value=\"0\">dočasná</div>​<label data-for=\"repeatCount\" class=\"\">rep.​</label><div class=\"FieldN\" data-name=\"repeatCount\">1</div>​<label data-for=\"repeatAfter\" class=\"ss _noval\">dní medzi výberom​</label><div class=\"_noval FieldN ss\" data-name=\"repeatAfter\"></div><br class=\"ss\"><label data-for=\"repeatLast\" class=\"ss _noval\">posledný výber​</label><div class=\"_noval FieldDate hasActions ss\" placeholder=\"DD.MM.RRRR\" data-name=\"repeatLast\"></div>​<label data-for=\"reason\" class=\"ss\">odôvodnenie​</label><div class=\"FieldHtml ss\" data-name=\"reason\">Distorsio ARC l dx<br></div>​<label data-for=\"recommendedBy\" class=\" _noval\">odp. lek​</label><div class=\"_noval FieldSearchLekar hasActions\" data-name=\"recommendedBy\" data-error=\"Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára\"></div>​<label data-for=\"recommendedDate\" class=\"ss _noval\">dátum odp.​</label><div class=\"_noval FieldDate hasActions ss\" placeholder=\"DD.MM.RRRR\" data-name=\"recommendedDate\"></div>​<label data-for=\"untilDate\" class=\"ss _noval\">platné do​</label><div class=\"_noval FieldDate hasActions ss\" placeholder=\"DD.MM.RRRR\" data-name=\"untilDate\"></div>​<label data-for=\"noReplacement\" class=\"ss\">náhrada​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"noReplacement\" data-prop-value=\"0\">nie</div>​<label data-for=\"reasonPayoff\" class=\"ss _noval\">uhradí​</label><div class=\"_noval FieldSwitch hasActions ss\" data-name=\"reasonPayoff\"></div>​<label data-for=\"prodException\" class=\"ss\">produkt na výnimku​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"prodException\" data-prop-value=\"0\">nie</div>​<label data-for=\"force\" class=\"ss\">vynútený zápis​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"force\" data-prop-value=\"0\">nie</div>​<label data-for=\"forceReason\" class=\"ss _noval\">dôvod v.z.​</label><div class=\"_noval Field ss\" data-name=\"forceReason\"></div><br class=\"ss\"><label data-for=\"namieru\" class=\"ss _noval\">na mieru​</label><div class=\"_noval FieldHtml ss\" data-name=\"namieru\"></div>​<label data-for=\"barcode\" class=\"ss _noval\">čiarový kód​</label><div class=\"_noval Field readonly dontCopy ss\" data-name=\"barcode\"></div>​<label data-for=\"note_zp\" class=\"ss _noval\">poznámka ZP​</label><div class=\"_noval Field readonly dontCopy ss\" data-name=\"note_zp\"></div>​<label data-for=\"status\" class=\"invisible ss\">stav​</label><div class=\"FieldN readonly dontCopy invisible ss\" data-name=\"status\">0</div></section>",
+  "title": "ARC l SIN - DISTORSIO",
+  "shortcut": "arcds",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "10": [
+          "recommendedBy"
+        ]
+      }
+    },
+    "od": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pobolievanie ľ. zápästia po podvrtnutí resp. udretí, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanoza<br>SPL : mierna palp. alg. s terminalne viaznucou a alg dynamikou ľ. RC zhybu<br>RTG : bez TZ na skelete<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S63.50] Vyvrtnutie a natiahnutie zápästia, časť bližšie neurčená",
+            "props": {
+              "idEzid": "02089491472@12",
+              "id": "S63.50"
+            }
+          },
+          "text": {
+            "value": "Distorsio ARC l sin",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "idEzid": "00000117549@14",
+              "id": 62
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "idEzid": "02089714121@14",
+              "id": "15d"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "NSA, ortéza<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 8,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "Dop.: telesné šetrenie 1-2 tyž ko p.p.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pp": [
+      {
+        "id": 10,
+        "order": 8,
+        "props": {
+          "type": "pp",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[J39131] Ortéza zápästia a palca Ligaflex Manu | s výstuhou s kovovými dlahami, pravá / ľavá",
+            "props": {
+              "propPo_5": "013",
+              "propPo_4": "027",
+              "propPo_3": "ORT",
+              "propPo_2": "039",
+              "propPo_1": "037",
+              "propPo_0": "CHI",
+              "propCena": 13.68,
+              "propDpl": 0,
+              "idClassid": "pomocka",
+              "idEzid": "00020174595",
+              "idV": "THU-FR",
+              "id": "J39131"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "need": {
+            "value": "dočasná",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reason": {
+            "value": "Distorsio ARC l sin<br>",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {
+              "error": "Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára"
+            }
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "namieru": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

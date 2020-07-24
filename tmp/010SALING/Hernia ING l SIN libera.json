@@ -1,0 +1,135 @@
+{
+  "type": null,
+  "summary": "Hernia ING l SIN libera",
+  "description": "Hernia ING l sin - dop op.",
+  "content": "<section data-x-id=\"3\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\">Pac. reklamuje vyklenovanie v pravej ing. oblasti, vetry a stolica v norme, bolesti brucha aktualne neguje<br></div></section><section data-x-id=\"4\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\"> vedomie lucídne, poloha aktívna, koža čistá, anikter., acyanot., abdomen mäkké, priehmatné, bez palp. algicity, bez patolog. rezistencie a peritoneal. dráždenia, pravá inguina s volne reponibilnou, neakretovanou herniou bez znamok inkarceracie, <br></div></section><section data-x-id=\"2\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-ezid=\"02089408815@12\" data-id=\"K40.90\" title=\"[K40.90] Jednostranná alebo neurčená slabinová prietrž bez obštrukcie a bez gangrény, neoznačená ako recidivujúca\" style=\"width: 50ch;\">[K40.90] Jednostranná alebo neurčená slabinová prietrž bez obštrukcie a bez gangrény, neoznačená ako recidivujúca</div>​<label data-for=\"text\" class=\"\">/​</label><div class=\"Field minor\" data-name=\"text\">Hernia ing. l dx libera</div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-ezid=\"00000117549@14\" data-id=\"62\" data-prop-body=\"250\" title=\"[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"7\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"FieldHtml\" data-name=\"th\">sine<br></div></section><section data-x-id=\"8\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\"> elekt. chirurg. riešenie, Ad chirurgiam<br></div></section>",
+  "title": "Hernia ING l SIN libera",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 10,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "Pac. reklamuje vyklenovanie v ľavej ing. oblasti, vetry a stolica v norme, bolesti brucha aktualne neguje<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": " vedomie lucídne, poloha aktívna, koža čistá, anikter., acyanot., abdomen mäkké, priehmatné, bez palp. algicity, bez patolog. rezistencie a peritoneal. dráždenia, ľavá inguina s volne reponibilnou, neakretovanou herniou bez znamok inkarceracie, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 2,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[K40.90] Jednostranná alebo neurčená slabinová prietrž bez obštrukcie a bez gangrény, neoznačená ako recidivujúca",
+            "props": {
+              "id": "K40.90",
+              "idEzid": "02089408815@12"
+            }
+          },
+          "text": {
+            "value": "Hernia ing. l sin libera",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "id": 62,
+              "idEzid": "00000117549@14"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 7,
+        "order": 5,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "sine<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 8,
+        "order": 6,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": " elekt. chirurg. riešenie, Ad chirurgiam<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "shortcut": "her ing sin",
+  "source": "curo-open/curo-vzory#/010SALING"
+}

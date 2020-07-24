@@ -1,0 +1,267 @@
+{
+  "type": null,
+  "summary": "INCIZIA inflamovanej rany - Preväz",
+  "description": "Incízia inflamovanej a abscedujúcej rany",
+  "content": "<section data-x-id=\"\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"63\" data-id-ezid=\"00000117556@14\" data-prop-body=\"200\" title=\"[63] D&amp;#xF4;kladn&amp;#xE9; vy&amp;#x161;etrenie jedn&amp;#xE9;ho org&amp;#xE1;nov&amp;#xE9;ho syst&amp;#xE9;mu alebo kontroln&amp;#xE9; vy&amp;#x161;etrenie vr&amp;#xE1;tane r&amp;#xE1;d a dokument&amp;#xE1;cie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"407\" data-id-ezid=\"00000468728@14\" data-prop-body=\"120\" title=\"[407] Infiltra&amp;#x10D;n&amp;#xE1; anest&amp;#xE9;zia jednej oblasti s pou&amp;#x17E;it&amp;#xED;m lok&amp;#xE1;lneho anestetika v mno&amp;#x17E;stve viac ako 5 ml. Tento v&amp;#xFD;kon m&amp;#xF4;&amp;#x17E;e vykazova&amp;#x165; lek&amp;#xE1;r so &amp;#x161;pecializ&amp;#xE1;ciou v odbore v&amp;#x161;eobecn&amp;#xE9; lek&amp;#xE1;rstvo, chirurg, traumatol&amp;#xF3;g, al\" style=\"width: 50ch;\">[407] Infiltračná anestézia jednej oblasti s použitím lokálneho anestetika v množstve viac ako 5 ml. Tento výkon môže vykazovať lekár so špecializáciou v odbore všeobecné lekárstvo, chirurg, traumatológ, al</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"2146\" data-id-ezid=\"00000474635@14\" data-prop-body=\"400\" title=\"[2146] Otvorenie flegm&amp;#xF3;ny alebo exc&amp;#xED;zia karbunkla.\" style=\"width: 50ch;\">[2146] Otvorenie flegmóny alebo excízia karbunkla.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"200\" data-id-ezid=\"00000467498@14\" data-prop-body=\"70\" title=\"[200] Obv&amp;#xE4;z s v&amp;#xFD;nimkou r&amp;#xFD;chlych obv&amp;#xE4;zov a sprejov, o&amp;#x10D;n&amp;#xFD;ch a u&amp;#x161;n&amp;#xFD;ch klapiek, trojuholn&amp;#xED;kov&amp;#xFD;ch &amp;#x161;atiek, hotov&amp;#xFD;ch n&amp;#xE1;plast&amp;#xED; alebo hotov&amp;#xFD;ch kravatov&amp;#xFD;ch obv&amp;#xE4;zov na rany. Obv&amp;#xE4;zy pod&amp;#x13E;a v&amp;#xFD;konu pod k&amp;#xF3;dom 200 sa nem&amp;#xF4;&amp;#x17E;u nevykazova&amp;#x165;, ke&amp;#x10F; sl&amp;#xFA;&amp;#x17E;ia na krytie r&amp;#xE1;n, ktor&amp;#xE9; vzni\" style=\"width: 50ch;\">[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"4\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S : reklamuje pobolievanie v oblasti rany, pulz. bolesť, bez febrilít\nO : orient., poloha akt., eupnoe, anikter., acyanoza, rana je inflamovaná, edem s hyperémiou okolia rany bez akt. supurácie, rana s naznačenou fluktuaciou, po incízii s akt. supuraciou, bez zn. lymphangoitídy\nTh.: dezinf., toaleta, LA 1% Mes. 10 ml, incízia, evakuacia pusu s preplachom H2O2 opakovane, krytie, band., ko o 2 dni, dop ATB\n</div></section>",
+  "title": "INCIZIA inflamovanej rany - Preväz",
+  "shortcut": "inc INF",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 5,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 6,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": " pobolievanie v oblasti rany, pulz. bolesť, bez febrilít<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 7,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanoza, rana je inflamovaná, edem s hyperémiou okolia rany bez akt. supurácie, rana s naznačenou fluktuaciou, po incízii s akt. supuraciou, bez zn. lymphangoitídy<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 11,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[L02.9] Kožný absces, furunkul a karbunkul, bližšie neurčený",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089412700@12",
+              "id": "L02.9"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": "",
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[407] Infiltračná anestézia jednej oblasti s použitím lokálneho anestetika v množstve viac ako 5 ml. Tento výkon môže vykazovať lekár so špecializáciou v odbore všeobecné lekárstvo, chirurg, traumatológ, al",
+            "props": {
+              "propBody": 120,
+              "idEzid": "00000468728@14",
+              "id": 407
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2146] Otvorenie flegmóny alebo excízia karbunkla.",
+            "props": {
+              "propBody": 400,
+              "idEzid": "00000474635@14",
+              "id": 2146
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 3,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni",
+            "props": {
+              "propBody": 70,
+              "idEzid": "00000467498@14",
+              "id": 200
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pl": [
+      {
+        "id": 13,
+        "order": 6,
+        "props": {
+          "type": "pl"
+        },
+        "value": {
+          "id": {
+            "value": "[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Amidy",
+              "propSdl": 100,
+              "propCena": 12.07,
+              "propVnl": "R",
+              "propUzp_1zvj": 0.077,
+              "propBal": 10,
+              "propGp": 0,
+              "propUnit": "DF",
+              "propSpUhr": "AS",
+              "propDpl": 4.37,
+              "idClassid": "liek",
+              "idEzid": "00020288130",
+              "idF": "SOL INJ",
+              "idSp": "?",
+              "idAtc": "N01BB",
+              "idUl": "",
+              "id": "00502"
+            }
+          },
+          "qty": {
+            "value": "10",
+            "props": {
+              "propValue": "10.00"
+            }
+          },
+          "payoff": {
+            "value": "",
+            "props": {}
+          },
+          "dpljed": {
+            "value": "",
+            "props": {}
+          },
+          "dpl": {
+            "value": "4,37",
+            "props": {
+              "propValue": 4.37
+            }
+          },
+          "uhradazp": {
+            "value": "7,7",
+            "props": {
+              "propValue": "7.70"
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "kodl": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 8,
+        "order": 9,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "dezinf., toaleta, LA 1% Mes. 10 ml, incízia, evakuacia pusu s preplachom H2O2 opakovane, krytie, band.,<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 9,
+        "order": 10,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o 2 dni, dop ATB<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

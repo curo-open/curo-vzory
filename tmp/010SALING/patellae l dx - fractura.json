@@ -1,0 +1,280 @@
+{
+  "type": null,
+  "summary": "patellae l dx - fractura",
+  "description": "Zlomenina pately vpravo",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: spadla a udrela si pr. koleno, dnes ráno\nO.: orient., poloha akt., eupnoe, anikter., acyanoza, chôdza s napadaním na PDK, pr. koleno s palp. alg. s max. prepatelarne, bez naplne a balotementu, bez NCP\nDg.: RTG : fract. patellae l dx sine disloc\nTh.: dlaha, ko o tyž., p.p. skôr\n</div></section>",
+  "title": "patellae l dx - fractura",
+  "shortcut": "fr pat dx",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "13": [
+          "recommendedBy"
+        ]
+      }
+    },
+    "od": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "spadla a udrela si pr. koleno, dnes ráno<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanoza, chôdza s napadaním na PDK, pr. koleno s palp. alg. s max. prepatelarne, bez naplne a balotementu, bez NCP<br>Dg.: RTG : fract. patellae l dx sine disloc<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S82.0] Zlomenina jabĺčka [patella]",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089493197@12",
+              "id": "S82.0"
+            }
+          },
+          "text": {
+            "value": "fract. patellae l dx sine disloc",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 5,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 9,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "idClassid": "vykon",
+              "idEzid": "02089714121@14",
+              "id": "15d"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 6,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "ortéza<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pp": [
+      {
+        "id": 13,
+        "order": 7,
+        "props": {
+          "type": "pp",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[J39128] Ortéza kolena Ligaflex  Immo 0° | statická",
+            "props": {
+              "propPo_4": "CHI",
+              "propPo_3": "013",
+              "propPo_2": "027",
+              "propPo_1": "ORT",
+              "propPo_0": "039",
+              "propCena": 33.01,
+              "propDpl": 0,
+              "idClassid": "pomocka",
+              "idEzid": "00020174470",
+              "idV": "THU-FR",
+              "id": "J39128"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "need": {
+            "value": "dočasná",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reason": {
+            "value": "fract. patellae l dx sine disloc<br>",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {
+              "error": "Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára"
+            }
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "namieru": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 7,
+        "order": 8,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o tyž., p.p. skôr<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-rtg": [
+      {
+        "id": 11,
+        "order": 9,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S82.0] Zlomenina jabĺčka [patella]",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089493197@12",
+              "id": "S82.0"
+            }
+          },
+          "predmet": {
+            "value": "pr. koleno",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "fract patellae??",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

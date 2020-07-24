@@ -1,0 +1,159 @@
+{
+  "type": null,
+  "summary": "Combustio ped l dx",
+  "description": "Popálenina na pravej nohe",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: obarená pr. noha\nO.: orient., poloha akt., eupnoe, anikter., acyanoza\nna dorze pr. nohy erytém - cca 15x12 cm popálenina II. st.\nbula znesená, bez inflam a secer.\nDg.: Combustio dorsi ped l dx\nTh.: toaleta, desinf., znesenie búl., krytie, band., ko o 2-3 dni\n\n\n\n</div></section>",
+  "title": "Combustio ped l dx",
+  "shortcut": "com ped dx",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "obarená pr. noha<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanoza<br>na dorze pr. nohy erytém - cca 15x12 cm popálenina II. st.<br>bula znesená, bez inflam a secer.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[T25.21] Popálenina členka a nohy 2b. stupňa",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089498766@12",
+              "id": "T25.21"
+            }
+          },
+          "text": {
+            "value": "Combustio dorsi ped l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 5,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 9,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2011] Prvotné ošetrenie popáleniny I. alebo II. stupňa (ruka, noha, tvár), za každú popáleninu (toilette, debridement, topické prostriedky).",
+            "props": {
+              "propBody": 250,
+              "idClassid": "vykon",
+              "idEzid": "00000474379@14",
+              "id": 2011
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 6,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "toaleta, desinf., znesenie búl., krytie, band.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 7,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o 2-3 dni, p.p. skôr<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

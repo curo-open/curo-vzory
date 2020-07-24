@@ -1,0 +1,127 @@
+{
+  "title": "Ligastrap",
+  "shortcut": "lstr",
+  "description": "",
+  "summary": "Ligastrap",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "4": [
+          "recommendedBy"
+        ]
+      }
+    },
+    "vd": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S93.40] Vyvrtnutie a natiahnutie členka, časť bližšie neurčená",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089494609@12",
+              "id": "S93.40"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pp": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "pp",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[J39119] Ortéza členka Ligastrap | s výstuhou",
+            "props": {
+              "propPo_4": "CHI",
+              "propPo_3": "013",
+              "propPo_2": "027",
+              "propPo_1": "ORT",
+              "propPo_0": "039",
+              "propCena": 17.17,
+              "propDpl": 0,
+              "idClassid": "pomocka",
+              "idEzid": "00020174561",
+              "idV": "THU-FR",
+              "id": "J39119"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "need": {
+            "value": "dočasná",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reason": {
+            "value": "Distorsio atc<br>",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {
+              "error": "Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára"
+            }
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "namieru": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "type": "examination",
+  "source": "curo-open/curo-vzory#/010SALING"
+}

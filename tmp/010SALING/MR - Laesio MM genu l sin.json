@@ -1,0 +1,75 @@
+{
+  "description": "NMRI. Ľavé koleno. Lézia mediálneho menisku.",
+  "summary": "MR - Laesio MM genu l sin",
+  "content": "<section data-x-id=\"2\" data-type=\"z-mr-vysetrenie\" class=\"can-collapse\"><aside><i class=\"material-icons section-collapse\" title=\"Skryť\">remove_circle</i><i class=\"material-icons section-uncollapse\" title=\"Ukázať\">add_circle</i></aside><label class=\"section-label  \">Žiadanka o vyšetrenie magnetickej rezonancie (MR)​:</label>​<label data-for=\"termin\" class=\" _noval\">Termín objednania​</label><div class=\"_noval FieldDateTime hasActions\" placeholder=\"DD.MM.RRRR hh:mm\" data-name=\"termin\"></div>​<label data-for=\"dg\" class=\"\">Klinická diagnóza​</label><div class=\"FieldSearch hasActions truncate\" data-name=\"dg\" data-id=\"S83.2\" data-id-ezid=\"02089493510@12\" data-id-classid=\"diagnoza\" title=\"[S83.2] Trhlina menisku, akútna\" style=\"width: 50ch;\">[S83.2] Trhlina menisku, akútna</div>​<label data-for=\"oblast\" class=\"\">Ktorá oblasť má byť vyšetrená:​</label><div class=\"FieldHtml\" data-name=\"oblast\">pr. koleno<br></div>​<label data-for=\"epikriza\" class=\"\">Epikríza:​</label><div class=\"FieldHtml\" data-name=\"epikriza\">pac po úraze pr. kolena cca pred týž s pretrvávajúcou bolestivosťou a obmedzenou hybnosťou pr. kolena s pozit manévrami na léziu medial. kompartmentu pr. kolena, <br></div>​<label data-for=\"otazka\" class=\"\">Ktorú otázku má MR vyšetrenie zodpovedať​</label><div class=\"FieldHtml\" data-name=\"otazka\">Laesio MM genu l dx<br></div>​<label data-for=\"predchadzajuce_vysetrene\" class=\" _noval\">Predchádzajúce vyšetrenia​</label><div class=\"_noval FieldHtml\" data-name=\"predchadzajuce_vysetrene\">nie<br></div>​<label data-for=\"predchadzajuce_vysledky\" class=\" _noval\">Výsledky vyšetrení​</label><div class=\"_noval FieldHtml\" data-name=\"predchadzajuce_vysledky\"></div>​<label data-for=\"narkoza\" class=\" _noval\">Požiadavka na narkózu​</label><div class=\"_noval Field\" data-name=\"narkoza\">nie</div>​<label data-for=\"alergia\" class=\"\">Alergická anamnéza​</label><div class=\"FieldHtml\" data-name=\"alergia\">alergiu na lieky a potraviny neudáva<br></div>​<label data-for=\"kardiostimulator\" class=\"\">Implentovaný kardiostimuláror​</label><div class=\"FieldBool hasActions\" data-name=\"kardiostimulator\" data-prop-value=\"0\">nie</div>​<label data-for=\"rizika\" class=\"\">Rizikové faktory:​</label><div class=\"FieldHtml\" data-name=\"rizika\">nie<br><b>Adresa pracoviska MR:</b><br>ALFAMEDIC s. r. o., kpt. Nálepku 5931, 984 01 Lučenec<br>Tel. 047/5685252, Mobil: 0908 982 213<br>web: www.magnet-lc.sk, E-mail: alfamedic00@gmail.com<br></div></section>",
+  "title": "MR - Laesio MM genu l sin",
+  "shortcut": "mrgmms",
+  "if": "",
+  "data": {
+    "_": {},
+    "z-mr-vysetrenie": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "z-mr-vysetrenie"
+        },
+        "value": {
+          "termin": {
+            "value": "",
+            "props": {}
+          },
+          "dg": {
+            "value": "[S83.2] Trhlina menisku, akútna",
+            "props": {
+              "id": "S83.2",
+              "idEzid": "02089493510@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "oblast": {
+            "value": "ľ. koleno<br>",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "pac po úraze ľ. kolena cca pred týž s pretrvávajúcou bolestivosťou a obmedzenou hybnosťou ľ. kolena s pozit manévrami na léziu medial. kompartmentu ľ. kolena, <br>",
+            "props": {}
+          },
+          "otazka": {
+            "value": "Laesio MM genu l sin<br>",
+            "props": {}
+          },
+          "predchadzajuce_vysetrene": {
+            "value": "nie<br>",
+            "props": {}
+          },
+          "predchadzajuce_vysledky": {
+            "value": "",
+            "props": {}
+          },
+          "narkoza": {
+            "value": "nie",
+            "props": {}
+          },
+          "alergia": {
+            "value": "alergiu na lieky a potraviny neudáva<br>",
+            "props": {}
+          },
+          "kardiostimulator": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "rizika": {
+            "value": "nie<br><b>Adresa pracoviska MR:</b><br>ALFAMEDIC s. r. o., kpt. Nálepku 5931, 984 01 Lučenec<br>Tel. 047/5685252, Mobil: 0908 982 213<br>web: www.magnet-lc.sk, E-mail: alfamedic00@gmail.com<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

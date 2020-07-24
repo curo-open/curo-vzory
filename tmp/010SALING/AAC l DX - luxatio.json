@@ -1,0 +1,293 @@
+{
+  "title": "AAC l DX - luxatio ",
+  "shortcut": "aac lux dx",
+  "description": "Luxácia AAC vpravo",
+  "summary": "AAC l DX - luxatio",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "12": [
+          "recommendedDate"
+        ]
+      }
+    },
+    "od": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac. reklamuje bolesti pravého pleca po udretí pri páde<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "vedomie lucídne, poloha aktívna, koža čistá, anikter., acyanot., hrudník klenutý, stabilný, pravé AHS normokonfigurované, aktívna hybnosť terminalne obmedzená, algická, palp. bolestivosť v oblasti AAC bez príznaku klávesy, bez NCP, <br>RTG : Luxatio AAC l dx - Tossy I., <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 5,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S43.1] Vykĺbenie akromioklavikulárneho kĺbu",
+            "props": {
+              "id": "S43.1",
+              "idEzid": "02089489237@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": " Luxatio AAC l dx - Tossy I.",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 6,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "id": 62,
+              "idEzid": "00000117549@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 10,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "id": "15d",
+              "idEzid": "02089714121@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-rtg": [
+      {
+        "id": 16,
+        "order": 6,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S43.1] Vykĺbenie akromioklavikulárneho kĺbu",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089489237@12",
+              "id": "S43.1"
+            }
+          },
+          "predmet": {
+            "value": "ľ.AHS",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "lux AAC vľavo",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 7,
+        "order": 7,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "ortéza, NSA<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pp": [
+      {
+        "id": 12,
+        "order": 8,
+        "props": {
+          "type": "pp",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[J71248] Ortéza Thuasne Immo Classic | fixátor ramena a lakťa",
+            "props": {
+              "propDpl": 4,
+              "propCena": 5.61,
+              "propPo_4": "CHI",
+              "propPo_3": "013",
+              "propPo_2": "027",
+              "propPo_1": "ORT",
+              "propPo_0": "039",
+              "id": "J71248",
+              "idV": "THU-FR",
+              "idEzid": "00020180154",
+              "idClassid": "pomocka"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "need": {
+            "value": "dočasná",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reason": {
+            "value": "Luxatio AAC l dx - Tossy I.<br>",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "[A58684010/N60426010201] ŠALING Juraj",
+            "props": {
+              "id": "A58684010",
+              "idEzid": "00020813077",
+              "idOdb": "010",
+              "idPzs": "N60426010201",
+              "idPsc": 96212,
+              "idClassid": "lekar"
+            }
+          },
+          "recommendedDate": {
+            "value": "",
+            "props": {
+              "error": "Predpis má preskripčné obmedzenia, nezadali ste dátum odporúčania"
+            }
+          },
+          "untilDate": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "namieru": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 8,
+        "order": 9,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "telesné šetrenie, ko o tyž., p.p. ko skôr<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

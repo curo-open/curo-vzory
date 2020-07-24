@@ -1,0 +1,30 @@
+{
+  "type": null,
+  "summary": "per rectum SPL",
+  "description": "per rectum SPL",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">vyš. per rectum : anus bpn, sfinktery normotonické, indagácia nebolestivá, steny recta na dosah prsta hladké, ampula prázdna, Douglas nevyklenuje, palp. nebolestivý, bez známok krvácania\n</div></section>",
+  "title": "per rectum SPL",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "vyš. per rectum : anus bpn, sfinktery normotonické, indagácia nebolestivá, steny recta na dosah prsta hladké, ampula prázdna, Douglas nevyklenuje, palp. nebolestivý, bez známok krvácania<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "shortcut": "prspl",
+  "source": "curo-open/curo-vzory#/010SALING"
+}

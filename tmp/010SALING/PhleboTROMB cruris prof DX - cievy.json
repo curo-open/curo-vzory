@@ -1,0 +1,174 @@
+{
+  "description": "Hlboká venózna trombóza (HVT) pravého predkolenia ",
+  "type": null,
+  "summary": "PhleboTROMB cruris prof DX - cievy",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate _focus\" data-name=\"id\" data-id=\"I80.2\" data-id-ezid=\"02089402529@12\" title=\"[I80.2] Tromb&amp;#xF3;za, flebit&amp;#xED;da a tromboflebit&amp;#xED;da in&amp;#xFD;ch h&amp;#x13A;bkov&amp;#xFD;ch &amp;#x17E;&amp;#xED;l doln&amp;#xFD;ch kon&amp;#x10D;at&amp;#xED;n\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[I80.2] Trombóza, flebitída a tromboflebitída iných hĺbkových žíl dolných končatín</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"62\" data-id-ezid=\"00000117549@14\" data-prop-body=\"250\" title=\"[62] Cielen&amp;#xE9; vy&amp;#x161;etrenie dvoch alebo viacer&amp;#xFD;ch org&amp;#xE1;nov&amp;#xFD;ch syst&amp;#xE9;mov alebo dispenz&amp;#xE1;rna kontrola (cielen&amp;#xE1; anamn&amp;#xE9;za, resp. anamn&amp;#xE9;za od poslednej kontroly), popis subjekt&amp;#xED;vnych obtia&amp;#x17E;&amp;#xED;, objekt&amp;#xED;vny n&amp;#xE1;lez, vyp&amp;#xED;sanie spr&amp;#xE1;vy, z&amp;#xE1;ver, vypracovanie pl&amp;#xE1;nu do nasleduj&amp;#xFA;c\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: pac. reklamuje opuch, ktorý sa zhoršil za posledné 3 dni a bolesti pravej DKK\nO.: orient., poloha akt., eupnoe, anikter, acyanot., chôdza s napadaním na pravú DK, hrudník klenutý, dýchanie symetrické obojstranne, vezik.\nSPL.: pravá DK s perimaleolar. edemom, s palp. alg. a tuhosťou lýtka, Homans naznačený., Lowemberg pozit., perif pulz. na ADP a ATP hmatné\nDg.: Phlebotromb. cruris prof. l dx\nDop.: USG vyšetrenie HŽS - urgent., pri nedostupnosti vyš. indikovaný\npríjem na chirurg. odd. NsP Zvolen\n</div></section>",
+  "title": "PhleboTROMB cruris prof DX - cievy",
+  "shortcut": "ptcpd",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac. reklamuje opuch, ktorý sa zhoršil za posledné 3 dni a bolesti pravej DKK<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter, acyanot., chôdza s napadaním na pravú DK, hrudník klenutý, dýchanie symetrické obojstranne, vezik.<br>SPL.: pravá DK s perimaleolar. edemom, s palp. alg. a tuhosťou lýtka, Homans naznačený., Lowemberg pozit., perif pulz. na ADP a ATP hmatné<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[I80.2] Trombóza, flebitída a tromboflebitída iných hĺbkových žíl dolných končatín",
+            "props": {
+              "idEzid": "02089402529@12",
+              "id": "I80.2"
+            }
+          },
+          "text": {
+            "value": "Phlebotromb. cruris prof. l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "idEzid": "00000117549@14",
+              "id": 62
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 6,
+        "order": 5,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "Fraxiparine s.c.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "USG vyšetrenie HŽS - urgent., pri nedostupnosti vyš. indikované konz. vyš cestou chirurg UPS<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-ultrazvukove-vysetrenie": [
+      {
+        "id": 13,
+        "order": 7,
+        "props": {
+          "type": "z-ultrazvukove-vysetrenie"
+        },
+        "value": {
+          "dg": {
+            "value": "[I80.2] Trombóza, flebitída a tromboflebitída iných hĺbkových žíl dolných končatín",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089402529@12",
+              "id": "I80.2"
+            }
+          },
+          "anamneza": {
+            "value": "opuch a bolesti P lýtka",
+            "props": {}
+          },
+          "vysledky": {
+            "value": "",
+            "props": {}
+          },
+          "pred": {
+            "value": "",
+            "props": {}
+          },
+          "predmet": {
+            "value": "HVS ",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "HVT PDK",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

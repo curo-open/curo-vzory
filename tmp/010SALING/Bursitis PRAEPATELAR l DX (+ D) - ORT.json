@@ -1,0 +1,246 @@
+{
+  "description": "Punkcia pravej prepatelárnej burzy s podaním kortikoidov",
+  "type": null,
+  "summary": "Bursitis PRAEPATELAR l DX (+ D) - ORT",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate _focus\" data-name=\"id\" data-id=\"M70.4\" data-id-ezid=\"02089442525@12\" title=\"[M70.4] Prepatel&amp;#xE1;rna burzit&amp;#xED;da\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[M70.4] Prepatelárna burzitída</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"62\" data-id-ezid=\"00000117549@14\" data-prop-body=\"250\" title=\"[62] Cielen&amp;#xE9; vy&amp;#x161;etrenie dvoch alebo viacer&amp;#xFD;ch org&amp;#xE1;nov&amp;#xFD;ch syst&amp;#xE9;mov alebo dispenz&amp;#xE1;rna kontrola (cielen&amp;#xE1; anamn&amp;#xE9;za, resp. anamn&amp;#xE9;za od poslednej kontroly), popis subjekt&amp;#xED;vnych obtia&amp;#x17E;&amp;#xED;, objekt&amp;#xED;vny n&amp;#xE1;lez, vyp&amp;#xED;sanie spr&amp;#xE1;vy, z&amp;#xE1;ver, vypracovanie pl&amp;#xE1;nu do nasleduj&amp;#xFA;c\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"301\" data-id-ezid=\"00000468264@14\" data-prop-body=\"150\" title=\"[301] Punkcia lak&amp;#x165;ov&amp;#xE9;ho alebo kolenn&amp;#xE9;ho k&amp;#x13A;bu.\" style=\"width: 50ch;\">[301] Punkcia lakťového alebo kolenného kĺbu.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"255\" data-id-ezid=\"00000467902@14\" data-prop-body=\"110\" title=\"[255] Injekcia intraartikul&amp;#xE1;rna.\" style=\"width: 50ch;\">[255] Injekcia intraartikulárna.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"4\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"231\" data-id-ezid=\"00000467704@14\" data-prop-body=\"360\" title=\"[231] Cirkul&amp;#xE1;rny pohybov&amp;#xFD; obv&amp;#xE4;z kolena.\" style=\"width: 50ch;\">[231] Cirkulárny pohybový obväz kolena.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"5\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: pac. reklamuje opuch a pobolievanie v oblasti kolena vpravo\nO.: orient., poloha akt., eupnoe, anikter., acyanoza, pravé koleno s prepatelarnou fluktuaciou a s palp. alg. s edemom a miernou parapatelarnou alg. obojstranne, dynamika - flexia v p. kolene terminalne obmedzená, manevre na menisky negat., bez znamok instability\nDg.: Bursitis praepatelaris l dx\nTh.: punkcia cca 15 ml serozneho obsahu, Diprophos i.a.., krytie, band., ko o tyž\n\n</div></section>",
+  "title": "Bursitis PRAEPATELAR l DX (+ D) - ORT",
+  "shortcut": "bpdd",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 6,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 7,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "opuch a pobolievanie v oblasti kolena vpravo<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 8,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanoza, pravé koleno s prepatelarnou fluktuaciou a s palp. alg. s edemom a miernou parapatelarnou alg. obojstranne, dynamika - flexia v pr. kolene terminalne obmedzená, manevre na menisky negat., bez znamok instability<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M70.4] Prepatelárna burzitída",
+            "props": {
+              "id": "M70.4",
+              "idEzid": "02089442525@12"
+            }
+          },
+          "text": {
+            "value": "Bursitis praepatelaris l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "id": 62,
+              "idEzid": "00000117549@14"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[301] Punkcia lakťového alebo kolenného kĺbu.",
+            "props": {
+              "propBody": 150,
+              "id": 301,
+              "idEzid": "00000468264@14"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 4,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni",
+            "props": {
+              "propBody": 70,
+              "idClassid": "vykon",
+              "idEzid": "00000467498@14",
+              "id": 200
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 9,
+        "order": 7,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "punkcia cca 5 ml serosangv. vypotku + Dexamed inj i.a., bandáž<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 10,
+        "order": 8,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o tyž<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pl": [
+      {
+        "id": 16,
+        "order": 9,
+        "props": {
+          "type": "pl"
+        },
+        "value": {
+          "id": {
+            "value": "[84090] DEXAMED | sol inj 10x2 ml/8 mg (amp.skl.hnedá)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Dexametazón",
+              "propSdl": 53,
+              "propCena": 4.04,
+              "propVnl": "R",
+              "propUzp_1zvj": 0.077,
+              "propBal": 10,
+              "propGp": 0,
+              "propUnit": "DF",
+              "propSpUhr": "A",
+              "propDpl": 0,
+              "idClassid": "liek",
+              "idEzid": "00020541769",
+              "idF": "SOL INJ",
+              "idSp": "ivm",
+              "idAtc": "H02AB02",
+              "idUl": "",
+              "id": 84090
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "payoff": {
+            "value": "",
+            "props": {}
+          },
+          "dpljed": {
+            "value": "",
+            "props": {}
+          },
+          "dpl": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "uhradazp": {
+            "value": "0,4",
+            "props": {
+              "propValue": "0.40"
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "kodl": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

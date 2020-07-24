@@ -1,0 +1,228 @@
+{
+  "type": null,
+  "summary": "",
+  "description": "Otras mozgu",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"S06.0\" data-id-ezid=\"02089483545@12\" title=\"[S06.0] Otras mozgu\" style=\"width: 50ch;\">[S06.0] Otras mozgu</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"62\" data-id-ezid=\"00000117549@14\" data-prop-body=\"250\" title=\"[62] Cielen&amp;#xE9; vy&amp;#x161;etrenie dvoch alebo viacer&amp;#xFD;ch org&amp;#xE1;nov&amp;#xFD;ch syst&amp;#xE9;mov alebo dispenz&amp;#xE1;rna kontrola (cielen&amp;#xE1; anamn&amp;#xE9;za, resp. anamn&amp;#xE9;za od poslednej kontroly), popis subjekt&amp;#xED;vnych obtia&amp;#x17E;&amp;#xED;, objekt&amp;#xED;vny n&amp;#xE1;lez, vyp&amp;#xED;sanie spr&amp;#xE1;vy, z&amp;#xE1;ver, vypracovanie pl&amp;#xE1;nu do nasleduj&amp;#xFA;c\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"15d\" data-id-ezid=\"02089714121@14\" data-prop-body=\"150\" title=\"[15d] Zhodnotenie rtg dokument&amp;#xE1;cie, ak nie je vykonan&amp;#xE9; pracoviskom RTG, vr&amp;#xE1;tane popisu v zdravotnej dokument&amp;#xE1;cii.\" style=\"width: 50ch;\">[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">Subj.: pac. reklamuje bolesti hlavy od úrazu, po úraze nauzea, intermitentne závrate\nObj.: vedomie lucídne, poloha aktívna, koža anikter., acyanot., TK 120/8O, P 76/min, zrenice izokorické, fotoreakcia spravna, ameningel., lebka poklopovo negat., palp. alg. v O oblasti, dynamika C chrbtice plná, jarmové obluky a mandibula bpn, hrudník klenutý, stabilný, dýchanie vezikulárne, čisté, abdomen mäkké, priehmatné, bez patologickej rezistencie, B-R-P negat., TPT bilat negat., Murphy negat.\nRTG : lebka v 2 proj.: bez traumat. zmien na skelete\nDg.: Commotio cerebri\nDop.: neurolog. vyšetrenie\n</div></section>",
+  "title": "Commotio cerebri - Contusio capitis",
+  "shortcut": "comcer",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 5,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "neodkladná starostlivosť",
+            "props": {
+              "propValue": "A"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 6,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac. reklamuje bolesti hlavy od úrazu, po úraze nauzea, intermitentne závrate<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 7,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "vedomie lucídne, poloha aktívna, koža anikter., acyanot., TK 120/8O, P 76/min, zrenice izokorické, fotoreakcia spravna, ameningel., lebka poklopovo negat., palp. alg. v O oblasti, dynamika C chrbtice plná, jarmové obluky a mandibula bpn, hrudník klenutý, stabilný, dýchanie vezikulárne, čisté, abdomen mäkké, priehmatné, bez patologickej rezistencie, B-R-P negat., TPT bilat negat., Murphy negat.<br>RTG : lebka v 2 proj.: bez traumat. zmien na skelete<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S06.0] Otras mozgu",
+            "props": {
+              "id": "S06.0",
+              "idEzid": "02089483545@12"
+            }
+          },
+          "text": {
+            "value": "Commotio cerebri",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "id": 62,
+              "idEzid": "00000117549@14"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "id": "15d",
+              "idEzid": "02089714121@14"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 8,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 9,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "urgentné neurolog. vyšetrenie, ko o tyž.,  ko p.p. kedykoľve, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-rtg": [
+      {
+        "id": 11,
+        "order": 8,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S06.0] Otras mozgu",
+            "props": {
+              "id": "S06.0",
+              "idEzid": "02089483545@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "predmet": {
+            "value": "lebka",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "fract??",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vl": [
+      {
+        "id": 13,
+        "order": 9,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "Ad neurologiam. Dop konz vyš pac s Dg.: Commotio cerebri<br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "[004] neurológia",
+            "props": {
+              "id": "004",
+              "idEzid": "00000351346@8",
+              "idClassid": "zameranie"
+            }
+          },
+          "druh": {
+            "value": "[2] ambulancia",
+            "props": {
+              "id": 2,
+              "idEzid": "00000000273@3",
+              "idClassid": "cinnost"
+            }
+          },
+          "presne": {
+            "value": "",
+            "props": {}
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

@@ -1,0 +1,55 @@
+{
+  "description": "MUDr. Abelovský. Ad gastroenterologiam. Výmenný lístok",
+  "summary": "Abelovsky",
+  "content": "<section data-x-id=\"2\" data-type=\"vl\" class=\"\"><aside></aside><label class=\"section-label  \">Výmenný lístok​:</label><div class=\"_noval FieldHtml\" data-name=\"text\">Ad chirurgiam NsP LC : P.T. prim.MUDr.Brunčák -  pacient odoslaný na oper. riešenie, <br>Pon : 10-12 hod<br>Str : 8,30-10 hod<br></div>​<label data-for=\"odbor\" class=\" _noval\">odborné zameranie:​</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"odbor\" data-ignore-visited=\"true\" data-id=\"010\" data-id-ezid=\"00000351403@8\" data-id-classid=\"zameranie\" title=\"[010] chirurgia\" style=\"width: 20ch;\">[010] chirurgia</div>​<label data-for=\"druh\" class=\" _noval\">druh špecializovaného útvaru​</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"druh\" data-ignore-visited=\"true\" data-id=\"2\" data-id-ezid=\"00000000273@3\" data-id-classid=\"cinnost\" title=\"[2] ambulancia\" style=\"width: 20ch;\">[2] ambulancia</div>​<label data-for=\"presne\" class=\" _noval\">len text​</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"presne\"></div>​<label data-for=\"extended\" class=\" _noval\">zobraziť dodatočné atribúty​</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"extended\"></div>​<label data-for=\"patientInfo\" class=\"_noval hidden\">informácia pre pacienta:​</label><div class=\"_noval FieldHtml hidden\" data-name=\"patientInfo\"></div>​<label data-for=\"urgency\" class=\"hidden\">urgentnosť vyšetrenia:​</label><div class=\"FieldList hasActions hidden\" data-name=\"urgency\" data-prop-value=\"bezne\">Bežné</div>​<label data-for=\"platnost\" class=\"hidden\">platnosť​</label><div class=\"FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"platnost\" data-prop-value=\"2021-02-26T05:21:30.581Z\">26.02.2021</div></section>",
+  "title": "Abelovsky",
+  "shortcut": "vlabe",
+  "if": "",
+  "data": {
+    "_": {},
+    "vl": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "Ad gastroenterologiam. P.T. MUDr. Abelovský - gastroenterolog. odb. vyš., kolonoskopia.<br><style><!-- /* Font Definitions */ @font-face\t{font-family:Calibri;\tpanose-1:2 15 5 2 2 2 4 3 2 4;\tmso-font-charset:238;\tmso-generic-font-family:swiss;\tmso-font-pitch:variable;\tmso-font-signature:-469750017 -1073732485 9 0 511 0;} /* Style Definitions */ p.MsoNormal, li.MsoNormal, div.MsoNormal\t{mso-style-unhide:no;\tmso-style-qformat:yes;\tmso-style-parent:\"\";\tmargin-top:0cm;\tmargin-right:0cm;\tmargin-bottom:10.0pt;\tmargin-left:0cm;\tline-height:115%;\tmso-pagination:widow-orphan;\tfont-size:11.0pt;\tfont-family:\"Calibri\",\"sans-serif\";\tmso-ascii-font-family:Calibri;\tmso-ascii-theme-font:minor-latin;\tmso-fareast-font-family:Calibri;\tmso-fareast-theme-font:minor-latin;\tmso-hansi-font-family:Calibri;\tmso-hansi-theme-font:minor-latin;\tmso-bidi-font-family:\"Times New Roman\";\tmso-bidi-theme-font:minor-bidi;\tmso-fareast-language:EN-US;}.MsoChpDefault\t{mso-style-type:export-only;\tmso-default-props:yes;\tfont-family:\"Calibri\",\"sans-serif\";\tmso-ascii-font-family:Calibri;\tmso-ascii-theme-font:minor-latin;\tmso-fareast-font-family:Calibri;\tmso-fareast-theme-font:minor-latin;\tmso-hansi-font-family:Calibri;\tmso-hansi-theme-font:minor-latin;\tmso-bidi-font-family:\"Times New Roman\";\tmso-bidi-theme-font:minor-bidi;\tmso-fareast-language:EN-US;}.MsoPapDefault\t{mso-style-type:export-only;\tmargin-bottom:10.0pt;\tline-height:115%;}@page WordSection1\t{size:595.3pt 841.9pt;\tmargin:70.85pt 70.85pt 70.85pt 70.85pt;\tmso-header-margin:35.4pt;\tmso-footer-margin:35.4pt;\tmso-paper-source:0;}div.WordSection1\t{page:WordSection1;}--></style>Vyšetrenie dna: <br>Adresa gastroenterologickéhopracoviska:<br>MUDr. Abelovský Martin, Chirurgická ambulancia, (AB MED,s.r.o.)<br>Tehelná 189/2, 960 01 Zvolen, tel.: 045-2028961<br>za OD Centrum,<br>vedľa budovy Klemo<br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "[048] gastroenterológia",
+            "props": {
+              "idClassid": "zameranie",
+              "idEzid": "00000351718@8",
+              "id": "048"
+            }
+          },
+          "druh": {
+            "value": "[2] ambulancia",
+            "props": {
+              "idClassid": "cinnost",
+              "idEzid": "00000000273@3",
+              "id": 2
+            }
+          },
+          "presne": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

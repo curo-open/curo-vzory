@@ -1,0 +1,192 @@
+{
+  "description": "Zloženie sadry po zlomenine distálneho rádia vpravo",
+  "type": null,
+  "summary": "fr. RADII LOCO TYP. DX - EX - sadra",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"_focus\"><aside></aside><div class=\"FieldHtml _focus\" data-name=\"t\">S.: bez ťažkostí, bez bolestí, pac. sa cíti lepšie, afebrilná\nO.: vedomie lucídne, orient., poloha akt., eupnoe, acyanoza, anikter. lokal.: bez edemu a palp. alg. v mieste zlomeniny distal rádia vpravo, bez NCP, klin. kalus palpačne pevný, dynamika pr. ARC viazne\nRTG.: kalus na distal. rádiu vpravo v tvorbe, adekvátne konsolidovaný\nDop.: sadra ex, band., ko o 7-10 dní, potom predp. RHB liečba\n<br></div></section>",
+  "title": "fr. RADII LOCO TYP. DX - EX - sadra",
+  "shortcut": "frlted",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "kontrola pacienta",
+            "props": {
+              "propValue": "K"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bez ťažkostí, bez bolestí, pac. sa cíti lepšie, afebril<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "vedomie lucídne, orient., poloha akt., eupnoe, acyanoza, anikter. lokal.: bez edemu a palp. alg. v mieste zlomeniny distal rádia vpravo, bez NCP, klin. kalus palpačne pevný, dynamika pr. ARC viazne<br>RTG.: kalus na distal. rádiu vpravo v tvorbe, adekvátne konsolidovaný<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 10,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S52.50] Zlomenina dolného konca vretennej kosti: bližšie neurčená",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089490078@12",
+              "id": "S52.50"
+            }
+          },
+          "text": {
+            "value": "Fr. radii loco typico l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 11,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@19",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 13,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "idClassid": "vykon",
+              "idEzid": "02089714121@19",
+              "id": "15d"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 4,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "sadra ex, band.,<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 5,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o 7-10 dní, potom predp. RHB liečba<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-rtg": [
+      {
+        "id": 6,
+        "order": 8,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S52.50] Zlomenina dolného konca vretennej kosti: bližšie neurčená",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089490078@12",
+              "id": "S52.50"
+            }
+          },
+          "predmet": {
+            "value": "distálne predlaktie vpravo",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "konsolidácia kalusu",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

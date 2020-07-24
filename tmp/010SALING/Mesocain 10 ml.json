@@ -1,0 +1,82 @@
+{
+  "title": "Mesocain 10 ml",
+  "shortcut": "lmes10",
+  "description": "Mesocain 10 ml 1%",
+  "summary": "Mesocain 10 ml",
+  "if": "",
+  "data": {
+    "_": {},
+    "pl": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "pl"
+        },
+        "value": {
+          "id": {
+            "value": "[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Amidy",
+              "propSdl": 100,
+              "propCena": 12.07,
+              "propVnl": "R",
+              "propUzp_1zvj": 0.077,
+              "propBal": 10,
+              "propGp": 0,
+              "propZvjPocetBal": 100,
+              "propUnit": "DF",
+              "propSpUhr": "AS",
+              "propDpl": 4.37,
+              "idClassid": "liek",
+              "idEzid": "00020288130",
+              "idF": "SOL INJ",
+              "idSp": "?",
+              "idAtc": "N01BB",
+              "idUl": "",
+              "id": "00502"
+            }
+          },
+          "qty": {
+            "value": "10",
+            "props": {
+              "propValue": "10.00"
+            }
+          },
+          "payoff": {
+            "value": "",
+            "props": {}
+          },
+          "dpljed": {
+            "value": "",
+            "props": {}
+          },
+          "dpl": {
+            "value": "0,44",
+            "props": {
+              "propValue": 0.44
+            }
+          },
+          "uhradazp": {
+            "value": "0,77",
+            "props": {
+              "propValue": 0.77
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "kodl": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

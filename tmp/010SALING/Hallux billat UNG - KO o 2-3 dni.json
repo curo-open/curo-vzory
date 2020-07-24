@@ -1,0 +1,200 @@
+{
+  "type": null,
+  "summary": "Hallux billat UNG - KO o 2-3 dni",
+  "description": "Preväz po ablácii nechta na oboch halluxoch",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"L60.0\" data-id-ezid=\"02089414888@12\" title=\"[L60.0] Zarastaj&amp;#xFA;ci necht\" style=\"width: 50ch;\">[L60.0] Zarastajúci necht</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"L02.4\" data-id-ezid=\"02089412684@12\" title=\"[L02.4] Ko&amp;#x17E;n&amp;#xFD; absces, furunkul a karbunkul kon&amp;#x10D;atiny\" style=\"width: 50ch;\">[L02.4] Kožný absces, furunkul a karbunkul končatiny</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"2\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S : cíti sa lepšie, afebril., bolesti na oboch palcoch nôh miernejšie\nO : vedomie luc., orient., poloha akt., eupnoe, anikter., acyanoza, rana po ablácii nechta na oboch halluxoch bez inflamácie s miernou secernáciou serózneho charakteru bez aktívnej supurácie, bez rozvoja phlegmóny na halox oboch nôh\nTh.: toaleta, preplach, krytie, band., ko o 2-3 dni\n\n</div></section>",
+  "title": "Hallux billat UNG - KO o 2-3 dni",
+  "shortcut": "ungbk23",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "cíti sa lepšie, afebril., bolesti na oboch palcoch nôh miernejšie<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "vedomie luc., orient., poloha akt., eupnoe, anikter., acyanoza, rana po ablácii nechta na oboch halluxoch bez inflamácie s miernou secernáciou serózneho charakteru bez aktívnej supurácie, bez rozvoja phlegmóny na halox oboch nôh<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[L60.0] Zarastajúci necht",
+            "props": {
+              "id": "L60.0",
+              "idEzid": "02089414888@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[L02.4] Kožný absces, furunkul a karbunkul končatiny",
+            "props": {
+              "id": "L02.4",
+              "idEzid": "02089412684@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 9,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "id": 63,
+              "idEzid": "00000117556@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2018] Ošetrenie malej rany hojacej sa per secundam.",
+            "props": {
+              "propBody": 150,
+              "id": 2018,
+              "idEzid": "00000474460@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "2",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 13,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[200] Obväz s výnimkou rýchlych obväzov a sprejov, očných a ušných klapiek, trojuholníkových šatiek, hotových náplastí alebo hotových kravatových obväzov na rany. Obväzy podľa výkonu pod kódom 200 sa nemôžu nevykazovať, keď slúžia na krytie rán, ktoré vzni",
+            "props": {
+              "propBody": 70,
+              "id": 200,
+              "idEzid": "00000467498@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "2",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 6,
+        "order": 8,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "toaleta, preplach, krytie, band<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 7,
+        "order": 9,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "telesné šetrenie, polohovanie končatín, ko o 2-3 dni<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

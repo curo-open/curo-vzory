@@ -1,0 +1,339 @@
+{
+  "title": "AARON fibroma multiplices 1x - excisio",
+  "description": "1x oblasť",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 14,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": " praje si odstrániť mnohopočetné, pendulujúce fibrómy v oblasti<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "O.: orient., eupnoe, anikter., acyanoza<br>SPL: mnohopočené pendulujúce fibrómy v oblasti<br>bez inflam, bez palp. alg., bez akt. sup.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[D21.0] Nezhubný nádor spojivového a iného mäkkého tkaniva hlavy, tváre a krku",
+            "props": {
+              "idClassid": "diagnoza",
+              "id": "D21.0",
+              "idEzid": "02089373373@12"
+            }
+          },
+          "text": {
+            "value": "Fibroma pendulum multiplices reg",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 6,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "id": 63,
+              "idEzid": "00000117556@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 7,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[410] Lokálna anestézia pri bolestivom ošetrení, pri jednom ošetrení. Tento výkon môže vykazovať lekár so špecializáciou v odbore všeobecné lekárstvo, chirurg, traumatológ, algeziológ alebo lekári ostatných",
+            "props": {
+              "propBody": 110,
+              "idClassid": "vykon",
+              "idEzid": "00000468736@15",
+              "id": 410
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 8,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2100] Excízia malého kúska sliznice alebo kože (malý benígny tumor, napríklad epulis, hyperplázia, leukoplakia, probatórna excízia) alebo excízia malého, v koži uloženého nádoru.",
+            "props": {
+              "propBody": 160,
+              "idClassid": "vykon",
+              "id": 2100,
+              "idEzid": "00000474544@14"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pl": [
+      {
+        "id": 10,
+        "order": 6,
+        "props": {
+          "type": "pl"
+        },
+        "value": {
+          "id": {
+            "value": "[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)",
+            "props": {
+              "propDpl": 4.37,
+              "propSpUhr": "AS",
+              "propUnit": "DF",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": 0.077,
+              "propVnl": "R",
+              "propCena": 12.07,
+              "propSdl": 100,
+              "propAtcName": "Amidy",
+              "propOl": 0,
+              "id": "00502",
+              "idUl": "",
+              "idAtc": "N01BB",
+              "idSp": "?",
+              "idF": "SOL INJ",
+              "idEzid": "00020288130",
+              "idClassid": "liek"
+            }
+          },
+          "qty": {
+            "value": "10",
+            "props": {
+              "propValue": "10.00"
+            }
+          },
+          "payoff": {
+            "value": "",
+            "props": {}
+          },
+          "dpljed": {
+            "value": "",
+            "props": {}
+          },
+          "dpl": {
+            "value": "4,37",
+            "props": {
+              "propValue": 4.37
+            }
+          },
+          "uhradazp": {
+            "value": "7,7",
+            "props": {
+              "propValue": "7.70"
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "kodl": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 9,
+        "order": 8,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": " toaleta, desinf., LA 1% Mes 10 ml, elektroexcisio in <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 11,
+        "order": 9,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "telesné šetrenie, lokal. Ialugen crm lokal., ko o 2-3 tyž., p.p. <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 12,
+        "order": 10,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[55951] Ialugen Plus | crm der 1x20 g (tuba Al)",
+            "props": {
+              "propSpUhr": "S",
+              "propUnit": "DF",
+              "propGp": 0,
+              "propBal": 1,
+              "propVnl": "F",
+              "propCena": 4.59,
+              "propSdl": 20,
+              "propAtcName": "Sulfadiazín, strieborná soľ, kombinácie",
+              "propOl": 0,
+              "id": 55951,
+              "idUl": "sulfadiazinum argenteum",
+              "idAtc": "D06BA51",
+              "idSp": "cut",
+              "idF": "CRM DER",
+              "idEzid": "00020614756",
+              "idClassid": "liek"
+            }
+          },
+          "schedule": {
+            "value": "podľa doporučenia",
+            "props": {
+              "propType": "DOP",
+              "propText": "",
+              "propPeriod_code": "D",
+              "propPeriod_t": "denne",
+              "propWay_code": ""
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "summary": "AARON fibroma multiplices 1x - excisio",
+  "shortcut": "AAfm1",
+  "source": "curo-open/curo-vzory#/010SALING"
+}

@@ -1,0 +1,30 @@
+{
+  "type": null,
+  "summary": "",
+  "description": "SPG",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">O.:vedomie lucídne, pac. orient., poloha aktívna, chôdza bez napadania, eupnoe, acyanóza, anikt., koža čistá, turgor kože primeraný\n</div></section>",
+  "title": "SPG",
+  "shortcut": "SPG",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "vedomie lucídne, pac. orient., poloha aktívna, chôdza bez napadania, eupnoe, acyanóza, anikt., koža čistá, turgor kože primeraný\n<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

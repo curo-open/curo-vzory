@@ -1,0 +1,104 @@
+{
+  "description": "Predpis lieku Ketospray",
+  "summary": "Ketospray aer",
+  "content": "<section data-x-id=\"2\" data-type=\"r\" class=\"\"><aside></aside><label class=\"section-label  has-info\">R​:</label><div class=\"FieldSearch hasActions highlight-bold truncate\" data-name=\"id\" title=\"[23028] ANOPYRIN 100 mg | tbl 28x100 mg (blis.PVC//PVDC/Al)\" style=\"width: 50ch;\" data-ignore-visited=\"true\" data-id=\"23028\" data-id-ul=\"\" data-id-atc=\"B01AC06\" data-id-sp=\"ora\" data-id-f=\"TBL\" data-id-ezid=\"00020073383\" data-id-classid=\"liek\" data-prop-dpl=\"0.72\" data-prop-sp-uhr=\"S\" data-prop-unit=\"DF\" data-prop-gp=\"1\" data-prop-bal=\"28\" data-prop-uzp_1zvj=\"0.024\" data-prop-vnl=\"F\" data-prop-cena=\"1.39\" data-prop-sdl=\"28\" data-prop-atc-name=\"Kyselina acetylsalicylová\" data-prop-ol=\"0\">[23028] ANOPYRIN 100 mg | tbl 28x100 mg (blis.PVC//PVDC/Al)</div>​<label data-for=\"schedule\" class=\"\">dáv.​</label><div class=\"FieldMedicationSchedule hasActions\" data-name=\"schedule\" data-prop-type=\"PEV1\" data-prop-parts_morning=\"1\" data-prop-parts_noon=\"0\" data-prop-parts_evening=\"1\" data-prop-parts_sleep-time=\"0\" data-prop-period_code=\"D\" data-prop-period_t=\"denne\" data-prop-way_code=\"\">1-0-1-0, denne</div>​<label data-for=\"qty\" class=\"\"># bal.​</label><div class=\"FieldR hasActions\" data-name=\"qty\" data-prop-value=\"1.00\">1</div>​<label data-for=\"repeatCount\" class=\" _noval\">rep.​</label><div class=\"_noval FieldN hasActions\" data-name=\"repeatCount\"></div>​<label data-for=\"repeatAfter\" class=\"ss hidden\">dní medzi výberom​</label><div class=\"FieldN ss hidden\" data-name=\"repeatAfter\"></div>​<label data-for=\"repeatLast\" class=\"ss _noval hidden\">posledný výber​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"repeatLast\"></div>​<label data-for=\"recommendedBy\" class=\"ss _noval\">odp. lek.​</label><div class=\"_noval FieldSearchLekar hasActions ss\" data-name=\"recommendedBy\"></div>​<label data-for=\"recommendedDate\" class=\"ss _noval hidden\">dátum odp.​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"recommendedDate\"></div>​<label data-for=\"untilDate\" class=\"ss _noval hidden\">platné do​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"untilDate\"></div>​<label data-for=\"noReplacement\" class=\"ss\">náhrada​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"noReplacement\" data-prop-value=\"0\">nie</div>​<label data-for=\"payoff\" class=\"ss\">doplatok​</label><div class=\"FieldR locked ss\" data-name=\"payoff\" data-prop-value=\"0.72\">0,72</div>​<label data-for=\"atc\" class=\"ss _noval hidden\">cez ATC​</label><div class=\"_noval FieldSwitchLogical hasActions ss hidden\" data-name=\"atc\" data-prop-value=\"0\">nie</div>​<label data-for=\"instruction\" class=\"ss _noval\">inštrukcie​</label><div class=\"_noval Field ss\" data-name=\"instruction\"></div>​<label data-for=\"reasonPayoff\" class=\"ss _noval\">uhradí​</label><div class=\"_noval FieldSwitch hasActions ss\" data-name=\"reasonPayoff\"></div>​<label data-for=\"prodException\" class=\"ss\">výnimka​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"prodException\" data-prop-value=\"0\">nie</div>​<label data-for=\"force\" class=\"ss\">vyn. zápis​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"force\" data-prop-value=\"0\">nie</div>​<label data-for=\"forceReason\" class=\"ss _noval hidden\">dôvod v.z.​</label><div class=\"_noval Field ss hidden\" data-name=\"forceReason\"></div>​<label data-for=\"barcode\" class=\"_noval hidden\">čiarový kód​</label><div class=\"_noval Field readonly dontCopy hidden\" data-name=\"barcode\"></div>​<label data-for=\"note_zp\" class=\"ss _noval hidden\">poznámka ZP​</label><div class=\"_noval Field readonly dontCopy ss hidden\" data-name=\"note_zp\"></div>​<label data-for=\"status\" class=\"invisible ss\">stav​</label><div class=\"FieldN readonly dontCopy invisible ss\" data-name=\"status\">0</div></section>",
+  "title": "Ketospray aer",
+  "shortcut": "lket",
+  "if": "",
+  "data": {
+    "_": {},
+    "r": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[99916] KETOSPRAY 10 % | aer deo 1x30 ml (fľ.skl.)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Ketoprofén",
+              "propVnl": "R",
+              "propBal": 1,
+              "propGp": 0,
+              "propUnit": "DF",
+              "propDpl": 7.82,
+              "idClassid": "liek",
+              "idEzid": "00020838371",
+              "idF": "AER DEO",
+              "idSp": "cut",
+              "idAtc": "M02AA10",
+              "idUl": "",
+              "id": 99916
+            }
+          },
+          "schedule": {
+            "value": "podľa doporučenia, lokálne",
+            "props": {
+              "propWay_code": "",
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propText": "lokálne",
+              "propType": "DOP"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "7,82",
+            "props": {
+              "propValue": 7.82
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

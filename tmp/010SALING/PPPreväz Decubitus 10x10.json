@@ -1,0 +1,335 @@
+{
+  "title": "PPPreväz Decubitus 10x10",
+  "shortcut": "pppdec10",
+  "description": "Zdravotné pomôcky Gazin 10 + Gekalast 10 + Suprasorb A+Ag 30 + PU 10x10",
+  "summary": "PPPreväz Decubitus 10x10",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "6": [
+          "recommendedBy"
+        ],
+        "10": [
+          "recommendedBy"
+        ]
+      }
+    },
+    "pp": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "pp"
+        },
+        "value": {
+          "id": {
+            "value": "[A57024] Kompres gázový GAZIN nesterilný | 10 x 10 cm, 100 ks, osem vrstvový",
+            "props": {
+              "propDpl": 0,
+              "propCena": 4.59,
+              "id": "A57024",
+              "idV": "LRI-DE",
+              "idEzid": "00020138236",
+              "idClassid": "pomocka"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "need": {
+            "value": "dočasná",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reason": {
+            "value": "Decubitus<br>",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "namieru": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "pp"
+        },
+        "value": {
+          "id": {
+            "value": "[A21499] Obväz fixačný Gekalast® | 10 cm x 4 m / 20 ks",
+            "props": {
+              "propDpl": 0.72,
+              "propCena": 1.79,
+              "id": "A21499",
+              "idV": "LRI-DE",
+              "idEzid": "00020154936",
+              "idClassid": "pomocka"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "need": {
+            "value": "dočasná",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reason": {
+            "value": "Decubitus<br>",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "namieru": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "pp",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[A75664] Tamponáda kalciumalginátová Suprasorb A+Ag | 30cm / 2g, antimikrobiálna",
+            "props": {
+              "propDpl": 0,
+              "propCena": 5.25,
+              "propPo_3": "068",
+              "propPo_2": "CHI",
+              "propPo_1": "056",
+              "propPo_0": "018",
+              "id": "A75664",
+              "idV": "LRI-DE",
+              "idEzid": "00020317731",
+              "idClassid": "pomocka"
+            }
+          },
+          "qty": {
+            "value": "5",
+            "props": {
+              "propValue": "5.00"
+            }
+          },
+          "need": {
+            "value": "dočasná",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reason": {
+            "value": "Decubitus<br>",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {
+              "error": "Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára"
+            }
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "namieru": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 10,
+        "order": 3,
+        "props": {
+          "type": "pp",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[A60687] Krytie na rany penové polyuretánové Suprasorb P PU | 10 x 10 cm, samolepiace",
+            "props": {
+              "propDpl": 0,
+              "propCena": 2.72,
+              "propPo_4": "038",
+              "propPo_3": "018",
+              "propPo_2": "CHI",
+              "propPo_1": "068",
+              "propPo_0": "056",
+              "id": "A60687",
+              "idV": "LRI-DE",
+              "idEzid": "00020019113",
+              "idClassid": "pomocka"
+            }
+          },
+          "qty": {
+            "value": "10",
+            "props": {
+              "propValue": "10.00"
+            }
+          },
+          "need": {
+            "value": "dočasná",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reason": {
+            "value": "Decubitus<br>",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {
+              "error": "Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára"
+            }
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "namieru": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

@@ -1,0 +1,45 @@
+{
+  "description": "RTG vyšetrenie hrudná chrbtica ",
+  "summary": "AdRTG - chrbtica Th",
+  "content": "<section data-x-id=\"2\" data-type=\"z-rtg\" class=\"\"><aside></aside><label class=\"section-label  \">Žiadanka RTG​:</label>​<label data-for=\"dg_text\" class=\"\">Diagnóza​</label><div class=\"FieldSearch hasActions truncate\" data-name=\"dg_text\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089484147@12\" data-id=\"S10.85\" title=\"[S10.85] Povrchové poranenie inej časti krku: pomliaždenie\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[S10.85] Povrchové poranenie inej časti krku: pomliaždenie</div>​<label data-for=\"predmet\" class=\" _noval\">Ktorá oblasť má byť vyšetrená​</label><div class=\"_noval Field\" data-name=\"predmet\"></div>​<label data-for=\"ocakavanie\" class=\"\">Očakávanie/otázka​</label><div class=\"Field\" data-name=\"ocakavanie\">fract.?</div>​<label data-for=\"epikriza\" class=\" _noval\">Epikríza​</label><div class=\"_noval Field\" data-name=\"epikriza\"></div></section>",
+  "title": "AdRTG - chrbtica Th",
+  "shortcut": "artc",
+  "if": "",
+  "data": {
+    "_": {},
+    "z-rtg": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S22.00] Zlomenina hrudníkového stavca, úroveň bližšie neurčená",
+            "props": {
+              "id": "S22.00",
+              "idEzid": "02089485649@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "predmet": {
+            "value": "Th chrbtica",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "fract.?",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

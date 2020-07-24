@@ -1,0 +1,249 @@
+{
+  "type": null,
+  "summary": "V. lacerocont F l SIN",
+  "description": "Vulnus lacerocont. capitis reg. F l sin",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"S01.1\" data-id-ezid=\"02089482620@12\" title=\"[S01.1] Otvoren&amp;#xE1; rana mihalnice a okolia oka\" style=\"width: 50ch;\">[S01.1] Otvorená rana mihalnice a okolia oka</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"62\" data-id-ezid=\"00000117549@14\" data-prop-body=\"250\" title=\"[62] Cielen&amp;#xE9; vy&amp;#x161;etrenie dvoch alebo viacer&amp;#xFD;ch org&amp;#xE1;nov&amp;#xFD;ch syst&amp;#xE9;mov alebo dispenz&amp;#xE1;rna kontrola (cielen&amp;#xE1; anamn&amp;#xE9;za, resp. anamn&amp;#xE9;za od poslednej kontroly), popis subjekt&amp;#xED;vnych obtia&amp;#x17E;&amp;#xED;, objekt&amp;#xED;vny n&amp;#xE1;lez, vyp&amp;#xED;sanie spr&amp;#xE1;vy, z&amp;#xE1;ver, vypracovanie pl&amp;#xE1;nu do nasleduj&amp;#xFA;c\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"406\" data-id-ezid=\"00000468710@14\" data-prop-body=\"100\" title=\"[406] Infiltra&amp;#x10D;n&amp;#xE1; anest&amp;#xE9;zia jednej oblasti s pou&amp;#x17E;it&amp;#xED;m lok&amp;#xE1;lneho anestetika v mno&amp;#x17E;stve do 5 ml.\" style=\"width: 50ch;\">[406] Infiltračná anestézia jednej oblasti s použitím lokálneho anestetika v množstve do 5 ml.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"2002\" data-id-ezid=\"00000474296@14\" data-prop-body=\"260\" title=\"[2002] O&amp;#x161;etrenie malej rany vr&amp;#xE1;tane zarovnania okrajov rany.\" style=\"width: 50ch;\">[2002] Ošetrenie malej rany vrátane zarovnania okrajov rany.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"4\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: udrel sa pri páde, utrpel tržnú ranu na ľ. čele, v bezvedomí nebol, nezvracal\nO.: orient., poloha akt., eupnoe, anikter., acyanoza\nizokoria, fotoreaklcia správna, ameningeal., lebka poklop negat.\ncca 2,5 cm tržná rana na ľ. čele, povrchová, palp. bez lézie periostu\nDg.: V. lacerocont reg F l sin\nTh.: toaleta, desinf., revízia, sutura SM AT, krytie, band.\nko o 2-3 dni\n</div></section>",
+  "title": "V. lacerocont F l SIN",
+  "shortcut": "vul F sin",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 6,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 7,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "tržná rana na ľ. čele po páde a udretí, bez zvracania, bez zn. bezvedomia<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 8,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanoza, izokoria, fotoreaklcia správna, ameningeal., lebka poklop negat.<br>cca 2,5 cm tržná rana na ľ. čele, povrchová, palp. bez lézie periostu<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 9,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S01.1] Otvorená rana mihalnice a okolia oka",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089482620@12",
+              "id": "S01.1"
+            }
+          },
+          "text": {
+            "value": "Vulnus lacerocont. capitis reg. F l sin",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 10,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "idClassid": "vykon",
+              "idEzid": "00000117549@14",
+              "id": 62
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[407] Infiltračná anestézia jednej oblasti s použitím lokálneho anestetika v množstve viac ako 5 ml. Tento výkon môže vykazovať lekár so špecializáciou v odbore všeobecné lekárstvo, chirurg, traumatológ, al",
+            "props": {
+              "propBody": 120,
+              "idClassid": "vykon",
+              "idEzid": "00000468728@14",
+              "id": 407
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 12,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2001] Ošetrenie malej rany vrátane uzavretia rany.",
+            "props": {
+              "propBody": 160,
+              "idClassid": "vykon",
+              "idEzid": "00000469262@14",
+              "id": 2001
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pl": [
+      {
+        "id": 13,
+        "order": 7,
+        "props": {
+          "type": "pl"
+        },
+        "value": {
+          "id": {
+            "value": "[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Amidy",
+              "propSdl": 100,
+              "propCena": 12.07,
+              "propVnl": "R",
+              "propUzp_1zvj": 0.077,
+              "propBal": 10,
+              "propGp": 0,
+              "propUnit": "DF",
+              "propSpUhr": "AS",
+              "propDpl": 4.37,
+              "idClassid": "liek",
+              "idEzid": "00020288130",
+              "idF": "SOL INJ",
+              "idSp": "?",
+              "idAtc": "N01BB",
+              "idUl": "",
+              "id": "00502"
+            }
+          },
+          "qty": {
+            "value": "10",
+            "props": {
+              "propValue": "10.00"
+            }
+          },
+          "payoff": {
+            "value": "",
+            "props": {}
+          },
+          "dpljed": {
+            "value": "",
+            "props": {}
+          },
+          "dpl": {
+            "value": "4,37",
+            "props": {
+              "propValue": 4.37
+            }
+          },
+          "uhradazp": {
+            "value": "7,7",
+            "props": {
+              "propValue": "7.70"
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "kodl": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 14,
+        "order": 8,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "toaleta, desinf., revízia, LA 1% Mes 10 ml, sutura, krytie, band.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 15,
+        "order": 9,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o 2-3 dni, p.p. skôr, pri akomkoľvek zhoršení stavu ko vyš na CHIR resp. NEU, <br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

@@ -1,0 +1,45 @@
+{
+  "description": "RTG vyšetrenie krčná chrbtica - RTG col. cerv.",
+  "summary": "AdRTG - chrbtica C",
+  "content": "<section data-x-id=\"2\" data-type=\"z-rtg\" class=\"\"><aside></aside><label class=\"section-label  \">Žiadanka RTG​:</label>​<label data-for=\"dg_text\" class=\"\">Diagnóza​</label><div class=\"FieldSearch hasActions truncate\" data-name=\"dg_text\" title=\"[S00.05] Povrchové poranenie vlasatej kože hlavy: pomliaždenie\" style=\"width: 50ch;\" data-ignore-visited=\"true\" data-id=\"S00.05\" data-id-ezid=\"02089482091@12\" data-id-classid=\"diagnoza\">[S00.05] Povrchové poranenie vlasatej kože hlavy: pomliaždenie</div>​<label data-for=\"predmet\" class=\"\">Ktorá oblasť má byť vyšetrená​</label><span style=\"white-space: pre-wrap; background-color: rgb(227, 242, 253);\">l</span>​<label data-for=\"ocakavanie\" class=\"\">Očakávanie/otázka​</label><div class=\"Field\" data-name=\"ocakavanie\">fract.?</div>​<label data-for=\"epikriza\" class=\" _noval\">Epikríza​</label><div class=\"_noval Field\" data-name=\"epikriza\"></div></section>",
+  "title": "AdRTG - chrbtica C",
+  "shortcut": "arcc",
+  "if": "",
+  "data": {
+    "_": {},
+    "z-rtg": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S10.85] Povrchové poranenie inej časti krku: pomliaždenie",
+            "props": {
+              "id": "S10.85",
+              "idEzid": "02089484147@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "predmet": {
+            "value": "C chrbtica",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "fract.?",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

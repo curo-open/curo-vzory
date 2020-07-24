@@ -1,0 +1,30 @@
+{
+  "type": null,
+  "summary": "DKK SPL",
+  "description": "DKK",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">obe DKK bez edemov, bez palp. alg. - obe lýtka bez edemu, volné\nHomans negat., Lowemberg negat., perif. pulz. na ADP a ATP\ndobre hmatné, dynamika v bedr. zhyboch, kolenách a oboch TC zhyboch primeraná\n</div></section>",
+  "title": "DKK SPL",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "obe DKK bez edemov, bez palp. alg. - obe lýtka bez edemu, volné, Homans negat., Lowemberg negat., perif. pulz. na ADP a ATP, dobre hmatné, dynamika v bedr. zhyboch, kolenách a oboch TC zhyboch primeraná<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "shortcut": "dkk",
+  "source": "curo-open/curo-vzory#/010SALING"
+}

@@ -1,0 +1,102 @@
+{
+  "title": "Cerdak 5",
+  "shortcut": "pcer5",
+  "description": "Predpis pomôcky CERDAK BASIC 5x5cm. PPP",
+  "summary": "Cerdak 5",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "2": [
+          "recommendedBy"
+        ]
+      }
+    },
+    "pp": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "pp",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[A79266] Krytie na rany CERDAK BASIC / 5x5cm | vankúšik bez náplasti s biokeramickým preparátom",
+            "props": {
+              "propDpl": 0,
+              "propCena": 5.54,
+              "propPo_3": "018",
+              "propPo_2": "CHI",
+              "propPo_1": "068",
+              "propPo_0": "056",
+              "id": "A79266",
+              "idV": "CDK-ZA",
+              "idEzid": "00020625745",
+              "idClassid": "pomocka"
+            }
+          },
+          "qty": {
+            "value": "10",
+            "props": {
+              "propValue": "10.00"
+            }
+          },
+          "need": {
+            "value": "dočasná",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reason": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {
+              "error": "Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára"
+            }
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "namieru": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

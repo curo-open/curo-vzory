@@ -1,0 +1,183 @@
+{
+  "type": null,
+  "summary": null,
+  "description": "Zlomenina mediálneho článku II. prsta ľavej ruky",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">Subj.: pac. reklamuje bolesti II. prsta ľavej ruky po udretí\nObj.: vedomie lucídne, poloha aktívna, eupnoe, koža anikter., acyanot., ľavá ruka s palp. algicitou a edemom v oblasti IV.prsta zhybu\naktívna hybnosť II. prsta ľavej ruky obmedzená v MTCPh a IPh zhyboch pre alg., bez NCP\nDg.: RTG : fractura phal. med. dig. II. man l sin sine disloc susp\nTh.: sadr. dlaha, analgetiká, ko o tyž.\n\n\n\n</div></section>",
+  "title": "DIG II. man l sin - phal. med. - fractura",
+  "shortcut": "fr d2m si pm",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "neodkladná starostlivosť",
+            "props": {
+              "propValue": "A"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac. reklamuje bolesti II. prsta ľavej ruky po udretí<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "vedomie lucídne, poloha aktívna, eupnoe, koža anikter., acyanot., ľavá ruka s palp. algicitou a edemom v oblasti II. prsta, <br>aktívna hybnosť II. prsta ľavej ruky obmedzená v MTCPh a IPh zhyboch pre alg., bez NCP<br>Dg.: RTG : fractura phal. med. dig. II. man l sin sine disloc susp<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S62.62] Zlomenina iného prsta ruky, stredný článok",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089491274@12",
+              "id": "S62.62"
+            }
+          },
+          "text": {
+            "value": "fractura phal. med. dig. II. man l sin sine disloc",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 5,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 9,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "idClassid": "vykon",
+              "idEzid": "02089714121@14",
+              "id": "15d"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[228] Sadrový dlahový obväz.",
+            "props": {
+              "propBody": 375,
+              "idClassid": "vykon",
+              "idEzid": "00000467670@14",
+              "id": 228
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 6,
+        "order": 7,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "sadr. dlaha, analgetiká,<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 7,
+        "order": 8,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o tyž., p.p. skôr, <br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

@@ -1,0 +1,227 @@
+{
+  "type": null,
+  "summary": "m. Osgood - Schlatter l DX - ORT",
+  "description": "Osgood-Schlatterova choroba pr. kolena",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"M25.50\" data-id-ezid=\"02089429639@12\" title=\"[M25.5] Boles&amp;#x165; k&amp;#x13A;bu na viacer&amp;#xFD;ch miestach\" style=\"width: 50ch;\">[M25.5] Bolesť kĺbu na viacerých miestach</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"M25.50\" data-id-ezid=\"02089429639@12\" title=\"[M25.5] Boles&amp;#x165; k&amp;#x13A;bu na viacer&amp;#xFD;ch miestach\" style=\"width: 50ch;\">[M25.5] Bolesť kĺbu na viacerých miestach</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"2\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"M93.2\" data-id-ezid=\"02089454348@12\" title=\"[M93.2] Osteochondritis dissecans\" style=\"width: 50ch;\">[M93.2] Osteochondritis dissecans</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"3\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"62\" data-id-ezid=\"00000117549@14\" data-prop-body=\"250\" title=\"[62] Cielen&amp;#xE9; vy&amp;#x161;etrenie dvoch alebo viacer&amp;#xFD;ch org&amp;#xE1;nov&amp;#xFD;ch syst&amp;#xE9;mov alebo dispenz&amp;#xE1;rna kontrola (cielen&amp;#xE1; anamn&amp;#xE9;za, resp. anamn&amp;#xE9;za od poslednej kontroly), popis subjekt&amp;#xED;vnych obtia&amp;#x17E;&amp;#xED;, objekt&amp;#xED;vny n&amp;#xE1;lez, vyp&amp;#xED;sanie spr&amp;#xE1;vy, z&amp;#xE1;ver, vypracovanie pl&amp;#xE1;nu do nasleduj&amp;#xFA;c\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"4\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: pac. reklamuje bolesti pr./ľ. kolena, úrazová etiologia nejednoznačná\nO.: orient., poloha aktívna, chôdza bez napadania, eupnoe, anikter., acyanoza, pravé/ľavé koleno bez naplne a balotementu, manevre negat., bez zn. instability, palp. alg v oblasti tuberositas tibiae\nRTG.: osteochondrosis deform. juvenilis tub. tibiae l dx/sin\nDg.: M. Osgood-Schlatter genus l dx/sin\nDop.: ortoped vyšetrenie\n</div></section>",
+  "title": "m. Osgood - Schlatter l DX - ORT",
+  "shortcut": "mosd",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 9,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 10,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac. reklamuje bolesti pr. kolena, úrazová etiologia nejednoznačná<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 11,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha aktívna, chôdza bez napadania, eupnoe, anikter., acyanoza, pravé koleno bez naplne a balotementu, manevre negat., bez zn. instability, palp. alg v oblasti tuberositas tibiae<br>RTG.: osteochondrosis deform. juvenilis tub. tibiae l dx<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 2,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M93.2] Osteochondritis dissecans",
+            "props": {
+              "idEzid": "02089454348@12",
+              "id": "M93.2"
+            }
+          },
+          "text": {
+            "value": "M. Osgood-Schlatter genus l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 3,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "idEzid": "00000117549@14",
+              "id": 62
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 8,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "idClassid": "vykon",
+              "idEzid": "02089714121@14",
+              "id": "15d"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 14,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "NSA p.p, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 15,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "telesné šetrenie, ORT vyš<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vl": [
+      {
+        "id": 16,
+        "order": 8,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "Ad ortopediam. Odb. vyš. pac so susp. dg.: M. Osgood-Schlatter genus l dx<br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "[011] ortopédia",
+            "props": {
+              "idClassid": "zameranie",
+              "idEzid": "00000351411@8",
+              "id": "011"
+            }
+          },
+          "druh": {
+            "value": "[2] ambulancia",
+            "props": {
+              "idClassid": "cinnost",
+              "idEzid": "00000000273@3",
+              "id": 2
+            }
+          },
+          "presne": {
+            "value": "",
+            "props": {}
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-rtg": [
+      {
+        "id": 17,
+        "order": 9,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[M93.2] Osteochondritis dissecans",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089454348@12",
+              "id": "M93.2"
+            }
+          },
+          "predmet": {
+            "value": "pr. koleno",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "m.Osgood-Schlatter",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

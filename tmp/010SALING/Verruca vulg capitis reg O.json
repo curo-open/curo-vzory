@@ -1,0 +1,264 @@
+{
+  "type": null,
+  "summary": " Vuln. lac. DIG II. man l DX",
+  "description": "Bradavica na hlave",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"D22.4\" data-id-ezid=\"02089373506@12\" title=\"[D22.4] Melanocytov&amp;#xFD; n&amp;#xE9;vus vlasovej &amp;#x10D;asti hlavy a krku\" style=\"width: 50ch;\">[D22.4] Melanocytový névus vlasovej časti hlavy a krku</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"63\" data-id-ezid=\"00000117556@14\" data-prop-body=\"200\" title=\"[63] D&amp;#xF4;kladn&amp;#xE9; vy&amp;#x161;etrenie jedn&amp;#xE9;ho org&amp;#xE1;nov&amp;#xE9;ho syst&amp;#xE9;mu alebo kontroln&amp;#xE9; vy&amp;#x161;etrenie vr&amp;#xE1;tane r&amp;#xE1;d a dokument&amp;#xE1;cie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"407\" data-id-ezid=\"00000468728@14\" data-prop-body=\"120\" title=\"[407] Infiltra&amp;#x10D;n&amp;#xE1; anest&amp;#xE9;zia jednej oblasti s pou&amp;#x17E;it&amp;#xED;m lok&amp;#xE1;lneho anestetika v mno&amp;#x17E;stve viac ako 5 ml. Tento v&amp;#xFD;kon m&amp;#xF4;&amp;#x17E;e vykazova&amp;#x165; lek&amp;#xE1;r so &amp;#x161;pecializ&amp;#xE1;ciou v odbore v&amp;#x161;eobecn&amp;#xE9; lek&amp;#xE1;rstvo, chirurg, traumatol&amp;#xF3;g, al\" style=\"width: 50ch;\">[407] Infiltračná anestézia jednej oblasti s použitím lokálneho anestetika v množstve viac ako 5 ml. Tento výkon môže vykazovať lekár so špecializáciou v odbore všeobecné lekárstvo, chirurg, traumatológ, al</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"2106\" data-id-ezid=\"00000474593@14\" data-prop-body=\"700\" title=\"[2106] Extirp&amp;#xE1;cia jedn&amp;#xE9;ho ben&amp;#xED;gneho n&amp;#xE1;doru alebo mazovej &amp;#x17E;&amp;#x13E;azy.\" style=\"width: 50ch;\">[2106] Extirpácia jedného benígneho nádoru alebo mazovej žľazy.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"4\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S : reklamuje rezistenciu vo vlasatej časti hlavy, nebolestivú\nO : orientovaný, poloha aktívna, koža čistá, anikter., lebka poklopovo\nnegat., cca l cm TU /verruca vulgaris/ v O oblasti\nDg : Verruca vulgaris capitis reg O\nTh : excisio in toto v LA l% Mes., sutura, ko o 2 dni\n</div></section>",
+  "title": "Verruca vulg capitis reg O",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 27,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "aa": [
+      {
+        "id": 16,
+        "order": 1,
+        "props": {
+          "type": "aa"
+        },
+        "value": {
+          "text": {
+            "value": "alergiu na lieky resp. Mesocain inj neguje<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 17,
+        "order": 2,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "reklamuje a praje si odstrániť TU - verukózny naevus v oblasti kapilícia<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 18,
+        "order": 3,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "O.: orient., poloha akt., eupnoe, anikter., acyanoza<br>SPL : verukózny naevus seu verruka elastickej konzistencie na širokej stopke v O oblasti kapilícia<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 19,
+        "order": 4,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[D21.0] Nezhubný nádor spojivového a iného mäkkého tkaniva hlavy, tváre a krku",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089373373@12",
+              "id": "D21.0"
+            }
+          },
+          "text": {
+            "value": "Naevus verrucosus reg O capitis",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 20,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "id": 63,
+              "idEzid": "00000117556@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 21,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[406] Infiltračná anestézia jednej oblasti s použitím lokálneho anestetika v množstve do 5 ml.",
+            "props": {
+              "propBody": 100,
+              "id": 406,
+              "idEzid": "00000468710@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 22,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2100] Excízia malého kúska sliznice alebo kože (malý benígny tumor, napríklad epulis, hyperplázia, leukoplakia, probatórna excízia) alebo excízia malého, v koži uloženého nádoru.",
+            "props": {
+              "propBody": 160,
+              "id": 2100,
+              "idEzid": "00000474544@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pl": [
+      {
+        "id": 24,
+        "order": 7,
+        "props": {
+          "type": "pl"
+        },
+        "value": {
+          "id": {
+            "value": "[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)",
+            "props": {
+              "propDpl": 4.37,
+              "propSpUhr": "AS",
+              "propUnit": "DF",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": 0.077,
+              "propVnl": "R",
+              "propCena": 12.07,
+              "propSdl": 100,
+              "propAtcName": "Amidy",
+              "propOl": 0,
+              "id": "00502",
+              "idUl": "",
+              "idAtc": "N01BB",
+              "idSp": "?",
+              "idF": "SOL INJ",
+              "idEzid": "00020288130",
+              "idClassid": "liek"
+            }
+          },
+          "qty": {
+            "value": "10",
+            "props": {
+              "propValue": "10.00"
+            }
+          },
+          "payoff": {
+            "value": "",
+            "props": {}
+          },
+          "dpljed": {
+            "value": "",
+            "props": {}
+          },
+          "dpl": {
+            "value": "4,37",
+            "props": {
+              "propValue": 4.37
+            }
+          },
+          "uhradazp": {
+            "value": "7,7",
+            "props": {
+              "propValue": "7.70"
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "kodl": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 23,
+        "order": 9,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": " toaleta, desinf., LA 1% Mes 10 ml, excisio in toto,  sutura, krytie, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 25,
+        "order": 10,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "telesné šetrenie, lokal. Ialugen crm lokal., ko o 2-3 tyž., p.p. <br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "shortcut": "vercapO",
+  "source": "curo-open/curo-vzory#/010SALING"
+}

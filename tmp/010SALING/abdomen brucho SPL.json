@@ -1,0 +1,30 @@
+{
+  "type": null,
+  "summary": "brucho abdomen",
+  "description": "abdomen brucho SPL",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">brucho v niveau hrudníka, dých. vlna postupuje k symph., mäkké, dobre\npriehmatné, bez patolog rezistencie a peritoneálneho dráždenia\nMurphy negat., Blumberg-Rovsing-Plenies negat., TPT bilat negat.\n</div></section>",
+  "title": "abdomen brucho SPL",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "brucho v niveau hrudníka, dých. vlna postupuje k symph., mäkké, dobre priehmatné, bez patolog rezistencie a peritoneálneho dráždenia, Murphy negat., Blumberg-Rovsing-Plenies negat., TPT bilat negat.<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "shortcut": "abdspl",
+  "source": "curo-open/curo-vzory#/010SALING"
+}

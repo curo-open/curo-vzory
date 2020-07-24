@@ -1,0 +1,30 @@
+{
+  "type": null,
+  "summary": "kúpele SPL",
+  "description": "kúpele SPG / SPL",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">orient., eupnoe, anikter., acyanóza, hlava a krk palp. negat., orientačne neurolog. v norme, hrudník klenutý, súmerný, palp. stabilný v oboch smeroch, dýchanie vezikulárne, čisté, symetrické, abdomen priehmatné, kludné, palp. nebolestivé, bez patolog rezistencie, B-R-P negat., DKK bez edémov, normokonfigurované, hybnosť primeraná\n\n</div></section>",
+  "title": "kúpele SPL",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "orient., eupnoe, anikter., acyanóza, hlava a krk palp. negat., orientačne neurolog. v norme, hrudník klenutý, súmerný, palp. stabilný v oboch smeroch, dýchanie vezikulárne, čisté, symetrické, abdomen priehmatné, kludné, palp. nebolestivé, bez patolog rezistencie, B-R-P negat., DKK bez edémov, normokonfigurované, hybnosť primeraná\n\n<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "shortcut": "kupspl",
+  "source": "curo-open/curo-vzory#/010SALING"
+}

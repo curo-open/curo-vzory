@@ -1,0 +1,137 @@
+{
+  "type": null,
+  "summary": "Combustio cruris dx inveter",
+  "description": "Inveterovaná popálenina na pr. predkolení",
+  "content": "<section data-x-id=\"1\" data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"_noval FieldList hasActions\" data-name=\"reason\"></div>​<label data-for=\"datum\" class=\" _noval\">zo dňa​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"datumVyziadania\" class=\" _noval\">dátum vyžiadania​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"datumVyziadania\"></div>​<label data-for=\"id\" class=\" _noval\">identifikátor​</label><div class=\"_noval Field\" data-name=\"id\"></div></section><section data-x-id=\"2\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\">pac udáva popáleninu na pr. predkolení<br></div></section><section data-x-id=\"3\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\">orient., poloha akt., eupnoe, anikter., acyanoza<br>popálenina na pr. predkolení - hyperem spodina a secernácia, bez rozvoja phlegmóny<br></div></section><section data-x-id=\"4\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"T24.20\" data-id-ezid=\"02089498626@12\" data-id-classid=\"diagnoza\" title=\"[T24.20] Popálenina bedra a dolnej končatiny okrem členka a nohy 2a. stupňa\" style=\"width: 50ch;\">[T24.20] Popálenina bedra a dolnej končatiny okrem členka a nohy 2a. stupňa</div>​<label data-for=\"text\" class=\"\">/​</label><div class=\"Field minor\" data-name=\"text\">Combusio cruris l dx gr II</div></section><section data-x-id=\"5\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"2011\" data-id-ezid=\"00000474379@14\" data-id-classid=\"vykon\" data-prop-body=\"250\" title=\"[2011] Prvotné ošetrenie popáleniny I. alebo II. stupňa (ruka, noha, tvár), za každú popáleninu (toilette, debridement, topické prostriedky).\" style=\"width: 50ch;\">[2011] Prvotné ošetrenie popáleniny I. alebo II. stupňa (ruka, noha, tvár), za každú popáleninu (toilette, debridement, topické prostriedky).</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"6\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"FieldHtml\" data-name=\"th\">toaleta, desinf., krytie, band.<br></div></section><section data-x-id=\"7\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\">ko o 2-3 dni, p.p. skôr, <br></div></section>",
+  "title": "Combustio cruris DX inveter",
+  "shortcut": "com cr dx i",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac udáva popáleninu na pr. predkolení, popálil sa pred niekoľkými dňami<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanoza<br>5x5 cm popálenina na pr. predkolení dorzomediálne - hyperem spodina<br>secernácia, bez rozvoja phlegmóny<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[T24.20] Popálenina bedra a dolnej končatiny okrem členka a nohy 2a. stupňa",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089498626@12",
+              "id": "T24.20"
+            }
+          },
+          "text": {
+            "value": "Combusio cruris l dx gr II inveter.",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 5,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2011] Prvotné ošetrenie popáleniny I. alebo II. stupňa (ruka, noha, tvár), za každú popáleninu (toilette, debridement, topické prostriedky).",
+            "props": {
+              "propBody": 250,
+              "idClassid": "vykon",
+              "idEzid": "00000474379@14",
+              "id": 2011
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 6,
+        "order": 5,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "toaleta, desinf., krytie, band.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o 2-3 dni, p.p. skôr, <br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

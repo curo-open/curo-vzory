@@ -1,0 +1,176 @@
+{
+  "type": null,
+  "summary": "TEP genu DX - stehy ex",
+  "description": "Vybratie stehov po TEP pravého kolena ",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"S81.0\" data-id-ezid=\"02089493072@12\" title=\"[S81.0] Otvoren&amp;#xE1; rana kolena\" style=\"width: 50ch;\">[S81.0] Otvorená rana kolena</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"M17.1\" data-id-ezid=\"02089425728@12\" title=\"[M17.1] In&amp;#xE1; prim&amp;#xE1;rna artr&amp;#xF3;za kolenn&amp;#xE9;ho k&amp;#x13A;bu\" style=\"width: 50ch;\">[M17.1] Iná primárna artróza kolenného kĺbu</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"63\" data-id-ezid=\"00000117556@14\" data-prop-body=\"200\" title=\"[63] D&amp;#xF4;kladn&amp;#xE9; vy&amp;#x161;etrenie jedn&amp;#xE9;ho org&amp;#xE1;nov&amp;#xE9;ho syst&amp;#xE9;mu alebo kontroln&amp;#xE9; vy&amp;#x161;etrenie vr&amp;#xE1;tane r&amp;#xE1;d a dokument&amp;#xE1;cie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"2007\" data-id-ezid=\"00000474346@14\" data-prop-body=\"60\" title=\"[2007] Odstr&amp;#xE1;nenie sut&amp;#xFA;ry alebo stehov z ve&amp;#x13E;kej rany.\" style=\"width: 50ch;\">[2007] Odstránenie sutúry alebo stehov z veľkej rany.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"4\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">PAc po op. - TEP -\nDg.: Gonarthrosis l dx\nS.: lepšie, pobolievanie v pr. kolene miernejšie\nO.: prient., poloha akt., chôdza o NB, eupnoe, anikter., acyanoza\nSPL : rana po TEP nad pr. kolenom zhybom s primeraným hojením, bez inflam a secer., pr. koleno bez náplne a balotementu, dynamika obmedzená\nTh.: toaleta, desinf., stehy ex, krytie\nDop.: telesné šetrenie, nedostupovať 5-6 tyž., ko dľa dop ORT\n</div></section>",
+  "title": "TEP genu DX - stehy ex",
+  "shortcut": "ste TEP gdx",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 5,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 6,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "PAc po op. - TEP -<br>Dg.: Gonarthrosis l dx<br>S.: lepšie, pobolievanie v pr. kolene miernejšie<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 7,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "prient., poloha akt., chôdza o NB, eupnoe, anikter., acyanoza<br>SPL : rana po TEP nad pr. kolenom zhybom s primeraným hojením, bez inflam a secer., pr. koleno bez náplne a balotementu, dynamika obmedzená<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 1,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M17.1] Iná primárna artróza kolenného kĺbu",
+            "props": {
+              "idEzid": "02089425728@12",
+              "id": "M17.1"
+            }
+          },
+          "text": {
+            "value": "Gonarthrosis l dx",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 5,
+        "order": 5,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S81.0] Otvorená rana kolena",
+            "props": {
+              "idEzid": "02089493072@12",
+              "id": "S81.0"
+            }
+          },
+          "text": {
+            "value": "St.p. TEP genu l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 2,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 3,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2007] Odstránenie sutúry alebo stehov z veľkej rany.",
+            "props": {
+              "propBody": 60,
+              "idEzid": "00000474346@14",
+              "id": 2007
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 8,
+        "order": 7,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "toaleta, desinf., stehy ex, krytie<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 9,
+        "order": 8,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "telesné šetrenie, nedostupovať 5-6 tyž., ko dľa dop ORT<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

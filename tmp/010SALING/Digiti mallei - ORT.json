@@ -1,0 +1,198 @@
+{
+  "description": "",
+  "type": null,
+  "summary": "Digiti mallei - ORT",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate _focus\" data-name=\"id\" data-id=\"M.0\" title=\"[M.0] M.0\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[M.0] M.0</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"62\" data-id-ezid=\"00000117549@14\" data-prop-body=\"250\" title=\"[62] Cielen&amp;#xE9; vy&amp;#x161;etrenie dvoch alebo viacer&amp;#xFD;ch org&amp;#xE1;nov&amp;#xFD;ch syst&amp;#xE9;mov alebo dispenz&amp;#xE1;rna kontrola (cielen&amp;#xE1; anamn&amp;#xE9;za, resp. anamn&amp;#xE9;za od poslednej kontroly), popis subjekt&amp;#xED;vnych obtia&amp;#x17E;&amp;#xED;, objekt&amp;#xED;vny n&amp;#xE1;lez, vyp&amp;#xED;sanie spr&amp;#xE1;vy, z&amp;#xE1;ver, vypracovanie pl&amp;#xE1;nu do nasleduj&amp;#xFA;c\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"407\" data-id-ezid=\"00000468728@14\" data-prop-body=\"120\" title=\"[407] Infiltra&amp;#x10D;n&amp;#xE1; anest&amp;#xE9;zia jednej oblasti s pou&amp;#x17E;it&amp;#xED;m lok&amp;#xE1;lneho anestetika v mno&amp;#x17E;stve viac ako 5 ml. Tento v&amp;#xFD;kon m&amp;#xF4;&amp;#x17E;e vykazova&amp;#x165; lek&amp;#xE1;r so &amp;#x161;pecializ&amp;#xE1;ciou v odbore v&amp;#x161;eobecn&amp;#xE9; lek&amp;#xE1;rstvo, chirurg, traumatol&amp;#xF3;g, al\" style=\"width: 50ch;\">[407] Infiltračná anestézia jednej oblasti s použitím lokálneho anestetika v množstve viac ako 5 ml. Tento výkon môže vykazovať lekár so špecializáciou v odbore všeobecné lekárstvo, chirurg, traumatológ, al</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: reklamuje bolesti a kladivkovitú deformitu III. prsta ľavej/pravej nohy stav zhoršený chôdzou, afebrilná\nO.: orient., poloha akt., eupnoe, anikter., acyanoza, chôdza bez napadania, SPL.: II./III./IV. prst na ľavej/pravej nohe deformovaný - hyperE v MTTPh a F v PIPh zhybe s prominujúcou hlavičkou\nproximal. phalangu, flekčné postavenie v PIPh zhybe sa nedá ani pasívne redresovať\nDg.: digitus malleus II./III./IV ped l sin/dx\nTh.: LA 1% Mes. 10 ml, resekčná interpozičná artroplastika podľa Hohmana - resekcia hlavičky proximal. phalangu s rafovaním šlachy E, sutura Donatiho stehom, krytie, band., ko o 2-3 dni\n</div></section>",
+  "title": "Digiti mallei - ORT",
+  "shortcut": "dm",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 6,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 7,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": " bolesti a kladivkovitú deformitu prsta ľavej/pravej nohy stav zhoršený chôdzou, afebri<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 8,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanoza, chôdza bez napadania, SPL.: II./III./IV. prst na ľavej/pravej nohe deformovaný - hyperE v MTTPh a F v PIPh zhybe s prominujúcou hlavičkou<br>proximal. phalangu, flekčné postavenie v PIPh zhybe sa nedá ani pasívne redresovať<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": "",
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M20.4] Iný kladivkový prst (prsty) nohy (získaný)",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089426387@12",
+              "id": "M20.4"
+            }
+          },
+          "text": {
+            "value": "Dig. mal. ",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 5,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "idClassid": "vykon",
+              "idEzid": "02089714121@14",
+              "id": "15d"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 9,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "NSA<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 10,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ORT vyšetrenie<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vl": [
+      {
+        "id": 14,
+        "order": 8,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "Ad ortopediam. Kon. odb vyšetrenie pac s nálezom kladivk. prsta<br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "[011] ortopédia",
+            "props": {
+              "idClassid": "zameranie",
+              "idEzid": "00000351411@8",
+              "id": "011"
+            }
+          },
+          "druh": {
+            "value": "[2] ambulancia",
+            "props": {
+              "idClassid": "cinnost",
+              "idEzid": "00000000273@3",
+              "id": 2
+            }
+          },
+          "presne": {
+            "value": "",
+            "props": {}
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

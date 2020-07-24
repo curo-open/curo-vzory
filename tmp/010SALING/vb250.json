@@ -1,0 +1,64 @@
+{
+  "summary": "Višnevského balzam 250",
+  "description": "",
+  "content": "<section data-x-id=\"\" data-type=\"r-ml\" class=\"\"><aside></aside><label class=\"section-label  \">Magistraliter​:</label><div class=\"Field\" data-name=\"title\">Aa Višnevski 250 [M01000]</div>​<label data-for=\"schedule\" class=\"\">dávkovanie​</label><div class=\"FieldMedicationSchedule hasActions\" data-name=\"schedule\" data-prop-text=\"\" data-prop-type=\"DOP\">podľa doporučenia</div>​<label data-for=\"reasonPayoff\" class=\" _noval\">uhradí​</label><div class=\"_noval FieldSwitch hasActions\" data-name=\"reasonPayoff\"></div>​<label data-for=\"instruction\" class=\"\">zloženie:​</label><div class=\"FieldHtml\" data-name=\"instruction\">Balsamum Višnevski gr. 250</div>​<label data-for=\"priprava\" class=\" _noval\">inštrukcie pre prípravu:​</label><div class=\"_noval Field\" data-name=\"priprava\"></div>​<label data-for=\"aplikacia\" class=\"\">inštrukcie pre užívanie:​</label><div class=\"Field\" data-name=\"aplikacia\">lokalne zvonku</div>​<label data-for=\"prodException\" class=\" _noval\">produkt na výnimku​</label><div class=\"_noval FieldSwitchLogical hasActions\" data-name=\"prodException\"></div>​<label data-for=\"force\" class=\" _noval\">vynútený zápis​</label><div class=\"_noval FieldSwitchLogical hasActions\" data-name=\"force\"></div>​<label data-for=\"forceReason\" class=\" _noval\">dôvod v.z.​</label><div class=\"_noval Field\" data-name=\"forceReason\"></div>​<label data-for=\"barcode\" class=\" _noval\">čiarový kód​</label><div class=\"_noval Field readonly dontCopy\" data-name=\"barcode\"></div>​<label data-for=\"note_zp\" class=\" _noval\">poznámka ZP​</label><div class=\"_noval Field readonly dontCopy\" data-name=\"note_zp\"></div>​<label data-for=\"status\" class=\"invisible _noval\">stav​</label><div class=\"_noval FieldN readonly dontCopy invisible\" data-name=\"status\"></div></section>",
+  "title": "vb250",
+  "shortcut": "vb250",
+  "if": "",
+  "data": {
+    "_": {},
+    "r-ml": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "r-ml"
+        },
+        "value": {
+          "title": {
+            "value": "Aa Višnevski 250 [M01000]",
+            "props": {}
+          },
+          "schedule": {
+            "value": "podľa doporučenia",
+            "props": {
+              "propText": "",
+              "propType": "DOP"
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "Balsamum Višnevski gr. 250",
+            "props": {}
+          },
+          "priprava": {
+            "value": "",
+            "props": {}
+          },
+          "aplikacia": {
+            "value": "lokalne zvonku",
+            "props": {}
+          },
+          "prodException": {
+            "value": "",
+            "props": {}
+          },
+          "force": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

@@ -1,0 +1,45 @@
+{
+  "description": "RTG vyšetrenie L-S chrbtica ",
+  "summary": "AdRTG - chrbtica L-S",
+  "content": "<section data-x-id=\"2\" data-type=\"z-rtg\" class=\"\"><aside></aside><label class=\"section-label  \">Žiadanka RTG​:</label>​<label data-for=\"dg_text\" class=\"\">Diagnóza​</label><div class=\"FieldSearch hasActions truncate\" data-name=\"dg_text\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089487066@12\" data-id=\"S32.00\" title=\"[S32.00] Zlomenina driekového stavca, úroveň bližšie neurčená\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[S32.00] Zlomenina driekového stavca, úroveň bližšie neurčená</div>​<label data-for=\"predmet\" class=\"\">Ktorá oblasť má byť vyšetrená​</label><div class=\"Field\" data-name=\"predmet\">L chrbtica</div>​<label data-for=\"ocakavanie\" class=\"\">Očakávanie/otázka​</label><div class=\"Field\" data-name=\"ocakavanie\">fract.?</div>​<label data-for=\"epikriza\" class=\" _noval\">Epikríza​</label><div class=\"_noval Field\" data-name=\"epikriza\"></div></section>",
+  "title": "AdRTG - chrbtica L-S",
+  "shortcut": "arlsc",
+  "if": "",
+  "data": {
+    "_": {},
+    "z-rtg": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S32.00] Zlomenina driekového stavca, úroveň bližšie neurčená",
+            "props": {
+              "id": "S32.00",
+              "idEzid": "02089487066@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "predmet": {
+            "value": "L-S chrbtica",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "fract.?",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

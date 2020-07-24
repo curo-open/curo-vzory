@@ -1,0 +1,137 @@
+{
+  "type": null,
+  "summary": "Distensio mm. recti abd",
+  "description": "Natiahnutie priamych brušných svalov",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: pri natiahnutí pocítil bolesti\nO.: orient., eupnoe, anikter., acyanoza\nhrudník klenutý, súmerný, stabilný v oboch smerocch, dýchanie vezikulárne, čisté, abdomen priehmatné s miernou palp. algicitou\nRTG: bez TZ na skelete\nDg.: Disten. mm. recti abd\nTh.: NSA\nDop.: telesné šetrenie, kľudový režim, ko o tyž.\n</div></section>",
+  "title": "Distensio mm. recti abd",
+  "shortcut": "di RA",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pri natiahnutí pocítil bolesti v brušnej stene<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., eupnoe, anikter., acyanoza<br>hrudník klenutý, súmerný, stabilný v oboch smerocch, dýchanie vezikulárne, čisté, abdomen priehmatné s miernou palp. algicitou brušnej steny<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S30.88] Iné povrchové poranenie brucha, drieku a panvy: iné",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089486787@12",
+              "id": "S30.88"
+            }
+          },
+          "text": {
+            "value": "Disten. mm. recti abd",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 5,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "idClassid": "vykon",
+              "idEzid": "00000117549@14",
+              "id": 62
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 6,
+        "order": 5,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "NSA<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "telesné šetrenie, kľudový režim, ko o tyž.<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

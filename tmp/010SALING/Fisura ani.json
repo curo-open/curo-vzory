@@ -1,0 +1,332 @@
+{
+  "description": "Análna fisúra",
+  "type": null,
+  "summary": "Fisura ani",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate _focus\" data-name=\"id\" data-id=\"K60.0\" data-id-ezid=\"02089410191@12\" title=\"[K60.0] Ak&amp;#xFA;tna an&amp;#xE1;lna fis&amp;#xFA;ra\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[K60.0] Akútna análna fisúra</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"62\" data-id-ezid=\"00000117549@14\" data-prop-body=\"250\" title=\"[62] Cielen&amp;#xE9; vy&amp;#x161;etrenie dvoch alebo viacer&amp;#xFD;ch org&amp;#xE1;nov&amp;#xFD;ch syst&amp;#xE9;mov alebo dispenz&amp;#xE1;rna kontrola (cielen&amp;#xE1; anamn&amp;#xE9;za, resp. anamn&amp;#xE9;za od poslednej kontroly), popis subjekt&amp;#xED;vnych obtia&amp;#x17E;&amp;#xED;, objekt&amp;#xED;vny n&amp;#xE1;lez, vyp&amp;#xED;sanie spr&amp;#xE1;vy, z&amp;#xE1;ver, vypracovanie pl&amp;#xE1;nu do nasleduj&amp;#xFA;c\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">Subj.: pac. reklamuje bolesti v oblasti konečníka zhoršené defekáciou, intermitentne krvacania po stolici\nObj.: vedomie lucídne, poloha aktívna, koža anikter., acyanot., eupnoe, abdomen mäkké, dobre priehmatné, bez patolog. rezistencie a peritoneal. dráždenia, Murphy negat., B-R-P negat., TPT bilat. negat.\nPer rectum : anus bpn, mierne hyperton. sfinktery, palp. alg. zadnej kommisury pri indagácii, steny rekta hladke, ampula poloprázdna, Douglas nevyklenuje, nebolestivý, na rukavici stopy hnedej stolice bez zn. krvacania\nDg.: Fissura ani\nTh : Redctogesic ung, telesné šetrenie, dietny režim, sedacie kupele, ko o lO-l4 dní\n</div></section>",
+  "title": "Fisura ani",
+  "shortcut": "fisa",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "11": [
+          "recommendedBy"
+        ]
+      }
+    },
+    "od": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac. reklamuje bolesti v oblasti konečníka zhoršené defekáciou, intermitentne krvacania po stolici<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "vedomie lucídne, poloha aktívna, koža anikter., acyanot., eupnoe, abdomen mäkké, dobre priehmatné, bez patolog. rezistencie a peritoneal. dráždenia, Murphy negat., B-R-P negat., TPT bilat. negat.<br>Per rectum : anus bpn, mierne hyperton. sfinktery, palp. alg. zadnej kommisury pri indagácii, steny rekta hladke, ampula poloprázdna, Douglas nevyklenuje, nebolestivý, na rukavici stopy hnedej stolice bez zn. krvacania<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[K60.0] Akútna análna fisúra",
+            "props": {
+              "id": "K60.0",
+              "idEzid": "02089410191@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "id": 62,
+              "idEzid": "00000117549@14"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 6,
+        "order": 5,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": " Redctogesic ung, venotoniká, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 9,
+        "order": 6,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[5037C] Flebaven 1 000 mg tablety | tbl 90x1000 mg (blis.PVC/PVDC/Al)",
+            "props": {
+              "propUnit": "DF",
+              "propGp": 0,
+              "propBal": 90,
+              "propVnl": "R",
+              "propAtcName": "Diozmín",
+              "propOl": 0,
+              "id": "5037C",
+              "idUl": "diosminum",
+              "idAtc": "C05CA03",
+              "idSp": "ora",
+              "idF": "TBL",
+              "idEzid": "00021260302",
+              "idClassid": "liek"
+            }
+          },
+          "schedule": {
+            "value": "1-0-1-0, denne",
+            "props": {
+              "propType": "PEV1",
+              "propParts_morning": 1,
+              "propParts_noon": 0,
+              "propParts_evening": 1,
+              "propParts_sleepTime": 0,
+              "propPeriod_code": "D",
+              "propPeriod_t": "denne",
+              "propWay_code": ""
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 7,
+        "props": {
+          "type": "r",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[35672] Rectogesic 4 mg/g rektálna masť | ung rec 1x30 g (tuba Al)",
+            "props": {
+              "propDpl": 4.99,
+              "propSpUhr": "S",
+              "propUnit": "DF",
+              "propGp": 0,
+              "propBal": 1,
+              "propUzp_1zvj": 1.013,
+              "propVnl": "R",
+              "propCena": 45.51,
+              "propSdl": 40,
+              "propAtcName": "Glyceroltrinitrát",
+              "propOl": 0,
+              "propPo_3": "PLM",
+              "propPo_2": "GIT",
+              "propPo_1": "CHI",
+              "propPo_0": "CCH",
+              "id": 35672,
+              "idUl": "",
+              "idAtc": "C05AE01",
+              "idSp": "rec",
+              "idF": "UNG REC",
+              "idEzid": "00020830709",
+              "idClassid": "liek"
+            }
+          },
+          "schedule": {
+            "value": "podľa doporučenia",
+            "props": {
+              "propType": "DOP",
+              "propText": "",
+              "propPeriod_code": "D",
+              "propPeriod_t": "denne",
+              "propWay_code": ""
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {
+              "error": "Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára"
+            }
+          },
+          "payoff": {
+            "value": "4,99",
+            "props": {
+              "propValue": 4.99
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 7,
+        "order": 8,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "telesné šetrenie, dietny režim, sedacie kupele, ko o 10-14 dní<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

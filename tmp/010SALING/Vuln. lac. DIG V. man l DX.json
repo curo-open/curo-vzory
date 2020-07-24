@@ -1,0 +1,249 @@
+{
+  "type": null,
+  "summary": "Vuln. lac. DIG V. man l DX",
+  "description": "Vulnus lacerocont. dig V. man l dx",
+  "content": "<section data-x-id=\"1\" data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"_noval FieldList hasActions\" data-name=\"reason\"></div>​<label data-for=\"datum\" class=\" _noval\">zo dňa​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"datumVyziadania\" class=\" _noval\">dátum vyžiadania​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"datumVyziadania\"></div>​<label data-for=\"id\" class=\" _noval\">identifikátor​</label><div class=\"_noval Field\" data-name=\"id\"></div></section><section data-x-id=\"2\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\">tržná rana na IV. prste pravej ruky<br></div></section><section data-x-id=\"3\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\">orient., poloha akt., euupnoe, anikter., acyanoza<br>SPL : cca 2-2,5 cm tržná rana na IV. prste pravej ruky<br></div></section><section data-x-id=\"4\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"S61.0\" data-id-ezid=\"02089490839@12\" data-id-classid=\"diagnoza\" title=\"[S61.0] Otvorená rana prsta (prstov) ruky bez poškodenia nechta\" style=\"width: 50ch;\">[S61.0] Otvorená rana prsta (prstov) ruky bez poškodenia nechta</div>​<label data-for=\"text\" class=\"\">/​</label><div class=\"Field minor\" data-name=\"text\">Vulnus lacerocont. dig IV. man l dx </div></section><section data-x-id=\"5\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"63\" data-id-ezid=\"00000117556@14\" data-id-classid=\"vykon\" data-prop-body=\"200\" title=\"[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"13\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"407\" data-id-ezid=\"00000468728@14\" data-id-classid=\"vykon\" data-prop-body=\"120\" title=\"[407] Infiltračná anestézia jednej oblasti s použitím lokálneho anestetika v množstve viac ako 5 ml. Tento výkon môže vykazovať lekár so špecializáciou v odbore všeobecné lekárstvo, chirurg, traumatológ, al\" style=\"width: 50ch;\">[407] Infiltračná anestézia jednej oblasti s použitím lokálneho anestetika v množstve viac ako 5 ml. Tento výkon môže vykazovať lekár so špecializáciou v odbore všeobecné lekárstvo, chirurg, traumatológ, al</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"11\" data-type=\"pl\" class=\"\"><aside></aside><label class=\"section-label  has-info\">Podaný liek​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"00502\" data-id-ul=\"\" data-id-atc=\"N01BB\" data-id-sp=\"?\" data-id-f=\"SOL INJ\" data-id-ezid=\"00020288130\" data-id-classid=\"liek\" data-prop-dpl=\"4.37\" data-prop-sp-uhr=\"AS\" data-prop-unit=\"DF\" data-prop-gp=\"0\" data-prop-bal=\"10\" data-prop-uzp_1zvj=\"0.077\" data-prop-vnl=\"R\" data-prop-cena=\"12.07\" data-prop-sdl=\"100\" data-prop-atc-name=\"Amidy\" data-prop-ol=\"0\" title=\"[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)\" style=\"width: 50ch;\">[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)</div>​<label data-for=\"qty\" class=\"\">množstvo ZVJ​</label><div class=\"FieldR\" data-name=\"qty\" data-prop-value=\"10.00\">10</div>​<label data-for=\"payoff\" class=\" _noval\">prepíš jed. cenu ZP​</label><div class=\"_noval FieldR\" data-name=\"payoff\"></div>​<label data-for=\"dpljed\" class=\" _noval\">prepíš jed. cenu pacienta​</label><div class=\"_noval FieldR\" data-name=\"dpljed\"></div>​<label data-for=\"dpl\" class=\"\">dopl. pacient​</label><div class=\"FieldR locked\" data-name=\"dpl\" data-prop-value=\"4.37\">4,37</div>​<label data-for=\"uhradazp\" class=\"\">úhrada ZP​</label><div class=\"FieldR locked\" data-name=\"uhradazp\" data-prop-value=\"7.70\">7,7</div>​<label data-for=\"typ\" class=\" _noval\">špecifické podmienky​</label><div class=\"_noval FieldList hasActions\" data-name=\"typ\"></div>​<label data-for=\"kodl\" class=\" _noval\">alt. kód lieku​</label><div class=\"_noval Field\" data-name=\"kodl\"></div></section><section data-x-id=\"9\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"2001\" data-id-ezid=\"00000469262@14\" data-id-classid=\"vykon\" data-prop-body=\"160\" title=\"[2001] Ošetrenie malej rany vrátane uzavretia rany.\" style=\"width: 50ch;\">[2001] Ošetrenie malej rany vrátane uzavretia rany.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"6\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"FieldHtml\" data-name=\"th\">toaleta, desinf., LA 1% Mes 10 ml., sutura AT SM 5/0, krytie, band<br></div></section><section data-x-id=\"7\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\">ko o 2-4 dni, p.p. skôr<br></div></section>",
+  "title": "Vuln. lac. DIG V. man l DX",
+  "shortcut": "vul d5m dx",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "tržná rana na V. prste pravej ruky<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., euupnoe, anikter., acyanoza<br>SPL : cca 2-2,5 cm tržná rana na V. prste pravej ruky<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S61.0] Otvorená rana prsta (prstov) ruky bez poškodenia nechta",
+            "props": {
+              "id": "S61.0",
+              "idEzid": "02089490839@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "Vulnus lacerocont. dig V. man l dx ",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 5,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "id": 63,
+              "idEzid": "00000117556@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 13,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[407] Infiltračná anestézia jednej oblasti s použitím lokálneho anestetika v množstve viac ako 5 ml. Tento výkon môže vykazovať lekár so špecializáciou v odbore všeobecné lekárstvo, chirurg, traumatológ, al",
+            "props": {
+              "propBody": 120,
+              "id": 407,
+              "idEzid": "00000468728@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 9,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2001] Ošetrenie malej rany vrátane uzavretia rany.",
+            "props": {
+              "propBody": 160,
+              "id": 2001,
+              "idEzid": "00000469262@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pl": [
+      {
+        "id": 11,
+        "order": 6,
+        "props": {
+          "type": "pl"
+        },
+        "value": {
+          "id": {
+            "value": "[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)",
+            "props": {
+              "propDpl": 4.37,
+              "propSpUhr": "AS",
+              "propUnit": "DF",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": 0.077,
+              "propVnl": "R",
+              "propCena": 12.07,
+              "propSdl": 100,
+              "propAtcName": "Amidy",
+              "propOl": 0,
+              "id": "00502",
+              "idUl": "",
+              "idAtc": "N01BB",
+              "idSp": "?",
+              "idF": "SOL INJ",
+              "idEzid": "00020288130",
+              "idClassid": "liek"
+            }
+          },
+          "qty": {
+            "value": "10",
+            "props": {
+              "propValue": "10.00"
+            }
+          },
+          "payoff": {
+            "value": "",
+            "props": {}
+          },
+          "dpljed": {
+            "value": "",
+            "props": {}
+          },
+          "dpl": {
+            "value": "4,37",
+            "props": {
+              "propValue": 4.37
+            }
+          },
+          "uhradazp": {
+            "value": "7,7",
+            "props": {
+              "propValue": "7.70"
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "kodl": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 6,
+        "order": 8,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "toaleta, desinf., LA 1% Mes 10 ml., sutura AT SM 5/0, krytie, band<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 7,
+        "order": 9,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o 2-4 dni, p.p. skôr<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

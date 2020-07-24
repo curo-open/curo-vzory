@@ -1,0 +1,150 @@
+{
+  "type": null,
+  "summary": "Hernia umbilicalis",
+  "description": "Hernia umbilicalis",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"K42.9\" data-id-ezid=\"02089408930@12\" title=\"[K42.9] Pupkov&amp;#xE1; prietr&amp;#x17E; bez ob&amp;#x161;trukcie a bez gangr&amp;#xE9;ny\" style=\"width: 50ch;\">[K42.9] Pupková prietrž bez obštrukcie a bez gangrény</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"62\" data-id-ezid=\"00000117549@14\" data-prop-body=\"250\" title=\"[62] Cielen&amp;#xE9; vy&amp;#x161;etrenie dvoch alebo viacer&amp;#xFD;ch org&amp;#xE1;nov&amp;#xFD;ch syst&amp;#xE9;mov alebo dispenz&amp;#xE1;rna kontrola (cielen&amp;#xE1; anamn&amp;#xE9;za, resp. anamn&amp;#xE9;za od poslednej kontroly), popis subjekt&amp;#xED;vnych obtia&amp;#x17E;&amp;#xED;, objekt&amp;#xED;vny n&amp;#xE1;lez, vyp&amp;#xED;sanie spr&amp;#xE1;vy, z&amp;#xE1;ver, vypracovanie pl&amp;#xE1;nu do nasleduj&amp;#xFA;c\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">Subj.: pac. reklamuje pobolievanie a vyklenovanie v oblasti pupka, intermitentne pobolievanie brucha, vetry a stolica v norme, nezvracala\nObj.: vedomie lucídne, poloha aktívna, koža čistá, anikter., acyanot., abdomen mäkké, dobre priehmatné, bez patolog rezistencie a peritoneál. dráždenia, v umbiliku hmatná volne reponibilná rezistencia bez výraznejšej palp. algicity, bez známok inflamácie a inkarcerácie\nBlumberg-Rowsing-Plenies negat., Murphy negat., TPT bilat. negat.\nDg.: Hernia umbilicalis libera, nonacreta\nZ : bez znamok NPB\nDop.: elekt. chirurg. riešenie, Ad chirurgiam NsP Zvolen :\n</div></section>",
+  "title": "Hernia umbilicalis",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 11,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac. reklamuje pobolievanie a vyklenovanie v oblasti pupka, intermitentne pobolievanie brucha, vetry a stolica v norme, bez zvracnia, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "vedomie lucídne, poloha aktívna, koža čistá, anikter., acyanot., abdomen mäkké, dobre priehmatné, bez patolog rezistencie a peritoneál. dráždenia, v umbiliku hmatná volne reponibilná rezistencia bez výraznejšej palp. algicity, bez známok inflamácie a inkarcerácie, Blumberg-Rowsing-Plenies negat., Murphy negat., TPT bilat. negat.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 2,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[K42.9] Pupková prietrž bez obštrukcie a bez gangrény",
+            "props": {
+              "id": "K42.9",
+              "idEzid": "02089408930@12"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "id": 62,
+              "idEzid": "00000117549@14"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 9,
+        "order": 5,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "bez rozvoja NPB<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "sine<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 8,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "elekt. chirurg. riešenie, Ad chirurgiam<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "shortcut": "her umb",
+  "source": "curo-open/curo-vzory#/010SALING"
+}

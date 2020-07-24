@@ -1,0 +1,107 @@
+{
+  "title": "Ketospray",
+  "shortcut": "ketosp",
+  "summary": "Ketospray",
+  "if": "",
+  "data": {
+    "_": {},
+    "r": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[99916] KETOSPRAY 10 % | aer deo 1x30 ml (fľ.skl.)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Ketoprofén",
+              "propVnl": "R",
+              "propBal": 1,
+              "propGp": 0,
+              "propUnit": "DF",
+              "propDpl": 7.82,
+              "idClassid": "liek",
+              "idEzid": "00020838371",
+              "idF": "AER DEO",
+              "idSp": "cut",
+              "idAtc": "M02AA10",
+              "idUl": "",
+              "id": 99916
+            }
+          },
+          "schedule": {
+            "value": "podľa doporučenia, AER",
+            "props": {
+              "propType": "DOP",
+              "propIntervaldavkovania": "!denne",
+              "propWay_id": "",
+              "propPeriod_id": "D",
+              "propPeriod_t": "denne",
+              "propText": "",
+              "propForm_id": "AER",
+              "propForm_t": "aerodisperzia",
+              "propUnit_id": "VDY",
+              "propUnit_t": "strek(y)/vdych(y)"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "7,82",
+            "props": {
+              "propValue": 7.82
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

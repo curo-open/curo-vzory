@@ -1,0 +1,352 @@
+{
+  "description": "Pravá SI synchondróza s i.a. podaním 1% Mesocainu ",
+  "type": null,
+  "summary": "Synchondrositis SI l DX",
+  "content": "<section data-x-id=\"4\" data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"_noval FieldList hasActions\" data-name=\"reason\"></div>​<label data-for=\"datum\" class=\"_noval hidden\">zo dňa​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"datumVyziadania\" class=\"_noval hidden\">dátum vyžiadania​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datumVyziadania\"></div>​<label data-for=\"id\" class=\"_noval hidden\">identifikátor​</label><div class=\"_noval Field hidden\" data-name=\"id\"></div></section><section data-x-id=\"5\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"_noval FieldHtml\" data-name=\"s\">má bolesti v chrbte v driekovej oblasti - údaj o úraze neistý - bolesť zhoršená po záťaži<br></div></section><section data-x-id=\"6\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"_noval FieldHtml\" data-name=\"o\">orient., poloha aktívna, koža čistá, anikter., acyanot.<br>hrudník stabilný v oboch smeroch, nebolestivý, dýchanie vezikulárne<br>čisté, abdomen kludné, priehmatné, palp. alg s max v oblasti ľavej SI synch., LS prechod s hyperton PVS<br></div></section><section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"S33.6\" data-id-ezid=\"02089487389@12\" title=\"[S33.6] Vyvrtnutie a natiahnutie sakroiliak&amp;#xE1;lneho k&amp;#x13A;bu\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[S33.6] Vyvrtnutie a natiahnutie sakroiliakálneho kĺbu</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\">Synchondrositis SI l sin</div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"62\" data-id-ezid=\"00000117549@14\" data-prop-body=\"250\" title=\"[62] Cielen&amp;#xE9; vy&amp;#x161;etrenie dvoch alebo viacer&amp;#xFD;ch org&amp;#xE1;nov&amp;#xFD;ch syst&amp;#xE9;mov alebo dispenz&amp;#xE1;rna kontrola (cielen&amp;#xE1; anamn&amp;#xE9;za, resp. anamn&amp;#xE9;za od poslednej kontroly), popis subjekt&amp;#xED;vnych obtia&amp;#x17E;&amp;#xED;, objekt&amp;#xED;vny n&amp;#xE1;lez, vyp&amp;#xED;sanie spr&amp;#xE1;vy, z&amp;#xE1;ver, vypracovanie pl&amp;#xE1;nu do nasleduj&amp;#xFA;c\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"255\" data-id-ezid=\"00000467902@14\" data-prop-body=\"110\" title=\"[255] Injekcia intraartikul&amp;#xE1;rna.\" style=\"width: 50ch;\">[255] Injekcia intraartikulárna.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"7\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"_noval FieldHtml\" data-name=\"th\">toaleta, desinf., 1% Mes 10 ml i.a. do ľ. SI synch, NSA lokal.<br></div></section><section data-x-id=\"10\" data-type=\"pl\" class=\"\"><aside></aside><label class=\"section-label  has-info\">Podaný liek​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"00502\" data-id-ul=\"\" data-id-atc=\"N01BB\" data-id-sp=\"?\" data-id-f=\"SOL INJ\" data-id-ezid=\"00020288130\" data-id-classid=\"liek\" data-prop-dpl=\"4.37\" data-prop-sp-uhr=\"AS\" data-prop-unit=\"DF\" data-prop-gp=\"0\" data-prop-bal=\"10\" data-prop-uzp_1zvj=\"0.077\" data-prop-vnl=\"R\" data-prop-cena=\"12.07\" data-prop-sdl=\"100\" data-prop-atc-name=\"Amidy\" data-prop-ol=\"0\" title=\"[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)\" style=\"width: 50ch;\">[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)</div>​<label data-for=\"qty\" class=\"\">množstvo ZVJ​</label><div class=\"FieldR\" data-name=\"qty\" data-prop-value=\"10.00\">10</div>​<label data-for=\"payoff\" class=\" _noval\">prepíš jed. cenu ZP​</label><div class=\"_noval FieldR\" data-name=\"payoff\"></div>​<label data-for=\"dpljed\" class=\" _noval\">prepíš jed. cenu pacienta​</label><div class=\"_noval FieldR\" data-name=\"dpljed\"></div>​<label data-for=\"dpl\" class=\" _noval\">dopl. pacient​</label><div class=\"_noval FieldR locked\" data-name=\"dpl\" data-prop-value=\"4.37\">4,37</div>​<label data-for=\"uhradazp\" class=\" _noval\">úhrada ZP​</label><div class=\"_noval FieldR locked\" data-name=\"uhradazp\" data-prop-value=\"7.70\">7,7</div>​<label data-for=\"typ\" class=\" _noval\">špecifické podmienky​</label><div class=\"_noval FieldList hasActions\" data-name=\"typ\"></div>​<label data-for=\"kodl\" class=\" _noval\">alt. kód lieku​</label><div class=\"_noval Field\" data-name=\"kodl\"></div></section><section data-x-id=\"12\" data-type=\"r\" class=\"\"><aside></aside><label class=\"section-label  has-info\">R​:</label><div class=\"_noval FieldSearch hasActions highlight-bold truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"07226\" data-id-ul=\"dexketoprofenum\" data-id-atc=\"M01AE17\" data-id-sp=\"ora\" data-id-f=\"GRO POR\" data-id-ezid=\"00020330205\" data-id-classid=\"liek\" data-prop-dpl=\"3.36\" data-prop-sp-uhr=\"S\" data-prop-unit=\"DF\" data-prop-gp=\"1\" data-prop-bal=\"10\" data-prop-uzp_1zvj=\"0.114\" data-prop-vnl=\"R\" data-prop-cena=\"3.74\" data-prop-sdl=\"3.333\" data-prop-atc-name=\"Dexketoprofen\" data-prop-ol=\"0\" title=\"[07226] Dexadol 25 mg gro por | gro por 10x25 mg (vre. Al/PE)\" style=\"width: 50ch;\">[07226] Dexadol 25 mg gro por | gro por 10x25 mg (vre. Al/PE)</div>​<label data-for=\"schedule\" class=\" _noval\">dáv.​</label><div class=\"_noval FieldMedicationSchedule hasActions\" data-name=\"schedule\" data-prop-type=\"PEV1\" data-prop-parts_morning=\"1\" data-prop-parts_noon=\"0\" data-prop-parts_evening=\"1\" data-prop-parts_sleep-time=\"0\" data-prop-period_code=\"D\" data-prop-period_t=\"denne\" data-prop-way_code=\"\">1-0-1-0, denne</div>​<label data-for=\"qty\" class=\"\"># bal.​</label><div class=\"FieldR hasActions\" data-name=\"qty\" data-prop-value=\"1.00\">1</div>​<label data-for=\"repeatCount\" class=\"\">rep.​</label><div class=\"FieldN hasActions\" data-name=\"repeatCount\"></div>​<label data-for=\"repeatAfter\" class=\"ss hidden\">dní medzi výberom​</label><div class=\"FieldN ss hidden\" data-name=\"repeatAfter\"></div>​<label data-for=\"repeatLast\" class=\"ss _noval hidden\">posledný výber​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"repeatLast\"></div>​<label data-for=\"recommendedBy\" class=\"ss _noval\">odp. lek.​</label><div class=\"_noval FieldSearchLekar hasActions ss\" data-name=\"recommendedBy\"></div>​<label data-for=\"recommendedDate\" class=\"ss _noval hidden\">dátum odp.​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"recommendedDate\"></div>​<label data-for=\"untilDate\" class=\"ss _noval hidden\">platné do​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"untilDate\"></div>​<label data-for=\"noReplacement\" class=\"ss _noval\">náhrada​</label><div class=\"_noval FieldSwitchLogical hasActions ss\" data-name=\"noReplacement\" data-prop-value=\"0\">nie</div>​<label data-for=\"payoff\" class=\"ss _noval\">doplatok​</label><div class=\"_noval FieldR locked ss\" data-name=\"payoff\" data-prop-value=\"3.36\">3,36</div>​<label data-for=\"atc\" class=\"ss _noval hidden\">cez ATC​</label><div class=\"_noval FieldSwitchLogical hasActions ss hidden\" data-name=\"atc\" data-prop-value=\"0\">nie</div>​<label data-for=\"instruction\" class=\"ss _noval\">inštrukcie​</label><div class=\"_noval Field ss\" data-name=\"instruction\"></div>​<label data-for=\"reasonPayoff\" class=\"ss _noval\">uhradí​</label><div class=\"_noval FieldSwitch hasActions ss\" data-name=\"reasonPayoff\"></div>​<label data-for=\"prodException\" class=\"ss _noval\">výnimka​</label><div class=\"_noval FieldSwitchLogical hasActions ss\" data-name=\"prodException\" data-prop-value=\"0\">nie</div>​<label data-for=\"force\" class=\"ss _noval\">vyn. zápis​</label><div class=\"_noval FieldSwitchLogical hasActions ss\" data-name=\"force\" data-prop-value=\"0\">nie</div>​<label data-for=\"forceReason\" class=\"ss _noval hidden\">dôvod v.z.​</label><div class=\"_noval Field ss hidden\" data-name=\"forceReason\"></div>​<label data-for=\"barcode\" class=\"_noval hidden\">čiarový kód​</label><div class=\"_noval Field readonly dontCopy hidden\" data-name=\"barcode\"></div>​<label data-for=\"note_zp\" class=\"ss _noval hidden\">poznámka ZP​</label><div class=\"_noval Field readonly dontCopy ss hidden\" data-name=\"note_zp\"></div>​<label data-for=\"status\" class=\"invisible ss _noval\">stav​</label><div class=\"_noval FieldN readonly dontCopy invisible ss\" data-name=\"status\">0</div></section><section data-x-id=\"8\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"_noval FieldHtml\" data-name=\"odp\">telesné šetrenie, ko o 7-10 dní<br></div></section>",
+  "title": "Synchondrositis SI l DX - ORT",
+  "shortcut": "ssid",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "má bolesti v chrbte v driekovej oblasti - údaj o úraze neistý - bolesť zhoršená po záťaži<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha aktívna, koža čistá, anikter., acyanot.<br>hrudník stabilný v oboch smeroch, nebolestivý, dýchanie vezikulárne<br>čisté, abdomen kludné, priehmatné, palp. alg s max v oblasti pravej SI synch., LS prechod s hyperton PVS<br>RTG: bez TZ na skelete<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": "",
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S33.6] Vyvrtnutie a natiahnutie sakroiliakálneho kĺbu",
+            "props": {
+              "idEzid": "02089487389@12",
+              "id": "S33.6"
+            }
+          },
+          "text": {
+            "value": "Synchondrositis SI l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "idEzid": "00000117549@14",
+              "id": 62
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[255] Injekcia intraartikulárna.",
+            "props": {
+              "propBody": 110,
+              "idEzid": "00000467902@14",
+              "id": 255
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "toaleta, desinf., 1% Mes 10 ml i.a. do ľ. SI synch, NSA lokal.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pl": [
+      {
+        "id": 10,
+        "order": 7,
+        "props": {
+          "type": "pl"
+        },
+        "value": {
+          "id": {
+            "value": "[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Amidy",
+              "propSdl": 100,
+              "propCena": 12.07,
+              "propVnl": "R",
+              "propUzp_1zvj": 0.077,
+              "propBal": 10,
+              "propGp": 0,
+              "propUnit": "DF",
+              "propSpUhr": "AS",
+              "propDpl": 4.37,
+              "idClassid": "liek",
+              "idEzid": "00020288130",
+              "idF": "SOL INJ",
+              "idSp": "?",
+              "idAtc": "N01BB",
+              "idUl": "",
+              "id": "00502"
+            }
+          },
+          "qty": {
+            "value": "10",
+            "props": {
+              "propValue": "10.00"
+            }
+          },
+          "payoff": {
+            "value": "",
+            "props": {}
+          },
+          "dpljed": {
+            "value": "",
+            "props": {}
+          },
+          "dpl": {
+            "value": "4,37",
+            "props": {
+              "propValue": 4.37
+            }
+          },
+          "uhradazp": {
+            "value": "7,7",
+            "props": {
+              "propValue": "7.70"
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "kodl": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 12,
+        "order": 8,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[07226] Dexadol 25 mg gro por | gro por 10x25 mg (vre. Al/PE)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Dexketoprofen",
+              "propSdl": 3.333,
+              "propCena": 3.74,
+              "propVnl": "R",
+              "propUzp_1zvj": 0.114,
+              "propBal": 10,
+              "propGp": 1,
+              "propUnit": "DF",
+              "propSpUhr": "S",
+              "propDpl": 3.36,
+              "idClassid": "liek",
+              "idEzid": "00020330205",
+              "idF": "GRO POR",
+              "idSp": "ora",
+              "idAtc": "M01AE17",
+              "idUl": "dexketoprofenum",
+              "id": "07226"
+            }
+          },
+          "schedule": {
+            "value": "1-0-1-0, denne",
+            "props": {
+              "propWay_code": "",
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propParts_sleepTime": 0,
+              "propParts_evening": 1,
+              "propParts_noon": 0,
+              "propParts_morning": 1,
+              "propType": "PEV1"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "payoff": {
+            "value": "3,36",
+            "props": {
+              "propValue": 3.36
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 8,
+        "order": 9,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "telesné šetrenie, ko o 7-10 dní<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-rtg": [
+      {
+        "id": 13,
+        "order": 10,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S33.6] Vyvrtnutie a natiahnutie sakroiliakálneho kĺbu",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089487389@12",
+              "id": "S33.6"
+            }
+          },
+          "predmet": {
+            "value": "LS chrbtica + sacrum",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "SI blok",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

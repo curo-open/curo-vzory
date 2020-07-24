@@ -1,0 +1,104 @@
+{
+  "description": "Predpis pomôcky CERDAK BASIC 10x10 cm. PPP",
+  "summary": "Cerdak 10",
+  "content": "<section data-x-id=\"2\" data-type=\"pp\" class=\"err _focus\" data-error=\"true\"><aside><i class=\"material-icons error\">error</i></aside><label class=\"section-label  \">Zdr. pomôcka​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"A79266\" data-id-v=\"CDK-ZA\" data-id-ezid=\"00020625745\" data-id-classid=\"pomocka\" data-prop-dpl=\"0\" data-prop-cena=\"5.54\" data-prop-po_0=\"056\" data-prop-po_1=\"068\" data-prop-po_2=\"CHI\" data-prop-po_3=\"018\" title=\"[A79266] Krytie na rany CERDAK BASIC / 5x5cm | vankúšik bez náplasti s biokeramickým preparátom\" style=\"width: 50ch;\">[A79266] Krytie na rany CERDAK BASIC / 5x5cm | vankúšik bez náplasti s biokeramickým preparátom</div>​<label data-for=\"qty\" class=\"\">počet​</label><div class=\"FieldR\" data-name=\"qty\" data-prop-value=\"10.00\">10</div>​<label data-for=\"need\" class=\"ss\">potreba​</label><div class=\"FieldList hasActions ss\" data-name=\"need\" data-prop-value=\"0\">dočasná</div>​<label data-for=\"repeatCount\" class=\"\">rep.​</label><div class=\"FieldN\" data-name=\"repeatCount\">1</div>​<label data-for=\"repeatAfter\" class=\"ss hidden\">dní medzi výberom​</label><div class=\"FieldN ss hidden\" data-name=\"repeatAfter\">30</div><br class=\"ss\"><label data-for=\"repeatLast\" class=\"ss _noval hidden\">posledný výber​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"repeatLast\"></div>​<label data-for=\"reason\" class=\"ss _noval\">odôvodnenie​</label><div class=\"_noval FieldHtml ss _focus\" data-name=\"reason\"><br></div>​<label data-for=\"recommendedBy\" class=\" _noval\">odp. lek​</label><div class=\"_noval FieldSearchLekar hasActions\" data-name=\"recommendedBy\" data-error=\"Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára\"></div>​<label data-for=\"recommendedDate\" class=\"ss _noval hidden\">dátum odp.​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"recommendedDate\" data-error=\"Predpis má preskripčné obmedzenia, nezadali ste dátum odporúčania\"></div>​<label data-for=\"untilDate\" class=\"ss _noval hidden\">platné do​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"untilDate\"></div>​<label data-for=\"noReplacement\" class=\"ss _noval\">náhrada​</label><div class=\"_noval FieldSwitchLogical hasActions ss\" data-name=\"noReplacement\" data-prop-value=\"0\">nie</div>​<label data-for=\"reasonPayoff\" class=\"ss _noval\">uhradí​</label><div class=\"_noval FieldSwitch hasActions ss\" data-name=\"reasonPayoff\"></div>​<label data-for=\"prodException\" class=\"ss _noval\">produkt na výnimku​</label><div class=\"_noval FieldSwitchLogical hasActions ss\" data-name=\"prodException\" data-prop-value=\"0\">nie</div>​<label data-for=\"force\" class=\"ss _noval\">vynútený zápis​</label><div class=\"_noval FieldSwitchLogical hasActions ss\" data-name=\"force\" data-prop-value=\"0\">nie</div>​<label data-for=\"forceReason\" class=\"ss _noval hidden\">dôvod v.z.​</label><div class=\"_noval Field ss hidden\" data-name=\"forceReason\"></div><br class=\"ss\"><label data-for=\"namieru\" class=\"ss _noval\">na mieru​</label><div class=\"_noval FieldHtml ss\" data-name=\"namieru\"></div>​<label data-for=\"barcode\" class=\"ss _noval hidden\">čiarový kód​</label><div class=\"_noval Field readonly dontCopy ss hidden\" data-name=\"barcode\"></div>​<label data-for=\"note_zp\" class=\"ss _noval hidden\">poznámka ZP​</label><div class=\"_noval Field readonly dontCopy ss hidden\" data-name=\"note_zp\"></div>​<label data-for=\"status\" class=\"invisible ss _noval\">stav​</label><div class=\"_noval FieldN readonly dontCopy invisible ss\" data-name=\"status\">0</div></section>",
+  "title": "Cerdak 10",
+  "shortcut": "pcer10",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "2": [
+          "recommendedBy"
+        ]
+      }
+    },
+    "pp": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "pp",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[A79271] Krytie na rany CERDAK BASIC /10x10cm | vankúšik bez náplasti s biokeramickým preparátom",
+            "props": {
+              "propDpl": 0,
+              "propCena": 8.05,
+              "propPo_4": "013",
+              "propPo_3": "018",
+              "propPo_2": "CHI",
+              "propPo_1": "068",
+              "propPo_0": "056",
+              "id": "A79271",
+              "idV": "CDK-ZA",
+              "idEzid": "00020630976",
+              "idClassid": "pomocka"
+            }
+          },
+          "qty": {
+            "value": "10",
+            "props": {
+              "propValue": "10.00"
+            }
+          },
+          "need": {
+            "value": "dočasná",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reason": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {
+              "error": "Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára"
+            }
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "namieru": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

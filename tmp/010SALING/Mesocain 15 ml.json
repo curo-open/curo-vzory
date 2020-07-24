@@ -1,0 +1,83 @@
+{
+  "description": "Mesocain 15 ml 1%",
+  "summary": "Mesocain 15 ml",
+  "content": "<section data-x-id=\"2\" data-type=\"pl\" class=\"\"><aside></aside><label class=\"section-label  has-info\">Podaný liek​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"00502\" data-id-ul=\"\" data-id-atc=\"N01BB\" data-id-sp=\"?\" data-id-f=\"SOL INJ\" data-id-ezid=\"00020288130\" data-id-classid=\"liek\" data-prop-dpl=\"4.37\" data-prop-sp-uhr=\"AS\" data-prop-unit=\"DF\" data-prop-zvj-pocet-bal=\"100\" data-prop-gp=\"0\" data-prop-bal=\"10\" data-prop-uzp_1zvj=\"0.077\" data-prop-vnl=\"R\" data-prop-cena=\"12.07\" data-prop-sdl=\"100\" data-prop-atc-name=\"Amidy\" data-prop-ol=\"0\" title=\"[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)\" style=\"width: 50ch;\">[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)</div>​<label data-for=\"qty\" class=\"\">množstvo ZVJ​</label><div class=\"FieldR\" data-name=\"qty\" data-prop-value=\"5.00\">5</div>​<label data-for=\"payoff\" class=\" _noval\">prepíš jed. cenu ZP​</label><div class=\"_noval FieldR\" data-name=\"payoff\"></div>​<label data-for=\"dpljed\" class=\" _noval\">prepíš jed. cenu pacienta​</label><div class=\"_noval FieldR\" data-name=\"dpljed\"></div>​<label data-for=\"dpl\" class=\" _noval\">dopl. pacient​</label><div class=\"_noval FieldR locked\" data-name=\"dpl\" data-prop-value=\"0.22\">0,22</div>​<label data-for=\"uhradazp\" class=\" _noval\">úhrada ZP​</label><div class=\"_noval FieldR locked\" data-name=\"uhradazp\" data-prop-value=\"0.39\">0,39</div>​<label data-for=\"typ\" class=\" _noval\">špecifické podmienky​</label><div class=\"_noval FieldList hasActions\" data-name=\"typ\"></div>​<label data-for=\"kodl\" class=\" _noval\">alt. kód lieku​</label><div class=\"_noval Field\" data-name=\"kodl\"></div></section>",
+  "title": "Mesocain 15 ml",
+  "shortcut": "lmes15",
+  "if": "",
+  "data": {
+    "_": {},
+    "pl": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "pl"
+        },
+        "value": {
+          "id": {
+            "value": "[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Amidy",
+              "propSdl": 100,
+              "propCena": 12.07,
+              "propVnl": "R",
+              "propUzp_1zvj": 0.077,
+              "propBal": 10,
+              "propGp": 0,
+              "propZvjPocetBal": 100,
+              "propUnit": "DF",
+              "propSpUhr": "AS",
+              "propDpl": 4.37,
+              "idClassid": "liek",
+              "idEzid": "00020288130",
+              "idF": "SOL INJ",
+              "idSp": "?",
+              "idAtc": "N01BB",
+              "idUl": "",
+              "id": "00502"
+            }
+          },
+          "qty": {
+            "value": "5",
+            "props": {
+              "propValue": "5.00"
+            }
+          },
+          "payoff": {
+            "value": "",
+            "props": {}
+          },
+          "dpljed": {
+            "value": "",
+            "props": {}
+          },
+          "dpl": {
+            "value": "0,22",
+            "props": {
+              "propValue": 0.22
+            }
+          },
+          "uhradazp": {
+            "value": "0,39",
+            "props": {
+              "propValue": 0.39
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "kodl": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

@@ -1,0 +1,38 @@
+{
+  "description": "Výkon 2019c",
+  "summary": "2019c - necrectomia na trupe",
+  "content": "<section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"2019\" data-id-ezid=\"00000474486@18\" data-id-classid=\"vykon\" data-prop-body=\"300\" title=\"[2019] Príplatok za nekrektómie na ruke a nohe.\" style=\"width: 50ch;\">[2019] Príplatok za nekrektómie na ruke a nohe.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
+  "title": "2019c - necrectomia na trupe",
+  "shortcut": "2019c",
+  "if": "",
+  "data": {
+    "_": {},
+    "vv": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2019c] Príplatok za nekrektómie na trupe.",
+            "props": {
+              "propBody": 500,
+              "idClassid": "vykon",
+              "idEzid": "00000474510@18",
+              "id": "2019c"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

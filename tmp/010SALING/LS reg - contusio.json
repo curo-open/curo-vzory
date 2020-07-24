@@ -1,0 +1,210 @@
+{
+  "description": "Pohmoždenie krížov",
+  "type": null,
+  "summary": "LS reg - contusio",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate _focus\" data-name=\"id\" data-id=\"S30.0\" data-id-ezid=\"02089486670@12\" title=\"[S30.0] Pomlia&amp;#x17E;denie driekovokr&amp;#xED;&amp;#x17E;ovej oblasti a panvy\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[S30.0] Pomliaždenie driekovokrížovej oblasti a panvy</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"M54.5\" data-id-ezid=\"02089437244@12\" title=\"[M54.5] Boles&amp;#x165; v kr&amp;#xED;&amp;#x17E;ovej oblasti\" style=\"width: 50ch;\">[M54.5] Bolesť v krížovej oblasti</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"62\" data-id-ezid=\"00000117549@14\" data-prop-body=\"250\" title=\"[62] Cielen&amp;#xE9; vy&amp;#x161;etrenie dvoch alebo viacer&amp;#xFD;ch org&amp;#xE1;nov&amp;#xFD;ch syst&amp;#xE9;mov alebo dispenz&amp;#xE1;rna kontrola (cielen&amp;#xE1; anamn&amp;#xE9;za, resp. anamn&amp;#xE9;za od poslednej kontroly), popis subjekt&amp;#xED;vnych obtia&amp;#x17E;&amp;#xED;, objekt&amp;#xED;vny n&amp;#xE1;lez, vyp&amp;#xED;sanie spr&amp;#xE1;vy, z&amp;#xE1;ver, vypracovanie pl&amp;#xE1;nu do nasleduj&amp;#xFA;c\" style=\"width: 50ch;\">[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: udáva bolesti v krížovek oblasti po udretí\nO.: orient., poloha akt., eupnoe, anikter., acyanoza\nlebka poklop negat., izokoria, hrudník stabilný a nebolestivý v oboch smeroch, palp. alg LS prechodu pri mierne hyperton PVS L chrbtice s terminalne viaznucou dynamikou L chrbtice\nLassegue bilat negat., obe DKK bez edemu a NCP\nRTG : bez TZ na skelete LS chrbtice\nDg.: contusio reg LS\nTh.: NSA, telesné štňetrenie, ko o 7-8 dní, p.p. skôr\n\n</div></section>",
+  "title": "LS reg - contusio",
+  "shortcut": "LScon",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "neodkladná starostlivosť",
+            "props": {
+              "propValue": "A"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "udáva bolesti v krížovek oblasti po udretí<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanoza<br>lebka poklop negat., izokoria, hrudník stabilný a nebolestivý v oboch smeroch, palp. alg LS prechodu pri mierne hyperton PVS L chrbtice s terminalne viaznucou dynamikou L chrbtice<br>Lassegue bilat negat., obe DKK bez edemu a NCP<br>RTG : bez TZ na skelete LS chrbtice<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": "",
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S30.0] Pomliaždenie driekovokrížovej oblasti a panvy",
+            "props": {
+              "idEzid": "02089486670@12",
+              "id": "S30.0"
+            }
+          },
+          "text": {
+            "value": "Contusio reg LS",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M54.5] Bolesť v krížovej oblasti",
+            "props": {
+              "idEzid": "02089437244@12",
+              "id": "M54.5"
+            }
+          },
+          "text": {
+            "value": "VAS LS chrbtice postraumat",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 2,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[62] Cielené vyšetrenie dvoch alebo viacerých orgánových systémov alebo dispenzárna kontrola (cielená anamnéza, resp. anamnéza od poslednej kontroly), popis subjektívnych obtiaží, objektívny nález, vypísanie správy, záver, vypracovanie plánu do nasledujúc",
+            "props": {
+              "propBody": 250,
+              "idEzid": "00000117549@14",
+              "id": 62
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "idClassid": "vykon",
+              "idEzid": "02089714121@14",
+              "id": "15d"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 7,
+        "order": 7,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "NSA<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 8,
+        "order": 8,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "telesné štňetrenie, ko o 7-8 dní, p.p. skôr<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-rtg": [
+      {
+        "id": 9,
+        "order": 9,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S30.0] Pomliaždenie driekovokrížovej oblasti a panvy",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089486670@12",
+              "id": "S30.0"
+            }
+          },
+          "predmet": {
+            "value": "LS prechod",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "fract?",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

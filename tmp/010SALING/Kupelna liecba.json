@@ -1,0 +1,171 @@
+{
+  "title": "Kupelna liecba",
+  "shortcut": "kl",
+  "if": "",
+  "data": {
+    "_": {},
+    "t-kupelna-starostlivost": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "t-kupelna-starostlivost"
+        },
+        "value": {
+          "skupina_1": {
+            "value": "",
+            "props": {}
+          },
+          "skupina_2": {
+            "value": "",
+            "props": {}
+          },
+          "hlavna_diagnoza": {
+            "value": "",
+            "props": {}
+          },
+          "vedla_diagnozy": {
+            "value": "",
+            "props": {}
+          },
+          "starostlivost": {
+            "value": "",
+            "props": {}
+          },
+          "naliehavost_1": {
+            "value": "",
+            "props": {}
+          },
+          "naliehavost_2": {
+            "value": "",
+            "props": {}
+          },
+          "sprievodca": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "chodiacy": {
+            "value": "",
+            "props": {}
+          },
+          "mobilny": {
+            "value": "",
+            "props": {}
+          },
+          "na_voziku": {
+            "value": "",
+            "props": {}
+          },
+          "anamneza": {
+            "value": "{{&lt; sessions|getSections(\"ra\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"oa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"pa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"la\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"ga\")|where(\"i==0\")|trans(\"text\")}}<br>",
+            "props": {}
+          },
+          "datum": {
+            "value": "",
+            "props": {}
+          },
+          "FW_1": {
+            "value": "",
+            "props": {}
+          },
+          "FW_2": {
+            "value": "",
+            "props": {}
+          },
+          "moc": {
+            "value": "",
+            "props": {}
+          },
+          "KO": {
+            "value": "",
+            "props": {}
+          },
+          "ine": {
+            "value": "",
+            "props": {}
+          },
+          "EKG": {
+            "value": "{{&lt; sessions|getSections(\"ekg\")|where(\"i==0\")|trans(\"text\")}}<br>",
+            "props": {}
+          },
+          "RTG": {
+            "value": "",
+            "props": {}
+          },
+          "nalez": {
+            "value": "",
+            "props": {}
+          },
+          "zdovodnenie": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "zfp": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "oh": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "",
+            "props": {}
+          },
+          "temp": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

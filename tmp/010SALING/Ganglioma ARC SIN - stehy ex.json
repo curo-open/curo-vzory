@@ -1,0 +1,195 @@
+{
+  "type": null,
+  "summary": null,
+  "description": "Vybratie stehov na ľavom zápästí po op. ganglia",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">subj. dobre, bez ťažkostí, bez febrilít, bolesti ľ. zápästia nemá\nobj.: orient., poloha akt., eupnoe, anikter., acyanoza\nlokal.: suturovaná rana po extirpácii gangliomu na dorze ľavej ruky zhojená p.p.i., palp. nebolestivá, nesecernuje, bez inflam okolia\ndop.: toaleta, stehy ex, ko p.p.\n</div></section>",
+  "title": "Ganglioma ARC SIN - stehy ex",
+  "shortcut": "ste gan sin",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "subj. dobre, bez ťažkostí, bez febrilít, bolesti ľ. zápästia nemá\nobj.: orient., poloha akt., eupnoe, anikter., acyanoza\nlokal.: suturovaná rana po extirpácii gangliomu na dorze ľavej ruky zhojená p.p.i., palp. nebolestivá, nesecernuje, bez inflam okolia\ndop.: toaleta, stehy ex, ko p.p.\n<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "od": [
+      {
+        "id": 1,
+        "order": 1,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 2,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "dobre, bez ťažkostí, bez febrilít, bolesti ľ. zápästia nemá<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": " orient., poloha akt., eupnoe, anikter., acyanoza<br>lokal.: suturovaná rana po extirpácii gangliomu na dorze ľavej ruky zhojená p.p.i., palp. nebolestivá, nesecernuje, bez inflam okolia<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 4,
+        "order": 4,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M67.44] Ganglion ruky (zápästie, záprstie, prsty, kĺby medzi týmito kosťami)",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089441956@12",
+              "id": "M67.44"
+            }
+          },
+          "text": {
+            "value": "Ganglion carpi man l sin",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 5,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S61.80] Bližšie neurčená otvorená rana iných častí zápästia a ruky",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089490870@12",
+              "id": "S61.80"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 5,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 9,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2006] Odstránenie sutúry alebo svoriek z malej rany, prípadne pri viacnásobnom ošetrení. Pri odstranovaní sutúry pri výkone pod kódom 2860 sa výkon pod kódom 2006 vykazuje pre každú končatinu najviac šesť r",
+            "props": {
+              "propBody": 40,
+              "idClassid": "vykon",
+              "idEzid": "00000469270@14",
+              "id": 2006
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 6,
+        "order": 8,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "toaleta, stehy ex,<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 7,
+        "order": 9,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko p.p.<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

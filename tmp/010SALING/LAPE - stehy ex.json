@@ -1,0 +1,159 @@
+{
+  "type": null,
+  "summary": "LAPE - stehy ex",
+  "description": "stehy ex po LAPE",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"K35.30\" data-id-ezid=\"02089408526@12\" title=\"[K35.30] Ak&amp;#xFA;tna apendicit&amp;#xED;da s lokalizovanou peritonit&amp;#xED;dou, bez perfor&amp;#xE1;cie alebo rupt&amp;#xFA;ry\" style=\"width: 50ch;\">[K35.30] Akútna apendicitída s lokalizovanou peritonitídou, bez perforácie alebo ruptúry</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"S31.7\" data-id-ezid=\"02089486944@12\" title=\"[S31.7] Viacer&amp;#xE9; otvoren&amp;#xE9; rany brucha, drieku a panvy\" style=\"width: 50ch;\">[S31.7] Viaceré otvorené rany brucha, drieku a panvy</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"63\" data-id-ezid=\"00000117556@14\" data-prop-body=\"200\" title=\"[63] D&amp;#xF4;kladn&amp;#xE9; vy&amp;#x161;etrenie jedn&amp;#xE9;ho org&amp;#xE1;nov&amp;#xE9;ho syst&amp;#xE9;mu alebo kontroln&amp;#xE9; vy&amp;#x161;etrenie vr&amp;#xE1;tane r&amp;#xE1;d a dokument&amp;#xE1;cie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"2007\" data-id-ezid=\"00000474346@14\" data-prop-body=\"60\" title=\"[2007] Odstr&amp;#xE1;nenie sut&amp;#xFA;ry alebo stehov z ve&amp;#x13E;kej rany.\" style=\"width: 50ch;\">[2007] Odstránenie sutúry alebo stehov z veľkej rany.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"4\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">pac. po LAPE\nS.: dobr, afebrilná\nO.: orient., poloha akt., eupnoe, anikter., acyanóza\nabdomen v niveau, makké, dobre priehmatné, bez patolog rezstencie a\nperitoneal dráždenia, pooper. rany v umbiliku a v hypogastriu s primeraným hojením, bez inflam a secer.\nDg.: st.p. LAPE propt. append. ac.\nTh.: toaleta, desinf., stehy ex, krytie, ko p.p.\n</div></section>",
+  "title": "LAPE - stehy ex",
+  "shortcut": "ste LAPE",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 13,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 6,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "Pac po LAPE, cíti sa dobre, afebril., <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 7,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": " orient., poloha akt., eupnoe, anikter., acyanóza<br>v niveau, makké, dobre priehmatné, bez patolog rezstencie a<br>peritoneal dráždenia, pooper. rany v umbiliku a v hypogastriu s primeraným hojením, bez inflam a secer.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 8,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[K35.30] Akútna apendicitída s lokalizovanou peritonitídou, bez perforácie alebo ruptúry",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089408526@12",
+              "id": "K35.30"
+            }
+          },
+          "text": {
+            "value": "App. acuta",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 9,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 3,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2006] Odstránenie sutúry alebo svoriek z malej rany, prípadne pri viacnásobnom ošetrení. Pri odstranovaní sutúry pri výkone pod kódom 2860 sa výkon pod kódom 2006 vykazuje pre každú končatinu najviac šesť r",
+            "props": {
+              "propBody": 40,
+              "idClassid": "vykon",
+              "idEzid": "00000469270@14",
+              "id": 2006
+            }
+          },
+          "count": {
+            "value": "3",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 10,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": " toaleta, desinf., stehy ex, krytie, ko p.p.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 11,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "telesné šetrenie, ko p.p., <br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Veterinár PES",
+  "shortcut": "vp",
+  "description": "Veterinárne osvedčenie o zdravotnom stave psa",
+  "summary": "Veterinár PES",
+  "if": "",
+  "data": {
+    "_": {},
+    "vl": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "Žiadost o veterinárne osvedcenie<br>Žiadost o Veterinárne osvedcenie o zdravotnom stave<br>psa pre pacienta po pohryzení psom<br>dna :<br>S pozdravom<br>1.Hilarion sro, chirurg.amb.<br>Detva, kpt. Nálepku 643/10<br>MUDr. Šaling Juraj<br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "",
+            "props": {}
+          },
+          "druh": {
+            "value": "[0] iný druh",
+            "props": {
+              "idClassid": "cinnost",
+              "idEzid": "00000347328@3",
+              "id": 0
+            }
+          },
+          "presne": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

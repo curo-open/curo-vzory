@@ -1,0 +1,183 @@
+{
+  "title": "Telefón - Recept na telefón",
+  "shortcut": "telefon",
+  "description": "Predpísanie receptu po telefóne",
+  "summary": "Telefón - Recept na telefón",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "10": [
+          "schedule"
+        ]
+      }
+    },
+    "od": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "kontrola pacienta",
+            "props": {
+              "propValue": "K"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "potrebuje konzultáciu a recept po tel<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 8,
+        "order": 2,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 10,
+        "order": 3,
+        "props": {
+          "type": "r",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[99808] Biomin H | plv por 60x3 g (vre.papier/PE)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Vápnik, kombinácie s vitamínom D a/alebo s inými liečivami",
+              "propSdl": 133.176,
+              "propCena": 10.77,
+              "propVnl": "R",
+              "propBal": 60,
+              "propGp": 0,
+              "propUnit": "DF",
+              "propSpUhr": "S",
+              "idClassid": "liek",
+              "idEzid": "00020226239",
+              "idF": "PLV POR",
+              "idSp": "ora",
+              "idAtc": "A12AX",
+              "idUl": "",
+              "id": 99808
+            }
+          },
+          "schedule": {
+            "value": "",
+            "props": {
+              "error": "Chyba zápisu dávkovania. (SyntaxError: Expected '1x', '2x', '3x', '4x', 'Ad Manus Medici', 'a', 'a.m.m.', 'ad manus medici', 'amm', 'dr', 'dľa rady', 'pd', 'podľa doporučenia', 'podľa rozpisu', 'pr', 'á', [0-9], or integer but end of input found.)"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 6,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[1] Pod radou sa rozumie poskytnutie informácií pacientovi alebo zákonnému zástupcovi v súvislosti so zdravotným stavom. Výkon pod kódom 1 nemožno vykazovať súčasne s inými výkonmi. Výkon nemožno vykazovať pre telefonické objednávanie pacienta.",
+            "props": {
+              "propBody": 80,
+              "id": 1,
+              "idEzid": "00000466508@15",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

@@ -1,0 +1,55 @@
+{
+  "description": "Ad urologiam. URO. Výmenný lístok.",
+  "summary": "vlURO",
+  "content": "<section data-x-id=\"3\" data-type=\"vl\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Výmenný lístok​:</label><div class=\"FieldHtml\" data-name=\"text\">Ad diabetologiam.<br>Odporúčam Vaše odborné konz. vyšetrenie a navrhnutie terapeutického postupu. Ďakujem.<br></div>​<label data-for=\"odbor\" class=\" _noval\">odborné zameranie:​</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"odbor\" data-ignore-visited=\"true\" title=\"[050] diabetológia, poruchy látkovej premeny a výživy\" style=\"width: 20ch;\" data-id=\"050\" data-id-ezid=\"00000351734@8\" data-id-classid=\"zameranie\">[050] diabetológia, poruchy látkovej premeny a výživy</div>​<label data-for=\"druh\" class=\" _noval\">druh špecializovaného útvaru​</label><div class=\"_noval FieldSearch hasActions truncate _focus\" data-name=\"druh\" data-ignore-visited=\"true\" data-id=\"2\" data-id-ezid=\"00000000273@3\" data-id-classid=\"cinnost\" title=\"[2] ambulancia\" style=\"width: 20ch;\">[2] ambulancia</div>​<label data-for=\"presne\" class=\" _noval\">len text​</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"presne\" data-prop-value=\"1\">x</div>​<label data-for=\"extended\" class=\" _noval\">zobraziť dodatočné atribúty​</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"extended\"></div>​<label data-for=\"patientInfo\" class=\"_noval hidden\">informácia pre pacienta:​</label><div class=\"_noval FieldHtml hidden\" data-name=\"patientInfo\"></div>​<label data-for=\"urgency\" class=\"hidden\">urgentnosť vyšetrenia:​</label><div class=\"FieldList hasActions hidden\" data-name=\"urgency\" data-prop-value=\"bezne\">Bežné</div>​<label data-for=\"platnost\" class=\"hidden\">platnosť​</label><div class=\"FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"platnost\" data-prop-value=\"2021-03-06T19:46:16.844Z\">06.03.2021</div></section>",
+  "title": "vlURO",
+  "shortcut": "vlURO",
+  "if": "",
+  "data": {
+    "_": {},
+    "vl": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "Ad urologiam.<br>Odporúčam Vaše odborné konz. vyšetrenie a navrhnutie terapeutického postupu. Ďakujem.<br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "[012] urológia",
+            "props": {
+              "id": "012",
+              "idEzid": "00000351429@8",
+              "idClassid": "zameranie"
+            }
+          },
+          "druh": {
+            "value": "[2] ambulancia",
+            "props": {
+              "id": 2,
+              "idEzid": "00000000273@3",
+              "idClassid": "cinnost"
+            }
+          },
+          "presne": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

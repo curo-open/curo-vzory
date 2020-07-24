@@ -1,0 +1,45 @@
+{
+  "description": "RTG vyšetrenie brucha ",
+  "summary": "AdRTG - BRUCHO",
+  "content": "<section data-x-id=\"2\" data-type=\"z-rtg\" class=\"\"><aside></aside><label class=\"section-label  \">Žiadanka RTG​:</label>​<label data-for=\"dg_text\" class=\"\">Diagnóza​</label><div class=\"FieldSearch hasActions truncate\" data-name=\"dg_text\" title=\"[S22.00] Zlomenina hrudníkového stavca, úroveň bližšie neurčená\" style=\"width: 50ch;\" data-ignore-visited=\"true\" data-id=\"S22.00\" data-id-ezid=\"02089485649@12\" data-id-classid=\"diagnoza\">[S22.00] Zlomenina hrudníkového stavca, úroveň bližšie neurčená</div>​<label data-for=\"predmet\" class=\" _noval\">Ktorá oblasť má byť vyšetrená​</label><div class=\"_noval Field\" data-name=\"predmet\">Th chrbtica</div>​<label data-for=\"ocakavanie\" class=\"\">Očakávanie/otázka​</label><div class=\"Field\" data-name=\"ocakavanie\">fract.?</div>​<label data-for=\"epikriza\" class=\" _noval\">Epikríza​</label><div class=\"_noval Field\" data-name=\"epikriza\"></div></section>",
+  "title": "AdRTG - BRUCHO",
+  "shortcut": "arb",
+  "if": "",
+  "data": {
+    "_": {},
+    "z-rtg": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[K30] Dyspepsia",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "00000045864@13",
+              "id": "K30"
+            }
+          },
+          "predmet": {
+            "value": "nativ brucha v stoji",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

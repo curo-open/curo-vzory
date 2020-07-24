@@ -1,0 +1,44 @@
+{
+  "title": "vl",
+  "shortcut": "vl",
+  "description": "Výmenný lístok - všeobecne",
+  "summary": "vl",
+  "if": "",
+  "data": {
+    "_": {},
+    "vl": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "Odporúčam Vaše odborné konz. vyšetrenie a navrhnutie terapeutického postupu. Ďakujem.<br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "",
+            "props": {}
+          },
+          "druh": {
+            "value": "",
+            "props": {}
+          },
+          "presne": {
+            "value": "",
+            "props": {}
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

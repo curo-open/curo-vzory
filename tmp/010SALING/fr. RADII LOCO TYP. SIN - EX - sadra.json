@@ -1,0 +1,214 @@
+{
+  "description": "Zloženie sadry po zlomenine distálneho rádia vľavo",
+  "type": null,
+  "summary": "fr. RADII LOCO TYP. DX - EX - sadra",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: bez ťažkostí, bez bolestí, pac. sa cíti lepšie, afebrilná\nO.: vedomie lucídne, orient., poloha akt., eupnoe, acyanoza, anikter. lokal.: bez edemu a palp. alg. v mieste zlomeniny distal rádia vpravo, bez NCP, klin. kalus palpačne pevný, dynamika pr. ARC viazne\nRTG.: kalus na distal. rádiu vpravo v tvorbe, adekvátne konsolidovaný\nDop.: sadra ex, band., ko o 7-10 dní, potom predp. RHB liečba\n<br></div></section><section data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"_noval FieldList hasActions\" data-name=\"reason\"></div>​<label data-for=\"datum\" class=\"_noval hidden\">zo dňa​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"datumVyziadania\" class=\"_noval hidden\">dátum vyžiadania​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datumVyziadania\"></div>​<label data-for=\"id\" class=\"_noval hidden\">identifikátor​</label><div class=\"_noval Field hidden\" data-name=\"id\"></div></section><section data-x-id=\"2\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"_noval FieldHtml\" data-name=\"s\">bez ťažkostí, bez bolestí, pac. sa cíti lepšie, afebril<br></div></section><section data-x-id=\"3\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"_noval FieldHtml\" data-name=\"o\">vedomie lucídne, orient., poloha akt., eupnoe, acyanoza, anikter. lokal.: bez edemu a palp. alg. v mieste zlomeniny distal rádia vpravo, bez NCP, klin. kalus palpačne pevný, dynamika pr. ARC viazne<br>RTG.: kalus na distal. rádiu vpravo v tvorbe, adekvátne konsolidovaný<br></div></section><section data-x-id=\"10\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"_noval FieldSearch hasActions highlight truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"S52.50\" data-id-ezid=\"02089490078@12\" data-id-classid=\"diagnoza\" title=\"[S52.50] Zlomenina dolného konca vretennej kosti: bližšie neurčená\" style=\"width: 50ch;\">[S52.50] Zlomenina dolného konca vretennej kosti: bližšie neurčená</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\">Fr. radii loco typico l dx</div></section><section data-x-id=\"11\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"_noval FieldSearch hasActions\" data-name=\"id\" data-ignore-visited=\"true\"></div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"4\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"_noval FieldHtml\" data-name=\"th\">sadra ex, band.,<br></div></section><section data-x-id=\"5\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"_noval FieldHtml\" data-name=\"odp\">ko o 7-10 dní, potom predp. RHB liečba<br></div></section><section data-x-id=\"6\" data-type=\"z-rtg\" class=\"\"><aside></aside><label class=\"section-label  \">Žiadanka RTG​:</label>​<label data-for=\"dg_text\" class=\" _noval\">Diagnóza​</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"dg_text\" data-ignore-visited=\"true\" style=\"width: 50ch;\" data-id=\"S52.50\" data-id-ezid=\"02089490078@12\" data-id-classid=\"diagnoza\" title=\"[S52.50] Zlomenina dolného konca vretennej kosti: bližšie neurčená\">[S52.50] Zlomenina dolného konca vretennej kosti: bližšie neurčená</div>​<label data-for=\"predmet\" class=\" _noval\">Ktorá oblasť má byť vyšetrená​</label><div class=\"_noval Field\" data-name=\"predmet\">distálne predlaktie vpravo</div>​<label data-for=\"ocakavanie\" class=\" _noval\">Očakávanie/otázka​</label><div class=\"_noval Field\" data-name=\"ocakavanie\">konsolidácia kalusu</div>​<label data-for=\"epikriza\" class=\" _noval\">Epikríza​</label><div class=\"_noval Field\" data-name=\"epikriza\"></div></section>",
+  "title": "fr. RADII LOCO TYP. SIN - EX - sadra",
+  "shortcut": "frltes",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "kontrola pacienta",
+            "props": {
+              "propValue": "K"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bez ťažkostí, bez bolestí, pac. sa cíti lepšie, afebril<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "vedomie lucídne, orient., poloha akt., eupnoe, acyanoza, anikter. lokal.: bez edemu a palp. alg. v mieste zlomeniny distal rádia vľavo, bez NCP, klin. kalus palpačne pevný, dynamika ľ. ARC viazne<br>RTG.: kalus na distal. rádiu vľavo v tvorbe, adekvátne konsolidovaný<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 10,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S52.50] Zlomenina dolného konca vretennej kosti: bližšie neurčená",
+            "props": {
+              "id": "S52.50",
+              "idEzid": "02089490078@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "Fr. radii loco typico l sin",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 11,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@18",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 13,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[246] Odňatie cirkulárneho sadrového obväzu.",
+            "props": {
+              "propBody": 170,
+              "idClassid": "vykon",
+              "idEzid": "00000467787@18",
+              "id": 246
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 15,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[15d] Zhodnotenie rtg dokumentácie, ak nie je vykonané pracoviskom RTG, vrátane popisu v zdravotnej dokumentácii.",
+            "props": {
+              "propBody": 150,
+              "idClassid": "vykon",
+              "idEzid": "02089714121@18",
+              "id": "15d"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 4,
+        "order": 7,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "sadra ex, band.,<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 5,
+        "order": 8,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o 7-10 dní, potom predp. RHB liečba<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-rtg": [
+      {
+        "id": 6,
+        "order": 9,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S52.50] Zlomenina dolného konca vretennej kosti: bližšie neurčená",
+            "props": {
+              "id": "S52.50",
+              "idEzid": "02089490078@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "predmet": {
+            "value": "distálne predlaktie vľavo",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "konsolidácia kalusu",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

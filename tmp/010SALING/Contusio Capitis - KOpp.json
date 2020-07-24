@@ -1,0 +1,134 @@
+{
+  "tags": [],
+  "content": "<section data-type=\"od\" class=\"\" data-x-id=\"2\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"FieldList hasActions\" data-name=\"reason\" data-prop-value=\"K\">kontrola pacienta</div>​<label data-for=\"datum\" class=\"hidden\">zo dňa​</label><div class=\"FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"datumVyziadania\" class=\"hidden\">dátum vyžiadania​</label><div class=\"FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datumVyziadania\"></div>​<label data-for=\"id\" class=\"hidden\">identifikátor​</label><div class=\"Field hidden\" data-name=\"id\"></div></section><section data-type=\"s\" class=\"\" data-x-id=\"3\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\">cíti sa dobre, bolesti hlavy neguje, závrate nemá, <br></div></section><section data-type=\"o\" class=\"\" data-x-id=\"4\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\">orient., eupnoe, anikter., acyanoza, chôdza istá, bez titubácií, <br>hlava mesocephalická, calva poklop. nebolestivá, výstupy hlav. nervov negat., maxila, jarmové obluky a mandibula palp. negat., izokoria, fotoreakcia správna, ameninegeal.<br></div></section><section data-type=\"vd\" class=\"\" data-x-id=\"5\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"S02.3\" data-id-ezid=\"02089483073@12\" data-id-classid=\"diagnoza\" title=\"[S02.3] Zlomenina spodiny očnice\" style=\"width: 50ch;\">[S02.3] Zlomenina spodiny očnice</div>​<label data-for=\"text\" class=\"\">/​</label><div class=\"Field minor\" data-name=\"text\">st.p. fr. orbitae inf. bilat</div></section><section data-type=\"vv\" class=\"\" data-x-id=\"6\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"63\" data-id-ezid=\"00000117556@15\" data-id-classid=\"vykon\" data-prop-body=\"200\" title=\"[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-type=\"th\" class=\"\" data-x-id=\"7\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"FieldHtml\" data-name=\"th\">sine<br></div></section><section data-type=\"odp\" class=\"_focus\" data-x-id=\"8\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml _focus\" data-name=\"odp\">ko p.p. kedykoľvek<br></div></section>",
+  "title": "Contusio Capitis - KOpp",
+  "shortcut": "cckpp",
+  "summary": "Contusio Capitis - KOpp",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "kontrola pacienta",
+            "props": {
+              "propValue": "K"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "cíti sa dobre, bolesti hlavy neguje, závrate nemá, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., eupnoe, anikter., acyanoza, chôdza istá, bez titubácií, <br>hlava mesocephalická, calva poklop. nebolestivá, výstupy hlav. nervov negat., maxila, jarmové obluky a mandibula palp. negat., izokoria, fotoreakcia správna, ameninegeal.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 5,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 6,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@15",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 7,
+        "order": 5,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "sine<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 8,
+        "order": 6,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko p.p. kedykoľvek<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "description": "Kontrola po udretí hlavy.",
+  "source": "curo-open/curo-vzory#/010SALING"
+}

@@ -1,0 +1,31 @@
+{
+  "tags": [
+    "sestra"
+  ],
+  "content": "<section data-x-id=\"6\" data-type=\"t\" class=\"_focus\"><aside></aside><div class=\"_noval FieldHtml _focus\" editor-empty-placeholder=\"toto je uložený dekurz s prázdnym obsahom, zvážte jeho zmazanie\" data-name=\"t\">Menovaný bol dnes ošetrený na chirurgickej ambulancii.<br>S doporučením pokojového režimu v domácom ošetrení.<br></div></section>",
+  "title": "Ospravedlnenie",
+  "shortcut": "ospr",
+  "summary": "Ospravedlnenie",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 6,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Menovaný bol dnes ošetrený na chirurgickej ambulancii.<br>S doporučením pokojového režimu v domácom ošetrení.<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "description": "",
+  "source": "curo-open/curo-vzory#/010SALING"
+}

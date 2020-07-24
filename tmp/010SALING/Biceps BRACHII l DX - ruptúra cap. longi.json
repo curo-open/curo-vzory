@@ -1,0 +1,137 @@
+{
+  "type": null,
+  "summary": "Biceps BRACHII l DX - ruptúra cap. longi",
+  "description": "Natiahnutie bicepsu pravého ramena",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"S46.1\" data-id-ezid=\"02089489500@12\" title=\"[S46.1] Poranenie svalu a &amp;#x161;&amp;#x13E;achy dlhej hlavy dvojhlav&amp;#xE9;ho svalu ramena (m. biceps brachii)\" style=\"width: 50ch;\">[S46.1] Poranenie svalu a šľachy dlhej hlavy dvojhlavého svalu ramena (m. biceps brachii)</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"63\" data-id-ezid=\"00000117556@14\" data-prop-body=\"200\" title=\"[63] D&amp;#xF4;kladn&amp;#xE9; vy&amp;#x161;etrenie jedn&amp;#xE9;ho org&amp;#xE1;nov&amp;#xE9;ho syst&amp;#xE9;mu alebo kontroln&amp;#xE9; vy&amp;#x161;etrenie vr&amp;#xE1;tane r&amp;#xE1;d a dokument&amp;#xE1;cie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: reklamuje pobolievanie pr. ramena s predchadzajúcim pocitum prasknutia\nO.: orient., poloha akt., eupnoe, anikter., acyanoza, pr. humerus\ns dekonfigurovaným bruškom dlhej hlavy bicepsu, bez funkčnej lézie svalu\nDg.: ruptura tend. capitis longi bicip. brachii humeri l dx\nTh.: kľudový režim, ko o 1-2 tyž., p.p. skôr\n</div></section>",
+  "title": "Biceps BRACHII l DX - ruptúra cap. longi",
+  "shortcut": "rupt BB dx",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "neodkladná starostlivosť",
+            "props": {
+              "propValue": "A"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pobolievanie pr. ramena s predchadzajúcim pocitum prasknutia<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanoza, pr. humerus s dekonfigurovaným bruškom dlhej hlavy bicepsu, bez funkčnej lézie svalu<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S46.1] Poranenie svalu a šľachy dlhej hlavy dvojhlavého svalu ramena (m. biceps brachii)",
+            "props": {
+              "id": "S46.1",
+              "idEzid": "02089489500@12"
+            }
+          },
+          "text": {
+            "value": "Ruptura tend. capitis longi bicip. brachii humeri l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "id": 63,
+              "idEzid": "00000117556@14"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 6,
+        "order": 5,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "ortéza, NSA, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "kľudový režim, ko o 1-2 tyž., p.p. skôr<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

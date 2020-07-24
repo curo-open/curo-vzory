@@ -1,0 +1,54 @@
+{
+  "title": "Peter",
+  "shortcut": "vlPet",
+  "summary": "Peter",
+  "if": "",
+  "data": {
+    "_": {},
+    "vl": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "Ad traumatologiam NsP LC. P.T. MUDr.Péter Štefan -  pacient odoslaný na konz. TRAUM vyš. resp. oper. riešenie. Str : 9:00-13:00 hod<br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "[013] úrazová chirurgia",
+            "props": {
+              "id": "013",
+              "idEzid": "00000351437@8",
+              "idClassid": "zameranie"
+            }
+          },
+          "druh": {
+            "value": "[2] ambulancia",
+            "props": {
+              "id": 2,
+              "idEzid": "00000000273@3",
+              "idClassid": "cinnost"
+            }
+          },
+          "presne": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "description": "MUDr. Péter. Ad traumatologiam LC. Výmenný lístok",
+  "source": "curo-open/curo-vzory#/010SALING"
+}

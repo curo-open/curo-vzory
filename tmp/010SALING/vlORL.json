@@ -1,0 +1,55 @@
+{
+  "description": "Ad otorhinolaryngologiam. ORL. Výmenný lístok.",
+  "summary": "vlORL",
+  "content": "<section data-x-id=\"3\" data-type=\"vl\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Výmenný lístok​:</label><div class=\"FieldHtml _focus\" data-name=\"text\">Ad urologiam.<br>Odporúčam Vaše odborné konz. vyšetrenie a navrhnutie terapeutického postupu. Ďakujem.<br></div>​<label data-for=\"odbor\" class=\" _noval\">odborné zameranie:​</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"odbor\" data-ignore-visited=\"true\" title=\"[012] urológia\" style=\"width: 20ch;\" data-id=\"012\" data-id-ezid=\"00000351429@8\" data-id-classid=\"zameranie\">[012] urológia</div>​<label data-for=\"druh\" class=\" _noval\">druh špecializovaného útvaru​</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"druh\" data-ignore-visited=\"true\" data-id=\"2\" data-id-ezid=\"00000000273@3\" data-id-classid=\"cinnost\" title=\"[2] ambulancia\" style=\"width: 20ch;\">[2] ambulancia</div>​<label data-for=\"presne\" class=\" _noval\">len text​</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"presne\" data-prop-value=\"1\">x</div>​<label data-for=\"extended\" class=\" _noval\">zobraziť dodatočné atribúty​</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"extended\"></div>​<label data-for=\"patientInfo\" class=\"_noval hidden\">informácia pre pacienta:​</label><div class=\"_noval FieldHtml hidden\" data-name=\"patientInfo\"></div>​<label data-for=\"urgency\" class=\"hidden\">urgentnosť vyšetrenia:​</label><div class=\"FieldList hasActions hidden\" data-name=\"urgency\" data-prop-value=\"bezne\">Bežné</div>​<label data-for=\"platnost\" class=\"hidden\">platnosť​</label><div class=\"FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"platnost\" data-prop-value=\"2021-03-06T19:46:16.844Z\">06.03.2021</div></section>",
+  "title": "vlORL",
+  "shortcut": "vlORL",
+  "if": "",
+  "data": {
+    "_": {},
+    "vl": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "Ad otorhinolaryngologiam.<br>Odporúčam Vaše odborné konz. vyšetrenie a navrhnutie terapeutického postupu. Ďakujem.<br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "[014] otorinolaryngológia",
+            "props": {
+              "idClassid": "zameranie",
+              "idEzid": "00000351445@8",
+              "id": "014"
+            }
+          },
+          "druh": {
+            "value": "[2] ambulancia",
+            "props": {
+              "idClassid": "cinnost",
+              "idEzid": "00000000273@3",
+              "id": 2
+            }
+          },
+          "presne": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

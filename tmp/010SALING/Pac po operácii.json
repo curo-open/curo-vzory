@@ -1,0 +1,30 @@
+{
+  "type": null,
+  "summary": "Pac po operácii",
+  "description": "TO: Pac po op.",
+  "content": "<section data-x-id=\"\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"63\" data-id-ezid=\"00000117556@14\" data-prop-body=\"200\" title=\"[63] D&amp;#xF4;kladn&amp;#xE9; vy&amp;#x161;etrenie jedn&amp;#xE9;ho org&amp;#xE1;nov&amp;#xE9;ho syst&amp;#xE9;mu alebo kontroln&amp;#xE9; vy&amp;#x161;etrenie vr&amp;#xE1;tane r&amp;#xE1;d a dokument&amp;#xE1;cie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"1\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">Pac. po operácii\npre Dg.:\n</div></section>",
+  "title": "Pac po operácii",
+  "if": "",
+  "data": {
+    "_": {},
+    "to": [
+      {
+        "id": 7,
+        "order": 0,
+        "props": {
+          "type": "to"
+        },
+        "value": {
+          "text": {
+            "value": "Pacient po operácii<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "shortcut": "stp op",
+  "source": "curo-open/curo-vzory#/010SALING"
+}

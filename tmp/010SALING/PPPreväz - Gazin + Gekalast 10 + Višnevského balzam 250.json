@@ -1,0 +1,218 @@
+{
+  "description": "Predpis ZP Gazin + Gekalast obväz + Višnevského balzam",
+  "summary": "PPPreväz - Gazin + Gekalast 10 + Višnevského balzam 250",
+  "content": "<section data-x-id=\"3\" data-type=\"pp\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Zdr. pomôcka​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" title=\"[A57024] Kompres gázový GAZIN nesterilný | 10 x 10 cm, 100 ks, osem vrstvový\" style=\"width: 50ch;\" data-ignore-visited=\"true\" data-id=\"A57024\" data-id-v=\"LRI-DE\" data-id-ezid=\"00020138236\" data-id-classid=\"pomocka\" data-prop-dpl=\"0\" data-prop-cena=\"4.59\">[A57024] Kompres gázový GAZIN nesterilný | 10 x 10 cm, 100 ks, osem vrstvový</div>​<label data-for=\"qty\" class=\"\">počet​</label><div class=\"FieldR _focus\" data-name=\"qty\" data-prop-value=\"2.00\">2</div>​<label data-for=\"need\" class=\"ss\">potreba​</label><div class=\"FieldList hasActions ss\" data-name=\"need\" data-prop-value=\"0\">dočasná</div>​<label data-for=\"repeatCount\" class=\"\">rep.​</label><div class=\"FieldN\" data-name=\"repeatCount\">1</div>​<label data-for=\"repeatAfter\" class=\"ss hidden\">dní medzi výberom​</label><div class=\"FieldN ss hidden\" data-name=\"repeatAfter\">30</div><br class=\"ss\"><label data-for=\"repeatLast\" class=\"ss _noval hidden\">posledný výber​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"repeatLast\"></div>​<label data-for=\"reason\" class=\"ss _noval\">odôvodnenie​</label><div class=\"_noval FieldHtml ss\" data-name=\"reason\"></div>​<label data-for=\"recommendedBy\" class=\" _noval\">odp. lek​</label><div class=\"_noval FieldSearchLekar hasActions\" data-name=\"recommendedBy\"></div>​<label data-for=\"recommendedDate\" class=\"ss _noval hidden\">dátum odp.​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"recommendedDate\"></div>​<label data-for=\"untilDate\" class=\"ss _noval hidden\">platné do​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"untilDate\"></div>​<label data-for=\"noReplacement\" class=\"ss\">náhrada​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"noReplacement\" data-prop-value=\"0\">nie</div>​<label data-for=\"reasonPayoff\" class=\"ss _noval\">uhradí​</label><div class=\"_noval FieldSwitch hasActions ss\" data-name=\"reasonPayoff\"></div>​<label data-for=\"prodException\" class=\"ss\">produkt na výnimku​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"prodException\" data-prop-value=\"0\">nie</div>​<label data-for=\"force\" class=\"ss\">vynútený zápis​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"force\" data-prop-value=\"0\">nie</div>​<label data-for=\"forceReason\" class=\"ss _noval hidden\">dôvod v.z.​</label><div class=\"_noval Field ss hidden\" data-name=\"forceReason\"></div><br class=\"ss\"><label data-for=\"namieru\" class=\"ss _noval\">na mieru​</label><div class=\"_noval FieldHtml ss\" data-name=\"namieru\"></div>​<label data-for=\"barcode\" class=\"ss _noval hidden\">čiarový kód​</label><div class=\"_noval Field readonly dontCopy ss hidden\" data-name=\"barcode\"></div>​<label data-for=\"note_zp\" class=\"ss _noval hidden\">poznámka ZP​</label><div class=\"_noval Field readonly dontCopy ss hidden\" data-name=\"note_zp\"></div>​<label data-for=\"status\" class=\"invisible ss\">stav​</label><div class=\"FieldN readonly dontCopy invisible ss\" data-name=\"status\">0</div></section>",
+  "title": "PPPreväz - Gazin + Gekalast 10 + Višnevského balzam 250",
+  "shortcut": "pppggv250",
+  "if": "",
+  "data": {
+    "_": {},
+    "pp": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "pp"
+        },
+        "value": {
+          "id": {
+            "value": "[A57024] Kompres gázový GAZIN nesterilný | 10 x 10 cm, 100 ks, osem vrstvový",
+            "props": {
+              "propDpl": 0,
+              "propCena": 4.59,
+              "id": "A57024",
+              "idV": "LRI-DE",
+              "idEzid": "00020138236",
+              "idClassid": "pomocka"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "need": {
+            "value": "dočasná",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reason": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "namieru": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "pp"
+        },
+        "value": {
+          "id": {
+            "value": "[A21499] Obväz fixačný Gekalast® | 10 cm x 4 m / 20 ks",
+            "props": {
+              "propDpl": 0.72,
+              "propCena": 1.79,
+              "id": "A21499",
+              "idV": "LRI-DE",
+              "idEzid": "00020154936",
+              "idClassid": "pomocka"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "need": {
+            "value": "dočasná",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reason": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "namieru": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r-ml": [
+      {
+        "id": 7,
+        "order": 2,
+        "props": {
+          "type": "r-ml"
+        },
+        "value": {
+          "title": {
+            "value": "Aa Višnevski 250 [M01000]",
+            "props": {}
+          },
+          "schedule": {
+            "value": "podľa doporučenia",
+            "props": {
+              "propType": "DOP",
+              "propText": ""
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "Balsamum Višnevski gr. 250<br>",
+            "props": {}
+          },
+          "priprava": {
+            "value": "",
+            "props": {}
+          },
+          "aplikacia": {
+            "value": "lokalne zvonku",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

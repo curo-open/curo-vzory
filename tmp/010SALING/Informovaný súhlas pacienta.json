@@ -1,0 +1,30 @@
+{
+  "description": "Informovaný súhlas INF",
+  "type": null,
+  "summary": "Informovaný súhlas pacienta",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">Svojím podpisom potvrdzujem, že som bol ohľaduplne a bez nátlaku zrozumitelne informovaný o účele, povahe, následkoch a rizikách poskytnutia zdravotnej starostlivosti, o možnostiach voľby navrhovaných postupov a rizikách odmietnutia poskytnutia zdravotnej starostlivosti.\n\n                                                                                                                                                                                                                                                                     Podpis pacienta: ............................. \n<br></div></section>",
+  "title": "Informovaný súhlas pacienta",
+  "shortcut": "infp",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": "",
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Informovaný súhlas pacienta podľa zákona 576/2004 §6</b><br>Svojím podpisom potvrdzujem, že som bol ohľaduplne a bez nátlaku zrozumitelne informovaný o účele, povahe, následkoch a rizikách poskytnutia zdravotnej starostlivosti, o možnostiach voľby navrhovaných postupov a rizikách odmietnutia poskytnutia zdravotnej starostlivosti.\n<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

@@ -1,0 +1,158 @@
+{
+  "type": null,
+  "summary": "Stehy po LSK - herniotomia l SIN - hernia",
+  "description": "LSK herniotomia l SIN",
+  "content": "<section data-x-id=\"\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"K40.90\" data-id-ezid=\"02089408815@12\" title=\"[K40.90] Jednostrann&amp;#xE1; alebo neur&amp;#x10D;en&amp;#xE1; slabinov&amp;#xE1; prietr&amp;#x17E; bez ob&amp;#x161;trukcie a bez gangr&amp;#xE9;ny, neozna&amp;#x10D;en&amp;#xE1; ako recidivuj&amp;#xFA;ca\" style=\"width: 50ch;\">[K40.90] Jednostranná alebo neurčená slabinová prietrž bez obštrukcie a bez gangrény, neoznačená ako recidivujúca</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"1\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"63\" data-id-ezid=\"00000117556@14\" data-prop-body=\"200\" title=\"[63] D&amp;#xF4;kladn&amp;#xE9; vy&amp;#x161;etrenie jedn&amp;#xE9;ho org&amp;#xE1;nov&amp;#xE9;ho syst&amp;#xE9;mu alebo kontroln&amp;#xE9; vy&amp;#x161;etrenie vr&amp;#xE1;tane r&amp;#xE1;d a dokument&amp;#xE1;cie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"2\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"2007\" data-id-ezid=\"00000474346@14\" data-prop-body=\"60\" title=\"[2007] Odstr&amp;#xE1;nenie sut&amp;#xFA;ry alebo stehov z ve&amp;#x13E;kej rany.\" style=\"width: 50ch;\">[2007] Odstránenie sutúry alebo stehov z veľkej rany.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"3\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">pac. po L- herniotomii\nS.: dobre, afebrilná\nO.: orient., poloha akt., eupnoe, anikter., acyanóza\nabdomen v niveau, makké, dobre priehmatné, bez patolog rezistencie a\nperitoneal. dráždenia, pooper. rany v umbiliku a v hypogastriách s primeraným hojením, bez inflam a secer.\nDg.: hernia ing l sin/dx\nTh.: toaleta, desinf., stehy ex, krytie, ko p.p.\n</div></section>",
+  "title": "Stehy po LSK - herniotomia l SIN - hernia",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 11,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac. po LSK- herniotomii, cíti sa dobre, afebril., <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanóza<br>abdomen v niveau, makké, dobre priehmatné, bez patolog rezistencie a peritoneal. dráždenia, pooper. rany v umbiliku a v hypogastriách s primeraným hojením, bez inflam a secer.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 6,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[K40.90] Jednostranná alebo neurčená slabinová prietrž bez obštrukcie a bez gangrény, neoznačená ako recidivujúca",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089408815@12",
+              "id": "K40.90"
+            }
+          },
+          "text": {
+            "value": "Hernia ing. l sin libera",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 1,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2006] Odstránenie sutúry alebo svoriek z malej rany, prípadne pri viacnásobnom ošetrení. Pri odstranovaní sutúry pri výkone pod kódom 2860 sa výkon pod kódom 2006 vykazuje pre každú končatinu najviac šesť r",
+            "props": {
+              "propBody": 40,
+              "idClassid": "vykon",
+              "idEzid": "00000469270@14",
+              "id": 2006
+            }
+          },
+          "count": {
+            "value": "3",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 8,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "toaleta, desinf., stehy ex, k toaleta, desinf., stehy ex, krytie, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 9,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "telesné šetrenie, ko p.p., <br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "shortcut": "steLhers",
+  "source": "curo-open/curo-vzory#/010SALING"
+}

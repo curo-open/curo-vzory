@@ -1,0 +1,139 @@
+{
+  "type": null,
+  "summary": "Antebrachii l dx - Contusio - KO o 5-6 dní",
+  "description": "Kontrolné vyšetrenie po kontúzii pr. predlaktia",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: ústup bolesti pr. predlaktia, cíti sa lepšie\nO.: orient., poloha akt., anikter., acyanoza\nSPL.: ústup edému a palp. alg. pr. predlaktia, bez NCP\nTh.: Višnevski balsam lokal., band.\nDop.: pokračovať v liečbe, telesné šetrenie, ko o 5-6 dní\nZ.: stav zlepšený\n\n</div></section>",
+  "title": "Antebrachii l dx - Contusio - KO o 5-6 dní",
+  "shortcut": "acdk56",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "kontrola pacienta",
+            "props": {
+              "propValue": "K"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "ústup bolesti pr. predlaktia, cíti sa lepšie<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., anikter., acyanoza<br>SPL.: ústup edému a palp. alg. pr. predlaktia, bez NCP, stav zlepšený, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S50.1] Pomliaždenie iných a bližšie neurčených častí predlaktia",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089489674@12",
+              "id": "S50.1"
+            }
+          },
+          "text": {
+            "value": "Contusio antebrachii l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 5,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 6,
+        "order": 5,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "Višnevski balsam lokal., band.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "pokračovať v liečbe, telesné šetrenie, ko o 5-6 dní<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

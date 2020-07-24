@@ -1,0 +1,109 @@
+{
+  "description": "Predpis lieku Augmentin",
+  "summary": "Augmentin 625",
+  "content": "<section data-x-id=\"2\" data-type=\"r\" class=\"_focus\"><aside></aside><label class=\"section-label  has-info\">R​:</label><div class=\"FieldSearch hasActions highlight-bold truncate\" data-name=\"id\" title=\"[15870] Zinnat 500 mg | tbl flm 10x500 mg (blis.OPA/Al/PVC)\" style=\"width: 50ch;\" data-ignore-visited=\"true\" data-id=\"15870\" data-id-ul=\"\" data-id-atc=\"J01DC02\" data-id-sp=\"ora\" data-id-f=\"TBL FLM\" data-id-ezid=\"00020449351\" data-id-classid=\"liek\" data-prop-dpl=\"1.71\" data-prop-sp-uhr=\"S\" data-prop-unit=\"DF\" data-prop-gp=\"1\" data-prop-bal=\"10\" data-prop-uzp_1zvj=\"0.463\" data-prop-vnl=\"R\" data-prop-cena=\"6.34\" data-prop-sdl=\"10\" data-prop-atc-name=\"Cefuroxím\" data-prop-ol=\"0\">[15870] Zinnat 500 mg | tbl flm 10x500 mg (blis.OPA/Al/PVC)</div>​<label data-for=\"schedule\" class=\"\">dáv.​</label><div class=\"FieldMedicationSchedule hasActions\" data-name=\"schedule\" data-prop-type=\"PEV2\" data-prop-hours=\"12\" data-prop-unitsperhour=\"1\" data-prop-way_code=\"\" data-prop-period_code=\"D\" data-prop-period_t=\"denne\">á 12 hod. 1  </div>​<label data-for=\"qty\" class=\"\"># bal.​</label><div class=\"FieldR hasActions _focus\" data-name=\"qty\" data-prop-value=\"1.00\">1</div>​<label data-for=\"repeatCount\" class=\" _noval\">rep.​</label><div class=\"_noval FieldN hasActions\" data-name=\"repeatCount\"></div>​<label data-for=\"repeatAfter\" class=\"ss hidden\">dní medzi výberom​</label><div class=\"FieldN ss hidden\" data-name=\"repeatAfter\"></div>​<label data-for=\"repeatLast\" class=\"ss _noval hidden\">posledný výber​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"repeatLast\"></div>​<label data-for=\"recommendedBy\" class=\"ss _noval\">odp. lek.​</label><div class=\"_noval FieldSearchLekar hasActions ss\" data-name=\"recommendedBy\"></div>​<label data-for=\"recommendedDate\" class=\"ss _noval hidden\">dátum odp.​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"recommendedDate\"></div>​<label data-for=\"untilDate\" class=\"ss _noval hidden\">platné do​</label><div class=\"_noval FieldDate hasActions ss hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"untilDate\"></div>​<label data-for=\"noReplacement\" class=\"ss\">náhrada​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"noReplacement\" data-prop-value=\"0\">nie</div>​<label data-for=\"payoff\" class=\"ss\">doplatok​</label><div class=\"FieldR locked ss\" data-name=\"payoff\" data-prop-value=\"1.71\">1,71</div>​<label data-for=\"atc\" class=\"ss _noval hidden\">cez ATC​</label><div class=\"_noval FieldSwitchLogical hasActions ss hidden\" data-name=\"atc\" data-prop-value=\"0\">nie</div>​<label data-for=\"instruction\" class=\"ss _noval\">inštrukcie​</label><div class=\"_noval Field ss\" data-name=\"instruction\"></div>​<label data-for=\"reasonPayoff\" class=\"ss _noval\">uhradí​</label><div class=\"_noval FieldSwitch hasActions ss\" data-name=\"reasonPayoff\"></div>​<label data-for=\"prodException\" class=\"ss\">výnimka​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"prodException\" data-prop-value=\"0\">nie</div>​<label data-for=\"force\" class=\"ss\">vyn. zápis​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"force\" data-prop-value=\"0\">nie</div>​<label data-for=\"forceReason\" class=\"ss _noval hidden\">dôvod v.z.​</label><div class=\"_noval Field ss hidden\" data-name=\"forceReason\"></div>​<label data-for=\"barcode\" class=\"_noval hidden\">čiarový kód​</label><div class=\"_noval Field readonly dontCopy hidden\" data-name=\"barcode\"></div>​<label data-for=\"note_zp\" class=\"ss _noval hidden\">poznámka ZP​</label><div class=\"_noval Field readonly dontCopy ss hidden\" data-name=\"note_zp\"></div>​<label data-for=\"status\" class=\"invisible ss\">stav​</label><div class=\"FieldN readonly dontCopy invisible ss\" data-name=\"status\">0</div></section>",
+  "title": "Augmentin 625",
+  "shortcut": "laug",
+  "if": "",
+  "data": {
+    "_": {},
+    "r": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[17156] Augmentin 625 mg | tbl flm 21x625 mg (blis.Al/PVC/PVDC)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Amoxicilín a inhibítor betalaktamázy",
+              "propSdl": 13.127,
+              "propCena": 8.1,
+              "propVnl": "R",
+              "propUzp_1zvj": 0.292,
+              "propBal": 21,
+              "propGp": 0,
+              "propUnit": "DF",
+              "propSpUhr": "S",
+              "propDpl": 4.27,
+              "idClassid": "liek",
+              "idEzid": "00020498317",
+              "idF": "TBL FLM",
+              "idSp": "ora",
+              "idAtc": "J01CR02",
+              "idUl": "acidum clavulanicum,amoxicillinum",
+              "id": 17156
+            }
+          },
+          "schedule": {
+            "value": "á 8 hod. 1  ",
+            "props": {
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propWay_code": "",
+              "propUnitsperhour": 1,
+              "propHours": 8,
+              "propType": "PEV2"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "4,27",
+            "props": {
+              "propValue": 4.27
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

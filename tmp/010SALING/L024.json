@@ -1,0 +1,36 @@
+{
+  "title": "L024",
+  "shortcut": "vdl024",
+  "description": "Dg.: L02.4 - sekundárne hojenie",
+  "summary": "L024",
+  "if": "",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[L02.4] Kožný absces, furunkul a karbunkul končatiny",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089412684@13",
+              "id": "L02.4"
+            }
+          },
+          "text": {
+            "value": "sekundárne hojenie",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

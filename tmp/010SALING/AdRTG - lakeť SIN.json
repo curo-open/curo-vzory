@@ -1,0 +1,45 @@
+{
+  "description": "RTG vyšetrenie ľ. lakeť - RTG cubiti sin",
+  "summary": "AdRTG - lakeť SIN",
+  "content": "<section data-x-id=\"2\" data-type=\"z-rtg\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Žiadanka RTG​:</label>​<label data-for=\"dg_text\" class=\"\">Diagnóza​</label><div class=\"FieldSearch hasActions truncate _focus\" data-name=\"dg_text\" title=\"[S60.2] Pomliaždenie iných častí zápästia a ruky\" style=\"width: 50ch;\" data-ignore-visited=\"true\" data-id=\"S60.2\" data-id-ezid=\"02089490730@12\" data-id-classid=\"diagnoza\">[S60.2] Pomliaždenie iných častí zápästia a ruky</div>​<label data-for=\"predmet\" class=\"\">Ktorá oblasť má byť vyšetrená​</label><div class=\"Field\" data-name=\"predmet\">ľ. ruka</div>​<label data-for=\"ocakavanie\" class=\"\">Očakávanie/otázka​</label><div class=\"Field\" data-name=\"ocakavanie\">fract.?</div>​<label data-for=\"epikriza\" class=\" _noval\">Epikríza​</label><div class=\"_noval Field\" data-name=\"epikriza\"></div></section>",
+  "title": "AdRTG - lakeť SIN",
+  "shortcut": "arcs",
+  "if": "",
+  "data": {
+    "_": {},
+    "z-rtg": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[S50.0] Pomliaždenie lakťa",
+            "props": {
+              "id": "S50.0",
+              "idEzid": "02089489666@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "predmet": {
+            "value": "ľ. lakeť",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "fract.?",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

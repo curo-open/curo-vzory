@@ -1,0 +1,137 @@
+{
+  "type": null,
+  "summary": "",
+  "description": "Kontrola AAC l DX - ko o 2 tyž",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: pac sa cíti lepšie, bolesti pr. AHS resp AAC miernejšie\nO.: orient., poloha akt., eupnoe, anikter., accyanoza\nSPL : pr. AHS normokonfigurované, dynamika zlepšená, palp. alg nad pr. AAC miernejšie\nDop.: telesné šetrenie, ko o 2 tyž.\n\n</div></section>",
+  "title": "AAC l DX - KO2t",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 8,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 1,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "pac sa cíti lepšie, bolesti pr. AHS resp AAC miernejšie<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 2,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": " orient., poloha akt., eupnoe, anikter., accyanoza<br>SPL : pr. AHS normokonfigurované, dynamika zlepšená, palp. alg nad pr. AAC miernejšie<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S43.1] Vykĺbenie akromioklavikulárneho kĺbu",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089489237@12",
+              "id": "S43.1"
+            }
+          },
+          "text": {
+            "value": "St.p. lux. AAC l dx ",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 4,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 5,
+        "order": 5,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "detto<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 6,
+        "order": 6,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "telesné šetrenie, ko o 2 tyž.<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "shortcut": "AACdk2t",
+  "source": "curo-open/curo-vzory#/010SALING"
+}

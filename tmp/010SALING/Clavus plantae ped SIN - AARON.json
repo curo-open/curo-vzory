@@ -1,0 +1,254 @@
+{
+  "description": "Odstránenie clavu na ploske ľavej nohy - AARON",
+  "type": null,
+  "summary": "Clavus plantae ped SIN - AARON",
+  "content": "<section data-x-id=\"2\" data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"FieldList hasActions\" data-name=\"reason\" data-prop-value=\"K\">kontrola pacienta</div>​<label data-for=\"datum\" class=\"_noval hidden\">zo dňa​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"datumVyziadania\" class=\"_noval hidden\">dátum vyžiadania​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"datumVyziadania\"></div>​<label data-for=\"id\" class=\"_noval hidden\">identifikátor​</label><div class=\"_noval Field hidden\" data-name=\"id\"></div></section><section data-x-id=\"3\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\">bolestivá rezistencia na pravej nohe na ploske<br></div></section><section data-x-id=\"4\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\">orient, eupnoe, anikter., acyanoza<br>SPL: 1x1,5 cm rezistencia na ploske pravej nohy nad II.-III. MTT, bez inflam a secer.<br></div></section><section data-x-id=\"5\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-classid=\"diagnoza\" data-id-ezid=\"00000051953@13\" data-id=\"L84\" title=\"[L84] Kurie oko a mozoľ\" style=\"width: 50ch;\">[L84] Kurie oko a mozoľ</div>​<label data-for=\"text\" class=\"\">/​</label><div class=\"Field minor\" data-name=\"text\">Clavus hallucis ped l dx</div></section><section data-x-id=\"6\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000117556@19\" data-id=\"63\" data-prop-body=\"200\" title=\"[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"7\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"421\" data-id-ezid=\"00000468751@19\" data-id-classid=\"vykon\" data-prop-body=\"180\" title=\"[421] Zvodná anestézia prsta na ruke alebo nohe.\" style=\"width: 50ch;\">[421] Zvodná anestézia prsta na ruke alebo nohe.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"8\" data-type=\"pl\" class=\"\"><aside></aside><label class=\"section-label  has-info\">Podaný liek​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"00502\" data-id-classid=\"liek\" data-id-sp=\"?\" data-id-atc=\"N01BB\" data-id-ul=\"\" data-id-f=\"SOL INJ\" data-id-ezid=\"00020288130\" data-prop-sp-uhr=\"AS\" data-prop-dpl=\"4.37\" data-prop-cena=\"12.07\" data-prop-sdl=\"100\" data-prop-atc-name=\"Amidy\" data-prop-uzp_1zvj=\"0.077\" data-prop-vnl=\"R\" data-prop-gp=\"0\" data-prop-bal=\"10\" data-prop-unit=\"DF\" data-prop-zvj-pocet-bal=\"100\" data-prop-ol=\"0\" title=\"[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)\" style=\"width: 50ch;\">[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)</div>​<label data-for=\"qty\" class=\"\">množstvo ZVJ​</label><div class=\"FieldR\" data-name=\"qty\" data-prop-value=\"10.00\">10</div>​<label data-for=\"payoff\" class=\" _noval\">prepíš jed. cenu ZP​</label><div class=\"_noval FieldR\" data-name=\"payoff\"></div>​<label data-for=\"dpljed\" class=\" _noval\">prepíš jed. cenu pacienta​</label><div class=\"_noval FieldR\" data-name=\"dpljed\"></div>​<label data-for=\"dpl\" class=\"\">dopl. pacient​</label><div class=\"FieldR locked\" data-name=\"dpl\" data-prop-value=\"0.44\">0,44</div>​<label data-for=\"uhradazp\" class=\"\">úhrada ZP​</label><div class=\"FieldR locked\" data-name=\"uhradazp\" data-prop-value=\"0.77\">0,77</div>​<label data-for=\"typ\" class=\" _noval\">špecifické podmienky​</label><div class=\"_noval FieldList hasActions\" data-name=\"typ\"></div>​<label data-for=\"kodl\" class=\" _noval\">alt. kód lieku​</label><div class=\"_noval Field\" data-name=\"kodl\"></div></section><section data-x-id=\"9\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000474544@19\" data-id=\"2100\" data-prop-body=\"160\" title=\"[2100] Excízia malého kúska sliznice alebo kože (malý benígny tumor, napríklad epulis, hyperplázia, leukoplakia, probatórna excízia) alebo excízia malého, v koži uloženého nádoru.\" style=\"width: 50ch;\">[2100] Excízia malého kúska sliznice alebo kože (malý benígny tumor, napríklad epulis, hyperplázia, leukoplakia, probatórna excízia) alebo excízia malého, v koži uloženého nádoru.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"10\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th. / Liečba​:</label><div class=\"FieldHtml\" data-name=\"th\">toaleta, desinf., LA 1% Mes. 10 ml, electroexcisio in toto, Višnevski balsam, krytie, band.<br></div></section><section data-x-id=\"11\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\">ko o 2-3 dni, <br></div></section>",
+  "title": "Clavus plantae ped SIN - AARON",
+  "shortcut": "AApcs",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "kontrola pacienta",
+            "props": {
+              "propValue": "K"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bolestivá rezistencia na ľavej nohe na ploske<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient, eupnoe, anikter., acyanoza<br>SPL: 1x1,5 cm rezistencia na ploske ľavej nohy nad II.-III. MTT, bez inflam a secer.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 5,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[L84] Kurie oko a mozoľ",
+            "props": {
+              "id": "L84",
+              "idEzid": "00000051953@13",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "Clavus hallucis ped l sin",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 6,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "id": 63,
+              "idEzid": "00000117556@19",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 7,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[421] Zvodná anestézia prsta na ruke alebo nohe.",
+            "props": {
+              "propBody": 180,
+              "idClassid": "vykon",
+              "idEzid": "00000468751@19",
+              "id": 421
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 9,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2100] Excízia malého kúska sliznice alebo kože (malý benígny tumor, napríklad epulis, hyperplázia, leukoplakia, probatórna excízia) alebo excízia malého, v koži uloženého nádoru.",
+            "props": {
+              "propBody": 160,
+              "id": 2100,
+              "idEzid": "00000474544@19",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pl": [
+      {
+        "id": 8,
+        "order": 6,
+        "props": {
+          "type": "pl"
+        },
+        "value": {
+          "id": {
+            "value": "[00502] Mesocain 1 % | sol inj 10x10 ml (amp. skl.)",
+            "props": {
+              "propOl": 0,
+              "propZvjPocetBal": 100,
+              "propUnit": "DF",
+              "propBal": 10,
+              "propGp": 0,
+              "propVnl": "R",
+              "propUzp_1zvj": 0.077,
+              "propAtcName": "Amidy",
+              "propSdl": 100,
+              "propCena": 12.07,
+              "propDpl": 4.37,
+              "propSpUhr": "AS",
+              "idEzid": "00020288130",
+              "idF": "SOL INJ",
+              "idUl": "",
+              "idAtc": "N01BB",
+              "idSp": "?",
+              "idClassid": "liek",
+              "id": "00502"
+            }
+          },
+          "qty": {
+            "value": "10",
+            "props": {
+              "propValue": "10.00"
+            }
+          },
+          "payoff": {
+            "value": "",
+            "props": {}
+          },
+          "dpljed": {
+            "value": "",
+            "props": {}
+          },
+          "dpl": {
+            "value": "0,44",
+            "props": {
+              "propValue": 0.44
+            }
+          },
+          "uhradazp": {
+            "value": "0,77",
+            "props": {
+              "propValue": 0.77
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "kodl": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 10,
+        "order": 8,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "toaleta, desinf., LA 1% Mes. 10 ml, electroexcisio in toto, Višnevski balsam, krytie, band.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 11,
+        "order": 9,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o 2-3 dni, <br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "clavus"
+  ],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

@@ -1,0 +1,110 @@
+{
+  "title": "Dalacin 300 mg ",
+  "shortcut": "ldal",
+  "summary": "Dalacin 300 mg ",
+  "if": "",
+  "data": {
+    "_": {},
+    "r": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[83458] DALACIN C 300 mg | cps dur 16x300 mg (blis.PVC/Al)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Klindamycín",
+              "propSdl": 4,
+              "propCena": 5.15,
+              "propVnl": "R",
+              "propUzp_1zvj": 0.966,
+              "propBal": 16,
+              "propGp": 1,
+              "propUnit": "DF",
+              "propSpUhr": "S",
+              "propDpl": 1.29,
+              "idClassid": "liek",
+              "idEzid": "00020550232",
+              "idF": "CPS DUR",
+              "idSp": "ora",
+              "idAtc": "J01FF01",
+              "idUl": "",
+              "id": 83458
+            }
+          },
+          "schedule": {
+            "value": "á 6 hod. 1  ",
+            "props": {
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propWay_code": "",
+              "propUnitsperhour": 1,
+              "propHours": 6,
+              "propType": "PEV2"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "payoff": {
+            "value": "1,29",
+            "props": {
+              "propValue": 1.29
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "liek"
+  ],
+  "vars": {},
+  "description": "Predpis lieku Dalacin",
+  "source": "curo-open/curo-vzory#/010SALING"
+}

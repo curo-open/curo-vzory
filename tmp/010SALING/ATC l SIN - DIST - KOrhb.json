@@ -1,0 +1,137 @@
+{
+  "description": "Kontrola po distorzii ľavého ATC s odoslaním na RHB",
+  "type": null,
+  "summary": "ATC l SIN - DIST - KOrhb",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"_focus\"><aside></aside><div class=\"FieldHtml _focus\" data-name=\"t\">S.: lepšie, pretrvavajúce pobolievanie v mieste udretia ľ. členka\nO.: orient., poloha akt., eupnoe, anikter., acyanoza\nSPL : pretrvavajúca palp. alg. v mieste podvrtnutia ľ. TC zhybu pod lateral. malleolom a nad Chopart. zhybom, bez edemu a NCP s terminal. viaznucou dynamikou ľ. TC zhybu\nDop.: RHB liečba\n\n<br></div></section>",
+  "title": "ATC l SIN - DIST - KOrhb",
+  "shortcut": "atcdskr",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 8,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 9,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "lepšie, pretrvavajúce pobolievanie ľ. členka<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 10,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanoza<br>SPL : pretrvavajúca palp. alg. v mieste podvrtnutia ľ. TC zhybu pod lateral. malleolom a nad Chopart. zhybom, bez edemu a NCP s terminal. viaznucou dynamikou ľ. TC zhybu<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 2,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S93.40] Vyvrtnutie a natiahnutie členka, časť bližšie neurčená",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089494609@12",
+              "id": "S93.40"
+            }
+          },
+          "text": {
+            "value": "st.p. distorsionem ATC l sin",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 4,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000117556@14",
+              "id": 63
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 11,
+        "order": 5,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "NSA p.p., <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 12,
+        "order": 6,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "RHB liečba<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

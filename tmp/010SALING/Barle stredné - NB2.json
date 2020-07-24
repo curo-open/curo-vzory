@@ -1,0 +1,107 @@
+{
+  "title": "Barle stredné - NB2",
+  "shortcut": "pbs",
+  "description": "Dve stredné nemecké barle. PPP",
+  "summary": "Barle stredné - NB2",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "3": [
+          "recommendedBy"
+        ]
+      }
+    },
+    "pp": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "pp",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[K85169] Barla podpazušná duralová GR 306 | výškovo nastaviteľná na 114-134cm",
+            "props": {
+              "propDpl": 0,
+              "propCena": 5.83,
+              "propPo_8": "013",
+              "propPo_7": "027",
+              "propPo_6": "REU",
+              "propPo_5": "ORT",
+              "propPo_4": "039",
+              "propPo_3": "NEU",
+              "propPo_2": "037",
+              "propPo_1": "060",
+              "propPo_0": "CHI",
+              "idV": "FAZ-IT",
+              "id": "K85169",
+              "idClassid": "pomocka",
+              "idEzid": "00020604112"
+            }
+          },
+          "qty": {
+            "value": "2",
+            "props": {
+              "propValue": "2.00"
+            }
+          },
+          "need": {
+            "value": "dočasná",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "reason": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {
+              "error": "Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára"
+            }
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "namieru": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/010SALING"
+}

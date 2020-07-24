@@ -1,0 +1,139 @@
+{
+  "type": null,
+  "summary": "ATC l DX - DIST - KONTROLA o 7-10 dní",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"_focus\"><aside></aside><div class=\"FieldHtml _focus\" data-name=\"t\">S.: bolesti v pr. členku miernejšie, pretrvavajú pri záťaži\nO.: orient., poloha akt., eupnoe, anikter., acyanoza\nSPL : pr. členok s resorbujúcim sa haematomom a ustupujúcim edémom s palp. alg. pod lateral. malleolom a nad Chopart. zhybom\nZ.: st. p. dist ATC l dx\nDop.: pokračovať v liečbe, NSA lokal., telesné šetrenie\nko o 7-10 dní, potom RHB\n\n<br></div></section>",
+  "title": "ATC l DX - DIST - KONTROLA o 7-10 dní",
+  "shortcut": "atcddkt",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "kontrola pacienta",
+            "props": {
+              "propValue": "K"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bolesti v pr. členku miernejšie, pretrvavajú pri záťaži<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt., eupnoe, anikter., acyanoza<br>SPL : pr. členok s resorbujúcim sa haematomom a ustupujúcim edémom s palp. alg. pod lateral. malleolom a nad Chopart. zhybom<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S93.40] Vyvrtnutie a natiahnutie členka, časť bližšie neurčená",
+            "props": {
+              "id": "S93.40",
+              "idEzid": "02089494609@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "st. p. dist ATC l dx",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 5,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "id": 63,
+              "idEzid": "00000117556@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 6,
+        "order": 5,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "NSA, ortéza<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o 7-10 dní, potom RHB<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "description": "Kontrola pravého členka po podvrtnutí - ko o 7-10 dní",
+  "source": "curo-open/curo-vzory#/010SALING"
+}

@@ -1,0 +1,159 @@
+{
+  "type": null,
+  "summary": "Fr. coli fem l DX - Stehy ex",
+  "content": "<section data-x-id=\"\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">S.: dobre, afebrilná\nO.: orient., poloha akt. (o NB), eupnoe, anikter., acyanóza\npr. koxa palp. bpn, rana zhojená p.p.i.\npasívna dynamika primeraná, PDK bez NCP\nKo o mesiac (RTG), potom predpokladaná RHB\n\n</div></section>",
+  "title": "Fr. coli fem l DX - Stehy ex",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "dobre, afebril.,<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orient., poloha akt. (o NB), eupnoe, anikter., acyanóza<br>pr. koxa palp. bpn, rana zhojená p.p.i.<br>pasívna dynamika primeraná, PDK bez NCP<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[S72.11] Zlomenina stehnovej kosti, intertrochanterová",
+            "props": {
+              "idClassid": "diagnoza",
+              "id": "S72.11",
+              "idEzid": "02089492389@12"
+            }
+          },
+          "text": {
+            "value": "st.p. fr. pertrochanterica DX",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 5,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "id": 63,
+              "idEzid": "00000117556@14"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 6,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[2007] Odstránenie sutúry alebo stehov z veľkej rany.",
+            "props": {
+              "propBody": 60,
+              "idClassid": "vykon",
+              "id": 2007,
+              "idEzid": "00000474346@14"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "toaleta, desinf., stehy ex, krytie, band.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 8,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ko o mesiac (RTG), potom predpokladaná RHB<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "shortcut": "ste colfe dx",
+  "description": "Vybratie stehov po op. krčka pr. stehnovej kosti.",
+  "source": "curo-open/curo-vzory#/010SALING"
+}
