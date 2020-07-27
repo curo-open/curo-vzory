@@ -1,0 +1,32 @@
+{
+  "title": "1%KYS.ML/S",
+  "shortcut": "M00028",
+  "if": "",
+  "data": {
+    "_": {},
+    "r-ml": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "r-ml"
+        },
+        "value": {
+          "title": {
+            "value": "M00028",
+            "props": {}
+          },
+          "schedule": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "Acidi lactici 1,0\nAquae purificateae\nGlyceroli áá 10,0\nSyndermani ad 100,0\nM.f.ung.\nD.S&amp;-;na premastenie <br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/020"
+}

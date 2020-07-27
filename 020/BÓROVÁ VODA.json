@@ -1,0 +1,32 @@
+{
+  "title": "BÓROVÁ VODA",
+  "shortcut": "M00020",
+  "if": "",
+  "data": {
+    "_": {},
+    "r-ml": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "r-ml"
+        },
+        "value": {
+          "title": {
+            "value": "M00020",
+            "props": {}
+          },
+          "schedule": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "Acidi borici 3,0\nAquae destilatae ad 100,0\nm.f.sol\nD.s. obklady<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/020"
+}

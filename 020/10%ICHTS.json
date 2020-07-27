@@ -1,0 +1,32 @@
+{
+  "title": "10%ICHT/S",
+  "shortcut": "M00023",
+  "if": "",
+  "data": {
+    "_": {},
+    "r-ml": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "r-ml"
+        },
+        "value": {
+          "title": {
+            "value": "M00023",
+            "props": {}
+          },
+          "schedule": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "Ichtamoli 10,0\nZinci oxidati\nTalci áá 20,0\nSyndermani ad 100,0\nM.f pasta\nD.S. na ložiská<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/020"
+}

@@ -1,0 +1,32 @@
+{
+  "title": "KMN04",
+  "shortcut": "M00021",
+  "if": "",
+  "data": {
+    "_": {},
+    "r-ml": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "r-ml"
+        },
+        "value": {
+          "title": {
+            "value": "M00021",
+            "props": {}
+          },
+          "schedule": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "Kalii permanganici 4,0\nD.S. do kupela<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/020"
+}

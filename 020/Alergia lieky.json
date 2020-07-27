@@ -14,9 +14,9 @@
           "id": {
             "value": "[Z88.8] Alergia na iné lieky, liečivá a biologicky aktívne látky v osobnej anamnéze",
             "props": {
-              "id": "Z88.8",
+              "idClassid": "diagnoza",
               "idEzid": "02089527358",
-              "idClassid": "diagnoza"
+              "id": "Z88.8"
             }
           },
           "text": {
@@ -40,5 +40,7 @@
     ]
   },
   "if": "",
+  "tags": [],
+  "vars": {},
   "source": "curo-open/curo-vzory#/020"
 }
