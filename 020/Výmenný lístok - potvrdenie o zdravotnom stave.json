@@ -16,7 +16,7 @@
         },
         "value": {
           "text": {
-            "value": "Potvrdenie o zdravotnom stave<br>Zdravotný stav dobrý, t.č bez známok infekčnosti, základné ochorenie stabilizované  <br>Menovaný je spôsobilý k nástupu na kúpeľnú liečbu<br>Potvrdenie o zdravotnom stave <br>Zdravotný stav menovaného je dobrý, <br>t.č. bez známok akútneho, či infekčného <br>ochorenia. <br>Chronické diagnózy sú stabilizované<br>",
+            "value": "Potvrdenie o zdravotnom stave<br>Zdravotný stav dobrý, t.č bez známok infekčnosti, základné ochorenie stabilizované  <br>Menovaný je spôsobilý k nástupu na kúpeľnú liečbu<br>Chronické diagnózy sú stabilizované<br>",
             "props": {}
           },
           "odbor": {
@@ -26,9 +26,9 @@
           "druh": {
             "value": "[2] ambulancia",
             "props": {
-              "id": 2,
+              "idClassid": "cinnost",
               "idEzid": "00000000273@3",
-              "idClassid": "cinnost"
+              "id": 2
             }
           },
           "presne": {
