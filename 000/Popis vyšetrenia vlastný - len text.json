@@ -1,0 +1,28 @@
+{
+  "summary": "",
+  "content": "<section data-x-id=\"2\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.value=='vlastne'\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"3\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyš.​:</label><div class=\"FieldList hasActions highlight\" data-name=\"typ\">vlastne</div>​<label data-for=\"date\" class=\"ss _noval\">dátum vyšetrenia​</label><div class=\"_noval FieldDate hasActions ss\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div>​<label data-for=\"me\" class=\"ss _noval\">mnou vyžiadané​</label><div class=\"_noval FieldSwitchX hasActions ss\" data-name=\"me\"></div>​<label data-for=\"popis\" class=\"\">popis:​</label><div class=\"FieldHtml\" data-name=\"popis\">predefinovane vlastne<br></div></section><section data-x-id=\"4\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? }}<br></div></section>",
+  "title": "Popis vyšetrenia vlastný - len text",
+  "shortcut": "pvvt",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>{{ sessions|getSections(\"pv\")|where(\"s.value.typ.value=='vlastne'\")|where(\"i==0\")[0].s.value.typ.value }}:</b> {{ sessions|getSections(\"pv\")|where(\"s.value.typ.value=='vlastne'\")|where(\"i==0\")[0].s.value.popis.value }}  <br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/000"
+}
