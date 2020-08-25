@@ -1,0 +1,146 @@
+{
+  "description": "",
+  "summary": "Protokol o pokračovaní a kontrole liečby Crohnovej choroby a ulceróznej kolitídy ",
+  "content": "<section data-x-id=\"1\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\"><u><span style=\"font-size:14.0pt;mso-bidi-font-size:16.0pt;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:Arial;color:black\"><b style=\"mso-bidi-font-weight:normal\"><br></b></span></u><b><u>P R O T O K O L   O   Z A Č A T Í   A   K O N T R O L E    L I E Č BY   <br>C R O H N O V E J    C H O R O B Y   A   U L C E R Ó Z N E J    K O L I T Í D Y</u></b><br>\t<br><br><b>x\tPOKRAČOVANIE LIEČBY  <br></b>\t<br><b>Pacient</b><br>Diagnóza: <br>Crohnova choroba\t☐<br>Ulcerózna kolitída\t☐<br><br><b>Indikujúce zdravotnícke zariadenie (pokračovanie liečby)</b><br>Meno, priezvisko a špecializácia indikujúceho lekára:   <br>Prof. MUDr. Tibor Hlavatý, PhD     Kód lekára: A92711048<br>MUDr. Jozef Tóth                            Kód lekára: 56849048<br><b><br>Názov a adresa zdravotníckeho zariadenia:       </b><br>Gastroenterologické centrum Ružinov, Cliniq sro, Poliklinika Ružinov, 3. poschodie, Ružinovská 10, 82007 Bratislava        <br>kód PZS:  P12928048201<br>Telefónne číslo: 02/33 22 11 11<br>Emailová adresa: ibd.ruzinov@gmail.com <br><br><b>Verejná lekáreň pre dodanie centrálne nakupovaných liekov: </b><br>Lekáreň Astra, Ružinovská poliklinika, Ružinovská 10, Bratislava 82007, <br>vedúca lekárne: PharmDr. Milena Varadinová, kontakt: 02/48279682, 0910387 316, lekastraruzinov@mail.t-com.sk<br><br><b>Liek<br></b><b>Názov lieku:     </b>                   \t<b>REMSIMA  </b><br>Doplnok názvu lieku:          \tplc. ifo. 1x100mg (liek.inj.skl)<br>ŠÚKL kód lieku:                  \t7044A REMSIMA <br>ATC kód lieku:                    \tL04AB02<br>Požadovaný počet balení:  \t24 balení t.j. 6 podaní x 4balenia <br>Na obdobie:                        \tudržiavacia liečba na 6 mesiacov <b>od 18.2.2019 do 18.8.2019</b><br>Dávkovanie:                        \t5 mg/kg i.v.  á 4 týždne (pacient váži 78kg)<br><br><br><b>Prílohy: </b><br>1)\tLekársky nález obsahujúci <br>-\tZhodnotenie aktivity ochorenia podľa indexu HBI pri Crohnovej chorobe a parciálne Mayo skóre pri ulceróznej kolitíde<br>-\tEpikrízu a odôvodnenie indikácie <br>-\tPri pokračovaní liečba zhodnotenie jej účinnosti a bezpečnosti<br><br><br>Podpis a odtlačok pečiatky navrhujúceho/ ošetrujúceho  lekára:..................<br><br><br>Dátum: .................................. <br><br></div></section><section data-x-id=\"2\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\"><b>Zdvorilo žiadame o schválenie práve tohoto lieku a nie iného biosimiláru.</b><br></div></section>",
+  "title": "Protokol o pokračovaní a kontrole liečby Crohnovej choroby a ulceróznej kolitídy",
+  "shortcut": "blp",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 14,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b><u>Protokol o pokračovaní a kontrole liečby Crohnovej choroby a ulceróznej kolitídy</u></b> <br><br><b>Diagnóza</b>:  {{ sessions|getSections(\"lvyn\")|where(\"i==0\")[0].s.value.dg.value}}<br><br><br><b>Ošetrujúci lekár </b><br>Meno, priezvisko a špecializácia ošetrujúceho  lekára <br><b>{{ identita.lekar_meno }}</b>, {{ identita.lekar_odbornost }}, kód lekára: {{ identita.lekar_kod }}<br><br><b>Názov a adresa zdravotníckeho zariadenia (aplikačné centrum): </b><br>xxx<br>Tel: xxx  Email:  xxx<br><br><br><b>Verejná lekáreň pre dodanie centrálne nakupovaných liekov: <br></b>xxx<br>vedúca lekárne: xxx, kontakt:  xxxx, email: xxxx<br><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Indikujúce zdravotnícke zariadenia (Indikačné centrum) </b><br>Meno, priezvisko a špecializácia indikujúceho lekára:     <br><b>{{ identita.lekar_meno }}</b>, {{ identita.lekar_odbornost }}, kód lekára: {{ identita.lekar_kod }}<br><br>Názov a adresa zdravotníckeho zariadenia:  <br>xxx<br>Tel: xxx  \t\tEmai:  xxx<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 17,
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? sessions|getSections(\"lvyn\")|where(\"i==0\")[0].s.value.forma.value != 'tableta' }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 18,
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Liek</b><br>ŠÚKL kód lieku:                   {{ sessions|getSections(\"lvyn\")|where(\"i==0\")[0].s.value.liek.props.id }}<br>ATC kód lieku:                     {{ sessions|getSections(\"lvyn\")|where(\"i==0\")[0].s.value.liek.props.idAtc }} <br><b>Názov lieku:                        {{ sessions|getSections('lvyn')[0].sekcia.liekNazov }}</b><br>Doplnok názvu lieku:           {{ sessions|getSections('lvyn')[0].sekcia.liekDoplnok }}<br>Požadovaný počet balení:  <b>{{ sessions|getSections(\"lvyn\")|where(\"i==0\")[0].s.value.balenia.value}}</b><br>Na obdobie:                         {{ sessions|getSections(\"lvyn\")|where(\"i==0\")[0].s.value.obdobie.value}}<br>Dávkovanie:                         {{ sessions|getSections(\"lvyn\")|where(\"i==0\")[0].s.value.davkovanie.value}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 19,
+        "order": 5,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 20,
+        "order": 6,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Liek</b><br>ŠÚKL kód lieku:                   {{ sessions|getSections(\"lvyn\")|where(\"i==0\")[0].s.value.liek.props.id }}<br>ATC kód lieku:                     {{ sessions|getSections(\"lvyn\")|where(\"i==0\")[0].s.value.liek.props.idAtc }} <br><b>Názov lieku:                        {{ sessions|getSections('lvyn')[0].sekcia.liekNazov }}</b><br>Doplnok názvu lieku:           {{ sessions|getSections('lvyn')[0].sekcia.liekDoplnok }}<br>Navrhovaný počet originálnych balení lieku/DP/ZVJ u liekov s úhradou „A/AS“*) na časové obdobie 6 mesiacov: :  <b>{{ sessions|getSections(\"lvyn\")|where(\"i==0\")[0].s.value.balenia.value}}</b><br>Dávkovanie:                         {{ sessions|getSections(\"lvyn\")|where(\"i==0\")[0].s.value.davkovanie.value}}<br>Hmotnosť pacienta:            {{ sessions|getSections(\"zfp\")|where(\"i==0\")[0].s.value.weight.value}} kg<br>Cena výrobcu/bal:               {{ sessions|getSections(\"lvyn\")|where(\"i==0\")[0].s.value.liek.props.propCena}} EUR<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 21,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 12,
+        "order": 8,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Prílohy: </b><br>1)\tLekársky nález obsahujúci <br>-\tZhodnotenie aktivity ochorenia podľa indexu HBI pri Crohnovej chorobe a parciálne Mayo skóre pri ulceróznej kolitíde<br>-\tEpikrízu a odôvodnenie indikácie <br>-\tPri pokračovaní liečba zhodnotenie jej účinnosti a bezpečnosti<br><br><br>Podpis a odtlačok pečiatky navrhujúceho/ ošetrujúceho  lekára:..................<br><br><br>Dátum: {{ dekurz.datum }}<br><br><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 15,
+        "order": 9,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Zdvorilo žiadame o schválenie práve tohoto lieku a nie iného biosimiláru.</b><br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/000"
+}

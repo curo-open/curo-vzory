@@ -1,0 +1,341 @@
+{
+  "summary": "Záznam o podaní biologickej liečby ",
+  "description": "",
+  "content": "<section data-x-id=\"35\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\"><b><span lang=\"CS\" style=\"font-size:18.0pt;line-height:115%;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-ansi-language:CS;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\">Záznam o podaní biologickej liečby<br></span></b><br></div></section><section data-x-id=\"37\" data-type=\"od\" class=\"\"><aside></aside><label class=\"section-label  \">Dôvod vyšetrenia​:</label><div class=\"FieldList hasActions\" data-name=\"reason\" data-prop-value=\"K\">kontrola pacienta</div>​<label data-for=\"datum\" class=\" _noval\">zo dňa​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\"></div>​<label data-for=\"datumVyziadania\" class=\" _noval\">dátum vyžiadania​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"datumVyziadania\"></div>​<label data-for=\"id\" class=\" _noval\">identifikátor​</label><div class=\"_noval Field\" data-name=\"id\"></div></section><section data-x-id=\"4\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089409250@10\" data-id=\"K50.9\" title=\"[K50.9] Crohnova choroba, bližšie neurčená\" style=\"width: 50ch;\">[K50.9] Crohnova choroba, bližšie neurčená</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"7\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089409334@10\" data-id=\"K51.9\" title=\"[K51.9] Ulcerózna kolitída, bližšie neurčená\" style=\"width: 50ch;\">[K51.9] Ulcerózna kolitída, bližšie neurčená</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"25\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\"><b><span lang=\"CS\" style=\"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-ansi-language:CS\"></span><br>Infúzia číslo (poradové číslo/počet schválených): </b><br>Dávka:     mg   <br>Premedikácia: Hydrocortisone 200 mg<br><br>TK:     mmHg      P:     /min     TT: afeb.  <br><br></div></section><section data-x-id=\"27\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\"><span lang=\"CS\" style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-ansi-language:CS\"></span>Pred podaním prehodnotená indikácia i kontraindikácie liečby. <br>Aktuálne pacient bez známok infekcie. Pacientovi podaná infúzia i.v. v trvaní 1 hodiny. <br>Liečba prebehla bez komplikácií. Po podaní pacient odsledovaný.<br><br></div></section><section data-x-id=\"30\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\"><b>Termín nasledujúcej infúzie:</b><br>Odbery (KO, biochem, kalprotektín): <br>Kontrola v amb.: <br><br></div></section><section data-x-id=\"34\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000467951@9\" data-id=\"260a\" data-prop-body=\"150\" title=\"[260a] Zavedenie katétra do periférnej cievy.\" style=\"width: 50ch;\">[260a] Zavedenie katétra do periférnej cievy.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"39\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"272\" data-id-ezid=\"00000468025@9\" data-id-classid=\"vykon\" data-prop-body=\"280\" title=\"[272] Infúzia intravenózna v trvaní viac ako 30 minú vrátane výmeny infúznych fliaš.\" style=\"width: 50ch;\">[272] Infúzia intravenózna v trvaní viac ako 30 minú vrátane výmeny infúznych fliaš.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"15\" data-type=\"pl\" class=\"\"><aside></aside><label class=\"section-label  has-info\">Podaný liek​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"liek\" data-id-ezid=\"00020076675\" data-id-f=\"PLC IFC\" data-id-sp=\"ive\" data-id-atc=\"L04AB02\" data-id-ul=\"infliximabum\" data-id=\"7169A\" data-prop-po_0=\"DER\" data-prop-po_1=\"GIT\" data-prop-po_2=\"REU\" data-prop-ol=\"0\" data-prop-atc-name=\"Infliximab\" data-prop-sdl=\"26.667\" data-prop-cena=\"323.7\" data-prop-vnl=\"Rx\" data-prop-uzp_1zvj=\"12.139\" data-prop-gp=\"0\" data-prop-io=\"ind.obm., ZP\" data-prop-sp-uhr=\"A\" data-prop-dpl=\"0\" title=\"[7169A] Inflectra 100 mg prášok na prípravu infúzneho koncentrátu | plc ifc 1x100 mg (liek.inj.skl.)\" style=\"width: 50ch;\">[7169A] Inflectra 100 mg prášok na prípravu infúzneho koncentrátu | plc ifc 1x100 mg (liek.inj.skl.)</div>​<label data-for=\"qty\" class=\"\">množstvo ZVJ​</label><div class=\"FieldR\" data-name=\"qty\">1</div>​<label data-for=\"payoff\" class=\"\">prepíš jed. cenu ZP​</label><div class=\"FieldR\" data-name=\"payoff\" data-prop-value=\"0.00\">0</div>​<label data-for=\"dpljed\" class=\" _noval\">prepíš jed. cenu pacienta​</label><div class=\"_noval FieldR\" data-name=\"dpljed\"></div>​<label data-for=\"dpl\" class=\" _noval\">dopl. pacient​</label><div class=\"_noval FieldR locked\" data-name=\"dpl\"></div>​<label data-for=\"uhradazp\" class=\" _noval\">úhrada ZP​</label><div class=\"_noval FieldR locked\" data-name=\"uhradazp\"></div>​<label data-for=\"typ\" class=\" _noval\">špecifické podmienky​</label><div class=\"_noval FieldList hasActions\" data-name=\"typ\"></div>​<label data-for=\"kodl\" class=\" _noval\">alt. kód lieku​</label><div class=\"_noval Field\" data-name=\"kodl\"></div></section><section data-x-id=\"17\" data-type=\"pl\" class=\"\"><aside></aside><label class=\"section-label  has-info\">Podaný liek​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"liek\" data-id-ezid=\"00020641478\" data-id-f=\"PLC IFC\" data-id-sp=\"ive\" data-id-atc=\"L04AB02\" data-id-ul=\"infliximabum\" data-id=\"02578\" data-prop-po_0=\"DER\" data-prop-po_1=\"GIT\" data-prop-po_2=\"REU\" data-prop-ol=\"0\" data-prop-atc-name=\"Infliximab\" data-prop-sdl=\"26.667\" data-prop-cena=\"454.57\" data-prop-vnl=\"Rx\" data-prop-uzp_1zvj=\"12.139\" data-prop-gp=\"0\" data-prop-io=\"ind.obm., ZP\" data-prop-sp-uhr=\"AS\" data-prop-dpl=\"130.86\" title=\"[02578] Remicade 100 mg prášok na prípravu infúzneho koncentrátu | plc ifc 1x100 mg (liek.inj.skl.)\" style=\"width: 50ch;\">[02578] Remicade 100 mg prášok na prípravu infúzneho koncentrátu | plc ifc 1x100 mg (liek.inj.skl.)</div>​<label data-for=\"qty\" class=\"\">množstvo ZVJ​</label><div class=\"FieldR\" data-name=\"qty\">1</div>​<label data-for=\"payoff\" class=\"\">prepíš jed. cenu ZP​</label><div class=\"FieldR\" data-name=\"payoff\" data-prop-value=\"0.00\">0</div>​<label data-for=\"dpljed\" class=\" _noval\">prepíš jed. cenu pacienta​</label><div class=\"_noval FieldR\" data-name=\"dpljed\"></div>​<label data-for=\"dpl\" class=\" _noval\">dopl. pacient​</label><div class=\"_noval FieldR locked\" data-name=\"dpl\"></div>​<label data-for=\"uhradazp\" class=\" _noval\">úhrada ZP​</label><div class=\"_noval FieldR locked\" data-name=\"uhradazp\"></div>​<label data-for=\"typ\" class=\" _noval\">špecifické podmienky​</label><div class=\"_noval FieldList hasActions\" data-name=\"typ\"></div>​<label data-for=\"kodl\" class=\" _noval\">alt. kód lieku​</label><div class=\"_noval Field\" data-name=\"kodl\"></div></section><section data-x-id=\"19\" data-type=\"pl\" class=\"\"><aside></aside><label class=\"section-label  has-info\">Podaný liek​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"liek\" data-id-ezid=\"00020173381\" data-id-f=\"PLC IFC\" data-id-sp=\"ive\" data-id-atc=\"L04AB02\" data-id-ul=\"infliximabum\" data-id=\"7044A\" data-prop-po_0=\"DER\" data-prop-po_1=\"GIT\" data-prop-po_2=\"REU\" data-prop-ol=\"0\" data-prop-atc-name=\"Infliximab\" data-prop-sdl=\"26.667\" data-prop-cena=\"329.43\" data-prop-vnl=\"Rx\" data-prop-uzp_1zvj=\"12.139\" data-prop-gp=\"0\" data-prop-io=\"ind.obm., ZP\" data-prop-sp-uhr=\"AS\" data-prop-dpl=\"5.72\" title=\"[7044A] Remsima 100 mg prášok na prípravu infúzneho koncentrátu | plc ifc 1x100 mg (liek.inj.skl.)\" style=\"width: 50ch;\">[7044A] Remsima 100 mg prášok na prípravu infúzneho koncentrátu | plc ifc 1x100 mg (liek.inj.skl.)</div>​<label data-for=\"qty\" class=\"\">množstvo ZVJ​</label><div class=\"FieldR\" data-name=\"qty\">1</div>​<label data-for=\"payoff\" class=\"\">prepíš jed. cenu ZP​</label><div class=\"FieldR\" data-name=\"payoff\" data-prop-value=\"0.00\">0</div>​<label data-for=\"dpljed\" class=\" _noval\">prepíš jed. cenu pacienta​</label><div class=\"_noval FieldR\" data-name=\"dpljed\"></div>​<label data-for=\"dpl\" class=\" _noval\">dopl. pacient​</label><div class=\"_noval FieldR locked\" data-name=\"dpl\"></div>​<label data-for=\"uhradazp\" class=\" _noval\">úhrada ZP​</label><div class=\"_noval FieldR locked\" data-name=\"uhradazp\"></div>​<label data-for=\"typ\" class=\" _noval\">špecifické podmienky​</label><div class=\"_noval FieldList hasActions\" data-name=\"typ\"></div>​<label data-for=\"kodl\" class=\" _noval\">alt. kód lieku​</label><div class=\"_noval Field\" data-name=\"kodl\"></div></section><section data-x-id=\"21\" data-type=\"pl\" class=\"\"><aside></aside><label class=\"section-label  has-info\">Podaný liek​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"liek\" data-id-ezid=\"00020705836\" data-id-f=\"PLC IFC\" data-id-sp=\"ive\" data-id-atc=\"L04AA33\" data-id-ul=\"vedolizumabum\" data-id=\"0358B\" data-prop-po_0=\"GIT\" data-prop-ol=\"0\" data-prop-atc-name=\"Vedolizumab\" data-prop-sdl=\"56.001\" data-prop-cena=\"2012.24\" data-prop-vnl=\"Rx\" data-prop-uzp_1zvj=\"35.933\" data-prop-gp=\"0\" data-prop-io=\"ind.obm., ZP\" data-prop-sp-uhr=\"A\" data-prop-dpl=\"0\" title=\"[0358B] Entyvio 300 mg prášok na prípravu infúzneho koncentrátu | plc ifc 1x300 mg (liek.inj.skl.)\" style=\"width: 50ch;\">[0358B] Entyvio 300 mg prášok na prípravu infúzneho koncentrátu | plc ifc 1x300 mg (liek.inj.skl.)</div>​<label data-for=\"qty\" class=\"\">množstvo ZVJ​</label><div class=\"FieldR\" data-name=\"qty\">1</div>​<label data-for=\"payoff\" class=\"\">prepíš jed. cenu ZP​</label><div class=\"FieldR\" data-name=\"payoff\" data-prop-value=\"0.00\">0</div>​<label data-for=\"dpljed\" class=\" _noval\">prepíš jed. cenu pacienta​</label><div class=\"_noval FieldR\" data-name=\"dpljed\"></div>​<label data-for=\"dpl\" class=\" _noval\">dopl. pacient​</label><div class=\"_noval FieldR locked\" data-name=\"dpl\"></div>​<label data-for=\"uhradazp\" class=\" _noval\">úhrada ZP​</label><div class=\"_noval FieldR locked\" data-name=\"uhradazp\"></div>​<label data-for=\"typ\" class=\" _noval\">špecifické podmienky​</label><div class=\"_noval FieldList hasActions\" data-name=\"typ\"></div>​<label data-for=\"kodl\" class=\" _noval\">alt. kód lieku​</label><div class=\"_noval Field\" data-name=\"kodl\"></div></section><section data-x-id=\"23\" data-type=\"pl\" class=\"\"><aside></aside><label class=\"section-label  has-info\">Podaný liek​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"liek\" data-id-ezid=\"00021226485\" data-id-f=\"SOL INF\" data-id-sp=\"ive\" data-id-atc=\"L04AC05\" data-id-ul=\"USTEKINUMABUM\" data-id=\"1883C\" data-prop-po_0=\"GIT\" data-prop-ol=\"0\" data-prop-atc-name=\"Ustekinumab\" data-prop-sdl=\"240.741\" data-prop-cena=\"2858.99\" data-prop-vnl=\"Rx\" data-prop-uzp_1zvj=\"11.876\" data-prop-gp=\"0\" data-prop-io=\"ind.obm., ZP\" data-prop-sp-uhr=\"A\" data-prop-dpl=\"0\" title=\"[1883C] STELARA 130 mg koncentrát na infúzny roztok | sol inf 1x26 ml/130 mg (liek.inj.skl.)\" style=\"width: 50ch;\">[1883C] STELARA 130 mg koncentrát na infúzny roztok | sol inf 1x26 ml/130 mg (liek.inj.skl.)</div>​<label data-for=\"qty\" class=\"\">množstvo ZVJ​</label><div class=\"FieldR\" data-name=\"qty\">1</div>​<label data-for=\"payoff\" class=\"\">prepíš jed. cenu ZP​</label><div class=\"FieldR\" data-name=\"payoff\" data-prop-value=\"0.00\">0</div>​<label data-for=\"dpljed\" class=\" _noval\">prepíš jed. cenu pacienta​</label><div class=\"_noval FieldR\" data-name=\"dpljed\"></div>​<label data-for=\"dpl\" class=\" _noval\">dopl. pacient​</label><div class=\"_noval FieldR locked\" data-name=\"dpl\"></div>​<label data-for=\"uhradazp\" class=\" _noval\">úhrada ZP​</label><div class=\"_noval FieldR locked\" data-name=\"uhradazp\"></div>​<label data-for=\"typ\" class=\" _noval\">špecifické podmienky​</label><div class=\"_noval FieldList hasActions\" data-name=\"typ\"></div>​<label data-for=\"kodl\" class=\" _noval\">alt. kód lieku​</label><div class=\"_noval Field\" data-name=\"kodl\"></div></section><section data-x-id=\"13\" data-type=\"pl\" class=\"\"><aside></aside><label class=\"section-label  has-info\">Podaný liek​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"liek\" data-id-ezid=\"00020250247\" data-id-f=\"SOL INJ\" data-id-sp=\"ivm\" data-id-atc=\"R06AX\" data-id-ul=\"\" data-id=\"04071\" data-prop-ol=\"0\" data-prop-atc-name=\"Iné antihistaminiká na systémové použitie\" data-prop-sdl=\"2.5\" data-prop-cena=\"7.79\" data-prop-vnl=\"R\" data-prop-uzp_1zvj=\"3.1202\" data-prop-gp=\"0\" data-prop-sp-uhr=\"I\" data-prop-dpl=\"0\" title=\"[04071] DITHIADEN INJ | sol inj 10x2 ml/1 mg (amp. skl.)\" style=\"width: 50ch;\">[04071] DITHIADEN INJ | sol inj 10x2 ml/1 mg (amp. skl.)</div>​<label data-for=\"qty\" class=\"\">množstvo ZVJ​</label><div class=\"FieldR\" data-name=\"qty\">1</div>​<label data-for=\"payoff\" class=\"\">prepíš jed. cenu ZP​</label><div class=\"FieldR\" data-name=\"payoff\" data-prop-value=\"0.00\">0</div>​<label data-for=\"dpljed\" class=\" _noval\">prepíš jed. cenu pacienta​</label><div class=\"_noval FieldR\" data-name=\"dpljed\"></div>​<label data-for=\"dpl\" class=\" _noval\">dopl. pacient​</label><div class=\"_noval FieldR locked\" data-name=\"dpl\"></div>​<label data-for=\"uhradazp\" class=\" _noval\">úhrada ZP​</label><div class=\"_noval FieldR locked\" data-name=\"uhradazp\"></div>​<label data-for=\"typ\" class=\" _noval\">špecifické podmienky​</label><div class=\"_noval FieldList hasActions\" data-name=\"typ\"></div>​<label data-for=\"kodl\" class=\" _noval\">alt. kód lieku​</label><div class=\"_noval Field\" data-name=\"kodl\"></div></section><section data-x-id=\"45\" data-type=\"pl\" class=\"\"><aside></aside><label class=\"section-label  has-info\">Podaný liek​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"liek\" data-id-ezid=\"00021293469\" data-id-f=\"PLC IFC\" data-id-sp=\"ive\" data-id-atc=\"L04AB02\" data-id-ul=\"infliximabum\" data-id=\"8171C\" data-prop-po_0=\"DER\" data-prop-po_1=\"GIT\" data-prop-po_2=\"REU\" data-prop-ol=\"0\" data-prop-atc-name=\"Infliximab\" data-prop-sdl=\"26.667\" data-prop-cena=\"307.5\" data-prop-vnl=\"Rx\" data-prop-uzp_1zvj=\"12.139\" data-prop-gp=\"0\" data-prop-io=\"ind.obm., ZP\" data-prop-sp-uhr=\"A\" data-prop-dpl=\"0\" title=\"[8171C] Zessly 100 mg prášok na prípravu infúzneho koncentrátu | plc ifc 1x100 mg (liek.inj.skl.)\" style=\"width: 50ch;\">[8171C] Zessly 100 mg prášok na prípravu infúzneho koncentrátu | plc ifc 1x100 mg (liek.inj.skl.)</div>​<label data-for=\"qty\" class=\"\">množstvo ZVJ​</label><div class=\"FieldR\" data-name=\"qty\">1</div>​<label data-for=\"payoff\" class=\" _noval\">prepíš jed. cenu ZP​</label><div class=\"_noval FieldR\" data-name=\"payoff\"></div>​<label data-for=\"dpljed\" class=\" _noval\">prepíš jed. cenu pacienta​</label><div class=\"_noval FieldR\" data-name=\"dpljed\"></div>​<label data-for=\"dpl\" class=\" _noval\">dopl. pacient​</label><div class=\"_noval FieldR locked\" data-name=\"dpl\"></div>​<label data-for=\"uhradazp\" class=\" _noval\">úhrada ZP​</label><div class=\"_noval FieldR locked\" data-name=\"uhradazp\"></div>​<label data-for=\"typ\" class=\" _noval\">špecifické podmienky​</label><div class=\"_noval FieldList hasActions\" data-name=\"typ\"></div>​<label data-for=\"kodl\" class=\" _noval\">alt. kód lieku​</label><div class=\"_noval Field\" data-name=\"kodl\"></div></section><section data-x-id=\"26\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\"><b>Typ poistenca: </b><br></div></section><section data-x-id=\"9\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"272\" data-id-ezid=\"00000468025@9\" data-id-classid=\"vykon\" data-prop-body=\"280\" title=\"[272] Infúzia intravenózna v trvaní viac ako 30 minú vrátane výmeny infúznych fliaš.\" style=\"width: 50ch;\">[272] Infúzia intravenózna v trvaní viac ako 30 minú vrátane výmeny infúznych fliaš.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"41\" data-type=\"pl\" class=\"\"><aside></aside><label class=\"section-label  has-info\">Podaný liek​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"62328\" data-id-ul=\"\" data-id-atc=\"B05BB01\" data-id-sp=\"ive\" data-id-f=\"SOL INF\" data-id-ezid=\"00020272209\" data-id-classid=\"liek\" data-prop-dpl=\"0.33\" data-prop-sp-uhr=\"AS\" data-prop-gp=\"0\" data-prop-uzp_1zvj=\"0.38\" data-prop-vnl=\"R\" data-prop-cena=\"1.28\" data-prop-sdl=\"2.5\" data-prop-atc-name=\"Elektrolyty\" data-prop-ol=\"0\" title=\"[62328] INFUSIO NATRII CHLORATI ISOTONICA IMUNA | sol inf 1x250 ml (fľ.inf.skl.)\" style=\"width: 50ch;\">[62328] INFUSIO NATRII CHLORATI ISOTONICA IMUNA | sol inf 1x250 ml (fľ.inf.skl.)</div>​<label data-for=\"qty\" class=\"\">množstvo ZVJ​</label><div class=\"FieldR\" data-name=\"qty\">1</div>​<label data-for=\"payoff\" class=\"\">prepíš jed. cenu ZP​</label><div class=\"FieldR\" data-name=\"payoff\" data-prop-value=\"0.38\">0,38</div>​<label data-for=\"dpljed\" class=\" _noval\">prepíš jed. cenu pacienta​</label><div class=\"_noval FieldR\" data-name=\"dpljed\"></div>​<label data-for=\"dpl\" class=\"\">dopl. pacient​</label><div class=\"FieldR locked\" data-name=\"dpl\" data-prop-value=\"0.33\">0,33</div>​<label data-for=\"uhradazp\" class=\"\">úhrada ZP​</label><div class=\"FieldR locked\" data-name=\"uhradazp\" data-prop-value=\"0.38\">0,38</div>​<label data-for=\"typ\" class=\" _noval\">špecifické podmienky​</label><div class=\"_noval FieldList hasActions\" data-name=\"typ\"></div>​<label data-for=\"kodl\" class=\" _noval\">alt. kód lieku​</label><div class=\"_noval Field\" data-name=\"kodl\"></div></section><section data-x-id=\"43\" data-type=\"r\" class=\"\"><aside></aside><label class=\"section-label  has-info\">R​:</label><div class=\"FieldSearch hasActions highlight-bold truncate\" data-name=\"id\" data-id-classid=\"liek\" data-id-ezid=\"00020371431\" data-id-f=\"PLV INO\" data-id-sp=\"par\" data-id-atc=\"H02AB09\" data-id-ul=\"\" data-id=\"12124\" data-prop-ol=\"0\" data-prop-atc-name=\"Hydrokortizón\" data-prop-sdl=\"3.333\" data-prop-cena=\"1.97\" data-prop-vnl=\"R\" data-prop-uzp_1zvj=\"0.59\" data-prop-gp=\"0\" data-prop-sp-uhr=\"I\" data-prop-dpl=\"0\" title=\"[12124] Hydrocortison VUAB 100 mg | plv ino 1x100 mg (liek.inj.skl.)\" style=\"width: 50ch;\">[12124] Hydrocortison VUAB 100 mg | plv ino 1x100 mg (liek.inj.skl.)</div>​<label data-for=\"schedule\" class=\"\">dáv.​</label><div class=\"FieldMedicationSchedule hasActions\" data-name=\"schedule\" data-prop-way_code=\"\" data-prop-period_t=\"denne\" data-prop-period_code=\"D\" data-prop-text=\"pred infúziou\" data-prop-type=\"ROZ\">podľa rozpisu, pred infúziou</div>​<label data-for=\"qty\" class=\"\"># bal.​</label><div class=\"FieldR hasActions\" data-name=\"qty\">2</div>​<label data-for=\"repeatCount\" class=\"\">rep.​</label><div class=\"FieldN hasActions\" data-name=\"repeatCount\">1</div>​<label data-for=\"repeatAfter\" class=\"ss _noval\">dní medzi výberom​</label><div class=\"_noval FieldN ss\" data-name=\"repeatAfter\"></div>​<label data-for=\"repeatLast\" class=\"ss _noval\">posledný výber​</label><div class=\"_noval FieldDate hasActions ss\" placeholder=\"DD.MM.RRRR\" data-name=\"repeatLast\"></div>​<label data-for=\"repeatFixedUntil\" class=\"ss _noval\">predpis vydrží do​</label><div class=\"_noval FieldDate hasActions ss\" placeholder=\"DD.MM.RRRR\" data-name=\"repeatFixedUntil\"></div>​<label data-for=\"recommendedBy\" class=\"ss _noval\">odp. lek.​</label><div class=\"_noval FieldSearchLekar hasActions ss\" data-name=\"recommendedBy\"></div>​<label data-for=\"recommendedDate\" class=\"ss _noval\">dátum odp.​</label><div class=\"_noval FieldDate hasActions ss\" placeholder=\"DD.MM.RRRR\" data-name=\"recommendedDate\"></div>​<label data-for=\"untilDate\" class=\"ss _noval\">platné do​</label><div class=\"_noval FieldDate hasActions ss\" placeholder=\"DD.MM.RRRR\" data-name=\"untilDate\"></div>​<label data-for=\"noReplacement\" class=\"ss _noval\">náhrada​</label><div class=\"_noval FieldSwitchLogical hasActions ss\" data-name=\"noReplacement\"></div>​<label data-for=\"payoff\" class=\"ss\">doplatok​</label><div class=\"FieldR locked ss\" data-name=\"payoff\" data-prop-value=\"0.00\">0</div>​<label data-for=\"atc\" class=\"ss\">cez ATC​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"atc\" data-prop-value=\"0\">nie</div>​<label data-for=\"instruction\" class=\"ss _noval\">inštrukcie​</label><div class=\"_noval Field ss\" data-name=\"instruction\"></div>​<label data-for=\"reasonPayoff\" class=\"ss _noval\">uhradí​</label><div class=\"_noval FieldSwitch hasActions ss\" data-name=\"reasonPayoff\"></div>​<label data-for=\"prodException\" class=\"ss\">výnimka​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"prodException\" data-prop-value=\"0\">nie</div>​<label data-for=\"force\" class=\"ss\">vyn. zápis​</label><div class=\"FieldSwitchLogical hasActions ss\" data-name=\"force\" data-prop-value=\"0\">nie</div>​<label data-for=\"forceReason\" class=\"ss _noval\">dôvod v.z.​</label><div class=\"_noval Field ss\" data-name=\"forceReason\"></div>​<label data-for=\"barcode\" class=\" _noval\">čiarový kód​</label><div class=\"_noval Field readonly dontCopy\" data-name=\"barcode\"></div>​<label data-for=\"note_zp\" class=\"ss _noval\">poznámka ZP​</label><div class=\"_noval Field readonly dontCopy ss\" data-name=\"note_zp\"></div>​<label data-for=\"status\" class=\"invisible ss\">stav​</label><div class=\"FieldN readonly dontCopy invisible ss\" data-name=\"status\">0</div></section>",
+  "title": "Záznam o podaní biologickej liečby",
+  "shortcut": "zpbl",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 35,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b><span lang=\"CS\" style=\"font-size:18.0pt;line-height:115%;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-ansi-language:CS;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\">Záznam o podaní biologickej liečby<br></span></b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 47,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"lvyn\")|where(\"i==0\")|trans('mapSections', 'lvyn', 'vd', {dg: \"id\"})}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 25,
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b><span lang=\"CS\" style=\"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-ansi-language:CS\"></span><br>Infúzia číslo (poradové číslo/počet schválených): </b><br>Dávka:  {{ sessions|getSections(\"lvyn\")|where(\"i==0\")[0].s.value.davkovanie.value}}  mg   <br>Premedikácia: Hydrocortisone 200 mg<br><br>TK:  {{ sessions|getSections(\"zfp\")|where(\"i==0\")[0].s.value.sys.value}}/ {{ sessions|getSections(\"zfp\")|where(\"i==0\")[0].s.value.diast.value}}  mmHg      P:   {{ sessions|getSections(\"zfp\")|where(\"i==0\")[0].s.value.pulse.value}}   /min     TT: afeb.  <br><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 27,
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<span lang=\"CS\" style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-ansi-language:CS\"></span>Pred podaním prehodnotená indikácia i kontraindikácie liečby. <br>Aktuálne pacient bez známok infekcie. Pacientovi podaná infúzia i.v. v trvaní 1 hodiny. <br>Liečba prebehla bez komplikácií. Po podaní pacient odsledovaný.<br><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 50,
+        "order": 6,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp != 24 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 51,
+        "order": 8,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 63,
+        "order": 9,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 52,
+        "order": 10,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? sessions|getSections(\"lvyn\")|where(\"i==0\")[0].s.value.forma.value == 'infúzia' }} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 49,
+        "order": 12,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"lvyn\")|where(\"i==0\")|trans('mapSections', 'lvyn', 'pl', {liek: \"id\", zvj: \"qty\", typ: \"typ\"}) }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 53,
+        "order": 13,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 54,
+        "order": 14,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? sessions|getSections(\"lvyn\")|where(\"i==0\")[0].s.value.forma.value == 'injekcia' }} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 56,
+        "order": 16,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"lvyn\")|where(\"i==0\")|trans('mapSections', 'lvyn', 'pl', {liek: \"id\", zvj: \"qty\", typ: \"typ\"}) }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 55,
+        "order": 17,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 74,
+        "order": 18,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? sessions|getSections(\"lvyn\")|where(\"i==0\")[0].s.value.forma.value == 'tableta' }} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 76,
+        "order": 20,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"lvyn\")|where(\"i==0\")|trans('mapSections', 'lvyn', 'r', {liek: \"id\", schedule: \"schedule\"}) }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 77,
+        "order": 21,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "od": [
+      {
+        "id": 37,
+        "order": 1,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "kontrola pacienta",
+            "props": {
+              "propValue": "K"
+            }
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 30,
+        "order": 5,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "<b>Termín nasledujúcej infúzie:</b><br>Odbery (KO, biochem, kalprotektín): <br>Kontrola v amb.: <br><br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 34,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[260a] Zavedenie katétra do periférnej cievy.",
+            "props": {
+              "propBody": 150,
+              "idClassid": "vykon",
+              "idEzid": "00000467951@9",
+              "id": "260a"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 39,
+        "order": 11,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[272] Infúzia intravenózna v trvaní viac ako 30 minú vrátane výmeny infúznych fliaš.",
+            "props": {
+              "propBody": 280,
+              "id": 272,
+              "idEzid": "00000468025@9",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 65,
+        "order": 15,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[252] Injekcia intrakutánna, subkutánna, submukózna, subkonjuktiválna alebo intramuskulárna.",
+            "props": {
+              "propBody": 70,
+              "id": 252,
+              "idEzid": "00000467852@20",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 75,
+        "order": 19,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/000"
+}
