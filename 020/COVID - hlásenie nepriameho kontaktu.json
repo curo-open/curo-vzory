@@ -1,0 +1,104 @@
+{
+  "title": "COVID - hlásenie nepriameho kontaktu",
+  "shortcut": "COVIDnk",
+  "if": "",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[U07.2] Podozrenie z infekcie COVID-19",
+            "props": {
+              "id": "U07.2",
+              "idEzid": "02089528679@14",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "Epidemiologická <b>anamnéza nepriameho</b> kontaktu: <br>Klinické príznaky: <br>Členovia spoločnej domácnosti:<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "nepriamy kontakt s COVID+ osobou. <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 5,
+        "order": 3,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "1/ Platí požiadavka na dodržiavanie všeobecne záväzných protiepidemických opatrení <br>2/ Požiadavka na minimlizovanie sociálnych kontaktov v práci, v súkromí a na verejnosti - a to aj pre všetkých členov domácnosti !<br>3/ Samosledovanie respiračných príznakov a telesnej teploty - a to aj pre členov domácnosti.<br>4/ Ohlási sa 10 dní od posledného kontaktu s podozrivou osobou, alebo ak bude mať podozrivá osoba pozitívny COVID test, alebo pri zhoršení zdravot.stavu. <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 8,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky",
+            "props": {
+              "propBody": 0,
+              "idClassid": "vykon",
+              "idEzid": "02089894014@22",
+              "id": "1b"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "summary": "COVID hlásenie nepriameho kontaktu",
+  "source": "curo-open/curo-vzory#/020"
+}

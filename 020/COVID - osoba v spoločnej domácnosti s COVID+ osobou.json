@@ -1,0 +1,178 @@
+{
+  "title": "COVID - osoba v spoločnej domácnosti s COVID+ osobou",
+  "shortcut": "COVIDsk",
+  "if": "",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[U07.2] Podozrenie z infekcie COVID-19",
+            "props": {
+              "id": "U07.2",
+              "idEzid": "02089528679@14",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "Pozitívne testovaná osoba:      dňa: <br><u>Epidemiologická anamnéza kontaktu: v spoločnej domácej karanténe</u><br>Klinické príznaky: <br>Členovia spoločnej domácnosti:<br>Na adrese: {{ pacient.adresa }}, {{ pacient.psc }} {{ pacient.mesto }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "osoba s COVID+ osobou v spoločnej karanténe. <u>Kontakt na pacienta: </u>{{ pacient.tel }}, {{ pacient.email }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 5,
+        "order": 3,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "1/ Platí domáca izolácia a to aj pre členov domácnosti - každý sa hlási u svojho lekára.<br>2/ Je nutné aby COVID+ osoba nosila aj v domácnosti v kontakte s členmi domácnosti rúšku a ak je to možné, pobývala v jednej samostatnej izbe, ktorú treba pravidelne vetrať. <br><u>3/ Pac. som objednal na testovanie - 10. deň v karanténe s COVID+ osobou, bude hlásiť výsledok COVID testu</u>, alebo sa ozve telefonicky pri zhoršení zdravot.stavu. <br>4/ Ak bude kontaktovaný z RÚVZ, poskytne všetku potrebnú súčinnosť.  <br>5/ Poučený/á o nároku na karaténnu DPN. <br>6/ Fyzické šetrenie, vit.C 2x500mg, tekutiny, sledovanie respiračných príznakov a telesnej teploty.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pn": [
+      {
+        "id": 8,
+        "order": 4,
+        "props": {
+          "type": "pn"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "date_vystavene": {
+            "value": "",
+            "props": {}
+          },
+          "znacka": {
+            "value": "",
+            "props": {}
+          },
+          "for": {
+            "value": "",
+            "props": {}
+          },
+          "adresa_pocas_PN": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_datum": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_od": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_do": {
+            "value": "",
+            "props": {}
+          },
+          "comment": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 10,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[71.DPN] Vystavenie potvrdenia o dočasnej pracovnej neschopnosti.",
+            "props": {
+              "propBody": 35,
+              "propType": "soc",
+              "id": "71.DPN",
+              "idEzid": "curo-71.DPN@23",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 6,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky",
+            "props": {
+              "propBody": 0,
+              "idClassid": "vykon",
+              "idEzid": "02089894014@23",
+              "id": "1b"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "summary": "COVID osoba v spoločnej domácnosti s COVID+ osobou",
+  "source": "curo-open/curo-vzory#/020"
+}

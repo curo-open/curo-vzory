@@ -1,0 +1,202 @@
+{
+  "tags": [
+    "choroba"
+  ],
+  "content": "<section data-x-id=\"2\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"_noval FieldSearch hasActions highlight truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"F43.9\" data-id-ezid=\"02089385443@13\" data-id-classid=\"diagnoza\" title=\"[F43.9] Reakcia na ťažký stres, bližšie neurčená\" style=\"width: 50ch;\">[F43.9] Reakcia na ťažký stres, bližšie neurčená</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"4\" data-type=\"s\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"_noval FieldHtml _focus\" data-name=\"s\">zamestnávate je ešte zavretý, obavy z budúcnosti..<br></div></section><section data-x-id=\"6\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"_noval FieldHtml\" data-name=\"odp\">podporná racionálna psychoterapia je indikovaná - pac. poučená o zneužívaní DPN<br></div></section><section data-type=\"vv\" class=\"\" data-x-id=\"7\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"1\" data-id-ezid=\"00000466508@15\" data-id-classid=\"vykon\" data-prop-body=\"80\" title=\"[1] Pod radou sa rozumie poskytnutie informácií pacientovi alebo zákonnému zástupcovi v súvislosti so zdravotným stavom. Výkon pod kódom 1 nemožno vykazovať súčasne s inými výkonmi. Výkon nemožno vykazovať pre telefonické objednávanie pacienta.\" style=\"width: 50ch;\">[1] Pod radou sa rozumie poskytnutie informácií pacientovi alebo zákonnému zástupcovi v súvislosti so zdravotným stavom. Výkon pod kódom 1 nemožno vykazovať súčasne s inými výkonmi. Výkon nemožno vykazovať pre telefonické objednávanie pacienta.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
+  "title": "COVID - hlásenie priameho kontaktu",
+  "shortcut": "COVIDpk",
+  "if": "",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 8,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[U07.2] Podozrenie z infekcie COVID-19",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089528679@14",
+              "id": "U07.2"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 9,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "Pozitívne testovaná osoba:      dňa:  {{ dekurz.datum }}<br>Epidemiologická anamnéza kontaktu: <br>Klinické príznaky: <br>Členovia spoločnej domácnosti:<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ea": [
+      {
+        "id": 16,
+        "order": 2,
+        "props": {
+          "type": "ea"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 10,
+        "order": 3,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "kontakt s COVID+ osobou. <u>Kontakt na pacienta: </u>{{ pacient.tel }}, {{ pacient.email }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 11,
+        "order": 4,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "1/ Platí domáca izolácia a to aj pre členov domácnosti - každý sa hlási u svojho lekára.<br>2/ Bude čakať na telefonát z RÚVZ Poprad, a poskytne všetku potrebnú súčinnosť ohľadom testovania a karantény ako budú nariadené rozhodnutím RÚVZ!  <br>3/ Ohlási sa 10 dní od posledného kontaktu s COVID+ osobou,  alebo skôr ak bude hlásiť výsledok COVID testu (ak bude cez RÚVZ indikovaný), alebo pri zhoršení zdravot.stavu. <br>4/ Poučený/á o nároku na karaténnu DPN. <br>5/ Fyzické šetrenie, vit.C 2x500mg, tekutiny, sledovanie respiračných príznakov a telesnej teploty.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pn": [
+      {
+        "id": 12,
+        "order": 5,
+        "props": {
+          "type": "pn"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "date": {
+            "value": "14.10.2020",
+            "props": {
+              "propValue": "2020-10-13T22:00:00.000Z",
+              "expr": "=dnes"
+            }
+          },
+          "date_vystavene": {
+            "value": "14.10.2020",
+            "props": {
+              "propValue": "2020-10-13T22:00:00.000Z",
+              "expr": "=dnes"
+            }
+          },
+          "znacka": {
+            "value": "",
+            "props": {}
+          },
+          "for": {
+            "value": "",
+            "props": {}
+          },
+          "adresa_pocas_PN": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_datum": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_od": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_do": {
+            "value": "",
+            "props": {}
+          },
+          "comment": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 13,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[71.DPN] Vystavenie potvrdenia o dočasnej pracovnej neschopnosti.",
+            "props": {
+              "propBody": 35,
+              "propType": "soc",
+              "id": "71.DPN",
+              "idEzid": "curo-71.DPN@22",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 14,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky",
+            "props": {
+              "propBody": 0,
+              "id": "1b",
+              "idEzid": "02089894014@22",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "summary": "",
+  "source": "curo-open/curo-vzory#/020"
+}
