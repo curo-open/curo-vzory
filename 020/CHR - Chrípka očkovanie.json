@@ -35,10 +35,69 @@
         }
       }
     ],
+    "zfp": [
+      {
+        "id": 25,
+        "order": 2,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "oh": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "",
+            "props": {}
+          },
+          "temp": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "oc": [
       {
         "id": 2,
-        "order": 2,
+        "order": 3,
         "props": {
           "type": "oc"
         },
@@ -52,9 +111,9 @@
             }
           },
           "datum": {
-            "value": "31.01.2020",
+            "value": "16.10.2020",
             "props": {
-              "propValue": "2020-01-31T10:21:50.963Z",
+              "propValue": "2020-10-15T22:00:00.000Z",
               "expr": "=dnes"
             }
           },
@@ -68,7 +127,7 @@
     "premenna": [
       {
         "id": 18,
-        "order": 3,
+        "order": 4,
         "props": {
           "type": "premenna"
         },
@@ -91,7 +150,7 @@
       },
       {
         "id": 19,
-        "order": 4,
+        "order": 5,
         "props": {
           "type": "premenna"
         },
@@ -116,7 +175,7 @@
     "vd": [
       {
         "id": 5,
-        "order": 5,
+        "order": 6,
         "props": {
           "type": "vd"
         },
@@ -139,7 +198,7 @@
     "t": [
       {
         "id": 20,
-        "order": 6,
+        "order": 7,
         "props": {
           "type": "t"
         },
@@ -152,7 +211,7 @@
       },
       {
         "id": 21,
-        "order": 9,
+        "order": 10,
         "props": {
           "type": "t"
         },
@@ -165,7 +224,7 @@
       },
       {
         "id": 22,
-        "order": 10,
+        "order": 11,
         "props": {
           "type": "t"
         },
@@ -178,7 +237,7 @@
       },
       {
         "id": 23,
-        "order": 13,
+        "order": 14,
         "props": {
           "type": "t"
         },
@@ -193,7 +252,7 @@
     "ol": [
       {
         "id": 3,
-        "order": 7,
+        "order": 8,
         "props": {
           "type": "ol"
         },
@@ -238,7 +297,7 @@
       },
       {
         "id": 16,
-        "order": 11,
+        "order": 12,
         "props": {
           "type": "ol"
         },
@@ -285,7 +344,7 @@
     "r": [
       {
         "id": 13,
-        "order": 8,
+        "order": 9,
         "props": {
           "type": "r"
         },
@@ -378,7 +437,7 @@
       },
       {
         "id": 14,
-        "order": 12,
+        "order": 13,
         "props": {
           "type": "r"
         },
@@ -473,7 +532,7 @@
     "vv": [
       {
         "id": 7,
-        "order": 14,
+        "order": 15,
         "props": {
           "type": "vv"
         },
