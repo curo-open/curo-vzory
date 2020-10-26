@@ -1,0 +1,110 @@
+{
+  "tags": [
+    "choroba"
+  ],
+  "content": "<section data-x-id=\"2\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"_noval FieldSearch hasActions highlight truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"U07.2\" data-id-ezid=\"02089528679@13\" data-id-classid=\"diagnoza\" title=\"[U07.2] Podozrenie z infekcie COVID-19\" style=\"width: 50ch;\">[U07.2] Podozrenie z infekcie COVID-19</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"4\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"_noval FieldHtml\" data-name=\"s\">má sa dobre..<br></div></section><section data-x-id=\"6\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"_noval FieldHtml\" data-name=\"odp\">karanténa končí dnes, platia všetky všeobecne záväzné protiepidemické opatrenia.<br></div></section><section data-type=\"vv\" class=\"_focus\" data-x-id=\"7\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"1\" data-id-ezid=\"00000466508@15\" data-id-classid=\"vykon\" data-prop-body=\"80\" title=\"[1] Pod radou sa rozumie poskytnutie informácií pacientovi alebo zákonnému zástupcovi v súvislosti so zdravotným stavom. Výkon pod kódom 1 nemožno vykazovať súčasne s inými výkonmi. Výkon nemožno vykazovať pre telefonické objednávanie pacienta.\" style=\"width: 50ch;\">[1] Pod radou sa rozumie poskytnutie informácií pacientovi alebo zákonnému zástupcovi v súvislosti so zdravotným stavom. Výkon pod kódom 1 nemožno vykazovať súčasne s inými výkonmi. Výkon nemožno vykazovať pre telefonické objednávanie pacienta.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN _focus\" data-name=\"count\">1</div></section>",
+  "title": "COVID - koniec karantény",
+  "shortcut": "COVIDKK",
+  "if": "",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[U07.2] Podozrenie z infekcie COVID-19",
+            "props": {
+              "id": "U07.2",
+              "idEzid": "02089528679@13",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "má sa dobre, teploty neboli, nekašle.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 9,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "COVID test pri skončení karantény:  nebol / negat.<br>Posledné 3 dni karatény presvedčivo bez príznakov respir. infektu.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 6,
+        "order": 3,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "karanténa končí dňa:  {{ dekurz.datum }}        <br>Platia všetky všeobecne záväzné protiepidemické opatrenia.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 7,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky",
+            "props": {
+              "propBody": 0,
+              "idClassid": "vykon",
+              "idEzid": "02089894014@20",
+              "id": "1b"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "owner": "admin",
+  "summary": "COVID - koniec karantény",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/020"
+}

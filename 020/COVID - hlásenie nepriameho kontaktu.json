@@ -15,9 +15,9 @@
           "id": {
             "value": "[U07.2] Podozrenie z infekcie COVID-19",
             "props": {
-              "id": "U07.2",
+              "idClassid": "diagnoza",
               "idEzid": "02089528679@14",
-              "idClassid": "diagnoza"
+              "id": "U07.2"
             }
           },
           "text": {
@@ -36,7 +36,7 @@
         },
         "value": {
           "s": {
-            "value": "Epidemiologická <b>anamnéza nepriameho</b> kontaktu: <br>Klinické príznaky: <br>Členovia spoločnej domácnosti:<br>",
+            "value": "Epidemiologická <b>anamnéza nepriameho/bežného</b> kontaktu: <br>Klinické príznaky: <br>Členovia spoločnej domácnosti:<br>",
             "props": {}
           }
         }
@@ -84,9 +84,9 @@
             "value": "[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
+              "id": "1b",
               "idEzid": "02089894014@22",
-              "id": "1b"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -100,5 +100,8 @@
   "tags": [],
   "vars": {},
   "summary": "COVID hlásenie nepriameho kontaktu",
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
   "source": "curo-open/curo-vzory#/020"
 }

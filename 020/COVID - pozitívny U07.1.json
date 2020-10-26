@@ -15,9 +15,9 @@
           "id": {
             "value": "[U07.1] Potvrdená infekcia COVID-19",
             "props": {
-              "id": "U07.1",
+              "idClassid": "diagnoza",
               "idEzid": "02089528661@14",
-              "idClassid": "diagnoza"
+              "id": "U07.1"
             }
           },
           "text": {
@@ -85,12 +85,18 @@
             "props": {}
           },
           "date": {
-            "value": "",
-            "props": {}
+            "value": "26.10.2020",
+            "props": {
+              "propValue": "2020-10-25T23:00:00.000Z",
+              "expr": "=dnes"
+            }
           },
           "date_vystavene": {
-            "value": "",
-            "props": {}
+            "value": "26.10.2020",
+            "props": {
+              "propValue": "2020-10-25T23:00:00.000Z",
+              "expr": "=dnes"
+            }
           },
           "znacka": {
             "value": "",
@@ -134,11 +140,11 @@
           "id": {
             "value": "[71.DPN] Vystavenie potvrdenia o dočasnej pracovnej neschopnosti.",
             "props": {
-              "propType": "soc",
               "propBody": 35,
-              "idClassid": "vykon",
+              "propType": "soc",
+              "id": "71.DPN",
               "idEzid": "curo-71.DPN@22",
-              "id": "71.DPN"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -158,9 +164,9 @@
             "value": "[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
+              "id": "1b",
               "idEzid": "02089894014@22",
-              "id": "1b"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -174,5 +180,8 @@
   "tags": [],
   "vars": {},
   "summary": "COVID - pozitívny U07.1",
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
   "source": "curo-open/curo-vzory#/020"
 }

@@ -85,12 +85,18 @@
             "props": {}
           },
           "date": {
-            "value": "",
-            "props": {}
+            "value": "26.10.2020",
+            "props": {
+              "propValue": "2020-10-25T23:00:00.000Z",
+              "expr": "=dnes"
+            }
           },
           "date_vystavene": {
-            "value": "",
-            "props": {}
+            "value": "26.10.2020",
+            "props": {
+              "propValue": "2020-10-25T23:00:00.000Z",
+              "expr": "=dnes"
+            }
           },
           "znacka": {
             "value": "",
@@ -174,5 +180,8 @@
   "tags": [],
   "vars": {},
   "summary": "COVID osoba v spoločnej domácnosti s COVID+ osobou",
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
   "source": "curo-open/curo-vzory#/020"
 }
