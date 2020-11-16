@@ -1,0 +1,267 @@
+{
+  "type": null,
+  "summary": "COVID - pozitívny U07.1",
+  "content": "<section data-x-id=\"2\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089528661@14\" data-id=\"U07.1\" title=\"[U07.1] Potvrdená infekcia COVID-19\" style=\"width: 50ch;\">[U07.1] Potvrdená infekcia COVID-19</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"4\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\">Pozit. test COVID-PCR dňa:<br>Epidemiologická anamnéza: <br>Klinické príznaky: <br>Členovia spoločnej domácnosti v karanténe:     <br>Na adrese: { pacient.adresa }},  {{ pacient.psc }} {{ pacient.mesto }}<br></div></section><section data-x-id=\"8\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\">COVID+ osoba in observ. <u>Kontakt na pacienta:</u>  {{ pacient.tel }}, {{ pacient.email }}<br></div></section><section data-x-id=\"9\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\">1/ Platí domáca izolácia a to aj pre členov domácnosti - každý sa hlási u svojho lekára.<br>2/ Poskytne všetku potrebnú súčinnosť RUVZ ohľadom testovania, karantény a kontorly dodržiavania lieč. režimu , resp. kontroly zdravot. stavu.  <br>3/ Ohlási sa 10 dní od posledného COVID+ testu, alebo pri zhoršení zdravot.stavu. <br>4/ Poučený/á o nároku na karaténnu DPN. <br>5/ Fyzické šetrenie, vit.C 2x500mg, tekutiny, sledovanie respiračných príznakov a telesnej teploty.<br></div></section><section data-x-id=\"10\" data-type=\"pn\" class=\"\"><aside></aside><label class=\"section-label  \">PN​:</label>​<label data-for=\"id\" class=\" _noval\">číslo​</label><div class=\"_noval FieldSequence hasActions\" data-name=\"id\"></div>​<label data-for=\"date\" class=\"\">odo dňa​</label><div class=\"FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"date\" data-expr=\"=dnes\" data-prop-value=\"2020-10-25T23:00:00.000Z\">26.10.2020</div>​<label data-for=\"date_vystavene\" class=\"\">vystavené dňa​</label><div class=\"FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"date_vystavene\" data-expr=\"=dnes\" data-prop-value=\"2020-10-25T23:00:00.000Z\">26.10.2020</div>​<label data-for=\"znacka\" class=\" _noval\">značka​</label><div class=\"_noval Field\" data-name=\"znacka\"></div><br class=\"on-next-line _noval\"><label data-for=\"for\" class=\" _noval\">pre zamestnávateľa​</label><div class=\"_noval Field\" data-name=\"for\"></div>​<label data-for=\"adresa_pocas_PN\" class=\" _noval\">Adresa počas PN​</label><div class=\"_noval Field\" data-name=\"adresa_pocas_PN\"></div><br class=\"on-next-line _noval\"><label data-for=\"vychadzky_datum\" class=\" _noval\">Vychádzky od (dátum)​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"vychadzky_datum\"></div>​<label data-for=\"vychadzky_od\" class=\" _noval\">v čase od​</label><div class=\"_noval Field\" data-name=\"vychadzky_od\"></div>​<label data-for=\"vychadzky_do\" class=\" _noval\">do​</label><div class=\"_noval Field\" data-name=\"vychadzky_do\"></div>​<label data-for=\"comment\" class=\" _noval\">poznámka​</label><div class=\"_noval Field\" data-name=\"comment\"></div></section><section data-x-id=\"11\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"71.DPN\" data-id-ezid=\"curo-71.DPN@22\" data-id-classid=\"vykon\" data-prop-body=\"35\" data-prop-type=\"soc\" title=\"[71.DPN] Vystavenie potvrdenia o dočasnej pracovnej neschopnosti.\" style=\"width: 50ch;\">[71.DPN] Vystavenie potvrdenia o dočasnej pracovnej neschopnosti.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"12\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"1b\" data-id-ezid=\"02089894014@22\" data-id-classid=\"vykon\" data-prop-body=\"0\" title=\"[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky\" style=\"width: 50ch;\">[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
+  "owner": "hencel",
+  "title": "COVID - pozitívny U07.1 - AG",
+  "shortcut": "COVIDpzU07.1n",
+  "if": "",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[U07.1] Potvrdená infekcia COVID-19",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089528661@14",
+              "id": "U07.1"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "covid": [
+      {
+        "id": 14,
+        "order": 1,
+        "props": {
+          "type": "covid"
+        },
+        "value": {
+          "typ": {
+            "value": "AG",
+            "props": {
+              "propValue": "ag"
+            }
+          },
+          "vysledok": {
+            "value": "pozitivny",
+            "props": {
+              "propValue": "pozitivny"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 16,
+        "order": 2,
+        "props": {
+          "type": "covid"
+        },
+        "value": {
+          "typ": {
+            "value": "PCR",
+            "props": {
+              "propValue": "pcr"
+            }
+          },
+          "vysledok": {
+            "value": "nemal",
+            "props": {
+              "propValue": "nemal"
+            }
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "Epidemiologická anamnéza: <br>Klinické príznaky: <br>Členovia spoločnej domácnosti v karanténe:     <br>Na adrese: {{ pacient.adresa }},  {{ pacient.psc }} {{ pacient.mesto }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 8,
+        "order": 4,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "COVID+ osoba in observ. <u>Kontakt na pacienta:</u>  {{ pacient.tel }}, {{ pacient.email }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 9,
+        "order": 5,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "1/ Platí domáca izolácia a to aj pre členov domácnosti - každý sa hlási u svojho lekára.<br>2/ Poskytne všetku potrebnú súčinnosť RUVZ ohľadom testovania, karantény a kontorly dodržiavania lieč. režimu , resp. kontroly zdravot. stavu.  <br>3/ Ohlási sa 10 dní od posledného COVID+ testu, alebo pri zhoršení zdravot.stavu. <br>4/ Poučený/á o nároku na karaténnu DPN. <br>5/ Fyzické šetrenie, vit.C 2x500mg, tekutiny, sledovanie respiračných príznakov a telesnej teploty.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "kar": [
+      {
+        "id": 18,
+        "order": 6,
+        "props": {
+          "type": "kar"
+        },
+        "value": {
+          "date": {
+            "value": "16.11.2020",
+            "props": {
+              "propValue": "2020-11-15T23:00:00.000Z",
+              "expr": "=dnes"
+            }
+          },
+          "date_end": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pn": [
+      {
+        "id": 10,
+        "order": 7,
+        "props": {
+          "type": "pn"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "date": {
+            "value": "16.11.2020",
+            "props": {
+              "propValue": "2020-11-15T23:00:00.000Z",
+              "expr": "=dnes"
+            }
+          },
+          "date_vystavene": {
+            "value": "16.11.2020",
+            "props": {
+              "propValue": "2020-11-15T23:00:00.000Z",
+              "expr": "=dnes"
+            }
+          },
+          "znacka": {
+            "value": "",
+            "props": {}
+          },
+          "for": {
+            "value": "",
+            "props": {}
+          },
+          "adresa_pocas_PN": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_datum": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_od": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_do": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_od2": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_do2": {
+            "value": "",
+            "props": {}
+          },
+          "comment": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 11,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[71.DPN] Vystavenie potvrdenia o dočasnej pracovnej neschopnosti.",
+            "props": {
+              "propBody": 35,
+              "propType": "soc",
+              "id": "71.DPN",
+              "idEzid": "curo-71.DPN@22",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 12,
+        "order": 9,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky",
+            "props": {
+              "propBody": 0,
+              "id": "1b",
+              "idEzid": "02089894014@22",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/020"
+}

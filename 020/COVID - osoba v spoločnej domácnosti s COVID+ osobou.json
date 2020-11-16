@@ -1,6 +1,10 @@
 {
+  "type": null,
+  "summary": "COVID - osoba v spoločnej domácnosti s COVID+ osobou",
+  "content": "<section data-x-id=\"2\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"U07.2\" data-id-ezid=\"02089528679@14\" data-id-classid=\"diagnoza\" title=\"[U07.2] Podozrenie z infekcie COVID-19\" style=\"width: 50ch;\">[U07.2] Podozrenie z infekcie COVID-19</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"12\" data-type=\"covid\" class=\"\"><aside></aside><label class=\"section-label  \">Covid test​:</label>​<label data-for=\"typ\" class=\"\">typ testu ​</label><div class=\"FieldList hasActions\" data-name=\"typ\" data-prop-value=\"ag\">AG</div>​<label data-for=\"vysledok\" class=\"\">výsledok​</label><div class=\"FieldList hasActions\" data-name=\"vysledok\" data-prop-value=\"negativny\">negativny</div>​<label data-for=\"date\" class=\" _noval\"> dňa​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div></section><section data-x-id=\"14\" data-type=\"covid\" class=\"\"><aside></aside><label class=\"section-label  \">Covid test​:</label>​<label data-for=\"typ\" class=\"\">typ testu ​</label><div class=\"FieldList hasActions\" data-name=\"typ\" data-prop-value=\"pcr\">PCR</div>​<label data-for=\"vysledok\" class=\"\">výsledok​</label><div class=\"FieldList hasActions\" data-name=\"vysledok\" data-prop-value=\"nemal\">nemal</div>​<label data-for=\"date\" class=\" _noval\"> dňa​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div></section><section data-x-id=\"3\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\">Pozitívne testovaná osoba:      dňa: <br><u>Epidemiologická anamnéza kontaktu: v spoločnej domácej karanténe</u><br>Klinické príznaky: <br>Členovia spoločnej domácnosti:<br>Na adrese: {{ pacient.adresa }}, {{ pacient.psc }} {{ pacient.mesto }}<br></div></section><section data-x-id=\"4\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\">osoba s COVID+ osobou v spoločnej karanténe. <u>Kontakt na pacienta: </u>{{ pacient.tel }}, {{ pacient.email }}<br></div></section><section data-x-id=\"5\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\">1/ Platí domáca izolácia a to aj pre členov domácnosti - každý sa hlási u svojho lekára.<br>2/ Je nutné aby COVID+ osoba nosila aj v domácnosti v kontakte s členmi domácnosti rúšku a ak je to možné, pobývala v jednej samostatnej izbe, ktorú treba pravidelne vetrať. <br><u>3/ Pac. som objednal na testovanie - 10. deň v karanténe s COVID+ osobou, bude hlásiť výsledok COVID testu</u>, alebo sa ozve telefonicky pri zhoršení zdravot.stavu. <br>4/ Ak bude kontaktovaný z RÚVZ, poskytne všetku potrebnú súčinnosť.  <br>5/ Poučený/á o nároku na karaténnu DPN. <br>6/ Fyzické šetrenie, vit.C 2x500mg, tekutiny, sledovanie respiračných príznakov a telesnej teploty.<br></div></section><section data-x-id=\"16\" data-type=\"kar\" class=\"\"><aside></aside><label class=\"section-label  \">Karanténa​:</label>​<label data-for=\"date\" class=\" _noval\">začala dňa​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div>​<label data-for=\"date_end\" class=\" _noval\">predpokladaný koniec dňa​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"date_end\"></div></section><section data-x-id=\"8\" data-type=\"pn\" class=\"\"><aside></aside><label class=\"section-label  \">PN​:</label>​<label data-for=\"id\" class=\" _noval\">číslo​</label><div class=\"_noval FieldSequence hasActions\" data-name=\"id\"></div>​<label data-for=\"date\" class=\"\">odo dňa​</label><div class=\"FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"date\" data-expr=\"=dnes\" data-prop-value=\"2020-11-15T23:00:00.000Z\">16.11.2020</div>​<label data-for=\"date_vystavene\" class=\"\">vystavené dňa​</label><div class=\"FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"date_vystavene\" data-expr=\"=dnes\" data-prop-value=\"2020-11-15T23:00:00.000Z\">16.11.2020</div>​<label data-for=\"znacka\" class=\" _noval\">značka​</label><div class=\"_noval Field\" data-name=\"znacka\"></div><br class=\"on-next-line _noval\"><label data-for=\"for\" class=\" _noval\">pre zamestnávateľa​</label><div class=\"_noval Field\" data-name=\"for\"></div>​<label data-for=\"adresa_pocas_PN\" class=\" _noval\">Adresa počas PN​</label><div class=\"_noval Field\" data-name=\"adresa_pocas_PN\"></div><br class=\"on-next-line _noval\"><label data-for=\"vychadzky_datum\" class=\" _noval\">Vychádzky od (dátum)​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"vychadzky_datum\"></div>​<label data-for=\"vychadzky_od\" class=\" _noval\">v čase od​</label><div class=\"_noval Field\" data-name=\"vychadzky_od\"></div>​<label data-for=\"vychadzky_do\" class=\" _noval\">do​</label><div class=\"_noval Field\" data-name=\"vychadzky_do\"></div>​<label data-for=\"vychadzky_od2\" class=\" _noval\">v čase od​</label><div class=\"_noval Field\" data-name=\"vychadzky_od2\"></div>​<label data-for=\"vychadzky_do2\" class=\" _noval\">do​</label><div class=\"_noval Field\" data-name=\"vychadzky_do2\"></div>​<label data-for=\"comment\" class=\" _noval\">poznámka​</label><div class=\"_noval Field\" data-name=\"comment\"></div></section><section data-x-id=\"10\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"71.DPN\" data-id-ezid=\"curo-71.DPN@23\" data-id-classid=\"vykon\" data-prop-body=\"35\" data-prop-type=\"soc\" title=\"[71.DPN] Vystavenie potvrdenia o dočasnej pracovnej neschopnosti.\" style=\"width: 50ch;\">[71.DPN] Vystavenie potvrdenia o dočasnej pracovnej neschopnosti.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"6\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"02089894014@23\" data-id=\"1b\" data-prop-body=\"0\" title=\"[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky\" style=\"width: 50ch;\">[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
+  "owner": "admin",
   "title": "COVID - osoba v spoločnej domácnosti s COVID+ osobou",
-  "shortcut": "COVIDsk",
+  "shortcut": "COVIDsd",
   "if": "",
   "data": {
     "_": {},
@@ -27,10 +31,58 @@
         }
       }
     ],
+    "covid": [
+      {
+        "id": 12,
+        "order": 1,
+        "props": {
+          "type": "covid"
+        },
+        "value": {
+          "typ": {
+            "value": "AG",
+            "props": {
+              "propValue": "ag"
+            }
+          },
+          "vysledok": {
+            "value": "negativny",
+            "props": {
+              "propValue": "negativny"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 14,
+        "order": 2,
+        "props": {
+          "type": "covid"
+        },
+        "value": {
+          "typ": {
+            "value": "PCR",
+            "props": {
+              "propValue": "pcr"
+            }
+          },
+          "vysledok": {
+            "value": "nemal",
+            "props": {
+              "propValue": "nemal"
+            }
+          }
+        }
+      }
+    ],
     "s": [
       {
         "id": 3,
-        "order": 1,
+        "order": 3,
         "props": {
           "type": "s"
         },
@@ -45,7 +97,7 @@
     "o": [
       {
         "id": 4,
-        "order": 2,
+        "order": 4,
         "props": {
           "type": "o"
         },
@@ -60,7 +112,7 @@
     "odp": [
       {
         "id": 5,
-        "order": 3,
+        "order": 5,
         "props": {
           "type": "odp"
         },
@@ -72,10 +124,29 @@
         }
       }
     ],
+    "kar": [
+      {
+        "id": 16,
+        "order": 6,
+        "props": {
+          "type": "kar"
+        },
+        "value": {
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "date_end": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "pn": [
       {
         "id": 8,
-        "order": 4,
+        "order": 7,
         "props": {
           "type": "pn"
         },
@@ -85,16 +156,16 @@
             "props": {}
           },
           "date": {
-            "value": "26.10.2020",
+            "value": "16.11.2020",
             "props": {
-              "propValue": "2020-10-25T23:00:00.000Z",
+              "propValue": "2020-11-15T23:00:00.000Z",
               "expr": "=dnes"
             }
           },
           "date_vystavene": {
-            "value": "26.10.2020",
+            "value": "16.11.2020",
             "props": {
-              "propValue": "2020-10-25T23:00:00.000Z",
+              "propValue": "2020-11-15T23:00:00.000Z",
               "expr": "=dnes"
             }
           },
@@ -122,6 +193,14 @@
             "value": "",
             "props": {}
           },
+          "vychadzky_od2": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_do2": {
+            "value": "",
+            "props": {}
+          },
           "comment": {
             "value": "",
             "props": {}
@@ -132,7 +211,7 @@
     "vv": [
       {
         "id": 10,
-        "order": 5,
+        "order": 8,
         "props": {
           "type": "vv"
         },
@@ -155,7 +234,7 @@
       },
       {
         "id": 6,
-        "order": 6,
+        "order": 9,
         "props": {
           "type": "vv"
         },
@@ -179,8 +258,6 @@
   },
   "tags": [],
   "vars": {},
-  "summary": "COVID osoba v spoločnej domácnosti s COVID+ osobou",
-  "owner": "admin",
   "allowedUsers": [],
   "allowedIdentities": [],
   "source": "curo-open/curo-vzory#/020"
