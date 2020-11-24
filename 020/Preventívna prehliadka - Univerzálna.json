@@ -1091,7 +1091,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? (zp == 25 &amp;&amp; vek &gt;= 50) || (zp == 27 &amp;&amp; vek &gt;= 40)  || (zp == 24 &amp;&amp; vek &gt;= 40)}}<br>",
+            "value": "{{ ? (zp == 25 &amp;&amp; vek &gt;= 50) || (zp == 27 &amp;&amp; vek &gt;= 40)  || (zp == 24 &amp;&amp; vek &gt;= 50)}}<br>",
             "props": {}
           }
         }

@@ -305,8 +305,34 @@
         }
       },
       {
-        "id": 16,
+        "id": 72,
         "order": 32,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp == 24 &amp;&amp; vek &gt;= 50}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 74,
+        "order": 34,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 16,
+        "order": 35,
         "props": {
           "type": "t"
         },
@@ -319,7 +345,7 @@
       },
       {
         "id": 21,
-        "order": 36,
+        "order": 39,
         "props": {
           "type": "t"
         },
@@ -332,7 +358,7 @@
       },
       {
         "id": 22,
-        "order": 37,
+        "order": 40,
         "props": {
           "type": "t"
         },
@@ -345,32 +371,6 @@
       },
       {
         "id": 25,
-        "order": 40,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 62,
-        "order": 41,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp == 27 &amp;&amp; vek &gt;= 50}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 65,
         "order": 43,
         "props": {
           "type": "t"
@@ -383,8 +383,34 @@
         }
       },
       {
-        "id": 26,
+        "id": 62,
         "order": 44,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp == 27 &amp;&amp; vek &gt;= 50}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 65,
+        "order": 46,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 26,
+        "order": 47,
         "props": {
           "type": "t"
         },
@@ -397,7 +423,7 @@
       },
       {
         "id": 29,
-        "order": 47,
+        "order": 50,
         "props": {
           "type": "t"
         },
@@ -410,7 +436,7 @@
       },
       {
         "id": 30,
-        "order": 48,
+        "order": 51,
         "props": {
           "type": "t"
         },
@@ -423,7 +449,7 @@
       },
       {
         "id": 35,
-        "order": 52,
+        "order": 55,
         "props": {
           "type": "t"
         },
@@ -436,7 +462,7 @@
       },
       {
         "id": 67,
-        "order": 53,
+        "order": 56,
         "props": {
           "type": "t"
         },
@@ -449,7 +475,7 @@
       },
       {
         "id": 70,
-        "order": 54,
+        "order": 57,
         "props": {
           "type": "t"
         },
@@ -462,7 +488,7 @@
       },
       {
         "id": 69,
-        "order": 55,
+        "order": 58,
         "props": {
           "type": "t"
         },
@@ -675,8 +701,30 @@
         }
       },
       {
-        "id": 18,
+        "id": 73,
         "order": 33,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[H0008] Stanovenie indexu ABI oscilometrickou metódou",
+            "props": {
+              "propBody": 0,
+              "idClassid": "vykon",
+              "idEzid": "02089552141@24",
+              "id": "H0008"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 18,
+        "order": 36,
         "props": {
           "type": "vv"
         },
@@ -698,7 +746,7 @@
       },
       {
         "id": 19,
-        "order": 34,
+        "order": 37,
         "props": {
           "type": "vv"
         },
@@ -721,7 +769,7 @@
       },
       {
         "id": 20,
-        "order": 35,
+        "order": 38,
         "props": {
           "type": "vv"
         },
@@ -743,7 +791,7 @@
       },
       {
         "id": 23,
-        "order": 38,
+        "order": 41,
         "props": {
           "type": "vv"
         },
@@ -766,7 +814,7 @@
       },
       {
         "id": 24,
-        "order": 39,
+        "order": 42,
         "props": {
           "type": "vv"
         },
@@ -788,7 +836,7 @@
       },
       {
         "id": 63,
-        "order": 42,
+        "order": 45,
         "props": {
           "type": "vv"
         },
@@ -810,7 +858,7 @@
       },
       {
         "id": 27,
-        "order": 45,
+        "order": 48,
         "props": {
           "type": "vv"
         },
@@ -832,7 +880,7 @@
       },
       {
         "id": 32,
-        "order": 49,
+        "order": 52,
         "props": {
           "type": "vv"
         },
@@ -854,7 +902,7 @@
       },
       {
         "id": 33,
-        "order": 50,
+        "order": 53,
         "props": {
           "type": "vv"
         },
@@ -877,7 +925,7 @@
       },
       {
         "id": 34,
-        "order": 51,
+        "order": 54,
         "props": {
           "type": "vv"
         },
@@ -912,9 +960,9 @@
             "props": {}
           },
           "at": {
-            "value": "22.05.2020 00:18",
+            "value": "25.11.2020 15:07",
             "props": {
-              "propValue": "2020-05-21T22:18:30.642Z",
+              "propValue": "2020-11-25T14:07:43.834Z",
               "expr": "=+1d"
             }
           },
@@ -942,9 +990,9 @@
             "props": {}
           },
           "at": {
-            "value": "22.05.2020 00:18",
+            "value": "25.11.2020 15:07",
             "props": {
-              "propValue": "2020-05-21T22:18:30.647Z",
+              "propValue": "2020-11-25T14:07:43.846Z",
               "expr": "=+1d"
             }
           },
@@ -962,7 +1010,7 @@
       },
       {
         "id": 28,
-        "order": 46,
+        "order": 49,
         "props": {
           "type": "p"
         },
@@ -972,9 +1020,9 @@
             "props": {}
           },
           "at": {
-            "value": "22.05.2020 00:18",
+            "value": "25.11.2020 15:07",
             "props": {
-              "propValue": "2020-05-21T22:18:30.652Z",
+              "propValue": "2020-11-25T14:07:43.856Z",
               "expr": "=+1d"
             }
           },
@@ -1023,5 +1071,8 @@
   },
   "tags": [],
   "vars": {},
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
   "source": "curo-open/curo-vzory#/020zvld"
 }
