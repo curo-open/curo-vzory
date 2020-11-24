@@ -1091,7 +1091,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? (zp == 25 &amp;&amp; vek &gt;= 50) || (zp == 27 &amp;&amp; vek &gt;= 40)}}<br>",
+            "value": "{{ ? (zp == 25 &amp;&amp; vek &gt;= 50) || (zp == 27 &amp;&amp; vek &gt;= 40)  || (zp == 24 &amp;&amp; vek &gt;= 40)}}<br>",
             "props": {}
           }
         }
@@ -2007,10 +2007,6 @@
             "value": "pozitívne",
             "props": {}
           },
-          "hlk": {
-            "value": "",
-            "props": {}
-          },
           "poznamka": {
             "value": "",
             "props": {}
@@ -2192,5 +2188,8 @@
   ],
   "vars": {},
   "description": "",
+  "owner": "vszp020",
+  "allowedUsers": [],
+  "allowedIdentities": [],
   "source": "curo-open/curo-vzory#/020"
 }
