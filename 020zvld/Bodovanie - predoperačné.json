@@ -17,9 +17,9 @@
             "value": "[60b] Komplexné predoperačné vyšetrenie vrátane odberov krvi, zhodnotenie laboratórnych a prístrojových vyšetrení.",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
+              "id": "60b",
               "idEzid": "02089719450@11",
-              "id": "60b"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -38,11 +38,11 @@
           "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 550,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5702,
               "idEzid": "00000494187@11",
-              "id": 5702
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -59,12 +59,12 @@
         },
         "value": {
           "id": {
-            "value": "[5702ZV] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie ako súčasť predoperačného vyšetrenia. Nutná kombinácia s výkonom 60b.",
+            "value": "[5702Z] EKG",
             "props": {
               "propBody": 0,
               "idClassid": "vykon",
-              "idEzid": "curo-5702ZV@11",
-              "id": "5702ZV"
+              "idEzid": "curo-5702Z@24",
+              "id": "5702Z"
             }
           },
           "count": {
@@ -84,9 +84,9 @@
             "value": "[5702Z] EKG",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
+              "id": "5702Z",
               "idEzid": "curo-5702Z@11",
-              "id": "5702Z"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -179,5 +179,8 @@
   },
   "tags": [],
   "vars": {},
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
   "source": "curo-open/curo-vzory#/020zvld"
 }
