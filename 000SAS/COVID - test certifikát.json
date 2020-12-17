@@ -1,0 +1,76 @@
+{
+  "type": "examination",
+  "summary": "COVID - test certifikát",
+  "content": "<section data-x-id=\"5\" data-type=\"premenna\" class=\"\"><aside></aside><label class=\"section-label  \">Premenná​:</label>​<label data-for=\"name\" class=\"\">meno​</label><div class=\"Field\" data-name=\"name\">miesto</div>​<label data-for=\"type\" class=\"\">typ​</label><div class=\"FieldList hasActions\" data-name=\"type\" data-prop-value=\"text\">text</div>​<label data-for=\"value\" class=\" _noval\">hodnota​</label><div class=\"_noval Field\" data-name=\"value\"></div>​<label data-for=\"valueLong\" class=\" _noval\">hodnota​</label><div class=\"_noval FieldHtml\" data-name=\"valueLong\"></div></section><section data-x-id=\"2\" data-type=\"t-nadpis\" class=\"\"><aside></aside>​<label data-for=\"nadpis\" class=\"\">Nadpis​</label><div class=\"FieldHtml\" data-name=\"nadpis\">LEKRÁRSKE POTVRDENIE O&nbsp;VÝSLEDKU CERTIFIKOVANÉHO RÝCHLOTESTU NA COVID-19 K&nbsp;DOLOŽENIU PRI PREKROČENÍ HRANÍC.<br></div>​<label data-for=\"podnadpis\" class=\"\">Podnadpis​</label><div class=\"FieldHtml\" data-name=\"podnadpis\">MEDICAL CERTIFICATE ON COVID-19 TESTING RESULTS TO BE SUBMITTED WHEN CROSSING THE BORDERS.<br></div></section><section data-x-id=\"3\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\"><br><b>POTVRDZUJEM, ŽE</b> / THIS IS TO CERTIFY THAT<br><br><b>Priezvisko</b> / Surname                     : {{ pacient.meno }}<br><b>Meno</b>/ Name                                    : {{ pacient.priezvisko }}<br><b>Dátum narodenia</b> / Date of Birth    : {{ pacient.datumNarodenia }}<br><b>Miesto narodenia</b> / Place of Birth  : <br><br><b>BOL / BOLA TESTOVANÝ / TESTOVANÁ NA DôKAZ PROTILÁTOK COVID-19 dňa</b> / WAS TESTED FOR ANTIBODY ON COVID – 19 ON {{ dekurz.datum }}<br><br><b>VÝSLEDOK TESTU NA COVID-19</b> / COVID -19 TESTING RESULTS:<br><br><br>IgM protlátky / IgM antibody           pozitívny / positive                                negatívny / negative  <br>IgG protilátky / IGg antibody            pozitívny / positive                               negatívny / negative <br><br><br><br>V / In&nbsp; {{ var.miesto }}, dňa / date {{ dekurz.datum }}<br><br><br><br>Podpis a&nbsp;pečiatka potvrdzujúceho lekára:                         ......................................................<br>Signature and stamp of a&nbsp;certifying physician:<br></div></section>",
+  "owner": "admin",
+  "title": "COVID - test certifikát",
+  "shortcut": "COVIDcert",
+  "if": "",
+  "data": {
+    "_": {},
+    "premenna": [
+      {
+        "id": 5,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "miesto",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t-nadpis": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "LEKÁRSKE POTVRDENIE O&nbsp;VÝSLEDKU CERTIFIKOVANÉHO RÝCHLOTESTU NA COVID-19 K&nbsp;DOLOŽENIU PRI PREKROČENÍ HRANÍC.<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "MEDICAL CERTIFICATE ON COVID-19 TESTING RESULTS TO BE SUBMITTED WHEN CROSSING THE BORDERS.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<br><b>POTVRDZUJEM, ŽE</b> / THIS IS TO CERTIFY THAT<br><br><b>Priezvisko</b> / Surname                     : {{ pacient.meno }}<br><b>Meno</b>/ Name                                    : {{ pacient.priezvisko }}<br><b>Dátum narodenia</b> / Date of Birth    : {{ pacient.datumNarodenia }}<br><b>Miesto narodenia</b> / Place of Birth  : <br><br><b>BOL / BOLA TESTOVANÝ / TESTOVANÁ NA DôKAZ ANTIGÉNU/PROTILÁTOK COVID-19 dňa</b> / WAS TESTED FOR ANTIGEN/ANTIBODY ON COVID – 19 ON {{ dekurz.datum }}<br><br><b>VÝSLEDOK TESTU NA COVID-19</b> / COVID -19 TESTING RESULTS:<br><br>- Nazofaryngeálny výter/Nasopharyngeal swab,            pozitívny / positive                                negatívny / negative  <br>  SARS-CoV-2 FIA Standard F*   <br>- IgM protlátky / IgM antibody**                                      pozitívny / positive                                negatívny / negative  <br>- IgG protilátky / IGg antibody**                                      pozitívny / positive                                negatívny / negative <br><br><br><br>V / In&nbsp; {{ var.miesto }}, dňa / date {{ dekurz.datum }}<br><br><br><br>Podpis a&nbsp;pečiatka potvrdzujúceho lekára:                         ......................................................<br>Signature and stamp of a&nbsp;certifying physician:<br><br>* STANDARD F COVID-19 Ag FIA, SD BIOSENSOR, INC. Chungcheongbuk, Republic of Korea<br>** STANDARD F COVID-19 IgM/IgG Combo FIA, SD BIOSENSOR, INC. Chungcheongbuk, Korea<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/020"
+}
