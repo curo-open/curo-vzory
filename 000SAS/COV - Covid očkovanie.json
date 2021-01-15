@@ -1,0 +1,67 @@
+{
+  "type": "examination",
+  "summary": "COV - Covid očkovanie",
+  "content": "<section data-x-id=\"6\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">zápis očkovanie na kovid vakcínou <br></div></section><section data-x-id=\"8\" data-type=\"oc\" class=\"\"><aside></aside><label class=\"section-label  \">Druh očkovania​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"ockovanie\" data-id-ezid=\"02089905018@3\" data-id=\"COV\" title=\"[COV] Covid-19\" style=\"width: 50ch;\">[COV] Covid-19</div>​<label data-for=\"datum\" class=\"\">Dátum​</label><div class=\"FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\" data-expr=\"=dnes\" data-prop-value=\"2021-01-05T23:00:00.000Z\">06.01.2021</div>​<label data-for=\"poznamka\" class=\" _noval\">Poznámka​</label><div class=\"_noval Field\" data-name=\"poznamka\"></div></section>",
+  "owner": "admin",
+  "title": "COV - Covid očkovanie",
+  "shortcut": "oc-cov",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 6,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "zápis očkovanie na kovid vakcínou <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oc": [
+      {
+        "id": 8,
+        "order": 1,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[COV] Covid-19",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "02089905018@3",
+              "id": "COV"
+            }
+          },
+          "datum": {
+            "value": "15.01.2021",
+            "props": {
+              "propValue": "2021-01-14T23:00:00.000Z",
+              "expr": "=dnes"
+            }
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "sumar-cov",
+    "prehlad-oc-cov",
+    "ocko"
+  ],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "description": "",
+  "source": "curo-open/curo-vzory#/000SAS"
+}
