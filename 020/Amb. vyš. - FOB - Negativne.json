@@ -5,10 +5,35 @@
   "if": "",
   "data": {
     "_": {},
+    "premenna": [
+      {
+        "id": 14,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "fobpp",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "ON",
+            "props": {}
+          }
+        }
+      }
+    ],
     "t": [
       {
         "id": 8,
-        "order": 0,
+        "order": 1,
         "props": {
           "type": "t"
         },
@@ -21,7 +46,7 @@
       },
       {
         "id": 10,
-        "order": 2,
+        "order": 3,
         "props": {
           "type": "t"
         },
@@ -34,7 +59,46 @@
       },
       {
         "id": 12,
-        "order": 4,
+        "order": 5,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 15,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? var.fobpp == 'ON' &amp;&amp; zp == 25 &amp;&amp; vek &lt; 70  }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 17,
+        "order": 9,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 19,
+        "order": 11,
         "props": {
           "type": "t"
         },
@@ -49,7 +113,7 @@
     "vd": [
       {
         "id": 11,
-        "order": 1,
+        "order": 2,
         "props": {
           "type": "vd"
         },
@@ -57,9 +121,9 @@
           "id": {
             "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
             "props": {
-              "id": "Z12.1",
+              "idClassid": "diagnoza",
               "idEzid": "02089521690@9",
-              "idClassid": "diagnoza"
+              "id": "Z12.1"
             }
           },
           "text": {
@@ -70,7 +134,7 @@
       },
       {
         "id": 9,
-        "order": 3,
+        "order": 4,
         "props": {
           "type": "vd"
         },
@@ -78,9 +142,9 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "id": "Z00.0",
+              "idClassid": "diagnoza",
               "idEzid": "02089520809",
-              "idClassid": "diagnoza"
+              "id": "Z00.0"
             }
           },
           "text": {
@@ -93,7 +157,7 @@
     "lv": [
       {
         "id": 4,
-        "order": 5,
+        "order": 6,
         "props": {
           "type": "lv"
         },
@@ -101,9 +165,9 @@
           "id": {
             "value": "[00020036711] Stolica - okultné krvácanie",
             "props": {
-              "idClassid": "labvys",
+              "id": "00020036711",
               "idEzid": "00020036711",
-              "id": "00020036711"
+              "idClassid": "labvys"
             }
           },
           "value": {
@@ -115,9 +179,9 @@
             "props": {}
           },
           "date": {
-            "value": "21.05.2020",
+            "value": "15.01.2021",
             "props": {
-              "propValue": "2020-05-20T22:24:57.091Z",
+              "propValue": "2021-01-15T07:16:40.272Z",
               "expr": "=teraz"
             }
           },
@@ -130,8 +194,30 @@
     ],
     "vv": [
       {
+        "id": 20,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[159z+FOB] Výkon 159z s pripočítateľnou položkou FOB",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "curo-159z+FOB@26",
+              "id": "159z+FOB"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 6,
-        "order": 6,
+        "order": 10,
         "props": {
           "type": "vv"
         },
@@ -140,9 +226,9 @@
             "value": "[159z] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonu pod kódom 160. Výkon môže vykazovať lekár všeobecnej starostlivosti vtedy, ak ho sám uskut",
             "props": {
               "propBody": 180,
-              "id": "159z",
+              "idClassid": "vykon",
               "idEzid": "02089731844@7",
-              "idClassid": "vykon"
+              "id": "159z"
             }
           },
           "count": {
@@ -159,7 +245,12 @@
     "sumar-fob",
     "sestra"
   ],
-  "vars": {},
+  "vars": {
+    "fobpp": "ON"
+  },
   "description": "",
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
   "source": "curo-open/curo-vzory#/020"
 }

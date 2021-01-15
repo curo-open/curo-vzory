@@ -7,10 +7,35 @@
   "if": "",
   "data": {
     "_": {},
+    "premenna": [
+      {
+        "id": 17,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "fobpp",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "ON",
+            "props": {}
+          }
+        }
+      }
+    ],
     "t": [
       {
         "id": 9,
-        "order": 0,
+        "order": 1,
         "props": {
           "type": "t"
         },
@@ -23,7 +48,7 @@
       },
       {
         "id": 10,
-        "order": 2,
+        "order": 3,
         "props": {
           "type": "t"
         },
@@ -36,7 +61,46 @@
       },
       {
         "id": 12,
-        "order": 4,
+        "order": 5,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 24,
+        "order": 9,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? var.fobpp == 'ON' &amp;&amp; zp == 25  &amp;&amp; vek &lt; 70 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 26,
+        "order": 11,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 28,
+        "order": 13,
         "props": {
           "type": "t"
         },
@@ -51,7 +115,7 @@
     "vd": [
       {
         "id": 13,
-        "order": 1,
+        "order": 2,
         "props": {
           "type": "vd"
         },
@@ -59,9 +123,9 @@
           "id": {
             "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z12.1",
               "idEzid": "02089521690@9",
-              "id": "Z12.1"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -72,7 +136,7 @@
       },
       {
         "id": 2,
-        "order": 3,
+        "order": 4,
         "props": {
           "type": "vd"
         },
@@ -80,9 +144,9 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z00.0",
               "idEzid": "02089520809",
-              "id": "Z00.0"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -95,19 +159,19 @@
     "lv": [
       {
         "id": 4,
-        "order": 5,
+        "order": 6,
         "props": {
           "type": "lv",
-          "comment": "Pozitivny nalez",
-          "priority": 20
+          "priority": 20,
+          "comment": "Pozitivny nalez"
         },
         "value": {
           "id": {
             "value": "[00020036711] Stolica - okultné krvácanie",
             "props": {
-              "idClassid": "labvys",
+              "id": "00020036711",
               "idEzid": "00020036711",
-              "id": "00020036711"
+              "idClassid": "labvys"
             }
           },
           "value": {
@@ -119,9 +183,9 @@
             "props": {}
           },
           "date": {
-            "value": "13.02.2020",
+            "value": "15.01.2021",
             "props": {
-              "propValue": "2020-02-13T09:04:21.820Z",
+              "propValue": "2021-01-15T07:17:20.178Z",
               "expr": "=teraz"
             }
           },
@@ -135,7 +199,7 @@
     "p": [
       {
         "id": 8,
-        "order": 6,
+        "order": 7,
         "props": {
           "type": "p"
         },
@@ -164,7 +228,7 @@
     "vl": [
       {
         "id": 15,
-        "order": 7,
+        "order": 8,
         "props": {
           "type": "vl"
         },
@@ -176,17 +240,17 @@
           "odbor": {
             "value": "[048] gastroenterológia",
             "props": {
-              "id": "048",
+              "idClassid": "zameranie",
               "idEzid": "00000351718@5",
-              "idClassid": "zameranie"
+              "id": "048"
             }
           },
           "druh": {
             "value": "[2] ambulancia",
             "props": {
-              "id": 2,
+              "idClassid": "cinnost",
               "idEzid": "00000000273@3",
-              "idClassid": "cinnost"
+              "id": 2
             }
           },
           "presne": {
@@ -204,8 +268,30 @@
     ],
     "vv": [
       {
+        "id": 25,
+        "order": 10,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[159a+FOB] Výkon 159a s pripočítateľnou položkou FOB",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "curo-159a+FOB@26",
+              "id": "159a+FOB"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 6,
-        "order": 8,
+        "order": 12,
         "props": {
           "type": "vv"
         },
@@ -214,9 +300,9 @@
             "value": "[159a] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonu pod kódom 160. Výkon môže vykazovať lekár všeobecnej starostlivosti vtedy, ak ho sám uskut",
             "props": {
               "propBody": 180,
-              "id": "159a",
+              "idClassid": "vykon",
               "idEzid": "00000467357@7",
-              "idClassid": "vykon"
+              "id": "159a"
             }
           },
           "count": {
@@ -231,6 +317,11 @@
     "sumar-fob",
     "sestra"
   ],
-  "vars": {},
+  "vars": {
+    "fobpp": "ON"
+  },
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
   "source": "curo-open/curo-vzory#/020"
 }

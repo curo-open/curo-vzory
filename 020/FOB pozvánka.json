@@ -1,0 +1,52 @@
+{
+  "title": "FOB pozvánka",
+  "owner": "admin",
+  "shortcut": "lv-fob-pozvanka",
+  "summary": "FOB pozvánka",
+  "if": "",
+  "data": {
+    "_": {},
+    "link": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "link"
+        },
+        "value": {
+          "label": {
+            "value": "NapíšLekárovi.sk",
+            "props": {
+              "propValue": "curoExchange"
+            }
+          },
+          "ref": {
+            "value": "",
+            "props": {}
+          },
+          "to": {
+            "value": "",
+            "props": {}
+          },
+          "reply": {
+            "value": "na mail",
+            "props": {
+              "propValue": "m"
+            }
+          },
+          "sprava": {
+            "value": "Vážený pacient, pozývame Vás na veľmi dôležité preventívne vyšetrenie pre skoré odhalenie rakoviny hrubého čreva.<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "sumar-fob"
+  ],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/020"
+}
