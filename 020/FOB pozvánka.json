@@ -40,6 +40,21 @@
           }
         }
       }
+    ],
+    "t": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Pacient pozvaný telefonicky, tel. číslo {{ pacient.tel }}<br>",
+            "props": {}
+          }
+        }
+      }
     ]
   },
   "tags": [
