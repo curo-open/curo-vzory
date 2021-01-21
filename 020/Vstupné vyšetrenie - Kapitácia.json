@@ -243,8 +243,34 @@
         }
       },
       {
-        "id": 56,
+        "id": 77,
         "order": 29,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp== 27 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 81,
+        "order": 32,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 56,
+        "order": 33,
         "props": {
           "type": "t"
         },
@@ -257,7 +283,7 @@
       },
       {
         "id": 75,
-        "order": 31,
+        "order": 35,
         "props": {
           "type": "t"
         },
@@ -270,7 +296,7 @@
       },
       {
         "id": 58,
-        "order": 33,
+        "order": 37,
         "props": {
           "type": "t"
         },
@@ -283,7 +309,7 @@
       },
       {
         "id": 30,
-        "order": 34,
+        "order": 38,
         "props": {
           "type": "t"
         },
@@ -357,9 +383,9 @@
           "id": {
             "value": "[T] Tetanus",
             "props": {
-              "id": "T",
+              "idClassid": "ockovanie",
               "idEzid": "00000115923@2",
-              "idClassid": "ockovanie"
+              "id": "T"
             }
           },
           "datum": {
@@ -683,8 +709,29 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z00.0",
               "idEzid": "02089520809@9",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 78,
+        "order": 30,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089520809@16",
               "id": "Z00.0"
             }
           },
@@ -696,7 +743,7 @@
       },
       {
         "id": 24,
-        "order": 30,
+        "order": 34,
         "props": {
           "type": "vd"
         },
@@ -704,9 +751,9 @@
           "id": {
             "value": "[Z00.8] Iné všeobecné vyšetrenie",
             "props": {
-              "id": "Z00.8",
+              "idClassid": "diagnoza",
               "idEzid": "02089520874@9",
-              "idClassid": "diagnoza"
+              "id": "Z00.8"
             }
           },
           "text": {
@@ -728,9 +775,9 @@
             "value": "[60] Komplexné vyšetrenie pacienta (kompletná anamnéza, vyšetrenie všetkých orgánových systémov, založenie zdravotnej dokumentácie, diagnostický záver, liečebný plán a (alebo) zaradenie do dispenzárnej starostlivosti, odoslanie pacienta na ďalšie laborató",
             "props": {
               "propBody": 350,
-              "idClassid": "vykon",
+              "id": 60,
               "idEzid": "00000466730@8",
-              "id": 60
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -750,9 +797,31 @@
             "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
               "propBody": 180,
-              "id": 10,
+              "idClassid": "vykon",
               "idEzid": "00000466565@9",
-              "idClassid": "vykon"
+              "id": 10
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 79,
+        "order": 31,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[60] Komplexné vyšetrenie pacienta (kompletná anamnéza, vyšetrenie všetkých orgánových systémov, založenie zdravotnej dokumentácie, diagnostický záver, liečebný plán a (alebo) zaradenie do dispenzárnej starostlivosti, odoslanie pacienta na ďalšie laborató",
+            "props": {
+              "propBody": 350,
+              "idClassid": "vykon",
+              "idEzid": "00000466730@26",
+              "id": 60
             }
           },
           "count": {
@@ -763,7 +832,7 @@
       },
       {
         "id": 57,
-        "order": 32,
+        "order": 36,
         "props": {
           "type": "vv"
         },
@@ -772,9 +841,9 @@
             "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
               "propBody": 180,
-              "idClassid": "vykon",
+              "id": 10,
               "idEzid": "00000466565@9",
-              "id": 10
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -792,5 +861,8 @@
   ],
   "vars": {},
   "type": "examination",
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
   "source": "curo-open/curo-vzory#/020"
 }
