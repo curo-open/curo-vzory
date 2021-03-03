@@ -266,8 +266,21 @@
         }
       },
       {
-        "id": 11,
+        "id": 71,
         "order": 28,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Pacient svojím podpisom potvrdzuje, že bol pozvaný na FOB vyšetrenie.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 29,
         "props": {
           "type": "t"
         },
@@ -280,7 +293,7 @@
       },
       {
         "id": 12,
-        "order": 29,
+        "order": 30,
         "props": {
           "type": "t"
         },
@@ -293,33 +306,7 @@
       },
       {
         "id": 15,
-        "order": 31,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 72,
         "order": 32,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp == 24 &amp;&amp; vek &gt;= 50}}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 74,
-        "order": 34,
         "props": {
           "type": "t"
         },
@@ -332,7 +319,7 @@
       },
       {
         "id": 16,
-        "order": 35,
+        "order": 33,
         "props": {
           "type": "t"
         },
@@ -345,7 +332,7 @@
       },
       {
         "id": 21,
-        "order": 39,
+        "order": 37,
         "props": {
           "type": "t"
         },
@@ -358,7 +345,7 @@
       },
       {
         "id": 22,
-        "order": 40,
+        "order": 38,
         "props": {
           "type": "t"
         },
@@ -371,7 +358,7 @@
       },
       {
         "id": 25,
-        "order": 43,
+        "order": 41,
         "props": {
           "type": "t"
         },
@@ -384,7 +371,7 @@
       },
       {
         "id": 62,
-        "order": 44,
+        "order": 42,
         "props": {
           "type": "t"
         },
@@ -397,7 +384,7 @@
       },
       {
         "id": 65,
-        "order": 46,
+        "order": 44,
         "props": {
           "type": "t"
         },
@@ -410,7 +397,7 @@
       },
       {
         "id": 26,
-        "order": 47,
+        "order": 45,
         "props": {
           "type": "t"
         },
@@ -423,7 +410,7 @@
       },
       {
         "id": 29,
-        "order": 50,
+        "order": 48,
         "props": {
           "type": "t"
         },
@@ -436,7 +423,7 @@
       },
       {
         "id": 30,
-        "order": 51,
+        "order": 49,
         "props": {
           "type": "t"
         },
@@ -449,7 +436,7 @@
       },
       {
         "id": 35,
-        "order": 55,
+        "order": 53,
         "props": {
           "type": "t"
         },
@@ -462,7 +449,7 @@
       },
       {
         "id": 67,
-        "order": 56,
+        "order": 54,
         "props": {
           "type": "t"
         },
@@ -475,7 +462,7 @@
       },
       {
         "id": 70,
-        "order": 57,
+        "order": 55,
         "props": {
           "type": "t"
         },
@@ -488,7 +475,7 @@
       },
       {
         "id": 69,
-        "order": 58,
+        "order": 56,
         "props": {
           "type": "t"
         },
@@ -680,7 +667,7 @@
       },
       {
         "id": 14,
-        "order": 30,
+        "order": 31,
         "props": {
           "type": "vv"
         },
@@ -701,30 +688,8 @@
         }
       },
       {
-        "id": 73,
-        "order": 33,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[H0008] Stanovenie indexu ABI oscilometrickou metódou",
-            "props": {
-              "propBody": 0,
-              "idClassid": "vykon",
-              "idEzid": "02089552141@24",
-              "id": "H0008"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 18,
-        "order": 36,
+        "order": 34,
         "props": {
           "type": "vv"
         },
@@ -746,7 +711,7 @@
       },
       {
         "id": 19,
-        "order": 37,
+        "order": 35,
         "props": {
           "type": "vv"
         },
@@ -769,7 +734,7 @@
       },
       {
         "id": 20,
-        "order": 38,
+        "order": 36,
         "props": {
           "type": "vv"
         },
@@ -791,7 +756,7 @@
       },
       {
         "id": 23,
-        "order": 41,
+        "order": 39,
         "props": {
           "type": "vv"
         },
@@ -814,7 +779,7 @@
       },
       {
         "id": 24,
-        "order": 42,
+        "order": 40,
         "props": {
           "type": "vv"
         },
@@ -836,7 +801,7 @@
       },
       {
         "id": 63,
-        "order": 45,
+        "order": 43,
         "props": {
           "type": "vv"
         },
@@ -858,7 +823,7 @@
       },
       {
         "id": 27,
-        "order": 48,
+        "order": 46,
         "props": {
           "type": "vv"
         },
@@ -880,7 +845,7 @@
       },
       {
         "id": 32,
-        "order": 52,
+        "order": 50,
         "props": {
           "type": "vv"
         },
@@ -902,7 +867,7 @@
       },
       {
         "id": 33,
-        "order": 53,
+        "order": 51,
         "props": {
           "type": "vv"
         },
@@ -925,7 +890,7 @@
       },
       {
         "id": 34,
-        "order": 54,
+        "order": 52,
         "props": {
           "type": "vv"
         },
@@ -960,9 +925,9 @@
             "props": {}
           },
           "at": {
-            "value": "25.11.2020 15:07",
+            "value": "04.03.2021 08:16",
             "props": {
-              "propValue": "2020-11-25T14:07:43.834Z",
+              "propValue": "2021-03-04T07:16:54.602Z",
               "expr": "=+1d"
             }
           },
@@ -990,9 +955,9 @@
             "props": {}
           },
           "at": {
-            "value": "25.11.2020 15:07",
+            "value": "04.03.2021 08:16",
             "props": {
-              "propValue": "2020-11-25T14:07:43.846Z",
+              "propValue": "2021-03-04T07:16:54.607Z",
               "expr": "=+1d"
             }
           },
@@ -1010,7 +975,7 @@
       },
       {
         "id": 28,
-        "order": 49,
+        "order": 47,
         "props": {
           "type": "p"
         },
@@ -1020,9 +985,9 @@
             "props": {}
           },
           "at": {
-            "value": "25.11.2020 15:07",
+            "value": "04.03.2021 08:16",
             "props": {
-              "propValue": "2020-11-25T14:07:43.856Z",
+              "propValue": "2021-03-04T07:16:54.611Z",
               "expr": "=+1d"
             }
           },

@@ -17,11 +17,11 @@
         },
         "value": {
           "id": {
-            "value": "[U07.2] Podozrenie z infekcie COVID-19",
+            "value": "[U09.9] Stav po COVID-19, bližšie neurčený",
             "props": {
-              "id": "U07.2",
-              "idEzid": "02089528679@13",
-              "idClassid": "diagnoza"
+              "idClassid": "diagnoza",
+              "idEzid": "02089903872@17",
+              "id": "U09.9"
             }
           },
           "text": {
@@ -133,9 +133,9 @@
         },
         "value": {
           "date": {
-            "value": "16.11.2020",
+            "value": "03.03.2021",
             "props": {
-              "propValue": "2020-11-15T23:00:00.000Z",
+              "propValue": "2021-03-02T23:00:00.000Z",
               "expr": "=dnes"
             }
           }
@@ -169,9 +169,9 @@
             "value": "[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
+              "id": "1b",
               "idEzid": "02089894014@20",
-              "id": "1b"
+              "idClassid": "vykon"
             }
           },
           "count": {

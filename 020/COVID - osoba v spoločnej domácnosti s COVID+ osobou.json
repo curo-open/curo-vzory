@@ -19,9 +19,9 @@
           "id": {
             "value": "[U07.2] Podozrenie z infekcie COVID-19",
             "props": {
-              "id": "U07.2",
+              "idClassid": "diagnoza",
               "idEzid": "02089528679@14",
-              "idClassid": "diagnoza"
+              "id": "U07.2"
             }
           },
           "text": {
@@ -46,14 +46,10 @@
             }
           },
           "vysledok": {
-            "value": "negativny",
+            "value": "nemal",
             "props": {
-              "propValue": "negativny"
+              "propValue": "nemal"
             }
-          },
-          "date": {
-            "value": "",
-            "props": {}
           }
         }
       },
@@ -118,7 +114,7 @@
         },
         "value": {
           "odp": {
-            "value": "1/ Platí domáca izolácia a to aj pre členov domácnosti - každý sa hlási u svojho lekára.<br>2/ Je nutné aby COVID+ osoba nosila aj v domácnosti v kontakte s členmi domácnosti rúšku a ak je to možné, pobývala v jednej samostatnej izbe, ktorú treba pravidelne vetrať. <br><u>3/ Pac. som objednal na testovanie - 10. deň v karanténe s COVID+ osobou, bude hlásiť výsledok COVID testu</u>, alebo sa ozve telefonicky pri zhoršení zdravot.stavu. <br>4/ Ak bude kontaktovaný z RÚVZ, poskytne všetku potrebnú súčinnosť.  <br>5/ Poučený/á o nároku na karaténnu DPN. <br>6/ Fyzické šetrenie, vit.C 2x500mg, tekutiny, sledovanie respiračných príznakov a telesnej teploty.<br>",
+            "value": "1/ Platí domáca izolácia a to aj pre členov domácnosti - každý sa hlási u svojho lekára.<br>2/ Je nutné aby COVID+ osoba nosila aj v domácnosti v kontakte s členmi domácnosti rúšku a ak je to možné, pobývala v jednej samostatnej izbe, ktorú treba pravidelne vetrať. <br>3/ Pacient sa ozve telefonicky pri zhoršení zdravot. stavu a v posledný deň karantény.<br>4/ Ak bude kontaktovaný z RÚVZ, poskytne všetku potrebnú súčinnosť.  <br>5/ Poučený/á o nároku na karaténnu DPN. <br>6/ Fyzické šetrenie, vit.C 2x500mg, tekutiny, sledovanie respiračných príznakov a telesnej teploty.<br>",
             "props": {}
           }
         }
@@ -137,8 +133,11 @@
             "props": {}
           },
           "date_end": {
-            "value": "",
-            "props": {}
+            "value": "22.03.2021",
+            "props": {
+              "propValue": "2021-03-22T07:08:08.440Z",
+              "expr": "=+19d"
+            }
           }
         }
       }
@@ -156,16 +155,16 @@
             "props": {}
           },
           "date": {
-            "value": "16.11.2020",
+            "value": "03.03.2021",
             "props": {
-              "propValue": "2020-11-15T23:00:00.000Z",
+              "propValue": "2021-03-02T23:00:00.000Z",
               "expr": "=dnes"
             }
           },
           "date_vystavene": {
-            "value": "16.11.2020",
+            "value": "03.03.2021",
             "props": {
-              "propValue": "2020-11-15T23:00:00.000Z",
+              "propValue": "2021-03-02T23:00:00.000Z",
               "expr": "=dnes"
             }
           },
@@ -219,11 +218,11 @@
           "id": {
             "value": "[71.DPN] Vystavenie potvrdenia o dočasnej pracovnej neschopnosti.",
             "props": {
-              "propBody": 35,
               "propType": "soc",
-              "id": "71.DPN",
+              "propBody": 35,
+              "idClassid": "vykon",
               "idEzid": "curo-71.DPN@23",
-              "idClassid": "vykon"
+              "id": "71.DPN"
             }
           },
           "count": {
@@ -243,9 +242,9 @@
             "value": "[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
+              "id": "1b",
               "idEzid": "02089894014@23",
-              "id": "1b"
+              "idClassid": "vykon"
             }
           },
           "count": {
