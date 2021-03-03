@@ -18,9 +18,9 @@
             "value": "[U07.2] Podozrenie z infekcie COVID-19",
             "props": {
               "propDanger": 1,
-              "id": "U07.2",
+              "idClassid": "diagnoza",
               "idEzid": "02089528679@17",
-              "idClassid": "diagnoza"
+              "id": "U07.2"
             }
           },
           "text": {
@@ -39,17 +39,17 @@
         },
         "value": {
           "title": {
-            "value": "",
+            "value": "M0001",
             "props": {}
           },
           "schedule": {
             "value": "1-0-0-0",
             "props": {
-              "propType": "PEV1",
-              "propParts_morning": 1,
-              "propParts_noon": 0,
+              "propParts_sleepTime": 0,
               "propParts_evening": 0,
-              "propParts_sleepTime": 0
+              "propParts_noon": 0,
+              "propParts_morning": 1,
+              "propType": "PEV1"
             }
           },
           "reasonPayoff": {
@@ -57,7 +57,7 @@
             "props": {}
           },
           "instruction": {
-            "value": "Ivermectin<br>",
+            "value": "Ivermectin, 1 tableta denne<br>",
             "props": {}
           },
           "priprava": {
@@ -114,9 +114,9 @@
             "value": "[70] Opätovné vystavenie lekárskeho predpisu alebo lekárskeho poukazu.",
             "props": {
               "propBody": 50,
-              "id": 70,
+              "idClassid": "vykon",
               "idEzid": "02089691105@26",
-              "idClassid": "vykon"
+              "id": 70
             }
           },
           "count": {
