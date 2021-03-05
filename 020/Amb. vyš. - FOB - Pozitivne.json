@@ -7,35 +7,10 @@
   "if": "",
   "data": {
     "_": {},
-    "premenna": [
-      {
-        "id": 17,
-        "order": 0,
-        "props": {
-          "type": "premenna"
-        },
-        "value": {
-          "name": {
-            "value": "fobpp",
-            "props": {}
-          },
-          "type": {
-            "value": "text",
-            "props": {
-              "propValue": "text"
-            }
-          },
-          "value": {
-            "value": "ON",
-            "props": {}
-          }
-        }
-      }
-    ],
     "t": [
       {
         "id": 9,
-        "order": 1,
+        "order": 0,
         "props": {
           "type": "t"
         },
@@ -48,7 +23,7 @@
       },
       {
         "id": 10,
-        "order": 3,
+        "order": 2,
         "props": {
           "type": "t"
         },
@@ -61,7 +36,7 @@
       },
       {
         "id": 12,
-        "order": 5,
+        "order": 4,
         "props": {
           "type": "t"
         },
@@ -73,21 +48,21 @@
         }
       },
       {
-        "id": 24,
-        "order": 9,
+        "id": 17,
+        "order": 8,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? var.fobpp == 'ON' &amp;&amp; zp == 25  &amp;&amp; vek &lt; 70 }}<br>",
+            "value": "{{ ? var.fobpp == 'ON' &amp;&amp; zp == 25 &amp;&amp; vek &lt; 70  }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 26,
-        "order": 11,
+        "id": 19,
+        "order": 10,
         "props": {
           "type": "t"
         },
@@ -99,8 +74,8 @@
         }
       },
       {
-        "id": 28,
-        "order": 13,
+        "id": 21,
+        "order": 12,
         "props": {
           "type": "t"
         },
@@ -115,7 +90,7 @@
     "vd": [
       {
         "id": 13,
-        "order": 2,
+        "order": 1,
         "props": {
           "type": "vd"
         },
@@ -123,9 +98,9 @@
           "id": {
             "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
             "props": {
-              "id": "Z12.1",
+              "idClassid": "diagnoza",
               "idEzid": "02089521690@9",
-              "idClassid": "diagnoza"
+              "id": "Z12.1"
             }
           },
           "text": {
@@ -136,7 +111,7 @@
       },
       {
         "id": 2,
-        "order": 4,
+        "order": 3,
         "props": {
           "type": "vd"
         },
@@ -144,9 +119,9 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "id": "Z00.0",
+              "idClassid": "diagnoza",
               "idEzid": "02089520809",
-              "idClassid": "diagnoza"
+              "id": "Z00.0"
             }
           },
           "text": {
@@ -159,19 +134,19 @@
     "lv": [
       {
         "id": 4,
-        "order": 6,
+        "order": 5,
         "props": {
           "type": "lv",
-          "priority": 20,
-          "comment": "Pozitivny nalez"
+          "comment": "Pozitivny nalez",
+          "priority": 20
         },
         "value": {
           "id": {
             "value": "[00020036711] Stolica - okultné krvácanie",
             "props": {
-              "id": "00020036711",
+              "idClassid": "labvys",
               "idEzid": "00020036711",
-              "idClassid": "labvys"
+              "id": "00020036711"
             }
           },
           "value": {
@@ -183,9 +158,9 @@
             "props": {}
           },
           "date": {
-            "value": "15.01.2021",
+            "value": "05.03.2021",
             "props": {
-              "propValue": "2021-01-15T07:17:20.178Z",
+              "propValue": "2021-03-05T13:02:32.410Z",
               "expr": "=teraz"
             }
           },
@@ -199,7 +174,7 @@
     "p": [
       {
         "id": 8,
-        "order": 7,
+        "order": 6,
         "props": {
           "type": "p"
         },
@@ -228,7 +203,7 @@
     "vl": [
       {
         "id": 15,
-        "order": 8,
+        "order": 7,
         "props": {
           "type": "vl"
         },
@@ -240,17 +215,17 @@
           "odbor": {
             "value": "[048] gastroenterológia",
             "props": {
-              "idClassid": "zameranie",
+              "id": "048",
               "idEzid": "00000351718@5",
-              "id": "048"
+              "idClassid": "zameranie"
             }
           },
           "druh": {
             "value": "[2] ambulancia",
             "props": {
-              "idClassid": "cinnost",
+              "id": 2,
               "idEzid": "00000000273@3",
-              "id": 2
+              "idClassid": "cinnost"
             }
           },
           "presne": {
@@ -268,8 +243,8 @@
     ],
     "vv": [
       {
-        "id": 25,
-        "order": 10,
+        "id": 18,
+        "order": 9,
         "props": {
           "type": "vv"
         },
@@ -277,7 +252,7 @@
           "id": {
             "value": "[159a+FOB] Výkon 159a s pripočítateľnou položkou FOB",
             "props": {
-              "propBody": 200,
+              "propBody": 180,
               "idClassid": "vykon",
               "idEzid": "curo-159a+FOB@26",
               "id": "159a+FOB"
@@ -291,7 +266,7 @@
       },
       {
         "id": 6,
-        "order": 12,
+        "order": 11,
         "props": {
           "type": "vv"
         },
@@ -300,9 +275,9 @@
             "value": "[159a] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonu pod kódom 160. Výkon môže vykazovať lekár všeobecnej starostlivosti vtedy, ak ho sám uskut",
             "props": {
               "propBody": 180,
-              "idClassid": "vykon",
+              "id": "159a",
               "idEzid": "00000467357@7",
-              "id": "159a"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -317,9 +292,7 @@
     "sumar-fob",
     "sestra"
   ],
-  "vars": {
-    "fobpp": "ON"
-  },
+  "vars": {},
   "owner": "admin",
   "allowedUsers": [],
   "allowedIdentities": [],
