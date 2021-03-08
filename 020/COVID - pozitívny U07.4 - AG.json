@@ -19,9 +19,9 @@
           "id": {
             "value": "[U07.4] Potvrdená infekcia COVID-19 Ag testom",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "U07.4",
               "idEzid": "02089528695@17",
-              "id": "U07.4"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -133,17 +133,17 @@
         },
         "value": {
           "date": {
-            "value": "03.03.2021",
+            "value": "08.03.2021",
             "props": {
-              "propValue": "2021-03-02T23:00:00.000Z",
+              "propValue": "2021-03-07T23:00:00.000Z",
               "expr": "=dnes"
             }
           },
           "date_end": {
-            "value": "17.03.2021",
+            "value": "21.03.2021",
             "props": {
-              "propValue": "2021-03-17T07:00:46.330Z",
-              "expr": "=+14d"
+              "propValue": "2021-03-21T11:38:24.713Z",
+              "expr": "=+13d"
             }
           }
         }
@@ -162,16 +162,16 @@
             "props": {}
           },
           "date": {
-            "value": "03.03.2021",
+            "value": "08.03.2021",
             "props": {
-              "propValue": "2021-03-02T23:00:00.000Z",
+              "propValue": "2021-03-07T23:00:00.000Z",
               "expr": "=dnes"
             }
           },
           "date_vystavene": {
-            "value": "03.03.2021",
+            "value": "08.03.2021",
             "props": {
-              "propValue": "2021-03-02T23:00:00.000Z",
+              "propValue": "2021-03-07T23:00:00.000Z",
               "expr": "=dnes"
             }
           },
@@ -225,11 +225,11 @@
           "id": {
             "value": "[71.DPN] Vystavenie potvrdenia o dočasnej pracovnej neschopnosti.",
             "props": {
-              "propBody": 35,
               "propType": "soc",
-              "id": "71.DPN",
+              "propBody": 35,
+              "idClassid": "vykon",
               "idEzid": "curo-71.DPN@22",
-              "idClassid": "vykon"
+              "id": "71.DPN"
             }
           },
           "count": {
@@ -249,9 +249,9 @@
             "value": "[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky",
             "props": {
               "propBody": 0,
-              "id": "1b",
+              "idClassid": "vykon",
               "idEzid": "02089894014@22",
-              "idClassid": "vykon"
+              "id": "1b"
             }
           },
           "count": {

@@ -47,7 +47,7 @@
       },
       {
         "id": 14,
-        "order": 6,
+        "order": 7,
         "props": {
           "type": "t"
         },
@@ -60,7 +60,7 @@
       },
       {
         "id": 16,
-        "order": 8,
+        "order": 9,
         "props": {
           "type": "t"
         },
@@ -73,7 +73,7 @@
       },
       {
         "id": 18,
-        "order": 10,
+        "order": 11,
         "props": {
           "type": "t"
         },
@@ -96,9 +96,9 @@
           "id": {
             "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
             "props": {
-              "id": "Z12.1",
+              "idClassid": "diagnoza",
               "idEzid": "02089521690@9",
-              "idClassid": "diagnoza"
+              "id": "Z12.1"
             }
           },
           "text": {
@@ -117,9 +117,9 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "id": "Z00.0",
+              "idClassid": "diagnoza",
               "idEzid": "02089520809",
-              "idClassid": "diagnoza"
+              "id": "Z00.0"
             }
           },
           "text": {
@@ -140,9 +140,9 @@
           "id": {
             "value": "[00020036711] Stolica - okultné krvácanie",
             "props": {
-              "idClassid": "labvys",
+              "id": "00020036711",
               "idEzid": "00020036711",
-              "id": "00020036711"
+              "idClassid": "labvys"
             }
           },
           "value": {
@@ -154,9 +154,9 @@
             "props": {}
           },
           "date": {
-            "value": "05.03.2021",
+            "value": "08.03.2021",
             "props": {
-              "propValue": "2021-03-05T13:02:14.747Z",
+              "propValue": "2021-03-08T09:30:52.728Z",
               "expr": "=teraz"
             }
           },
@@ -167,10 +167,35 @@
         }
       }
     ],
+    "premenna": [
+      {
+        "id": 20,
+        "order": 6,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "fobpp",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "ON",
+            "props": {}
+          }
+        }
+      }
+    ],
     "vv": [
       {
         "id": 15,
-        "order": 7,
+        "order": 8,
         "props": {
           "type": "vv"
         },
@@ -179,9 +204,9 @@
             "value": "[159z+FOB] Výkon 159z s pripočítateľnou položkou FOB",
             "props": {
               "propBody": 180,
-              "id": "159z+FOB",
+              "idClassid": "vykon",
               "idEzid": "curo-159z+FOB@26",
-              "idClassid": "vykon"
+              "id": "159z+FOB"
             }
           },
           "count": {
@@ -192,7 +217,7 @@
       },
       {
         "id": 17,
-        "order": 9,
+        "order": 10,
         "props": {
           "type": "vv"
         },
@@ -201,9 +226,9 @@
             "value": "[159z] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonu pod kódom 160. Výkon môže vykazovať lekár všeobecnej starostlivosti vtedy, ak ho sám uskut",
             "props": {
               "propBody": 180,
-              "id": "159z",
+              "idClassid": "vykon",
               "idEzid": "02089731844@26",
-              "idClassid": "vykon"
+              "id": "159z"
             }
           },
           "count": {

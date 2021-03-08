@@ -13,7 +13,7 @@
         },
         "value": {
           "text": {
-            "value": "TO: {{sessions|getSections('to')|where(\"i==0\")|trans('join', 't')}}<br>Prosím láskavo o Vaše odborné vyšetrenie dif Dg<br>Dg:susp<br>+Dg: {{sessions|getSections('td')|where(\"!sekcia.zruseny\")|trans('join', 'k')}}<br>AA: {{sessions|getSections('aa')|where(\"i==0\")|trans('join', 't')}}<br>Th: štand. dav. {{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br>Za spoluprácu vopred vďaka<br>Pri preskr. obmedz. liekoch, prosím vyznačíť dátum ukončenia (max. 1 rok)<br>",
+            "value": "TO: {{&lt; sessions|getSections(\"to\")|where(\"i==0\")|trans(\"text\")}}<br>Prosím láskavo o Vaše odborné vyšetrenie dif Dg<br>Dg:susp<br>+Dg: {{sessions|getSections('td')|where(\"!sekcia.zruseny\")|trans('join', 'k')}}<br>{{&lt; sessions|getSections(\"aa\")|where(\"i==0\")|trans(\"text\")}}<br>Th: štand. dav. {{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br>Za spoluprácu vopred vďaka<br>Pri preskr. obmedz. liekoch, prosím vyznačíť dátum ukončenia (max. 1 rok)<br>",
             "props": {}
           },
           "odbor": {
@@ -47,5 +47,8 @@
   ],
   "vars": {},
   "summary": "Výmenný lístok - komplex ",
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
   "source": "curo-open/curo-vzory#/020"
 }
