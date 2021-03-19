@@ -1,0 +1,32 @@
+{
+  "summary": "",
+  "owner": "admin",
+  "title": "Chronické lieky a pomôcky - ako text",
+  "shortcut": "10txt",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0}}<br><b>Lieky:</b><br>{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br>{{ : }}<br>Nenašli sa žiadne lieky, ktoré máte označené ako chronické, použite Ctrl+L pre výber chronických liekov.<br>{{ ? }}<br>{{ ? sessions|getSections(\"pp\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0}}<br><b>Pomôcky:</b><br>{{&lt; sessions|getSections(\"pp\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br>{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "lieky"
+  ],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/000"
+}

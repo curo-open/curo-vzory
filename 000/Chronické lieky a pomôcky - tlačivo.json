@@ -1,0 +1,48 @@
+{
+  "title": "Chronické lieky a pomôcky - tlačivo",
+  "owner": "admin",
+  "shortcut": "10tl",
+  "summary": "",
+  "if": "",
+  "data": {
+    "_": {},
+    "tl": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "tl"
+        },
+        "value": {
+          "nadpis": {
+            "value": "",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "Zoznam liekov a pomôcok, ktoré pravidelne užívate<br>",
+            "props": {}
+          },
+          "obsah": {
+            "value": "{{ ? sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0}}<br><b>Lieky:</b><br>{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br>{{ : }}<br>Nenašli sa žiadne lieky, ktoré máte označené ako chronické, použite Ctrl+L pre výber chronických liekov.<br>{{ ? }}<br>{{ ? sessions|getSections(\"pp\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0}}<br><b>Pomôcky:</b><br>{{&lt; sessions|getSections(\"pp\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br>{{ ? }}<br>",
+            "props": {}
+          },
+          "hlavicka": {
+            "value": "",
+            "props": {}
+          },
+          "peciatka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "lieky"
+  ],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/000"
+}
