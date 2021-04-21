@@ -1,0 +1,141 @@
+{
+  "tags": [
+    "dekurz"
+  ],
+  "title": "lilahodp",
+  "shortcut": "lilahodp",
+  "if": "",
+  "data": {
+    "_": {},
+    "odp": [
+      {
+        "id": 20,
+        "order": 0,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "ZŽŠ, redukcia hmotnosti, menej soliť, hypolipidemiká diéta,  self monitoring TK podľa poučenia, pri nevyhovujúcich hodnotách TK alebo P sa u  nás hlási okamžite, inak pravidelné kontroly AH/DLP á pol roka, spontánne sa objednávať<br>Indikované vyšetrenia  pri AH/ DLP, objedná si. <br>S výsledkami  indikovaných vyšetrení sa hlási bezodkladne po ich realizácii. <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 21,
+        "order": 1,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
+            "props": {
+              "id": "I10.00",
+              "idEzid": "02089398180@13",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 25,
+        "order": 4,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[E78.0] Izolovaná hypercholesterolémia",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089382119@13",
+              "id": "E78.0"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 22,
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[H0004] Kontrolné vyšetrenie u poistenca s arteriálnou hypertenziou jeden krát za 6 mesiacov",
+            "props": {
+              "propBody": 0,
+              "idClassid": "vykon",
+              "idEzid": "02089725754@19",
+              "id": "H0004"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 23,
+        "order": 3,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
+            "props": {
+              "propType": "SVaLZ",
+              "propBody": 550,
+              "idClassid": "vykon",
+              "idEzid": "00000494187@19",
+              "id": 5702
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 27,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[H0004] Kontrolné vyšetrenie u poistenca s arteriálnou hypertenziou jeden krát za 6 mesiacov",
+            "props": {
+              "propBody": 0,
+              "idClassid": "vykon",
+              "idEzid": "02089725754@19",
+              "id": "H0004"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

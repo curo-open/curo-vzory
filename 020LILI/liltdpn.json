@@ -1,0 +1,61 @@
+{
+  "title": "liltdpn",
+  "shortcut": "liltdpn",
+  "if": "",
+  "data": {
+    "_": {},
+    "t-preukaz-trvania-dpn": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "t-preukaz-trvania-dpn"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "praceneschopny_do": {
+            "value": "",
+            "props": {}
+          },
+          "zmena_diagnozy": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[71.TDPN] Vystavenie preukazu o trvaní dočasnej pracovnej neschopnosti.",
+            "props": {
+              "propType": "soc",
+              "propBody": 35,
+              "idClassid": "vykon",
+              "idEzid": "curo-71.TDPN@12",
+              "id": "71.TDPN"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

@@ -1,0 +1,195 @@
+{
+  "title": "lilvp",
+  "shortcut": "lilvp",
+  "if": "",
+  "data": {
+    "_": {},
+    "t-nadpis": [
+      {
+        "id": 6,
+        "order": 0,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "Vyšetrenie za účelom posúdenia na vedenie motorového vozidla<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 7,
+        "order": 1,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z02.4] Vyšetrenie pre vodičský preukaz",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089521070@12",
+              "id": "Z02.4"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 8,
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov",
+            "props": {
+              "propBody": 250,
+              "idClassid": "vykon",
+              "idEzid": "00000466557@12",
+              "id": 8
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 2,
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "S: cíti sa dobre, bolesti na hrudi nemá, dýcha sa dobre, nohy neopúchajú, VF v norme , búšenie srdca nemá, synkopy a poruchy vedomia neguje, na epi a záchvatové ochorenia sa nikdy neliečil, závažné úrazy nemal, abúzus alkoholu a drog neguje, závažné neurologické alebo ortopedické ochorenie neguje.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 4,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "Orientovaný/á  všetkými smermi, reč koherentná, postoj, chôdza v norme, LAP  nehmatám, Uši, nos bez sekrécie, oči - spojovky ružové, skléry biele, zrenice izokorické, DÚ- sliznice vlhké, jazyk plazí v strednej rovine, nepovlečený, ORF kľudný, krk súmerný, ŠŽ nehmatám, AS pravidelná, ozvy ohraničené, dýchanie čisté v celom rozsahu, Abdomen voľne priehmatný, bez hmatnej rezistencie, bez známok peritoneálneho dráždenia. DK bez edémov, varixy neprítomné,  afebrilný, orientačne neurologicky v norme, šija neoponuje<br>sluch orientačne skúška šepot v norme, neurologicky a ortopedicky , psychologicky orientačne v norme <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t-sposobilost-vodica": [
+      {
+        "id": 4,
+        "order": 5,
+        "props": {
+          "type": "t-sposobilost-vodica"
+        },
+        "value": {
+          "posudzovany": {
+            "value": "1",
+            "props": {}
+          },
+          "sposobily": {
+            "value": "B",
+            "props": {}
+          },
+          "nesposobily": {
+            "value": "",
+            "props": {}
+          },
+          "obmedzene_sposobily": {
+            "value": "",
+            "props": {}
+          },
+          "datum": {
+            "value": "",
+            "props": {}
+          },
+          "platny": {
+            "value": "",
+            "props": {}
+          },
+          "EC": {
+            "value": "VP",
+            "props": {}
+          },
+          "ziadana_skupina": {
+            "value": "1",
+            "props": {}
+          },
+          "drzitel_opravnenia_skupiny": {
+            "value": "B",
+            "props": {}
+          },
+          "vodic_skupiny": {
+            "value": "B",
+            "props": {}
+          },
+          "zdravotny_stav": {
+            "value": "cítim zdravý/zdravá a nie som si vedomy poruchy alebo choroby",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "lieky": {
+            "value": "neužívam žiadne lieky",
+            "props": {}
+          },
+          "alkohol_pouzivanie": {
+            "value": "neužívam/neužíval",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "navykove_latky_pouzivanie": {
+            "value": "neužívam/neužíval",
+            "props": {
+              "propValue": 0
+            }
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 5,
+        "order": 6,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "dop.spôsobilý na vedenie MV B  - platnosť  podla zákona<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

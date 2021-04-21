@@ -1,0 +1,189 @@
+{
+  "title": "covid panel",
+  "owner": "podhorska",
+  "shortcut": "covidpanel",
+  "description": "covidpanel",
+  "if": "",
+  "data": {
+    "_": {},
+    "odp": [
+      {
+        "id": 11,
+        "order": 0,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "FW, krvný obraz, CRP, krea, urea, ALT, AST, GMT, TSH, CK, NTproBNP, D- dimér, moč CH+S, <br>RTG hrudníka<br>EKG<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ekg": [
+      {
+        "id": 13,
+        "order": 1,
+        "props": {
+          "type": "ekg"
+        },
+        "value": {
+          "rytmus": {
+            "value": "SR, AP",
+            "props": {}
+          },
+          "fr": {
+            "value": "",
+            "props": {}
+          },
+          "ax": {
+            "value": "",
+            "props": {}
+          },
+          "pq": {
+            "value": "",
+            "props": {}
+          },
+          "p": {
+            "value": "",
+            "props": {}
+          },
+          "qrs": {
+            "value": "",
+            "props": {}
+          },
+          "qt": {
+            "value": "nepredlžené",
+            "props": {}
+          },
+          "qtcb": {
+            "value": "",
+            "props": {}
+          },
+          "rs": {
+            "value": "V3",
+            "props": {}
+          },
+          "st": {
+            "value": "izoel",
+            "props": {}
+          },
+          "t": {
+            "value": "pozit.",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          },
+          "zaver": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[U07.1] Potvrdená infekcia COVID-19",
+            "props": {
+              "id": "U07.1",
+              "idEzid": "02089528661@16",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 5,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[R05] Kašeľ",
+            "props": {
+              "id": "R05",
+              "idEzid": "00000078717@16",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 7,
+        "order": 4,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[R07.3] Iná bolesť v hrudníku",
+            "props": {
+              "id": "R07.3",
+              "idEzid": "02089478495@16",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-rtg": [
+      {
+        "id": 9,
+        "order": 5,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[R05] Kašeľ",
+            "props": {
+              "id": "R05",
+              "idEzid": "00000078717@16",
+              "idClassid": "diagnoza"
+            }
+          },
+          "predmet": {
+            "value": "RTG hruníka +popis",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "kašel, bolesť ha hrudi, stp. covid, longcovid 19 syndrom",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/020LILI"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Vykon 1b",
+  "shortcut": "v1b",
+  "if": "",
+  "data": {
+    "_": {},
+    "vv": [
+      {
+        "id": 7,
+        "order": 0,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky",
+            "props": {
+              "propBody": 0,
+              "idClassid": "vykon",
+              "idEzid": "02089894014@20",
+              "id": "1b"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "vykony"
+  ],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

@@ -1,0 +1,37 @@
+{
+  "tags": [
+    "vykony"
+  ],
+  "title": "Vykon 4",
+  "shortcut": "v4",
+  "if": "",
+  "data": {
+    "_": {},
+    "vv": [
+      {
+        "id": 7,
+        "order": 0,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[4] Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000466524@20",
+              "id": 4
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

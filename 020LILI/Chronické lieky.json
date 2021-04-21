@@ -1,0 +1,287 @@
+{
+  "type": "examination",
+  "summary": "Chronické lieky",
+  "description": "",
+  "owner": "podhorska",
+  "title": "Chronické lieky",
+  "shortcut": "10",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "13": [
+          "schedule"
+        ]
+      }
+    },
+    "t": [
+      {
+        "id": 9,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans(\"length\") &gt; 0}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1,
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 10,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 12,
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 24,
+        "order": 5,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{? zp == 24 &amp;&amp; pacient.typ != 'EU'   }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 26,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 28,
+        "order": 8,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{? zp == 25 &amp;&amp; pacient.typ != 'EU'   }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 30,
+        "order": 10,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 32,
+        "order": 11,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{? zp == 27 &amp;&amp; pacient.typ != 'EU'   }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 34,
+        "order": 13,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 13,
+        "order": 3,
+        "props": {
+          "type": "r",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "schedule": {
+            "value": "",
+            "props": {
+              "error": "Chyba zápisu dávkovania. (SyntaxError: Expected '1x', '2x', '3x', '4x', 'Ad Manus Medici', 'a', 'a.m.m.', 'ad manus medici', 'amm', 'dr', 'dľa rady', 'pd', 'podľa doporučenia', 'podľa rozpisu', 'pr', 'á', [0-9], or integer but end of input found.)"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {}
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 3,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[70] Opätovné vystavenie lekárskeho predpisu alebo lekárskeho poukazu.",
+            "props": {
+              "propBody": 50,
+              "idClassid": "vykon",
+              "idEzid": "02089691105@18",
+              "id": 70
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 29,
+        "order": 9,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[70] Opätovné vystavenie lekárskeho predpisu alebo lekárskeho poukazu.",
+            "props": {
+              "propBody": 50,
+              "id": 70,
+              "idEzid": "02089691105@18",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 33,
+        "order": 12,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[70] Opätovné vystavenie lekárskeho predpisu alebo lekárskeho poukazu.",
+            "props": {
+              "propBody": 50,
+              "id": 70,
+              "idEzid": "02089691105@18",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "lieky"
+  ],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/020LILI"
+}

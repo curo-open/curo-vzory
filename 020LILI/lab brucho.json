@@ -1,0 +1,38 @@
+{
+  "title": "lab: brucho",
+  "if": "",
+  "data": {
+    "_": {},
+    "z-lab": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "z-lab"
+        },
+        "value": {
+          "code": {
+            "value": "",
+            "props": {}
+          },
+          "comment": {
+            "value": "Glukóza; Na; K; Kreatinín; Močový sediment; Bilirubín celkový; Moč chemicky; CRP; ALT; AST; GGT; Amyláza; Krvný obraz + dif. Le<br>",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "labData": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "shortcut": "",
+  "source": "curo-open/curo-vzory#/020LILI"
+}

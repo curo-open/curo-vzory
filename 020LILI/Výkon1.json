@@ -1,0 +1,37 @@
+{
+  "tags": [
+    "vykony"
+  ],
+  "title": "Výkon1",
+  "shortcut": "V1",
+  "if": "",
+  "data": {
+    "_": {},
+    "vv": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[1] Pod radou sa rozumie poskytnutie informácií pacientovi alebo zákonnému zástupcovi v súvislosti so zdravotným stavom. Výkon pod kódom 1 nemožno vykazovať súčasne s inými výkonmi. Výkon nemožno vykazovať pre telefonické objednávanie pacienta.",
+            "props": {
+              "propBody": 80,
+              "idClassid": "vykon",
+              "idEzid": "00000466508@20",
+              "id": 1
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

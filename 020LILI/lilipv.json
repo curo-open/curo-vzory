@@ -1,0 +1,477 @@
+{
+  "title": "lilipv",
+  "shortcut": "lilipv",
+  "if": "",
+  "data": {
+    "_": {},
+    "t-nadpis": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "Predoperačné  vyšetrenie na  plánovaný operačný výkon<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "(podľa Odborného usmernenia MZ SR o vykonávaní ambulantných vyšetrení u dospelých pred plánovanými zdravotnými výkonmi s potrebou anestéziologickej starostlivosti zo dňa 10.6. 2014, číslo: 12 826/2014-SZ)<br>Plánovaný OP: <br>Dátum OP: <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "Cíti sa dobre, bolesti na hrudi nemá, dýcha sa dobre, nohy neopúchajú, s močením a stolicou ťažkosti nemá, pracovná tolerancia sa nezmenila, vyjde na 2. poschodie bez zadýchania a stenokardii, brucho nebolí, s močením a stolicou ťažkosti nemá, hlava nebolí, vertigo a synkopy neguje<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ra": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "ra"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          },
+          "kvo": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oa": [
+      {
+        "id": 7,
+        "order": 3,
+        "props": {
+          "type": "oa"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "sa": [
+      {
+        "id": 8,
+        "order": 4,
+        "props": {
+          "type": "sa"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "la": [
+      {
+        "id": 9,
+        "order": 5,
+        "props": {
+          "type": "la"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "aa": [
+      {
+        "id": 10,
+        "order": 6,
+        "props": {
+          "type": "aa"
+        },
+        "value": {
+          "text": {
+            "value": "neguje alergiu na lieky <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ga": [
+      {
+        "id": 11,
+        "order": 7,
+        "props": {
+          "type": "ga"
+        },
+        "value": {
+          "text": {
+            "value": "sledovaná, posledná menštruácia: <br>",
+            "props": {}
+          },
+          "prvamen": {
+            "value": "",
+            "props": {}
+          },
+          "pravidelnost": {
+            "value": "áno",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "bolest": {
+            "value": "",
+            "props": {}
+          },
+          "cyklus": {
+            "value": "",
+            "props": {}
+          },
+          "menopauza": {
+            "value": "",
+            "props": {}
+          },
+          "porody": {
+            "value": "1",
+            "props": {}
+          },
+          "potraty": {
+            "value": "1",
+            "props": {}
+          },
+          "interrupcie": {
+            "value": "",
+            "props": {}
+          },
+          "posinterrupcia": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "zfp": [
+      {
+        "id": 12,
+        "order": 8,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "167",
+            "props": {}
+          },
+          "bmi": {
+            "value": "22,95",
+            "props": {
+              "propValue": 22.95
+            }
+          },
+          "oh": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "99",
+            "props": {}
+          },
+          "temp": {
+            "value": "36,5",
+            "props": {
+              "propValue": "36.50"
+            }
+          }
+        }
+      }
+    ],
+    "ab": [
+      {
+        "id": 13,
+        "order": 9,
+        "props": {
+          "type": "ab"
+        },
+        "value": {
+          "fajciar": {
+            "value": "Nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "alkohol": {
+            "value": "Nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "kava": {
+            "value": "Nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "drogy": {
+            "value": "Nie",
+            "props": {
+              "propValue": 0
+            }
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 14,
+        "order": 10,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "Orientovaný/á  všetkými smermi, reč koherentná, postoj, chôdza v norme, LAP  nehmatám, Uši, nos bez sekrécie, oči - spojovky ružové, skléry biele, zrenice izokorické, DÚ- sliznice vlhké, jazyk plazí v strednej rovine, nepovlečený, ORF kľudný, krk súmerný, ŠŽ nehmatám, AS pravidelná, ozvy ohraničené, dýchanie čisté v celom rozsahu, Abdomen voľne priehmatný, bez hmatnej rezistencie, bez známok peritoneálneho dráždenia. DK bez edémov, varixy neprítomné,  afebrilný, orientačne neurologicky v norme, šija neoponuje<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ekg": [
+      {
+        "id": 16,
+        "order": 11,
+        "props": {
+          "type": "ekg"
+        },
+        "value": {
+          "rytmus": {
+            "value": "SR, AP",
+            "props": {}
+          },
+          "fr": {
+            "value": "",
+            "props": {}
+          },
+          "ax": {
+            "value": "",
+            "props": {}
+          },
+          "pq": {
+            "value": "",
+            "props": {}
+          },
+          "qrs": {
+            "value": "0,08",
+            "props": {}
+          },
+          "qt": {
+            "value": "nepredlžený",
+            "props": {}
+          },
+          "qtcb": {
+            "value": "",
+            "props": {}
+          },
+          "rs": {
+            "value": "V4",
+            "props": {}
+          },
+          "st": {
+            "value": "izoelektricke",
+            "props": {}
+          },
+          "t": {
+            "value": "pozit",
+            "props": {}
+          },
+          "hlk": {
+            "value": "",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          },
+          "zaver": {
+            "value": "fyziolog. krivka ",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "b-lv": [
+      {
+        "id": 24,
+        "order": 12,
+        "props": {
+          "type": "b-lv",
+          "group": true
+        },
+        "value": {
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "lab": {
+            "value": "",
+            "props": {}
+          },
+          "ref": {
+            "value": "",
+            "props": {}
+          },
+          "file": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "dz": [
+      {
+        "id": 19,
+        "order": 13,
+        "props": {
+          "type": "dz"
+        },
+        "value": {
+          "dz": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 20,
+        "order": 14,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "Pacient je aktuálne kardio - pulmonálne kompenzovaný s vyhovujúcim TK, P a saturáciou O2, s vyhov. glykémiou<br>Súčasná terapia:<br>ASA 2<br>Navrhovaná príprava: štandardná prevencia tromboembolizmu<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 21,
+        "order": 15,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 22,
+        "order": 16,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[60b] Komplexné predoperačné vyšetrenie vrátane odberov krvi, zhodnotenie laboratórnych a prístrojových vyšetrení.",
+            "props": {
+              "propBody": 0,
+              "id": "60b",
+              "idEzid": "02089719450@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 23,
+        "order": 17,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
+            "props": {
+              "propBody": 550,
+              "propType": "SVaLZ",
+              "id": 5702,
+              "idEzid": "00000494187@14",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

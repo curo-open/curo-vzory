@@ -1,0 +1,37 @@
+{
+  "title": "lab: DLP KV",
+  "if": "",
+  "data": {
+    "_": {},
+    "z-lab": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "z-lab"
+        },
+        "value": {
+          "code": {
+            "value": "",
+            "props": {}
+          },
+          "comment": {
+            "value": "Glukóza; Cholesterol; HDL; LDL; ALT; TAG<br>",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "labData": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

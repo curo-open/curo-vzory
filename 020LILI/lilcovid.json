@@ -1,0 +1,29 @@
+{
+  "title": "lilcovid",
+  "owner": "podhorska",
+  "shortcut": "lilcovid",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Odporúčanie​: <br>1/ Platí domáca izolácia a to aj pre členov domácnosti - každý sa hlási u svojho lekára.<br>2/ Poskytne všetku potrebnú súčinnosť RUVZ ohľadom testovania, karantény a kontroly dodržiavania lieč. režimu , resp. kontroly zdravot. stavu.  <br>3/ Ohlási sa 10 dní od posledného COVID+ testu, alebo pri zhoršení zdravot.stavu. <br>4/ Poučený/á o nároku na karaténnu DPN, v prípade, ak žadate vypísanie pandemickej PN nám zašlite potrebné údaje: adresa trvalého pobytu, miesto pobytu počas PN, adresa a názov zamestnávateľa, dátum od kedy chcete čerpať PN. <br>5/ Fyzické šetrenie, vit.C 2x500mg, tekutiny, sledovanie respiračných príznakov a telesnej  teploty, ak sa obvia nejakú príznaky covid 19, je potrebné nás telefonicky kontaktovať a objednáme Vás na pretestovanie PCR. <br><br>Inštrukcie k pandemickej PN: <br>Lekár upozorňuje  pacienta, aby v prípade, ak je poistencom Sociálnej poisťovne podal Sociálnej poisťovni žiadosť o pandemické nemocenské –podrobnosti aký formulár má použiť a ako ho má zaslať má zverejnené Sociálna poisťovňa na svojej webovej stránke www.socpoist.sk. <br><br>Vystavenie potvrdenia PN oznámi pacient zamestnávateľovi telefonicky alebo e-mailom. <br><br>Potvrdenie  PN  zdôvodu  nariadenia  karanténneho  opatrenia/izolácie  vystavujeme   na  základe telefonického  alebo  e-mailového  vyžiadania  pacientom.  Pacient  si  NECHODÍ osobne po potvrdenie PN. <br><br>S pozdravom Podhorská<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/020LILI"
+}

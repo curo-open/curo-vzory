@@ -1,0 +1,37 @@
+{
+  "tags": [
+    "vykony"
+  ],
+  "title": "Vykon 70",
+  "shortcut": "v70",
+  "if": "",
+  "data": {
+    "_": {},
+    "vv": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[70] Opätovné vystavenie lekárskeho predpisu alebo lekárskeho poukazu.",
+            "props": {
+              "propBody": 50,
+              "idClassid": "vykon",
+              "idEzid": "02089691105@20",
+              "id": 70
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

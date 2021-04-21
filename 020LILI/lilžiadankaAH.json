@@ -1,0 +1,207 @@
+{
+  "title": "lilžiadankaAH",
+  "shortcut": "lilžiadanka AH",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Indikované vyšetrenia pri arteriovej hypertenzii - pacient poučený, že sa ma s výsledkami vyšetrení hlásiť k nám bezodkladne<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-ultrazvukove-vysetrenie": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "z-ultrazvukove-vysetrenie"
+        },
+        "value": {
+          "dg": {
+            "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
+            "props": {
+              "id": "I10.00",
+              "idEzid": "02089398180@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "anamneza": {
+            "value": "",
+            "props": {}
+          },
+          "vysledky": {
+            "value": "",
+            "props": {}
+          },
+          "pred": {
+            "value": "",
+            "props": {}
+          },
+          "predmet": {
+            "value": "USG brucha",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "Podľa OUMZ na  poskytovanie ZS pacientom s  AH zo dňa 1.12.2014 sa odporúča pátrať pri danej Dg po asymptomatickom poškodení orgánov",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "z-ultrazvukove-vysetrenie"
+        },
+        "value": {
+          "dg": {
+            "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
+            "props": {
+              "id": "I10.00",
+              "idEzid": "02089398180@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "anamneza": {
+            "value": "",
+            "props": {}
+          },
+          "vysledky": {
+            "value": "",
+            "props": {}
+          },
+          "pred": {
+            "value": "",
+            "props": {}
+          },
+          "predmet": {
+            "value": "DUS extrakraniálneho riečiska",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "Podľa OUMZ na  poskytovanie ZS pacientom s AH zo dňa 1.12.2014  sa odporúča pátrať pri danej Dg po asymptomatickom poškodení orgánov",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 6,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
+            "props": {
+              "id": "I10.00",
+              "idEzid": "02089398180@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vl": [
+      {
+        "id": 7,
+        "order": 4,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "Prosím o očné vyšetrenie  - fundoskopia<br><br>Podľa OUMZ na  poskytovanie ZS pacientom s AH  sa odporúča pátrať pri danej Dg po asymptomatickom poškodení orgánov<br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "[015] oftalmológia",
+            "props": {
+              "idClassid": "zameranie",
+              "idEzid": "00000351452@8",
+              "id": "015"
+            }
+          },
+          "druh": {
+            "value": "[2] ambulancia",
+            "props": {
+              "idClassid": "cinnost",
+              "idEzid": "00000000273@3",
+              "id": 2
+            }
+          },
+          "presne": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 9,
+        "order": 5,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "Prosím  o echokg vyšetrenie<br>Podľa OUMZ na  poskytovanie ZS pacientom s AH zo dňa 1.12.2014  sa odporúča pátrať pri danej Dg po asymptomatickom poškodení orgánov<br><br>MUDr. Ľubica Juklová<br>Miesto prevádzkovania: UNsP Milosrdní bratia, Nám SNP 10, Bratislava <br>Kardiologická ambulancia, 2.posch., č.d.: 234   <br>Tel.č.: 02/ 57 88 72 34  <br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "[049] kardiológia",
+            "props": {
+              "idClassid": "zameranie",
+              "idEzid": "00000351726@8",
+              "id": "049"
+            }
+          },
+          "druh": {
+            "value": "[2] ambulancia",
+            "props": {
+              "idClassid": "cinnost",
+              "idEzid": "00000000273@3",
+              "id": 2
+            }
+          },
+          "presne": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "žiadAH"
+  ],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

@@ -1,0 +1,190 @@
+{
+  "title": "lilmailočk",
+  "shortcut": "lilmailočk",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "4": [
+          "schedule"
+        ]
+      }
+    },
+    "link": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "link"
+        },
+        "value": {
+          "label": {
+            "value": "NapíšLekárovi.sk",
+            "props": {
+              "propValue": "curoExchange"
+            }
+          },
+          "ref": {
+            "value": "",
+            "props": {}
+          },
+          "to": {
+            "value": "",
+            "props": {}
+          },
+          "reply": {
+            "value": "na mail",
+            "props": {
+              "propValue": "m"
+            }
+          },
+          "sprava": {
+            "value": "Dobrý deň, zasielam recept na vakcínu proti chrípke,  je potrebné si ju vyzdvihnúť do 7 dní od dnes  a následne dať do  chladničkových dverí ( z lekárne ihned domov - neprenášať dlho - najlepšie v termoboxe). <br>Akonáhle budete mať  vakcínu, môžte sa mailom objednať na očkovanie. <br>S pozdravom Podhorská<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z25.1] Potreba imunizácie výlučne proti chrípke",
+            "props": {
+              "id": "Z25.1",
+              "idEzid": "02089522300@14",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "r",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[6345C] Influvac Tetra | sus iru 1x0,5 ml (striek.inj.skl.napl. s ihlou)",
+            "props": {
+              "propDpl": 0,
+              "propSpUhr": "V",
+              "propUnit": "DF",
+              "propGp": 0,
+              "propBal": 1,
+              "propUzp_1zvj": 11.17,
+              "propVnl": "R",
+              "propCena": 11.17,
+              "propSdl": 1,
+              "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
+              "propOl": 1,
+              "id": "6345C",
+              "idUl": "",
+              "idAtc": "J07BB02",
+              "idSp": "ims",
+              "idF": "SUS IRU",
+              "idEzid": "00021278437",
+              "idClassid": "liek"
+            }
+          },
+          "schedule": {
+            "value": "ad m m",
+            "props": {
+              "error": "Chyba zápisu dávkovania. (SyntaxError: Expected [0-9] or integer but 'd' found.)"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 5,
+        "order": 3,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[1] Pod radou sa rozumie poskytnutie informácií pacientovi alebo zákonnému zástupcovi v súvislosti so zdravotným stavom. Výkon pod kódom 1 nemožno vykazovať súčasne s inými výkonmi. Výkon nemožno vykazovať pre telefonické objednávanie pacienta.",
+            "props": {
+              "propBody": 80,
+              "idClassid": "vykon",
+              "idEzid": "00000466508@21",
+              "id": 1
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

@@ -1,0 +1,44 @@
+{
+  "title": "lilkupele",
+  "shortcut": "lilkupele",
+  "if": "",
+  "data": {
+    "_": {},
+    "vl": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "Pacient aktuálne nejaví známky infekčného ochorenia, je kardiopulmonálne kompenzovaný, s vyhovujúcimi VF, bez subjektívnych ťažkostí,  môže nastúpiť na kúpeľnu liečbu. <br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "",
+            "props": {}
+          },
+          "druh": {
+            "value": "",
+            "props": {}
+          },
+          "presne": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

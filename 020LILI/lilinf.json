@@ -1,0 +1,26 @@
+{
+  "title": "lilinf",
+  "shortcut": "lili",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Poučenie pacienta <br>Pacient bol/a poučený/á, že sa musí  hlásiť v našom zdravot. zariadení s  lekárskym nálezom  ihneď po odbornom alebo zobrazovacom vyšetrení a je povinný odovzdať nám originál lekárskej správy. Ďalej bol/a poučený/á, že  je povinný informovať sa osobne na labor. výsledky 2. deň po  laboratórnom vyšetrení. V prípade závažného  zhoršenia stavu si okamžite volá ZZS.<br>V súlade so zákonom č. 18/2018 som bol poučený  o ochrane osobných údajov a vyslovujem súhlas so spracovaním osobných údajov. <br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

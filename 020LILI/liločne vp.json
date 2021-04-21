@@ -1,0 +1,91 @@
+{
+  "title": "liločne vp",
+  "shortcut": "liločnevp",
+  "if": "",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z02.4] Vyšetrenie pre vodičský preukaz",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089521070@12",
+              "id": "Z02.4"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vl": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "Prosím o očné vyšetrenie + perimeter + visus + farbocit <br><br>Vodič MV sk1. <br><br>prosím o vyjadrenie k spôsobilosti<br><br>Ďakujem <br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "",
+            "props": {}
+          },
+          "druh": {
+            "value": "",
+            "props": {}
+          },
+          "presne": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[1] Pod radou sa rozumie poskytnutie informácií pacientovi alebo zákonnému zástupcovi v súvislosti so zdravotným stavom. Výkon pod kódom 1 nemožno vykazovať súčasne s inými výkonmi. Výkon nemožno vykazovať pre telefonické objednávanie pacienta.",
+            "props": {
+              "propBody": 80,
+              "idClassid": "vykon",
+              "idEzid": "00000466508@13",
+              "id": 1
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

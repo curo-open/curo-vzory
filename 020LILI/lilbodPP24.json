@@ -1,0 +1,102 @@
+{
+  "title": "lilbodPP24",
+  "shortcut": "lilbodPP24",
+  "if": "",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
+            "props": {
+              "id": "Z00.0",
+              "idEzid": "02089520809@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 8,
+        "order": 2,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
+            "props": {
+              "id": "Z12.1",
+              "idEzid": "02089521690@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
+            "props": {
+              "propBody": 550,
+              "propType": "SVaLZ",
+              "id": 5702,
+              "idEzid": "00000494187@13",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 6,
+        "order": 3,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[159z] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonu pod kódom 160. Výkon môže vykazovať lekár všeobecnej starostlivosti vtedy, ak ho sám uskut",
+            "props": {
+              "propBody": 180,
+              "id": "159z",
+              "idEzid": "02089731844@13",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

@@ -1,0 +1,117 @@
+{
+  "tags": [
+    "vl"
+  ],
+  "title": "VLortop",
+  "shortcut": "VLortop",
+  "if": "",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M17.0] Primárna artróza kolenného kĺbu, obojstranná",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089425710@13",
+              "id": "M17.0"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 8,
+        "order": 1,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M16.0] Primárna artróza bedrového kĺbu, obojstranná",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089425611@13",
+              "id": "M16.0"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M81.00] Postmenopauzálna osteoporóza na viacerých miestach",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089446310@13",
+              "id": "M81.00"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vl": [
+      {
+        "id": 6,
+        "order": 3,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "prosím o ortopedické vyšetrenie - zmena poskytovateľa <br>( pacient priloží predošlú ortopedickú dokumentáciu)<br><br>Ďakujem<br><br><br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "[011] ortopédia",
+            "props": {
+              "idClassid": "zameranie",
+              "idEzid": "00000351411@8",
+              "id": "011"
+            }
+          },
+          "druh": {
+            "value": "[2] ambulancia",
+            "props": {
+              "idClassid": "cinnost",
+              "idEzid": "00000000273@3",
+              "id": 2
+            }
+          },
+          "presne": {
+            "value": "",
+            "props": {}
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

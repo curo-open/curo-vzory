@@ -1,0 +1,73 @@
+{
+  "title": "lilzdravotnýp",
+  "shortcut": "lilzdravotnýp",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<br>PREHLÁSENIE PRI VYDANÍ ZDRAVOTNÉHO PREUKAZU<br><br>PRACOVISKO: <br><br>Subj. .nemá ťažkosti, cíti sa zdravá, zvýšené teploty nemá, hnačky nemá, kašeľ nemá, vyrážky, ekzém na tele nemá.<br>obj: nejaví známky infekčného ochorenia<br>dop. vydaný ZP , platnosť neobmedzená <br><br>Pac. svojim podpisom potvrdzuje, že bol poučený: pri zmene zdravotného stavu jeho, ako aj rodinných príslušníkov (ako sú hnačky, bolesti brucha, zvracanie, problémy s črevami, ťažká infekcia kože, dlhodobý nedoriešený kašeľ a pod.) sa hlási u praktického lekára, ktorý posúdi, či je menovaný /á/ spôsobilý /á/ na prácu v kontakte s potravinami.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z02.1] Vyšetrenie pred prijatím do zamestnania",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089521047@12",
+              "id": "Z02.1"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[4] Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani",
+            "props": {
+              "propBody": 200,
+              "idClassid": "vykon",
+              "idEzid": "00000466524@12",
+              "id": 4
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

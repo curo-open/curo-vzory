@@ -1,0 +1,148 @@
+{
+  "title": "lilneurol",
+  "shortcut": "lilneurol",
+  "if": "",
+  "data": {
+    "_": {},
+    "s": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "Udáva bolesti chrbta v <br>Neguje  pocit tŕpnutia a mravenčenia v končatinách , bolesti prstov a rúk neguje, farebnú zmenu na akrách neguje, bolesti kĺbov a obmedzenie hybnosti neguje, bolesti chrbtice neguje. Zvýšené teploty nemá.Slabosť končatín nemá, diplopiu a poruchy videnia neguje. Točenie hlavy a  pocit nestability neguje. Poruchu sluchu a pískanie/šumenie v ušiach  neguje<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "Chrbtica poklopovo nebolestivá, PVS stuhnuté, SI zhyby voľné, Thomayer 10cm, rotácie v koxách bez blokov, lasseq bilat 90st., tapp. bilat negat., moč chem. negatívny<br><br>Orientovaný, vedomie lucídne, bez zn. meningeálneho dráždenia,  zrenice izokorické, FR priama i konsenzuálna správna, citl. na tvári súmerná, cerenie súmerné, vraštenie čela v norme, jazyk plazí v strede. HK/DK:  v nastavených polohách udrží, taxia správna, postoj a chôdza v norme, citlivosť  vo všetkých zložkách neporušená, chrbtica bez blokov a PVS. <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "aa": [
+      {
+        "id": 19,
+        "order": 2,
+        "props": {
+          "type": "aa"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "dz": [
+      {
+        "id": 9,
+        "order": 3,
+        "props": {
+          "type": "dz"
+        },
+        "value": {
+          "dz": {
+            "value": "Bolesti chrbta <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 15,
+        "order": 4,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "Posturálna hygiena, kľudový režim,  suché teplo<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 17,
+        "order": 5,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 11,
+        "order": 6,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M54.00] Panikulitída krku a chrbta na viacerých miestach",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089437004@12",
+              "id": "M54.00"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 13,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov",
+            "props": {
+              "propBody": 250,
+              "idClassid": "vykon",
+              "idEzid": "00000466557@13",
+              "id": 8
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

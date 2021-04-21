@@ -1,0 +1,26 @@
+{
+  "title": "lil  moca",
+  "shortcut": "lilmoca",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Pacient uvedie plné meno a&nbsp;priezvisko a&nbsp;miesto, kde sa práve nachádza,<br>Pacient uvedie dnešný dátum (deň, mesiac a&nbsp;rok),<br>Pacient uvedie, koľko je hodín na ručičkových hodinách v&nbsp;ambulancii,<br>Pacient nakreslí hodiny, ktoré zodpovedajú času 10:45“<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

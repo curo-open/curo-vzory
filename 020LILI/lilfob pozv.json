@@ -1,0 +1,51 @@
+{
+  "type": null,
+  "summary": "FOB pozvánka",
+  "owner": "podhorska",
+  "title": "lilfob pozv",
+  "shortcut": "lilfob pozv",
+  "if": "",
+  "data": {
+    "_": {},
+    "link": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "link"
+        },
+        "value": {
+          "label": {
+            "value": "NapíšLekárovi.sk",
+            "props": {
+              "propValue": "curoExchange"
+            }
+          },
+          "ref": {
+            "value": "",
+            "props": {}
+          },
+          "to": {
+            "value": "",
+            "props": {}
+          },
+          "reply": {
+            "value": "na mail",
+            "props": {
+              "propValue": "m"
+            }
+          },
+          "sprava": {
+            "value": "Pozývame Vás na preventívne vyšetrenie na rakovinu hrubého čreva. Skúmavku na odobratie vzorky stolice dostanete v našej ambulancii. Vyšetrenie plne hradí Vaša zdravotná poisťovňa. S pozdravom  MUDr. Podhorská<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/020LILI"
+}

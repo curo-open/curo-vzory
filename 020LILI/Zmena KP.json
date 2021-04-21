@@ -1,0 +1,36 @@
+{
+  "title": "Zmena KP",
+  "shortcut": "zkp",
+  "if": "",
+  "data": {
+    "_": {},
+    "kp": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "kp"
+        },
+        "value": {
+          "date": {
+            "value": "01.01.2020",
+            "props": {
+              "propValue": "2019-12-31T23:00:00.000Z"
+            }
+          },
+          "comment": {
+            "value": "Zmena poistovne",
+            "props": {}
+          },
+          "prev_lekar": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

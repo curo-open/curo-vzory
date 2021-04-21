@@ -1,0 +1,117 @@
+{
+  "title": "lilvypis",
+  "shortcut": "lilvypis",
+  "if": "",
+  "data": {
+    "_": {},
+    "t-nadpis": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "Výpis zo zdravotnej karty<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "to": [
+      {
+        "id": 13,
+        "order": 1,
+        "props": {
+          "type": "to"
+        },
+        "value": {
+          "text": {
+            "value": "Pacient žiada výpis z dokumentácie pre <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oa": [
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "oa"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "la": [
+      {
+        "id": 7,
+        "order": 3,
+        "props": {
+          "type": "la"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "aa": [
+      {
+        "id": 8,
+        "order": 4,
+        "props": {
+          "type": "aa"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ab": [
+      {
+        "id": 11,
+        "order": 5,
+        "props": {
+          "type": "ab"
+        },
+        "value": {
+          "fajciar": {
+            "value": "",
+            "props": {}
+          },
+          "alkohol": {
+            "value": "",
+            "props": {}
+          },
+          "kava": {
+            "value": "",
+            "props": {}
+          },
+          "drogy": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

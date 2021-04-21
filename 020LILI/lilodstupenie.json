@@ -1,0 +1,26 @@
+{
+  "title": "lilodstupenie",
+  "shortcut": "lilodstupenie",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Doručená žiadosť o vyradenie z evidencie a odstúpenie od dohody <br>V zmysle platnej legislatívy ( §23 ods.3  z.576/2004 Z.z.) pri zmene poskytovateľa ambulantnej starostlivosti z dôvodu odstúpenia od dohody o poskytovaní ZS je poskytovateľ povinný preukázateľne odovzdať ZD alebo jej rovnopis  do 7 dní od jej vyžiadania novému poskytovateľovi, s ktorým osoba uzavrela dohodu o poskytovaní ZS.<br>V zmysle platnej  legislatívy (§12 odst.10 z.576/2004 Z.z.) dohoda zaniká dňom kalendárneho mesiaca nasledujúcom po kalendárnom mesiaci, v ktorom bolo doručené písomné odstúpenie od dohody.<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

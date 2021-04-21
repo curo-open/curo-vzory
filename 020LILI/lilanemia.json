@@ -1,0 +1,198 @@
+{
+  "title": "lilanemia",
+  "shortcut": "lila",
+  "if": "",
+  "data": {
+    "_": {},
+    "t-nadpis": [
+      {
+        "id": 16,
+        "order": 0,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "Manažment pacienta  s anémiou<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "Subj.: dýcha sa dobre,  dušnosť popiera, palpitácie ani bolesti na hrudi nemáva, závraty nemá, synkopy neguje. Námahu toleruje dobre, zvýšenú únavu neguje bez nočných ťažkostí, opuchy nepozoruje. Infekt dýchacích ciest v poslednom období nepozoruje. Bez dyspepsie. Čiernu stolicu neguje, prímes krvi  na stolici neguje, brucho nebolí, stolica pravidelná, s močením ťažkosti neguje, krv v moči neguje.  Váhový úbytok neguje.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "Orientovaný/á  všetkými smermi, reč koherentná, postoj, chôdza v norme, LAP  nehmatám, Uši, nos bez sekrécie, oči - spojovky ružové, skléry biele, zrenice izokorické, DÚ- sliznice vlhké, jazyk plazí v strednej rovine, nepovlečený, ORF kľudný, krk súmerný, ŠŽ nehmatám, AS pravidelná, ozvy ohraničené, dýchanie čisté v celom rozsahu, Abdomen voľne priehmatný, bez hmatnej rezistencie, bez známok peritoneálneho dráždenia. DK bez edémov,  afebrilný, orientačne neurologicky v norme, šija neoponuje<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "zfp": [
+      {
+        "id": 7,
+        "order": 3,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "oh": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "99",
+            "props": {}
+          },
+          "temp": {
+            "value": "36,6",
+            "props": {
+              "propValue": "36.60"
+            }
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 9,
+        "order": 4,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "Liečba preparátom železa indikovaná: <br>V prípade NU liečby sa u nás bude hlásiť kedykoľvek<br>kontrola u nás  s výsledkom labor. odberov ( zrealizovať deň vopred): KO, Fe, Feritin, CVK, B12<br>Bi, krea, ALT, gly, TSH, moč chem. <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "dz": [
+      {
+        "id": 18,
+        "order": 5,
+        "props": {
+          "type": "dz"
+        },
+        "value": {
+          "dz": {
+            "value": "Anémia <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 11,
+        "order": 6,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[D50.9] Bližšie neurčená anémia z nedostatku železa",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089375311@11",
+              "id": "D50.9"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 14,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov",
+            "props": {
+              "propBody": 250,
+              "idClassid": "vykon",
+              "idEzid": "00000466557@11",
+              "id": 8
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

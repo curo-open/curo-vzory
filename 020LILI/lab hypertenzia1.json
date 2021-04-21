@@ -1,0 +1,38 @@
+{
+  "title": "lab: hypertenzia1",
+  "shortcut": "",
+  "if": "",
+  "data": {
+    "_": {},
+    "z-lab": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "z-lab"
+        },
+        "value": {
+          "code": {
+            "value": "",
+            "props": {}
+          },
+          "comment": {
+            "value": "Glukóza; Na; Cholesterol; K; HDL; Kreatinín; LDL; Kyselina močová; TAG; Moč chemicky; ALT; AST; GGT; Krvný obraz + dif. Le<br>",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "labData": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

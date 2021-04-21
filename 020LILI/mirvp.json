@@ -1,0 +1,44 @@
+{
+  "title": "mirvp",
+  "owner": "podhorska",
+  "shortcut": "mirvp",
+  "if": "",
+  "data": {
+    "_": {},
+    "s": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oa": [
+      {
+        "id": 6,
+        "order": 1,
+        "props": {
+          "type": "oa"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/020LILI"
+}

@@ -1,0 +1,38 @@
+{
+  "title": "lab: DLP IV",
+  "if": "",
+  "data": {
+    "_": {},
+    "z-lab": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "z-lab"
+        },
+        "value": {
+          "code": {
+            "value": "",
+            "props": {}
+          },
+          "comment": {
+            "value": "Glukóza; Cholesterol; HDL; Kreatinín; LDL; Kyselina močová; TAG; TSH; ALT; CK<br>",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "labData": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "shortcut": "",
+  "source": "curo-open/curo-vzory#/020LILI"
+}

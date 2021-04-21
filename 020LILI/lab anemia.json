@@ -1,0 +1,37 @@
+{
+  "title": "lab: anemia",
+  "if": "",
+  "data": {
+    "_": {},
+    "z-lab": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "z-lab"
+        },
+        "value": {
+          "code": {
+            "value": "",
+            "props": {}
+          },
+          "comment": {
+            "value": "Kreatinín; Bilirubín celkový; Fe; Moč chemicky; TSH; Vitamín B12; Kys. listová (foláty); AST; Ferritín; Krvný obraz + dif. Le<br>",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "labData": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

@@ -1,0 +1,119 @@
+{
+  "title": "lilchrbat",
+  "shortcut": "lilchrb",
+  "summary": "",
+  "if": "",
+  "data": {
+    "_": {},
+    "s": [
+      {
+        "id": 5,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "Pacient udáva bolesti  chrbtice v oblasti<br>Ťažkosti trvajú od<br>Vznikli náhle pri určitom pohybe<br>S močením a so stolicou ťažkosti nemá, parestézie v končatinách nemá, zvýšenú TT neguje, bolesti hlavy nemá, synkopy a vertigo neguje. Inak  sa cíti  dobre, bolesti na hrudi nemá, dýcha sa dobre, nohy neopúchajú. Kolikovité bolesti v boku a chrbte neguje. <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 7,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "Pacient orientovaný, vedomie lucídne, PMT v norme, AS regg., dýchanie čisté, DK bez edémov,<br>C chrbtica: pohyblivost' vo vsetkych rovinach redukovaná, bolestivá, tuhšie  PVS , krajné polohy C chrbtice neprovokujú pocit vertiga. Brada dosahuje hruď, bez zn. mening. dráždenia.<br>Ľ a P rameno: obmedzené rotácie a elevácie, palp. bolest'v SA priestore, bez známok inflamácie a svalovej hypotrofie.<br>L chrbtica: nie je  palpačná citlivosť na PS, spazmus PVS, Lassegue  bilat 90st., Thomayer 20cm , Tapott bilat negat,  predklon, inklinácie a rotácie lumbálnej chrbtice sú obmedzené, bolestivé,   dynamika redukovaná.<br>Koxy bilat. obmedzená a bolestivá pohyblivost' hlavne v rotáciách, pohyblivost' viazne v krajnych polohách. <br>Inak neurologicky orientačne v norme, bez motorického deficitu na končatinách, citlivosť  symetrickám špičky a päty urobí, chôdza a postoj v norme. <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "aa": [
+      {
+        "id": 9,
+        "order": 2,
+        "props": {
+          "type": "aa"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 11,
+        "order": 3,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "Kľudový režim, úľavová poloha, aktuálne nešportovať, posturálna hygiéna - poučený<br>Analgetiká p.poučenia.<br>Kontrola podľa objednania. <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 13,
+        "order": 4,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[M54.00] Panikulitída krku a chrbta na viacerých miestach",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089437004@13",
+              "id": "M54.00"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 15,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov",
+            "props": {
+              "propBody": 250,
+              "idClassid": "vykon",
+              "idEzid": "00000466557@21",
+              "id": 8
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

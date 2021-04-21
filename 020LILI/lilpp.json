@@ -1,0 +1,1123 @@
+{
+  "type": "examination",
+  "summary": "Preventivna prehliadka",
+  "description": "",
+  "title": "lilpp",
+  "shortcut": "lilp",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "1163": [
+          "id"
+        ]
+      }
+    },
+    "premenna": [
+      {
+        "id": 1047,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "fob",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "ON",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1055,
+        "order": 1,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "extraVykony",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "ON",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t-nadpis": [
+      {
+        "id": 1077,
+        "order": 2,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "Preventívna prehliadka<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oc": [
+      {
+        "id": 1162,
+        "order": 3,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[T] Tetanus",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000115923@2",
+              "id": "T"
+            }
+          },
+          "datum": {
+            "value": "",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "lv": [
+      {
+        "id": 1163,
+        "order": 4,
+        "props": {
+          "type": "lv",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "Stolica - okultné krvácanie",
+            "props": {
+              "error": "Sekcia odkazuje na neplatný záznam v číselníku"
+            }
+          },
+          "value": {
+            "value": "",
+            "props": {}
+          },
+          "rank": {
+            "value": "negativne",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "comment": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "h-score": [
+      {
+        "id": 1166,
+        "order": 5,
+        "props": {
+          "type": "h-score"
+        },
+        "value": {
+          "score": {
+            "value": "",
+            "props": {}
+          },
+          "x": {
+            "value": "1",
+            "props": {
+              "propValue": "1.0"
+            }
+          },
+          "risk": {
+            "value": "",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 889,
+        "order": 6,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "cíti sa dobre, bolesti na hrudi nemá, dýcha sa dobre, nohy neopúchajú, námahu toleruje dobre, vyjde na 2. poschodie bez zadýchania a stenokardii, synkopy neguje, hlava sa netočí, váha je stabilizovaná, brucho nebolí, s močením a stolicou ťažkosti nemá <br>{{ var.subj }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 1104,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"ra\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1106,
+        "order": 9,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1107,
+        "order": 10,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"oa\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1109,
+        "order": 12,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1110,
+        "order": 13,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"sa\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1112,
+        "order": 15,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1113,
+        "order": 16,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"la\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1115,
+        "order": 18,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1116,
+        "order": 19,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1117,
+        "order": 20,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1119,
+        "order": 21,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1120,
+        "order": 22,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"aa\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1122,
+        "order": 24,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1123,
+        "order": 25,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pohlavie == \"female\" &amp;&amp; sessions|getSections(\"ga\")|trans(\"length\") &gt; 0}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1124,
+        "order": 26,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"ga\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1125,
+        "order": 27,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1126,
+        "order": 28,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pohlavie == \"female\" &amp;&amp; !sessions|getSections(\"ga\")|trans(\"length\") &gt; 0}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1128,
+        "order": 30,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1192,
+        "order": 31,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pohlavie == \"male\" &amp;&amp; sessions|getSections(\"da\")|trans(\"length\") &gt; 0}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1193,
+        "order": 32,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"da\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1194,
+        "order": 33,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1174,
+        "order": 34,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pohlavie == \"male\" &amp;&amp; !sessions|getSections(\"da\")|trans(\"length\") &gt; 0}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1176,
+        "order": 36,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 982,
+        "order": 41,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"ekg\")|where(\"i==0\")}} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 985,
+        "order": 43,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 980,
+        "order": 44,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"b-lv\")|where(\"i==0\")|trans('text')}} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1129,
+        "order": 45,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"td\")|where(\"!sekcia.zruseny\")|trans('text')}} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 986,
+        "order": 46,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? (zp == 25 &amp;&amp; vek &gt;= 50) || (zp == 27 &amp;&amp; vek &gt;= 40)}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 988,
+        "order": 48,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1177,
+        "order": 49,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pohlavie == \"male\" }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1179,
+        "order": 52,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1182,
+        "order": 53,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pohlavie == \"female\" }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1184,
+        "order": 55,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1186,
+        "order": 57,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ra": [
+      {
+        "id": 1105,
+        "order": 8,
+        "props": {
+          "type": "ra"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          },
+          "kvo": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oa": [
+      {
+        "id": 1108,
+        "order": 11,
+        "props": {
+          "type": "oa"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "sa": [
+      {
+        "id": 1111,
+        "order": 14,
+        "props": {
+          "type": "sa"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "la": [
+      {
+        "id": 1114,
+        "order": 17,
+        "props": {
+          "type": "la"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "aa": [
+      {
+        "id": 1121,
+        "order": 23,
+        "props": {
+          "type": "aa"
+        },
+        "value": {
+          "text": {
+            "value": "Na lieky a potraviny neguje <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ga": [
+      {
+        "id": 1127,
+        "order": 29,
+        "props": {
+          "type": "ga"
+        },
+        "value": {
+          "text": {
+            "value": "sledovaná,  doložiť výsledky z poslednej preventívnej prehliadky a vyšetrenia prsníkov <br>",
+            "props": {}
+          },
+          "prvamen": {
+            "value": "",
+            "props": {}
+          },
+          "pravidelnost": {
+            "value": "",
+            "props": {}
+          },
+          "bolest": {
+            "value": "",
+            "props": {}
+          },
+          "cyklus": {
+            "value": "",
+            "props": {}
+          },
+          "menopauza": {
+            "value": "",
+            "props": {}
+          },
+          "porody": {
+            "value": "",
+            "props": {}
+          },
+          "potraty": {
+            "value": "",
+            "props": {}
+          },
+          "interrupcie": {
+            "value": "",
+            "props": {}
+          },
+          "posinterrupcia": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "da": [
+      {
+        "id": 1155,
+        "order": 35,
+        "props": {
+          "type": "da"
+        },
+        "value": {
+          "text": {
+            "value": "urologická prevencia u mužov: sledovaný / odoslaný <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "dz": [
+      {
+        "id": 1157,
+        "order": 37,
+        "props": {
+          "type": "dz"
+        },
+        "value": {
+          "dz": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "zfp": [
+      {
+        "id": 893,
+        "order": 38,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "15",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "oh": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "99",
+            "props": {}
+          },
+          "temp": {
+            "value": "36,5",
+            "props": {
+              "propValue": "36.50"
+            }
+          }
+        }
+      }
+    ],
+    "ab": [
+      {
+        "id": 1075,
+        "order": 39,
+        "props": {
+          "type": "ab"
+        },
+        "value": {
+          "fajciar": {
+            "value": "",
+            "props": {}
+          },
+          "alkohol": {
+            "value": "Príležitostne",
+            "props": {
+              "propValue": 3
+            }
+          },
+          "alkpoznamka": {
+            "value": "",
+            "props": {}
+          },
+          "kava": {
+            "value": "Nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "drogy": {
+            "value": "Nie",
+            "props": {
+              "propValue": 0
+            }
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 895,
+        "order": 40,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "{{&lt; sessions|getSections(\"oc\")|trans(\"text\")}}<br>Vedomie lucidné, orientovaný, poloha aktívna, koža bez ikteru a cyanózy, turgor primeraný, výživa - primeraná, eupnoe. Hlava - na poklop nebolestivá, inervačne  v norme. Oči - bulby v strednom postavení, doťahujú všetkými smermi, bez nystagmu, zrenice izokorické, reakcia na osvit správna, spojovky anikterické, externú LAP nehmatám<br>Nos,uši - bez deformít a výtoku. Dutina ústna - jazyk vlhký, bez povlaku, plazí v strednej rovine, sliznice vlhké. orofarynx - kľudný, tonzily bez patolog. nálezu. Krk- bez opozície šije,  štítna žľaza nehmatná,  náplň jugulárnych vén v norme.  Hrudník - bez deformít, Pulmo - dýchanie vezikulárne čisté, bez vedľajších fenoménov, Cor- akcia pravidelná, kľudná, ozvy ohraničené. Brucho- v niveau hrudníka, dýchacia vlna prechádza v celom rozsahu,  mäkké, priehmatné, palpačne nebolestivé, bez zn. peritoneálneho dráždenia,   hepar a lien v oblúku,  tapott.  bilat. negat. Končatiny  - bez deformít, edémov, lýtka palpačne nebolestivé, Homans bilat. negat., pulzácie aa. dors. pedis  bilat. hmatné, neurologicky orientačne v norme.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ekg": [
+      {
+        "id": 984,
+        "order": 42,
+        "props": {
+          "type": "ekg"
+        },
+        "value": {
+          "rytmus": {
+            "value": "SR, AP",
+            "props": {}
+          },
+          "fr": {
+            "value": "",
+            "props": {}
+          },
+          "ax": {
+            "value": "",
+            "props": {}
+          },
+          "pq": {
+            "value": "",
+            "props": {}
+          },
+          "p": {
+            "value": "",
+            "props": {}
+          },
+          "qrs": {
+            "value": "0,08",
+            "props": {}
+          },
+          "qt": {
+            "value": "nepredlžený",
+            "props": {}
+          },
+          "qtcb": {
+            "value": "",
+            "props": {}
+          },
+          "rs": {
+            "value": "V4",
+            "props": {}
+          },
+          "st": {
+            "value": "izoelektricke",
+            "props": {}
+          },
+          "t": {
+            "value": "pozitívne",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          },
+          "zaver": {
+            "value": "fyziologická krivka",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "abi": [
+      {
+        "id": 987,
+        "order": 47,
+        "props": {
+          "type": "abi"
+        },
+        "value": {
+          "vravo": {
+            "value": "",
+            "props": {}
+          },
+          "vlavo": {
+            "value": "",
+            "props": {}
+          },
+          "cfPWV": {
+            "value": "",
+            "props": {}
+          },
+          "RbaPWV": {
+            "value": "",
+            "props": {}
+          },
+          "LbaPWV": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 1168,
+        "order": 50,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z12.5] Špeciálne skríningové vyšetrenie, zamerané na nádor prostaty",
+            "props": {
+              "id": "Z12.5",
+              "idEzid": "02089521732@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vl": [
+      {
+        "id": 1169,
+        "order": 51,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "prosím o urologickú prevenciu <br>Ďakujem <br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "[012] urológia",
+            "props": {
+              "idClassid": "zameranie",
+              "idEzid": "00000351429@8",
+              "id": "012"
+            }
+          },
+          "druh": {
+            "value": "[2] ambulancia",
+            "props": {
+              "idClassid": "cinnost",
+              "idEzid": "00000000273@3",
+              "id": 2
+            }
+          },
+          "presne": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 1189,
+        "order": 54,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "Doporučenie: preventívna prehliadka u všeobecného lekára každé 2 roky, <br>- preventívna prehliadka u spádového gynekológa raz ročne, <br>- kožná prevencie  névov á 1 rok, sledovať si névy, pri zmene tvaru a veľkosti sa u nás hlásiť ,  <br>- dodržiavať režimové opatrenia, primeraná pohybová aktivita, hypolipidemická dieta<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1190,
+        "order": 56,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "Doporučenie: preventívna prehliadka u všeobecného lekára každé 2 roky, <br>- preventívna prehliadka u spádového urológa každé 3 roky<br>- kožná prevencie  névov á 1 rok, sledovať si névy, pri zmene tvaru a veľkosti sa u nás hlásiť ,  <br>- dodržiavať režimové opatrenia, primeraná pohybová aktivita, hypolipidemická dieta<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vlozit": [
+      {
+        "id": 1187,
+        "order": 58,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Bodovanie - preventívka",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "holter=var.holter|extraVykony=var.extraVykony|fob=var.fob",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {
+    "extraVykony": "OFF"
+  },
+  "owner": "podhorska",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/020LILI"
+}

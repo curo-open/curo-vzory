@@ -1,0 +1,261 @@
+{
+  "title": "liločkchripka",
+  "shortcut": "lilchripka",
+  "if": "",
+  "data": {
+    "_": {},
+    "s": [
+      {
+        "id": 8,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "Pacient sa  cíti dobre, bolesti na hrudi nemá, dýcha sa dobre, nohy neopúchajú, pracovná tolerancia sa nezhoršila,  stolica a močenie v norme,   synkopy neguje, hlava sa netočí, nemá prejavy IDC, zvýšenú TT nemal, očkovanie doteraz znášal dobre, bez závažných reakcií, nekašle, nekýcha, nádchu nemá. <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ea": [
+      {
+        "id": 19,
+        "order": 1,
+        "props": {
+          "type": "ea"
+        },
+        "value": {
+          "text": {
+            "value": "Za posledný mesiac pacient neguje pozitívnu cestovateľskú anamnézu , neguje podozrenie na kontakty s rizikovými alebo chorými osobami na coronavírus, nie je v karanténe,  nemá príznaky ARO,  neguje  zvýšenú  teplotu,  kašeľ, sťažené dýchanie, vykašliavanie hlienov, kolaps, vracanie, hnačku, bolesti brucha, neguje stratu chuti a čuchu.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 9,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "orientovaný pacient, AS pravidelná,  dýchanie čisté, pokojové eupnoe,  DK bez edémov, afebrilný, nejaví zn. inf. ochorenia <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "aa": [
+      {
+        "id": 10,
+        "order": 3,
+        "props": {
+          "type": "aa"
+        },
+        "value": {
+          "text": {
+            "value": "Na lieky a potraviny neguje:  alergiu na zložky vakcíny neguje, neguje závažnú  reakciu na očkovanie v minulosti, alergiu na vajcia a vaječnú bielkovinu neguje , alergiu na Neomycin  neuje <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "da": [
+      {
+        "id": 11,
+        "order": 4,
+        "props": {
+          "type": "da"
+        },
+        "value": {
+          "text": {
+            "value": "žena  tehotenstvo a kojenie neguje<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "zfp": [
+      {
+        "id": 12,
+        "order": 5,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "15",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "oh": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "99",
+            "props": {}
+          },
+          "temp": {
+            "value": "36,5",
+            "props": {
+              "propValue": "36.50"
+            }
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 13,
+        "order": 6,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "Po očkovaní je potrebné zotrvať 30 min. v čakárni lekára. Pri závažnej reakcii ( poučený o závažnej reakcii)  mimo ambulancie lekára si volá bezodkladne RLP, pri nezávažných reakciách - mierne zvýšená TT, opuch a začervenanie v mieste vpichu nás bude kontaktovať v ordinačných hodinách. <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oc": [
+      {
+        "id": 14,
+        "order": 7,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[CHR] Chrípka",
+            "props": {
+              "id": "CHR",
+              "idEzid": "00000776815@2",
+              "idClassid": "ockovanie"
+            }
+          },
+          "datum": {
+            "value": "",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 16,
+        "order": 8,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z25.1] Potreba imunizácie výlučne proti chrípke",
+            "props": {
+              "id": "Z25.1",
+              "idEzid": "02089522300@13",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 17,
+        "order": 9,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[252b] Očkovanie.",
+            "props": {
+              "propBody": 70,
+              "idClassid": "vykon",
+              "idEzid": "00000467878@21",
+              "id": "252b"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 21,
+        "order": 10,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[4a] Vykonanie jednoduchého zdravotného výkonu: napríklad kontrola krvného tlaku pri liečení hypertenzie I. stupňa podľa Svetovej zdravotníckej organizácie, odstránenie stehov, lokálne ošetrenie podnebných mandlí, aplikácia liečiv, napríklad do vonkajšieh",
+            "props": {
+              "propBody": 80,
+              "idClassid": "vykon",
+              "idEzid": "00000466516@24",
+              "id": "4a"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "owner": "podhorska",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/020LILI"
+}

@@ -1,0 +1,196 @@
+{
+  "title": "lilwarfarin",
+  "shortcut": "lilw",
+  "if": "",
+  "data": {
+    "_": {},
+    "t-nadpis": [
+      {
+        "id": 10,
+        "order": 0,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "manažment pacienta na antikoagulačnej liečbe <br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "Subj.: dýcha sa dobre,  dušnosť popiera, palpitácie ani bolesti na hrudi nemáva, závraty nemá, synkopy neguje. Námahu toleruje dobre, zvýšenú únavu neguje bez nočných ťažkostí, opuchy nepozoruje. Infekt dýchacích ciest v poslednom období nepozoruje. Bez dyspepsie. Čiernu stolicu neguje, prímes krvi  na stolici neguje, brucho nebolí, stolica pravidelná, s močením ťažkosti neguje, krv v moči neguje. Iné krvácavé prejavy neguje.<br>Diétu s obmedzením vitamínu K sa snaží dodržiavať.<br>Váhový úbytok neguje.<br><br><br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "Orientovaný/á  všetkými smermi, reč koherentná, postoj, chôdza v norme, LAP  nehmatám, Uši, nos bez sekrécie, oči - spojovky ružové, skléry biele, zrenice izokorické, DÚ- sliznice vlhké, jazyk plazí v strednej rovine, nepovlečený, ORF kľudný, krk súmerný, ŠŽ nehmatám, AS pravidelná, ozvy ohraničené, dýchanie čisté v celom rozsahu, Abdomen voľne priehmatný, bez hmatnej rezistencie, bez známok peritoneálneho dráždenia. DK bez edémov, varixy neprítomné,  afebrilný, orientačne neurologicky v norme, šija neoponuje<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "zfp": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "oh": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "",
+            "props": {}
+          },
+          "temp": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 5,
+        "order": 4,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "Liečba Warfarin: <br>V prípade NU liečby sa u nás bude hlásiť kedykoľvek.<br>kontrola u nás za 5 týždňov s výsledkom labor. odberov ( zrealizovať deň vopred): INR<br><br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 6,
+        "order": 5,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[I48.9] Fibrilácia a flater predsiení, bližšie neurčené",
+            "props": {
+              "id": "I48.9",
+              "idEzid": "02089400556@11",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 8,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov",
+            "props": {
+              "propBody": 250,
+              "id": 8,
+              "idEzid": "00000466557@11",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

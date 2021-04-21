@@ -1,0 +1,38 @@
+{
+  "tags": [
+    "vykony"
+  ],
+  "title": "vykon5702",
+  "shortcut": "V5702",
+  "if": "",
+  "data": {
+    "_": {},
+    "vv": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
+            "props": {
+              "propType": "SVaLZ",
+              "propBody": 550,
+              "idClassid": "vykon",
+              "idEzid": "00000494187@20",
+              "id": 5702
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

@@ -1,0 +1,44 @@
+{
+  "title": "odb",
+  "shortcut": "odb",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "vykonaný odber biolog. materiálu so súhlasom pacienta: <br><br>Odber na preventívnu prehliadku<br>KO<br>Bio<br>Serologia<br>Moč chem, sed, K+C<br>Výtery: <br>iné: <br>Pozývame Vás na preventívne vyšetrenie na rakovinu hrubého čreva. Skúmavku na odobratie vzorky stolice dostanete v našej ambulancii. Vyšetrenie plne hradí Vaša zdravotná poisťovňa od veku 40 rokov.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "bod": [
+      {
+        "id": 7,
+        "order": 1,
+        "props": {
+          "type": "bod"
+        },
+        "value": {
+          "bod": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "owner": "podhorska",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/020LILI"
+}

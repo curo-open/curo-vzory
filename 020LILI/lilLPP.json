@@ -1,0 +1,283 @@
+{
+  "title": "lilLPP",
+  "shortcut": "lilLPP",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "VSTUPNÁ LEKÁRSKA PREVENTÍVNA PREHLIADKA VO VZŤAHU KU PRÁCI<br><br>Evidenčné číslo posudku:      2020<br><br>PRACOVISKO:<br>PRACOVNÉ ZARADENIE:<br>FAKTORY PRACOVNÉHO PROSTREDIA A KATEGÓRIE PRÁCE:<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Inak cíti sa dobre, bolesti na hrudi nemá, dýcha sa dobre, nohy neopúchajú, s močením a stolicou ťažkosti nemá, pracovná tolerancia sa nezmenila, brucho nebolí. hlava nebolí, vertigo a synkopy neguje<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 9,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Orientovaný/á  všetkými smermi, reč koherentná, postoj, chôdza v norme, LAP  nehmatám, Uši, nos bez sekrécie, oči - spojovky ružové, skléry biele, zrenice izokorické, DÚ- sliznice vlhké, jazyk plazí v strednej rovine, nepovlečený, ORF kľudný, krk súmerný, ŠŽ nehmatám, AS pravidelná, ozvy ohraničené, dýchanie čisté v celom rozsahu, Abdomen voľne priehmatný, bez hmatnej rezistencie, bez známok peritoneálneho dráždenia. DK bez edémov, varixy neprítomné,  afebrilný, orientačne neurologicky v norme, šija neoponuje,<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "Fajčenie,  alkohol denný prísun nie, drogy nie. Počuje dobre, zápaly uší nemal /a/, pískanie v ušiach nemá. Vidí dobre. Lieky trvale neužíva. <br>Závažné úrazy hlavy neguje, na epilepsiu a záchvatové ochorenia sa nelieči a nikdy sa neliečil, na psychické ochorenia sa nelieči a nikdy sa neliečil. Fóbie neguje. Abúzus liekov, drog a alkoholu neguje<br>Menovaný /á/ je ľavák, pravák.<br>Výšky toleruje, závraty neudáva.<br>Nočné zmeny toleruje.<br>Dýcha sa dobre, nekašle denne. Belenie, modrenie prstov rúk neudáva. Bolesti kĺbov rúk, bolesti lakťov neudáva. Tŕpnutie rúk neudáva. Zápästia, lakte operované nemal /a/. Bolesti chrbtice neudáva. Ani sa nikdy na to neliečil /a<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ekg": [
+      {
+        "id": 14,
+        "order": 3,
+        "props": {
+          "type": "ekg"
+        },
+        "value": {
+          "rytmus": {
+            "value": "AP, SR",
+            "props": {}
+          },
+          "fr": {
+            "value": "",
+            "props": {}
+          },
+          "ax": {
+            "value": "",
+            "props": {}
+          },
+          "pq": {
+            "value": "",
+            "props": {}
+          },
+          "qrs": {
+            "value": "",
+            "props": {}
+          },
+          "qt": {
+            "value": "nepredlžený",
+            "props": {}
+          },
+          "qtcb": {
+            "value": "",
+            "props": {}
+          },
+          "rs": {
+            "value": "",
+            "props": {}
+          },
+          "st": {
+            "value": "",
+            "props": {}
+          },
+          "t": {
+            "value": "",
+            "props": {}
+          },
+          "hlk": {
+            "value": "",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          },
+          "zaver": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "zfp": [
+      {
+        "id": 16,
+        "order": 4,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "15",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "oh": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "99",
+            "props": {}
+          },
+          "temp": {
+            "value": "36,5",
+            "props": {
+              "propValue": "36.50"
+            }
+          }
+        }
+      }
+    ],
+    "pa": [
+      {
+        "id": 7,
+        "order": 5,
+        "props": {
+          "type": "pa"
+        },
+        "value": {
+          "text": {
+            "value": "Výstupy z práce nie zo zdravotných dôvodov.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 8,
+        "order": 6,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "HK: bez tremoru, PP hmatné, Prusik negat. Tinnel negat, štipku spraví, epicondyly nebol., pohyblivosť v ramenách voľná. <br>Chrbtica poklopovo nebolestivá, bez porúch hybnosti<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 10,
+        "order": 8,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "zdravotne spôsobilý na prácu ako ................, za prísneho dodržiavania hygienicko - bezpečnostných predpisov a pravidelných kontrol.   Pac. poučený /á/, poučeniu rozumie.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 11,
+        "order": 9,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z02.1] Vyšetrenie pred prijatím do zamestnania",
+            "props": {
+              "id": "Z02.1",
+              "idEzid": "02089521047@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 12,
+        "order": 10,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov",
+            "props": {
+              "propBody": 250,
+              "id": 8,
+              "idEzid": "00000466557@13",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

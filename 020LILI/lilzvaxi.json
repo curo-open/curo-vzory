@@ -1,0 +1,146 @@
+{
+  "title": "lilzvaxi",
+  "shortcut": "lilzvaxi",
+  "if": "",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z25.1] Potreba imunizácie výlučne proti chrípke",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089522300@14",
+              "id": "Z25.1"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[1224C] Vaxigrip Tetra | sus iru 10x0,5 ml (striek.inj.skl.napl. s ihlami)",
+            "props": {
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
+              "propSdl": 10,
+              "propCena": 111.7,
+              "propVnl": "R",
+              "propUzp_1zvj": 11.17,
+              "propBal": 10,
+              "propGp": 0,
+              "propUnit": "DF",
+              "propSpUhr": "V",
+              "propDpl": 0,
+              "idClassid": "liek",
+              "idEzid": "00021211925",
+              "idF": "SUS IRU",
+              "idSp": "ims",
+              "idAtc": "J07BB02",
+              "idUl": "",
+              "id": "1224C"
+            }
+          },
+          "schedule": {
+            "value": "ad m m ",
+            "props": {}
+          },
+          "qty": {
+            "value": "0,1",
+            "props": {
+              "propValue": "0.10"
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[1] Pod radou sa rozumie poskytnutie informácií pacientovi alebo zákonnému zástupcovi v súvislosti so zdravotným stavom. Výkon pod kódom 1 nemožno vykazovať súčasne s inými výkonmi. Výkon nemožno vykazovať pre telefonické objednávanie pacienta.",
+            "props": {
+              "propBody": 80,
+              "id": 1,
+              "idEzid": "00000466508@22",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

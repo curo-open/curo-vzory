@@ -1,0 +1,26 @@
+{
+  "title": "lilca",
+  "shortcut": "lilca",
+  "if": "",
+  "data": {
+    "_": {},
+    "ea": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "ea"
+        },
+        "value": {
+          "text": {
+            "value": "Za posledný mesiac pacient neguje pozitívnu cestovateľskú anamnézu , neguje podozrenie na kontakty s rizikovými alebo chorými osobami na coronavírus, nie je v karanténe,  nemá príznaky ARO,  neguje  zvýšenú  teplotu,  kašeľ, sťažené dýchanie, vykašliavanie hlienov, kolaps, vracanie, hnačku, bolesti brucha, neguje stratu chuti a čuchu.<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

@@ -1,0 +1,41 @@
+{
+  "title": "lilea",
+  "shortcut": "lilea",
+  "if": "",
+  "data": {
+    "_": {},
+    "ca": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "ca"
+        },
+        "value": {
+          "text": {
+            "value": "negatívna, popiera pobyt v zahraničí za posledný mesiac <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ea": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "ea"
+        },
+        "value": {
+          "text": {
+            "value": "negatívna, popiera kontakt s infikovanou oobou na COVID alebo osobnú   karanténu alebo  karanténu v spoločnej domácnosti <br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

@@ -1,0 +1,64 @@
+{
+  "title": "Lab ziadanka - brucho",
+  "shortcut": "labb2",
+  "if": "",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[R10.4] Iná a bližšie neurčená bolesť brucha",
+            "props": {
+              "id": "R10.4",
+              "idEzid": "02089478636@11",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-lab": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "z-lab"
+        },
+        "value": {
+          "code": {
+            "value": "brucho",
+            "props": {}
+          },
+          "comment": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "labData": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "lab"
+  ],
+  "vars": {},
+  "summary": "",
+  "source": "curo-open/curo-vzory#/020LILI"
+}

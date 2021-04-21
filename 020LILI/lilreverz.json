@@ -1,0 +1,27 @@
+{
+  "title": "lilreverz",
+  "shortcut": "lilreverz",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Záznam o odmietnutí informovaného súhlasu.<br>Poučenie a písomný informovaný súhlas pacienta podľa par. 6 zákona č. 576/2004 Z.z.:Svojim podpisom potvrdzujem, že lekárovi, ktorý ma vyšetril som pri poskytnutí anamn. údajov nezatajil žiadne vážnejšie ochorenia, pre ktoré som sa v minulosti liečil, pripadne, ktoré mi boli v minulosti diagnostikovné, Zároveň svojim podpisom potvrdzujem, že som bol(a) počas dnešného lekárskeho vyšetrenia informovaný(á) o povahe môjho ochorenia, o dôvode, účele, spôsobe a možnostiach zdravotnej starostlivosti, ktorá mi má byť poskytnutá, vrátane diagnostických alebo liečebných postupov, prípadne potrebných zdravotných výkonov (napr. endoskopický zákrok, operácie a pod.), ako aj o možných následkoch a možných rizikách spojených s navrhovanou zdravotnou starostlivosťou. Bol(a) som tiež poučený(á) o možnostiach voľby navrhovaných postupov, ako aj o rizikách odmietnutia poskytnutia zdravotnej starostlivosti. Poučenie mi bolo poskytnuté zrozumiteľne, ohľaduplne, bez nátlaku, s možnosťou a dostatočným časom slobodne sa rozhodnúť.<br>Svojim podpisom potvrdzujem, že s navrhovaným liečebným postupom nesúhlasím. <br>Potvrdzujem, že som odmietol/odmietla zrozumiteľne, ohľaduplne, bez nátlaku, s možnosťou a dostatočným časom slobodne sa rozhodnúť pre informovaný súhlas, byť informovaný/á o účele, povahe, následkoch a rizikách poskytnutia zdravotnej starostlivosti, o možnostiach voľby navrhovaných postupov a rizikách odmietnutia poskytnutia zdravotnej starostlivosti.<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "summary": "",
+  "source": "curo-open/curo-vzory#/020LILI"
+}

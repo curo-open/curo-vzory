@@ -1,0 +1,38 @@
+{
+  "title": "lilpotvrdenie",
+  "shortcut": "lilpotvrdenie ",
+  "if": "",
+  "data": {
+    "_": {},
+    "pot": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "pot"
+        },
+        "value": {
+          "od": {
+            "value": "",
+            "props": {}
+          },
+          "do": {
+            "value": "",
+            "props": {}
+          },
+          "datum": {
+            "value": "",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "Potvrdenie na vlastnú žiadosť  -   Doporučujem prísny  kľudový režim  na lôžku zo zdravotných dôvodov počas celého dnešného dňa ",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

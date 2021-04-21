@@ -1,0 +1,157 @@
+{
+  "title": "lil predpis chripka",
+  "shortcut": "lilpredpis chrípka",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "2": [
+          "schedule"
+        ]
+      }
+    },
+    "vd": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z25.1] Potreba imunizácie výlučne proti chrípke",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089522300@12",
+              "id": "Z25.1"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "r",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[6345C] Influvac Tetra | sus iru 1x0,5 ml (striek.inj.skl.napl. s ihlou)",
+            "props": {
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
+              "propSdl": 1,
+              "propCena": 11.17,
+              "propVnl": "R",
+              "propUzp_1zvj": 5.71,
+              "propGp": 0,
+              "propIo": "ind.obm.",
+              "propSpUhr": "V",
+              "propDpl": 5.46,
+              "idClassid": "liek",
+              "idEzid": "00021278437",
+              "idF": "SUS IRU",
+              "idSp": "ims",
+              "idAtc": "J07BB02",
+              "idUl": "",
+              "id": "6345C"
+            }
+          },
+          "schedule": {
+            "value": "ad m m ",
+            "props": {
+              "error": "Chyba zápisu dávkovania. (SyntaxError: Expected [0-9] or integer but 'd' found.)"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "5,46",
+            "props": {
+              "propValue": 5.46
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[1] Pod radou sa rozumie poskytnutie informácií pacientovi alebo zákonnému zástupcovi v súvislosti so zdravotným stavom. Výkon pod kódom 1 nemožno vykazovať súčasne s inými výkonmi. Výkon nemožno vykazovať pre telefonické objednávanie pacienta.",
+            "props": {
+              "propBody": 80,
+              "idClassid": "vykon",
+              "idEzid": "00000466508@12",
+              "id": 1
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "owner": "podhorska",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/020LILI"
+}

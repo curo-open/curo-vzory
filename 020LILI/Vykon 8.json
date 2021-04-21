@@ -1,0 +1,37 @@
+{
+  "title": "Vykon 8",
+  "shortcut": "v8",
+  "if": "",
+  "data": {
+    "_": {},
+    "vv": [
+      {
+        "id": 7,
+        "order": 0,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov",
+            "props": {
+              "propBody": 250,
+              "idClassid": "vykon",
+              "idEzid": "00000466557@20",
+              "id": 8
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "vykony"
+  ],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

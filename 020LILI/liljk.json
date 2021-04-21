@@ -1,0 +1,90 @@
+{
+  "title": "liljk",
+  "shortcut": "liljk",
+  "if": "",
+  "data": {
+    "_": {},
+    "t-nadpis": [
+      {
+        "id": 11,
+        "order": 0,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "Kontrolné vyšetrenie pacienta s IDC<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "je to výrazne  lepšie, cíti sa už dobre, zvýšená teplota už nebola, kašel nie je, hrdlo nebolí<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": " ORF kľudný, dýchanie čisté, afebrilný<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 6,
+        "order": 3,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": " rekonvalescencia podľa poučenia, fyzické šetrenie 14 dní po IDC, vitamíny v prirodzenej forme, ko p.p. pri zhoršení stavu <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 8,
+        "order": 4,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

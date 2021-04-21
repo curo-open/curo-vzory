@@ -1,0 +1,199 @@
+{
+  "title": "lilžiadankaDLP",
+  "shortcut": "lilžiadankyDLP",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Indikované vyšetrenia pri DLP - pacient poučený, že sa ma s výsledkami vyšetrení hlásiť k nám bezodkladne<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-ultrazvukove-vysetrenie": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "z-ultrazvukove-vysetrenie"
+        },
+        "value": {
+          "dg": {
+            "value": "[E78.2] Zmiešaná hyperlipidémia",
+            "props": {
+              "id": "E78.2",
+              "idEzid": "02089382135@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "anamneza": {
+            "value": "",
+            "props": {}
+          },
+          "vysledky": {
+            "value": "",
+            "props": {}
+          },
+          "pred": {
+            "value": "",
+            "props": {}
+          },
+          "predmet": {
+            "value": "USG brucha",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "Podľa OUMZ na  poskytovanie ZS pacientom s DLP zo dňa  27.11.2015  sa odporúča pátrať pri danej Dg po asymptomatickom poškodení orgánov",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "z-ultrazvukove-vysetrenie"
+        },
+        "value": {
+          "dg": {
+            "value": "[E78.2] Zmiešaná hyperlipidémia",
+            "props": {
+              "id": "E78.2",
+              "idEzid": "02089382135@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "anamneza": {
+            "value": "",
+            "props": {}
+          },
+          "vysledky": {
+            "value": "",
+            "props": {}
+          },
+          "pred": {
+            "value": "",
+            "props": {}
+          },
+          "predmet": {
+            "value": "DUS extrakraniálneho riečiska a ciev DK",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "Podľa OUMZ na  poskytovanie ZS pacientom s DLP zo dňa  27.11.2015  sa odporúča pátrať pri danej Dg po asymptomatickom poškodení orgánov",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-rtg": [
+      {
+        "id": 11,
+        "order": 3,
+        "props": {
+          "type": "z-rtg"
+        },
+        "value": {
+          "dg_text": {
+            "value": "[E78.2] Zmiešaná hyperlipidémia",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089382135@12",
+              "id": "E78.2"
+            }
+          },
+          "predmet": {
+            "value": "RTG hrudníka + popis",
+            "props": {}
+          },
+          "ocakavanie": {
+            "value": "",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "Podľa OUMZ na  poskytovanie ZS pacientom s DLP zo dňa  27.11.2015  sa odporúča pátrať pri danej Dg po asymptomatickom poškodení orgánov",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 7,
+        "order": 4,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[E78.2] Zmiešaná hyperlipidémia",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089382135@12",
+              "id": "E78.2"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vl": [
+      {
+        "id": 9,
+        "order": 5,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "Prosím o očné vyšetrenie  - fundoskopia<br><br>Podľa OUMZ na  poskytovanie ZS pacientom s DLP zo dňa  27.11.2015  sa odporúča pátrať pri danej Dg po asymptomatickom poškodení orgánov<br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "[015] oftalmológia",
+            "props": {
+              "idClassid": "zameranie",
+              "idEzid": "00000351452@8",
+              "id": "015"
+            }
+          },
+          "druh": {
+            "value": "[2] ambulancia",
+            "props": {
+              "idClassid": "cinnost",
+              "idEzid": "00000000273@3",
+              "id": 2
+            }
+          },
+          "presne": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "žiadDLP"
+  ],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

@@ -1,0 +1,186 @@
+{
+  "title": "lilu7",
+  "owner": "podhorska",
+  "shortcut": "lilu7",
+  "if": "",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[U07.1] Potvrdená infekcia COVID-19",
+            "props": {
+              "propDanger": 1,
+              "idClassid": "diagnoza",
+              "idEzid": "02089528661@17",
+              "id": "U07.1"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky",
+            "props": {
+              "propBody": 160,
+              "id": "1b",
+              "idEzid": "02089894014@26",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 7,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[71.DPN] Vystavenie potvrdenia o dočasnej pracovnej neschopnosti.",
+            "props": {
+              "propBody": 35,
+              "propType": "soc",
+              "id": "71.DPN",
+              "idEzid": "curo-71.DPN@26",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "covid": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "covid"
+        },
+        "value": {
+          "typ": {
+            "value": "AG",
+            "props": {
+              "propValue": "ag"
+            }
+          },
+          "vysledok": {
+            "value": "nemal",
+            "props": {
+              "propValue": "nemal"
+            }
+          }
+        }
+      }
+    ],
+    "kar": [
+      {
+        "id": 5,
+        "order": 3,
+        "props": {
+          "type": "kar"
+        },
+        "value": {
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "date_end": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pn": [
+      {
+        "id": 6,
+        "order": 4,
+        "props": {
+          "type": "pn"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "date_vystavene": {
+            "value": "",
+            "props": {}
+          },
+          "znacka": {
+            "value": "",
+            "props": {}
+          },
+          "for": {
+            "value": "",
+            "props": {}
+          },
+          "adresa_pocas_PN": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_datum": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_od": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_do": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_od2": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_do2": {
+            "value": "",
+            "props": {}
+          },
+          "comment": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/020LILI"
+}

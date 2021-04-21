@@ -1,0 +1,54 @@
+{
+  "type": "examination",
+  "summary": "VL - Kardio",
+  "title": "VL - Kardiologia",
+  "shortcut": "vlk",
+  "if": "",
+  "data": {
+    "_": {},
+    "vl": [
+      {
+        "id": 5,
+        "order": 0,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "{{&lt; sessions|getSections(\"ra\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"oa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"pa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"la\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br>{{&lt; sessions|getSections(\"ga\")|where(\"i==0\")|trans(\"text\")}}<br><br>{{&lt; sessions|getSections(\"dz\")|where(\"i==0\")|trans(\"text\")}}<br><br>{{&lt; sessions|getSections(\"td\")|trans(\"text\")}}<br><br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "[049] kardiológia",
+            "props": {
+              "idClassid": "zameranie",
+              "idEzid": "00000351726@8",
+              "id": "049"
+            }
+          },
+          "druh": {
+            "value": "[2] ambulancia",
+            "props": {
+              "idClassid": "cinnost",
+              "idEzid": "00000000273@3",
+              "id": 2
+            }
+          },
+          "presne": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

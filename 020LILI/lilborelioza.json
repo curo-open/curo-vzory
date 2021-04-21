@@ -1,0 +1,231 @@
+{
+  "title": "lilborelioza ",
+  "shortcut": "lilborelioza",
+  "if": "",
+  "data": {
+    "_": {},
+    "s": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "Pacient udáva akviráciu kliešťom   <br>Zvýšenú TT neguje, bolesti hlavy neguje, trpnutie končatín neudáva, svetlo a zvukoplachosť neguje, zvracanie neguje, iné ťažksti nemá. <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "Oválne začervenanie červené s centr. výbledom veľkosti<br>pacient orientovaný, lucídny, PMT v norme, dýchanie čisté, as regg, dk bez edémov, afebrilný. <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "aa": [
+      {
+        "id": 13,
+        "order": 2,
+        "props": {
+          "type": "aa"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 6,
+        "order": 3,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "Vzhľadom na lokálny nález predpisujem ATB po dobu  20 dní, pri liečbe ATB a ešte mesiac po liečbe užívať probiotiká, najlepšie Ex helico 1-0-1. Protilátky vzhľadom na krátku anamnézu  neodoberám. Znakom vyliečenia je vymiznutie začervenania. Zatiaľ odporúčam fyzické šetrenie, v prípade zhoršenia stavu, rozvoj teplôt, bolesti hlavy, nevoľnosť, zvracanie alebo nezlepšenie lokáneho nálezu kontrola u nás bezodkladne po telefonickom dohovore. Počas užívania ATB a ešte tri  dni po doužívaní je nutné vyhýbať sa slnečnému  žiareniu. <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "dz": [
+      {
+        "id": 11,
+        "order": 4,
+        "props": {
+          "type": "dz"
+        },
+        "value": {
+          "dz": {
+            "value": "Erythema migrans, stav po zaklieštení<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 8,
+        "order": 5,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[W57.9] Uhryznutie alebo uštipnutie nejedovatým hmyzom a inými nejedovatými článkonožcami - MU: Nešpecifikované miesto",
+            "props": {
+              "id": "W57.9",
+              "idEzid": "02089534115@13",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 15,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[4] Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani",
+            "props": {
+              "propBody": 200,
+              "id": 4,
+              "idEzid": "00000466524@21",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 18,
+        "order": 7,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[12735] Doxyhexal 200 Tabs | tbl 10x200 mg (blis.PP/Al)",
+            "props": {
+              "propDpl": 1.02,
+              "propSpUhr": "S",
+              "propUnit": "DF",
+              "propGp": 1,
+              "propBal": 10,
+              "propUzp_1zvj": 0.105,
+              "propVnl": "R",
+              "propCena": 3.12,
+              "propSdl": 20,
+              "propAtcName": "Doxycyklín",
+              "propOl": 0,
+              "id": 12735,
+              "idUl": "",
+              "idAtc": "J01AA02",
+              "idSp": "ora",
+              "idF": "TBL",
+              "idEzid": "00020644233",
+              "idClassid": "liek"
+            }
+          },
+          "schedule": {
+            "value": "1-0-0-0, denne po jedle",
+            "props": {
+              "propText": "po jedle",
+              "propWay_code": "",
+              "propPeriod_id": "D",
+              "propPeriod_t": "denne",
+              "propParts_sleepTime": 0,
+              "propParts_evening": 0,
+              "propParts_noon": 0,
+              "propParts_morning": 1,
+              "propType": "PEV1"
+            }
+          },
+          "qty": {
+            "value": "2",
+            "props": {
+              "propValue": "2.00"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "payoff": {
+            "value": "2,04",
+            "props": {
+              "propValue": 2.04
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

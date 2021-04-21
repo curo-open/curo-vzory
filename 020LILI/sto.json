@@ -1,0 +1,26 @@
+{
+  "title": "sto",
+  "shortcut": "sto.",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "vykonaný odber biolog. materiálu so súhlasom pacienta: <br><br>Odber na preventívnu prehliadku<br>KO<br>Bio<br>Serologia<br>Moč chem, sed, K+C<br>Výtery: <br>iné:<br><br><br><br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

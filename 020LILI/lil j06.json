@@ -1,0 +1,401 @@
+{
+  "type": null,
+  "summary": "",
+  "title": "lil j06",
+  "shortcut": "lilj",
+  "if": "",
+  "data": {
+    "_": {},
+    "t-nadpis": [
+      {
+        "id": 39,
+        "order": 0,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "Vyšetrenie pacienta s IDC <br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "dýcha sa dobre  <br>TT zvýšená <br>hrdlo<br>kašel<br>nádcha<br>dysfagiu neguje<br>Inak cíti sa dobre, bolesti na hrudi nemá, dýcha sa dobre, nohy neopúchajú, pracovná tolerancia sa nezmenila, brucho nebolí. hlava nebolí, vertigo a synkopy neguje. Na epilepsiu a glaukóm sa nelieči. <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "aa": [
+      {
+        "id": 26,
+        "order": 2,
+        "props": {
+          "type": "aa"
+        },
+        "value": {
+          "text": {
+            "value": "Na lieky a potraviny neguje <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ga": [
+      {
+        "id": 28,
+        "order": 3,
+        "props": {
+          "type": "ga"
+        },
+        "value": {
+          "text": {
+            "value": "graviditu a kojenie popiera <br>",
+            "props": {}
+          },
+          "prvamen": {
+            "value": "",
+            "props": {}
+          },
+          "pravidelnost": {
+            "value": "",
+            "props": {}
+          },
+          "bolest": {
+            "value": "",
+            "props": {}
+          },
+          "cyklus": {
+            "value": "",
+            "props": {}
+          },
+          "menopauza": {
+            "value": "",
+            "props": {}
+          },
+          "porody": {
+            "value": "",
+            "props": {}
+          },
+          "potraty": {
+            "value": "",
+            "props": {}
+          },
+          "interrupcie": {
+            "value": "",
+            "props": {}
+          },
+          "posinterrupcia": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "da": [
+      {
+        "id": 47,
+        "order": 4,
+        "props": {
+          "type": "da"
+        },
+        "value": {
+          "text": {
+            "value": "epilepsiu a glaukom v anamnéze neguje <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 30,
+        "order": 5,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "ORF hyperemický, TO bez povlakov a čapov, bez hmatateľnej krčnej LAP, dýchanie čisté v celom rozsahu, kľudové eupnoe,  bez zn. meningeálneho dráždenia, KP komp., AS regg.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "zfp": [
+      {
+        "id": 5,
+        "order": 6,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "oh": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "99",
+            "props": {}
+          },
+          "temp": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 31,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>CRP</b> pacient žiada vyšetrenie CRP z prsta na vlastnú žiadosť za úhradu, odmieta vyšetrenie  CRP hradené z verejného zdravotníctva cestou laboratoria.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 15,
+        "order": 8,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[J06.9] Akútna infekcia horných dýchacích ciest, bližšie neurčená",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089403436@11",
+              "id": "J06.9"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 53,
+        "order": 9,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[87076] ERDOMED 300 mg | cps dur 20x300 mg (blis.Al/PVC/PVDC)",
+            "props": {
+              "propOl": 0,
+              "propAtcName": "Erdosteín",
+              "propVnl": "R",
+              "propGp": 0,
+              "propDpl": 6.88,
+              "idClassid": "liek",
+              "idEzid": "00020636684",
+              "idF": "CPS DUR",
+              "idSp": "ora",
+              "idAtc": "R05CB15",
+              "idUl": "erdosteinum",
+              "id": 87076
+            }
+          },
+          "schedule": {
+            "value": "1-0-1-0, denne",
+            "props": {
+              "propWay_code": "",
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propParts_sleepTime": 0,
+              "propParts_evening": 1,
+              "propParts_noon": 0,
+              "propParts_morning": 1,
+              "propType": "PEV1"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "6,88",
+            "props": {
+              "propValue": 6.88
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 51,
+        "order": 10,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov",
+            "props": {
+              "propBody": 250,
+              "id": 8,
+              "idEzid": "00000466557@12",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 13,
+        "order": 11,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "Akútny infekt dýchacích ciest <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 49,
+        "order": 12,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "symptomatická / indikujem ATB liečbu<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 11,
+        "order": 13,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "kľudový režim, za 5 dní  kontrola u nás. Antipyretiká podľa poučenia, probiotiká,  neriadiť motorové vozidlo a neslniť sa   počas liečby!<br><br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "description": "",
+  "source": "curo-open/curo-vzory#/020LILI"
+}

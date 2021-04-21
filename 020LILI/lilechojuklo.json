@@ -1,0 +1,52 @@
+{
+  "title": "lilechojuklo",
+  "shortcut": "lilechojukl",
+  "if": "",
+  "data": {
+    "_": {},
+    "vl": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vl"
+        },
+        "value": {
+          "text": {
+            "value": "prosím o echokg<br><br><br><br>Ďakujem <br><br>osobná anamnéza<br><br><br><br>MUDr. Ľubica Juklová<br>Miesto prevádzkovania: UNsP Milosrdní bratia, Nám SNP 10, Bratislava <br>Kardiologická ambulancia, 2.posch., č.d.: 234   <br>Tel.č.: 02/ 57 88 72 34    <br>",
+            "props": {}
+          },
+          "odbor": {
+            "value": "[049] kardiológia",
+            "props": {
+              "idClassid": "zameranie",
+              "idEzid": "00000351726@8",
+              "id": "049"
+            }
+          },
+          "druh": {
+            "value": "[2] ambulancia",
+            "props": {
+              "idClassid": "cinnost",
+              "idEzid": "00000000273@3",
+              "id": 2
+            }
+          },
+          "presne": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "extended": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

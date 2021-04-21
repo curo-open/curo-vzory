@@ -1,0 +1,228 @@
+{
+  "title": "lilbrucho ",
+  "shortcut": "lilb",
+  "summary": "",
+  "if": "",
+  "data": {
+    "_": {},
+    "s": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "udáva   bolesť brucha   <br>Nezvracal/a,  s močením ťažkosti nemá <br>Zvýšenú TT <br>Neguje prímes krvi v stolici alebo čiernu stolicu<br>Posledná stolica -  <br>Graviditu a kojenie neguje <br>Inak cíti sa dobre, bolesti na hrudi nemá, dýcha sa dobre, nohy neopúchajú, s močením a stolicou ťažkosti nemá, pracovná tolerancia sa nezmenila.  hlava nebolí, vertigo a synkopy neguje.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "Orientovaný/á  všetkými smermi, reč koherentná, postoj, chôdza v norme, LAP  nehmatám, Uši, nos bez sekrécie, oči - spojovky ružové, skléry biele, zrenice izokorické, DÚ- sliznice vlhké, jazyk plazí v strednej rovine, nepovlečený, ORF kľudný, krk súmerný, ŠŽ nehmatám, AS pravidelná, ozvy ohraničené, dýchanie čisté v celom rozsahu, Abdomen voľne priehmatný, bez hmatnej rezistencie, bez známok peritoneálneho dráždenia, palpačne nebolestivý, DK bez edémov, varixy neprítomné,  afebrilný, orientačne neurologicky v norme, šija neoponuje.Per rectum: indaginácia  nebolestivá, bez hmatnej rezistencie n adosah prsta, okolie anu čisté, na rukavici zvyšky hnedej stolice. <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "zfp": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "oh": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "99",
+            "props": {}
+          },
+          "temp": {
+            "value": "36,6",
+            "props": {
+              "propValue": "36.60"
+            }
+          }
+        }
+      }
+    ],
+    "aa": [
+      {
+        "id": 5,
+        "order": 3,
+        "props": {
+          "type": "aa"
+        },
+        "value": {
+          "text": {
+            "value": "Na lieky a potraviny neguje <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "la": [
+      {
+        "id": 11,
+        "order": 4,
+        "props": {
+          "type": "la"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 17,
+        "order": 5,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "Bolesť brucha v diff dg. <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 18,
+        "order": 6,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "dieta dľa poučenia: stolová voda, čierny čaj, varené solené zemiaky, ryža, sucháre, banán, postupne pri zlepšení realimentovať dľa poučenia.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 19,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "Kontrola u nás dňa <br>Dnes zrealizovať  odber: KO, Gly, krea, Bi, AMS, CRP,  Na, K, AST,ALT, GMT, moč chem + sed<br>V prípade zhoršenia stavu ad CPO okamžite, pacient poučený  <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 20,
+        "order": 8,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[R10.4] Iná a bližšie neurčená bolesť brucha",
+            "props": {
+              "id": "R10.4",
+              "idEzid": "02089478636@11",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 21,
+        "order": 9,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov",
+            "props": {
+              "propBody": 250,
+              "id": 8,
+              "idEzid": "00000466557@11",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "owner": "podhorska",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/020LILI"
+}

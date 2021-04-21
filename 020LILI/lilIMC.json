@@ -1,0 +1,133 @@
+{
+  "title": "lilIMC",
+  "shortcut": "lilIMC",
+  "if": "",
+  "data": {
+    "_": {},
+    "s": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "Dyzuria niekoľko dní,  teplota zvýšená nebola, koliku neudáva, brucho nebolí, močí spontánne, bez retencie moču.<br>Krv v moči  neudáva<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "aa": [
+      {
+        "id": 14,
+        "order": 1,
+        "props": {
+          "type": "aa"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "Brucho palp. neboelstivé, voľne priehmatné,  bez patol. rezistencie,  tapp. bilat negat, afebrilná <br>moč chem: le   ery<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "dz": [
+      {
+        "id": 10,
+        "order": 3,
+        "props": {
+          "type": "dz"
+        },
+        "value": {
+          "dz": {
+            "value": "Akútny IMC<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 12,
+        "order": 4,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "dostatok tekutín, kľudový režim, ATB,  pri nezlepšení kontrola o dva dni,  inak za 14 dní moč KC <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 6,
+        "order": 5,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[N30.0] Akútna cystitída",
+            "props": {
+              "id": "N30.0",
+              "idEzid": "02089457770@12",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 8,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[4] Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani",
+            "props": {
+              "propBody": 200,
+              "id": 4,
+              "idEzid": "00000466524@13",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

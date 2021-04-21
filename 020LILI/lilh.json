@@ -1,0 +1,505 @@
+{
+  "title": "lilh",
+  "shortcut": "lilh",
+  "summary": "",
+  "if": "",
+  "data": {
+    "_": {},
+    "t-nadpis": [
+      {
+        "id": 16,
+        "order": 0,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "Vyšetrenie pacienta s arteriovou hyprtenziou/ DLP<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bez ťažkostí , domáce meranie tlakomerom má vyhovujúce, bolesti hlavy, poruchy videnia, závraty nemá, bolesť na hrudí nemá, dýcha sa dobre, dušnosť nie je, námahu toleruje dobre, pracovná tolernacia nezmenená,  búšenie srdca nemá, opuchy dk nemá, synkopy neguje, palpitácie a pocit arytmie neguje, vertigo nemá, smäd, polyúriu, nyktúriu, hematúriu neguje , chrápanie, sy spánk. apnoe neguje <br>S močením a stolicou ťažkosti nemá, váha stabilizovaná<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "Vedomie lucidné, orientovaný, poloha aktívna, koža bez ikteru a cyanózy, turgor primeraný, výživa - primeraná, eupnoe. Hlava - na poklop nebolestivá, inervačne  v norme. Oči - bulby v strednom postavení, doťahujú všetkými smermi, bez nystagmu, zrenice izokorické, reakcia na osvit správna, spojovky anikterické, bez hmatnej externej LAP,  Nos,uši - bez deformít a výtoku. Dutina ústna - jazyk vlhký, bez povlaku, plazí v strednej rovine, sliznice vlhké. orofarynx - kľudný, tonzily bez patolog. nálezu. Krk- bez opozície šije, lymfatické uzliny nezväčšené, štítna žľaza nehmatná,  náplň jugulárnych vén v norme, pulzácie karotíd bilaterálne súmerné.  Hrudník - bez deformít, Pulmo -  dýchanie vezikulárne čisté, bez vedľajších fenoménov, Cor- akcia pravidelná, kľudná, ozvy ohraničené. Brucho- bez zn. peritoneálneho dráždenia,   mäkké, priehmatné, palpačne nebolestivé,  hepar a lien v oblúku,  tapott.  bilat. negat. Končatiny - bez  edémov, lýtka palpačne nebolestivé, Homans bilat. negat., pulzácie aa. dors. pedis  bilat. hmatné, neurologicky orientačne v norme<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "zfp": [
+      {
+        "id": 10,
+        "order": 3,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "oh": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "",
+            "props": {}
+          },
+          "temp": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ab": [
+      {
+        "id": 6,
+        "order": 4,
+        "props": {
+          "type": "ab"
+        },
+        "value": {
+          "fajciar": {
+            "value": "",
+            "props": {}
+          },
+          "alkohol": {
+            "value": "",
+            "props": {}
+          },
+          "kava": {
+            "value": "",
+            "props": {}
+          },
+          "drogy": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oa": [
+      {
+        "id": 47,
+        "order": 5,
+        "props": {
+          "type": "oa"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 48,
+        "order": 6,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 49,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"sa\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 39,
+        "order": 9,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 40,
+        "order": 10,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"oa\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 27,
+        "order": 12,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 28,
+        "order": 13,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 29,
+        "order": 14,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 30,
+        "order": 15,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 31,
+        "order": 16,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"aa\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 41,
+        "order": 18,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 42,
+        "order": 19,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pohlavie == \"female\" &amp;&amp; sessions|getSections(\"ga\")|trans(\"length\") &gt; 0}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 43,
+        "order": 20,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"ga\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 44,
+        "order": 21,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 45,
+        "order": 22,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pohlavie == \"female\" &amp;&amp; !sessions|getSections(\"ga\")|trans(\"length\") &gt; 0}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 32,
+        "order": 25,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 33,
+        "order": 26,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 34,
+        "order": 27,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 35,
+        "order": 28,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 36,
+        "order": 29,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"aa\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ra": [
+      {
+        "id": 38,
+        "order": 8,
+        "props": {
+          "type": "ra"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          },
+          "kvo": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "la": [
+      {
+        "id": 8,
+        "order": 11,
+        "props": {
+          "type": "la"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "aa": [
+      {
+        "id": 12,
+        "order": 17,
+        "props": {
+          "type": "aa"
+        },
+        "value": {
+          "text": {
+            "value": "<br><br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "dz": [
+      {
+        "id": 14,
+        "order": 23,
+        "props": {
+          "type": "dz"
+        },
+        "value": {
+          "dz": {
+            "value": "Arteriová hypertenzia <br>DLP<br>KVR: <br>SKORE: <br>ostatné dg.: <br><br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "th": [
+      {
+        "id": 20,
+        "order": 24,
+        "props": {
+          "type": "th"
+        },
+        "value": {
+          "th": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 18,
+        "order": 30,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "Objednávam na kontrolné vyšetrenie hypertonika/ pacienta s DLP za pol roka, režimové opatrenia podľa poučenia, menej soliť, self monitoring TK,  7 dní pred pravidelnou kontrolu u nás HBMP podľa poučenia, pri nevyhovujúcich hodnotách tlaku alebo pulzu sa hlási u  nás ihneď. <br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

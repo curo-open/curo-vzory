@@ -1,0 +1,26 @@
+{
+  "title": "lilpouč",
+  "shortcut": "lilpouč",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Režim pacienta pred odberom krvi: <br>12 hodín pred odberom nejesť a&nbsp;nepiť sladké nápoje. Deň pred odberom nejesť tučné a sladké  jedlá  a nekonzumovať alkoholické nápoje.<br>24 hodín pred odberom treba vypiť aspoň 2 l tekutín, najmä vodu, minerálku, nesladené čaje. Ráno pred odberom treba vypiť 500 ml nesladených tekutín.<br><br>Odber moču:<br>Vyšetrenie sa robí z prvej rannej vzorky. Prvá dávka moču sa vymočí do toalety, stredný prúd moču sa zachytí do odberovej nádobky (skúmavky). Odber by mal byť vykonaný v období mimo menštruácie.<br><br>Poučenie pred EKG: Muži - oholená alebo ostrihaná hruď  pred vyšetrením.<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}

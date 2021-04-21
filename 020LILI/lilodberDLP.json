@@ -1,0 +1,26 @@
+{
+  "title": "lilodberDLP",
+  "shortcut": "lilodberDLP",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "odber: á pol roka u nás odber - kontrolné vyšetrenie DLP: <br>Chol, Tg, HDL, LDL, ALT, glykémia- E78,2<br><br>odber:  inicálne vyšetrenie DLP <br>CHOl, HDL, LDL, Tg, krea, ALt, Gly, KM, CK, TSH - E78,2<br><br>kontrola po započatí liečby DLP za 8 týždňov: <br>ALT, lipidogram <br><br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020LILI"
+}
