@@ -1,0 +1,1116 @@
+{
+  "title": "Preventívka bodovanie - pediater",
+  "shortcut": "ppb",
+  "summary": "",
+  "if": "",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z00.1] Rutinné vyšetrenie zdravotného stavu dieťaťa",
+            "props": {
+              "id": "Z00.1",
+              "idEzid": "02089520817@13",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 7,
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni &gt; 0 &amp;&amp;  pacient.vekDni &lt;= 14 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 9,
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni &gt; 14 &amp;&amp;  pacient.vekDni &lt;= 28 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 12,
+        "order": 6,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 4,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp != 24 &amp;&amp; pacient.vekDni &gt; 14 &amp;&amp;  pacient.vekDni &lt;= 365 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 6,
+        "order": 9,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 29,
+        "order": 10,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp == 24 &amp;&amp; pacient.vekDni &gt; 28 &amp;&amp;  pacient.vekDni &lt;= 365 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 31,
+        "order": 12,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 14,
+        "order": 13,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vTyzdnoch &gt; 4 &amp;&amp;  pacient.vekDni|vTyzdnoch &lt;= 7 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 13,
+        "order": 15,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 18,
+        "order": 16,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vTyzdnoch &gt; 7 &amp;&amp;  pacient.vekDni|vTyzdnoch &lt;= 11 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 20,
+        "order": 18,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 22,
+        "order": 19,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vMesiacoch &gt; 2 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 4 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 24,
+        "order": 21,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 33,
+        "order": 22,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vMesiacoch &gt; 4 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 6 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 35,
+        "order": 24,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 37,
+        "order": 25,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vMesiacoch &gt; 6 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 8 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 39,
+        "order": 27,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 41,
+        "order": 28,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vMesiacoch &gt; 8 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 10 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 43,
+        "order": 30,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 45,
+        "order": 31,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vMesiacoch &gt; 10 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 12 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 47,
+        "order": 34,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 49,
+        "order": 35,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vMesiacoch &gt; 14 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 18 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 51,
+        "order": 37,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 53,
+        "order": 38,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vRokoch &gt; 1 &amp;&amp;  pacient.vekDni|vRokoch  &lt;= 2 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 55,
+        "order": 40,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 57,
+        "order": 41,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vRokoch &gt; 3 &amp;&amp;  pacient.vekDni|vRokoch  &lt;= 4 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 59,
+        "order": 43,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 62,
+        "order": 44,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vRokoch &gt; 4 &amp;&amp;  pacient.vekDni|vRokoch  &lt;= 5 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 64,
+        "order": 46,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 66,
+        "order": 47,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vRokoch &gt; 7 &amp;&amp;  pacient.vekDni|vRokoch  &lt;= 8 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 68,
+        "order": 49,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 70,
+        "order": 50,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vRokoch &gt; 9 &amp;&amp;  pacient.vekDni|vRokoch  &lt;= 10 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 72,
+        "order": 52,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 74,
+        "order": 53,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vRokoch &gt; 11 &amp;&amp;  pacient.vekDni|vRokoch  &lt;= 12 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 76,
+        "order": 55,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 78,
+        "order": 56,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vRokoch &gt; 13 &amp;&amp;  pacient.vekDni|vRokoch  &lt;= 14 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 80,
+        "order": 58,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 82,
+        "order": 59,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vRokoch &gt; 15 &amp;&amp;  pacient.vekDni|vRokoch  &lt;= 16 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 84,
+        "order": 62,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 86,
+        "order": 63,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vRokoch &gt; 17 &amp;&amp;  pacient.vekDni|vRokoch  &lt;= 18 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 88,
+        "order": 66,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 10,
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[142] 1. preventívna prehliadka, bazálne vyšetrenie novorodenca. Výkon vykazuje lekár s príslušnou špecializáciou po prepustení novorodenca z ústavnej starostlivosti.",
+            "props": {
+              "propBody": 350,
+              "idClassid": "vykon",
+              "idEzid": "00000467100@21",
+              "id": 142
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 3,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[143] 2. preventívna prehliadka, vykazuje sa do 4. týždna života dieťaťa. Výkon vykazuje lekár s príslušnou špecializáciou ako druhú preventívnu prehliadku v prvom mesiaci života dieťaťa podľa tohto zákona",
+            "props": {
+              "propBody": 350,
+              "id": 143,
+              "idEzid": "00000467118@21",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 5,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[950] Vyšetrenie psychomotorického vývinu dieťaťa vo vzťahu k hrubej a jemnej motorike, k reči a k sociálnym vzťahom podľa štandardnej stupnice vrátane dokumentácie. Pri výkone pod kódom 950 nemožno výkony",
+            "props": {
+              "propBody": 390,
+              "idClassid": "vykon",
+              "idEzid": "00000469288@21",
+              "id": 950
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 30,
+        "order": 11,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[950] Vyšetrenie psychomotorického vývinu dieťaťa vo vzťahu k hrubej a jemnej motorike, k reči a k sociálnym vzťahom podľa štandardnej stupnice vrátane dokumentácie. Pri výkone pod kódom 950 nemožno výkony",
+            "props": {
+              "propBody": 390,
+              "id": 950,
+              "idEzid": "00000469288@21",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 16,
+        "order": 14,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[143a] 3. preventívna prehliadka sa vykazuje v 5. až 7. týždni života dieťaťa (vrátane vyšetrenia psychomotorického vývinu a antropometrických meraní).",
+            "props": {
+              "propBody": 350,
+              "idClassid": "vykon",
+              "idEzid": "00000467126@21",
+              "id": "143a"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 19,
+        "order": 17,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[144] 4. preventívna prehliadka sa vykazuje v 8. až 10. týždni života (vrátane vyšetrenia psychomotorického vývinu a antropometrických meraní).",
+            "props": {
+              "propBody": 350,
+              "id": 144,
+              "idEzid": "00000467134@21",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 23,
+        "order": 20,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[145] 5. preventívna prehliadka sa vykazuje v 3. až 4. mesiaci života dieťaťa (vrátane antropometrických meraní).",
+            "props": {
+              "propBody": 350,
+              "id": 145,
+              "idEzid": "00000467142@21",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 34,
+        "order": 23,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[145a] 6. preventívna prehliadka sa vykazuje v 5. až 6. mesiaci života dieťaťa (vrátane antropometrických meraní).",
+            "props": {
+              "propBody": 370,
+              "id": "145a",
+              "idEzid": "00000467159@21",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 38,
+        "order": 26,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[146] 7. preventívna prehliadka sa vykazuje v 7. až 8. mesiaci života dieťaťa (vrátane antropometrických meraní).",
+            "props": {
+              "propBody": 370,
+              "id": 146,
+              "idEzid": "00000467167@21",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 42,
+        "order": 29,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[146a] 8. preventívna prehliadka sa vykazuje v 9. až 10. mesiaci života dieťaťa (vrátane antropometrických meraní).",
+            "props": {
+              "propBody": 370,
+              "id": "146a",
+              "idEzid": "00000467175@21",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 46,
+        "order": 32,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[146b] 9. preventívna prehliadka sa vykazuje v 11. až 12. mesiaci života dieťaťa (vrátane antropometrických meraní).",
+            "props": {
+              "propBody": 370,
+              "id": "146b",
+              "idEzid": "00000467183@21",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 90,
+        "order": 33,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[159b] Preventívne vyšetrenie celkového cholesterolu v 11. a 17. roku života a celkového cholesterolu a triacylglycerolov v 40. roku života. Okrem odberu sa vykazuje cielená anamnéza, posúdenie genetickej záťaže, posúdenie laboratórnych výsledkov, v prípade",
+            "props": {
+              "propBody": 100,
+              "idClassid": "vykon",
+              "idEzid": "00000467365@21",
+              "id": "159b"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 50,
+        "order": 36,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[146c] 10. preventívna prehliadka sa vykazuje v 18. mesiaci života dieťaťa (vrátane antropometrických meraní).",
+            "props": {
+              "propBody": 370,
+              "id": "146c",
+              "idEzid": "00000467191@21",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 54,
+        "order": 39,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[148] 11. preventívna prehliadka sa vykazuje v 3. roku života dieťaťa (vrátane antropometrických meraní).",
+            "props": {
+              "propBody": 370,
+              "id": 148,
+              "idEzid": "00000467209@21",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 58,
+        "order": 42,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[148a] 12. preventívna prehliadka sa vykazuje v 5. roku života dieťaťa (vrátane antropometrických meraní).",
+            "props": {
+              "propBody": 370,
+              "id": "148a",
+              "idEzid": "00000467217@21",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 63,
+        "order": 45,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[148b] 13. preventívna prehliadka sa vykazuje v 6. roku života alebo v 7. roku života dieťaťa, ak poistenec nenastúpil školskú dochádzku (vrátane antropometrických meraní).",
+            "props": {
+              "propBody": 390,
+              "id": "148b",
+              "idEzid": "00000467225@21",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 67,
+        "order": 48,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[148c] 14. preventívna prehliadka sa vykazuje v 9. roku života dieťaťa (vrátane antropometrických meraní).",
+            "props": {
+              "propBody": 390,
+              "id": "148c",
+              "idEzid": "00000467233@21",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 71,
+        "order": 51,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[149] 15. preventívna prehliadka sa vykazuje v 11. roku života dieťaťa (vrátane antropometrických meraní).",
+            "props": {
+              "propBody": 390,
+              "id": 149,
+              "idEzid": "00000467241@21",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 75,
+        "order": 54,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[149a] 16. preventívna prehliadka sa vykazuje v 13. roku života dieťaťa (vrátane antropometrických meraní).",
+            "props": {
+              "propBody": 390,
+              "id": "149a",
+              "idEzid": "00000467258@21",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 79,
+        "order": 57,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[149b] 17. preventívna prehliadka sa vykazuje v 15. roku života dieťaťa (vrátane antropometrických meraní).",
+            "props": {
+              "propBody": 390,
+              "id": "149b",
+              "idEzid": "00000467266@21",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 83,
+        "order": 60,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[149d] Preventívna prehliadka v 17. roku života dieťaťa. Ďalšie preventívne prehliadky sa vykazujú raz za 2 roky.",
+            "props": {
+              "propBody": 390,
+              "id": "149d",
+              "idEzid": "00000467282@21",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 92,
+        "order": 61,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[159b] Preventívne vyšetrenie celkového cholesterolu v 11. a 17. roku života a celkového cholesterolu a triacylglycerolov v 40. roku života. Okrem odberu sa vykazuje cielená anamnéza, posúdenie genetickej záťaže, posúdenie laboratórnych výsledkov, v prípade",
+            "props": {
+              "propBody": 100,
+              "idClassid": "vykon",
+              "idEzid": "00000467365@21",
+              "id": "159b"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 87,
+        "order": 64,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[149d] Preventívna prehliadka v 17. roku života dieťaťa. Ďalšie preventívne prehliadky sa vykazujú raz za 2 roky.",
+            "props": {
+              "propBody": 390,
+              "id": "149d",
+              "idEzid": "00000467282@21",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 94,
+        "order": 65,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[159b] Preventívne vyšetrenie celkového cholesterolu v 11. a 17. roku života a celkového cholesterolu a triacylglycerolov v 40. roku života. Okrem odberu sa vykazuje cielená anamnéza, posúdenie genetickej záťaže, posúdenie laboratórnych výsledkov, v prípade",
+            "props": {
+              "propBody": 100,
+              "idClassid": "vykon",
+              "idEzid": "00000467365@21",
+              "id": "159b"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "owner": "moravcikova",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/008"
+}

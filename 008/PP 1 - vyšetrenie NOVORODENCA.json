@@ -1,0 +1,152 @@
+{
+  "title": "PP 1 - vyšetrenie NOVORODENCA",
+  "shortcut": "pp1",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 27,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>1.Vyšetrenie NOVORODENCA</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 13,
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "vek:  .deň<br>hm./výška pôrodná:                       najnižšia hm.v pôrodnici:<br>hm.pri prepustení dňa:                   obvod hlavy:<br><u>hmotnosť dnes:</u><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 32,
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>RA: </b>matka: <br>       otec:<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 10,
+        "order": 5,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Výživa: </b>dojčenie<br>prídavky - vitamíny: vitamín D3 od 14.dňa života 1x2kv. denne, Vitamín K 1kv.týždenne do 3 mesiacov<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "CELKOVÝ: Somaticky a psychomotoricky veku primerane vyvinutý novorodenec, poloha aktívna, svalový normotonus, kostra bez zjavných deformít, malformácie neprítomné, bez stigmatizácie. Hydratované dobre, eutrofik.<br>KOŽA: ikterus kože mierny, koža bez patologických eflorescencií, podkožný tuk primerane vyvinutý. <br>HLAVA: mesocefalická, VF: x cm, bez rozostupu lebeč. švov, záhlavie pevné, šiju voľne otáča do krajnej polohy bilat., torticollis neprítomný.<br>OČI: bulby v strednom postavení, očné štrbiny súmerné, zrenice izokorické, čierne, okrúhle.Skléry bez ikteru, spojovky pokojné.<br>NOS: bez defromít, bez sekrécie. UŠI: bez malformácií ušníc, bez sekrécie.<br>DÚ: sliznice ružové, vlhké, čisté, oroph. bpn. KRK:súmerný, LU, štítna žľaza nezväčšená<br>HRUDNÍK: klenutý súmerne, dýchanie voľné, puerilné, bez vedľ. fenoménov, AS pravidelná, ozvy zvučné, ohraničené<br>BRUCHO: pupok sa hojí, odlúčený/ neodlúčený, pokojný, brucho mäkké, priehmatné, bez hepatosplenomegálie, peristaltika primeraná, poklop dif. tympan.<br>INGUINY: voľné, LU region. nezväčšené, pulzácie symetrické, dobre hmatné. Hernie neprítomné.<br>GENITÁL: <br>HK: bez deformít a opuchov. DK v správnom postavení, bez edémov<br>Orientačné neurol. vyš.: sací a hľadací reflex prítomný, Moorov reflex pozit., úchopový reflex prítomný, nazopalpebrálny reflex pozit.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "sa": [
+      {
+        "id": 9,
+        "order": 4,
+        "props": {
+          "type": "sa"
+        },
+        "value": {
+          "text": {
+            "value": "rodina kompletná, funkčná, starostlivosť dobrá<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 12,
+        "order": 6,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "donosený eutrofický novorodenec, spont. pôrod v ? GT, AS ?/?, mierny ikterus<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 26,
+        "order": 7,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "pravideľne dojčiť, polohovať hlavičku, prechádzky<br>ultrazvukové vyš.kĺbov do 6.týždňa života<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vlozit": [
+      {
+        "id": 34,
+        "order": 8,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Preventívka bodovanie - pediater",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "if": "",
+  "tags": [],
+  "vars": {},
+  "summary": "1.vyšetrenie NOVORODENCA",
+  "owner": "moravcikova",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/008"
+}

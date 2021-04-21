@@ -1,0 +1,459 @@
+{
+  "title": "PP 2 - preventívna prehliadka - do 4.týždňa",
+  "shortcut": "pp2",
+  "if": "",
+  "data": {
+    "_": {},
+    "t-nadpis": [
+      {
+        "id": 25,
+        "order": 0,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "<b>2.Preventívna prehliadka</b> - do 4.týždňa<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 26,
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "vek: {{ pacient.vekDni|vTyzdnoch}} týždňov<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 1,
+        "order": 14,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "hmotnosť:         dĺžka:        prírastok: +   g/+ cm/  týždeň<br>obvod hlavy:      <br><br>výživa:<br><u>Vitamín D3:</u> 1x2kv.denne<br><u>Vitamín K:</u> 1kv. 1xtýždenne<br><u>iné vitamíny a lieky:<br><br></u>stolica: pravidelná, dojčenská      močenie: bez obtiaží<br>počuje: áno                                    sleduje: áno<br><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 21,
+        "order": 16,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Zhodnotenie:<br></b>prospieva<br>koža čistá<br>PMV primeraný / zaostáva<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 23,
+        "order": 17,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Odporúčanie: </b>ortopedické vyšetrenie bedrových kĺbov<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 28,
+        "order": 2,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 13,
+        "order": 3,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "stav výživy: /eutrofia, pastózny habitus, hypotrofia/ eutrofia<br>VF:      záhlavie:            dentícia: 0<br><br>koža: voľný, bez sekrécie<br>DÚ: sliznice a jazyk čisté<br>LU: na krku nehmatné<br>Srdce: AS pravidelná, ozvy ohr., šelest ???, fr.: <br>Pľúca: dýchanie bilat. počuteľné, puerilné, bez vdf.<br>Brucho: mäkké, priehmatné, bez hmatnej rezistencie, bez hepatosplenomegálie<br>Pulzy a.femoralis bilat.: hmatné<br>Genitál:<br>DK: <br><br><u>svalový tonus:</u> primeraný<br><br><u>PMV :</u><i> Hrubá motorika: </i> prevladajú šijové asymetrické reflexy<br>                                        v polohe<u><i> na brušku otáča hlavičku</i></u>, na chvíľku ju dokáže <u><i>zdvíhať</i></u><br>                                      <br>          <i>Jemná motorika:</i> obe ruky pevne zovreté<br>                                      dotknem sa predmetom dlane, tak ju zatvorí<br><br>         <i>Reč: </i>               hrdelné zvuky<br><br>     <i>    Sociálne:   </i>    sleduje tvár vyšetrujúceho s klesajúcou aktivitou<br>                               nezúčastnene sleduje okolie<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pv": [
+      {
+        "id": 45,
+        "order": 4,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Stav výživy",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "eutrofia, pastózny habitus, hypotrofia<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 47,
+        "order": 5,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "VF",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": " cm<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 49,
+        "order": 6,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Záhlavie",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "pevné<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 51,
+        "order": 7,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Dentícia",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "0<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 54,
+        "order": 8,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Koža",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "ružová, čistá<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 56,
+        "order": 9,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Nos",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "voľný, bez sekrécie<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 58,
+        "order": 10,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Dýchacie ústrojenstvo",
+            "props": {
+              "propValue": "Dýchacie ústrojenstvo"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "sliznice a jazyk čisté<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 60,
+        "order": 11,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "LU",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "na krku nehmatné<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 62,
+        "order": 12,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Srdce",
+            "props": {
+              "propValue": "Srdce"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "AS pravidelná, ozvy ohr., šelest ???, fr.: <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 43,
+        "order": 13,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Dolné končatiny",
+            "props": {
+              "propValue": "Dolné končatiny"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "bez edémov a deformít<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "zfp": [
+      {
+        "id": 41,
+        "order": 15,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "oh": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "",
+            "props": {}
+          },
+          "temp": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vlozit": [
+      {
+        "id": 64,
+        "order": 18,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Preventívka bodovanie - pediater",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "summary": "2.preventívna prehliadka - do 4.týždňa",
+  "tags": [],
+  "vars": {},
+  "description": "",
+  "owner": "moravcikova",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/008"
+}
