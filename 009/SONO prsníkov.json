@@ -1,6 +1,5 @@
 {
   "summary": "SONO prsníkov",
-  "content": "<section data-x-id=\"2\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyšetrenia​:</label>​<label data-for=\"typ\" class=\" _noval\">Typ​</label><div class=\"_noval FieldList hasActions\" data-name=\"typ\" data-prop-value=\"TVS\">TVS</div>​<label data-for=\"date\" class=\" _noval\">dátum vyšetrenia​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div>​<label data-for=\"me\" class=\" _noval\">mnou vyžiadané​</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"me\"></div>​<label data-for=\"popis\" class=\" _noval\">popis:​</label><div class=\"_noval FieldHtml\" data-name=\"popis\">Uterus v AVF normálnej veľkosti, bez štrukturálnych zmien, endometrium v proliferačnej fáze, ováriá obojstranne normálnej veľkosti, vzhľadu a uloženia.Patologickú štruktúru v malej panve nediferencujem. CD bez voľnej tekutiny.<br></div></section><section data-x-id=\"4\" data-type=\"z\" class=\"\"><aside></aside><label class=\"section-label  \">Záver​:</label><div class=\"_noval FieldHtml\" data-name=\"z\">Nález na vnútorných rodidlách bez sonopatologie.<br></div></section><section data-x-id=\"6\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"_noval FieldSearch hasActions highlight truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"D25.0\" data-id-ezid=\"02089373662@11\" data-id-classid=\"diagnoza\" title=\"[D25.0] Submukózny leiomyóm maternice\" style=\"width: 50ch;\">[D25.0] Submukózny leiomyóm maternice</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"8\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"63\" data-id-ezid=\"00000117556@11\" data-id-classid=\"vykon\" data-prop-body=\"200\" title=\"[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"9\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"5305\" data-id-ezid=\"00000492314@11\" data-id-classid=\"vykon\" data-prop-body=\"1200\" data-prop-type=\"SVaLZ\" title=\"[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).\" style=\"width: 50ch;\">[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
   "title": "SONO prsníkov",
   "shortcut": "sonop",
   "if": "",
@@ -106,9 +105,9 @@
           "id": {
             "value": "[N60.8] Iná benígna dysplázia prsníka",
             "props": {
-              "id": "N60.8",
+              "idClassid": "diagnoza",
               "idEzid": "02089459073@11",
-              "idClassid": "diagnoza"
+              "id": "N60.8"
             }
           },
           "text": {
@@ -120,30 +119,8 @@
     ],
     "vv": [
       {
-        "id": 16,
-        "order": 6,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[156] Palpačné vyšetrenie prsníkov a regionálnych lymfatických uzlín. Výkon sa môže vykazovať, ak nie je súčasťou iného vykazovaného výkonu.",
-            "props": {
-              "propBody": 110,
-              "idClassid": "vykon",
-              "idEzid": "00000467324@20",
-              "id": 156
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 9,
-        "order": 7,
+        "order": 6,
         "props": {
           "type": "vv"
         },
@@ -151,11 +128,11 @@
           "id": {
             "value": "[5308] Ultrazvukové vyšetrenie obidvoch prsníkov, axíl a regionálnych lymfatických uzlín.",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 1500,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5308,
               "idEzid": "00000492355@11",
-              "id": 5308
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -172,5 +149,8 @@
   ],
   "vars": {},
   "type": "examination",
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
   "source": "curo-open/curo-vzory#/009"
 }

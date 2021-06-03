@@ -15,6 +15,10 @@
           "datumpm": {
             "value": "",
             "props": {}
+          },
+          "DDF": {
+            "value": "",
+            "props": {}
           }
         }
       }
@@ -526,30 +530,8 @@
     ],
     "vv": [
       {
-        "id": 58,
-        "order": 32,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[156] Palpačné vyšetrenie prsníkov a regionálnych lymfatických uzlín. Výkon sa môže vykazovať, ak nie je súčasťou iného vykazovaného výkonu.",
-            "props": {
-              "propBody": 110,
-              "idClassid": "vykon",
-              "idEzid": "00000467324@20",
-              "id": 156
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 28,
-        "order": 33,
+        "order": 32,
         "props": {
           "type": "vv"
         },
@@ -571,7 +553,7 @@
       },
       {
         "id": 57,
-        "order": 34,
+        "order": 33,
         "props": {
           "type": "vv"
         },
@@ -593,7 +575,7 @@
       },
       {
         "id": 29,
-        "order": 35,
+        "order": 34,
         "props": {
           "type": "vv"
         },
@@ -615,7 +597,7 @@
       },
       {
         "id": 30,
-        "order": 36,
+        "order": 35,
         "props": {
           "type": "vv"
         },
@@ -638,7 +620,7 @@
       },
       {
         "id": 31,
-        "order": 37,
+        "order": 36,
         "props": {
           "type": "vv"
         },
@@ -668,5 +650,8 @@
   "vars": {},
   "summary": "Preventívna prehliadka - Gynekologická",
   "type": "examination",
+  "owner": "vszp009",
+  "allowedUsers": [],
+  "allowedIdentities": [],
   "source": "curo-open/curo-vzory#/009"
 }
