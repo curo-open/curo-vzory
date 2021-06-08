@@ -1,7 +1,6 @@
 {
   "title": "Amb. vyš. - CRP",
   "shortcut": "lv-crp",
-  "content": "<section data-x-id=\"2\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaná diagnóza:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"J11.8\" data-id-ezid=\"02089403527\" data-id-classid=\"diagnoza\" title=\"[J11.8] Chrípka zapríčinená neidentifikovaným vírusom, s inými prejavmi\" style=\"width: 50ch;\">[J11.8] Chrípka zapríčinená neidentifikovaným vírusom, s inými prejavmi</div></section><section data-x-id=\"4\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaná diagnóza:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"J06.8\" data-id-ezid=\"02089403428\" data-id-classid=\"diagnoza\" title=\"[J06.8] Iná akútna infekcia horných dýchacích ciest na viacerých miestach\" style=\"width: 50ch;\">[J06.8] Iná akútna infekcia horných dýchacích ciest na viacerých miestach</div></section><section data-x-id=\"6\" data-type=\"lv\" class=\"\"><aside></aside><label class=\"section-label  \">LV:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"00020036273\" data-id-ezid=\"00020036273\" data-id-classid=\"labvys\" title=\"[00020036273] C-reaktívny protein na jednoúčelovom prístroji\" style=\"width: 50ch;\">[00020036273] C-reaktívny protein na jednoúčelovom prístroji</div><label data-for=\"value\" class=\" _noval\">hodnota</label><div class=\"_noval Field\" data-name=\"value\"></div><div class=\"_noval Field\" data-name=\"rank\"></div><label data-for=\"date\" class=\" _noval\">dátum</label><div class=\"_noval FieldDate hasActions\" data-name=\"date\"></div><label data-for=\"comment\" class=\"\">poznámka:</label><div class=\"FieldHtml\" data-name=\"comment\"><br></div></section><section data-x-id=\"8\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"4571A\" data-id-ezid=\"02089716514\" data-id-classid=\"vykon\" data-prop-body=\"380\" title=\"[4571A] C-reaktívny proteín\" style=\"width: 50ch;\">[4571A] C-reaktívny proteín</div><label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
   "type": "lab-results",
   "data": {
     "_": {},
@@ -16,9 +15,9 @@
           "id": {
             "value": "[J11.8] Chrípka zapríčinená neidentifikovaným vírusom, s inými prejavmi",
             "props": {
-              "id": "J11.8",
+              "idClassid": "diagnoza",
               "idEzid": "02089403527",
-              "idClassid": "diagnoza"
+              "id": "J11.8"
             }
           },
           "text": {
@@ -56,9 +55,9 @@
           "id": {
             "value": "[00020036273] C-reaktívny protein na jednoúčelovom prístroji",
             "props": {
-              "id": "00020036273",
+              "idClassid": "labvys",
               "idEzid": "00020036273",
-              "idClassid": "labvys"
+              "id": "00020036273"
             }
           },
           "value": {
@@ -80,51 +79,10 @@
         }
       }
     ],
-    "t": [
-      {
-        "id": 9,
-        "order": 3,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? zp == 27 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 11,
-        "order": 5,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 10,
-        "order": 7,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      }
-    ],
     "vv": [
       {
         "id": 8,
-        "order": 4,
+        "order": 3,
         "props": {
           "type": "vv"
         },
@@ -133,32 +91,9 @@
             "value": "[4571A] C-reaktívny proteín",
             "props": {
               "propBody": 380,
-              "id": "4571A",
-              "idEzid": "02089716514",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 13,
-        "order": 6,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[4571] C-reaktívny proteín",
-            "props": {
-              "propType": "SVaLZ",
-              "propBody": 380,
               "idClassid": "vykon",
-              "idEzid": "00000486506@11",
-              "id": 4571
+              "idEzid": "02089716514",
+              "id": "4571A"
             }
           },
           "count": {
@@ -172,5 +107,8 @@
   "if": "",
   "tags": [],
   "vars": {},
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
   "source": "curo-open/curo-vzory#/020"
 }
