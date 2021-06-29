@@ -1,0 +1,57 @@
+{
+  "title": "Očkovací dotazník",
+  "owner": "kmet",
+  "shortcut": "od",
+  "if": "",
+  "data": {
+    "_": {},
+    "tl": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "tl"
+        },
+        "value": {
+          "nadpis": {
+            "value": "",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "Anamnestické otázky pre pacienta:<br>",
+            "props": {}
+          },
+          "obsah": {
+            "value": "<br><table style=\"border:1px solid #ccc\">\n  <tbody><tr>\n    <th>Otázka</th>\n    <th style=\"width:12mm\">Áno</th>\n    <th style=\"width:12mm\">Nie</th>\n  </tr>\n  <tr>\n    <td>Máte príznaky akútneho ochorenia (teplota nad 37°C, produktívny kašeľ, kašeľ s vykašliavaním hlienu, slabosť, bolesti kĺbov a svalov, malátnosť, infekčnú hnačku, bolesti hrdla) ?</td>\n    <td> [   ] </td>\n    <td> [   ] </td>\n  </tr>\n  <tr>\n    <td>Trpíte závažným ochorením, ktoré bolo v minulosti posudzované ako možná prekážka (kontraindikácia) pre podanie vakcíny (napr. autoimunitné ochorenie, demyelinizačné ochorenie) ?</td>\n    <td> [   ] </td>\n    <td> [   ] </td>\n  </tr>\n  <tr>\n    <td>Mali ste závažnú alergickú reakciu v minulosti (napr. anafylaktický šok) ?</td>\n    <td> [   ] </td>\n    <td> [   ] </td>\n  </tr>\n  <tr>\n    <td>Mali ste niekedy v minulosti závažné vedľajšie príhody po podaní vakcíny?</td>\n    <td> [   ] </td>\n    <td> [   ] </td>\n  </tr>\n  <tr>\n    <td>Máte vážnu poruchu zrážanlivosti krvi (napr. vážna forma hemofílie) ?</td>\n    <td> [   ] </td>\n    <td> [   ] </td>\n  </tr>\n  <tr>\n    <td>Ste tehotná ?</td>\n    <td> [   ] </td>\n    <td> [   ] </td>\n  </tr>\n</tbody></table>                                                                                                                                                                                <div style=\"float: right\"><h3>Svoju odpoveď označte - X</h3></div><br><br><br><br>Podpis očkovanej/ očkovaného:                                                                <br>Dátum: {{ dekurz.datum }}<br><br><br>Podpis ošetrujúceho lekára:                                                 <br>Dátum: {{ dekurz.datum }}<br>",
+            "props": {}
+          },
+          "undefined": {
+            "value": "<h3>Svoju odpoveď označte - X</h3>",
+            "props": {}
+          },
+          "hlavicka": {
+            "value": "Aj tabuľka s údajmi pacienta",
+            "props": {
+              "propValue": 2
+            }
+          },
+          "peciatka": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "moje",
+    "ocko"
+  ],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "summary": "Očkovací dotazník",
+  "source": "curo-open/curo-vzory#/020"
+}
