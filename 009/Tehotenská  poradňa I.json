@@ -1,6 +1,5 @@
 {
   "summary": "Tehotenská  poradňa I",
-  "content": "<section data-x-id=\"17\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"_noval FieldHtml\" data-name=\"s\"></div></section><section data-x-id=\"11\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\">vulva bpn., pošva priestranná, sliznice kľudné, vaginálny pahýľ voľný,bez palpačnej citlivosti, v digitálnom dosahu bez patol. rezistenice.<br></div></section><section data-x-id=\"19\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyšetrenia​:</label>​<label data-for=\"typ\" class=\"\">Typ​</label><div class=\"FieldList hasActions\" data-name=\"typ\" data-prop-value=\"TVS\">TVS</div>​<label data-for=\"date\" class=\" _noval\">dátum vyšetrenia​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div>​<label data-for=\"me\" class=\" _noval\">mnou vyžiadané​</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"me\"></div>​<label data-for=\"popis\" class=\"\">popis:​</label><div class=\"FieldHtml\" data-name=\"popis\">V dosahu sondy bez sonopatomorfologie,uterus a adnexá chýbajú, kontury MM hladké, bez voľnej tekutiny v CD.<br></div></section><section data-x-id=\"4\" data-type=\"z\" class=\"\"><aside></aside><label class=\"section-label  \">Záver​:</label><div class=\"_noval FieldHtml\" data-name=\"z\"></div></section><section data-x-id=\"21\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"_noval FieldHtml\" data-name=\"odp\"></div></section><section data-x-id=\"6\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089460865@11\" data-id=\"N94.9\" title=\"[N94.9] Odchýlka spojená so ženskými pohlavnými orgánmi a menštruačným cyklom, bližšie neurčená\" style=\"width: 50ch;\">[N94.9] Odchýlka spojená so ženskými pohlavnými orgánmi a menštruačným cyklom, bližšie neurčená</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"8\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000466557@11\" data-id=\"8\" data-prop-body=\"250\" title=\"[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov\" style=\"width: 50ch;\">[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"9\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000117556@11\" data-id=\"63\" data-prop-body=\"200\" title=\"[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.\" style=\"width: 50ch;\">[63] Dôkladné vyšetrenie jedného orgánového systému alebo kontrolné vyšetrenie vrátane rád a dokumentácie.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"22\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000492314@11\" data-id=\"5305\" data-prop-type=\"SVaLZ\" data-prop-body=\"1200\" title=\"[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).\" style=\"width: 50ch;\">[5305] Ultrazvukové vyšetrenie intravaginálnou sondou (nemôže sa vykazovať s výkonom pod kódom 5303).</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
   "title": "Tehotenská  poradňa I",
   "shortcut": "tp1",
   "if": "",
@@ -251,14 +250,10 @@
               "propValue": "O"
             }
           },
-          "cal": {
-            "value": "",
-            "props": {}
-          },
           "time": {
-            "value": "01.07.2020 13:40",
+            "value": "19.08.2021 11:58",
             "props": {
-              "propValue": "2020-07-01T11:40:08.580Z",
+              "propValue": "2021-08-19T09:58:43.911Z",
               "expr": "=+4t"
             }
           },
@@ -292,9 +287,9 @@
           "id": {
             "value": "[Z34.0] Dohľad nad normálnou prvou graviditou",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z34.0",
               "idEzid": "02089522839@11",
-              "id": "Z34.0"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -316,9 +311,9 @@
             "value": "[102] Prvé vyšetrenie v rámci predpôrodnej starostlivosti o tehotné s určením termínu pôrodu vrátane zisťovania anamnézy a vystavenia materského preukazu, ako aj rád tehotnej o starostlivosti v gravidite vr",
             "props": {
               "propBody": 320,
-              "idClassid": "vykon",
+              "id": 102,
               "idEzid": "00000466946@11",
-              "id": 102
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -338,9 +333,9 @@
             "value": "[108] Ultrazvukové sledovanie tehotenstva vrátane biometrie a posúdenie vývoja orgánov vrátane obrazovej dokumentácie, za každé vyšetrenie.",
             "props": {
               "propBody": 350,
-              "id": 108,
+              "idClassid": "vykon",
               "idEzid": "00000466979@14",
-              "idClassid": "vykon"
+              "id": 108
             }
           },
           "count": {
@@ -360,9 +355,9 @@
             "value": "[120] Vyšetrenie stredného prúdu moča na bielkoviny a cukor, ako aj mikroskopické vyšetrenie močového sedimentu.",
             "props": {
               "propBody": 80,
-              "idClassid": "vykon",
+              "id": 120,
               "idEzid": "00000467050@11",
-              "id": 120
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -382,9 +377,9 @@
             "value": "[121] Orientačné vyšetrenie moču na baktérie pomocou dôkazu nitritovou skúškou.",
             "props": {
               "propBody": 25,
-              "idClassid": "vykon",
+              "id": 121,
               "idEzid": "00000467068@13",
-              "id": 121
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -401,12 +396,12 @@
         },
         "value": {
           "id": {
-            "value": "[122] Odobratie krvi zo žily na vykonanie vyšetrení v gravidite.",
+            "value": "[250a] Odobratie krvi venepunkciou do jednej striekačky alebo do jednej skúmavky, vrátane odberovej súpravy, za každú súpravu.",
             "props": {
-              "propBody": 60,
+              "propBody": 80,
               "idClassid": "vykon",
-              "idEzid": "00000467076@11",
-              "id": 122
+              "idEzid": "00000467803@30",
+              "id": "250a"
             }
           },
           "count": {
@@ -423,5 +418,8 @@
   ],
   "vars": {},
   "type": "examination",
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
   "source": "curo-open/curo-vzory#/009"
 }
