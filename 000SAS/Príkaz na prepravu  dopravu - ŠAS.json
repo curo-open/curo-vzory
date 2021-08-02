@@ -1,6 +1,5 @@
 {
   "summary": "Príkaz na prepravu / dopravu",
-  "content": "<section data-x-id=\"4\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"_noval FieldSearch hasActions highlight\" data-name=\"id\" data-ignore-visited=\"true\"></div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"2\" data-type=\"t-prikaz-na-prepravu\" class=\"\"><aside></aside><label class=\"section-label  \">Príkaz na dopravu osoby zo zdr. dôvodov​:</label>​<label data-for=\"obmedzenia\" class=\" _noval\">osoba je​</label><div class=\"_noval FieldList hasActions\" data-name=\"obmedzenia\"></div>​<label data-for=\"so_sprievodcom\" class=\" _noval\">so sprievodcom​</label><div class=\"_noval FieldSwitchX hasActions\" data-name=\"so_sprievodcom\"></div>​<label data-for=\"odovodnenie\" class=\"_noval hidden\">odôvodnenie​</label><div class=\"_noval Field hidden\" data-name=\"odovodnenie\"></div><br class=\"\"><label data-for=\"doprava_z\" class=\" _noval\">doprava z​</label><div class=\"_noval Field\" data-name=\"doprava_z\"></div>​<label data-for=\"doprava_do\" class=\" _noval\">do​</label><div class=\"_noval Field\" data-name=\"doprava_do\"></div>​<label data-for=\"pristavenie\" class=\" _noval\">čas a miesto​</label><div class=\"_noval Field\" data-name=\"pristavenie\"></div><br class=\"\"><label data-for=\"vozidlo\" class=\" _noval\">Druh vozidla:​</label><div class=\"_noval FieldList hasActions\" data-name=\"vozidlo\"></div>​<label data-for=\"typ\" class=\"\">typ prevozu​</label><div class=\"Field\" data-name=\"typ\">článok III/1a</div><br class=\"\"><label data-for=\"dovod\" class=\" _noval\">z dôvodu​</label><div class=\"_noval Field\" data-name=\"dovod\"></div>​<label data-for=\"datum\" class=\"\">Dátum​</label><div class=\"FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"datum\" data-expr=\"=dnes\" data-prop-value=\"2020-02-10T10:42:31.548Z\">10.02.2020</div>​<label data-for=\"kod\" class=\" _noval\">Diagnóza​</label><div class=\"_noval Field\" data-name=\"kod\"></div></section><section data-x-id=\"6\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000466524@10\" data-id=\"4\" data-prop-body=\"200\" title=\"[4] Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani\" style=\"width: 50ch;\">[4] Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
   "title": "Príkaz na prepravu / dopravu - ŠAS",
   "shortcut": "pdo",
   "if": "",
@@ -59,7 +58,7 @@
             "props": {}
           },
           "doprava_z": {
-            "value": "",
+            "value": "{{ pacient.adresa }}, {{ pacient.psc }} {{ pacient.mesto }}",
             "props": {}
           },
           "doprava_do": {
@@ -83,9 +82,9 @@
             "props": {}
           },
           "datum": {
-            "value": "10.02.2020",
+            "value": "02.08.2021",
             "props": {
-              "propValue": "2020-02-10T10:45:56.555Z",
+              "propValue": "2021-08-01T22:00:00.000Z",
               "expr": "=dnes"
             }
           },
@@ -108,9 +107,9 @@
             "value": "[4] Štandardné vyšetrenie jedného orgánového systému - kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, popis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísani",
             "props": {
               "propBody": 200,
-              "idClassid": "vykon",
+              "id": 4,
               "idEzid": "00000466524@10",
-              "id": 4
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -125,5 +124,8 @@
     "sestra"
   ],
   "vars": {},
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
   "source": "curo-open/curo-vzory#/000SAS"
 }

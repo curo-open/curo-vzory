@@ -39,7 +39,7 @@
             "props": {}
           },
           "doprava_z": {
-            "value": "",
+            "value": "{{ pacient.adresa }}, {{ pacient.psc }} {{ pacient.mesto }}",
             "props": {}
           },
           "doprava_do": {
@@ -63,9 +63,9 @@
             "props": {}
           },
           "datum": {
-            "value": "11.06.2020",
+            "value": "02.08.2021",
             "props": {
-              "propValue": "2020-06-11T13:09:06.163Z",
+              "propValue": "2021-08-01T22:00:00.000Z",
               "expr": "=dnes"
             }
           },
@@ -85,13 +85,8 @@
         },
         "value": {
           "id": {
-            "value": "[1] Pod radou sa rozumie poskytnutie informácií pacientovi alebo zákonnému zástupcovi v súvislosti so zdravotným stavom. Výkon pod kódom 1 nemožno vykazovať súčasne s inými výkonmi. Výkon nemožno vykazovať pre telefonické objednávanie pacienta.",
-            "props": {
-              "propBody": 80,
-              "id": 1,
-              "idEzid": "00000466508@20",
-              "idClassid": "vykon"
-            }
+            "value": "",
+            "props": {}
           },
           "count": {
             "value": "1",
@@ -107,5 +102,8 @@
     "sestra"
   ],
   "vars": {},
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
   "source": "curo-open/curo-vzory#/000"
 }
