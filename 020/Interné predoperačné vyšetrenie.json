@@ -1,7 +1,6 @@
 {
   "title": "Interné predoperačné vyšetrenie",
   "shortcut": "interne-predop",
-  "content": "<section data-x-id=\"2\" data-type=\"ra\" class=\"\"><aside></aside><label class=\"section-label  \">Rodinná anamnéza:</label><div class=\"FieldHtml\" data-name=\"text\"><br></div></section><section data-x-id=\"3\" data-type=\"oa\" class=\"\"><aside></aside><label class=\"section-label  \">Osobná anamnéza:</label><div class=\"FieldHtml\" data-name=\"text\"><br></div></section><section data-x-id=\"4\" data-type=\"aa\" class=\"\"><aside></aside><label class=\"section-label  \">Alergologická anamnéza:</label><div class=\"FieldHtml\" data-name=\"text\"><br></div></section><section data-x-id=\"5\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.:</label><div class=\"FieldHtml\" data-name=\"s\">cíti sa primerane,KVS problémy neudáva,bežnú fyz. záťaž primerane   toleruje (bez záťaž. dyspnoe,horiz.polohu toleruje,nekašle,bez KHCD v nedávnej minul.,DK nepuchnú),stolica,trávenie,močenie v norme  \nInak bez výrazn.ťažkostí<br></div></section><section data-x-id=\"9\" data-type=\"ab\" class=\"\"><aside></aside><label class=\"section-label  \">Abúzy:</label><label data-for=\"alkohol\" class=\" _noval\">alkohol</label><div class=\"_noval FieldBool hasActions\" data-name=\"alkohol\"></div><label data-for=\"káva\" class=\" _noval\">káva</label><div class=\"_noval FieldBool hasActions\" data-name=\"káva\"></div><label data-for=\"fajčiar\" class=\" _noval\">fajčiar</label><div class=\"_noval FieldBool hasActions\" data-name=\"fajčiar\"></div><label data-for=\"cigariet/deň\" class=\" _noval\">cigariet/deň</label><div class=\"_noval FieldN\" data-name=\"cigariet/deň\"></div><label data-for=\"drogy\" class=\" _noval\">drogy</label><div class=\"_noval FieldBool hasActions\" data-name=\"drogy\"></div></section><section data-x-id=\"6\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">Pracuje ako... DNJZ nepredpokladám\nObj.: TK              P:\n  výška:    váha:    BMI:      Moč chem.:NEG.\n eupnoe,hydrat.,výživa primeraná,koža čistá,orient. neuropsych.v norme. Hlava:inerv.správna Oči:spojovky kľudná,okulomot.v norme.Uši,nos-bpn. DÚ:oropharynx kľudný,chrup sanobanmý, Malampati I-IV. Krk:ŠŽ+LÚ nezv. Hrudník:sym.,dýchanie vezikul.čisté.Cor:AS pravid.,f:70/min.,ozvy ohranič.,zvučné. Brucho:voľné,bez HSM a hmatnej rezistencie.TPOT bilat. negat.DK:bez edémov a varixov,trof.zmeny neprít.(varixy CHVO I-III. kľudné,trof.zmeny bilat. hemosiderín.pigmentácie/dermatepidermatitída chron.) Chrbtica+perif.kĺby:veku primerane Sluch v norme.Vízus:5/5-veku primerane\nPer rectum: prostata hladká,primeranej konzistencie,rectum v dosahu prsta bpn \nRTG VS pľúc:nález v norme \nEKG: SR,f: /min.,typ,PZ V4,PQ 0.s,QRS 0.0s,ST segm. izoel.,T-vlny pozit. Z:krivka v norme.\nLaborat.:FW ,KO: Hb,Leu,Tr,dif.Leu v norme,\nGlyk.-,kreat.-,Bi-,AST-,ALT-,GMT-,tCHOL.-,LDL-,TG-, Ms v norme.\nDG:*\n  \nZ INT.hľadiska ASA I-IV., nie je KI z INT.hľ. k op.zákroku v CA\nPerioperačný monitoring TK, glykémie.\nLMWH v štandardnej prevencii TECH.<br></div></section>",
   "summary": "Interné predoperačné vyšetrenie",
   "data": {
     "_": {},
@@ -341,7 +340,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
+            "value": "{{&lt;? }}<br>",
             "props": {}
           }
         }
@@ -1433,6 +1432,10 @@
             "value": "",
             "props": {}
           },
+          "p": {
+            "value": "",
+            "props": {}
+          },
           "qrs": {
             "value": "",
             "props": {}
@@ -1455,10 +1458,6 @@
           },
           "t": {
             "value": "+",
-            "props": {}
-          },
-          "hlk": {
-            "value": "",
             "props": {}
           },
           "poznamka": {
@@ -1536,5 +1535,8 @@
   "vars": {
     "kde": ""
   },
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
   "source": "curo-open/curo-vzory#/020"
 }
