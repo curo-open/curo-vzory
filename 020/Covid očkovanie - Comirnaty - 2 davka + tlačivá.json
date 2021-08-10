@@ -1,8 +1,8 @@
 {
   "summary": "Covid - Comirnaty - 2 davka",
-  "owner": "kmet",
-  "title": "Covid - Comirnaty - 2 davka",
-  "shortcut": "c2",
+  "owner": "admin",
+  "title": "Covid očkovanie - Comirnaty - 2 davka + tlačivá",
+  "shortcut": "coc2",
   "if": "",
   "data": {
     "_": {},
@@ -15,7 +15,7 @@
         },
         "value": {
           "title": {
-            "value": "Očkovací dekurz",
+            "value": "Očkovací dekurz + dotazníky",
             "props": {}
           },
           "source": {
@@ -94,9 +94,9 @@
             }
           },
           "datum": {
-            "value": "19.07.2021 12:07",
+            "value": "10.08.2021 14:43",
             "props": {
-              "propValue": "2021-07-19T10:07:14.130Z",
+              "propValue": "2021-08-10T12:43:41.297Z",
               "expr": "=teraz"
             }
           },
@@ -190,11 +190,11 @@
         },
         "value": {
           "id": {
-            "value": "[252K] Očkovanie vakcínou proti ochoreniu Covid-19, ktorej skladovanie vyžaduje hlbokomraziaci skladovací reťazec",
+            "value": "[252L] Očkovanie inou vakcínou proti ochoreniu Covid-19",
             "props": {
-              "idClassid": "vykon",
-              "idEzid": "02089903849@30",
-              "id": "252K"
+              "id": "252L",
+              "idEzid": "02089903864@30",
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -278,7 +278,7 @@
     "ocko"
   ],
   "vars": {
-    "sarza": "YYY"
+    "sarza": "XXX"
   },
   "allowedUsers": [],
   "allowedIdentities": [],

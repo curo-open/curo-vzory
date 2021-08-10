@@ -1,0 +1,77 @@
+{
+  "owner": "vld",
+  "title": "Covid očkovanie - informovaný súhlas",
+  "shortcut": "cois",
+  "if": "",
+  "data": {
+    "_": {},
+    "premenna": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "kde",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "tl": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "tl"
+        },
+        "value": {
+          "nadpis": {
+            "value": "Poučenie a písomný informovaný súhlas pacienta podľa § 6 zákona č. 576/2004 Z. z.<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          },
+          "obsah": {
+            "value": "Meno a priezvisko osoby, ktorej sa má poskytnúť zdravotná starostlivosť: <b>{{ pacient.celeMeno }},</b> <br>rodné číslo: <span><b>{{ pacient.rc }},</b><br></span>bydlisko (ulica, čís. domu, miesto, PSČ): <b>{{ pacient.adresa }}, {{ pacient.mesto }}, {{ pacient.psc }},</b><br>mobilné tel. č. / e-mail (pre prípad potreby predvolania na dovyšetrenie): <span><b>{{ pacient.tel }}, </b><span><b>{{ pacient.email }}.</b><br><br></span></span>Novovzniknuté ťažnosti, prípadne prejavy ochorenia a iné anamnestické údaje:<br><br><b>Navrhovaný (plánovaný) diagnosticko-liečebný výkon:</b><br>Podanie očkovacej látky je v dvoch dávkach. Očkovacia látka (vakcína) môže byť bielkovina vírusu, oslabený vírus vyvolávajúci krátkodobo tvorbu bielkoviny vírusu, mRNA – nejadrová <br>RNA kódujúcu bielkovinu vírusu. Podanie očkovacej látky je možné označiť za predstavenie vírusu imunitnému systému pacienta s vyvolaním tvorby protilátok a zapojením ďalších <br>mechanizmov chrániacich následne pred vznikom ochorenia.<br><br>Dolu podpísaný/á <b>{{ pacient.celeMeno }},</b> potvrdzujem svojím podpisom, že som bol/a informovaný/á o povahe navrhovaného diagnostického výkonu, ktorý absolvujem za účelom prevencie, ako aj o jeho možných následkoch a rizikách (nežiadúce účinky aplikovanej vakcíny sú zverejnené v tzv. Písomnej informácii pre používateľa, ktorú je možné nájsť na stránke www.sukl.sk a v priestoroch pracoviska.<br><br><!--StartFragment-->Bol/a som tiež poučený/á o možnostiach voľby navrhovaných výkonov a o rizikách ich odmietnutia. Poučenie mi bolo poskytnuté zrozumiteľne, ohľaduplne, bez nátlaku, s možnosťou a dostatočným časom slobodne sa rozhodnúť. Poučeniu som porozumel/a.<!--EndFragment--><br><br><!--StartFragment-->Svojím podpisom potvrdzujem, že s navrhovaným diagnostickými výkonmi <b>súhlasím – </b><b style=\"text-decoration: line-through;\">nesúhlasím</b>* <br>Tento súhlas dávam pri plnom vedomí, slobodne a vážne.\n<!--EndFragment--><br>Pokiaľ by vyššie uvedené navrhované preventívne diagnosticko-liečebné výkony nebolo z kapacitných dôvodov možné vykonať  na {{ identita.pzs_meno }},  bezodkladne, vyhlasujem, že napriek možnosti podstúpiť vyššie uvedené výkony v iných zdravotníckych zariadeniach, na vykonaní predmetného výkonu na očkovanie proti Covid-19 trvám a som pripravený/á vyčkať až do termínu, na ktorý som objednaný/á.<!--EndFragment--><br><br><br>V {{ var.kde }}, dňa<span> {{ dekurz.datum }}, čas <span> {{ dekurz.cas }}</span></span><br><br><br><br><br>podpis pacienta / zákonného zástupcu<br><br>* nehodiace preškrtnúť<br>",
+            "props": {}
+          },
+          "hlavicka": {
+            "value": "Len údaje poskytovateľa",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "peciatka": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {
+    "kde": "xxx"
+  },
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "summary": "",
+  "source": "curo-open/curo-vzory#/020"
+}

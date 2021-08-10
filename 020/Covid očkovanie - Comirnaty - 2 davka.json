@@ -1,0 +1,286 @@
+{
+  "summary": "Covid - Comirnaty - 2 davka",
+  "owner": "kmet",
+  "title": "Covid očkovanie - Comirnaty - 2 davka",
+  "shortcut": "c2",
+  "if": "",
+  "data": {
+    "_": {},
+    "vlozit": [
+      {
+        "id": 8,
+        "order": 0,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Očkovací dekurz",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "premenna": [
+      {
+        "id": 17,
+        "order": 1,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "sarza",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "FE1248",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 2,
+        "order": 2,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z25.70] Potreba imunizácie výlučne proti COVID-19, očkovacia látka Tozinameran",
+            "props": {
+              "id": "Z25.70",
+              "idEzid": "02089905034@19",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oc": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[COV] Covid-19",
+            "props": {
+              "id": "COV",
+              "idEzid": "02089905018@3",
+              "idClassid": "ockovanie"
+            }
+          },
+          "datum": {
+            "value": "10.08.2021 14:43",
+            "props": {
+              "propValue": "2021-08-10T12:43:36.694Z",
+              "expr": "=teraz"
+            }
+          },
+          "typ": {
+            "value": "[DRDAV] II. dávka (základné očkovanie)",
+            "props": {
+              "id": "DRDAV",
+              "idEzid": "00000400630@4",
+              "idClassid": "octyp"
+            }
+          },
+          "pocet": {
+            "value": "2",
+            "props": {}
+          },
+          "davka": {
+            "value": "2",
+            "props": {}
+          },
+          "posledna": {
+            "value": "áno",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ol": [
+      {
+        "id": 6,
+        "order": 4,
+        "props": {
+          "type": "ol"
+        },
+        "value": {
+          "id": {
+            "value": "[6235D] Comirnaty koncentrát na injekčnú disperziu | con dsi 195x0,45 ml (liek.inj.skl.)",
+            "props": {
+              "propKat": false,
+              "propOl": 1,
+              "propAtcName": "Očkovacie látky proti COVID-19",
+              "propVnl": "R",
+              "propBal": 195,
+              "propGp": 0,
+              "propUnit": "DF",
+              "idClassid": "liek",
+              "idEzid": "00021369749",
+              "idF": "CON DSI",
+              "idSp": "imu",
+              "idAtc": "J07BX03",
+              "idUl": "",
+              "id": "6235D"
+            }
+          },
+          "sn": {
+            "value": "{{var.sarza}}",
+            "props": {}
+          },
+          "qty": {
+            "value": "0,3",
+            "props": {
+              "propValue": "0.30"
+            }
+          },
+          "mu": {
+            "value": "[00020097051] ml",
+            "props": {
+              "id": "00020097051",
+              "idEzid": "00020097051@7",
+              "idClassid": "merjednotka"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 21,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[252L] Očkovanie inou vakcínou proti ochoreniu Covid-19",
+            "props": {
+              "idClassid": "vykon",
+              "idEzid": "02089903864@30",
+              "id": "252L"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pl": [
+      {
+        "id": 14,
+        "order": 6,
+        "props": {
+          "type": "pl"
+        },
+        "value": {
+          "id": {
+            "value": "[6235D] Comirnaty koncentrát na injekčnú disperziu | con dsi 195x0,45 ml (liek.inj.skl.)",
+            "props": {
+              "propUnit": "DF",
+              "propGp": 0,
+              "propBal": 195,
+              "propVnl": "R",
+              "propAtcName": "Očkovacie látky proti COVID-19",
+              "propOl": 1,
+              "propKat": false,
+              "id": "6235D",
+              "idUl": "",
+              "idAtc": "J07BX03",
+              "idSp": "imu",
+              "idF": "CON DSI",
+              "idEzid": "00021369749",
+              "idClassid": "liek"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "payoff": {
+            "value": "",
+            "props": {}
+          },
+          "dpljed": {
+            "value": "",
+            "props": {}
+          },
+          "dpl": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "uhradazp": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "kodl": {
+            "value": "",
+            "props": {}
+          },
+          "speci": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "moje",
+    "ocko"
+  ],
+  "vars": {
+    "sarza": "YYY"
+  },
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/020"
+}

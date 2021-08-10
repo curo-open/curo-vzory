@@ -1,8 +1,9 @@
 {
+  "description": "",
   "summary": "Covid - Comirnaty - 1 davka",
-  "owner": "kmet",
-  "title": "Covid - Comirnaty - 1 davka",
-  "shortcut": "c1",
+  "owner": "admin",
+  "title": "Covid očkovanie - Comirnaty - 1 davka + tlačivá",
+  "shortcut": "coc1",
   "if": "",
   "data": {
     "_": {},
@@ -15,7 +16,7 @@
         },
         "value": {
           "title": {
-            "value": "Očkovací dekurz",
+            "value": "Očkovací dekurz + dotazníky",
             "props": {}
           },
           "source": {
@@ -65,9 +66,9 @@
           "id": {
             "value": "[Z25.70] Potreba imunizácie výlučne proti COVID-19, očkovacia látka Tozinameran",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z25.70",
               "idEzid": "02089905034@19",
-              "id": "Z25.70"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -88,24 +89,24 @@
           "id": {
             "value": "[COV] Covid-19",
             "props": {
-              "id": "COV",
+              "idClassid": "ockovanie",
               "idEzid": "02089905018@3",
-              "idClassid": "ockovanie"
+              "id": "COV"
             }
           },
           "datum": {
-            "value": "19.07.2021 12:06",
+            "value": "10.08.2021 14:43",
             "props": {
-              "propValue": "2021-07-19T10:06:09.012Z",
+              "propValue": "2021-08-10T12:43:31.542Z",
               "expr": "=teraz"
             }
           },
           "typ": {
             "value": "[PRDAV] I. dávka (základné očkovanie)",
             "props": {
-              "idClassid": "octyp",
+              "id": "PRDAV",
               "idEzid": "00000400622@4",
-              "id": "PRDAV"
+              "idClassid": "octyp"
             }
           },
           "pocet": {
@@ -138,20 +139,20 @@
           "id": {
             "value": "[6235D] Comirnaty koncentrát na injekčnú disperziu | con dsi 195x0,45 ml (liek.inj.skl.)",
             "props": {
-              "propKat": false,
-              "propOl": 1,
-              "propAtcName": "Očkovacie látky proti COVID-19",
-              "propVnl": "R",
-              "propBal": 195,
-              "propGp": 0,
               "propUnit": "DF",
-              "idClassid": "liek",
-              "idEzid": "00021369749",
-              "idF": "CON DSI",
-              "idSp": "imu",
-              "idAtc": "J07BX03",
+              "propGp": 0,
+              "propBal": 195,
+              "propVnl": "R",
+              "propAtcName": "Očkovacie látky proti COVID-19",
+              "propOl": 1,
+              "propKat": false,
+              "id": "6235D",
               "idUl": "",
-              "id": "6235D"
+              "idAtc": "J07BX03",
+              "idSp": "imu",
+              "idF": "CON DSI",
+              "idEzid": "00021369749",
+              "idClassid": "liek"
             }
           },
           "sn": {
@@ -167,9 +168,9 @@
           "mu": {
             "value": "[00020097051] ml",
             "props": {
-              "id": "00020097051",
+              "idClassid": "merjednotka",
               "idEzid": "00020097051@7",
-              "idClassid": "merjednotka"
+              "id": "00020097051"
             }
           },
           "text": {
@@ -188,11 +189,11 @@
         },
         "value": {
           "id": {
-            "value": "[252K] Očkovanie vakcínou proti ochoreniu Covid-19, ktorej skladovanie vyžaduje hlbokomraziaci skladovací reťazec",
+            "value": "[252L] Očkovanie inou vakcínou proti ochoreniu Covid-19",
             "props": {
               "idClassid": "vykon",
-              "idEzid": "02089903849@30",
-              "id": "252K"
+              "idEzid": "02089903864@30",
+              "id": "252L"
             }
           },
           "count": {
@@ -213,20 +214,20 @@
           "id": {
             "value": "[6235D] Comirnaty koncentrát na injekčnú disperziu | con dsi 195x0,45 ml (liek.inj.skl.)",
             "props": {
-              "propUnit": "DF",
-              "propGp": 0,
-              "propBal": 195,
-              "propVnl": "R",
-              "propAtcName": "Očkovacie látky proti COVID-19",
-              "propOl": 1,
               "propKat": false,
-              "id": "6235D",
-              "idUl": "",
-              "idAtc": "J07BX03",
-              "idSp": "imu",
-              "idF": "CON DSI",
+              "propOl": 1,
+              "propAtcName": "Očkovacie látky proti COVID-19",
+              "propVnl": "R",
+              "propBal": 195,
+              "propGp": 0,
+              "propUnit": "DF",
+              "idClassid": "liek",
               "idEzid": "00021369749",
-              "idClassid": "liek"
+              "idF": "CON DSI",
+              "idSp": "imu",
+              "idAtc": "J07BX03",
+              "idUl": "",
+              "id": "6235D"
             }
           },
           "qty": {
@@ -280,6 +281,5 @@
   },
   "allowedUsers": [],
   "allowedIdentities": [],
-  "description": "",
   "source": "curo-open/curo-vzory#/020"
 }
