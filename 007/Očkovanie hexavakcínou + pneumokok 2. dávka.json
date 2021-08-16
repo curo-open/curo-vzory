@@ -1,0 +1,671 @@
+{
+  "type": "examination",
+  "summary": "Očkovanie hexavakcínou + pneumokok 1.dávka",
+  "description": "Očkovanie proti záškrtu, tetanu, čiernemu kašlu, vírusovej hepatitíde B, invazívnym hemofilovým nákazam, detskej obrne, pneukokokovým invazívnym ochoreniam",
+  "owner": "vld",
+  "title": "Očkovanie hexavakcínou + pneumokok 2. dávka",
+  "shortcut": "oc-hexapneu2",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "24": [
+          "sn"
+        ],
+        "40": [
+          "schedule"
+        ]
+      }
+    },
+    "s": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bez ťažkostí, prechlad. sa necíti<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "KP komp., TT 36,6°C, Intramuskulárne podanie inj. Bez komplikácií po podaní.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 28,
+        "order": 2,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z27.8] Potreba imunizácie proti inej kombinácii infekčných chorôb",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089522425@19",
+              "id": "Z27.8"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 6,
+        "order": 8,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z24.6] Potreba imunizácie proti vírusovej hepatitíde",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089522276@19",
+              "id": "Z24.6"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 34,
+        "order": 10,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z23.8] Potreba imunizácie proti inej jednotlivej baktériovej chorobe",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089522193@19",
+              "id": "Z23.8"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oc": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[D] Diftéria",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000115915@3",
+              "id": "D"
+            }
+          },
+          "datum": {
+            "value": "12.08.2021 00:00",
+            "props": {
+              "propValue": "2021-08-11T22:00:00.000Z",
+              "expr": "=dnes"
+            }
+          },
+          "typ": {
+            "value": "[DRDAV] II. dávka (základné očkovanie)",
+            "props": {
+              "idClassid": "octyp",
+              "idEzid": "00000400630@4",
+              "id": "DRDAV"
+            }
+          },
+          "pocet": {
+            "value": "3",
+            "props": {}
+          },
+          "davka": {
+            "value": "2",
+            "props": {}
+          },
+          "posledna": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 14,
+        "order": 4,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[T] Tetanus",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000115923@3",
+              "id": "T"
+            }
+          },
+          "datum": {
+            "value": "12.08.2021 00:00",
+            "props": {
+              "propValue": "2021-08-11T22:00:00.000Z",
+              "expr": "=d"
+            }
+          },
+          "typ": {
+            "value": "[DRDAV] II. dávka (základné očkovanie)",
+            "props": {
+              "idClassid": "octyp",
+              "idEzid": "00000400630@4",
+              "id": "DRDAV"
+            }
+          },
+          "pocet": {
+            "value": "3",
+            "props": {}
+          },
+          "davka": {
+            "value": "2",
+            "props": {}
+          },
+          "posledna": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 15,
+        "order": 5,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[P] Pertussis",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000346304@3",
+              "id": "P"
+            }
+          },
+          "datum": {
+            "value": "12.08.2021 00:00",
+            "props": {
+              "propValue": "2021-08-11T22:00:00.000Z",
+              "expr": "=d"
+            }
+          },
+          "typ": {
+            "value": "[DRDAV] II. dávka (základné očkovanie)",
+            "props": {
+              "idClassid": "octyp",
+              "idEzid": "00000400630@4",
+              "id": "DRDAV"
+            }
+          },
+          "pocet": {
+            "value": "3",
+            "props": {}
+          },
+          "davka": {
+            "value": "2",
+            "props": {}
+          },
+          "posledna": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 18,
+        "order": 6,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[HIB] Hemofilové invazívne infekcie",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000346437@3",
+              "id": "HIB"
+            }
+          },
+          "datum": {
+            "value": "12.08.2021 00:00",
+            "props": {
+              "propValue": "2021-08-11T22:00:00.000Z",
+              "expr": "=d"
+            }
+          },
+          "typ": {
+            "value": "[DRDAV] II. dávka (základné očkovanie)",
+            "props": {
+              "idClassid": "octyp",
+              "idEzid": "00000400630@4",
+              "id": "DRDAV"
+            }
+          },
+          "pocet": {
+            "value": "3",
+            "props": {}
+          },
+          "davka": {
+            "value": "2",
+            "props": {}
+          },
+          "posledna": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 21,
+        "order": 7,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[IPV] Poliomyelitis",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000346395@3",
+              "id": "IPV"
+            }
+          },
+          "datum": {
+            "value": "12.08.2021 00:00",
+            "props": {
+              "propValue": "2021-08-11T22:00:00.000Z",
+              "expr": "=d"
+            }
+          },
+          "typ": {
+            "value": "[DRDAV] II. dávka (základné očkovanie)",
+            "props": {
+              "idClassid": "octyp",
+              "idEzid": "00000400630@4",
+              "id": "DRDAV"
+            }
+          },
+          "pocet": {
+            "value": "3",
+            "props": {}
+          },
+          "davka": {
+            "value": "2",
+            "props": {}
+          },
+          "posledna": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 16,
+        "order": 9,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[VHB] Vírusová hepatitída B",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000346411@3",
+              "id": "VHB"
+            }
+          },
+          "datum": {
+            "value": "12.08.2021 00:00",
+            "props": {
+              "propValue": "2021-08-11T22:00:00.000Z",
+              "expr": "=d"
+            }
+          },
+          "typ": {
+            "value": "[DRDAV] II. dávka (základné očkovanie)",
+            "props": {
+              "idClassid": "octyp",
+              "idEzid": "00000400630@4",
+              "id": "DRDAV"
+            }
+          },
+          "pocet": {
+            "value": "3",
+            "props": {}
+          },
+          "davka": {
+            "value": "2",
+            "props": {}
+          },
+          "posledna": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 36,
+        "order": 11,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[IPO] Invazívne pneumokokové ochorenia",
+            "props": {
+              "id": "IPO",
+              "idEzid": "00000346452@3",
+              "idClassid": "ockovanie"
+            }
+          },
+          "datum": {
+            "value": "12.08.2021 00:00",
+            "props": {
+              "propValue": "2021-08-11T22:00:00.000Z",
+              "expr": "=d"
+            }
+          },
+          "typ": {
+            "value": "[DRDAV] II. dávka (základné očkovanie)",
+            "props": {
+              "idClassid": "octyp",
+              "idEzid": "00000400630@4",
+              "id": "DRDAV"
+            }
+          },
+          "pocet": {
+            "value": "3",
+            "props": {}
+          },
+          "davka": {
+            "value": "2",
+            "props": {}
+          },
+          "posledna": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ol": [
+      {
+        "id": 24,
+        "order": 12,
+        "props": {
+          "type": "ol",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[85035] Prevenar 13 injekčná suspenzia | sus inj 10x0,5 ml (striek.inj.skl.napln.+ samost.ihly)",
+            "props": {
+              "propDpl": 0,
+              "propSpUhr": "V",
+              "propUnit": "DF",
+              "propIo": "ind.obm.",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": 50.872,
+              "propVnl": "R",
+              "propCena": 508.72,
+              "propSdl": 10,
+              "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén konjugovaný",
+              "propOl": 1,
+              "propKat": true,
+              "id": 85035,
+              "idUl": "",
+              "idAtc": "J07AL02",
+              "idSp": "imu",
+              "idF": "SUS INJ",
+              "idEzid": "00020003190",
+              "idClassid": "liek"
+            }
+          },
+          "sn": {
+            "value": "",
+            "props": {
+              "error": "Číslo šarže je povinné."
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "mu": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 40,
+        "order": 13,
+        "props": {
+          "type": "r",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[85035] Prevenar 13 injekčná suspenzia | sus inj 10x0,5 ml (striek.inj.skl.napln.+ samost.ihly)",
+            "props": {
+              "propDpl": 0,
+              "propSpUhr": "V",
+              "propUnit": "DF",
+              "propIo": "ind.obm.",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": 50.872,
+              "propVnl": "R",
+              "propCena": 508.72,
+              "propSdl": 10,
+              "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén konjugovaný",
+              "propOl": 1,
+              "propKat": true,
+              "id": 85035,
+              "idUl": "",
+              "idAtc": "J07AL02",
+              "idSp": "imu",
+              "idF": "SUS INJ",
+              "idEzid": "00020003190",
+              "idClassid": "liek"
+            }
+          },
+          "schedule": {
+            "value": "0,1",
+            "props": {
+              "error": "Chyba zápisu dávkovania. (SyntaxError: Expected '-' or [0-9] but end of input found.)"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 8,
+        "order": 14,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[252b] Očkovanie.",
+            "props": {
+              "propBody": 70,
+              "id": "252b",
+              "idEzid": "00000467878@9",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 38,
+        "order": 15,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[67] Príplatok u dieťaťa vo veku do piatich rokov pri výkonoch - odber krvi, injekcie, infúzie, transfúzie, infiltrácie, implantácie, odobratie sterov, punkcie a pri výkone očkovania.",
+            "props": {
+              "propBody": 100,
+              "id": 67,
+              "idEzid": "00000466797@30",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "ocko"
+  ],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/007"
+}

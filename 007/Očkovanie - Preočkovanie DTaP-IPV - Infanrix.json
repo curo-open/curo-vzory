@@ -1,0 +1,452 @@
+{
+  "type": "examination",
+  "summary": "Preočkovanie DTaP-IPV",
+  "description": "Preočkovanie proti záškrtu, tetanu, čiernemu kašľu, detskej obrne",
+  "owner": "vld",
+  "title": "Očkovanie - Preočkovanie DTaP-IPV - Infanrix",
+  "shortcut": "oc-preocDTaP-IPV-Infanrix",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "7": [
+          "schedule",
+          "recommendedBy"
+        ],
+        "24": [
+          "sn"
+        ]
+      }
+    },
+    "s": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bez ťažkostí, prechlad. sa necíti<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "KP komp., TT 36,6°C, Intramuskulárne podanie inj. Bez komplikácií po podaní.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 28,
+        "order": 2,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z27.3] Potreba imunizácie proti záškrtu – tetanu – čiernemu kašľu s poliomyelitídou [DPT+Polio]",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089522409@19",
+              "id": "Z27.3"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oc": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[D] Diftéria",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000115915@3",
+              "id": "D"
+            }
+          },
+          "datum": {
+            "value": "16.08.2021 00:00",
+            "props": {
+              "propValue": "2021-08-15T22:00:00.000Z",
+              "expr": "=dnes"
+            }
+          },
+          "typ": {
+            "value": "[PREOC] preočkovanie",
+            "props": {
+              "idClassid": "octyp",
+              "idEzid": "00000115949@4",
+              "id": "PREOC"
+            }
+          },
+          "pocet": {
+            "value": "1",
+            "props": {}
+          },
+          "davka": {
+            "value": "1",
+            "props": {}
+          },
+          "posledna": {
+            "value": "",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 14,
+        "order": 4,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[T] Tetanus",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000115923@3",
+              "id": "T"
+            }
+          },
+          "datum": {
+            "value": "16.08.2021 00:00",
+            "props": {
+              "propValue": "2021-08-15T22:00:00.000Z",
+              "expr": "=d"
+            }
+          },
+          "typ": {
+            "value": "[PREOC] preočkovanie",
+            "props": {
+              "idClassid": "octyp",
+              "idEzid": "00000115949@4",
+              "id": "PREOC"
+            }
+          },
+          "pocet": {
+            "value": "1",
+            "props": {}
+          },
+          "davka": {
+            "value": "1",
+            "props": {}
+          },
+          "posledna": {
+            "value": "",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 15,
+        "order": 5,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[P] Pertussis",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000346304@3",
+              "id": "P"
+            }
+          },
+          "datum": {
+            "value": "16.08.2021 00:00",
+            "props": {
+              "propValue": "2021-08-15T22:00:00.000Z",
+              "expr": "=d"
+            }
+          },
+          "typ": {
+            "value": "[PREOC] preočkovanie",
+            "props": {
+              "idClassid": "octyp",
+              "idEzid": "00000115949@4",
+              "id": "PREOC"
+            }
+          },
+          "pocet": {
+            "value": "1",
+            "props": {}
+          },
+          "davka": {
+            "value": "1",
+            "props": {}
+          },
+          "posledna": {
+            "value": "",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 21,
+        "order": 6,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[IPV] Poliomyelitis",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000346395@3",
+              "id": "IPV"
+            }
+          },
+          "datum": {
+            "value": "16.08.2021 00:00",
+            "props": {
+              "propValue": "2021-08-15T22:00:00.000Z",
+              "expr": "=d"
+            }
+          },
+          "typ": {
+            "value": "[PREOC] preočkovanie",
+            "props": {
+              "idClassid": "octyp",
+              "idEzid": "00000115949@4",
+              "id": "PREOC"
+            }
+          },
+          "pocet": {
+            "value": "1",
+            "props": {}
+          },
+          "davka": {
+            "value": "1",
+            "props": {}
+          },
+          "posledna": {
+            "value": "",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ol": [
+      {
+        "id": 24,
+        "order": 7,
+        "props": {
+          "type": "ol",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[01399] Infanrix Polio | sus inj 10x0,5 ml (striek.inj.napl.skl.+10 ihiel)",
+            "props": {
+              "propPo_0": "PED",
+              "propKat": true,
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti záškrtu-čiernemu kašľu-poliomyelitíde-tetanu",
+              "propSdl": 10,
+              "propCena": 174,
+              "propVnl": "R",
+              "propUzp_1zvj": 1,
+              "propBal": 10,
+              "propGp": 0,
+              "propIo": "ind.obm.",
+              "propUnit": "DF",
+              "propSpUhr": "V",
+              "propDpl": 0,
+              "idClassid": "liek",
+              "idEzid": "00020074407",
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07CA02",
+              "idUl": "",
+              "id": "01399"
+            }
+          },
+          "sn": {
+            "value": "",
+            "props": {
+              "error": "Číslo šarže je povinné."
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "mu": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 7,
+        "order": 8,
+        "props": {
+          "type": "r",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[01399] Infanrix Polio | sus inj 10x0,5 ml (striek.inj.napl.skl.+10 ihiel)",
+            "props": {
+              "propPo_0": "PED",
+              "propKat": true,
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti záškrtu-čiernemu kašľu-poliomyelitíde-tetanu",
+              "propSdl": 10,
+              "propCena": 174,
+              "propVnl": "R",
+              "propUzp_1zvj": 1,
+              "propBal": 10,
+              "propGp": 0,
+              "propIo": "ind.obm.",
+              "propUnit": "DF",
+              "propSpUhr": "V",
+              "propDpl": 0,
+              "idClassid": "liek",
+              "idEzid": "00020074407",
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07CA02",
+              "idUl": "",
+              "id": "01399"
+            }
+          },
+          "schedule": {
+            "value": "0,1",
+            "props": {
+              "error": "Chyba zápisu dávkovania. (SyntaxError: Expected '-' or [0-9] but end of input found.)"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {}
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {
+              "error": "Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára"
+            }
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 8,
+        "order": 9,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[252b] Očkovanie.",
+            "props": {
+              "propBody": 70,
+              "id": "252b",
+              "idEzid": "00000467878@9",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "ocko"
+  ],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/007"
+}
