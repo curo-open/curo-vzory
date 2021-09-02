@@ -10,7 +10,6 @@
     "_": {
       "errors": {
         "7": [
-          "schedule",
           "recommendedBy"
         ],
         "24": [
@@ -20,7 +19,6 @@
           "sn"
         ],
         "40": [
-          "schedule",
           "recommendedBy"
         ]
       }
@@ -95,9 +93,9 @@
             }
           },
           "datum": {
-            "value": "16.08.2021 00:00",
+            "value": "02.09.2021 00:00",
             "props": {
-              "propValue": "2021-08-15T22:00:00.000Z",
+              "propValue": "2021-09-01T22:00:00.000Z",
               "expr": "=dnes"
             }
           },
@@ -145,9 +143,9 @@
             }
           },
           "datum": {
-            "value": "16.08.2021 00:00",
+            "value": "02.09.2021 00:00",
             "props": {
-              "propValue": "2021-08-15T22:00:00.000Z",
+              "propValue": "2021-09-01T22:00:00.000Z",
               "expr": "=d"
             }
           },
@@ -195,9 +193,9 @@
             }
           },
           "datum": {
-            "value": "16.08.2021 00:00",
+            "value": "02.09.2021 00:00",
             "props": {
-              "propValue": "2021-08-15T22:00:00.000Z",
+              "propValue": "2021-09-01T22:00:00.000Z",
               "expr": "=d"
             }
           },
@@ -230,64 +228,10 @@
         }
       }
     ],
-    "t": [
-      {
-        "id": 35,
-        "order": 6,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 38,
-        "order": 8,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? var.priorix==\"ON\" }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 41,
-        "order": 11,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ : }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 42,
-        "order": 14,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ?}}<br>",
-            "props": {}
-          }
-        }
-      }
-    ],
     "premenna": [
       {
         "id": 37,
-        "order": 7,
+        "order": 6,
         "props": {
           "type": "premenna"
         },
@@ -309,10 +253,51 @@
         }
       }
     ],
+    "t": [
+      {
+        "id": 38,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? var.priorix==\"ON\" }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 41,
+        "order": 10,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 42,
+        "order": 13,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ?}}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
     "ol": [
       {
         "id": 24,
-        "order": 9,
+        "order": 8,
         "props": {
           "type": "ol",
           "error": true
@@ -367,7 +352,7 @@
       },
       {
         "id": 34,
-        "order": 12,
+        "order": 11,
         "props": {
           "type": "ol",
           "error": true
@@ -423,7 +408,7 @@
     "r": [
       {
         "id": 40,
-        "order": 10,
+        "order": 9,
         "props": {
           "type": "r",
           "error": true
@@ -456,15 +441,23 @@
             }
           },
           "schedule": {
-            "value": "0,1",
+            "value": "Ad Manus Medici, PLV",
             "props": {
-              "error": "Chyba zápisu dávkovania. (SyntaxError: Expected '-' or [0-9] but end of input found.)"
+              "propUnit_id": "",
+              "propForm_t": "prášok",
+              "propForm_id": "PLV",
+              "propText": "",
+              "propPeriod_t": "denne",
+              "propPeriod_id": "D",
+              "propWay_id": "",
+              "propIntervaldavkovania": "!denne",
+              "propType": "AMM"
             }
           },
           "qty": {
-            "value": "1",
+            "value": "0,1",
             "props": {
-              "propValue": "1.00"
+              "propValue": "0.10"
             }
           },
           "repeatCount": {
@@ -517,7 +510,7 @@
       },
       {
         "id": 7,
-        "order": 13,
+        "order": 12,
         "props": {
           "type": "r",
           "error": true
@@ -550,14 +543,24 @@
             }
           },
           "schedule": {
-            "value": "0,1",
+            "value": "Ad Manus Medici, PLV",
             "props": {
-              "error": "Chyba zápisu dávkovania. (SyntaxError: Expected '-' or [0-9] but end of input found.)"
+              "propUnit_id": "",
+              "propForm_t": "prášok",
+              "propForm_id": "PLV",
+              "propText": "",
+              "propPeriod_t": "denne",
+              "propPeriod_id": "D",
+              "propWay_id": "",
+              "propIntervaldavkovania": "!denne",
+              "propType": "AMM"
             }
           },
           "qty": {
-            "value": "1",
-            "props": {}
+            "value": "0,1",
+            "props": {
+              "propValue": "0.10"
+            }
           },
           "repeatCount": {
             "value": "",
@@ -611,7 +614,7 @@
     "vv": [
       {
         "id": 8,
-        "order": 15,
+        "order": 14,
         "props": {
           "type": "vv"
         },
@@ -633,7 +636,7 @@
       },
       {
         "id": 32,
-        "order": 16,
+        "order": 15,
         "props": {
           "type": "vv"
         },
@@ -656,7 +659,9 @@
     ]
   },
   "tags": [
-    "ocko"
+    "oc-mo",
+    "oc-m",
+    "oc-r"
   ],
   "vars": {
     "priorix": "ON"

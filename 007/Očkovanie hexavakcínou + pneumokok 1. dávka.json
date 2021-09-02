@@ -12,8 +12,17 @@
         "24": [
           "sn"
         ],
-        "40": [
-          "schedule"
+        "44": [
+          "sn"
+        ],
+        "45": [
+          "recommendedBy"
+        ],
+        "47": [
+          "sn"
+        ],
+        "48": [
+          "recommendedBy"
         ]
       }
     },
@@ -49,8 +58,29 @@
     ],
     "vd": [
       {
-        "id": 28,
+        "id": 51,
         "order": 2,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z24.6] Potreba imunizácie proti vírusovej hepatitíde",
+            "props": {
+              "id": "Z24.6",
+              "idEzid": "02089522276@19",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 28,
+        "order": 4,
         "props": {
           "type": "vd"
         },
@@ -70,29 +100,8 @@
         }
       },
       {
-        "id": 6,
-        "order": 8,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[Z24.6] Potreba imunizácie proti vírusovej hepatitíde",
-            "props": {
-              "idClassid": "diagnoza",
-              "idEzid": "02089522276@19",
-              "id": "Z24.6"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 34,
-        "order": 10,
+        "order": 18,
         "props": {
           "type": "vd"
         },
@@ -114,8 +123,57 @@
     ],
     "oc": [
       {
-        "id": 4,
+        "id": 52,
         "order": 3,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[VHB] Vírusová hepatitída B",
+            "props": {
+              "id": "VHB",
+              "idEzid": "00000346411@3",
+              "idClassid": "ockovanie"
+            }
+          },
+          "datum": {
+            "value": "31.08.2021 00:00",
+            "props": {
+              "propValue": "2021-08-30T22:00:00.000Z"
+            }
+          },
+          "typ": {
+            "value": "[PRDAV] I. dávka (základné očkovanie)",
+            "props": {
+              "idClassid": "octyp",
+              "idEzid": "00000400622@4",
+              "id": "PRDAV"
+            }
+          },
+          "pocet": {
+            "value": "3",
+            "props": {}
+          },
+          "davka": {
+            "value": "1",
+            "props": {}
+          },
+          "posledna": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 4,
+        "order": 5,
         "props": {
           "type": "oc"
         },
@@ -129,9 +187,9 @@
             }
           },
           "datum": {
-            "value": "16.08.2021 00:00",
+            "value": "31.08.2021 00:00",
             "props": {
-              "propValue": "2021-08-15T22:00:00.000Z",
+              "propValue": "2021-08-30T22:00:00.000Z",
               "expr": "=dnes"
             }
           },
@@ -165,7 +223,7 @@
       },
       {
         "id": 14,
-        "order": 4,
+        "order": 6,
         "props": {
           "type": "oc"
         },
@@ -179,9 +237,9 @@
             }
           },
           "datum": {
-            "value": "16.08.2021 00:00",
+            "value": "31.08.2021 00:00",
             "props": {
-              "propValue": "2021-08-15T22:00:00.000Z",
+              "propValue": "2021-08-30T22:00:00.000Z",
               "expr": "=d"
             }
           },
@@ -215,7 +273,7 @@
       },
       {
         "id": 15,
-        "order": 5,
+        "order": 7,
         "props": {
           "type": "oc"
         },
@@ -229,9 +287,9 @@
             }
           },
           "datum": {
-            "value": "16.08.2021 00:00",
+            "value": "31.08.2021 00:00",
             "props": {
-              "propValue": "2021-08-15T22:00:00.000Z",
+              "propValue": "2021-08-30T22:00:00.000Z",
               "expr": "=d"
             }
           },
@@ -265,7 +323,7 @@
       },
       {
         "id": 18,
-        "order": 6,
+        "order": 8,
         "props": {
           "type": "oc"
         },
@@ -279,9 +337,9 @@
             }
           },
           "datum": {
-            "value": "16.08.2021 00:00",
+            "value": "31.08.2021 00:00",
             "props": {
-              "propValue": "2021-08-15T22:00:00.000Z",
+              "propValue": "2021-08-30T22:00:00.000Z",
               "expr": "=d"
             }
           },
@@ -315,7 +373,7 @@
       },
       {
         "id": 21,
-        "order": 7,
+        "order": 9,
         "props": {
           "type": "oc"
         },
@@ -329,59 +387,9 @@
             }
           },
           "datum": {
-            "value": "16.08.2021 00:00",
+            "value": "31.08.2021 00:00",
             "props": {
-              "propValue": "2021-08-15T22:00:00.000Z",
-              "expr": "=d"
-            }
-          },
-          "typ": {
-            "value": "[PRDAV] I. dávka (základné očkovanie)",
-            "props": {
-              "id": "PRDAV",
-              "idEzid": "00000400622@4",
-              "idClassid": "octyp"
-            }
-          },
-          "pocet": {
-            "value": "3",
-            "props": {}
-          },
-          "davka": {
-            "value": "1",
-            "props": {}
-          },
-          "posledna": {
-            "value": "nie",
-            "props": {
-              "propValue": 0
-            }
-          },
-          "poznamka": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 16,
-        "order": 9,
-        "props": {
-          "type": "oc"
-        },
-        "value": {
-          "id": {
-            "value": "[VHB] Vírusová hepatitída B",
-            "props": {
-              "idClassid": "ockovanie",
-              "idEzid": "00000346411@3",
-              "id": "VHB"
-            }
-          },
-          "datum": {
-            "value": "16.08.2021 00:00",
-            "props": {
-              "propValue": "2021-08-15T22:00:00.000Z",
+              "propValue": "2021-08-30T22:00:00.000Z",
               "expr": "=d"
             }
           },
@@ -415,7 +423,7 @@
       },
       {
         "id": 36,
-        "order": 11,
+        "order": 19,
         "props": {
           "type": "oc"
         },
@@ -429,9 +437,9 @@
             }
           },
           "datum": {
-            "value": "16.08.2021 00:00",
+            "value": "31.08.2021 00:00",
             "props": {
-              "propValue": "2021-08-15T22:00:00.000Z",
+              "propValue": "2021-08-30T22:00:00.000Z",
               "expr": "=d"
             }
           },
@@ -464,10 +472,188 @@
         }
       }
     ],
+    "premenna": [
+      {
+        "id": 42,
+        "order": 10,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "hexacima",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "ON",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 43,
+        "order": 11,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<span>{{ ? var.hexacima==\"ON\" }}</span><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 46,
+        "order": 14,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 49,
+        "order": 17,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<span>{{ ? }}</span><br>",
+            "props": {}
+          }
+        }
+      }
+    ],
     "ol": [
       {
-        "id": 24,
+        "id": 44,
         "order": 12,
+        "props": {
+          "type": "ol",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[5207A] Hexacima injekčná suspenzia naplnená v injekčnej striekačke | sus iru 10x0,5 ml (striek.inj.napl.skl.+20 ihiel)",
+            "props": {
+              "propDpl": 0,
+              "propSpUhr": "V",
+              "propUnit": "DF",
+              "propIo": "ind.obm.",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": 42.899,
+              "propVnl": "R",
+              "propCena": 426.75,
+              "propSdl": 10,
+              "propAtcName": "Očkovacia látka proti záškrtu-hemofilu typu b-čiernemu kašľu-poliomyelitíde- tetanu- hepatitíde B",
+              "propOl": 1,
+              "propKat": true,
+              "propPo_0": "PED",
+              "id": "5207A",
+              "idUl": "",
+              "idAtc": "J07CA09",
+              "idSp": "imu",
+              "idF": "SUS IRU",
+              "idEzid": "00020151544",
+              "idClassid": "liek"
+            }
+          },
+          "sn": {
+            "value": "",
+            "props": {
+              "error": "Číslo šarže je povinné."
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "mu": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 47,
+        "order": 15,
+        "props": {
+          "type": "ol",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[34905] Infanrix hexa, prášok a suspenzia na injekčnú suspenziu | plv inu 10x0,5 ml (10x liek.+10x striek.+20x ihla)",
+            "props": {
+              "propDpl": 0,
+              "propSpUhr": "V",
+              "propUnit": "DF",
+              "propIo": "ind.obm.",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": 42.899,
+              "propVnl": "R",
+              "propCena": 426.75,
+              "propSdl": 10,
+              "propAtcName": "Očkovacia látka proti záškrtu-hemofilu typu b-čiernemu kašľu-poliomyelitíde- tetanu- hepatitíde B",
+              "propOl": 1,
+              "propKat": true,
+              "propPo_0": "PED",
+              "id": 34905,
+              "idUl": "",
+              "idAtc": "J07CA09",
+              "idSp": "imu",
+              "idF": "PLU INU",
+              "idEzid": "00020720777",
+              "idClassid": "liek"
+            }
+          },
+          "sn": {
+            "value": "",
+            "props": {
+              "error": "Číslo šarže je povinné."
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "mu": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 24,
+        "order": 20,
         "props": {
           "type": "ol",
           "error": true
@@ -523,11 +709,216 @@
     ],
     "r": [
       {
-        "id": 40,
+        "id": 45,
         "order": 13,
         "props": {
           "type": "r",
           "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[5207A] Hexacima injekčná suspenzia naplnená v injekčnej striekačke | sus iru 10x0,5 ml (striek.inj.napl.skl.+20 ihiel)",
+            "props": {
+              "propPo_0": "PED",
+              "propKat": true,
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti záškrtu-hemofilu typu b-čiernemu kašľu-poliomyelitíde- tetanu- hepatitíde B",
+              "propSdl": 10,
+              "propCena": 426.75,
+              "propVnl": "R",
+              "propUzp_1zvj": 42.899,
+              "propBal": 10,
+              "propGp": 0,
+              "propIo": "ind.obm.",
+              "propUnit": "DF",
+              "propSpUhr": "V",
+              "propDpl": 0,
+              "idClassid": "liek",
+              "idEzid": "00020151544",
+              "idF": "SUS IRU",
+              "idSp": "imu",
+              "idAtc": "J07CA09",
+              "idUl": "",
+              "id": "5207A"
+            }
+          },
+          "schedule": {
+            "value": "Ad Manus Medici, SUS",
+            "props": {
+              "propType": "AMM",
+              "propIntervaldavkovania": "!denne",
+              "propWay_id": "IM",
+              "propWay_t": "intramuskulárne (i.m.)",
+              "propPeriod_id": "D",
+              "propPeriod_t": "denne",
+              "propText": "",
+              "propForm_id": "SUS",
+              "propForm_t": "suspenzia",
+              "propUnit_id": ""
+            }
+          },
+          "qty": {
+            "value": "0,1",
+            "props": {
+              "propValue": "0.10"
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {
+              "error": "Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára"
+            }
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 48,
+        "order": 16,
+        "props": {
+          "type": "r",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[34905] Infanrix hexa, prášok a suspenzia na injekčnú suspenziu | plv inu 10x0,5 ml (10x liek.+10x striek.+20x ihla)",
+            "props": {
+              "propPo_0": "PED",
+              "propKat": true,
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti záškrtu-hemofilu typu b-čiernemu kašľu-poliomyelitíde- tetanu- hepatitíde B",
+              "propSdl": 10,
+              "propCena": 426.75,
+              "propVnl": "R",
+              "propUzp_1zvj": 42.899,
+              "propBal": 10,
+              "propGp": 0,
+              "propIo": "ind.obm.",
+              "propUnit": "DF",
+              "propSpUhr": "V",
+              "propDpl": 0,
+              "idClassid": "liek",
+              "idEzid": "00020720777",
+              "idF": "PLU INU",
+              "idSp": "imu",
+              "idAtc": "J07CA09",
+              "idUl": "",
+              "id": 34905
+            }
+          },
+          "schedule": {
+            "value": "Ad Manus Medici, PLU",
+            "props": {
+              "propType": "AMM",
+              "propIntervaldavkovania": "!denne",
+              "propWay_id": "IM",
+              "propWay_t": "intramuskulárne (i.m.)",
+              "propPeriod_id": "D",
+              "propPeriod_t": "denne",
+              "propText": "",
+              "propForm_id": "PLU",
+              "propForm_t": "prášok",
+              "propUnit_id": ""
+            }
+          },
+          "qty": {
+            "value": "0,1",
+            "props": {
+              "propValue": "0.10"
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {
+              "error": "Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára"
+            }
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": "0.00"
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 40,
+        "order": 21,
+        "props": {
+          "type": "r"
         },
         "value": {
           "id": {
@@ -556,15 +947,24 @@
             }
           },
           "schedule": {
-            "value": "0,1",
+            "value": "Ad Manus Medici, SUS",
             "props": {
-              "error": "Chyba zápisu dávkovania. (SyntaxError: Expected '-' or [0-9] but end of input found.)"
+              "propType": "AMM",
+              "propIntervaldavkovania": "!denne",
+              "propWay_id": "IM",
+              "propWay_t": "intramuskulárne (i.m.)",
+              "propPeriod_id": "D",
+              "propPeriod_t": "denne",
+              "propText": "",
+              "propForm_id": "SUS",
+              "propForm_t": "suspenzia",
+              "propUnit_id": ""
             }
           },
           "qty": {
-            "value": "1",
+            "value": "0,1",
             "props": {
-              "propValue": "1.00"
+              "propValue": "0.10"
             }
           },
           "repeatCount": {
@@ -617,7 +1017,7 @@
     "vv": [
       {
         "id": 8,
-        "order": 14,
+        "order": 22,
         "props": {
           "type": "vv"
         },
@@ -639,7 +1039,7 @@
       },
       {
         "id": 38,
-        "order": 15,
+        "order": 23,
         "props": {
           "type": "vv"
         },
@@ -662,7 +1062,13 @@
     ]
   },
   "tags": [
-    "ocko"
+    "oc-d",
+    "oc-p",
+    "oc-t",
+    "oc-vhb",
+    "oc-hib",
+    "oc-ipv",
+    "oc-ipo"
   ],
   "vars": {},
   "allowedUsers": [],

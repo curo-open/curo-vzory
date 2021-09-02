@@ -10,7 +10,6 @@
     "_": {
       "errors": {
         "7": [
-          "schedule",
           "recommendedBy"
         ],
         "24": [
@@ -88,9 +87,9 @@
             }
           },
           "datum": {
-            "value": "16.08.2021 00:00",
+            "value": "31.08.2021 00:00",
             "props": {
-              "propValue": "2021-08-15T22:00:00.000Z",
+              "propValue": "2021-08-30T22:00:00.000Z",
               "expr": "=dnes"
             }
           },
@@ -136,9 +135,9 @@
             }
           },
           "datum": {
-            "value": "16.08.2021 00:00",
+            "value": "31.08.2021 00:00",
             "props": {
-              "propValue": "2021-08-15T22:00:00.000Z",
+              "propValue": "2021-08-30T22:00:00.000Z",
               "expr": "=d"
             }
           },
@@ -184,9 +183,9 @@
             }
           },
           "datum": {
-            "value": "16.08.2021 00:00",
+            "value": "31.08.2021 00:00",
             "props": {
-              "propValue": "2021-08-15T22:00:00.000Z",
+              "propValue": "2021-08-30T22:00:00.000Z",
               "expr": "=d"
             }
           },
@@ -232,9 +231,9 @@
             }
           },
           "datum": {
-            "value": "16.08.2021 00:00",
+            "value": "31.08.2021 00:00",
             "props": {
-              "propValue": "2021-08-15T22:00:00.000Z",
+              "propValue": "2021-08-30T22:00:00.000Z",
               "expr": "=d"
             }
           },
@@ -359,14 +358,25 @@
             }
           },
           "schedule": {
-            "value": "0,1",
+            "value": "Ad Manus Medici, SUS",
             "props": {
-              "error": "Chyba zápisu dávkovania. (SyntaxError: Expected '-' or [0-9] but end of input found.)"
+              "propType": "AMM",
+              "propIntervaldavkovania": "!denne",
+              "propWay_id": "IM",
+              "propWay_t": "intramuskulárne (i.m.)",
+              "propPeriod_id": "D",
+              "propPeriod_t": "denne",
+              "propText": "",
+              "propForm_id": "SUS",
+              "propForm_t": "suspenzia",
+              "propUnit_id": ""
             }
           },
           "qty": {
-            "value": "1",
-            "props": {}
+            "value": "0,1",
+            "props": {
+              "propValue": "0.10"
+            }
           },
           "repeatCount": {
             "value": "",
@@ -443,7 +453,10 @@
     ]
   },
   "tags": [
-    "ocko"
+    "oc-d",
+    "oc-t",
+    "oc-p",
+    "oc-ipv"
   ],
   "vars": {},
   "allowedUsers": [],

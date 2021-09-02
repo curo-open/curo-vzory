@@ -13,7 +13,6 @@
           "sn"
         ],
         "32": [
-          "schedule",
           "recommendedBy"
         ]
       }
@@ -88,9 +87,9 @@
             }
           },
           "datum": {
-            "value": "16.08.2021 00:00",
+            "value": "31.08.2021 00:00",
             "props": {
-              "propValue": "2021-08-15T22:00:00.000Z",
+              "propValue": "2021-08-30T22:00:00.000Z",
               "expr": "=dnes"
             }
           },
@@ -136,9 +135,9 @@
             }
           },
           "datum": {
-            "value": "16.08.2021 00:00",
+            "value": "31.08.2021 00:00",
             "props": {
-              "propValue": "2021-08-15T22:00:00.000Z",
+              "propValue": "2021-08-30T22:00:00.000Z",
               "expr": "=d"
             }
           },
@@ -184,9 +183,9 @@
             }
           },
           "datum": {
-            "value": "16.08.2021 00:00",
+            "value": "31.08.2021 00:00",
             "props": {
-              "propValue": "2021-08-15T22:00:00.000Z",
+              "propValue": "2021-08-30T22:00:00.000Z",
               "expr": "=d"
             }
           },
@@ -232,9 +231,9 @@
             }
           },
           "datum": {
-            "value": "16.08.2021 00:00",
+            "value": "31.08.2021 00:00",
             "props": {
-              "propValue": "2021-08-15T22:00:00.000Z",
+              "propValue": "2021-08-30T22:00:00.000Z",
               "expr": "=d"
             }
           },
@@ -357,15 +356,24 @@
             }
           },
           "schedule": {
-            "value": "0,1",
+            "value": "Ad Manus Medici, SUS",
             "props": {
-              "error": "Chyba zápisu dávkovania. (SyntaxError: Expected '-' or [0-9] but end of input found.)"
+              "propUnit_id": "",
+              "propForm_t": "suspenzia",
+              "propForm_id": "SUS",
+              "propText": "",
+              "propPeriod_t": "denne",
+              "propPeriod_id": "D",
+              "propWay_t": "intramuskulárne (i.m.)",
+              "propWay_id": "IM",
+              "propIntervaldavkovania": "!denne",
+              "propType": "AMM"
             }
           },
           "qty": {
-            "value": "1",
+            "value": "0,1",
             "props": {
-              "propValue": "1.00"
+              "propValue": "0.10"
             }
           },
           "repeatCount": {
@@ -443,7 +451,10 @@
     ]
   },
   "tags": [
-    "ocko"
+    "oc-d",
+    "oc-t",
+    "oc-p",
+    "oc-ipv"
   ],
   "vars": {},
   "allowedUsers": [],
