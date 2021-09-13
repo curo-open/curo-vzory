@@ -22,6 +22,10 @@
           "datumVyziadania": {
             "value": "",
             "props": {}
+          },
+          "posudkovyLekar": {
+            "value": "",
+            "props": {}
           }
         }
       }
@@ -39,9 +43,9 @@
             "props": {}
           },
           "datum": {
-            "value": "04.02.2020",
+            "value": "13.09.2021",
             "props": {
-              "propValue": "2020-02-04T13:44:48.873Z",
+              "propValue": "2021-09-12T22:00:00.000Z",
               "expr": "=dnes"
             }
           },
@@ -166,11 +170,11 @@
           "id": {
             "value": "[74.PZAK] Vystavenie lekárskeho nálezu, alebo výpis zo zdravotnej dokumentácie na účely sociálneho poistenia podľa osobitného predpisu.",
             "props": {
-              "propType": "soc",
               "propBody": 300,
-              "idClassid": "vykon",
+              "propType": "soc",
+              "id": "74.PZAK",
               "idEzid": "curo-74.PZAK@13",
-              "id": "74.PZAK"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -186,5 +190,8 @@
     "prehlad-sp-prehliadky"
   ],
   "vars": {},
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
   "source": "curo-open/curo-vzory#/020"
 }
