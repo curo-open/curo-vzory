@@ -14,7 +14,7 @@
         },
         "value": {
           "anamneza_osobna": {
-            "value": "{{&lt; sessions|getSections(\"ra\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"oa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"pa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"la\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br>{{&lt; sessions|getSections(\"ga\")|where(\"i==0\")|trans(\"text\")}}<br>",
+            "value": "{{&lt; sessions|getSections(\"ra\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"oa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"pa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"la\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br>{{&lt; sessions|getSections(\"ga\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"dz\")|where(\"i==0\")|trans(\"text\")}}<br>",
             "props": {}
           },
           "anamneza_subjektivna": {
@@ -131,9 +131,9 @@
             "value": "[74] Vystavenie lekárskeho nálezu, alebo výpis zo zdravotnej dokumentácie na účely",
             "props": {
               "propBody": 300,
-              "idClassid": "vykon",
+              "id": 74,
               "idEzid": "00000466847@32",
-              "id": 74
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -151,5 +151,6 @@
   "owner": "admin",
   "allowedUsers": [],
   "allowedIdentities": [],
+  "description": "",
   "source": "curo-open/curo-vzory#/020"
 }

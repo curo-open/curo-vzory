@@ -43,9 +43,9 @@
             "props": {}
           },
           "datum": {
-            "value": "13.09.2021",
+            "value": "20.09.2021",
             "props": {
-              "propValue": "2021-09-12T22:00:00.000Z",
+              "propValue": "2021-09-19T22:00:00.000Z",
               "expr": "=dnes"
             }
           },
@@ -74,7 +74,7 @@
             "props": {}
           },
           "anamneza": {
-            "value": "{{&lt; sessions|getSections(\"ra\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"oa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"pa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"la\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br>{{&lt; sessions|getSections(\"ga\")|where(\"i==0\")|trans(\"text\")}}<br>",
+            "value": "{{&lt; sessions|getSections(\"ra\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"oa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"pa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"la\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br>{{&lt; sessions|getSections(\"ga\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"dz\")|where(\"i==0\")|trans(\"text\")}}<br>",
             "props": {}
           },
           "vysledky_nalezov": {
