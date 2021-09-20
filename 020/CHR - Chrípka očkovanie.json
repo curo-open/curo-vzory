@@ -119,9 +119,9 @@
             }
           },
           "datum": {
-            "value": "17.09.2021 00:00",
+            "value": "20.09.2021 00:00",
             "props": {
-              "propValue": "2021-09-16T22:00:00.000Z",
+              "propValue": "2021-09-19T22:00:00.000Z",
               "expr": "=dnes"
             }
           },
@@ -167,7 +167,7 @@
             }
           },
           "value": {
-            "value": "OFF",
+            "value": "ON",
             "props": {}
           }
         }
@@ -190,7 +190,7 @@
             }
           },
           "value": {
-            "value": "ON",
+            "value": "OFF",
             "props": {}
           }
         }
