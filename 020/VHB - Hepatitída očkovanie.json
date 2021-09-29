@@ -3,7 +3,13 @@
   "shortcut": "oc-vhb",
   "if": "",
   "data": {
-    "_": {},
+    "_": {
+      "errors": {
+        "4": [
+          "sn"
+        ]
+      }
+    },
     "s": [
       {
         "id": 10,
@@ -34,10 +40,33 @@
         }
       }
     ],
+    "vd": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z24.6] Potreba imunizácie proti vírusovej hepatitíde",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089522276@9",
+              "id": "Z24.6"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "oc": [
       {
         "id": 2,
-        "order": 2,
+        "order": 3,
         "props": {
           "type": "oc"
         },
@@ -51,11 +80,27 @@
             }
           },
           "datum": {
-            "value": "31.01.2020",
+            "value": "29.09.2021 00:00",
             "props": {
-              "propValue": "2020-01-31T10:24:27.286Z",
+              "propValue": "2021-09-28T22:00:00.000Z",
               "expr": "=dnes"
             }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "pocet": {
+            "value": "",
+            "props": {}
+          },
+          "davka": {
+            "value": "",
+            "props": {}
+          },
+          "posledna": {
+            "value": "",
+            "props": {}
           },
           "poznamka": {
             "value": "",
@@ -67,9 +112,10 @@
     "ol": [
       {
         "id": 4,
-        "order": 3,
+        "order": 4,
         "props": {
-          "type": "ol"
+          "type": "ol",
+          "error": true
         },
         "value": {
           "id": {
@@ -96,13 +142,19 @@
           },
           "sn": {
             "value": "",
-            "props": {}
+            "props": {
+              "error": "Číslo šarže je povinné."
+            }
           },
           "qty": {
             "value": "1",
             "props": {
               "propValue": "1.00"
             }
+          },
+          "mu": {
+            "value": "",
+            "props": {}
           },
           "text": {
             "value": "",
@@ -114,7 +166,7 @@
     "r": [
       {
         "id": 13,
-        "order": 4,
+        "order": 5,
         "props": {
           "type": "r"
         },
@@ -206,29 +258,6 @@
         }
       }
     ],
-    "vd": [
-      {
-        "id": 6,
-        "order": 5,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[Z24.6] Potreba imunizácie proti vírusovej hepatitíde",
-            "props": {
-              "idClassid": "diagnoza",
-              "idEzid": "02089522276@9",
-              "id": "Z24.6"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
     "vv": [
       {
         "id": 8,
@@ -263,5 +292,8 @@
   "description": "Očkovanie proti Vírusovovej hepatitíde typu B (Vírusová hepatitída B)",
   "summary": "VHB - Hepatitida očkovanie",
   "type": "examination",
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
   "source": "curo-open/curo-vzory#/020"
 }
