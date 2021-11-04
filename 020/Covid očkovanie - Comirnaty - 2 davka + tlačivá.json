@@ -94,9 +94,9 @@
             }
           },
           "datum": {
-            "value": "10.08.2021 14:43",
+            "value": "04.11.2021 12:06",
             "props": {
-              "propValue": "2021-08-10T12:43:41.297Z",
+              "propValue": "2021-11-04T11:06:58.864Z",
               "expr": "=teraz"
             }
           },
@@ -181,10 +181,73 @@
         }
       }
     ],
+    "t": [
+      {
+        "id": 23,
+        "order": 5,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{? vek &gt;= 50 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 25,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 27,
+        "order": 9,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
     "vv": [
       {
-        "id": 21,
-        "order": 5,
+        "id": 24,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[252L+PP50] Výkon 252L s pripočítateľnou položkou PP50",
+            "props": {
+              "propBody": "",
+              "id": "252L+PP50",
+              "idEzid": "curo-252L+PP50@33",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 26,
+        "order": 8,
         "props": {
           "type": "vv"
         },
@@ -192,9 +255,9 @@
           "id": {
             "value": "[252L] Očkovanie inou vakcínou proti ochoreniu Covid-19",
             "props": {
-              "id": "252L",
-              "idEzid": "02089903864@30",
-              "idClassid": "vykon"
+              "idClassid": "vykon",
+              "idEzid": "02089903864@33",
+              "id": "252L"
             }
           },
           "count": {
@@ -207,7 +270,7 @@
     "pl": [
       {
         "id": 14,
-        "order": 6,
+        "order": 10,
         "props": {
           "type": "pl"
         },
