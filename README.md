@@ -17,3 +17,8 @@ rg -os '\{\{\s?\?([^}])+\}\}' --json | jq 'select(.type=="match")|.data.path.tex
 # per file
 rg -os '\{\{\s?\?([^}])+\}\}' --json | jq 'select(.type=="match")|.data.path.text as $fn|.data.submatches[]|[$fn, .match.text]' | jq -s 'group_by(.[0])'  -r
 ```
+
+
+export import vlastnych vzorov
+http://localhost:3000/api/templates/xt-export
+http://localhost:3000/api/templates/xt-import?file=/home/swift/Desktop/templates.json
