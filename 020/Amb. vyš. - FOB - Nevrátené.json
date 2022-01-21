@@ -53,7 +53,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? var.fobpp == 'ON' &amp;&amp; zp == 25 &amp;&amp; vek &lt; 70  }}<br>",
+            "value": "{{ ? var.fobpp == 'ON' &amp;&amp; zp != 24 &amp;&amp; vek &lt; 70  }}<br>",
             "props": {}
           }
         }
@@ -96,9 +96,9 @@
           "id": {
             "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
             "props": {
-              "id": "Z12.1",
+              "idClassid": "diagnoza",
               "idEzid": "02089521690@9",
-              "idClassid": "diagnoza"
+              "id": "Z12.1"
             }
           },
           "text": {
@@ -117,9 +117,9 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "id": "Z00.0",
+              "idClassid": "diagnoza",
               "idEzid": "02089520809@9",
-              "idClassid": "diagnoza"
+              "id": "Z00.0"
             }
           },
           "text": {
@@ -166,9 +166,9 @@
             "value": "[159x+FOB] Výkon 159x s pripočítateľnou položkou FOB",
             "props": {
               "propBody": 180,
-              "id": "159x+FOB",
+              "idClassid": "vykon",
               "idEzid": "curo-159x+FOB@26",
-              "idClassid": "vykon"
+              "id": "159x+FOB"
             }
           },
           "count": {
@@ -188,9 +188,9 @@
             "value": "[159x] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonu pod kódom 160. Výkon môže vykazovať lekár všeobecnej starostlivosti vtedy, ak poistenca po",
             "props": {
               "propBody": 180,
-              "id": "159x",
+              "idClassid": "vykon",
               "idEzid": "02089731851@8",
-              "idClassid": "vykon"
+              "id": "159x"
             }
           },
           "count": {

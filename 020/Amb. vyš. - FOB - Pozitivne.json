@@ -1,7 +1,6 @@
 {
   "type": "examination",
   "summary": "FOB - Pozitivne",
-  "content": "<section data-x-id=\"2\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaná diagnóza:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089520809\" data-id=\"Z00.0\" title=\"[Z00.0] Všeobecné lekárske vyšetrenie\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[Z00.0] Všeobecné lekárske vyšetrenie</div></section><section data-x-id=\"4\" data-type=\"lv\" class=\"\"><aside></aside><label class=\"section-label  \">LV:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"labvys\" data-id-ezid=\"00020036711\" data-id=\"00020036711\" title=\"[00020036711] Stolica - okultné krvácanie\" style=\"width: 50ch;\">[00020036711] Stolica - okultné krvácanie</div><label data-for=\"value\" class=\" _noval\">hodnota</label><div class=\"_noval Field\" data-name=\"value\"></div><div class=\"_noval Field\" data-name=\"rank\"></div><label data-for=\"date\" class=\" _noval\">dátum</label><div class=\"_noval FieldDate hasActions\" data-name=\"date\" data-prop-value=\"2018-05-09T09:03:53.119Z\">09.05.2018</div><label data-for=\"comment\" class=\"\">poznámka:</label><div class=\"FieldHtml\" data-name=\"comment\"><br></div></section><section data-x-id=\"6\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"_noval FieldSearch hasActions truncate\" data-name=\"id\" data-ignore-visited=\"true\" data-id=\"159z\" data-id-ezid=\"02089731844@7\" data-id-classid=\"vykon\" data-prop-body=\"180\" title=\"[159z] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonu pod kódom 160. Výkon môže vykazovať lekár všeobecnej starostlivosti vtedy, ak ho sám uskut\" style=\"width: 50ch;\">[159z] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonu pod kódom 160. Výkon môže vykazovať lekár všeobecnej starostlivosti vtedy, ak ho sám uskut</div><label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
   "title": "Amb. vyš. - FOB - Pozitivne",
   "shortcut": "lv-fob-pozitivne",
   "if": "",
@@ -55,7 +54,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? var.fobpp == 'ON' &amp;&amp; zp == 25 &amp;&amp; vek &lt; 70  }}<br>",
+            "value": "{{ ? var.fobpp == 'ON' &amp;&amp; zp != 24 &amp;&amp; vek &lt; 70  }}<br>",
             "props": {}
           }
         }
@@ -98,9 +97,9 @@
           "id": {
             "value": "[Z12.1] Špeciálne skríningové vyšetrenie, zamerané na nádor čreva",
             "props": {
-              "id": "Z12.1",
+              "idClassid": "diagnoza",
               "idEzid": "02089521690@9",
-              "idClassid": "diagnoza"
+              "id": "Z12.1"
             }
           },
           "text": {
@@ -119,9 +118,9 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "id": "Z00.0",
+              "idClassid": "diagnoza",
               "idEzid": "02089520809",
-              "idClassid": "diagnoza"
+              "id": "Z00.0"
             }
           },
           "text": {
@@ -137,16 +136,16 @@
         "order": 5,
         "props": {
           "type": "lv",
-          "priority": 20,
-          "comment": "Pozitivny nalez"
+          "comment": "Pozitivny nalez",
+          "priority": 20
         },
         "value": {
           "id": {
             "value": "[00020036711] Stolica - okultné krvácanie",
             "props": {
-              "id": "00020036711",
+              "idClassid": "labvys",
               "idEzid": "00020036711",
-              "idClassid": "labvys"
+              "id": "00020036711"
             }
           },
           "value": {
@@ -158,9 +157,9 @@
             "props": {}
           },
           "date": {
-            "value": "08.03.2021",
+            "value": "21.01.2022",
             "props": {
-              "propValue": "2021-03-08T09:31:20.936Z",
+              "propValue": "2022-01-21T07:05:59.992Z",
               "expr": "=teraz"
             }
           },
@@ -240,17 +239,17 @@
           "odbor": {
             "value": "[048] gastroenterológia",
             "props": {
-              "idClassid": "zameranie",
+              "id": "048",
               "idEzid": "00000351718@5",
-              "id": "048"
+              "idClassid": "zameranie"
             }
           },
           "druh": {
             "value": "[2] ambulancia",
             "props": {
-              "idClassid": "cinnost",
+              "id": 2,
               "idEzid": "00000000273@3",
-              "id": 2
+              "idClassid": "cinnost"
             }
           },
           "presne": {
@@ -278,9 +277,9 @@
             "value": "[159a+FOB] Výkon 159a s pripočítateľnou položkou FOB",
             "props": {
               "propBody": 180,
-              "id": "159a+FOB",
+              "idClassid": "vykon",
               "idEzid": "curo-159a+FOB@26",
-              "idClassid": "vykon"
+              "id": "159a+FOB"
             }
           },
           "count": {
@@ -300,9 +299,9 @@
             "value": "[159a] Preventívne vyšetrenie na krv v stolici za použitia troch testovacích papierikov v rámci opatrení na včasnú diagnostiku ochorenia na rakovinu, dodatok k výkonu pod kódom 160. Výkon môže vykazovať lekár všeobecnej starostlivosti vtedy, ak ho sám uskut",
             "props": {
               "propBody": 180,
-              "idClassid": "vykon",
+              "id": "159a",
               "idEzid": "00000467357@7",
-              "id": "159a"
+              "idClassid": "vykon"
             }
           },
           "count": {
