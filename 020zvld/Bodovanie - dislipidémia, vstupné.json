@@ -1,6 +1,5 @@
 {
   "summary": "",
-  "content": "<section data-x-id=\"2\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? zp==25 }}<br></div></section><section data-x-id=\"3\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"E78.9\" data-id-ezid=\"02089382192@11\" data-id-classid=\"diagnoza\" title=\"[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená\" style=\"width: 50ch;\">[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená</div>​<label data-for=\"text\" class=\" _noval\">/</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"4\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"H0004\" data-id-ezid=\"02089725754@11\" data-id-classid=\"vykon\" data-prop-body=\"0\" title=\"[H0004] Kontrolné vyšetrenie u poistenca s arteriálnou hypertenziou jeden krát za 6 mesiacov\" style=\"width: 50ch;\">[H0004] Kontrolné vyšetrenie u poistenca s arteriálnou hypertenziou jeden krát za 6 mesiacov</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"5\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"5702\" data-id-ezid=\"00000494187@11\" data-id-classid=\"vykon\" data-prop-body=\"550\" data-prop-type=\"SVaLZ\" title=\"[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.\" style=\"width: 50ch;\">[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"6\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"7\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? (sessions|getSections(\"vv\")|where(\"d.period&gt;365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") &gt; 0 || sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; zp==25}}<br></div></section><section data-x-id=\"8\" data-type=\"premenna\" class=\"\"><aside></aside><label class=\"section-label  \">Premenná:</label>​<label data-for=\"name\" class=\"\">meno</label><div class=\"Field\" data-name=\"name\">skore</div>​<label data-for=\"type\" class=\"\">typ</label><div class=\"FieldList hasActions\" data-name=\"type\" data-prop-value=\"fn-score\">výpočet SCORE</div>​<label data-for=\"value\" class=\" _noval\">hodnota</label><div class=\"_noval Field\" data-name=\"value\"></div>​<label data-for=\"valueLong\" class=\" _noval\">hodnota</label><div class=\"_noval FieldHtml\" data-name=\"valueLong\"></div></section><section data-x-id=\"9\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"E78.9\" data-id-ezid=\"02089382192@11\" data-id-classid=\"diagnoza\" title=\"[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená\" style=\"width: 50ch;\">[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená</div>​<label data-for=\"text\" class=\" _noval\">/</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"10\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"02089725770@11\" data-id=\"H0006\" data-prop-body=\"0\" title=\"[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.\" style=\"width: 50ch;\">[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"11\" data-type=\"h-score\" class=\"\"><aside></aside><label class=\"section-label  \">KV SCORE:</label>​<label data-for=\"score\" class=\"\">SCORE</label><div class=\"FieldN\" data-name=\"score\">0</div>​<label data-for=\"x\" class=\"\">koeficient</label><div class=\"FieldR\" data-name=\"x\" data-prop-value=\"1.0\">1</div>​<label data-for=\"risk\" class=\"\">výsledné riziko</label><div class=\"FieldN locked\" data-name=\"risk\">0</div>​<label data-for=\"poznamka\" class=\" _noval\">pozn.</label><div class=\"_noval Field\" data-name=\"poznamka\"></div></section><section data-x-id=\"12\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"13\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? zp==24 }}<br></div></section><section data-x-id=\"14\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"E78.9\" data-id-ezid=\"02089382192@11\" data-id-classid=\"diagnoza\" title=\"[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená\" style=\"width: 50ch;\">[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená</div>​<label data-for=\"text\" class=\" _noval\">/</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"15\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000466565@11\" data-id=\"10\" data-prop-body=\"180\" title=\"[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl\" style=\"width: 50ch;\">[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"16\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000494187@11\" data-id=\"5702\" data-prop-type=\"SVaLZ\" data-prop-body=\"550\" title=\"[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.\" style=\"width: 50ch;\">[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"17\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section>",
   "title": "Bodovanie - dislipidémia, vstupné",
   "shortcut": "b-lipidv",
   "if": "",
@@ -123,9 +122,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "id": "E78.9",
+              "idClassid": "diagnoza",
               "idEzid": "02089382192@11",
-              "idClassid": "diagnoza"
+              "id": "E78.9"
             }
           },
           "text": {
@@ -144,9 +143,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "E78.9",
               "idEzid": "02089382192@11",
-              "id": "E78.9"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -165,9 +164,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "E78.9",
               "idEzid": "02089382192@11",
-              "id": "E78.9"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -186,9 +185,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "id": "E78.9",
+              "idClassid": "diagnoza",
               "idEzid": "02089382192@11",
-              "idClassid": "diagnoza"
+              "id": "E78.9"
             }
           },
           "text": {
@@ -210,9 +209,9 @@
             "value": "[H0003] Iniciálne vyšetrenie u poistenca s arteriálnou hypertenziou alebo ošetrenie akútneho hypertenzného stavu",
             "props": {
               "propBody": 0,
-              "id": "H0003",
+              "idClassid": "vykon",
               "idEzid": "02089725747@11",
-              "idClassid": "vykon"
+              "id": "H0003"
             }
           },
           "count": {
@@ -224,73 +223,6 @@
       {
         "id": 22,
         "order": 3,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
-            "props": {
-              "propBody": 180,
-              "id": 10,
-              "idEzid": "00000466565@11",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 23,
-        "order": 4,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
-            "props": {
-              "propBody": 550,
-              "propType": "SVaLZ",
-              "id": 5702,
-              "idEzid": "00000494187@11",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 28,
-        "order": 9,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
-            "props": {
-              "propBody": 0,
-              "idClassid": "vykon",
-              "idEzid": "02089725770@11",
-              "id": "H0006"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 33,
-        "order": 14,
         "props": {
           "type": "vv"
         },
@@ -311,8 +243,8 @@
         }
       },
       {
-        "id": 34,
-        "order": 15,
+        "id": 23,
+        "order": 4,
         "props": {
           "type": "vv"
         },
@@ -334,8 +266,30 @@
         }
       },
       {
-        "id": 39,
-        "order": 19,
+        "id": 28,
+        "order": 9,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
+            "props": {
+              "propBody": 0,
+              "id": "H0006",
+              "idEzid": "02089725770@11",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 33,
+        "order": 14,
         "props": {
           "type": "vv"
         },
@@ -356,8 +310,8 @@
         }
       },
       {
-        "id": 40,
-        "order": 20,
+        "id": 34,
+        "order": 15,
         "props": {
           "type": "vv"
         },
@@ -370,6 +324,51 @@
               "id": 5702,
               "idEzid": "00000494187@11",
               "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 39,
+        "order": 19,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[H0003+EDU] Výkon H0003 s pripočítateľnou položkou EDU",
+            "props": {
+              "propBody": 0,
+              "idClassid": "vykon",
+              "idEzid": "curo-H0003+EDU@34",
+              "id": "H0003+EDU"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 40,
+        "order": 20,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
+            "props": {
+              "propType": "SVaLZ",
+              "propBody": 550,
+              "idClassid": "vykon",
+              "idEzid": "00000494187@11",
+              "id": 5702
             }
           },
           "count": {
@@ -432,5 +431,8 @@
   },
   "tags": [],
   "vars": {},
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
   "source": "curo-open/curo-vzory#/020zvld"
 }
