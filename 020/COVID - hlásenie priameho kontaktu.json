@@ -2,7 +2,6 @@
   "description": "",
   "type": null,
   "summary": "COVID - hlásenie priameho kontaktu",
-  "content": "<section data-x-id=\"8\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089528679@14\" data-id=\"U07.2\" title=\"[U07.2] Podozrenie z infekcie COVID-19\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[U07.2] Podozrenie z infekcie COVID-19</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"9\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\">Pozitívne testovaná osoba:      dňa:  {{ dekurz.datum }}<br>Epidemiologická anamnéza kontaktu: <br>Klinické príznaky: <br>Členovia spoločnej domácnosti:<br></div></section><section data-x-id=\"16\" data-type=\"covid\" class=\"\"><aside></aside><label class=\"section-label  \">Covid test​:</label>​<label data-for=\"typ\" class=\"\">typ testu ​</label><div class=\"FieldList hasActions\" data-name=\"typ\" data-prop-value=\"ag\">AG</div>​<label data-for=\"vysledok\" class=\"\">výsledok​</label><div class=\"FieldList hasActions\" data-name=\"vysledok\" data-prop-value=\"negativny\">negativny</div>​<label data-for=\"date\" class=\"_noval\"> dňa​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div></section><section data-x-id=\"18\" data-type=\"covid\" class=\"\"><aside></aside><label class=\"section-label  \">Covid test​:</label>​<label data-for=\"typ\" class=\"\">typ testu ​</label><div class=\"FieldList hasActions\" data-name=\"typ\" data-prop-value=\"pcr\">PCR</div>​<label data-for=\"vysledok\" class=\"\">výsledok​</label><div class=\"FieldList hasActions\" data-name=\"vysledok\" data-prop-value=\"nemal\">nemal</div>​<label data-for=\"date\" class=\"_noval hidden\"> dňa​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div></section><section data-x-id=\"10\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\">kontakt s COVID+ osobou. <u>Kontakt na pacienta: </u>{{ pacient.tel }}, {{ pacient.email }}<br></div></section><section data-x-id=\"11\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\">1/ Platí domáca izolácia a to aj pre členov domácnosti - každý sa hlási u svojho lekára.<br>1/ Platí domáca izolácia v osobitnej miestnosti - nosiť rúška aj po domácnosti!<br>- pre členov domácnosti platí prísna redukcia soc. kontaktov - len do práce a do obchodu, každý bude nosiť rúška v domácnosti, čo najmenej v kontakte s členom rodiny na PN-ke! <br>2/ Bude čakať na telefonát z RÚVZ, a poskytne všetku potrebnú súčinnosť ohľadom testovania a karantény ako budú nariadené rozhodnutím RÚVZ!  <br>3/ Ohlási sa 10 dní od posledného kontaktu s COVID+ osobou,  alebo skôr ak bude hlásiť výsledok COVID testu (ak bude cez RÚVZ indikovaný), alebo pri zhoršení zdravot.stavu. <br>4/ Poučený/á o nároku na karaténnu DPN. <br>5/ Fyzické šetrenie, vit.C 2x500mg, tekutiny, sledovanie respiračných príznakov a telesnej teploty.<br></div></section><section data-x-id=\"20\" data-type=\"kar\" class=\"\"><aside></aside><label class=\"section-label  \">Karanténa​:</label>​<label data-for=\"date\" class=\" _noval\">začala dňa​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"date\" data-expr=\"=dnes\" data-prop-value=\"2020-11-15T23:00:00.000Z\">16.11.2020</div>​<label data-for=\"date_end\" class=\" _noval\">predpokladaný koniec dňa​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"date_end\"></div></section><section data-x-id=\"12\" data-type=\"pn\" class=\"\"><aside></aside><label class=\"section-label  \">PN​:</label>​<label data-for=\"id\" class=\" _noval\">číslo​</label><div class=\"_noval FieldSequence hasActions\" data-name=\"id\"></div>​<label data-for=\"date\" class=\"\">odo dňa​</label><div class=\"FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"date\" data-expr=\"=dnes\" data-prop-value=\"2020-11-15T23:00:00.000Z\">16.11.2020</div>​<label data-for=\"date_vystavene\" class=\"\">vystavené dňa​</label><div class=\"FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"date_vystavene\" data-expr=\"=dnes\" data-prop-value=\"2020-11-15T23:00:00.000Z\">16.11.2020</div>​<label data-for=\"znacka\" class=\" _noval\">značka​</label><div class=\"_noval Field\" data-name=\"znacka\"></div><br class=\"on-next-line _noval\"><label data-for=\"for\" class=\" _noval\">pre zamestnávateľa​</label><div class=\"_noval Field\" data-name=\"for\"></div>​<label data-for=\"adresa_pocas_PN\" class=\" _noval\">Adresa počas PN​</label><div class=\"_noval Field\" data-name=\"adresa_pocas_PN\"></div><br class=\"on-next-line _noval\"><label data-for=\"vychadzky_datum\" class=\" _noval\">Vychádzky od (dátum)​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"vychadzky_datum\"></div>​<label data-for=\"vychadzky_od\" class=\" _noval\">v čase od​</label><div class=\"_noval Field\" data-name=\"vychadzky_od\"></div>​<label data-for=\"vychadzky_do\" class=\" _noval\">do​</label><div class=\"_noval Field\" data-name=\"vychadzky_do\"></div>​<label data-for=\"vychadzky_od2\" class=\" _noval\">v čase od​</label><div class=\"_noval Field\" data-name=\"vychadzky_od2\"></div>​<label data-for=\"vychadzky_do2\" class=\" _noval\">do​</label><div class=\"_noval Field\" data-name=\"vychadzky_do2\"></div>​<label data-for=\"comment\" class=\" _noval\">poznámka​</label><div class=\"_noval Field\" data-name=\"comment\"></div></section><section data-x-id=\"13\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><label class=\"label-info has-vd has-tooltip\">U07.2​</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"71.DPN\" data-id-ezid=\"curo-71.DPN@22\" data-id-classid=\"vykon\" data-prop-body=\"35\" data-prop-type=\"soc\" title=\"[71.DPN] Vystavenie potvrdenia o dočasnej pracovnej neschopnosti.\" style=\"width: 50ch;\">[71.DPN] Vystavenie potvrdenia o dočasnej pracovnej neschopnosti.</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"14\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><label class=\"label-info has-vd has-tooltip\">U07.2​</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"1b\" data-id-ezid=\"02089894014@22\" data-id-classid=\"vykon\" data-prop-body=\"0\" title=\"[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky\" style=\"width: 50ch;\">[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
   "owner": "admin",
   "title": "COVID - hlásenie priameho kontaktu",
   "shortcut": "COVIDhpk",
@@ -20,9 +19,9 @@
           "id": {
             "value": "[U07.2] Podozrenie z infekcie COVID-19",
             "props": {
-              "id": "U07.2",
+              "idClassid": "diagnoza",
               "idEzid": "02089528679@14",
-              "idClassid": "diagnoza"
+              "id": "U07.2"
             }
           },
           "text": {
@@ -134,15 +133,18 @@
         },
         "value": {
           "date": {
-            "value": "16.11.2020",
+            "value": "31.01.2022",
             "props": {
-              "propValue": "2020-11-15T23:00:00.000Z",
+              "propValue": "2022-01-30T23:00:00.000Z",
               "expr": "=dnes"
             }
           },
           "date_end": {
-            "value": "",
-            "props": {}
+            "value": "05.02.2022",
+            "props": {
+              "propValue": "2022-02-05T07:40:47.256Z",
+              "expr": "=+5d"
+            }
           }
         }
       }
@@ -160,17 +162,23 @@
             "props": {}
           },
           "date": {
-            "value": "16.11.2020",
+            "value": "31.01.2022",
             "props": {
-              "propValue": "2020-11-15T23:00:00.000Z",
+              "propValue": "2022-01-30T23:00:00.000Z",
               "expr": "=dnes"
             }
           },
           "date_vystavene": {
-            "value": "16.11.2020",
+            "value": "31.01.2022",
             "props": {
-              "propValue": "2020-11-15T23:00:00.000Z",
+              "propValue": "2022-01-30T23:00:00.000Z",
               "expr": "=dnes"
+            }
+          },
+          "date_zaciatok": {
+            "value": "31.01.2022",
+            "props": {
+              "propValue": "2022-01-31T07:38:12.166Z"
             }
           },
           "znacka": {
@@ -223,11 +231,11 @@
           "id": {
             "value": "[71.DPN] Vystavenie potvrdenia o dočasnej pracovnej neschopnosti.",
             "props": {
-              "propType": "soc",
               "propBody": 35,
-              "idClassid": "vykon",
+              "propType": "soc",
+              "id": "71.DPN",
               "idEzid": "curo-71.DPN@22",
-              "id": "71.DPN"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -247,9 +255,9 @@
             "value": "[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
+              "id": "1b",
               "idEzid": "02089894014@22",
-              "id": "1b"
+              "idClassid": "vykon"
             }
           },
           "count": {
