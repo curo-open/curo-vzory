@@ -1,0 +1,140 @@
+{
+  "title": "PP záver",
+  "owner": "zavrel",
+  "shortcut": "ppz",
+  "if": "",
+  "data": {
+    "_": {},
+    "premenna": [
+      {
+        "id": 6,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "odp",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 7,
+        "order": 1,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "zaver",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 2,
+        "order": 2,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "{{ var.odp }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "obj": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "obj",
+          "objId": "ckylcvlm1000d3w76savm7z8a"
+        },
+        "value": {
+          "type": {
+            "value": "Objednanie",
+            "props": {
+              "propValue": "O"
+            }
+          },
+          "time": {
+            "value": "",
+            "props": {}
+          },
+          "duration": {
+            "value": "5",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          },
+          "display": {
+            "value": "základné",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "style": {
+            "value": "0",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "sync": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          }
+        }
+      }
+    ],
+    "dz": [
+      {
+        "id": 4,
+        "order": 4,
+        "props": {
+          "type": "dz"
+        },
+        "value": {
+          "dz": {
+            "value": "{{ var.zaver }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/007"
+}

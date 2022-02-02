@@ -93,9 +93,9 @@
             }
           },
           "datum": {
-            "value": "04.10.2021 00:00",
+            "value": "02.02.2022 00:00",
             "props": {
-              "propValue": "2021-10-03T22:00:00.000Z",
+              "propValue": "2022-02-01T23:00:00.000Z",
               "expr": "=dnes"
             }
           },
@@ -143,9 +143,9 @@
             }
           },
           "datum": {
-            "value": "04.10.2021 00:00",
+            "value": "02.02.2022 00:00",
             "props": {
-              "propValue": "2021-10-03T22:00:00.000Z",
+              "propValue": "2022-02-01T23:00:00.000Z",
               "expr": "=d"
             }
           },
@@ -193,9 +193,9 @@
             }
           },
           "datum": {
-            "value": "04.10.2021 00:00",
+            "value": "02.02.2022 00:00",
             "props": {
-              "propValue": "2021-10-03T22:00:00.000Z",
+              "propValue": "2022-02-01T23:00:00.000Z",
               "expr": "=d"
             }
           },
@@ -304,28 +304,29 @@
         },
         "value": {
           "id": {
-            "value": "[44439] Priorix-Tetra | plv iol 1+1x0,5 ml solv. (liek.inj.skl.+striek.skl.napl.+2 ihly)",
+            "value": "[28654] Priorix | plv iol 10x0,5 ml+10x0,5 ml solv. (liek.inj.skl.+striek.inj.skl.napl.s 2 oddel.ihlami)",
             "props": {
-              "propDpl": 53.92,
-              "propSpUhr": "S",
-              "propUnit": "DF",
-              "propGp": 0,
-              "propBal": 1,
-              "propUzp_1zvj": 13.474,
-              "propVnl": "R",
-              "propCena": 67.39,
-              "propSdl": 1,
-              "propAtcName": "Očkovacia látka proti osýpkam, kombinácie s mumpsom, ružienkou, ovčími kiahňami, živá oslabená",
-              "propOl": 1,
-              "propKat": true,
               "propPo_0": "PED",
-              "id": 44439,
-              "idUl": "",
-              "idAtc": "J07BD54",
-              "idSp": "sim",
+              "propKat": true,
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti osýpkam, kombinácie s mumpsom a ružienkou, živá oslabená",
+              "propSdl": 10,
+              "propCena": 94.46,
+              "propVnl": "R",
+              "propUzp_1zvj": "9.446000",
+              "propBal": 10,
+              "propGp": 0,
+              "propIo": "ind.obm.",
+              "propUnit": "DF",
+              "propSpUhr": "V",
+              "propDpl": 0,
+              "idClassid": "liek",
+              "idEzid": "00020631909",
               "idF": "PLV IOL",
-              "idEzid": "00020897427",
-              "idClassid": "liek"
+              "idSp": "suc",
+              "idAtc": "J07BD52",
+              "idUl": "",
+              "id": 28654
             }
           },
           "sn": {
@@ -668,5 +669,5 @@
   },
   "allowedUsers": [],
   "allowedIdentities": [],
-  "source": "curo-open/curo-vzory#/008"
+  "source": "curo-open/curo-vzory#/007"
 }

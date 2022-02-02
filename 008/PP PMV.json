@@ -1,0 +1,96 @@
+{
+  "title": "PP PMV",
+  "owner": "zavrel",
+  "shortcut": "pppmv",
+  "summary": "",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.value=='PMV'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 5,
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{? vek &gt;= 2 }}<br><b>Lateralita:</b> pravák-ľavák.     <b>Znalosť farieb: </b>dobrá - priemerná - nepozná.    <br>{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 6,
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{? vek &gt;= 5 }}<br><b>Posúdenie školskej zrelosti:</b>   <br>{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pv": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "PMV",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "<b>Hrubá motorika:</b>  prevladajú šijové asymetrické reflexy, v polohe na brušku otáča hlavičku, na chvíľku ju dokáže zdvíhať<br><b>Jemná motorika:</b> obe ruky pevne zovreté, dotknem sa predmetom dlane, tak ju zatvorí<br><b>Reč:</b> hrdelné zvuky<br><b>Sociálne:</b> sleduje tvár vyšetrujúceho s klesajúcou aktivitou, nezúčastnene sleduje okolie<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/007"
+}
