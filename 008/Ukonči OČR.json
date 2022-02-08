@@ -1,0 +1,36 @@
+{
+  "title": "Ukonči OČR",
+  "shortcut": "xocr",
+  "summary": "Ukoncenie OČR",
+  "if": "",
+  "data": {
+    "_": {},
+    "xocr": [
+      {
+        "id": 6,
+        "order": 0,
+        "props": {
+          "type": "xocr"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "pn"
+  ],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "owner": "admin",
+  "source": "curo-open/curo-vzory#/020"
+}

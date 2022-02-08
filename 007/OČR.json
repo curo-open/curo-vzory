@@ -1,0 +1,91 @@
+{
+  "title": "OČR",
+  "owner": "admin",
+  "shortcut": "ocr",
+  "summary": "OČR",
+  "if": "",
+  "data": {
+    "_": {},
+    "ocr": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "ocr"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "date": {
+            "value": "08.02.2022",
+            "props": {
+              "propValue": "2022-02-07T23:00:00.000Z",
+              "expr": "=dnes"
+            }
+          },
+          "date_vystavene": {
+            "value": "08.02.2022",
+            "props": {
+              "propValue": "2022-02-07T23:00:00.000Z",
+              "expr": "=dnes"
+            }
+          },
+          "ocr_osoba": {
+            "value": "",
+            "props": {}
+          },
+          "ocr_osoba_rc": {
+            "value": "",
+            "props": {}
+          },
+          "for": {
+            "value": "",
+            "props": {}
+          },
+          "adresa_pocas_PN": {
+            "value": "",
+            "props": {}
+          },
+          "comment": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 4,
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[71.OCR] Vystavenie potvrdenia o potrebe ošetrovania alebo starostlivosti.",
+            "props": {
+              "propType": "soc",
+              "propBody": 35,
+              "idClassid": "vykon",
+              "idEzid": "curo-71.OCR@34",
+              "id": "71.OCR"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "pn"
+  ],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/020"
+}
