@@ -1,7 +1,6 @@
 {
   "type": null,
   "summary": "COVID - koniec karantény",
-  "content": "<section data-x-id=\"2\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.​:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089528679@13\" data-id=\"U07.2\" title=\"[U07.2] Podozrenie z infekcie COVID-19\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[U07.2] Podozrenie z infekcie COVID-19</div>​<label data-for=\"text\" class=\" _noval\">/​</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"10\" data-type=\"t\" class=\"\"><aside></aside><div class=\"_noval FieldHtml\" data-name=\"t\"></div></section><section data-x-id=\"4\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\">má sa dobre, teploty neboli, nekašle.<br></div></section><section data-x-id=\"12\" data-type=\"covid\" class=\"\"><aside></aside><label class=\"section-label  \">Covid test​:</label>​<label data-for=\"typ\" class=\"\">typ testu ​</label><div class=\"FieldList hasActions\" data-name=\"typ\" data-prop-value=\"ag\">AG</div>​<label data-for=\"vysledok\" class=\"\">výsledok​</label><div class=\"FieldList hasActions\" data-name=\"vysledok\" data-prop-value=\"negativny\">negativny</div>​<label data-for=\"date\" class=\"_noval\"> dňa​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div></section><section data-x-id=\"14\" data-type=\"covid\" class=\"\"><aside></aside><label class=\"section-label  \">Covid test​:</label>​<label data-for=\"typ\" class=\"\">typ testu ​</label><div class=\"FieldList hasActions\" data-name=\"typ\" data-prop-value=\"pcr\">PCR</div>​<label data-for=\"vysledok\" class=\"\">výsledok​</label><div class=\"FieldList hasActions\" data-name=\"vysledok\" data-prop-value=\"nemal\">nemal</div>​<label data-for=\"date\" class=\"_noval hidden\"> dňa​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div></section><section data-x-id=\"9\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"FieldHtml\" data-name=\"o\"><br>Posledné 3 dni karatény presvedčivo bez príznakov respir. infektu.<br></div></section><section data-x-id=\"16\" data-type=\"xkar\" class=\"\"><aside></aside><label class=\"section-label  \">Karanténa koniec​:</label>​<label data-for=\"date\" class=\" _noval\">ukončená dňa​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div></section><section data-x-id=\"6\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\">    <br>Platia všetky všeobecne záväzné protiepidemické opatrenia.<br></div></section><section data-x-id=\"7\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Výkon​:</label><label class=\"label-info has-vd has-tooltip\">U07.2​</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"1b\" data-id-ezid=\"02089894014@20\" data-id-classid=\"vykon\" data-prop-body=\"0\" title=\"[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky\" style=\"width: 50ch;\">[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky</div>​<label data-for=\"count\" class=\"\">počet​</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
   "owner": "admin",
   "title": "COVID - koniec karantény",
   "shortcut": "COVIDkk",
@@ -118,7 +117,7 @@
         },
         "value": {
           "o": {
-            "value": "<br>Posledné 3 dni karatény presvedčivo bez príznakov respir. infektu.<br>",
+            "value": "<br>Posledných 24 hodín karatény presvedčivo bez príznakov respir. infektu.<br>",
             "props": {}
           }
         }
@@ -133,9 +132,9 @@
         },
         "value": {
           "date": {
-            "value": "03.03.2021",
+            "value": "09.02.2022",
             "props": {
-              "propValue": "2021-03-02T23:00:00.000Z",
+              "propValue": "2022-02-08T23:00:00.000Z",
               "expr": "=dnes"
             }
           }
