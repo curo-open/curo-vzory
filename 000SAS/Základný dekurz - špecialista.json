@@ -1,7 +1,6 @@
 {
-  "title": "Základný dekurz",
+  "title": "Základný dekurz - špecialista",
   "shortcut": "1",
-  "content": "<section data-x-id=\"2\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.:</label><div class=\"FieldHtml\" data-name=\"s\"><br></div></section><section data-x-id=\"3\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.:</label><div class=\"FieldHtml\" data-name=\"o\"><br></div></section><section data-x-id=\"4\" data-type=\"th\" class=\"\"><aside></aside><label class=\"section-label  \">Th.:</label><div class=\"FieldHtml\" data-name=\"th\"><br></div></section><section data-x-id=\"7\" data-type=\"z\" class=\"\"><aside></aside><label class=\"section-label  \">Záver:</label><div class=\"FieldHtml\" data-name=\"z\"><br></div></section><section data-x-id=\"9\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id=\"4\" data-prop-p25body=\"200\" data-prop-p24body=\"200\" data-prop-p27body=\"200\" title=\"[4] Štandardné vyšetrenie jedného orgánového systému – kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné v\" style=\"width: 50ch;\">[4] Štandardné vyšetrenie jedného orgánového systému – kontrolné vyšetrenie. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné v</div><label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
   "summary": "Základný dekurz ",
   "if": "",
   "data": {
@@ -109,13 +108,8 @@
         },
         "value": {
           "id": {
-            "value": "[60] Komplexné vyšetrenie pacienta (kompletná anamnéza, vyšetrenie všetkých orgánových systémov, založenie zdravotnej dokumentácie, diagnostický záver, liečebný plán a (alebo) zaradenie do dispenzárnej starostlivosti, odoslanie pacienta na ďalšie laborató",
-            "props": {
-              "propBody": 350,
-              "idClassid": "vykon",
-              "idEzid": "00000466730@13",
-              "id": 60
-            }
+            "value": "",
+            "props": {}
           },
           "count": {
             "value": "1",
@@ -124,15 +118,16 @@
         }
       }
     ],
-    "bod": [
+    "vyk": [
       {
-        "id": 15,
+        "id": 17,
         "order": 7,
         "props": {
-          "type": "bod"
+          "type": "vyk",
+          "group": true
         },
         "value": {
-          "bod": {
+          "vyk": {
             "value": "",
             "props": {}
           }
@@ -145,5 +140,8 @@
   ],
   "vars": {},
   "type": "examination",
-  "source": "curo-open/curo-vzory#/001"
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/000SAS"
 }
