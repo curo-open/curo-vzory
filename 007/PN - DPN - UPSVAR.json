@@ -1,0 +1,71 @@
+{
+  "type": "examination",
+  "summary": "PN - UPSVAR",
+  "content": "<section data-x-id=\"3\" data-type=\"pn\" class=\"\"><aside></aside><label class=\"section-label  \">PN:</label>​<label data-for=\"id\" class=\" _noval\">číslo</label><div class=\"_noval FieldSequence hasActions\" data-name=\"id\"></div>​<label data-for=\"date\" class=\"\">odo dňa</label><div class=\"FieldDate hasActions\" data-name=\"date\" data-expr=\"=teraz\" data-prop-value=\"2018-05-02T07:37:06.665Z\">02.05.2018</div>​<label data-for=\"date_vystavene\" class=\"\">Vystavené dňa</label><div class=\"FieldDate hasActions\" data-name=\"date_vystavene\" data-expr=\"=teraz\" data-prop-value=\"2018-05-02T07:37:06.666Z\">02.05.2018</div><br><label data-for=\"for\" class=\" _noval\">pre zamestnávateľa</label><div class=\"_noval Field\" data-name=\"for\"></div>​<label data-for=\"adresa_pocas_PN\" class=\" _noval\">Adresa počas PN</label><div class=\"_noval Field\" data-name=\"adresa_pocas_PN\"></div><br><label data-for=\"vychadzky_datum\" class=\" _noval\">Vychádzky povolené od</label><div class=\"_noval FieldDate hasActions\" data-name=\"vychadzky_datum\"></div>​<label data-for=\"vychadzky_od\" class=\" _noval\">v čase od</label><div class=\"_noval Field\" data-name=\"vychadzky_od\"></div>​<label data-for=\"vychadzky_do\" class=\" _noval\">do</label><div class=\"_noval Field\" data-name=\"vychadzky_do\"></div>​<label data-for=\"comment\" class=\" _noval\">poznámka</label><div class=\"_noval Field\" data-name=\"comment\"></div></section><section data-x-id=\"7\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"curo-71.DPN@7\" data-id=\"71.DPN\" data-prop-type=\"soc\" data-prop-body=\"35\" title=\"[71.DPN] Vystavenie potvrdenia o dočasnej pracovnej neschopnosti.\" style=\"width: 50ch;\">[71.DPN] Vystavenie potvrdenia o dočasnej pracovnej neschopnosti.</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
+  "title": "PN - DPN - UPSVAR",
+  "shortcut": "pv-upsvar",
+  "if": "",
+  "data": {
+    "_": {},
+    "pn": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "pn"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "date": {
+            "value": "08.02.2019",
+            "props": {
+              "propValue": "2019-02-08T21:51:22.965Z",
+              "expr": "=teraz"
+            }
+          },
+          "date_vystavene": {
+            "value": "08.02.2019",
+            "props": {
+              "propValue": "2019-02-08T21:51:22.966Z",
+              "expr": "=teraz"
+            }
+          },
+          "for": {
+            "value": "UPSVAR",
+            "props": {}
+          },
+          "adresa_pocas_PN": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_datum": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_od": {
+            "value": "",
+            "props": {}
+          },
+          "vychadzky_do": {
+            "value": "",
+            "props": {}
+          },
+          "vyziadane_datum": {
+            "value": "",
+            "props": {}
+          },
+          "comment": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "source": "curo-open/curo-vzory#/020"
+}
