@@ -44,7 +44,7 @@
       },
       {
         "id": 9,
-        "order": 3,
+        "order": 4,
         "props": {
           "type": "t"
         },
@@ -57,7 +57,7 @@
       },
       {
         "id": 11,
-        "order": 4,
+        "order": 5,
         "props": {
           "type": "t"
         },
@@ -70,7 +70,7 @@
       },
       {
         "id": 12,
-        "order": 6,
+        "order": 7,
         "props": {
           "type": "t"
         },
@@ -83,7 +83,7 @@
       },
       {
         "id": 4,
-        "order": 7,
+        "order": 8,
         "props": {
           "type": "t"
         },
@@ -96,7 +96,7 @@
       },
       {
         "id": 6,
-        "order": 9,
+        "order": 10,
         "props": {
           "type": "t"
         },
@@ -109,7 +109,7 @@
       },
       {
         "id": 29,
-        "order": 10,
+        "order": 11,
         "props": {
           "type": "t"
         },
@@ -122,7 +122,7 @@
       },
       {
         "id": 31,
-        "order": 12,
+        "order": 13,
         "props": {
           "type": "t"
         },
@@ -135,7 +135,7 @@
       },
       {
         "id": 14,
-        "order": 13,
+        "order": 14,
         "props": {
           "type": "t"
         },
@@ -148,7 +148,7 @@
       },
       {
         "id": 13,
-        "order": 15,
+        "order": 16,
         "props": {
           "type": "t"
         },
@@ -161,7 +161,7 @@
       },
       {
         "id": 18,
-        "order": 16,
+        "order": 17,
         "props": {
           "type": "t"
         },
@@ -174,7 +174,7 @@
       },
       {
         "id": 20,
-        "order": 18,
+        "order": 19,
         "props": {
           "type": "t"
         },
@@ -187,7 +187,7 @@
       },
       {
         "id": 22,
-        "order": 19,
+        "order": 20,
         "props": {
           "type": "t"
         },
@@ -200,7 +200,7 @@
       },
       {
         "id": 24,
-        "order": 21,
+        "order": 22,
         "props": {
           "type": "t"
         },
@@ -213,7 +213,7 @@
       },
       {
         "id": 33,
-        "order": 22,
+        "order": 23,
         "props": {
           "type": "t"
         },
@@ -226,7 +226,7 @@
       },
       {
         "id": 35,
-        "order": 24,
+        "order": 25,
         "props": {
           "type": "t"
         },
@@ -239,7 +239,7 @@
       },
       {
         "id": 37,
-        "order": 25,
+        "order": 26,
         "props": {
           "type": "t"
         },
@@ -252,7 +252,7 @@
       },
       {
         "id": 39,
-        "order": 27,
+        "order": 28,
         "props": {
           "type": "t"
         },
@@ -265,7 +265,7 @@
       },
       {
         "id": 41,
-        "order": 28,
+        "order": 29,
         "props": {
           "type": "t"
         },
@@ -278,7 +278,7 @@
       },
       {
         "id": 43,
-        "order": 30,
+        "order": 31,
         "props": {
           "type": "t"
         },
@@ -291,7 +291,7 @@
       },
       {
         "id": 45,
-        "order": 31,
+        "order": 32,
         "props": {
           "type": "t"
         },
@@ -362,7 +362,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
+            "value": "{{ ? }}tlac&nbsp;id=\"davka\"&nbsp;<br>",
             "props": {}
           }
         }
@@ -460,7 +460,7 @@
       },
       {
         "id": 72,
-        "order": 52,
+        "order": 53,
         "props": {
           "type": "t"
         },
@@ -473,7 +473,7 @@
       },
       {
         "id": 74,
-        "order": 53,
+        "order": 54,
         "props": {
           "type": "t"
         },
@@ -486,7 +486,7 @@
       },
       {
         "id": 76,
-        "order": 55,
+        "order": 56,
         "props": {
           "type": "t"
         },
@@ -499,7 +499,7 @@
       },
       {
         "id": 78,
-        "order": 56,
+        "order": 57,
         "props": {
           "type": "t"
         },
@@ -512,7 +512,7 @@
       },
       {
         "id": 80,
-        "order": 58,
+        "order": 59,
         "props": {
           "type": "t"
         },
@@ -525,7 +525,7 @@
       },
       {
         "id": 82,
-        "order": 59,
+        "order": 60,
         "props": {
           "type": "t"
         },
@@ -538,7 +538,7 @@
       },
       {
         "id": 84,
-        "order": 62,
+        "order": 63,
         "props": {
           "type": "t"
         },
@@ -551,7 +551,7 @@
       },
       {
         "id": 86,
-        "order": 63,
+        "order": 64,
         "props": {
           "type": "t"
         },
@@ -564,7 +564,33 @@
       },
       {
         "id": 88,
-        "order": 66,
+        "order": 67,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 97,
+        "order": 68,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vRokoch &gt; 18 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 100,
+        "order": 70,
         "props": {
           "type": "t"
         },
@@ -600,8 +626,30 @@
         }
       },
       {
+        "id": 95,
+        "order": 3,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[25] Návšteva (v pracovnom čase).",
+            "props": {
+              "propBody": 285,
+              "idClassid": "vykon",
+              "idEzid": "00000466623@37",
+              "id": 25
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 3,
-        "order": 5,
+        "order": 6,
         "props": {
           "type": "vv"
         },
@@ -623,7 +671,7 @@
       },
       {
         "id": 5,
-        "order": 8,
+        "order": 9,
         "props": {
           "type": "vv"
         },
@@ -645,7 +693,7 @@
       },
       {
         "id": 30,
-        "order": 11,
+        "order": 12,
         "props": {
           "type": "vv"
         },
@@ -667,7 +715,7 @@
       },
       {
         "id": 16,
-        "order": 14,
+        "order": 15,
         "props": {
           "type": "vv"
         },
@@ -689,7 +737,7 @@
       },
       {
         "id": 19,
-        "order": 17,
+        "order": 18,
         "props": {
           "type": "vv"
         },
@@ -711,7 +759,7 @@
       },
       {
         "id": 23,
-        "order": 20,
+        "order": 21,
         "props": {
           "type": "vv"
         },
@@ -733,7 +781,7 @@
       },
       {
         "id": 34,
-        "order": 23,
+        "order": 24,
         "props": {
           "type": "vv"
         },
@@ -755,7 +803,7 @@
       },
       {
         "id": 38,
-        "order": 26,
+        "order": 27,
         "props": {
           "type": "vv"
         },
@@ -777,7 +825,7 @@
       },
       {
         "id": 42,
-        "order": 29,
+        "order": 30,
         "props": {
           "type": "vv"
         },
@@ -799,7 +847,7 @@
       },
       {
         "id": 46,
-        "order": 32,
+        "order": 33,
         "props": {
           "type": "vv"
         },
@@ -811,28 +859,6 @@
               "idClassid": "vykon",
               "idEzid": "00000467183@21",
               "id": "146b"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 90,
-        "order": 33,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[159b] Preventívne vyšetrenie celkového cholesterolu v 11. a 17. roku života a celkového cholesterolu a triacylglycerolov v 40. roku života. Okrem odberu sa vykazuje cielená anamnéza, posúdenie genetickej záťaže, posúdenie laboratórnych výsledkov, v prípade",
-            "props": {
-              "propBody": 100,
-              "id": "159b",
-              "idEzid": "00000467365@21",
-              "idClassid": "vykon"
             }
           },
           "count": {
@@ -974,8 +1000,30 @@
         }
       },
       {
+        "id": 90,
+        "order": 52,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[159b] Preventívne vyšetrenie celkového cholesterolu v 11. a 17. roku života a celkového cholesterolu a triacylglycerolov v 40. roku života. Okrem odberu sa vykazuje cielená anamnéza, posúdenie genetickej záťaže, posúdenie laboratórnych výsledkov, v prípade",
+            "props": {
+              "propBody": 100,
+              "id": "159b",
+              "idEzid": "00000467365@21",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 75,
-        "order": 54,
+        "order": 55,
         "props": {
           "type": "vv"
         },
@@ -997,7 +1045,7 @@
       },
       {
         "id": 79,
-        "order": 57,
+        "order": 58,
         "props": {
           "type": "vv"
         },
@@ -1019,7 +1067,7 @@
       },
       {
         "id": 83,
-        "order": 60,
+        "order": 61,
         "props": {
           "type": "vv"
         },
@@ -1041,7 +1089,7 @@
       },
       {
         "id": 92,
-        "order": 61,
+        "order": 62,
         "props": {
           "type": "vv"
         },
@@ -1063,7 +1111,7 @@
       },
       {
         "id": 87,
-        "order": 64,
+        "order": 65,
         "props": {
           "type": "vv"
         },
@@ -1085,7 +1133,7 @@
       },
       {
         "id": 94,
-        "order": 65,
+        "order": 66,
         "props": {
           "type": "vv"
         },
@@ -1104,6 +1152,28 @@
             "props": {}
           }
         }
+      },
+      {
+        "id": 98,
+        "order": 69,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[160] Základná preventívna prehliadka. Výkon obsahuje komplexné vyšetrenie v rámci základnej preventívnej prehliadky vrátane prehliadky v rámci prevencie kardiovaskulárnych chorôb. Obsah vyšetrenia je zhodný s výkonom pod kódom 60. Výkon môže vykazovať lek",
+            "props": {
+              "propBody": 350,
+              "idClassid": "vykon",
+              "idEzid": "00000467373@37",
+              "id": 160
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
       }
     ]
   },
@@ -1112,5 +1182,5 @@
   "owner": "moravcikova",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "source": "curo-open/curo-vzory#/007"
+  "source": "curo-open/curo-vzory#/008"
 }
