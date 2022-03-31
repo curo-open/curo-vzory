@@ -16,9 +16,9 @@
           "id": {
             "value": "[Z00.1] Rutinné vyšetrenie zdravotného stavu dieťaťa",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z00.1",
               "idEzid": "02089520817@13",
-              "id": "Z00.1"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -252,7 +252,7 @@
       },
       {
         "id": 39,
-        "order": 28,
+        "order": 29,
         "props": {
           "type": "t"
         },
@@ -265,7 +265,7 @@
       },
       {
         "id": 41,
-        "order": 29,
+        "order": 30,
         "props": {
           "type": "t"
         },
@@ -278,7 +278,7 @@
       },
       {
         "id": 43,
-        "order": 31,
+        "order": 33,
         "props": {
           "type": "t"
         },
@@ -291,7 +291,7 @@
       },
       {
         "id": 45,
-        "order": 32,
+        "order": 34,
         "props": {
           "type": "t"
         },
@@ -304,32 +304,6 @@
       },
       {
         "id": 47,
-        "order": 34,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 49,
-        "order": 35,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? pacient.vekDni|vMesiacoch &gt;= 14 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 18 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 51,
         "order": 37,
         "props": {
           "type": "t"
@@ -342,8 +316,34 @@
         }
       },
       {
-        "id": 53,
+        "id": 49,
         "order": 38,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vMesiacoch &gt;= 14 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 18 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 51,
+        "order": 41,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 53,
+        "order": 42,
         "props": {
           "type": "t"
         },
@@ -356,7 +356,7 @@
       },
       {
         "id": 55,
-        "order": 40,
+        "order": 45,
         "props": {
           "type": "t"
         },
@@ -369,7 +369,7 @@
       },
       {
         "id": 57,
-        "order": 41,
+        "order": 46,
         "props": {
           "type": "t"
         },
@@ -382,58 +382,6 @@
       },
       {
         "id": 59,
-        "order": 43,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 62,
-        "order": 44,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? pacient.vekDni|vRokoch == 5 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 64,
-        "order": 46,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 66,
-        "order": 47,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? pacient.vekDni|vRokoch == 8 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 68,
         "order": 49,
         "props": {
           "type": "t"
@@ -446,8 +394,60 @@
         }
       },
       {
-        "id": 70,
+        "id": 62,
         "order": 50,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vRokoch == 5 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 64,
+        "order": 52,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 66,
+        "order": 53,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vRokoch == 8 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 68,
+        "order": 55,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 70,
+        "order": 56,
         "props": {
           "type": "t"
         },
@@ -460,58 +460,6 @@
       },
       {
         "id": 72,
-        "order": 53,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 74,
-        "order": 54,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? pacient.vekDni|vRokoch == 12 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 76,
-        "order": 56,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 78,
-        "order": 57,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? pacient.vekDni|vRokoch == 14 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 80,
         "order": 59,
         "props": {
           "type": "t"
@@ -524,8 +472,60 @@
         }
       },
       {
-        "id": 82,
+        "id": 74,
         "order": 60,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vRokoch == 12 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 76,
+        "order": 62,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 78,
+        "order": 63,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vRokoch == 14 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 80,
+        "order": 65,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 82,
+        "order": 66,
         "props": {
           "type": "t"
         },
@@ -538,7 +538,7 @@
       },
       {
         "id": 84,
-        "order": 63,
+        "order": 69,
         "props": {
           "type": "t"
         },
@@ -551,7 +551,7 @@
       },
       {
         "id": 86,
-        "order": 64,
+        "order": 70,
         "props": {
           "type": "t"
         },
@@ -564,7 +564,7 @@
       },
       {
         "id": 88,
-        "order": 67,
+        "order": 73,
         "props": {
           "type": "t"
         },
@@ -577,7 +577,7 @@
       },
       {
         "id": 97,
-        "order": 68,
+        "order": 74,
         "props": {
           "type": "t"
         },
@@ -590,7 +590,7 @@
       },
       {
         "id": 100,
-        "order": 70,
+        "order": 76,
         "props": {
           "type": "t"
         },
@@ -614,9 +614,9 @@
             "value": "[142] 1. preventívna prehliadka, bazálne vyšetrenie novorodenca. Výkon vykazuje lekár s príslušnou špecializáciou po prepustení novorodenca z ústavnej starostlivosti.",
             "props": {
               "propBody": 350,
-              "id": 142,
+              "idClassid": "vykon",
               "idEzid": "00000467100@21",
-              "idClassid": "vykon"
+              "id": 142
             }
           },
           "count": {
@@ -636,9 +636,9 @@
             "value": "[25] Návšteva (v pracovnom čase).",
             "props": {
               "propBody": 285,
-              "idClassid": "vykon",
+              "id": 25,
               "idEzid": "00000466623@37",
-              "id": 25
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -658,9 +658,9 @@
             "value": "[143] 2. preventívna prehliadka, vykazuje sa do 4. týždna života dieťaťa. Výkon vykazuje lekár s príslušnou špecializáciou ako druhú preventívnu prehliadku v prvom mesiaci života dieťaťa podľa tohto zákona",
             "props": {
               "propBody": 350,
-              "idClassid": "vykon",
+              "id": 143,
               "idEzid": "00000467118@21",
-              "id": 143
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -672,28 +672,6 @@
       {
         "id": 5,
         "order": 9,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[950] Vyšetrenie psychomotorického vývinu dieťaťa vo vzťahu k hrubej a jemnej motorike, k reči a k sociálnym vzťahom podľa štandardnej stupnice vrátane dokumentácie. Pri výkone pod kódom 950 nemožno výkony",
-            "props": {
-              "propBody": 390,
-              "id": 950,
-              "idEzid": "00000469288@21",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 30,
-        "order": 12,
         "props": {
           "type": "vv"
         },
@@ -714,6 +692,28 @@
         }
       },
       {
+        "id": 30,
+        "order": 12,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[950] Vyšetrenie psychomotorického vývinu dieťaťa vo vzťahu k hrubej a jemnej motorike, k reči a k sociálnym vzťahom podľa štandardnej stupnice vrátane dokumentácie. Pri výkone pod kódom 950 nemožno výkony",
+            "props": {
+              "propBody": 390,
+              "id": 950,
+              "idEzid": "00000469288@21",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 16,
         "order": 15,
         "props": {
@@ -724,9 +724,9 @@
             "value": "[143a] 3. preventívna prehliadka sa vykazuje v 5. až 7. týždni života dieťaťa (vrátane vyšetrenia psychomotorického vývinu a antropometrických meraní).",
             "props": {
               "propBody": 350,
-              "id": "143a",
+              "idClassid": "vykon",
               "idEzid": "00000467126@21",
-              "idClassid": "vykon"
+              "id": "143a"
             }
           },
           "count": {
@@ -746,9 +746,9 @@
             "value": "[144] 4. preventívna prehliadka sa vykazuje v 8. až 10. týždni života (vrátane vyšetrenia psychomotorického vývinu a antropometrických meraní).",
             "props": {
               "propBody": 350,
-              "idClassid": "vykon",
+              "id": 144,
               "idEzid": "00000467134@21",
-              "id": 144
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -768,9 +768,9 @@
             "value": "[145] 5. preventívna prehliadka sa vykazuje v 3. až 4. mesiaci života dieťaťa (vrátane antropometrických meraní).",
             "props": {
               "propBody": 350,
-              "idClassid": "vykon",
+              "id": 145,
               "idEzid": "00000467142@21",
-              "id": 145
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -790,9 +790,9 @@
             "value": "[145a] 6. preventívna prehliadka sa vykazuje v 5. až 6. mesiaci života dieťaťa (vrátane antropometrických meraní).",
             "props": {
               "propBody": 370,
-              "idClassid": "vykon",
+              "id": "145a",
               "idEzid": "00000467159@21",
-              "id": "145a"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -812,9 +812,31 @@
             "value": "[146] 7. preventívna prehliadka sa vykazuje v 7. až 8. mesiaci života dieťaťa (vrátane antropometrických meraní).",
             "props": {
               "propBody": 370,
-              "idClassid": "vykon",
+              "id": 146,
               "idEzid": "00000467167@21",
-              "id": 146
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 102,
+        "order": 28,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[950] Vyšetrenie psychomotorického vývinu dieťaťa vo vzťahu k hrubej a jemnej motorike, k reči a k sociálnym vzťahom podľa štandardnej stupnice vrátane dokumentácie. Pri výkone pod kódom 950 nemožno výkony",
+            "props": {
+              "propBody": 390,
+              "idClassid": "vykon",
+              "idEzid": "00000469288@37",
+              "id": 950
             }
           },
           "count": {
@@ -825,7 +847,7 @@
       },
       {
         "id": 42,
-        "order": 30,
+        "order": 31,
         "props": {
           "type": "vv"
         },
@@ -834,9 +856,31 @@
             "value": "[146a] 8. preventívna prehliadka sa vykazuje v 9. až 10. mesiaci života dieťaťa (vrátane antropometrických meraní).",
             "props": {
               "propBody": 370,
-              "idClassid": "vykon",
+              "id": "146a",
               "idEzid": "00000467175@21",
-              "id": "146a"
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 104,
+        "order": 32,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[950] Vyšetrenie psychomotorického vývinu dieťaťa vo vzťahu k hrubej a jemnej motorike, k reči a k sociálnym vzťahom podľa štandardnej stupnice vrátane dokumentácie. Pri výkone pod kódom 950 nemožno výkony",
+            "props": {
+              "propBody": 390,
+              "idClassid": "vykon",
+              "idEzid": "00000469288@37",
+              "id": 950
             }
           },
           "count": {
@@ -847,7 +891,7 @@
       },
       {
         "id": 46,
-        "order": 33,
+        "order": 35,
         "props": {
           "type": "vv"
         },
@@ -856,9 +900,31 @@
             "value": "[146b] 9. preventívna prehliadka sa vykazuje v 11. až 12. mesiaci života dieťaťa (vrátane antropometrických meraní).",
             "props": {
               "propBody": 370,
-              "idClassid": "vykon",
+              "id": "146b",
               "idEzid": "00000467183@21",
-              "id": "146b"
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 106,
+        "order": 36,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[950] Vyšetrenie psychomotorického vývinu dieťaťa vo vzťahu k hrubej a jemnej motorike, k reči a k sociálnym vzťahom podľa štandardnej stupnice vrátane dokumentácie. Pri výkone pod kódom 950 nemožno výkony",
+            "props": {
+              "propBody": 390,
+              "idClassid": "vykon",
+              "idEzid": "00000469288@37",
+              "id": 950
             }
           },
           "count": {
@@ -869,7 +935,7 @@
       },
       {
         "id": 50,
-        "order": 36,
+        "order": 39,
         "props": {
           "type": "vv"
         },
@@ -878,9 +944,31 @@
             "value": "[146c] 10. preventívna prehliadka sa vykazuje v 18. mesiaci života dieťaťa (vrátane antropometrických meraní).",
             "props": {
               "propBody": 370,
-              "idClassid": "vykon",
+              "id": "146c",
               "idEzid": "00000467191@21",
-              "id": "146c"
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 108,
+        "order": 40,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[950] Vyšetrenie psychomotorického vývinu dieťaťa vo vzťahu k hrubej a jemnej motorike, k reči a k sociálnym vzťahom podľa štandardnej stupnice vrátane dokumentácie. Pri výkone pod kódom 950 nemožno výkony",
+            "props": {
+              "propBody": 390,
+              "idClassid": "vykon",
+              "idEzid": "00000469288@37",
+              "id": 950
             }
           },
           "count": {
@@ -891,7 +979,7 @@
       },
       {
         "id": 54,
-        "order": 39,
+        "order": 43,
         "props": {
           "type": "vv"
         },
@@ -900,9 +988,31 @@
             "value": "[148] 11. preventívna prehliadka sa vykazuje v 3. roku života dieťaťa (vrátane antropometrických meraní).",
             "props": {
               "propBody": 370,
-              "idClassid": "vykon",
+              "id": 148,
               "idEzid": "00000467209@21",
-              "id": 148
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 110,
+        "order": 44,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[953] Vyšetrenie funkčného vývinu so skúškami zodpovedajúcimi veku (reč, pochopenie reči alebo sociálny vek) u dieťaťa predškolského veku.",
+            "props": {
+              "propBody": 110,
+              "idClassid": "vykon",
+              "idEzid": "00000469312@37",
+              "id": 953
             }
           },
           "count": {
@@ -913,7 +1023,7 @@
       },
       {
         "id": 58,
-        "order": 42,
+        "order": 47,
         "props": {
           "type": "vv"
         },
@@ -922,9 +1032,31 @@
             "value": "[148a] 12. preventívna prehliadka sa vykazuje v 5. roku života dieťaťa (vrátane antropometrických meraní).",
             "props": {
               "propBody": 370,
-              "idClassid": "vykon",
+              "id": "148a",
               "idEzid": "00000467217@21",
-              "id": "148a"
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 112,
+        "order": 48,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[953] Vyšetrenie funkčného vývinu so skúškami zodpovedajúcimi veku (reč, pochopenie reči alebo sociálny vek) u dieťaťa predškolského veku.",
+            "props": {
+              "propBody": 110,
+              "idClassid": "vykon",
+              "idEzid": "00000469312@37",
+              "id": 953
             }
           },
           "count": {
@@ -935,7 +1067,7 @@
       },
       {
         "id": 63,
-        "order": 45,
+        "order": 51,
         "props": {
           "type": "vv"
         },
@@ -944,9 +1076,9 @@
             "value": "[148b] 13. preventívna prehliadka sa vykazuje v 6. roku života alebo v 7. roku života dieťaťa, ak poistenec nenastúpil školskú dochádzku (vrátane antropometrických meraní).",
             "props": {
               "propBody": 390,
-              "idClassid": "vykon",
+              "id": "148b",
               "idEzid": "00000467225@21",
-              "id": "148b"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -957,7 +1089,7 @@
       },
       {
         "id": 67,
-        "order": 48,
+        "order": 54,
         "props": {
           "type": "vv"
         },
@@ -966,9 +1098,9 @@
             "value": "[148c] 14. preventívna prehliadka sa vykazuje v 9. roku života dieťaťa (vrátane antropometrických meraní).",
             "props": {
               "propBody": 390,
-              "idClassid": "vykon",
+              "id": "148c",
               "idEzid": "00000467233@21",
-              "id": "148c"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -979,7 +1111,7 @@
       },
       {
         "id": 71,
-        "order": 51,
+        "order": 57,
         "props": {
           "type": "vv"
         },
@@ -988,9 +1120,9 @@
             "value": "[149] 15. preventívna prehliadka sa vykazuje v 11. roku života dieťaťa (vrátane antropometrických meraní).",
             "props": {
               "propBody": 390,
-              "idClassid": "vykon",
+              "id": 149,
               "idEzid": "00000467241@21",
-              "id": 149
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1001,7 +1133,7 @@
       },
       {
         "id": 90,
-        "order": 52,
+        "order": 58,
         "props": {
           "type": "vv"
         },
@@ -1010,9 +1142,9 @@
             "value": "[159b] Preventívne vyšetrenie celkového cholesterolu v 11. a 17. roku života a celkového cholesterolu a triacylglycerolov v 40. roku života. Okrem odberu sa vykazuje cielená anamnéza, posúdenie genetickej záťaže, posúdenie laboratórnych výsledkov, v prípade",
             "props": {
               "propBody": 100,
-              "id": "159b",
+              "idClassid": "vykon",
               "idEzid": "00000467365@21",
-              "idClassid": "vykon"
+              "id": "159b"
             }
           },
           "count": {
@@ -1023,7 +1155,7 @@
       },
       {
         "id": 75,
-        "order": 55,
+        "order": 61,
         "props": {
           "type": "vv"
         },
@@ -1032,9 +1164,9 @@
             "value": "[149a] 16. preventívna prehliadka sa vykazuje v 13. roku života dieťaťa (vrátane antropometrických meraní).",
             "props": {
               "propBody": 390,
-              "idClassid": "vykon",
+              "id": "149a",
               "idEzid": "00000467258@21",
-              "id": "149a"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1045,7 +1177,7 @@
       },
       {
         "id": 79,
-        "order": 58,
+        "order": 64,
         "props": {
           "type": "vv"
         },
@@ -1054,9 +1186,9 @@
             "value": "[149b] 17. preventívna prehliadka sa vykazuje v 15. roku života dieťaťa (vrátane antropometrických meraní).",
             "props": {
               "propBody": 390,
-              "idClassid": "vykon",
+              "id": "149b",
               "idEzid": "00000467266@21",
-              "id": "149b"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1067,7 +1199,7 @@
       },
       {
         "id": 83,
-        "order": 61,
+        "order": 67,
         "props": {
           "type": "vv"
         },
@@ -1076,9 +1208,9 @@
             "value": "[149d] Preventívna prehliadka v 17. roku života dieťaťa. Ďalšie preventívne prehliadky sa vykazujú raz za 2 roky.",
             "props": {
               "propBody": 390,
-              "idClassid": "vykon",
+              "id": "149d",
               "idEzid": "00000467282@21",
-              "id": "149d"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -1089,7 +1221,7 @@
       },
       {
         "id": 92,
-        "order": 62,
+        "order": 68,
         "props": {
           "type": "vv"
         },
@@ -1098,9 +1230,9 @@
             "value": "[159b] Preventívne vyšetrenie celkového cholesterolu v 11. a 17. roku života a celkového cholesterolu a triacylglycerolov v 40. roku života. Okrem odberu sa vykazuje cielená anamnéza, posúdenie genetickej záťaže, posúdenie laboratórnych výsledkov, v prípade",
             "props": {
               "propBody": 100,
-              "id": "159b",
+              "idClassid": "vykon",
               "idEzid": "00000467365@21",
-              "idClassid": "vykon"
+              "id": "159b"
             }
           },
           "count": {
@@ -1111,7 +1243,7 @@
       },
       {
         "id": 87,
-        "order": 65,
+        "order": 71,
         "props": {
           "type": "vv"
         },
@@ -1120,30 +1252,8 @@
             "value": "[149d] Preventívna prehliadka v 17. roku života dieťaťa. Ďalšie preventívne prehliadky sa vykazujú raz za 2 roky.",
             "props": {
               "propBody": 390,
-              "idClassid": "vykon",
+              "id": "149d",
               "idEzid": "00000467282@21",
-              "id": "149d"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 94,
-        "order": 66,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[159b] Preventívne vyšetrenie celkového cholesterolu v 11. a 17. roku života a celkového cholesterolu a triacylglycerolov v 40. roku života. Okrem odberu sa vykazuje cielená anamnéza, posúdenie genetickej záťaže, posúdenie laboratórnych výsledkov, v prípade",
-            "props": {
-              "propBody": 100,
-              "id": "159b",
-              "idEzid": "00000467365@21",
               "idClassid": "vykon"
             }
           },
@@ -1154,8 +1264,30 @@
         }
       },
       {
+        "id": 94,
+        "order": 72,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[159b] Preventívne vyšetrenie celkového cholesterolu v 11. a 17. roku života a celkového cholesterolu a triacylglycerolov v 40. roku života. Okrem odberu sa vykazuje cielená anamnéza, posúdenie genetickej záťaže, posúdenie laboratórnych výsledkov, v prípade",
+            "props": {
+              "propBody": 100,
+              "idClassid": "vykon",
+              "idEzid": "00000467365@21",
+              "id": "159b"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 98,
-        "order": 69,
+        "order": 75,
         "props": {
           "type": "vv"
         },
@@ -1164,9 +1296,9 @@
             "value": "[160] Základná preventívna prehliadka. Výkon obsahuje komplexné vyšetrenie v rámci základnej preventívnej prehliadky vrátane prehliadky v rámci prevencie kardiovaskulárnych chorôb. Obsah vyšetrenia je zhodný s výkonom pod kódom 60. Výkon môže vykazovať lek",
             "props": {
               "propBody": 350,
-              "idClassid": "vykon",
+              "id": 160,
               "idEzid": "00000467373@37",
-              "id": 160
+              "idClassid": "vykon"
             }
           },
           "count": {
