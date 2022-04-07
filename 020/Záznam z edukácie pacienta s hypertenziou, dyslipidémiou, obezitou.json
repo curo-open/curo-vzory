@@ -1,0 +1,55 @@
+{
+  "title": "Záznam z edukácie pacienta s hypertenziou, dyslipidémiou, obezitou",
+  "owner": "vld",
+  "shortcut": "edu",
+  "if": "",
+  "data": {
+    "_": {},
+    "tl": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "tl"
+        },
+        "value": {
+          "nadpis": {
+            "value": "",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "<b>Záznam z edukácie pacienta s artériovou hypertenziou, dyslipidémiou a/alebo obezitou na ambulancii všeobecného lekára pre dospelých<br></b>(pripočítateľná položka s kódom EDU vykazovaná k výkonom H0003/H0004)<br>",
+            "props": {}
+          },
+          "obsah": {
+            "value": "<b>Meno a priezvisko poistenca:  </b>{{ pacient.celeMeno }}<b><br><br>Kód poskytovateľa:  </b>{{ identita.pzs_kod }}<b><br><br>Meno a priezvisko zdravotnej sestry/lekára: </b> {{ identita.lekar_meno }}<b><br><br>Dôvody edukácie:<br></b>[ ]  Artériová hypertenzia<br>[ ]  Dyslipidémia<br>[ ]  Obezita<br><br><br><b>Údaje o edukovanom poistencovi:</b>\n<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\">\n<tbody>\n<tr style=\"height: 28px;\">\n<td style=\"width: 20%; text-align: center; height: 28px;\"><b>&nbsp;</b></td>\n<td style=\"width: 20%; height: 28px; text-align: center;\"><b>Vstupné hodnoty</b></td>\n<td style=\"width: 20%; height: 28px; text-align: center;\"><b>Cieľové hodnoty</b></td>\n<td style=\"width: 20%; height: 28px; text-align: center;\"><b>Poznámka</b></td>\n</tr>\n<tr style=\"height: 28px;\">\n<td style=\"width: 20%; height: 28px;\"><b>Výška</b></td>\n<td style=\"width: 20%; height: 28px;\">{{ sessions|getSections(\"zfp\")|where(\"i==0\")[0].s.value.height.value}}</td>\n<td style=\"width: 20%; height: 28px; text-align: center;\"><b>-</b></td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n</tr>\n<tr style=\"height: 28px;\">\n<td style=\"width: 20%; height: 28px;\"><b>Váha</b></td>\n<td style=\"width: 20%; height: 28px;\">{{ sessions|getSections(\"zfp\")|where(\"i==0\")[0].s.value.weight.value}}</td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n</tr>\n<tr style=\"height: 28px;\">\n<td style=\"width: 20%; height: 28px;\"><b>BMI</b></td>\n<td style=\"width: 20%; height: 28px;\">{{ sessions|getSections(\"zfp\")|where(\"i==0\")[0].s.value.bmi.value}}</td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n</tr>\n<tr style=\"height: 28px;\">\n<td style=\"width: 20%; height: 28px;\"><b>Obvod pása</b></td>\n<td style=\"width: 20%; height: 28px;\">{{ sessions|getSections(\"zfp\")|where(\"i==0\")[0].s.value.oh.value}}</td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n</tr>\n<tr style=\"height: 28px;\">\n<td style=\"width: 20%; height: 28px;\"><b>Fajčiar/Nefajčiar</b></td>\n<td style=\"width: 20%; height: 28px;\">{{ sessions|getSections(\"ab\")|where(\"i==0\")[0].s.value.fajciar.value}}</td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n</tr>\n<tr style=\"height: 28px;\">\n<td style=\"width: 20%; height: 28px;\"><b>TK</b></td>\n<td style=\"width: 20%; height: 28px;\">{{ sessions|getSections(\"zfp\")|where(\"i==0\")[0].s.value.sys.value}}/{{ sessions|getSections(\"zfp\")|where(\"i==0\")[0].s.value.diast.value}}</td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n</tr>\n<tr style=\"height: 28px;\">\n<td style=\"width: 20%; height: 28px;\"><b>Pulz</b></td>\n<td style=\"width: 20%; height: 28px;\">{{ sessions|getSections(\"zfp\")|where(\"i==0\")[0].s.value.pulse.value}}</td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n</tr>\n<tr style=\"height: 28px;\">\n<td style=\"width: 20%; height: 28px;\"><b>CKVR (SCORE)</b></td>\n<td style=\"width: 20%; height: 28px;\">{{ sessions|getSections(\"h-score\")|where(\"i==0\")[0].s.value.risk.value}}</td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n</tr>\n<tr style=\"height: 28px;\">\n<td style=\"width: 20%; height: 28px;\"><b>Cholesterol celkový</b></td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n</tr>\n<tr style=\"height: 28px;\">\n<td style=\"width: 20%; height: 28px;\"><b>Triglyceridy</b></td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n</tr>\n<tr style=\"height: 28px;\">\n<td style=\"width: 20%; height: 28px;\"><b>LDL (non-HDL)</b></td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n</tr>\n<tr style=\"height: 28px;\">\n<td style=\"width: 20%; height: 28px;\"><b>Pohybová aktivita</b></td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n<td style=\"width: 20%; height: 28px;\"><b>&nbsp;</b></td>\n</tr>\n</tbody>\n</table><b><br><br>Návrhy opatrení na zlepšenie zdravotného stavu poistenca:</b><u style=\"color: rgba(0, 0, 0, 0.87);\"><br><br>a/ v rámci životného štýlu (rozpíšte):</u><br><span>- prestať fajčiť</span><u style=\"color: rgba(0, 0, 0, 0.87);\"><br><br><br><br><br>b/ v rámci stravovania (rozpíšte):</u><br>- zníženie obsahu nasýtených tukov a cholesterolu, zníženie sacharidov aj soli, nízka konzumácia červeného mäsa, zníženie príjmu alkoholu<br>- zvýšenie obsahu vlákniny - viac ovocia, zeleniny, strukovín, orechov, celozrnných obilnín a rýb, nenasýtených mastných kyselín - olivový olej.., nízkotučné mliečne výrobky<u style=\"color: rgba(0, 0, 0, 0.87);\"><br><br><br><br>c/ v rámci pohybových aktivít (rozpíšte):</u><br>- zníženie nadváhy<br>- zvýšenie pravidelnej fyzickej aktivity - najmenej 30 minút denne <br>/cieľ BMI do 25, obvod pása - do 94 cm u mužov, do 80 cm u žien/<br><br><br><br>Dátum vykonania edukácie:  <span>{{ dekurz.datum }}</span><br><br><br>Plánovaný dátum ďalšej edukácie:<br><br><br>Podpísaním tohto záznamu pacient potvrdí poučenie sestrou alebo lekárom a následne podpísaný záznam poskytovateľ založí do zdravotnej dokumentácie pacienta.<br><br><br><b>Podpis edukujúcej sestry/lekára:                                                                              <br><br>Podpis edukovaného poistenca:</b><br><br>",
+            "props": {}
+          },
+          "hlavicka": {
+            "value": "",
+            "props": {}
+          },
+          "podpis": {
+            "value": "",
+            "props": {}
+          },
+          "peciatka": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "sestra"
+  ],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2022-04-07T07:00:52.028Z",
+  "mt": "2022-04-07T07:04:44.765Z",
+  "source": "curo-open/curo-vzory#/020"
+}
