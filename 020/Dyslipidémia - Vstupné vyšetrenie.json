@@ -1,0 +1,1465 @@
+{
+  "type": "examination",
+  "summary": "Dislipidémia - Vstupné vyšetrenie",
+  "title": "Dyslipidémia - Vstupné vyšetrenie",
+  "shortcut": "lipid-vstupne",
+  "if": "",
+  "data": {
+    "_": {},
+    "premenna": [
+      {
+        "id": 246,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "subj",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "Bolesti hlavy, závraty, poruchy zraku neudáva, bez bolesti na hrudníku, neodpadol, bez palpitácií, dýcha sa dobre, nohy mu nepuchnú, s močením ťažkosti neudáva, klaudikačné bolesti ani pocit chladných končatín nemá, bez dyspepsie, hmotnosť stabil, anam. chrápania",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 250,
+        "order": 1,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "rfd",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "OFF",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t-nadpis": [
+      {
+        "id": 122,
+        "order": 2,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "Dyslipidémia - Vstupné vyšetrenie<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 3,
+        "order": 3,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "{{var.subj}}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 208,
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"ra\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 210,
+        "order": 6,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 211,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"oa\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 213,
+        "order": 9,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 214,
+        "order": 10,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"sa\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 216,
+        "order": 12,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 217,
+        "order": 13,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"la\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 219,
+        "order": 15,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 220,
+        "order": 16,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 221,
+        "order": 17,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 223,
+        "order": 18,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 224,
+        "order": 19,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"aa\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 226,
+        "order": 21,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 227,
+        "order": 22,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pohlavie == \"female\" &amp;&amp; sessions|getSections(\"ga\")|trans(\"length\") &gt; 0}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 228,
+        "order": 23,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"ga\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 229,
+        "order": 24,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 230,
+        "order": 25,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pohlavie == \"female\" &amp;&amp; !sessions|getSections(\"ga\")|trans(\"length\") &gt; 0}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 232,
+        "order": 27,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 151,
+        "order": 33,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Status preasens'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 153,
+        "order": 35,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 154,
+        "order": 36,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Zrak'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 156,
+        "order": 38,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 157,
+        "order": 39,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Sluch'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 159,
+        "order": 41,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 160,
+        "order": 42,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hlava'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 162,
+        "order": 44,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 163,
+        "order": 45,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hrdlo'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 165,
+        "order": 47,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 166,
+        "order": 48,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Krk'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 168,
+        "order": 50,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 169,
+        "order": 51,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hrudník'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 171,
+        "order": 53,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 172,
+        "order": 54,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Brucho'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 174,
+        "order": 56,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 240,
+        "order": 57,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Dolné končatiny'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 242,
+        "order": 59,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 178,
+        "order": 60,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='RTG'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 180,
+        "order": 62,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 181,
+        "order": 63,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='USG'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 183,
+        "order": 65,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ &lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 234,
+        "order": 66,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"ekg\")|where(\"i==0\")}} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 236,
+        "order": 68,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 237,
+        "order": 69,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"b-lv\")|where(\"i==0\")|trans('text')}} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 238,
+        "order": 70,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"td\")|where(\"!sekcia.zruseny\")|trans('text')}} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 187,
+        "order": 71,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>RF:<br></b>... <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 252,
+        "order": 72,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? var.rfd=='ON' }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 254,
+        "order": 74,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ra": [
+      {
+        "id": 209,
+        "order": 5,
+        "props": {
+          "type": "ra"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          },
+          "kvo": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oa": [
+      {
+        "id": 212,
+        "order": 8,
+        "props": {
+          "type": "oa"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "sa": [
+      {
+        "id": 215,
+        "order": 11,
+        "props": {
+          "type": "sa"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "la": [
+      {
+        "id": 218,
+        "order": 14,
+        "props": {
+          "type": "la"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "aa": [
+      {
+        "id": 225,
+        "order": 20,
+        "props": {
+          "type": "aa"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ga": [
+      {
+        "id": 231,
+        "order": 26,
+        "props": {
+          "type": "ga"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          },
+          "prvamen": {
+            "value": "",
+            "props": {}
+          },
+          "pravidelnost": {
+            "value": "",
+            "props": {}
+          },
+          "bolest": {
+            "value": "",
+            "props": {}
+          },
+          "cyklus": {
+            "value": "",
+            "props": {}
+          },
+          "menopauza": {
+            "value": "",
+            "props": {}
+          },
+          "porody": {
+            "value": "",
+            "props": {}
+          },
+          "potraty": {
+            "value": "",
+            "props": {}
+          },
+          "interrupcie": {
+            "value": "",
+            "props": {}
+          },
+          "posinterrupcia": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "da": [
+      {
+        "id": 248,
+        "order": 28,
+        "props": {
+          "type": "da"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "dz": [
+      {
+        "id": 249,
+        "order": 29,
+        "props": {
+          "type": "dz"
+        },
+        "value": {
+          "dz": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ab": [
+      {
+        "id": 82,
+        "order": 30,
+        "props": {
+          "type": "ab"
+        },
+        "value": {
+          "fajciar": {
+            "value": "",
+            "props": {}
+          },
+          "alkohol": {
+            "value": "",
+            "props": {}
+          },
+          "kava": {
+            "value": "",
+            "props": {}
+          },
+          "drogy": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "zfp": [
+      {
+        "id": 83,
+        "order": 31,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "oh": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "",
+            "props": {}
+          },
+          "temp": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 88,
+        "order": 32,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pv": [
+      {
+        "id": 152,
+        "order": 34,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Status preasens",
+            "props": {
+              "propValue": "Status preasens"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "pri vedomí, orientovaný, habitus normostenický, koža hydratovaná, čistá, sliznice ružové",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 155,
+        "order": 37,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Zrak",
+            "props": {
+              "propValue": "Zrak"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "VOD:  5/5    VOS: 5 /5     Farbocit: správny",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 158,
+        "order": 40,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Sluch",
+            "props": {
+              "propValue": "Sluch"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "v norme",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 161,
+        "order": 43,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Hlava",
+            "props": {
+              "propValue": "Hlava"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "mezocef. na poklop nebolestivá, výstupy  hl.nn. nebolestivé, šija voľná neoponuje, zrenice izokorické, FR výbavná, uši, nos bez výtoku",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 164,
+        "order": 46,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Hrdlo",
+            "props": {
+              "propValue": "Hrdlo"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "kľudné, tonzily nezv., bez čapov, jazky plazí v  strednej rovine, chrup sanovaný",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 167,
+        "order": 49,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Krk",
+            "props": {
+              "propValue": "Krk"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "LU a ŠŽ nehmatám, jugula bez kongescie",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 170,
+        "order": 52,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Hrudník",
+            "props": {
+              "propValue": "Hrudník"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "súmerný, Cor: AS prav. , ozvy ohraničené, Pulmo dýchanie vesikulárne bez VDF",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 173,
+        "order": 55,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Brucho",
+            "props": {
+              "propValue": "Brucho"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "mäkké priehmatné bez palp. citl. a hm. rezist.,  Pečeň a slezina nezv., tapott. bilat. negat.",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 241,
+        "order": 58,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Dolné končatiny",
+            "props": {
+              "propValue": "Dolné končatiny"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "bez edémov a varixov, bez známok zápalu, pulzácie ATP a ADP hmatné bilat.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 179,
+        "order": 61,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "RTG",
+            "props": {
+              "propValue": "RTG"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 182,
+        "order": 64,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "USG",
+            "props": {
+              "propValue": "USG"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ekg": [
+      {
+        "id": 235,
+        "order": 67,
+        "props": {
+          "type": "ekg"
+        },
+        "value": {
+          "rytmus": {
+            "value": "sr",
+            "props": {}
+          },
+          "fr": {
+            "value": "",
+            "props": {}
+          },
+          "ax": {
+            "value": "",
+            "props": {}
+          },
+          "pq": {
+            "value": "",
+            "props": {}
+          },
+          "p": {
+            "value": "",
+            "props": {}
+          },
+          "qrs": {
+            "value": "",
+            "props": {}
+          },
+          "qt": {
+            "value": "",
+            "props": {}
+          },
+          "qtcb": {
+            "value": "",
+            "props": {}
+          },
+          "rs": {
+            "value": "v4",
+            "props": {}
+          },
+          "st": {
+            "value": "izoelektricke",
+            "props": {}
+          },
+          "t": {
+            "value": "+",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          },
+          "zaver": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vlozit": [
+      {
+        "id": 253,
+        "order": 73,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Rizikové faktory kardiovaskulárneho rizika",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 244,
+        "order": 78,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Bodovanie - dyslipidémia, vstupné",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 94,
+        "order": 75,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "Úprava ŽŠ, redukcia hmotnosti, menej soliť, nízkocholesterolová dieta, kontroly TK<br>DG: ...<br>Doplní: ...<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "td": [
+      {
+        "id": 89,
+        "order": 76,
+        "props": {
+          "type": "td"
+        },
+        "value": {
+          "id": {
+            "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
+            "props": {
+              "id": "E78.9",
+              "idEzid": "02089382192@10",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          },
+          "from": {
+            "value": "",
+            "props": {}
+          },
+          "to": {
+            "value": "",
+            "props": {}
+          },
+          "dispenzarizacia": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "p": [
+      {
+        "id": 96,
+        "order": 77,
+        "props": {
+          "type": "p"
+        },
+        "value": {
+          "text": {
+            "value": "Kontrola liecby Dislipidémie<br>",
+            "props": {}
+          },
+          "at": {
+            "value": "19.09.2022 09:14",
+            "props": {
+              "propValue": "2022-09-19T07:14:38.538Z",
+              "expr": "=+5m"
+            }
+          },
+          "priority": {
+            "value": "bežne",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "done": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "sumar-lipid",
+    "monitory"
+  ],
+  "vars": {},
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2022-04-07T09:42:31.768Z",
+  "mt": "2022-04-19T07:15:54.009Z",
+  "source": "curo-open/curo-vzory#/020"
+}

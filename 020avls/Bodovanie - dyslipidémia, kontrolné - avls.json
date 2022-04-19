@@ -1,6 +1,6 @@
 {
   "summary": "",
-  "title": "Bodovanie - dislipidémia, kontrolné",
+  "title": "Bodovanie - dyslipidémia, kontrolné",
   "shortcut": "b-lipidk",
   "if": "",
   "data": {
@@ -206,12 +206,12 @@
         },
         "value": {
           "id": {
-            "value": "[H0004] Kontrolné vyšetrenie u poistenca s arteriálnou hypertenziou jeden krát za 6 mesiacov",
+            "value": "[H0004+EDU] Výkon H0004 s pripočítateľnou položkou EDU",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
-              "idEzid": "02089725754@11",
-              "id": "H0004"
+              "id": "H0004+EDU",
+              "idEzid": "curo-H0004+EDU@37",
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -273,12 +273,12 @@
         },
         "value": {
           "id": {
-            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
+            "value": "[H0004+EDU] Výkon H0004 s pripočítateľnou položkou EDU",
             "props": {
-              "propBody": 180,
+              "propBody": 0,
               "idClassid": "vykon",
-              "idEzid": "00000466565@13",
-              "id": 10
+              "idEzid": "curo-H0004+EDU@38",
+              "id": "H0004+EDU"
             }
           },
           "count": {
@@ -414,5 +414,6 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/020zvld"
+  "mt": "2022-04-19T07:16:53.398Z",
+  "source": "curo-open/curo-vzory#/020avls"
 }
