@@ -1,8 +1,7 @@
 {
-  "type": "examination",
-  "summary": "",
-  "title": "Bodovanie - hypertenzia, kontrolné",
+  "title": "Bodovanie - hypertenzia, kontrolné - avls",
   "shortcut": "b-hyperk",
+  "summary": null,
   "if": "",
   "data": {
     "_": {},
@@ -137,7 +136,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? (sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0)}}<br>",
+            "value": "{{ ? zp==25 &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0)}}<br>",
             "props": {}
           }
         }
@@ -170,7 +169,7 @@
       },
       {
         "id": 21,
-        "order": 21,
+        "order": 22,
         "props": {
           "type": "t"
         },
@@ -183,7 +182,7 @@
       },
       {
         "id": 22,
-        "order": 22,
+        "order": 23,
         "props": {
           "type": "t"
         },
@@ -196,7 +195,7 @@
       },
       {
         "id": 25,
-        "order": 26,
+        "order": 27,
         "props": {
           "type": "t"
         },
@@ -274,7 +273,7 @@
       },
       {
         "id": 23,
-        "order": 23,
+        "order": 24,
         "props": {
           "type": "vd"
         },
@@ -303,12 +302,12 @@
         },
         "value": {
           "id": {
-            "value": "[H0004] Kontrolné vyšetrenie u poistenca s arteriálnou hypertenziou jeden krát za 6 mesiacov",
+            "value": "[H0004+EDU] Výkon H0004 s pripočítateľnou položkou EDU",
             "props": {
               "propBody": 0,
               "idClassid": "vykon",
-              "idEzid": "02089725754@10",
-              "id": "H0004"
+              "idEzid": "curo-H0004+EDU@38",
+              "id": "H0004+EDU"
             }
           },
           "count": {
@@ -409,30 +408,8 @@
         }
       },
       {
-        "id": 19,
+        "id": 41,
         "order": 20,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
-            "props": {
-              "propBody": 180,
-              "id": 10,
-              "idEzid": "00000466565@13",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 24,
-        "order": 24,
         "props": {
           "type": "vv"
         },
@@ -442,8 +419,31 @@
             "props": {
               "propBody": 0,
               "idClassid": "vykon",
-              "idEzid": "curo-H0004+EDU@34",
+              "idEzid": "curo-H0004+EDU@38",
               "id": "H0004+EDU"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 37,
+        "order": 21,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
+            "props": {
+              "propType": "SVaLZ",
+              "propBody": 550,
+              "idClassid": "vykon",
+              "idEzid": "00000494187@38",
+              "id": 5702
             }
           },
           "count": {
@@ -460,13 +460,35 @@
         },
         "value": {
           "id": {
+            "value": "[H0004+EDU] Výkon H0004 s pripočítateľnou položkou EDU",
+            "props": {
+              "propBody": 0,
+              "id": "H0004+EDU",
+              "idEzid": "curo-H0004+EDU@38",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 35,
+        "order": 26,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propBody": 550,
               "propType": "SVaLZ",
-              "id": 5702,
-              "idEzid": "00000494187@37",
-              "idClassid": "vykon"
+              "propBody": 550,
+              "idClassid": "vykon",
+              "idEzid": "00000494187@38",
+              "id": 5702
             }
           },
           "count": {
@@ -510,8 +532,12 @@
   },
   "tags": [],
   "vars": {},
-  "owner": "admin",
+  "description": "",
   "allowedUsers": [],
   "allowedIdentities": [],
+  "type": null,
+  "ct": "2022-04-19T12:30:59.115Z",
+  "mt": "2022-04-19T21:47:55.044Z",
+  "owner": "admin",
   "source": "curo-open/curo-vzory#/020avls"
 }
