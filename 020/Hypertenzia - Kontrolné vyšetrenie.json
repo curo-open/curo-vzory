@@ -1,5 +1,4 @@
 {
-  "content": "<section data-x-id=\"102\" data-type=\"premenna\" class=\"\"><aside></aside><label class=\"section-label  \">Premenná:</label>​<label data-for=\"name\" class=\"\">meno</label><div class=\"Field\" data-name=\"name\">holter</div>​<label data-for=\"type\" class=\"\">typ</label><div class=\"FieldList hasActions\" data-name=\"type\" data-prop-value=\"text\">text</div>​<label data-for=\"value\" class=\"\">hodnota</label><div class=\"Field\" data-name=\"value\">ON</div>​<label data-for=\"valueLong\" class=\"_noval hidden\">hodnota</label><div class=\"_noval FieldHtml hidden\" data-name=\"valueLong\"></div></section><section data-x-id=\"3\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.:</label><div class=\"FieldHtml\" data-name=\"s\">Bolesti hlavy, závraty, poruchy zraku neudáva, bez bolesti na hrudníku, neodpadol, bez palpitícií, dýcha sa dobre, nohy mu nepuchnú, s močením ťažkosti neudáva, klaudikačné bolesti ani pocit chladnýc končatín nemá, bez dyspepsie, hmotnosť stabil, anam. chrápania<br></div></section><section data-x-id=\"45\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? sessions|getSections(\"ra\")|where(\"i==0\") }}<br></div></section><section data-x-id=\"47\" data-type=\"ra\" class=\"\"><aside></aside><label class=\"section-label  \">RA:</label><div class=\"FieldHtml\" data-name=\"text\">PCO, KVS, DM, CMP u pokrvných príbuzných neguje<br></div></section><section data-x-id=\"48\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"49\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? sessions|getSections(\"oa\")|trans('length') &gt; 0}} <br></div></section><section data-x-id=\"50\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt; sessions|getSections(\"oa\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"51\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ : }}<br></div></section><section data-x-id=\"52\" data-type=\"oa\" class=\"\"><aside></aside><label class=\"section-label  \">OA:</label><div class=\"FieldHtml\" data-name=\"text\"><br></div></section><section data-x-id=\"53\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"54\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? sessions|getSections(\"sa\")|trans('length') &gt; 0}} <br></div></section><section data-x-id=\"55\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")}} <br></div></section><section data-x-id=\"56\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ : }}<br></div></section><section data-x-id=\"57\" data-type=\"sa\" class=\"\"><aside></aside><label class=\"section-label  \">SA:</label><div class=\"FieldHtml\" data-name=\"text\"><br></div></section><section data-x-id=\"58\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"59\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0}}<br></div></section><section data-x-id=\"60\" data-type=\"la\" class=\"\"><aside></aside><label class=\"section-label  \">LA:</label><div class=\"FieldHtml\" data-name=\"text\">{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans(\"text\")}}<br></div></section><section data-x-id=\"61\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ : }}<br></div></section><section data-x-id=\"62\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? sessions|getSections(\"la\")|trans('length') &gt; 0 &amp;&amp; !sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0}} <br></div></section><section data-x-id=\"63\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt; sessions|getSections(\"la\")|where(\"i==0\")}} <br></div></section><section data-x-id=\"64\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"65\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? !sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0 &amp;&amp; !sessions|getSections(\"la\")|where(\"i==0\")|trans('length') &gt; 0 }}<br></div></section><section data-x-id=\"66\" data-type=\"la\" class=\"\"><aside></aside><label class=\"section-label  \">LA:</label><div class=\"FieldHtml\" data-name=\"text\"><br></div></section><section data-x-id=\"67\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"68\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? sessions|getSections(\"aa\")|where(\"i==0\")|trans('length') &gt; 0}} <br></div></section><section data-x-id=\"69\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt; sessions|getSections(\"aa\")|where(\"i==0\")}} <br></div></section><section data-x-id=\"70\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ : }}<br></div></section><section data-x-id=\"71\" data-type=\"aa\" class=\"\"><aside></aside><label class=\"section-label  \">AA:</label><div class=\"FieldHtml\" data-name=\"text\"><br></div></section><section data-x-id=\"72\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"73\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? pohlavie == \"female\" &amp;&amp; sessions|getSections(\"ga\")|trans('length') &gt; 0}}<br></div></section><section data-x-id=\"74\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt; sessions|getSections(\"ga\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"75\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"76\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? pohlavie == \"female\" &amp;&amp; !sessions|getSections(\"ga\")|where(\"i==0\")|trans('length') &gt; 0 }}<br></div></section><section data-x-id=\"77\" data-type=\"ga\" class=\"\"><aside></aside><label class=\"section-label  \">GA:</label><div class=\"FieldHtml\" data-name=\"text\"><br></div></section><section data-x-id=\"78\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"82\" data-type=\"ab\" class=\"\"><aside></aside><label class=\"section-label  \">Abúzy:</label>​<label data-for=\"alkohol\" class=\" _noval\">alkohol</label><div class=\"_noval FieldBool hasActions\" data-name=\"alkohol\"></div>​<label data-for=\"kava\" class=\" _noval\">káva</label><div class=\"_noval FieldBool hasActions\" data-name=\"kava\"></div>​<label data-for=\"fajciar\" class=\" _noval\">fajčiar</label><div class=\"_noval FieldBool hasActions\" data-name=\"fajciar\"></div>​<label data-for=\"cigariet\" class=\" _noval\">cigariet/deň</label><div class=\"_noval FieldN\" data-name=\"cigariet\"></div>​<label data-for=\"drogy\" class=\" _noval\">drogy</label><div class=\"_noval FieldBool hasActions\" data-name=\"drogy\"></div></section><section data-x-id=\"83\" data-type=\"zfp\" class=\"\"><aside></aside><label class=\"section-label  \">Základné fyzikálne parametre:</label>​<label data-for=\"sys\" class=\" _noval\">tlak sys. (mmHg)</label><div class=\"_noval FieldN\" data-name=\"sys\"></div>​<label data-for=\"diast\" class=\" _noval\">tlak diast. (mmHg)</label><div class=\"_noval FieldN\" data-name=\"diast\"></div>​<label data-for=\"pulse\" class=\" _noval\">pulz</label><div class=\"_noval FieldN\" data-name=\"pulse\"></div>​<label data-for=\"sf\" class=\" _noval\">SF (/min)</label><div class=\"_noval FieldN minor\" data-name=\"sf\"></div>​<label data-for=\"df\" class=\" _noval\">DF (/min)</label><div class=\"_noval FieldN minor\" data-name=\"df\"></div><br><label data-for=\"weight\" class=\" _noval\">hmotnosť (kg)</label><div class=\"_noval FieldN\" data-name=\"weight\"></div>​<label data-for=\"height\" class=\" _noval\">výška (cm)</label><div class=\"_noval FieldN\" data-name=\"height\"></div>​<label data-for=\"bmi\" class=\" _noval\">BMI</label><div class=\"_noval FieldR locked\" data-name=\"bmi\"></div>​<label data-for=\"oh\" class=\" _noval\">Obvod pásu (cm)</label><div class=\"_noval FieldN minor\" data-name=\"oh\"></div>​<label data-for=\"op\" class=\" _noval\">Obvod hlavy (cm)</label><div class=\"_noval FieldN minor\" data-name=\"op\"></div>​<label data-for=\"o2\" class=\" _noval\">sat. O2 (%)</label><div class=\"_noval FieldN minor\" data-name=\"o2\"></div>​<label data-for=\"temp\" class=\" _noval\">teplota (°C)</label><div class=\"_noval FieldR minor\" data-name=\"temp\"></div></section><section data-x-id=\"87\" data-type=\"ekg\" class=\"\"><aside></aside><label class=\"section-label  \">EKG vyšetrenie:</label>​<label data-for=\"rytmus\" class=\" _noval\">Rytmus:</label><div class=\"_noval Field\" data-name=\"rytmus\"></div>​<label data-for=\"fr\" class=\" _noval\">FR (/min):</label><div class=\"_noval Field\" data-name=\"fr\"></div>​<label data-for=\"ax\" class=\" _noval\">ax:</label><div class=\"_noval Field\" data-name=\"ax\"></div>​<label data-for=\"pq\" class=\" _noval\">PQ (ms):</label><div class=\"_noval Field\" data-name=\"pq\"></div>​<label data-for=\"qrs\" class=\" _noval\">QRS (ms):</label><div class=\"_noval Field\" data-name=\"qrs\"></div>​<label data-for=\"qt\" class=\" _noval\">QT:</label><div class=\"_noval Field\" data-name=\"qt\"></div>​<label data-for=\"qtcb\" class=\" _noval\">QTcB:</label><div class=\"_noval Field\" data-name=\"qtcb\"></div>​<label data-for=\"rs\" class=\" _noval\">R/S(v):</label><div class=\"_noval Field\" data-name=\"rs\"></div>​<label data-for=\"st\" class=\" _noval\">ST:</label><div class=\"_noval Field\" data-name=\"st\"></div>​<label data-for=\"t\" class=\" _noval\">T:</label><div class=\"_noval Field\" data-name=\"t\"></div>​<label data-for=\"poznamka\" class=\" _noval\">Poznámka:</label><div class=\"_noval Field\" data-name=\"poznamka\"></div>​<label data-for=\"zaver\" class=\" _noval\">Záver:</label><div class=\"_noval Field\" data-name=\"zaver\"></div></section><section data-x-id=\"88\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.:</label><div class=\"FieldHtml\" data-name=\"o\">RF:muž, vek M nad 55r, Ž nad 65r, fajčenie, DLP/c chol nad 4,9, LDL nad 3,0, HDL pod 1,0, TG nad 1,7/, glyk. 5,6-6,9/ pozit. OGTT, obezita nad 30BMI, obvod pása Mnad 102, Ž nad 88, RA pozit. na KVO M pod 55r, Ž pod 65r./  toto by som dala do riadku a by som si mazala u každého pacienta, čo nevyhovuje<br>Asymptom. poškodenie orgánov: pulzný TK nad 60mmHg, HĽK, zhrubnutie/plak v a. carotis, ABI menej ako 0,9, GF 30-60ml/min/1,73m2, MAU   toto by som dala do riadku a by som si mazala u každého pacienta, čo nevyhovuje<br></div></section><section data-x-id=\"94\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie:</label><div class=\"FieldHtml\" data-name=\"odp\"><br></div></section><section data-x-id=\"2\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">DG: A. hypertenzia    (1-3. stupeň) ESH/ESC s (nízkym/stredným/vysokým/veľmi vysokým) KVS rizikom <br>Doplní: TK holter, ECHOKG, USG karotíd, USG abdomenu, vyš. OP<br></div></section><section data-x-id=\"89\" data-type=\"td\" class=\"\"><aside></aside><label class=\"section-label  \">Trvalá Dg.:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"I10.00\" data-id-ezid=\"02089398180@9\" data-id-classid=\"diagnoza\" title=\"[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy\" style=\"width: 50ch;\">[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy</div>​<label data-for=\"text\" class=\" _noval\">poznámka</label><div class=\"_noval Field\" data-name=\"text\"></div>​<label data-for=\"from\" class=\" _noval\">zistené dňa</label><div class=\"_noval FieldDate hasActions\" data-name=\"from\"></div>​<label data-for=\"to\" class=\" _noval\">platí do</label><div class=\"_noval FieldDate hasActions\" data-name=\"to\"></div>​<label data-for=\"dispenzarizacia\" class=\" _noval\">sledovaný/dispenzarizovaný u mňa</label><div class=\"_noval FieldBool hasActions\" data-name=\"dispenzarizacia\"></div></section><section data-x-id=\"103\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? zp==25 }}<br></div></section><section data-x-id=\"90\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id=\"Z00.0\" data-id-ezid=\"02089520809@9\" data-id-classid=\"diagnoza\" title=\"[Z00.0] Všeobecné lekárske vyšetrenie\" style=\"width: 50ch;\">[Z00.0] Všeobecné lekárske vyšetrenie</div>​<label data-for=\"text\" class=\" _noval\">/</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"92\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"H0003\" data-id-ezid=\"02089725747@8\" data-id-classid=\"vykon\" data-prop-body=\"0\" title=\"[H0003] Iniciálne vyšetrenie u poistenca s arteriálnou hypertenziou alebo ošetrenie akútneho hypertenzného stavu\" style=\"width: 50ch;\">[H0003] Iniciálne vyšetrenie u poistenca s arteriálnou hypertenziou alebo ošetrenie akútneho hypertenzného stavu</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"98\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"10\" data-id-ezid=\"00000466565@8\" data-id-classid=\"vykon\" data-prop-body=\"180\" title=\"[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl\" style=\"width: 50ch;\">[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"100\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id=\"5702\" data-id-ezid=\"00000494187@8\" data-id-classid=\"vykon\" data-prop-body=\"550\" data-prop-type=\"SVaLZ\" title=\"[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.\" style=\"width: 50ch;\">[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"104\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"105\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? zp==25 &amp;&amp; holter == \"ON\"}}<br></div></section><section data-x-id=\"112\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000494302@9\" data-id=\"5715\" data-prop-type=\"SVaLZ\" data-prop-body=\"750\" title=\"[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.\" style=\"width: 50ch;\">[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"107\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"113\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? zp==24 }}<br></div></section><section data-x-id=\"116\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.:</label><div class=\"FieldSearch hasActions highlight truncate\" data-name=\"id\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089520809@9\" data-id=\"Z00.0\" title=\"[Z00.0] Všeobecné lekárske vyšetrenie\" style=\"width: 50ch;\">[Z00.0] Všeobecné lekárske vyšetrenie</div>​<label data-for=\"text\" class=\" _noval\">/</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"118\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000466565@9\" data-id=\"10\" data-prop-body=\"180\" title=\"[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl\" style=\"width: 50ch;\">[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"120\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000494187@9\" data-id=\"5702\" data-prop-type=\"SVaLZ\" data-prop-body=\"550\" title=\"[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.\" style=\"width: 50ch;\">[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section><section data-x-id=\"115\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"96\" data-type=\"p\" class=\"\"><aside></aside><label class=\"section-label  \">Poznámka:</label><div class=\"FieldHtml\" data-name=\"text\">Kontrola liecby Hypertenzie<br></div>​<label data-for=\"at\" class=\"\">upozorňovať od</label><div class=\"FieldDateTime hasActions\" data-name=\"at\" data-expr=\"=+5m\" data-prop-value=\"2019-02-24T17:12:47.814Z\">24.02.2019 18:12</div>​<label data-for=\"priority\" class=\"\">dôležité</label><div class=\"FieldList hasActions\" data-name=\"priority\" data-prop-value=\"0\">bežne</div>​<label data-for=\"done\" class=\" _noval\">vybavené dňa</label><div class=\"_noval FieldDate hasActions\" data-name=\"done\"></div></section>",
   "title": "Hypertenzia - Kontrolné vyšetrenie",
   "shortcut": "hyper-kontrolne",
   "if": "",
@@ -876,8 +875,34 @@
         }
       },
       {
+        "id": 368,
+        "order": 93,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{? zp != 24 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 370,
+        "order": 95,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 327,
-        "order": 94,
+        "order": 97,
         "props": {
           "type": "t"
         },
@@ -890,7 +915,7 @@
       },
       {
         "id": 328,
-        "order": 96,
+        "order": 99,
         "props": {
           "type": "t"
         },
@@ -903,7 +928,7 @@
       },
       {
         "id": 330,
-        "order": 98,
+        "order": 101,
         "props": {
           "type": "t"
         },
@@ -1632,6 +1657,10 @@
             "value": "",
             "props": {}
           },
+          "p": {
+            "value": "",
+            "props": {}
+          },
           "qrs": {
             "value": "",
             "props": {}
@@ -1654,10 +1683,6 @@
           },
           "t": {
             "value": "pozitívne",
-            "props": {}
-          },
-          "hlk": {
-            "value": "",
             "props": {}
           },
           "poznamka": {
@@ -1694,8 +1719,29 @@
         }
       },
       {
+        "id": 369,
+        "order": 94,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Záznam z edukácie pacienta s hypertenziou, dyslipidémiou, obezitou",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 333,
-        "order": 93,
+        "order": 96,
         "props": {
           "type": "vlozit"
         },
@@ -1733,7 +1779,7 @@
     "p": [
       {
         "id": 331,
-        "order": 95,
+        "order": 98,
         "props": {
           "type": "p"
         },
@@ -1743,9 +1789,9 @@
             "props": {}
           },
           "at": {
-            "value": "28.04.2021 14:57",
+            "value": "21.03.2023 12:21",
             "props": {
-              "propValue": "2021-04-28T12:57:55.083Z",
+              "propValue": "2023-03-21T11:21:14.258Z",
               "expr": "=+11m"
             }
           },
@@ -1763,7 +1809,7 @@
       },
       {
         "id": 96,
-        "order": 97,
+        "order": 100,
         "props": {
           "type": "p"
         },
@@ -1773,9 +1819,9 @@
             "props": {}
           },
           "at": {
-            "value": "28.10.2020 14:57",
+            "value": "21.09.2022 12:21",
             "props": {
-              "propValue": "2020-10-28T13:57:55.084Z",
+              "propValue": "2022-09-21T10:21:14.261Z",
               "expr": "=+5m"
             }
           },
@@ -1803,5 +1849,10 @@
   "summary": "Hypertenzia - Kontrolné vyšetrenie",
   "type": "examination",
   "description": "",
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2022-04-19T21:51:27.596Z",
+  "mt": "2022-04-21T10:24:37.938Z",
   "source": "curo-open/curo-vzory#/020"
 }

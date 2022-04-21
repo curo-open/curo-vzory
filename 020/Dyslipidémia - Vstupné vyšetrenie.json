@@ -2,7 +2,7 @@
   "type": "examination",
   "summary": "Dislipidémia - Vstupné vyšetrenie",
   "title": "Dyslipidémia - Vstupné vyšetrenie",
-  "shortcut": "lipid-vstupnev",
+  "shortcut": "lipid-vstupne",
   "if": "",
   "data": {
     "_": {},
@@ -699,6 +699,32 @@
             "props": {}
           }
         }
+      },
+      {
+        "id": 256,
+        "order": 78,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{? zp != 24 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 258,
+        "order": 80,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
       }
     ],
     "ra": [
@@ -1347,8 +1373,29 @@
         }
       },
       {
+        "id": 257,
+        "order": 79,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Záznam z edukácie pacienta s hypertenziou, dyslipidémiou, obezitou",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 244,
-        "order": 78,
+        "order": 81,
         "props": {
           "type": "vlozit"
         },
@@ -1431,9 +1478,9 @@
             "props": {}
           },
           "at": {
-            "value": "19.09.2022 09:14",
+            "value": "21.09.2022 12:21",
             "props": {
-              "propValue": "2022-09-19T07:14:38.538Z",
+              "propValue": "2022-09-21T10:21:01.766Z",
               "expr": "=+5m"
             }
           },
@@ -1460,6 +1507,6 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "ct": "2022-04-07T09:42:31.768Z",
-  "mt": "2022-04-19T07:15:54.009Z",
+  "mt": "2022-04-21T10:21:13.993Z",
   "source": "curo-open/curo-vzory#/020"
 }

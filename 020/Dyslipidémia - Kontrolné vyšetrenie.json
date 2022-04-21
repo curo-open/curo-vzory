@@ -2,7 +2,7 @@
   "type": "examination",
   "summary": "Dislipidémia - Kontrolné vyšetrenie",
   "title": "Dyslipidémia - Kontrolné vyšetrenie",
-  "shortcut": "lipid-kontrolnek",
+  "shortcut": "lipid-kontrolne",
   "if": "",
   "data": {
     "_": {},
@@ -699,6 +699,32 @@
             "props": {}
           }
         }
+      },
+      {
+        "id": 305,
+        "order": 77,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{? zp != 24 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 306,
+        "order": 79,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
       }
     ],
     "ra": [
@@ -1347,8 +1373,29 @@
         }
       },
       {
+        "id": 304,
+        "order": 78,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Záznam z edukácie pacienta s hypertenziou, dyslipidémiou, obezitou",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 291,
-        "order": 77,
+        "order": 80,
         "props": {
           "type": "vlozit"
         },
@@ -1396,9 +1443,9 @@
             "props": {}
           },
           "at": {
-            "value": "19.09.2022 09:14",
+            "value": "21.09.2022 12:20",
             "props": {
-              "propValue": "2022-09-19T07:14:31.869Z",
+              "propValue": "2022-09-21T10:20:48.562Z",
               "expr": "=+5m"
             }
           },
@@ -1425,6 +1472,6 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "ct": "2022-04-07T09:41:49.207Z",
-  "mt": "2022-04-19T07:14:38.243Z",
+  "mt": "2022-04-21T10:21:01.454Z",
   "source": "curo-open/curo-vzory#/020"
 }

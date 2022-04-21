@@ -1,7 +1,6 @@
 {
   "type": "examination",
   "summary": "Obezita - Kontrolné vyšetrenie",
-  "content": "<section data-x-id=\"293\" data-type=\"premenna\" class=\"\"><aside></aside><label class=\"section-label  \">Premenná​:</label>​<label data-for=\"name\" class=\"\">meno​</label><div class=\"Field\" data-name=\"name\">subj</div>​<label data-for=\"type\" class=\"\">typ​</label><div class=\"FieldList hasActions\" data-name=\"type\" data-prop-value=\"text\">text</div>​<label data-for=\"value\" class=\"\">hodnota​</label><div class=\"Field\" data-name=\"value\">Bolesti hlavy, závraty, poruchy zraku neudáva, bez bolesti na hrudníku, neodpadol, bez palpitícií, dýcha sa dobre, nohy mu nepuchnú, s močením ťažkosti neudáva, klaudikačné bolesti ani pocit chladnýc končatín nemá, bez dyspepsie, hmotnosť stabil, anam. chrápania</div>​<label data-for=\"valueLong\" class=\"_noval hidden\">hodnota​</label><div class=\"_noval FieldHtml hidden\" data-name=\"valueLong\"></div></section><section data-x-id=\"302\" data-type=\"premenna\" class=\"\"><aside></aside><label class=\"section-label  \">Premenná​:</label>​<label data-for=\"name\" class=\"\">meno​</label><div class=\"Field\" data-name=\"name\">rfd</div>​<label data-for=\"type\" class=\"\">typ​</label><div class=\"FieldList hasActions\" data-name=\"type\" data-prop-value=\"text\">text</div>​<label data-for=\"value\" class=\"\">hodnota​</label><div class=\"Field\" data-name=\"value\">OFF</div>​<label data-for=\"valueLong\" class=\"_noval hidden\">hodnota​</label><div class=\"_noval FieldHtml hidden\" data-name=\"valueLong\"></div></section><section data-x-id=\"122\" data-type=\"t-nadpis\" class=\"\"><aside></aside>​<label data-for=\"nadpis\" class=\"\">Nadpis​</label><div class=\"FieldHtml\" data-name=\"nadpis\">Dislipidémia - Kontrolné vyšetrenie<br></div>​<label data-for=\"podnadpis\" class=\" _noval\">Podnadpis​</label><div class=\"_noval FieldHtml\" data-name=\"podnadpis\"></div></section><section data-x-id=\"3\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.​:</label><div class=\"FieldHtml\" data-name=\"s\">{{var.subj}}<br></div></section><section data-x-id=\"191\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"ra\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"192\" data-type=\"ra\" class=\"\"><aside></aside><label class=\"section-label  \">RA​:</label><div class=\"_noval FieldHtml\" data-name=\"text\"></div>​<label data-for=\"kvo\" class=\" _noval\">KV ochorenie v blízkej rodine​</label><div class=\"_noval FieldBool hasActions\" data-name=\"kvo\"></div></section><section data-x-id=\"193\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"194\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"oa\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"195\" data-type=\"oa\" class=\"\"><aside></aside><label class=\"section-label  \">OA​:</label><div class=\"_noval FieldHtml\" data-name=\"text\"></div></section><section data-x-id=\"196\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"197\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"sa\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"198\" data-type=\"sa\" class=\"\"><aside></aside><label class=\"section-label  \">SA​:</label><div class=\"_noval FieldHtml\" data-name=\"text\"></div></section><section data-x-id=\"199\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"277\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"la\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"281\" data-type=\"la\" class=\"\"><aside></aside><label class=\"section-label  \">LA​:</label><div class=\"_noval FieldHtml\" data-name=\"text\"></div></section><section data-x-id=\"279\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"200\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('length') &gt; 0}}<br></div></section><section data-x-id=\"282\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br></div></section><section data-x-id=\"202\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"209\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"aa\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"210\" data-type=\"aa\" class=\"\"><aside></aside><label class=\"section-label  \">AA​:</label><div class=\"_noval FieldHtml\" data-name=\"text\"></div></section><section data-x-id=\"211\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"212\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? pohlavie == \"female\" &amp;&amp; sessions|getSections(\"ga\")|trans(\"length\") &gt; 0}}<br></div></section><section data-x-id=\"213\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt; sessions|getSections(\"ga\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"214\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"284\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? pohlavie == \"female\" &amp;&amp; !sessions|getSections(\"ga\")|trans(\"length\") &gt; 0}}<br></div></section><section data-x-id=\"215\" data-type=\"ga\" class=\"\"><aside></aside><label class=\"section-label  \">GA​:</label><div class=\"_noval FieldHtml\" data-name=\"text\"></div>​<label data-for=\"prvamen\" class=\" _noval\">prvá menštruácia​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"prvamen\"></div>​<label data-for=\"pravidelnost\" class=\" _noval\">pravidelná​</label><div class=\"_noval FieldBool hasActions\" data-name=\"pravidelnost\"></div>​<label data-for=\"bolest\" class=\" _noval\">bolestivá​</label><div class=\"_noval FieldBool hasActions\" data-name=\"bolest\"></div>​<label data-for=\"cyklus\" class=\" _noval\">cyklus​</label><div class=\"_noval Field\" data-name=\"cyklus\"></div>​<label data-for=\"menopauza\" class=\" _noval\">menopauza od(vek)​</label><div class=\"_noval FieldN\" data-name=\"menopauza\"></div>​<label data-for=\"porody\" class=\" _noval\">pôrody(počet)​</label><div class=\"_noval FieldN\" data-name=\"porody\"></div>​<label data-for=\"potraty\" class=\" _noval\">potraty(počet)​</label><div class=\"_noval FieldN\" data-name=\"potraty\"></div>​<label data-for=\"interrupcie\" class=\" _noval\">interrupcie(počet)​</label><div class=\"_noval FieldN\" data-name=\"interrupcie\"></div>​<label data-for=\"posinterrupcia\" class=\" _noval\">posledná interupcia​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"posinterrupcia\"></div></section><section data-x-id=\"216\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"295\" data-type=\"da\" class=\"\"><aside></aside><label class=\"section-label  \">DA​:</label><div class=\"_noval FieldHtml\" data-name=\"text\"></div></section><section data-x-id=\"296\" data-type=\"dz\" class=\"\"><aside></aside><label class=\"section-label  \">Diagnostický záver​:</label><div class=\"_noval FieldHtml\" data-name=\"dz\"></div></section><section data-x-id=\"217\" data-type=\"ab\" class=\"\"><aside></aside><label class=\"section-label  \">Abúzy​:</label><br class=\"\"><label data-for=\"fajciar\" class=\" _noval\">Fajčiar​</label><div class=\"_noval FieldList hasActions\" data-name=\"fajciar\"></div>​<label data-for=\"cigariet\" class=\"_noval hidden\">denná dávka(počet cigariet)​</label><div class=\"_noval FieldN hidden\" data-name=\"cigariet\"></div>​<label data-for=\"fajciardlzka\" class=\"_noval hidden\">začal užívať od​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"fajciardlzka\"></div>​<label data-for=\"fajciarexdate\" class=\"_noval hidden\">abstinuje od​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"fajciarexdate\"></div>​<label data-for=\"fajciarpoznamka\" class=\"_noval hidden\">poznámka​</label><div class=\"_noval Field hidden\" data-name=\"fajciarpoznamka\"></div><br class=\"\"><label data-for=\"alkohol\" class=\" _noval\">Alkohol​</label><div class=\"_noval FieldList hasActions\" data-name=\"alkohol\"></div>​<label data-for=\"alkdavka\" class=\"_noval hidden\">denná dávka(v jednotkách alkoholu)​</label><div class=\"_noval FieldN hidden\" data-name=\"alkdavka\"></div>​<label data-for=\"alkdlzka\" class=\"_noval hidden\">začal užívať od​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"alkdlzka\"></div>​<label data-for=\"alkexdate\" class=\"_noval hidden\">abstinuje od​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"alkexdate\"></div>​<label data-for=\"alkpoznamka\" class=\"_noval hidden\">poznámka​</label><div class=\"_noval Field hidden\" data-name=\"alkpoznamka\"></div><br class=\"\"><label data-for=\"kava\" class=\" _noval\">Káva​</label><div class=\"_noval FieldList hasActions\" data-name=\"kava\"></div>​<label data-for=\"kavadavka\" class=\"_noval hidden\">denná dávka(počet espress)​</label><div class=\"_noval FieldN hidden\" data-name=\"kavadavka\"></div>​<label data-for=\"kavadlzka\" class=\"_noval hidden\">začal užívať od​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"kavadlzka\"></div>​<label data-for=\"kavaexdate\" class=\"_noval hidden\">abstinuje od​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"kavaexdate\"></div>​<label data-for=\"kavapoznamka\" class=\"_noval hidden\">poznámka​</label><div class=\"_noval Field hidden\" data-name=\"kavapoznamka\"></div><br class=\"\"><label data-for=\"drogy\" class=\" _noval\">Drogy​</label><div class=\"_noval FieldList hasActions\" data-name=\"drogy\"></div>​<label data-for=\"drogydavka\" class=\"_noval hidden\">denná dávka(číselne)​</label><div class=\"_noval FieldN hidden\" data-name=\"drogydavka\"></div>​<label data-for=\"drogydlzka\" class=\"_noval hidden\">začal užívať od​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"drogydlzka\"></div>​<label data-for=\"drogyexdate\" class=\"_noval hidden\">abstinuje od​</label><div class=\"_noval FieldDate hasActions hidden\" placeholder=\"DD.MM.RRRR\" data-name=\"drogyexdate\"></div>​<label data-for=\"drogypoznamka\" class=\"_noval hidden\">poznámka​</label><div class=\"_noval Field hidden\" data-name=\"drogypoznamka\"></div></section><section data-x-id=\"218\" data-type=\"zfp\" class=\"\"><aside></aside><label class=\"section-label  \">Základné fyzikálne parametre​:</label>​<label data-for=\"sys\" class=\" _noval\">tlak sys. (mmHg)​</label><div class=\"_noval FieldN\" data-name=\"sys\"></div>​<label data-for=\"diast\" class=\" _noval\">tlak diast. (mmHg)​</label><div class=\"_noval FieldN\" data-name=\"diast\"></div>​<label data-for=\"pulse\" class=\" _noval\">pulz​</label><div class=\"_noval FieldN\" data-name=\"pulse\"></div>​<label data-for=\"sf\" class=\" _noval\">SF (/min)​</label><div class=\"_noval FieldN minor\" data-name=\"sf\"></div>​<label data-for=\"df\" class=\" _noval\">DF (/min)​</label><div class=\"_noval FieldN minor\" data-name=\"df\"></div><br class=\"\"><label data-for=\"weight\" class=\" _noval\">hmotnosť (kg)​</label><div class=\"_noval FieldN\" data-name=\"weight\"></div>​<label data-for=\"height\" class=\" _noval\">výška (cm)​</label><div class=\"_noval FieldN\" data-name=\"height\"></div>​<label data-for=\"bmi\" class=\" _noval\">BMI​</label><div class=\"_noval FieldR locked\" data-name=\"bmi\"></div>​<label data-for=\"oh\" class=\" _noval\">Obvod pásu (cm)​</label><div class=\"_noval FieldN minor\" data-name=\"oh\"></div>​<label data-for=\"op\" class=\" _noval\">Obvod hlavy (cm)​</label><div class=\"_noval FieldN minor\" data-name=\"op\"></div>​<label data-for=\"o2\" class=\" _noval\">sat. O2 (%)​</label><div class=\"_noval FieldN minor\" data-name=\"o2\"></div>​<label data-for=\"temp\" class=\" _noval\">teplota (°C)​</label><div class=\"_noval FieldR minor\" data-name=\"temp\"></div></section><section data-x-id=\"219\" data-type=\"o\" class=\"\"><aside></aside><label class=\"section-label  \">Obj.​:</label><div class=\"_noval FieldHtml\" data-name=\"o\"></div></section><section data-x-id=\"220\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Status preasens'\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"221\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyš.​:</label><div class=\"FieldList hasActions highlight\" data-name=\"typ\" data-prop-value=\"Status preasens\">Status preasens</div>​<label data-for=\"date\" class=\"ss _noval\">dátum vyšetrenia​</label><div class=\"_noval FieldDate hasActions ss\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div>​<label data-for=\"me\" class=\"ss _noval\">mnou vyžiadané​</label><div class=\"_noval FieldSwitchX hasActions ss\" data-name=\"me\"></div>​<label data-for=\"popis\" class=\"\">popis:​</label><div class=\"FieldHtml\" data-name=\"popis\">pri vedomí, orientovaný, habitus normostenický, koža hydratovaná, čistá, sliznice ružové</div></section><section data-x-id=\"222\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"223\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Zrak'\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"224\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyš.​:</label><div class=\"FieldList hasActions highlight\" data-name=\"typ\" data-prop-value=\"Zrak\">Zrak</div>​<label data-for=\"date\" class=\"ss _noval\">dátum vyšetrenia​</label><div class=\"_noval FieldDate hasActions ss\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div>​<label data-for=\"me\" class=\"ss _noval\">mnou vyžiadané​</label><div class=\"_noval FieldSwitchX hasActions ss\" data-name=\"me\"></div>​<label data-for=\"popis\" class=\"\">popis:​</label><div class=\"FieldHtml\" data-name=\"popis\">VOD:  5/5    VOS: 5 /5     Farbocit: správny</div></section><section data-x-id=\"225\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"226\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Sluch'\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"227\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyš.​:</label><div class=\"FieldList hasActions highlight\" data-name=\"typ\" data-prop-value=\"Sluch\">Sluch</div>​<label data-for=\"date\" class=\"ss _noval\">dátum vyšetrenia​</label><div class=\"_noval FieldDate hasActions ss\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div>​<label data-for=\"me\" class=\"ss _noval\">mnou vyžiadané​</label><div class=\"_noval FieldSwitchX hasActions ss\" data-name=\"me\"></div>​<label data-for=\"popis\" class=\"\">popis:​</label><div class=\"FieldHtml\" data-name=\"popis\">v norme</div></section><section data-x-id=\"228\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"229\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hlava'\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"230\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyš.​:</label><div class=\"FieldList hasActions highlight\" data-name=\"typ\" data-prop-value=\"Hlava\">Hlava</div>​<label data-for=\"date\" class=\"ss _noval\">dátum vyšetrenia​</label><div class=\"_noval FieldDate hasActions ss\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div>​<label data-for=\"me\" class=\"ss _noval\">mnou vyžiadané​</label><div class=\"_noval FieldSwitchX hasActions ss\" data-name=\"me\"></div>​<label data-for=\"popis\" class=\"\">popis:​</label><div class=\"FieldHtml\" data-name=\"popis\">mezocef. na poklop nebolestivá, výstupy  hl.nn. nebolestivé, šija voľná neoponuje, zrenice izokorické, FR výbavná, uši, nos bez výtoku</div></section><section data-x-id=\"231\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"232\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hrdlo'\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"233\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyš.​:</label><div class=\"FieldList hasActions highlight\" data-name=\"typ\" data-prop-value=\"Hrdlo\">Hrdlo</div>​<label data-for=\"date\" class=\"ss _noval\">dátum vyšetrenia​</label><div class=\"_noval FieldDate hasActions ss\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div>​<label data-for=\"me\" class=\"ss _noval\">mnou vyžiadané​</label><div class=\"_noval FieldSwitchX hasActions ss\" data-name=\"me\"></div>​<label data-for=\"popis\" class=\"\">popis:​</label><div class=\"FieldHtml\" data-name=\"popis\">kľudné, tonzily nezv., bez čapov, jazky plazí v  strednej rovine, chrup sanovaný</div></section><section data-x-id=\"234\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"235\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Krk'\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"236\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyš.​:</label><div class=\"FieldList hasActions highlight\" data-name=\"typ\" data-prop-value=\"Krk\">Krk</div>​<label data-for=\"date\" class=\"ss _noval\">dátum vyšetrenia​</label><div class=\"_noval FieldDate hasActions ss\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div>​<label data-for=\"me\" class=\"ss _noval\">mnou vyžiadané​</label><div class=\"_noval FieldSwitchX hasActions ss\" data-name=\"me\"></div>​<label data-for=\"popis\" class=\"\">popis:​</label><div class=\"FieldHtml\" data-name=\"popis\">LU a ŠŽ nehmatám, jugula bez kongescie</div></section><section data-x-id=\"237\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"238\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hrudník'\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"239\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyš.​:</label><div class=\"FieldList hasActions highlight\" data-name=\"typ\" data-prop-value=\"Hrudník\">Hrudník</div>​<label data-for=\"date\" class=\"ss _noval\">dátum vyšetrenia​</label><div class=\"_noval FieldDate hasActions ss\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div>​<label data-for=\"me\" class=\"ss _noval\">mnou vyžiadané​</label><div class=\"_noval FieldSwitchX hasActions ss\" data-name=\"me\"></div>​<label data-for=\"popis\" class=\"\">popis:​</label><div class=\"FieldHtml\" data-name=\"popis\">súmerný, Cor: AS prav. , ozvy ohraničené, Pulmo dýchanie vesikulárne bez VDF</div></section><section data-x-id=\"240\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"241\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Brucho'\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"242\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyš.​:</label><div class=\"FieldList hasActions highlight\" data-name=\"typ\" data-prop-value=\"Brucho\">Brucho</div>​<label data-for=\"date\" class=\"ss _noval\">dátum vyšetrenia​</label><div class=\"_noval FieldDate hasActions ss\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div>​<label data-for=\"me\" class=\"ss _noval\">mnou vyžiadané​</label><div class=\"_noval FieldSwitchX hasActions ss\" data-name=\"me\"></div>​<label data-for=\"popis\" class=\"\">popis:​</label><div class=\"FieldHtml\" data-name=\"popis\">mäkké priehmatné bez palp. citl. a hm. rezist.,  Pečeň a slezina nezv., tapott. bilat. negat.</div></section><section data-x-id=\"243\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"287\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Dolné končatiny'\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"288\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyš.​:</label><div class=\"FieldList hasActions highlight\" data-name=\"typ\" data-prop-value=\"Dolné končatiny\">Dolné končatiny</div>​<label data-for=\"date\" class=\"ss _noval\">dátum vyšetrenia​</label><div class=\"_noval FieldDate hasActions ss\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div>​<label data-for=\"me\" class=\"ss _noval\">mnou vyžiadané​</label><div class=\"_noval FieldSwitchX hasActions ss\" data-name=\"me\"></div>​<label data-for=\"popis\" class=\"\">popis:​</label><div class=\"FieldHtml\" data-name=\"popis\">bez edémov a varixov, bez známok zápalu, pulzácie ATP a ADP hmatné bilat.<br></div></section><section data-x-id=\"289\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? }}<br></div></section><section data-x-id=\"247\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='RTG'\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"248\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyš.​:</label><div class=\"FieldList hasActions highlight\" data-name=\"typ\" data-prop-value=\"RTG\">RTG</div>​<label data-for=\"date\" class=\"ss _noval\">dátum vyšetrenia​</label><div class=\"_noval FieldDate hasActions ss\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div>​<label data-for=\"me\" class=\"ss _noval\">mnou vyžiadané​</label><div class=\"_noval FieldSwitchX hasActions ss\" data-name=\"me\"></div>​<label data-for=\"popis\" class=\" _noval\">popis:​</label><div class=\"_noval FieldHtml\" data-name=\"popis\"></div></section><section data-x-id=\"249\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"250\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='USG'\")|where(\"i==0\")}}<br></div></section><section data-x-id=\"251\" data-type=\"pv\" class=\"\"><aside></aside><label class=\"section-label  \">Popis vyš.​:</label><div class=\"FieldList hasActions highlight\" data-name=\"typ\" data-prop-value=\"USG\">USG</div>​<label data-for=\"date\" class=\"ss _noval\">dátum vyšetrenia​</label><div class=\"_noval FieldDate hasActions ss\" placeholder=\"DD.MM.RRRR\" data-name=\"date\"></div>​<label data-for=\"me\" class=\"ss _noval\">mnou vyžiadané​</label><div class=\"_noval FieldSwitchX hasActions ss\" data-name=\"me\"></div>​<label data-for=\"popis\" class=\" _noval\">popis:​</label><div class=\"_noval FieldHtml\" data-name=\"popis\"></div></section><section data-x-id=\"252\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"253\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt;? sessions|getSections(\"ekg\")|where(\"i==0\")}} <br></div></section><section data-x-id=\"254\" data-type=\"ekg\" class=\"\"><aside></aside><label class=\"section-label  \">EKG vyšetrenie​:</label>​<label data-for=\"rytmus\" class=\"\">Rytmus:​</label><div class=\"Field\" data-name=\"rytmus\">sr</div>​<label data-for=\"fr\" class=\" _noval\">FR (/min):​</label><div class=\"_noval Field\" data-name=\"fr\"></div>​<label data-for=\"ax\" class=\" _noval\">ax:​</label><div class=\"_noval Field\" data-name=\"ax\"></div>​<label data-for=\"pq\" class=\" _noval\">PQ (ms):​</label><div class=\"_noval Field\" data-name=\"pq\"></div>​<label data-for=\"qrs\" class=\" _noval\">QRS (ms):​</label><div class=\"_noval Field\" data-name=\"qrs\"></div>​<label data-for=\"qt\" class=\" _noval\">QT:​</label><div class=\"_noval Field\" data-name=\"qt\"></div>​<label data-for=\"qtcb\" class=\" _noval\">QTcB:​</label><div class=\"_noval Field\" data-name=\"qtcb\"></div>​<label data-for=\"rs\" class=\"\">R/S(v):​</label><div class=\"Field\" data-name=\"rs\">v4</div>​<label data-for=\"st\" class=\"\">ST:​</label><div class=\"Field\" data-name=\"st\">izoelektricke</div>​<label data-for=\"t\" class=\"\">T:​</label><div class=\"Field\" data-name=\"t\">+</div>​<label data-for=\"hlk\" class=\" _noval\">Hypert. LK:​</label><div class=\"_noval FieldBool hasActions\" data-name=\"hlk\"></div>​<label data-for=\"poznamka\" class=\" _noval\">Poznámka:​</label><div class=\"_noval Field\" data-name=\"poznamka\"></div>​<label data-for=\"zaver\" class=\" _noval\">Záver:​</label><div class=\"_noval Field\" data-name=\"zaver\"></div></section><section data-x-id=\"255\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ &lt;? }}<br></div></section><section data-x-id=\"263\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt; sessions|getSections(\"b-lv\")|where(\"i==0\")|trans('text')}} <br></div></section><section data-x-id=\"285\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{&lt; sessions|getSections(\"td\")|where(\"!sekcia.zruseny\")|trans('text')}} <br></div></section><section data-x-id=\"256\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\"><b>RF:<br></b>...<br></div></section><section data-x-id=\"299\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? var.rfd=='ON' }}<br></div></section><section data-x-id=\"300\" data-type=\"vlozit\" class=\"\"><aside></aside><label class=\"section-label  \">Vložiť​:</label>​<label data-for=\"title\" class=\"\">názov vzoru​</label><div class=\"Field\" data-name=\"title\">Rizikové faktory kardiovaskulárneho rizika</div>​<label data-for=\"source\" class=\" _noval\">zdroj​</label><div class=\"_noval Field\" data-name=\"source\"></div>​<label data-for=\"vars\" class=\" _noval\">premenne​</label><div class=\"_noval Field\" data-name=\"vars\"></div></section><section data-x-id=\"301\" data-type=\"t\" class=\"\"><aside></aside><div class=\"FieldHtml\" data-name=\"t\">{{ ? }}<br></div></section><section data-x-id=\"94\" data-type=\"odp\" class=\"\"><aside></aside><label class=\"section-label  \">Odporúčanie​:</label><div class=\"FieldHtml\" data-name=\"odp\">Úprava ŽŠ, redukcia hmotnosti, menej soliť, nízkocholesterolová dieta, kontroly TK<br>DG: ...<br>Doplní: ....<br></div></section><section data-x-id=\"96\" data-type=\"p\" class=\"\"><aside></aside><label class=\"section-label  \">Poznámka​:</label><div class=\"FieldHtml\" data-name=\"text\">Kontrola liecby Displipidémie<br></div>​<label data-for=\"at\" class=\"\">upozorňovať od​</label><div class=\"FieldDateTime hasActions\" placeholder=\"DD.MM.RRRR hh:mm\" data-name=\"at\" data-expr=\"=+5m\" data-prop-value=\"2020-07-09T20:19:33.471Z\">09.07.2020 22:19</div>​<label data-for=\"priority\" class=\"\">dôležité​</label><div class=\"FieldList hasActions\" data-name=\"priority\" data-prop-value=\"0\">bežne</div>​<label data-for=\"done\" class=\" _noval\">vybavené dňa​</label><div class=\"_noval FieldDate hasActions\" placeholder=\"DD.MM.RRRR\" data-name=\"done\"></div></section><section data-x-id=\"291\" data-type=\"vlozit\" class=\"\"><aside></aside><label class=\"section-label  \">Vložiť​:</label>​<label data-for=\"title\" class=\"\">názov vzoru​</label><div class=\"Field\" data-name=\"title\">Bodovanie - dislipidémia, kontrolné</div>​<label data-for=\"source\" class=\" _noval\">zdroj​</label><div class=\"_noval Field\" data-name=\"source\"></div>​<label data-for=\"vars\" class=\" _noval\">premenne​</label><div class=\"_noval Field\" data-name=\"vars\"></div></section>",
   "title": "Obezita - Kontrolné vyšetrenie",
   "shortcut": "obez",
   "if": "",
@@ -64,7 +63,7 @@
         },
         "value": {
           "nadpis": {
-            "value": "Dislipidémia - Kontrolné vyšetrenie<br>",
+            "value": "Obezita - Kontrolné vyšetrenie<br>",
             "props": {}
           },
           "podnadpis": {
@@ -674,32 +673,6 @@
             "props": {}
           }
         }
-      },
-      {
-        "id": 299,
-        "order": 72,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? var.rfd=='ON' }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 301,
-        "order": 74,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
       }
     ],
     "ra": [
@@ -1286,6 +1259,10 @@
             "value": "",
             "props": {}
           },
+          "p": {
+            "value": "",
+            "props": {}
+          },
           "qrs": {
             "value": "",
             "props": {}
@@ -1310,10 +1287,6 @@
             "value": "+",
             "props": {}
           },
-          "hlk": {
-            "value": "",
-            "props": {}
-          },
           "poznamka": {
             "value": "",
             "props": {}
@@ -1325,31 +1298,57 @@
         }
       }
     ],
-    "vlozit": [
+    "odp": [
       {
-        "id": 300,
-        "order": 73,
+        "id": 94,
+        "order": 72,
         "props": {
-          "type": "vlozit"
+          "type": "odp"
         },
         "value": {
-          "title": {
-            "value": "Rizikové faktory kardiovaskulárneho rizika",
+          "odp": {
+            "value": "Úprava ŽŠ, redukcia hmotnosti, kontroly TK<br>DG: ...<br>Doplní: ....<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "p": [
+      {
+        "id": 96,
+        "order": 73,
+        "props": {
+          "type": "p"
+        },
+        "value": {
+          "text": {
+            "value": "Kontrola liecby Obezity<br>",
             "props": {}
           },
-          "source": {
-            "value": "",
-            "props": {}
+          "at": {
+            "value": "21.09.2022 12:20",
+            "props": {
+              "propValue": "2022-09-21T10:20:20.957Z",
+              "expr": "=+5m"
+            }
           },
-          "vars": {
+          "priority": {
+            "value": "bežne",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "done": {
             "value": "",
             "props": {}
           }
         }
-      },
+      }
+    ],
+    "vlozit": [
       {
         "id": 291,
-        "order": 77,
+        "order": 74,
         "props": {
           "type": "vlozit"
         },
@@ -1368,53 +1367,6 @@
           }
         }
       }
-    ],
-    "odp": [
-      {
-        "id": 94,
-        "order": 75,
-        "props": {
-          "type": "odp"
-        },
-        "value": {
-          "odp": {
-            "value": "Úprava ŽŠ, redukcia hmotnosti, menej soliť, kontroly TK<br>DG: ...<br>Doplní: ....<br>",
-            "props": {}
-          }
-        }
-      }
-    ],
-    "p": [
-      {
-        "id": 96,
-        "order": 76,
-        "props": {
-          "type": "p"
-        },
-        "value": {
-          "text": {
-            "value": "Kontrola liecby Obezity<br>",
-            "props": {}
-          },
-          "at": {
-            "value": "09.07.2020 22:19",
-            "props": {
-              "propValue": "2020-07-09T20:19:50.648Z",
-              "expr": "=+5m"
-            }
-          },
-          "priority": {
-            "value": "bežne",
-            "props": {
-              "propValue": 0
-            }
-          },
-          "done": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
     ]
   },
   "tags": [
@@ -1422,5 +1374,10 @@
     "monitory"
   ],
   "vars": {},
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2022-04-21T07:08:08.832Z",
+  "mt": "2022-04-21T10:20:48.358Z",
   "source": "curo-open/curo-vzory#/020"
 }
