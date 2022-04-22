@@ -1,0 +1,74 @@
+{
+  "title": "ICHT/CA 2%",
+  "shortcut": "M00003",
+  "if": "",
+  "data": {
+    "_": {},
+    "r-ml": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "r-ml"
+        },
+        "value": {
+          "title": {
+            "value": "M00003",
+            "props": {}
+          },
+          "schedule": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "instruction": {
+            "value": "Ichtamoli 2,0\nCremoris anionici ad 100,0\nM.f.crm.\nD.S.na ložiská<br>",
+            "props": {}
+          },
+          "priprava": {
+            "value": "",
+            "props": {}
+          },
+          "aplikacia": {
+            "value": "",
+            "props": {}
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "owner": "admin",
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "mt": "2022-04-22T11:17:12.245Z",
+  "source": "curo-open/curo-vzory#/020"
+}
