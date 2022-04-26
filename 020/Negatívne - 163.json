@@ -5,10 +5,72 @@
   "if": "",
   "data": {
     "_": {},
+    "t": [
+      {
+        "id": 5,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{? zp == 27 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 9,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 7,
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
     "vd": [
       {
+        "id": 10,
+        "order": 1,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089520809@22",
+              "id": "Z00.0"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 2,
-        "order": 0,
+        "order": 3,
         "props": {
           "type": "vd"
         },
@@ -16,9 +78,9 @@
           "id": {
             "value": "[Z01.88] Iné bližšie určené špeciálne vyšetrenie",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z01.88",
               "idEzid": "02089521005@12",
-              "id": "Z01.88"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -31,7 +93,7 @@
     "vv": [
       {
         "id": 4,
-        "order": 1,
+        "order": 5,
         "props": {
           "type": "vv"
         },
@@ -40,9 +102,9 @@
             "value": "[163] Vyšetrenie a včasné rozpoznanie hroziacej straty sebestačnosti u starých ľudí.",
             "props": {
               "propBody": 200,
-              "id": 163,
+              "idClassid": "vykon",
               "idEzid": "00000467464@13",
-              "idClassid": "vykon"
+              "id": 163
             }
           },
           "count": {
@@ -58,5 +120,10 @@
   ],
   "vars": {},
   "type": "examination",
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2022-04-26T12:01:44.623Z",
+  "mt": "2022-04-26T12:01:44.623Z",
   "source": "curo-open/curo-vzory#/020"
 }
