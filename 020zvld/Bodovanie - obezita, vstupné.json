@@ -94,11 +94,11 @@
         },
         "value": {
           "id": {
-            "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
+            "value": "[E66.00] Obezita zapríčinená nadmerným energetickým príjmom, BMI: od 30 do menej ako 35",
             "props": {
               "idClassid": "diagnoza",
-              "idEzid": "02089382192@11",
-              "id": "E78.9"
+              "idEzid": "02089381251@22",
+              "id": "E66.00"
             }
           },
           "text": {
@@ -115,11 +115,11 @@
         },
         "value": {
           "id": {
-            "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
+            "value": "[E66.00] Obezita zapríčinená nadmerným energetickým príjmom, BMI: od 30 do menej ako 35",
             "props": {
-              "id": "E78.9",
-              "idEzid": "02089382192@11",
-              "idClassid": "diagnoza"
+              "idClassid": "diagnoza",
+              "idEzid": "02089381251@22",
+              "id": "E66.00"
             }
           },
           "text": {
@@ -136,11 +136,11 @@
         },
         "value": {
           "id": {
-            "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
+            "value": "[E66.00] Obezita zapríčinená nadmerným energetickým príjmom, BMI: od 30 do menej ako 35",
             "props": {
               "idClassid": "diagnoza",
-              "idEzid": "02089382192@11",
-              "id": "E78.9"
+              "idEzid": "02089381251@22",
+              "id": "E66.00"
             }
           },
           "text": {
@@ -223,7 +223,7 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2022-04-21T07:01:57.025Z",
+  "mt": "2022-05-04T06:44:26.370Z",
   "owner": "admin",
   "ct": "2022-04-21T07:01:04.384Z",
   "source": "curo-open/curo-vzory#/020zvld"
