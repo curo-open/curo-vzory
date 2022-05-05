@@ -1,5 +1,5 @@
 {
-  "summary": null,
+  "summary": "",
   "title": "Bodovanie - hypertenzia, vstupné",
   "shortcut": "b-hyperv",
   "if": "",
@@ -437,12 +437,12 @@
         },
         "value": {
           "id": {
-            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
+            "value": "[H0003] Iniciálne vyšetrenie u poistenca s arteriálnou hypertenziou alebo ošetrenie akútneho hypertenzného stavu",
             "props": {
-              "propBody": 180,
+              "propBody": 0,
               "idClassid": "vykon",
-              "idEzid": "00000466565@10",
-              "id": 10
+              "idEzid": "02089725747@38",
+              "id": "H0003"
             }
           },
           "count": {
@@ -557,7 +557,7 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "type": null,
-  "mt": "2022-04-19T21:50:19.941Z",
+  "mt": "2022-05-05T12:06:34.011Z",
   "owner": "admin",
   "ct": "2022-04-19T21:50:01.862Z",
   "source": "curo-open/curo-vzory#/020zvld"

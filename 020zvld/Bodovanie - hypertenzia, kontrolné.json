@@ -1,7 +1,7 @@
 {
   "title": "Bodovanie - hypertenzia, kontrolné",
   "shortcut": "b-hyperk",
-  "summary": null,
+  "summary": "",
   "if": "",
   "data": {
     "_": {},
@@ -415,12 +415,12 @@
         },
         "value": {
           "id": {
-            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
+            "value": "[H0004] Kontrolné vyšetrenie u poistenca s arteriálnou hypertenziou jeden krát za 6 mesiacov",
             "props": {
-              "propBody": 180,
-              "id": 10,
-              "idEzid": "00000466565@10",
-              "idClassid": "vykon"
+              "propBody": 0,
+              "idClassid": "vykon",
+              "idEzid": "02089725754@38",
+              "id": "H0004"
             }
           },
           "count": {
@@ -538,6 +538,6 @@
   "type": null,
   "owner": "admin",
   "ct": "2022-04-19T07:25:09.106Z",
-  "mt": "2022-04-19T21:47:10.694Z",
+  "mt": "2022-05-05T12:06:19.188Z",
   "source": "curo-open/curo-vzory#/020zvld"
 }

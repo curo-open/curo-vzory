@@ -181,11 +181,11 @@
         },
         "value": {
           "id": {
-            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
+            "value": "[H0003] Iniciálne vyšetrenie u poistenca s arteriálnou hypertenziou alebo ošetrenie akútneho hypertenzného stavu",
             "props": {
-              "propBody": 180,
-              "id": 10,
-              "idEzid": "00000466565@11",
+              "propBody": 0,
+              "id": "H0003",
+              "idEzid": "02089725747@38",
               "idClassid": "vykon"
             }
           },
@@ -223,7 +223,7 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2022-05-04T06:44:26.370Z",
+  "mt": "2022-05-05T12:07:44.278Z",
   "owner": "admin",
   "ct": "2022-04-21T07:01:04.384Z",
   "source": "curo-open/curo-vzory#/020zvld"
