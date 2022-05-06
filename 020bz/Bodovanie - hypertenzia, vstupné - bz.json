@@ -1,0 +1,564 @@
+{
+  "summary": null,
+  "title": "Bodovanie - hypertenzia, vstupné",
+  "shortcut": "b-hyperv",
+  "if": "",
+  "data": {
+    "_": {},
+    "premenna": [
+      {
+        "id": 27,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "holter",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "ON",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 43,
+        "order": 14,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "skore",
+            "props": {}
+          },
+          "type": {
+            "value": "výpočet SCORE",
+            "props": {
+              "propValue": "fn-score"
+            }
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 30,
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp==25 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 35,
+        "order": 6,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 36,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp==25 &amp;&amp; var.holter==\"ON\" &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='5715'\")|trans(\"length\") == 0)}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 38,
+        "order": 9,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 39,
+        "order": 10,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp==27 &amp;&amp; var.holter==\"ON\" &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=730\")|where(\"s.value.id.props.id=='5715'\")|trans(\"length\") == 0)}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 41,
+        "order": 12,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 42,
+        "order": 13,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp==25 &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0)}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 47,
+        "order": 18,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 48,
+        "order": 19,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp=='24' }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 52,
+        "order": 23,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 53,
+        "order": 24,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp==27 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 56,
+        "order": 28,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 31,
+        "order": 2,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
+            "props": {
+              "id": "I10.00",
+              "idEzid": "02089398180@11",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 44,
+        "order": 15,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
+            "props": {
+              "id": "I10.00",
+              "idEzid": "02089398180@11",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 49,
+        "order": 20,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
+            "props": {
+              "id": "I10.00",
+              "idEzid": "02089398180@11",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 54,
+        "order": 25,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089398180@11",
+              "id": "I10.00"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 32,
+        "order": 3,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[H0003+EDU] Výkon H0003 s pripočítateľnou položkou EDU",
+            "props": {
+              "propBody": 0,
+              "id": "H0003+EDU",
+              "idEzid": "curo-H0003+EDU@38",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 58,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
+            "props": {
+              "propBody": 180,
+              "id": 10,
+              "idEzid": "00000466565@38",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 34,
+        "order": 5,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
+            "props": {
+              "propBody": 550,
+              "propType": "SVaLZ",
+              "id": 5702,
+              "idEzid": "00000494187@10",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 37,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.",
+            "props": {
+              "propType": "SVaLZ",
+              "propBody": 750,
+              "idClassid": "vykon",
+              "idEzid": "00000494302@10",
+              "id": 5715
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 40,
+        "order": 11,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.",
+            "props": {
+              "propBody": 750,
+              "propType": "SVaLZ",
+              "id": 5715,
+              "idEzid": "00000494302@10",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 45,
+        "order": 16,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
+            "props": {
+              "propBody": 0,
+              "idClassid": "vykon",
+              "idEzid": "02089725770@10",
+              "id": "H0006"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 61,
+        "order": 21,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
+            "props": {
+              "propBody": 180,
+              "idClassid": "vykon",
+              "idEzid": "00000466565@38",
+              "id": 10
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 51,
+        "order": 22,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
+            "props": {
+              "propType": "SVaLZ",
+              "propBody": 550,
+              "idClassid": "vykon",
+              "idEzid": "00000494187@10",
+              "id": 5702
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 55,
+        "order": 26,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[H0003+EDU] Výkon H0003 s pripočítateľnou položkou EDU",
+            "props": {
+              "propBody": 0,
+              "id": "H0003+EDU",
+              "idEzid": "curo-H0003+EDU@38",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 60,
+        "order": 27,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
+            "props": {
+              "propBody": 550,
+              "propType": "SVaLZ",
+              "id": 5702,
+              "idEzid": "00000494187@38",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "h-score": [
+      {
+        "id": 46,
+        "order": 17,
+        "props": {
+          "type": "h-score"
+        },
+        "value": {
+          "score": {
+            "value": "0",
+            "props": {
+              "expr": "={{var.skore}}"
+            }
+          },
+          "x": {
+            "value": "1",
+            "props": {
+              "propValue": "1.0"
+            }
+          },
+          "risk": {
+            "value": "0",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "type": null,
+  "mt": "2022-05-06T22:05:44.261Z",
+  "ct": "2022-05-06T22:05:04.966Z",
+  "owner": "admin",
+  "source": "curo-open/curo-vzory#/020bz"
+}
