@@ -669,7 +669,33 @@
         },
         "value": {
           "t": {
-            "value": "<b>RF:<br></b>...<br>",
+            "value": "<b>RF:<br></b>rodinna anamnéza, nepravidelnost v stravovaní, pohybová inaktivita, lieky (antidiabetiká, lieky na ŠŽ, sedatíva, antidepresíva, glukokortikody), endokrinolog ochorenia, ženy- (stav po porode,dojčenie, meonopauza, hormonálna liečba), chronický stres , prerušenie fajčenia, motivácia pacienta ( prekontemplácia, kontemplácia, pripravednost na zmenu, udržiavanie) <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 304,
+        "order": 75,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{? zp != 24 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 306,
+        "order": 77,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
             "props": {}
           }
         }
@@ -833,6 +859,19 @@
             "props": {}
           }
         }
+      },
+      {
+        "id": 308,
+        "order": 72,
+        "props": {
+          "type": "dz"
+        },
+        "value": {
+          "dz": {
+            "value": "<span>Obezita I/II/III stupeň </span><br>",
+            "props": {}
+          }
+        }
       }
     ],
     "ab": [
@@ -959,7 +998,7 @@
             "props": {}
           },
           "popis": {
-            "value": "pri vedomí, orientovaný, habitus normostenický, koža hydratovaná, čistá, sliznice ružové",
+            "value": "pri vedomí, orientovaný, habitus obezita, koža hydratovaná, čistá, sliznice ružové<br>",
             "props": {}
           }
         }
@@ -1301,13 +1340,13 @@
     "odp": [
       {
         "id": 94,
-        "order": 72,
+        "order": 73,
         "props": {
           "type": "odp"
         },
         "value": {
           "odp": {
-            "value": "Úprava ŽŠ, redukcia hmotnosti, kontroly TK<br>DG: ...<br>Doplní: ....<br>",
+            "value": "Úprava ŽŠ - vydaný informačný materiál - pravidelné stravovanie, kalorické tabulky, krokomery, pohybová aktivita min 3x týždenne 30-60minut, nefarmakologická liečba - odporúčaný nutričný poradca <br>Doplní: návštevy u nutričného poradcu, ev  echokg, spirometria, USG brucha <br>",
             "props": {}
           }
         }
@@ -1316,7 +1355,7 @@
     "p": [
       {
         "id": 96,
-        "order": 73,
+        "order": 74,
         "props": {
           "type": "p"
         },
@@ -1326,9 +1365,9 @@
             "props": {}
           },
           "at": {
-            "value": "21.09.2022 12:20",
+            "value": "06.10.2022 13:21",
             "props": {
-              "propValue": "2022-09-21T10:20:20.957Z",
+              "propValue": "2022-10-06T11:21:49.108Z",
               "expr": "=+5m"
             }
           },
@@ -1347,8 +1386,29 @@
     ],
     "vlozit": [
       {
+        "id": 305,
+        "order": 76,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Záznam z edukácie pacienta s hypertenziou, dyslipidémiou, obezitou",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 291,
-        "order": 74,
+        "order": 78,
         "props": {
           "type": "vlozit"
         },
@@ -1378,6 +1438,6 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "ct": "2022-04-21T07:08:08.832Z",
-  "mt": "2022-04-21T10:20:48.358Z",
+  "mt": "2022-05-06T11:22:13.024Z",
   "source": "curo-open/curo-vzory#/020"
 }
