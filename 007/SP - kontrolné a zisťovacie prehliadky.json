@@ -1,0 +1,197 @@
+{
+  "title": "SP - kontrolné a zisťovacie prehliadky",
+  "shortcut": "sp-kontrolne-a-zistovacie",
+  "summary": "SP - kontrolné a zisťovacie prehliadky",
+  "if": "",
+  "data": {
+    "_": {},
+    "od": [
+      {
+        "id": 7,
+        "order": 0,
+        "props": {
+          "type": "od"
+        },
+        "value": {
+          "reason": {
+            "value": "na základe vyžiadania Sociálnou poisťovňou",
+            "props": {
+              "propValue": "SP"
+            }
+          },
+          "datumVyziadania": {
+            "value": "",
+            "props": {}
+          },
+          "posudkovyLekar": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t-sp-prehliadky": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "t-sp-prehliadky"
+        },
+        "value": {
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "datum": {
+            "value": "20.09.2021",
+            "props": {
+              "propValue": "2021-09-19T22:00:00.000Z",
+              "expr": "=dnes"
+            }
+          },
+          "vztah": {
+            "value": "",
+            "props": {}
+          },
+          "druh_cinnosti": {
+            "value": "",
+            "props": {}
+          },
+          "praceneschopny_od": {
+            "value": "",
+            "props": {}
+          },
+          "praceneschopny_do": {
+            "value": "",
+            "props": {}
+          },
+          "praceneschopny_pre": {
+            "value": "",
+            "props": {}
+          },
+          "podpora_do": {
+            "value": "",
+            "props": {}
+          },
+          "anamneza": {
+            "value": "{{&lt; sessions|getSections(\"ra\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"oa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"pa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"sa\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"la\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans('text') }}<br>{{&lt; sessions|getSections(\"ga\")|where(\"i==0\")|trans(\"text\")}}<br>{{&lt; sessions|getSections(\"dz\")|where(\"i==0\")|trans(\"text\")}}<br>",
+            "props": {}
+          },
+          "vysledky_nalezov": {
+            "value": "",
+            "props": {}
+          },
+          "vysledky_vesetreni": {
+            "value": "",
+            "props": {}
+          },
+          "diagnoza": {
+            "value": "{{&lt; sessions|getSections(\"td\")|trans(\"text\")}}<br>",
+            "props": {}
+          },
+          "ostatne_diagnozy": {
+            "value": "",
+            "props": {}
+          },
+          "pocet_priloh": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "zfp": [
+      {
+        "id": 5,
+        "order": 2,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "oh": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "",
+            "props": {}
+          },
+          "temp": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 9,
+        "order": 3,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[74.PZAK] Vystavenie lekárskeho nálezu, alebo výpis zo zdravotnej dokumentácie na účely sociálneho poistenia podľa osobitného predpisu.",
+            "props": {
+              "propBody": 300,
+              "propType": "soc",
+              "id": "74.PZAK",
+              "idEzid": "curo-74.PZAK@13",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "type": "examination",
+  "tags": [
+    "prehlad-sp-prehliadky"
+  ],
+  "vars": {},
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/020"
+}
