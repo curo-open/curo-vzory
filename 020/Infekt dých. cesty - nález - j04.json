@@ -1,0 +1,375 @@
+{
+  "tags": [],
+  "title": "Infekt dých. cesty - nález - j04",
+  "shortcut": "j0n",
+  "if": "",
+  "data": {
+    "_": {
+      "tid": 2
+    },
+    "z": [
+      {
+        "id": 26,
+        "order": 0,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "kľudový režim, pri suchom kašli na noc Tussin  30kv.,  pri ATB liečbe probiotiká, vitaminy sk C, D, Zn<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 17,
+        "order": 1,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[J04.2] Akútny zápal hrtana a priedušnice",
+            "props": {
+              "propDanger": 1,
+              "idClassid": "diagnoza",
+              "idEzid": "02089403360@22",
+              "id": "J04.2"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 20,
+        "order": 2,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[53853] KLACID 500 mg filmom obalené tablety | tbl flm 14x500 mg (blis.PVC/PVDC/Al)",
+            "props": {
+              "propKat": true,
+              "propOl": 0,
+              "propAtcName": "Klaritromycín",
+              "propSdl": 14,
+              "propCena": 10.45,
+              "propVnl": "R",
+              "propUzp_1zvj": "0,333000",
+              "propBal": 14,
+              "propGp": 1,
+              "propUnit": "DF",
+              "propSpUhr": "S",
+              "propDpl": 5.79,
+              "idClassid": "liek",
+              "idEzid": "00020647053",
+              "idF": "TBL FLM",
+              "idSp": "ora",
+              "idAtc": "J01FA09",
+              "idUl": "clarithromycinum",
+              "id": 53853
+            }
+          },
+          "schedule": {
+            "value": "á 12 hod. 1 tableta(y) perorálne",
+            "props": {
+              "propType": "PEV2",
+              "propIntervaldavkovania": "interval",
+              "propWay_id": "PO",
+              "propWay_t": "perorálne",
+              "propPeriod_id": "D",
+              "propPeriod_t": "denne",
+              "propText": "",
+              "propForm_id": "TBL",
+              "propForm_t": "tablety",
+              "propParts_morning": 1,
+              "propUnit_id": "TAB",
+              "propUnit_t": "tableta(y)",
+              "propHours": 12,
+              "propUnitsperhour": 1
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "payoff": {
+            "value": "5,79",
+            "props": {
+              "propValue": 5.79
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "instruction_lek": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 27,
+        "order": 3,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[69409] Solmucol 600 mg | gra 7x2,7 g (vre.PE/Al/papier)",
+            "props": {
+              "propKat": false,
+              "propOl": 0,
+              "propAtcName": "Acetylcysteín",
+              "propVnl": "F",
+              "propBal": 7,
+              "propGp": 0,
+              "propUnit": "DF",
+              "idClassid": "liek",
+              "idEzid": "00020419719",
+              "idF": "GRA",
+              "idSp": "ora",
+              "idAtc": "R05CB01",
+              "idUl": "",
+              "id": 69409
+            }
+          },
+          "schedule": {
+            "value": "1-0-0-0, denne",
+            "props": {
+              "propWay_code": "",
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propParts_sleepTime": 0,
+              "propParts_evening": 0,
+              "propParts_noon": 0,
+              "propParts_morning": 1,
+              "propType": "PEV1"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "instruction_lek": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 28,
+        "order": 4,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[95520] TUSSIN | gto por 1x25 ml (fľ.skl.hnedá)",
+            "props": {
+              "propKat": false,
+              "propOl": 0,
+              "propAtcName": "Butamirát",
+              "propVnl": "F",
+              "propBal": 1,
+              "propGp": 0,
+              "propUnit": "DF",
+              "idClassid": "liek",
+              "idEzid": "00020800843",
+              "idF": "GTO POR",
+              "idSp": "ora",
+              "idAtc": "R05DB13",
+              "idUl": "",
+              "id": 95520
+            }
+          },
+          "schedule": {
+            "value": "0-0-0-25, kvapka(y) denne perorálne",
+            "props": {
+              "propType": "PEV1",
+              "propIntervaldavkovania": "denne",
+              "propWay_id": "PO",
+              "propWay_t": "perorálne",
+              "propPeriod_id": "D",
+              "propPeriod_t": "denne",
+              "propText": "",
+              "propForm_id": "GTO",
+              "propForm_t": "kvapky",
+              "propParts_sleepTime": 25,
+              "propUnit_id": "KVA",
+              "propUnit_t": "kvapka(y)"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "instruction_lek": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 15,
+        "order": 5,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "j0b<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2022-07-14T14:04:53.877Z",
+  "mt": "2022-08-17T08:41:26.090Z",
+  "summary": "Infekt dychacie cesty",
+  "owner": "orechovska",
+  "source": "curo-open/curo-vzory#/020"
+}

@@ -1,0 +1,131 @@
+{
+  "tags": [],
+  "title": "Infekt dých. cesty - bodovanie - s crp",
+  "shortcut": "j0b",
+  "if": "",
+  "data": {
+    "_": {
+      "tid": 2
+    },
+    "vv": [
+      {
+        "id": 35,
+        "order": 0,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[8] Štandardné vyšetrenie dvoch alebo viacerých orgánových systémov. Súčasťou výkonu je anamnéza, opis terajšieho ochorenia, objektívny nález, odoslanie na laboratórne, prístrojové alebo odborné vyšetrenie - vypísanie žiadaniek, záver, vypísanie receptov",
+            "props": {
+              "propBody": 250,
+              "idClassid": "vykon",
+              "idEzid": "00000466557@38",
+              "id": 8
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 33,
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[4571A] C-reaktívny proteín",
+            "props": {
+              "propBody": 380,
+              "idClassid": "vykon",
+              "idEzid": "02089716514@38",
+              "id": "4571A"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 37,
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[299] Odber biologického materiálu na bakteriologické, sérologické, mykologické, virologické a parazitologické vyšetrenie",
+            "props": {
+              "idClassid": "vykon",
+              "idEzid": "02089691493@38",
+              "id": 299
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 39,
+        "order": 4,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[629a] Skríningový antigénový test SARS-CoV-2",
+            "props": {
+              "idClassid": "vykon",
+              "idEzid": "02089901322@38",
+              "id": "629a"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 41,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[U07.2] Podozrenie z infekcie COVID-19",
+            "props": {
+              "propDanger": 1,
+              "idClassid": "diagnoza",
+              "idEzid": "02089528679@22",
+              "id": "U07.2"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2022-07-14T14:09:57.782Z",
+  "mt": "2022-08-17T08:43:34.991Z",
+  "summary": "Infekt dychacie cesty",
+  "owner": "orechovska",
+  "source": "curo-open/curo-vzory#/020"
+}

@@ -1,0 +1,462 @@
+{
+  "tags": [],
+  "title": "Infekt dých. cesty - nález - j01",
+  "shortcut": "j0n",
+  "if": "",
+  "data": {
+    "_": {
+      "tid": 2
+    },
+    "z": [
+      {
+        "id": 26,
+        "order": 0,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "kľudový režim, preplachy nosa morský sprej / Aliamare/,  dekongestíva / Muconasal, Vibrocil/, pri ATB liečbe probiotiká, vitaminy sk C, D, Zn<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 17,
+        "order": 1,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[J01.8] Iný akútny zápal prinosových dutín",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089403238@22",
+              "id": "J01.8"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 19,
+        "order": 2,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[24880] PAMYCON na pripravu kvapiek | plv gtt 1x1 (fľ.skl.hnedá)",
+            "props": {
+              "propKat": true,
+              "propOl": 0,
+              "propAtcName": "Iné antibiotiká na lokálne použitie",
+              "propSdl": 1,
+              "propCena": 3.62,
+              "propVnl": "R",
+              "propUzp_1zvj": "1,720000",
+              "propBal": 1,
+              "propGp": 0,
+              "propUnit": "DF",
+              "propSpUhr": "S",
+              "propDpl": 1.9,
+              "idClassid": "liek",
+              "idEzid": "00020552485",
+              "idF": "PLV GTT",
+              "idSp": "loc",
+              "idAtc": "D06AX",
+              "idUl": "neomycinum",
+              "id": 24880
+            }
+          },
+          "schedule": {
+            "value": "dľa rady, 5x do nosa",
+            "props": {
+              "propWay_code": "",
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propText": "5x do nosa",
+              "propType": "RAD"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "1,9",
+            "props": {
+              "propValue": 1.9
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "instruction_lek": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 20,
+        "order": 3,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[53132] Cefzil 500 mg | tbl flm 10x500 mg (blis.PVC/PVDC/Al)",
+            "props": {
+              "propKat": true,
+              "propOl": 0,
+              "propAtcName": "Cefprozil",
+              "propSdl": 5,
+              "propCena": 11.62,
+              "propVnl": "R",
+              "propUzp_1zvj": "1,743000",
+              "propBal": 10,
+              "propGp": 1,
+              "propUnit": "DF",
+              "propSpUhr": "S",
+              "propDpl": 2.9,
+              "idClassid": "liek",
+              "idEzid": "00020646261",
+              "idF": "TBL FLM",
+              "idSp": "ora",
+              "idAtc": "J01DC10",
+              "idUl": "",
+              "id": 53132
+            }
+          },
+          "schedule": {
+            "value": "á 12 hod. 1  ",
+            "props": {
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propWay_code": "",
+              "propUnitsperhour": 1,
+              "propHours": 12,
+              "propType": "PEV2"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "payoff": {
+            "value": "2,9",
+            "props": {
+              "propValue": 2.9
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "instruction_lek": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 21,
+        "order": 4,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[3999B] Sinupret Akut | tbl obd 20x160 mg (blis.PVC/PVDC/Al)",
+            "props": {
+              "propKat": false,
+              "propOl": 0,
+              "propAtcName": "Iné liečivá proti nachladnutiu",
+              "propVnl": "F",
+              "propBal": 20,
+              "propGp": 0,
+              "propUnit": "DF",
+              "propDpl": 6.15,
+              "idClassid": "liek",
+              "idEzid": "00021135009",
+              "idF": "TBL OBD",
+              "idSp": "ora",
+              "idAtc": "R05X",
+              "idUl": "",
+              "id": "3999B"
+            }
+          },
+          "schedule": {
+            "value": "1-0-1-0, denne",
+            "props": {
+              "propWay_code": "",
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propParts_sleepTime": 0,
+              "propParts_evening": 1,
+              "propParts_noon": 0,
+              "propParts_morning": 1,
+              "propType": "PEV1"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "6,15",
+            "props": {
+              "propValue": 6.15
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "instruction_lek": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 22,
+        "order": 5,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[84498] TRIFED | sir 1x100 ml (fľ.PVC hnedá)",
+            "props": {
+              "propKat": false,
+              "propOl": 0,
+              "propAtcName": "Sympatomimetiká",
+              "propVnl": "R",
+              "propBal": 1,
+              "propGp": 0,
+              "propUnit": "DF",
+              "idClassid": "liek",
+              "idEzid": "00020562393",
+              "idF": "SIR",
+              "idSp": "ora",
+              "idAtc": "R01BA",
+              "idUl": "",
+              "id": 84498
+            }
+          },
+          "schedule": {
+            "value": "5-5-5-0, mililiter(tre) denne",
+            "props": {
+              "propWay_code": "",
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propUnit_id": "ML",
+              "propUnit_t": "mililiter(tre)",
+              "propParts_sleepTime": 0,
+              "propParts_evening": 5,
+              "propParts_noon": 5,
+              "propParts_morning": 5,
+              "propType": "PEV1"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "instruction_lek": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 15,
+        "order": 6,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "j0b<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2022-07-14T13:55:35.322Z",
+  "mt": "2022-08-17T08:41:33.603Z",
+  "summary": "Infekt dychacie cesty",
+  "owner": "orechovska",
+  "source": "curo-open/curo-vzory#/020"
+}

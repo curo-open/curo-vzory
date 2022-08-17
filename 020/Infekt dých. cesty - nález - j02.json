@@ -1,0 +1,362 @@
+{
+  "tags": [],
+  "title": "Infekt dých. cesty - nález - j02",
+  "shortcut": "j0n",
+  "if": "",
+  "data": {
+    "_": {
+      "tid": 2
+    },
+    "z": [
+      {
+        "id": 26,
+        "order": 0,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "kľudový režim, preplachy dutiny ustnej,  pri ATB liečbe probiotiká, vitaminy sk C, D, Zn<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 17,
+        "order": 1,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[J02.9] Akútny zápal hltana, bližšie neurčený",
+            "props": {
+              "id": "J02.9",
+              "idEzid": "02089403287@22",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 19,
+        "order": 2,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[40601] GLIMBAX | sol ora 1x200 ml (liek.skl.)",
+            "props": {
+              "propUnit": "DF",
+              "propGp": 0,
+              "propBal": 1,
+              "propVnl": "F",
+              "propAtcName": "Rôzne",
+              "propOl": 0,
+              "propKat": false,
+              "id": 40601,
+              "idUl": "diclofenacum",
+              "idAtc": "A01AD11",
+              "idSp": "gnv",
+              "idF": "SOL ORA",
+              "idEzid": "00020769915",
+              "idClassid": "liek"
+            }
+          },
+          "schedule": {
+            "value": "dľa rady, 3x denne preplach",
+            "props": {
+              "propType": "RAD",
+              "propText": "3x denne preplach",
+              "propPeriod_code": "D",
+              "propPeriod_t": "denne",
+              "propWay_code": ""
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "instruction_lek": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 20,
+        "order": 3,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[35715] Azithromycin Sandoz 500 mg filmom obalené tablety | tbl flm 3x500 mg (blis.PVC/PVDC/Al)",
+            "props": {
+              "propDpl": 0.55,
+              "propSpUhr": "S",
+              "propUnit": "DF",
+              "propGp": 1,
+              "propBal": 3,
+              "propUzp_1zvj": "0,335000",
+              "propVnl": "R",
+              "propCena": 2.23,
+              "propSdl": 5,
+              "propAtcName": "Azitromycín",
+              "propOl": 0,
+              "propKat": true,
+              "id": 35715,
+              "idUl": "azithromycinum",
+              "idAtc": "J01FA10",
+              "idSp": "ora",
+              "idF": "TBL FLM",
+              "idEzid": "00020851333",
+              "idClassid": "liek"
+            }
+          },
+          "schedule": {
+            "value": "1-0-0-0, denne",
+            "props": {
+              "propType": "PEV1",
+              "propParts_morning": 1,
+              "propParts_noon": 0,
+              "propParts_evening": 0,
+              "propParts_sleepTime": 0,
+              "propPeriod_code": "D",
+              "propPeriod_t": "denne",
+              "propWay_code": ""
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "payoff": {
+            "value": "0,55",
+            "props": {
+              "propValue": 0.55
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "instruction_lek": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 27,
+        "order": 4,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[99173] Solmucol pastilky 100 mg | pas ord 24x100 mg (blis.PA/Al/PVC)",
+            "props": {
+              "propDpl": 3.56,
+              "propUnit": "DF",
+              "propGp": 0,
+              "propBal": 24,
+              "propVnl": "F",
+              "propAtcName": "Acetylcysteín",
+              "propOl": 0,
+              "propKat": false,
+              "id": 99173,
+              "idUl": "",
+              "idAtc": "R05CB01",
+              "idSp": "ora",
+              "idF": "PAS ORD",
+              "idEzid": "00020416533",
+              "idClassid": "liek"
+            }
+          },
+          "schedule": {
+            "value": "2-2-2-0, denne",
+            "props": {
+              "propType": "PEV1",
+              "propParts_morning": 2,
+              "propParts_noon": 2,
+              "propParts_evening": 2,
+              "propParts_sleepTime": 0,
+              "propPeriod_code": "D",
+              "propPeriod_t": "denne",
+              "propWay_code": ""
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "3,56",
+            "props": {
+              "propValue": 3.56
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "instruction_lek": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 15,
+        "order": 5,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "j0b<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2022-07-14T14:02:50.446Z",
+  "mt": "2022-08-17T08:43:25.989Z",
+  "summary": "Infekt dychacie cesty",
+  "owner": "orechovska",
+  "source": "curo-open/curo-vzory#/020"
+}
