@@ -1,0 +1,62 @@
+{
+  "title": "Telemedicína + 70",
+  "owner": "admin",
+  "if": "",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 6,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 9,
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[70] Opätovné vystavenie lekárskeho predpisu alebo lekárskeho poukazu.",
+            "props": {
+              "propBody": 50,
+              "idClassid": "vykon",
+              "idEzid": "02089691105@39",
+              "id": 70
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "pacient-poziadavka"
+  ],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2022-09-23T13:50:12.592Z",
+  "mt": "2022-09-23T13:50:56.628Z",
+  "shortcut": "t70",
+  "summary": "Telemedicína",
+  "source": "curo-open/curo-vzory#/000SAS"
+}

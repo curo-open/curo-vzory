@@ -1,0 +1,62 @@
+{
+  "title": "Telemedicína + 1b",
+  "if": "",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 6,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 10,
+        "order": 1,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky",
+            "props": {
+              "propBody": 160,
+              "idClassid": "vykon",
+              "idEzid": "02089894014@39",
+              "id": "1b"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "pacient-poziadavka"
+  ],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2022-09-23T13:50:57.693Z",
+  "mt": "2022-09-23T13:51:44.550Z",
+  "shortcut": "t1b",
+  "summary": "Telemedicína",
+  "owner": "admin",
+  "source": "curo-open/curo-vzory#/000"
+}

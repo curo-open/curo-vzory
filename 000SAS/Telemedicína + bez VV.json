@@ -1,0 +1,19 @@
+{
+  "title": "Telemedicína + bez VV",
+  "if": "",
+  "data": {
+    "_": {}
+  },
+  "tags": [
+    "pacient-poziadavka"
+  ],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2022-09-23T13:51:52.613Z",
+  "mt": "2022-09-23T13:53:33.786Z",
+  "shortcut": "tbvv",
+  "summary": "Telemedicína",
+  "owner": "admin",
+  "source": "curo-open/curo-vzory#/000SAS"
+}
