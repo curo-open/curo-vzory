@@ -1,0 +1,333 @@
+{
+  "summary": "Covid - Comirnaty - 4 davka",
+  "title": "Covid očkovanie - Omicron - 4 dávka",
+  "shortcut": "co4",
+  "if": "",
+  "data": {
+    "_": {},
+    "vlozit": [
+      {
+        "id": 8,
+        "order": 0,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Očkovací dekurz",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "premenna": [
+      {
+        "id": 17,
+        "order": 1,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "sarza",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "XXX",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 2,
+        "order": 2,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z25.70] Potreba imunizácie výlučne proti COVID-19, očkovacia látka Tozinameran",
+            "props": {
+              "id": "Z25.70",
+              "idEzid": "02089905034@19",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oc": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[COV] Covid-19",
+            "props": {
+              "id": "COV",
+              "idEzid": "02089905018@3",
+              "idClassid": "ockovanie"
+            }
+          },
+          "datum": {
+            "value": "04.10.2022 13:01",
+            "props": {
+              "propValue": "2022-10-04T11:01:22.233Z",
+              "expr": "=teraz"
+            }
+          },
+          "typ": {
+            "value": "[STDAV] IV. dávka (základné očkovanie)",
+            "props": {
+              "idClassid": "octyp",
+              "idEzid": "00020885604@4",
+              "id": "STDAV"
+            }
+          },
+          "pocet": {
+            "value": "4",
+            "props": {}
+          },
+          "davka": {
+            "value": "4",
+            "props": {}
+          },
+          "posledna": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ol": [
+      {
+        "id": 6,
+        "order": 4,
+        "props": {
+          "type": "ol"
+        },
+        "value": {
+          "id": {
+            "value": "[1945E] Comirnaty Original/Omicron BA.1 | 2,25 ml obsahuje 6 dávok po 0,3 ml",
+            "props": {
+              "propKat": true,
+              "propOl": 0,
+              "propGp": 0,
+              "idClassid": "liek",
+              "id": "1945E"
+            }
+          },
+          "sn": {
+            "value": "{{var.sarza}}",
+            "props": {}
+          },
+          "qty": {
+            "value": "0,3",
+            "props": {
+              "propValue": "0.30"
+            }
+          },
+          "mu": {
+            "value": "[00020097051] ml",
+            "props": {
+              "id": "00020097051",
+              "idEzid": "00020097051@7",
+              "idClassid": "merjednotka"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 23,
+        "order": 5,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{? vek &gt;= 50 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 25,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 27,
+        "order": 9,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 24,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[252L] Očkovanie inou vakcínou proti ochoreniu Covid-19",
+            "props": {
+              "idClassid": "vykon",
+              "idEzid": "02089903864@39",
+              "id": "252L"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 26,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[252L] Očkovanie inou vakcínou proti ochoreniu Covid-19",
+            "props": {
+              "idClassid": "vykon",
+              "idEzid": "02089903864@33",
+              "id": "252L"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pl": [
+      {
+        "id": 14,
+        "order": 10,
+        "props": {
+          "type": "pl"
+        },
+        "value": {
+          "id": {
+            "value": "[1945E] Comirnaty Original/Omicron BA.1 | 2,25 ml obsahuje 6 dávok po 0,3 ml",
+            "props": {
+              "propKat": true,
+              "propOl": 0,
+              "propGp": 0,
+              "idClassid": "liek",
+              "id": "1945E"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "payoff": {
+            "value": "",
+            "props": {}
+          },
+          "dpljed": {
+            "value": "",
+            "props": {}
+          },
+          "dpl": {
+            "value": "0",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "uhradazp": {
+            "value": "0",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "kodl": {
+            "value": "",
+            "props": {}
+          },
+          "speci": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "moje",
+    "ocko"
+  ],
+  "vars": {
+    "sarza": "XXX"
+  },
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "type": null,
+  "ct": "2022-10-04T11:01:24.278Z",
+  "mt": "2022-10-04T11:02:04.546Z",
+  "owner": "admin",
+  "source": "curo-open/curo-vzory#/020"
+}
