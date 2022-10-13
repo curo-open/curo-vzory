@@ -1,5 +1,5 @@
 {
-  "summary": "Covid - Comirnaty - 3 davka",
+  "summary": "Covid - Comirnaty - 4 davka",
   "title": "Covid očkovanie - Omicron - 4 dávka + tlačivá",
   "shortcut": "coo4",
   "if": "",
@@ -64,9 +64,9 @@
           "id": {
             "value": "[Z25.70] Potreba imunizácie výlučne proti COVID-19, očkovacia látka Tozinameran",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z25.70",
               "idEzid": "02089905034@19",
-              "id": "Z25.70"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -87,24 +87,24 @@
           "id": {
             "value": "[COV] Covid-19",
             "props": {
-              "idClassid": "ockovanie",
+              "id": "COV",
               "idEzid": "02089905018@3",
-              "id": "COV"
+              "idClassid": "ockovanie"
             }
           },
           "datum": {
-            "value": "04.10.2022 12:55",
+            "value": "13.10.2022 15:09",
             "props": {
-              "propValue": "2022-10-04T10:55:07.194Z",
+              "propValue": "2022-10-13T13:09:59.973Z",
               "expr": "=teraz"
             }
           },
           "typ": {
             "value": "[STDAV] IV. dávka (základné očkovanie)",
             "props": {
-              "id": "STDAV",
+              "idClassid": "octyp",
               "idEzid": "00020885604@4",
-              "idClassid": "octyp"
+              "id": "STDAV"
             }
           },
           "pocet": {
@@ -139,11 +139,11 @@
           "id": {
             "value": "[1945E] Comirnaty Original/Omicron BA.1 | 2,25 ml obsahuje 6 dávok po 0,3 ml",
             "props": {
-              "propKat": true,
-              "propOl": 0,
               "propGp": 0,
-              "idClassid": "liek",
-              "id": "1945E"
+              "propOl": 0,
+              "propKat": true,
+              "id": "1945E",
+              "idClassid": "liek"
             }
           },
           "sn": {
@@ -159,9 +159,9 @@
           "mu": {
             "value": "[00020097051] ml",
             "props": {
-              "idClassid": "merjednotka",
+              "id": "00020097051",
               "idEzid": "00020097051@7",
-              "id": "00020097051"
+              "idClassid": "merjednotka"
             }
           },
           "text": {
@@ -223,9 +223,9 @@
           "id": {
             "value": "[252L] Očkovanie inou vakcínou proti ochoreniu Covid-19",
             "props": {
-              "id": "252L",
+              "idClassid": "vykon",
               "idEzid": "02089903864@39",
-              "idClassid": "vykon"
+              "id": "252L"
             }
           },
           "count": {
@@ -244,9 +244,9 @@
           "id": {
             "value": "[252L] Očkovanie inou vakcínou proti ochoreniu Covid-19",
             "props": {
-              "id": "252L",
+              "idClassid": "vykon",
               "idEzid": "02089903864@33",
-              "idClassid": "vykon"
+              "id": "252L"
             }
           },
           "count": {
@@ -267,11 +267,11 @@
           "id": {
             "value": "[1945E] Comirnaty Original/Omicron BA.1 | 2,25 ml obsahuje 6 dávok po 0,3 ml",
             "props": {
-              "propKat": true,
-              "propOl": 0,
               "propGp": 0,
-              "idClassid": "liek",
-              "id": "1945E"
+              "propOl": 0,
+              "propKat": true,
+              "id": "1945E",
+              "idClassid": "liek"
             }
           },
           "qty": {
@@ -325,7 +325,7 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "ct": "2022-10-04T10:55:08.627Z",
-  "mt": "2022-10-04T11:01:22.012Z",
+  "mt": "2022-10-13T13:10:06.036Z",
   "owner": "admin",
   "source": "curo-open/curo-vzory#/020"
 }
