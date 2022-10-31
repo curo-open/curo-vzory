@@ -31,7 +31,7 @@
         },
         "value": {
           "t": {
-            "value": "Zamestnávateľ:  <br>Pracovné zaradenie: <br>",
+            "value": "Zamestnávateľ:  <br>Pracovné zaradenie: <br>Faktory práce a pracovného prostredia:<br>Kategória práce:<br>Práca podľa osobitných predpisov:<br>",
             "props": {}
           }
         }
@@ -1446,6 +1446,14 @@
             "value": "",
             "props": {}
           },
+          "ob": {
+            "value": "",
+            "props": {}
+          },
+          "whr": {
+            "value": "",
+            "props": {}
+          },
           "op": {
             "value": "",
             "props": {}
@@ -2156,7 +2164,7 @@
         },
         "value": {
           "z": {
-            "value": "Spôsobilý na výkon práce v navrhovanom pracovnom zaradení bez obmedzení  \nS obmedzeniami .......................................................................................................................................\nNespôsobilý<br>\n<b>Odporúčania:</b>\n<br>Nižšie podpísaný zamestnanec písomne prehlasujem, že všetky mnou uvedené údaje sú pravdivé, že som lekárovi nezamlčal/-a žiadne významné skutočnosti, ktoré súvisia s mojím zdravotným stavom pri výkone zamestnania u terajšieho zamestnávateľa. \nBol som poučený o poučený o potrebe dodržiavania odporúčaných preventívnych opatrení, liečby, event. odborných vyšetrení.\nSom si vedomý, že v opačnom prípade ponesiem všetky právne dôsledky, ak budú mať za  následok poškodenie zdravia súvisiace s prácou.\nPoučeniu som porozumel.<br>\nPodpis zamestnanca: ................ \tPodpis a pečiatka lekára: \t...................<br>",
+            "value": "Spôsobilý na výkon práce v navrhovanom pracovnom zaradení bez obmedzení  \nSpôsobilý na výkon práce v navrhovanom pracovnom zaradení s dočasným obmedzením ......................................................................................\nDlhodobo nespôsobilý na výkon práce v navrhovanom pracovnom zaradení<br>\n<b>Odporúčania:</b>\n<br>Nižšie podpísaný zamestnanec písomne prehlasujem, že všetky mnou uvedené údaje sú pravdivé, že som lekárovi nezamlčal/-a žiadne významné skutočnosti, ktoré súvisia s mojím zdravotným stavom pri výkone zamestnania u terajšieho zamestnávateľa. \nBol som poučený o poučený o potrebe dodržiavania odporúčaných preventívnych opatrení, liečby, event. odborných vyšetrení.\nSom si vedomý, že v opačnom prípade ponesiem všetky právne dôsledky, ak budú mať za  následok poškodenie zdravia súvisiace s prácou.\nPoučeniu som porozumel.<br>\nPodpis zamestnanca: ................ \tPodpis a pečiatka lekára: \t...................<br>",
             "props": {}
           }
         }
@@ -2170,5 +2178,6 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
+  "mt": "2022-10-31T11:15:17.859Z",
   "source": "curo-open/curo-vzory#/020"
 }
