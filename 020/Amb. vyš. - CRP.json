@@ -1,7 +1,7 @@
 {
   "title": "Amb. vyš. - CRP",
   "shortcut": "lv-crp",
-  "type": "lab-results",
+  "type": "examination",
   "data": {
     "_": {},
     "vd": [
@@ -105,10 +105,11 @@
     ]
   },
   "if": "",
+  "owner": "admin",
   "tags": [],
   "vars": {},
-  "owner": "admin",
   "allowedUsers": [],
   "allowedIdentities": [],
+  "mt": "2022-12-30T10:32:47.004Z",
   "source": "curo-open/curo-vzory#/020"
 }
