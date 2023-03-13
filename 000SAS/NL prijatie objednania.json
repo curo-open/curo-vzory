@@ -1,0 +1,40 @@
+{
+  "title": "NL prijatie objednania",
+  "if": "",
+  "data": {
+    "_": {},
+    "sablona": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "sablona"
+        },
+        "value": {
+          "type": {
+            "value": "Email",
+            "props": {
+              "propValue": "email"
+            }
+          },
+          "subject": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "Dobrý deň,<br><br>potvrdzujeme Vašu rezerváciu {{ var.obj.typ }} na termín {{ var.obj.termin }}.<br><br>Želáme pekný deň.<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2023-03-13T10:18:16.811Z",
+  "mt": "2023-03-13T11:29:18.070Z",
+  "owner": "admin",
+  "source": "curo-open/curo-vzory#/000SAS"
+}

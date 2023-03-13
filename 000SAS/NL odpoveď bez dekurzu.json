@@ -1,0 +1,40 @@
+{
+  "title": "NL odpoveď bez dekurzu",
+  "owner": "admin",
+  "if": "",
+  "data": {
+    "_": {},
+    "sablona": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "sablona"
+        },
+        "value": {
+          "type": {
+            "value": "Email",
+            "props": {
+              "propValue": "email"
+            }
+          },
+          "subject": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "Dobrý deň,<br><br>je nám ľúto ale Vami zaslanú požiadavku nevieme vybaviť bez telefonického rozhovoru, prosím kontaktujte ambulanciu na čísle <span>{{ identita.lekar_tel }}.<br><br>Želáme pekný deň.</span><br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2023-03-13T09:33:48.022Z",
+  "mt": "2023-03-13T11:33:11.663Z",
+  "source": "curo-open/curo-vzory#/000SAS"
+}
