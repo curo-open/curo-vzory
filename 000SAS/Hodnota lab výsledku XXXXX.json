@@ -1,0 +1,44 @@
+{
+  "title": "Hodnota lab výsledku XXXXX",
+  "owner": "mdra",
+  "shortcut": "hlv",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ sessions|getSections(\"lv\")|where(\"s.value.id.props.propLabTestId=='XXXXX'\")|where(\"i==0\")[0].s.value.value.value}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "XXXXX - nahradte kodom lab vysledku ktory chcete pouzit<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2023-03-13T09:24:24.165Z",
+  "mt": "2023-03-13T09:25:45.923Z",
+  "source": "curo-open/curo-vzory#/000"
+}
