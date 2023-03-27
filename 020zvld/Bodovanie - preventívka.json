@@ -612,7 +612,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; vek &gt;= 40 }}<br>",
+            "value": "{{ ? (sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; vek &gt;= 40 }}<br>",
             "props": {}
           }
         }
@@ -1327,9 +1327,9 @@
             "props": {}
           },
           "at": {
-            "value": "28.03.2023 10:26",
+            "value": "28.03.2023 11:28",
             "props": {
-              "propValue": "2023-03-28T08:26:45.203Z",
+              "propValue": "2023-03-28T09:28:12.316Z",
               "expr": "=+1d"
             }
           },
@@ -1357,9 +1357,9 @@
             "props": {}
           },
           "at": {
-            "value": "28.03.2023 10:26",
+            "value": "28.03.2023 11:28",
             "props": {
-              "propValue": "2023-03-28T08:26:45.209Z",
+              "propValue": "2023-03-28T09:28:12.321Z",
               "expr": "=+1d"
             }
           },
@@ -1387,9 +1387,9 @@
             "props": {}
           },
           "at": {
-            "value": "28.03.2023 10:26",
+            "value": "28.03.2023 11:28",
             "props": {
-              "propValue": "2023-03-28T08:26:45.215Z",
+              "propValue": "2023-03-28T09:28:12.329Z",
               "expr": "=+1d"
             }
           },
@@ -1518,7 +1518,7 @@
   "allowedIdentities": [],
   "type": null,
   "ct": "2023-03-24T13:16:09.022Z",
-  "mt": "2023-03-27T08:28:23.127Z",
+  "mt": "2023-03-27T09:28:32.640Z",
   "hide": false,
   "owner": "admin",
   "source": "curo-open/curo-vzory#/020zvld"

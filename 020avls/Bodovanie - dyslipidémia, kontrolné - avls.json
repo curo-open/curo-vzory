@@ -40,7 +40,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; vek &gt;= 40 }}<br>",
+            "value": "{{ ? (sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; vek &gt;= 40 }}<br>",
             "props": {}
           }
         }
@@ -413,7 +413,7 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2023-03-24T14:58:50.800Z",
+  "mt": "2023-03-27T09:27:18.744Z",
   "owner": "admin",
   "ct": "2023-03-24T13:49:31.508Z",
   "source": "curo-open/curo-vzory#/020zvld"

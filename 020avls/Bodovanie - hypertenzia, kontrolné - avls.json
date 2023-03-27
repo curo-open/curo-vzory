@@ -218,9 +218,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "id": "I10.00",
+              "idClassid": "diagnoza",
               "idEzid": "02089398180@11",
-              "idClassid": "diagnoza"
+              "id": "I10.00"
             }
           },
           "text": {
@@ -239,9 +239,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "I10.00",
               "idEzid": "02089398180@11",
-              "id": "I10.00"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -260,9 +260,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "I10.00",
               "idEzid": "02089398180@11",
-              "id": "I10.00"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -281,9 +281,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "id": "I10.00",
+              "idClassid": "diagnoza",
               "idEzid": "02089398180@11",
-              "idClassid": "diagnoza"
+              "id": "I10.00"
             }
           },
           "text": {
@@ -305,9 +305,9 @@
             "value": "[H0004+EDU] Výkon H0004 s pripočítateľnou položkou EDU",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
+              "id": "H0004+EDU",
               "idEzid": "curo-H0004+EDU@38",
-              "id": "H0004+EDU"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -326,11 +326,11 @@
           "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 550,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5702,
               "idEzid": "00000494187@10",
-              "id": 5702
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -349,11 +349,11 @@
           "id": {
             "value": "[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 750,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5715,
               "idEzid": "00000494302@10",
-              "id": 5715
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -372,11 +372,11 @@
           "id": {
             "value": "[5715] 24-hodinové monitorovanie tlaku krvi - naloženie a zosnímanie. Výkon môže vykazovať kardiológ a internista.",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 750,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5715,
               "idEzid": "00000494302@10",
-              "id": 5715
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -396,9 +396,9 @@
             "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
             "props": {
               "propBody": 0,
-              "id": "H0006",
+              "idClassid": "vykon",
               "idEzid": "02089725770@10",
-              "idClassid": "vykon"
+              "id": "H0006"
             }
           },
           "count": {
@@ -418,9 +418,9 @@
             "value": "[H0004] Kontrolné vyšetrenie u poistenca s arteriálnou hypertenziou jeden krát za 6 mesiacov",
             "props": {
               "propBody": 0,
-              "id": "H0004",
+              "idClassid": "vykon",
               "idEzid": "02089725754@38",
-              "idClassid": "vykon"
+              "id": "H0004"
             }
           },
           "count": {
@@ -439,11 +439,11 @@
           "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 550,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5702,
               "idEzid": "00000494187@38",
-              "id": 5702
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -463,9 +463,9 @@
             "value": "[H0004+EDU] Výkon H0004 s pripočítateľnou položkou EDU",
             "props": {
               "propBody": 0,
-              "id": "H0004+EDU",
+              "idClassid": "vykon",
               "idEzid": "curo-H0004+EDU@38",
-              "idClassid": "vykon"
+              "id": "H0004+EDU"
             }
           },
           "count": {
@@ -484,11 +484,11 @@
           "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 550,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5702,
               "idEzid": "00000494187@38",
-              "id": 5702
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -537,7 +537,7 @@
   "allowedIdentities": [],
   "type": null,
   "ct": "2023-03-24T13:31:10.740Z",
-  "mt": "2023-03-24T14:55:47.112Z",
+  "mt": "2023-03-27T09:28:48.164Z",
   "owner": "admin",
   "source": "curo-open/curo-vzory#/020zvld"
 }

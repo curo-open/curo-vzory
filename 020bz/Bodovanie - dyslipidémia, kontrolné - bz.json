@@ -39,7 +39,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; vek &gt;= 40 }}<br>",
+            "value": "{{ ? (sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; vek &gt;= 40 }}<br>",
             "props": {}
           }
         }
@@ -412,7 +412,7 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2023-03-24T15:00:39.891Z",
+  "mt": "2023-03-27T09:27:28.574Z",
   "ct": "2023-03-24T15:00:11.726Z",
   "owner": "admin",
   "shortcut": "b-lipidk",
