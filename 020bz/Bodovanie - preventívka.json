@@ -1,7 +1,7 @@
 {
   "title": "Bodovanie - preventívka",
   "shortcut": "b-pp",
-  "summary": null,
+  "summary": "",
   "if": "",
   "data": {
     "_": {},
@@ -100,7 +100,7 @@
       },
       {
         "id": 73,
-        "order": 59,
+        "order": 60,
         "props": {
           "type": "premenna"
         },
@@ -142,7 +142,7 @@
       },
       {
         "id": 82,
-        "order": 56,
+        "order": 57,
         "props": {
           "type": "vd"
         },
@@ -159,7 +159,7 @@
       },
       {
         "id": 109,
-        "order": 64,
+        "order": 65,
         "props": {
           "type": "vd"
         },
@@ -180,7 +180,7 @@
       },
       {
         "id": 111,
-        "order": 68,
+        "order": 69,
         "props": {
           "type": "vd"
         },
@@ -521,7 +521,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? var.extraVykony=='ON' }}<br>",
+            "value": "{{ ? var.extraVykony=='ON'  &amp;&amp; zp == 25}}<br>",
             "props": {}
           }
         }
@@ -547,40 +547,14 @@
         },
         "value": {
           "t": {
-            "value": "",
+            "value": "{{ ? var.extraVykony=='ON' &amp;&amp; zp != 25}}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 67,
-        "order": 51,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? (zp == 25 || zp==27)  &amp;&amp; vek &gt; 70 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 70,
-        "order": 52,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "<u>nezabudnite vykázať 163 kognitívny test</u>, použite F4 a napište 163<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 69,
-        "order": 53,
+        "id": 137,
+        "order": 54,
         "props": {
           "type": "t"
         },
@@ -593,20 +567,20 @@
       },
       {
         "id": 72,
-        "order": 54,
+        "order": 55,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? (sessions|getSections(\"vv\")|where(\"d.period&gt;365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") &gt; 0 || sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; vek &gt;= 40 &amp;&amp; zp == 24 }}<br>",
+            "value": "{{ ? sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; vek &gt;= 40 &amp;&amp; zp == 24 }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 79,
-        "order": 55,
+        "order": 56,
         "props": {
           "type": "t"
         },
@@ -619,7 +593,7 @@
       },
       {
         "id": 83,
-        "order": 57,
+        "order": 58,
         "props": {
           "type": "t"
         },
@@ -632,20 +606,20 @@
       },
       {
         "id": 80,
-        "order": 58,
+        "order": 59,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? (sessions|getSections(\"vv\")|where(\"d.period&gt;365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") &gt; 0 || sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; vek &gt;= 40 }}<br>",
+            "value": "{{ ? sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; vek &gt;= 40 }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 76,
-        "order": 62,
+        "order": 63,
         "props": {
           "type": "t"
         },
@@ -658,7 +632,7 @@
       },
       {
         "id": 108,
-        "order": 63,
+        "order": 64,
         "props": {
           "type": "t"
         },
@@ -671,7 +645,7 @@
       },
       {
         "id": 110,
-        "order": 66,
+        "order": 67,
         "props": {
           "type": "t"
         },
@@ -684,7 +658,7 @@
       },
       {
         "id": 129,
-        "order": 67,
+        "order": 68,
         "props": {
           "type": "t"
         },
@@ -697,7 +671,7 @@
       },
       {
         "id": 112,
-        "order": 70,
+        "order": 71,
         "props": {
           "type": "t"
         },
@@ -710,7 +684,7 @@
       },
       {
         "id": 115,
-        "order": 71,
+        "order": 72,
         "props": {
           "type": "t"
         },
@@ -723,7 +697,7 @@
       },
       {
         "id": 117,
-        "order": 73,
+        "order": 74,
         "props": {
           "type": "t"
         },
@@ -736,7 +710,7 @@
       },
       {
         "id": 118,
-        "order": 74,
+        "order": 75,
         "props": {
           "type": "t"
         },
@@ -749,7 +723,7 @@
       },
       {
         "id": 120,
-        "order": 76,
+        "order": 77,
         "props": {
           "type": "t"
         },
@@ -762,7 +736,7 @@
       },
       {
         "id": 121,
-        "order": 77,
+        "order": 78,
         "props": {
           "type": "t"
         },
@@ -775,7 +749,46 @@
       },
       {
         "id": 123,
-        "order": 79,
+        "order": 80,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 132,
+        "order": 81,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? (zp == 25 || zp==27)  &amp;&amp; vek &gt; 70 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 133,
+        "order": 82,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<u>nezabudnite vykázať 163 kognitívny test</u>, použite F4 a napište 163<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 134,
+        "order": 83,
         "props": {
           "type": "t"
         },
@@ -1122,8 +1135,76 @@
         }
       },
       {
-        "id": 34,
+        "id": 135,
         "order": 48,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[3526] Nekompletný dôkaz najviac troch z uvedených základných patologických súčastí moču, za každú pacientsku vzorku",
+            "props": {
+              "propType": "SVaLZ",
+              "propBody": 35,
+              "idClassid": "vykon",
+              "idEzid": "00000478578@42",
+              "id": 3526
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 138,
+        "order": 51,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[250b] Odber krvi do uzavretého systému, alebo odber pri podozrení na infekčné ochorenie, za každú odberovú súpravu.",
+            "props": {
+              "propBody": 150,
+              "idClassid": "vykon",
+              "idEzid": "00000467811@42",
+              "id": "250b"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 139,
+        "order": 52,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[3592] stanovenie sedimentačnej rýchlosti krviniek",
+            "props": {
+              "propBody": 50,
+              "propType": "SVaLZ",
+              "id": 3592,
+              "idEzid": "00000479048@42",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 141,
+        "order": 53,
         "props": {
           "type": "vv"
         },
@@ -1134,7 +1215,7 @@
               "propType": "SVaLZ",
               "propBody": 50,
               "idClassid": "vykon",
-              "idEzid": "00000478560@11",
+              "idEzid": "00000478560@42",
               "id": 3525
             }
           },
@@ -1146,7 +1227,7 @@
       },
       {
         "id": 74,
-        "order": 60,
+        "order": 61,
         "props": {
           "type": "vv"
         },
@@ -1168,7 +1249,7 @@
       },
       {
         "id": 116,
-        "order": 72,
+        "order": 73,
         "props": {
           "type": "vv"
         },
@@ -1190,7 +1271,7 @@
       },
       {
         "id": 119,
-        "order": 75,
+        "order": 76,
         "props": {
           "type": "vv"
         },
@@ -1212,7 +1293,7 @@
       },
       {
         "id": 122,
-        "order": 78,
+        "order": 79,
         "props": {
           "type": "vv"
         },
@@ -1246,9 +1327,9 @@
             "props": {}
           },
           "at": {
-            "value": "22.09.2022 10:36",
+            "value": "28.03.2023 10:26",
             "props": {
-              "propValue": "2022-09-22T08:36:18.446Z",
+              "propValue": "2023-03-28T08:26:45.203Z",
               "expr": "=+1d"
             }
           },
@@ -1276,9 +1357,9 @@
             "props": {}
           },
           "at": {
-            "value": "22.09.2022 10:36",
+            "value": "28.03.2023 10:26",
             "props": {
-              "propValue": "2022-09-22T08:36:18.450Z",
+              "propValue": "2023-03-28T08:26:45.209Z",
               "expr": "=+1d"
             }
           },
@@ -1306,9 +1387,9 @@
             "props": {}
           },
           "at": {
-            "value": "22.09.2022 10:36",
+            "value": "28.03.2023 10:26",
             "props": {
-              "propValue": "2022-09-22T08:36:18.458Z",
+              "propValue": "2023-03-28T08:26:45.215Z",
               "expr": "=+1d"
             }
           },
@@ -1328,7 +1409,7 @@
     "h-score": [
       {
         "id": 75,
-        "order": 61,
+        "order": 62,
         "props": {
           "type": "h-score"
         },
@@ -1359,7 +1440,7 @@
     "lv": [
       {
         "id": 113,
-        "order": 65,
+        "order": 66,
         "props": {
           "type": "lv"
         },
@@ -1381,9 +1462,9 @@
             "props": {}
           },
           "date": {
-            "value": "21.09.2022",
+            "value": "27.03.2023",
             "props": {
-              "propValue": "2022-09-20T22:00:00.000Z",
+              "propValue": "2023-03-26T22:00:00.000Z",
               "expr": "=dnes"
             }
           },
@@ -1395,7 +1476,7 @@
       },
       {
         "id": 130,
-        "order": 69,
+        "order": 70,
         "props": {
           "type": "lv"
         },
@@ -1417,9 +1498,9 @@
             "props": {}
           },
           "date": {
-            "value": "21.09.2022",
+            "value": "27.03.2023",
             "props": {
-              "propValue": "2022-09-20T22:00:00.000Z",
+              "propValue": "2023-03-26T22:00:00.000Z",
               "expr": "=dnes"
             }
           },
@@ -1436,8 +1517,9 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "type": null,
+  "ct": "2023-03-24T13:16:09.022Z",
+  "mt": "2023-03-27T08:28:23.127Z",
+  "hide": false,
   "owner": "admin",
-  "ct": "2022-09-21T08:39:52.121Z",
-  "mt": "2022-09-21T08:39:52.121Z",
   "source": "curo-open/curo-vzory#/020zvld"
 }
