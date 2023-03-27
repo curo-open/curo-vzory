@@ -1,7 +1,7 @@
 {
   "summary": "",
   "title": "Bodovanie - dyslipidémia, kontrolné",
-  "shortcut": "b-lipidk",
+  "shortcut": "b-lipidkk",
   "if": "",
   "data": {
     "_": {},
@@ -40,7 +40,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? (zp==25 || zp==24 ) &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&gt;365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") &gt; 0 || sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) }}<br>",
+            "value": "{{ ? sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; vek &gt;= 40 }}<br>",
             "props": {}
           }
         }
@@ -122,9 +122,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "E78.9",
               "idEzid": "02089382192@11",
-              "id": "E78.9"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -143,9 +143,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "E78.9",
               "idEzid": "02089382192@11",
-              "id": "E78.9"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -164,9 +164,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "E78.9",
               "idEzid": "02089382192@11",
-              "id": "E78.9"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -185,9 +185,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "id": "E78.9",
+              "idClassid": "diagnoza",
               "idEzid": "02089382192@11",
-              "idClassid": "diagnoza"
+              "id": "E78.9"
             }
           },
           "text": {
@@ -206,12 +206,12 @@
         },
         "value": {
           "id": {
-            "value": "[H0004] Kontrolné vyšetrenie u poistenca s arteriálnou hypertenziou jeden krát za 6 mesiacov",
+            "value": "[H0004+EDU] Výkon H0004 s pripočítateľnou položkou EDU",
             "props": {
               "propBody": 0,
               "idClassid": "vykon",
-              "idEzid": "02089725754@11",
-              "id": "H0004"
+              "idEzid": "curo-H0004+EDU@37",
+              "id": "H0004+EDU"
             }
           },
           "count": {
@@ -230,11 +230,11 @@
           "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 550,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5702,
               "idEzid": "00000494187@11",
-              "id": 5702
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -254,9 +254,9 @@
             "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
             "props": {
               "propBody": 0,
-              "id": "H0006",
+              "idClassid": "vykon",
               "idEzid": "02089725770@11",
-              "idClassid": "vykon"
+              "id": "H0006"
             }
           },
           "count": {
@@ -266,7 +266,7 @@
         }
       },
       {
-        "id": 15,
+        "id": 30,
         "order": 13,
         "props": {
           "type": "vv"
@@ -297,11 +297,11 @@
           "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propBody": 550,
               "propType": "SVaLZ",
-              "id": 5702,
+              "propBody": 550,
+              "idClassid": "vykon",
               "idEzid": "00000494187@11",
-              "idClassid": "vykon"
+              "id": 5702
             }
           },
           "count": {
@@ -321,9 +321,9 @@
             "value": "[H0004+EDU] Výkon H0004 s pripočítateľnou položkou EDU",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
+              "id": "H0004+EDU",
               "idEzid": "curo-H0004+EDU@34",
-              "id": "H0004+EDU"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -342,11 +342,11 @@
           "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 550,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 5702,
               "idEzid": "00000494187@11",
-              "id": 5702
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -413,8 +413,8 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
+  "mt": "2023-03-24T14:58:50.800Z",
   "owner": "admin",
-  "ct": "2022-04-19T06:17:40.376Z",
-  "mt": "2022-05-05T12:06:48.914Z",
+  "ct": "2023-03-24T13:49:31.508Z",
   "source": "curo-open/curo-vzory#/020zvld"
 }

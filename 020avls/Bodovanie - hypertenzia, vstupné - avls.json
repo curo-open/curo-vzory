@@ -136,7 +136,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? zp==25 &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0)}}<br>",
+            "value": "{{ ? (sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; vek &gt;= 40 }}<br>",
             "props": {}
           }
         }
@@ -557,8 +557,8 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "type": null,
-  "mt": "2022-04-20T08:40:08.036Z",
-  "ct": "2022-04-19T21:50:31.158Z",
+  "mt": "2023-03-24T14:54:44.359Z",
+  "ct": "2023-03-24T13:40:09.489Z",
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/020avls"
+  "source": "curo-open/curo-vzory#/020zvld"
 }

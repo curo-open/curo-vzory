@@ -40,7 +40,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? (zp==25 || zp==24 ) &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&gt;365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") &gt; 0 || sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) }}<br>",
+            "value": "{{ ? sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; vek &gt;= 40 }}<br>",
             "props": {}
           }
         }
@@ -413,7 +413,8 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
+  "mt": "2023-03-24T14:58:50.800Z",
   "owner": "admin",
-  "mt": "2022-04-20T08:40:32.089Z",
-  "source": "curo-open/curo-vzory#/020avls"
+  "ct": "2023-03-24T13:49:31.508Z",
+  "source": "curo-open/curo-vzory#/020zvld"
 }

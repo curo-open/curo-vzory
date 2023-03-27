@@ -1,6 +1,5 @@
 {
-  "title": "Bodovanie - hypertenzia, kontrolné",
-  "shortcut": "b-hyperk",
+  "title": "Bodovanie - hypertenzia, kontrolné - bz",
   "summary": null,
   "if": "",
   "data": {
@@ -136,7 +135,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? zp==25 &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0)}}<br>",
+            "value": "{{ ? (sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; vek &gt;= 40 }}<br>",
             "props": {}
           }
         }
@@ -536,8 +535,9 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "type": null,
-  "ct": "2022-04-19T12:30:59.115Z",
-  "mt": "2022-05-06T22:04:24.446Z",
+  "ct": "2023-03-24T14:55:26.279Z",
+  "mt": "2023-03-24T14:58:17.174Z",
   "owner": "admin",
+  "shortcut": "b-hyperk",
   "source": "curo-open/curo-vzory#/020bz"
 }

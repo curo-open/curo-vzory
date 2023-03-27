@@ -1,7 +1,6 @@
 {
   "summary": "",
-  "title": "Bodovanie - dyslipidémia, vstupné",
-  "shortcut": "b-lipidv",
+  "title": "Bodovanie - dyslipidémia, vstupné - bz",
   "if": "",
   "data": {
     "_": {},
@@ -40,7 +39,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? (zp==25 || zp==24) &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&gt;365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") &gt; 0 || sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) }}<br>",
+            "value": "{{ ? sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; vek &gt;= 40 }}<br>",
             "props": {}
           }
         }
@@ -435,8 +434,9 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2022-05-06T22:03:44.703Z",
+  "mt": "2023-03-24T15:04:33.382Z",
+  "ct": "2023-03-24T14:59:17.653Z",
   "owner": "admin",
-  "ct": "2022-05-06T22:03:15.646Z",
+  "shortcut": "b-lipidv",
   "source": "curo-open/curo-vzory#/020bz"
 }

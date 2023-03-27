@@ -59,12 +59,12 @@
         },
         "value": {
           "id": {
-            "value": "[5702Z] EKG",
+            "value": "[5702ZV] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie ako súčasť predoperačného vyšetrenia. Nutná kombinácia s výkonom 60b.",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
-              "idEzid": "curo-5702Z@24",
-              "id": "5702Z"
+              "id": "5702ZV",
+              "idEzid": "curo-5702ZV@11",
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -179,8 +179,9 @@
   },
   "tags": [],
   "vars": {},
-  "owner": "admin",
+  "owner": "toth",
   "allowedUsers": [],
   "allowedIdentities": [],
+  "mt": "2022-10-06T12:58:54.963Z",
   "source": "curo-open/curo-vzory#/020zvld"
 }

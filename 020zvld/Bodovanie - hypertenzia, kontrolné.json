@@ -1,7 +1,7 @@
 {
   "title": "Bodovanie - hypertenzia, kontrolné",
   "shortcut": "b-hyperk",
-  "summary": "",
+  "summary": null,
   "if": "",
   "data": {
     "_": {},
@@ -136,7 +136,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? zp==25 &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0)}}<br>",
+            "value": "{{ ? (sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; vek &gt;= 40 }}<br>",
             "props": {}
           }
         }
@@ -408,7 +408,7 @@
         }
       },
       {
-        "id": 19,
+        "id": 42,
         "order": 20,
         "props": {
           "type": "vv"
@@ -418,9 +418,9 @@
             "value": "[H0004] Kontrolné vyšetrenie u poistenca s arteriálnou hypertenziou jeden krát za 6 mesiacov",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
+              "id": "H0004",
               "idEzid": "02089725754@38",
-              "id": "H0004"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -536,8 +536,8 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "type": null,
+  "ct": "2023-03-24T13:31:10.740Z",
+  "mt": "2023-03-24T14:55:47.112Z",
   "owner": "admin",
-  "ct": "2022-04-19T07:25:09.106Z",
-  "mt": "2022-05-05T12:06:19.188Z",
   "source": "curo-open/curo-vzory#/020zvld"
 }
