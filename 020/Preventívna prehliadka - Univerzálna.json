@@ -22,7 +22,7 @@
             }
           },
           "value": {
-            "value": "ON",
+            "value": "OFF",
             "props": {}
           }
         }
@@ -45,7 +45,7 @@
             }
           },
           "value": {
-            "value": "OFF",
+            "value": "ON",
             "props": {}
           }
         }
@@ -1334,10 +1334,6 @@
             "value": "",
             "props": {}
           },
-          "porody": {
-            "value": "",
-            "props": {}
-          },
           "potraty": {
             "value": "",
             "props": {}
@@ -1347,6 +1343,14 @@
             "props": {}
           },
           "posinterrupcia": {
+            "value": "",
+            "props": {}
+          },
+          "porody": {
+            "value": "",
+            "props": {}
+          },
+          "porodydetail": {
             "value": "",
             "props": {}
           }
@@ -1409,6 +1413,14 @@
             "props": {}
           },
           "oh": {
+            "value": "",
+            "props": {}
+          },
+          "ob": {
+            "value": "",
+            "props": {}
+          },
+          "whr": {
             "value": "",
             "props": {}
           },
@@ -2139,9 +2151,9 @@
   "description": "",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2022-09-21T15:28:34.706Z",
-  "owner": "admin",
-  "ct": "2022-09-21T12:13:37.444Z",
+  "mt": "2023-05-16T12:43:51.432Z",
+  "ct": "2023-03-24T13:11:06.750Z",
   "shortcut": "pp",
+  "owner": "admin",
   "source": "curo-open/curo-vzory#/020"
 }
