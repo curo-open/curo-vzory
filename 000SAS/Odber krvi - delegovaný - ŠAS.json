@@ -49,13 +49,13 @@
         },
         "value": {
           "id": {
-            "value": "[250d] Odobratie krvi venepunkciou do jednej striekačky alebo do jednej skúmavky, vrátane odberovej súpravy, za každú súpravu.",
+            "value": "[250D] Odobratie krvi venepunkciou do jednej striekačky alebo do jednej skúmavky, vrátane odberovej súpravy, za každú súpravu.",
             "props": {
               "propType": "SVaLZ",
               "propBody": 160,
               "idClassid": "vykon",
-              "idEzid": "00000478305@13",
-              "id": "250d"
+              "idEzid": "",
+              "id": "250D"
             }
           },
           "count": {

@@ -875,34 +875,8 @@
         }
       },
       {
-        "id": 368,
-        "order": 93,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? zp != 24 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 370,
-        "order": 95,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 327,
-        "order": 97,
+        "order": 95,
         "props": {
           "type": "t"
         },
@@ -915,7 +889,7 @@
       },
       {
         "id": 328,
-        "order": 99,
+        "order": 97,
         "props": {
           "type": "t"
         },
@@ -928,7 +902,7 @@
       },
       {
         "id": 330,
-        "order": 101,
+        "order": 99,
         "props": {
           "type": "t"
         },
@@ -1051,10 +1025,6 @@
             "value": "",
             "props": {}
           },
-          "porody": {
-            "value": "",
-            "props": {}
-          },
           "potraty": {
             "value": "",
             "props": {}
@@ -1064,6 +1034,14 @@
             "props": {}
           },
           "posinterrupcia": {
+            "value": "",
+            "props": {}
+          },
+          "porody": {
+            "value": "",
+            "props": {}
+          },
+          "porodydetail": {
             "value": "",
             "props": {}
           }
@@ -1168,6 +1146,14 @@
             "props": {}
           },
           "oh": {
+            "value": "",
+            "props": {}
+          },
+          "ob": {
+            "value": "",
+            "props": {}
+          },
+          "whr": {
             "value": "",
             "props": {}
           },
@@ -1720,7 +1706,7 @@
       },
       {
         "id": 369,
-        "order": 94,
+        "order": 93,
         "props": {
           "type": "vlozit"
         },
@@ -1741,7 +1727,7 @@
       },
       {
         "id": 333,
-        "order": 96,
+        "order": 94,
         "props": {
           "type": "vlozit"
         },
@@ -1779,7 +1765,7 @@
     "p": [
       {
         "id": 331,
-        "order": 98,
+        "order": 96,
         "props": {
           "type": "p"
         },
@@ -1789,9 +1775,9 @@
             "props": {}
           },
           "at": {
-            "value": "21.03.2023 12:21",
+            "value": "19.04.2024 12:56",
             "props": {
-              "propValue": "2023-03-21T11:21:14.258Z",
+              "propValue": "2024-04-19T10:56:03.999Z",
               "expr": "=+11m"
             }
           },
@@ -1809,7 +1795,7 @@
       },
       {
         "id": 96,
-        "order": 100,
+        "order": 98,
         "props": {
           "type": "p"
         },
@@ -1819,9 +1805,9 @@
             "props": {}
           },
           "at": {
-            "value": "21.09.2022 12:21",
+            "value": "19.10.2023 12:56",
             "props": {
-              "propValue": "2022-09-21T10:21:14.261Z",
+              "propValue": "2023-10-19T10:56:04.000Z",
               "expr": "=+5m"
             }
           },
@@ -1849,10 +1835,10 @@
   "summary": "Hypertenzia - Kontrolné vyšetrenie",
   "type": "examination",
   "description": "",
-  "owner": "admin",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "ct": "2022-04-19T21:51:27.596Z",
-  "mt": "2022-04-21T10:24:37.938Z",
+  "ct": "2023-05-19T10:56:42.307Z",
+  "mt": "2023-05-19T10:56:44.479Z",
+  "owner": "admin",
   "source": "curo-open/curo-vzory#/020"
 }

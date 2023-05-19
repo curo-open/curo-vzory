@@ -699,32 +699,6 @@
             "props": {}
           }
         }
-      },
-      {
-        "id": 256,
-        "order": 78,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? zp != 24 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 258,
-        "order": 80,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
       }
     ],
     "ra": [
@@ -838,10 +812,6 @@
             "value": "",
             "props": {}
           },
-          "porody": {
-            "value": "",
-            "props": {}
-          },
           "potraty": {
             "value": "",
             "props": {}
@@ -851,6 +821,14 @@
             "props": {}
           },
           "posinterrupcia": {
+            "value": "",
+            "props": {}
+          },
+          "porody": {
+            "value": "",
+            "props": {}
+          },
+          "porodydetail": {
             "value": "",
             "props": {}
           }
@@ -955,6 +933,14 @@
             "props": {}
           },
           "oh": {
+            "value": "",
+            "props": {}
+          },
+          "ob": {
+            "value": "",
+            "props": {}
+          },
+          "whr": {
             "value": "",
             "props": {}
           },
@@ -1374,7 +1360,7 @@
       },
       {
         "id": 257,
-        "order": 79,
+        "order": 78,
         "props": {
           "type": "vlozit"
         },
@@ -1395,7 +1381,7 @@
       },
       {
         "id": 244,
-        "order": 81,
+        "order": 79,
         "props": {
           "type": "vlozit"
         },
@@ -1441,9 +1427,9 @@
           "id": {
             "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
             "props": {
-              "id": "E78.9",
+              "idClassid": "diagnoza",
               "idEzid": "02089382192@10",
-              "idClassid": "diagnoza"
+              "id": "E78.9"
             }
           },
           "text": {
@@ -1451,6 +1437,10 @@
             "props": {}
           },
           "from": {
+            "value": "",
+            "props": {}
+          },
+          "first": {
             "value": "",
             "props": {}
           },
@@ -1478,9 +1468,9 @@
             "props": {}
           },
           "at": {
-            "value": "21.09.2022 12:21",
+            "value": "19.10.2023 12:58",
             "props": {
-              "propValue": "2022-09-21T10:21:01.766Z",
+              "propValue": "2023-10-19T10:58:03.189Z",
               "expr": "=+5m"
             }
           },
@@ -1503,10 +1493,10 @@
     "monitory"
   ],
   "vars": {},
-  "owner": "admin",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "ct": "2022-04-07T09:42:31.768Z",
-  "mt": "2022-04-21T10:21:13.993Z",
+  "ct": "2023-05-19T10:58:07.832Z",
+  "mt": "2023-05-19T10:58:12.982Z",
+  "owner": "admin",
   "source": "curo-open/curo-vzory#/020"
 }

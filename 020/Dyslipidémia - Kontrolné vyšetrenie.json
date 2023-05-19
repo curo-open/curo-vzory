@@ -699,32 +699,6 @@
             "props": {}
           }
         }
-      },
-      {
-        "id": 305,
-        "order": 77,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? zp != 24 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 306,
-        "order": 79,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
       }
     ],
     "ra": [
@@ -838,10 +812,6 @@
             "value": "",
             "props": {}
           },
-          "porody": {
-            "value": "",
-            "props": {}
-          },
           "potraty": {
             "value": "",
             "props": {}
@@ -851,6 +821,14 @@
             "props": {}
           },
           "posinterrupcia": {
+            "value": "",
+            "props": {}
+          },
+          "porody": {
+            "value": "",
+            "props": {}
+          },
+          "porodydetail": {
             "value": "",
             "props": {}
           }
@@ -955,6 +933,14 @@
             "props": {}
           },
           "oh": {
+            "value": "",
+            "props": {}
+          },
+          "ob": {
+            "value": "",
+            "props": {}
+          },
+          "whr": {
             "value": "",
             "props": {}
           },
@@ -1374,7 +1360,7 @@
       },
       {
         "id": 304,
-        "order": 78,
+        "order": 77,
         "props": {
           "type": "vlozit"
         },
@@ -1395,7 +1381,7 @@
       },
       {
         "id": 291,
-        "order": 80,
+        "order": 78,
         "props": {
           "type": "vlozit"
         },
@@ -1443,9 +1429,9 @@
             "props": {}
           },
           "at": {
-            "value": "21.09.2022 12:20",
+            "value": "19.10.2023 12:57",
             "props": {
-              "propValue": "2022-09-21T10:20:48.562Z",
+              "propValue": "2023-10-19T10:57:42.325Z",
               "expr": "=+5m"
             }
           },
@@ -1468,10 +1454,10 @@
     "monitory"
   ],
   "vars": {},
-  "owner": "admin",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "ct": "2022-04-07T09:41:49.207Z",
-  "mt": "2022-04-21T10:21:01.454Z",
+  "ct": "2023-05-19T10:57:52.454Z",
+  "mt": "2023-05-19T10:57:54.667Z",
+  "owner": "admin",
   "source": "curo-open/curo-vzory#/020"
 }

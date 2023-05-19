@@ -821,32 +821,6 @@
             "props": {}
           }
         }
-      },
-      {
-        "id": 264,
-        "order": 89,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{? zp != 24 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 266,
-        "order": 91,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
       }
     ],
     "ra": [
@@ -960,10 +934,6 @@
             "value": "",
             "props": {}
           },
-          "porody": {
-            "value": "",
-            "props": {}
-          },
           "potraty": {
             "value": "",
             "props": {}
@@ -973,6 +943,14 @@
             "props": {}
           },
           "posinterrupcia": {
+            "value": "",
+            "props": {}
+          },
+          "porody": {
+            "value": "",
+            "props": {}
+          },
+          "porodydetail": {
             "value": "",
             "props": {}
           }
@@ -1077,6 +1055,14 @@
             "props": {}
           },
           "oh": {
+            "value": "",
+            "props": {}
+          },
+          "ob": {
+            "value": "",
+            "props": {}
+          },
+          "whr": {
             "value": "",
             "props": {}
           },
@@ -1577,7 +1563,7 @@
       },
       {
         "id": 265,
-        "order": 90,
+        "order": 89,
         "props": {
           "type": "vlozit"
         },
@@ -1598,7 +1584,7 @@
       },
       {
         "id": 239,
-        "order": 92,
+        "order": 90,
         "props": {
           "type": "vlozit"
         },
@@ -1644,9 +1630,9 @@
           "id": {
             "value": "[I10.00] Benígna primárna artériová hypertenzia, bez hypertenznej krízy",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "I10.00",
               "idEzid": "02089398180@9",
-              "id": "I10.00"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -1654,6 +1640,10 @@
             "props": {}
           },
           "from": {
+            "value": "",
+            "props": {}
+          },
+          "first": {
             "value": "",
             "props": {}
           },
@@ -1681,9 +1671,9 @@
             "props": {}
           },
           "at": {
-            "value": "21.09.2022 12:24",
+            "value": "19.10.2023 12:57",
             "props": {
-              "propValue": "2022-09-21T10:24:38.194Z",
+              "propValue": "2023-10-19T10:57:00.009Z",
               "expr": "=+5m"
             }
           },
@@ -1710,8 +1700,8 @@
   "type": "examination",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2022-04-21T10:24:56.925Z",
+  "mt": "2023-05-19T10:57:15.496Z",
+  "ct": "2023-05-19T10:57:13.687Z",
   "owner": "admin",
-  "ct": "2022-04-19T21:51:51.179Z",
   "source": "curo-open/curo-vzory#/020"
 }

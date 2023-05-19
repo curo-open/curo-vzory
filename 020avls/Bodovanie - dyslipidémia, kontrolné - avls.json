@@ -1,6 +1,6 @@
 {
   "summary": "",
-  "title": "Bodovanie - dyslipidémia, kontrolné",
+  "title": "Bodovanie - dyslipidémia, kontrolné - avls",
   "shortcut": "b-lipidkk",
   "if": "",
   "data": {
@@ -273,12 +273,12 @@
         },
         "value": {
           "id": {
-            "value": "[H0004] Kontrolné vyšetrenie u poistenca s arteriálnou hypertenziou jeden krát za 6 mesiacov",
+            "value": "[H0004+EDU] Výkon H0004 s pripočítateľnou položkou EDU",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
-              "idEzid": "02089725754@38",
-              "id": "H0004"
+              "id": "H0004+EDU",
+              "idEzid": "curo-H0004+EDU@42",
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -413,8 +413,8 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2023-03-27T09:27:18.744Z",
+  "mt": "2023-05-19T10:59:06.232Z",
+  "ct": "2023-05-19T10:54:41.303Z",
   "owner": "admin",
-  "ct": "2023-03-24T13:49:31.508Z",
-  "source": "curo-open/curo-vzory#/020zvld"
+  "source": "curo-open/curo-vzory#/020avls"
 }

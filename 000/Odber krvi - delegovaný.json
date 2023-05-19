@@ -34,13 +34,13 @@
         },
         "value": {
           "id": {
-            "value": "[250d] Odobratie krvi venepunkciou do jednej striekačky alebo do jednej skúmavky, vrátane odberovej súpravy, za každú súpravu.",
+            "value": "[250D] Odobratie krvi venepunkciou do jednej striekačky alebo do jednej skúmavky, vrátane odberovej súpravy, za každú súpravu.",
             "props": {
-              "propBody": 160,
               "propType": "SVaLZ",
-              "id": "250d",
-              "idEzid": "00000478305@13",
-              "idClassid": "vykon"
+              "propBody": 160,
+              "idClassid": "vykon",
+              "idEzid": "",
+              "id": "250D"
             }
           },
           "count": {
@@ -82,8 +82,10 @@
     "sestra"
   ],
   "vars": {},
-  "owner": "admin",
   "allowedUsers": [],
   "allowedIdentities": [],
+  "owner": "admin",
+  "ct": "2023-05-19T10:25:28.507Z",
+  "mt": "2023-05-19T10:30:21.257Z",
   "source": "curo-open/curo-vzory#/000"
 }
