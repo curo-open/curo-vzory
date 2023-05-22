@@ -1,12 +1,13 @@
 {
   "summary": "",
-  "title": "Bodovanie - dyslipidémia, vstupné - bz",
+  "title": "Bodovanie - dyslipidémia, kontrolné",
+  "shortcut": "b-lipidkk",
   "if": "",
   "data": {
     "_": {},
     "t": [
       {
-        "id": 19,
+        "id": 2,
         "order": 0,
         "props": {
           "type": "t"
@@ -19,8 +20,8 @@
         }
       },
       {
-        "id": 24,
-        "order": 5,
+        "id": 6,
+        "order": 4,
         "props": {
           "type": "t"
         },
@@ -32,8 +33,8 @@
         }
       },
       {
-        "id": 25,
-        "order": 6,
+        "id": 7,
+        "order": 5,
         "props": {
           "type": "t"
         },
@@ -45,8 +46,8 @@
         }
       },
       {
-        "id": 30,
-        "order": 11,
+        "id": 12,
+        "order": 10,
         "props": {
           "type": "t"
         },
@@ -58,8 +59,8 @@
         }
       },
       {
-        "id": 31,
-        "order": 12,
+        "id": 13,
+        "order": 11,
         "props": {
           "type": "t"
         },
@@ -71,8 +72,8 @@
         }
       },
       {
-        "id": 35,
-        "order": 16,
+        "id": 17,
+        "order": 15,
         "props": {
           "type": "t"
         },
@@ -84,8 +85,8 @@
         }
       },
       {
-        "id": 37,
-        "order": 17,
+        "id": 19,
+        "order": 16,
         "props": {
           "type": "t"
         },
@@ -97,8 +98,8 @@
         }
       },
       {
-        "id": 41,
-        "order": 21,
+        "id": 23,
+        "order": 20,
         "props": {
           "type": "t"
         },
@@ -112,7 +113,7 @@
     ],
     "vd": [
       {
-        "id": 20,
+        "id": 3,
         "order": 1,
         "props": {
           "type": "vd"
@@ -133,50 +134,8 @@
         }
       },
       {
-        "id": 27,
-        "order": 8,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
-            "props": {
-              "idClassid": "diagnoza",
-              "idEzid": "02089382192@11",
-              "id": "E78.9"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 32,
-        "order": 13,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
-            "props": {
-              "idClassid": "diagnoza",
-              "idEzid": "02089382192@11",
-              "id": "E78.9"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 38,
-        "order": 18,
+        "id": 9,
+        "order": 7,
         "props": {
           "type": "vd"
         },
@@ -194,23 +153,65 @@
             "props": {}
           }
         }
+      },
+      {
+        "id": 14,
+        "order": 12,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
+            "props": {
+              "id": "E78.9",
+              "idEzid": "02089382192@11",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 20,
+        "order": 17,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[E78.9] Porucha metabolizmu lipoproteínov, bližšie neurčená",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089382192@11",
+              "id": "E78.9"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
       }
     ],
     "vv": [
       {
-        "id": 21,
+        "id": 4,
         "order": 2,
         "props": {
           "type": "vv"
         },
         "value": {
           "id": {
-            "value": "[H0003+EDU] Výkon H0003 s pripočítateľnou položkou EDU",
+            "value": "[H0004+EDU] Výkon H0004 s pripočítateľnou položkou EDU",
             "props": {
               "propBody": 0,
               "idClassid": "vykon",
-              "idEzid": "curo-H0003+EDU@37",
-              "id": "H0003+EDU"
+              "idEzid": "curo-H0004+EDU@37",
+              "id": "H0004+EDU"
             }
           },
           "count": {
@@ -220,30 +221,8 @@
         }
       },
       {
-        "id": 22,
+        "id": 5,
         "order": 3,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
-            "props": {
-              "propBody": 180,
-              "id": 10,
-              "idEzid": "00000466565@11",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 23,
-        "order": 4,
         "props": {
           "type": "vv"
         },
@@ -265,8 +244,8 @@
         }
       },
       {
-        "id": 28,
-        "order": 9,
+        "id": 10,
+        "order": 8,
         "props": {
           "type": "vv"
         },
@@ -287,18 +266,18 @@
         }
       },
       {
-        "id": 43,
-        "order": 14,
+        "id": 30,
+        "order": 13,
         "props": {
           "type": "vv"
         },
         "value": {
           "id": {
-            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
+            "value": "[H0004+EDU] Výkon H0004 s pripočítateľnou položkou EDU",
             "props": {
-              "propBody": 180,
-              "id": 10,
-              "idEzid": "00000466565@38",
+              "propBody": 0,
+              "id": "H0004+EDU",
+              "idEzid": "curo-H0004+EDU@42",
               "idClassid": "vykon"
             }
           },
@@ -309,8 +288,8 @@
         }
       },
       {
-        "id": 34,
-        "order": 15,
+        "id": 16,
+        "order": 14,
         "props": {
           "type": "vv"
         },
@@ -332,19 +311,19 @@
         }
       },
       {
-        "id": 39,
-        "order": 19,
+        "id": 21,
+        "order": 18,
         "props": {
           "type": "vv"
         },
         "value": {
           "id": {
-            "value": "[H0003+EDU] Výkon H0003 s pripočítateľnou položkou EDU",
+            "value": "[H0004+EDU] Výkon H0004 s pripočítateľnou položkou EDU",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
-              "idEzid": "curo-H0003+EDU@34",
-              "id": "H0003+EDU"
+              "id": "H0004+EDU",
+              "idEzid": "curo-H0004+EDU@34",
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -354,8 +333,8 @@
         }
       },
       {
-        "id": 40,
-        "order": 20,
+        "id": 22,
+        "order": 19,
         "props": {
           "type": "vv"
         },
@@ -379,8 +358,8 @@
     ],
     "premenna": [
       {
-        "id": 26,
-        "order": 7,
+        "id": 8,
+        "order": 6,
         "props": {
           "type": "premenna"
         },
@@ -401,7 +380,7 @@
     "h-score": [
       {
         "id": 29,
-        "order": 10,
+        "order": 9,
         "props": {
           "type": "h-score"
         },
@@ -434,9 +413,8 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2023-03-27T09:27:56.006Z",
-  "ct": "2023-03-24T14:59:17.653Z",
+  "mt": "2023-05-19T10:59:06.232Z",
+  "ct": "2023-05-19T10:54:41.303Z",
   "owner": "admin",
-  "shortcut": "b-lipidv",
-  "source": "curo-open/curo-vzory#/020bz"
+  "source": "curo-open/curo-vzory#/020avls"
 }
