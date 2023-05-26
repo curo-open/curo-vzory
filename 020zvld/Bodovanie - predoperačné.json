@@ -1,7 +1,7 @@
 {
   "title": "Bodovanie - predoperačné",
   "shortcut": "b-predop",
-  "summary": "",
+  "summary": null,
   "if": "",
   "data": {
     "_": {},
@@ -17,9 +17,9 @@
             "value": "[60b] Komplexné predoperačné vyšetrenie vrátane odberov krvi, zhodnotenie laboratórnych a prístrojových vyšetrení.",
             "props": {
               "propBody": 0,
-              "id": "60b",
+              "idClassid": "vykon",
               "idEzid": "02089719450@11",
-              "idClassid": "vykon"
+              "id": "60b"
             }
           },
           "count": {
@@ -38,11 +38,11 @@
           "id": {
             "value": "[5702] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie. Výkon môže vykonávať kardiológ, angiológ, internista.",
             "props": {
-              "propBody": 550,
               "propType": "SVaLZ",
-              "id": 5702,
+              "propBody": 550,
+              "idClassid": "vykon",
               "idEzid": "00000494187@11",
-              "idClassid": "vykon"
+              "id": 5702
             }
           },
           "count": {
@@ -59,12 +59,12 @@
         },
         "value": {
           "id": {
-            "value": "[5702ZV] Elektrokardiografické (EKG) vyšetrenie, štandardné 12-zvodové zosnímanie ako súčasť predoperačného vyšetrenia. Nutná kombinácia s výkonom 60b.",
+            "value": "[5702Z] EKG",
             "props": {
               "propBody": 0,
-              "id": "5702ZV",
-              "idEzid": "curo-5702ZV@11",
-              "idClassid": "vykon"
+              "idClassid": "vykon",
+              "idEzid": "02089940122@42",
+              "id": "5702Z"
             }
           },
           "count": {
@@ -84,9 +84,9 @@
             "value": "[5702Z] EKG",
             "props": {
               "propBody": 0,
-              "id": "5702Z",
+              "idClassid": "vykon",
               "idEzid": "curo-5702Z@11",
-              "idClassid": "vykon"
+              "id": "5702Z"
             }
           },
           "count": {
@@ -179,9 +179,11 @@
   },
   "tags": [],
   "vars": {},
-  "owner": "toth",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2022-10-06T12:58:54.963Z",
+  "type": null,
+  "mt": "2023-05-26T09:01:59.044Z",
+  "owner": "admin",
+  "ct": "2023-05-26T09:01:56.849Z",
   "source": "curo-open/curo-vzory#/020zvld"
 }
