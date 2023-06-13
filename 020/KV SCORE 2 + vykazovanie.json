@@ -1,0 +1,161 @@
+{
+  "title": "KV SCORE 2 + vykazovanie",
+  "shortcut": "kvskore",
+  "if": "",
+  "data": {
+    "_": {},
+    "premenna": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "skore",
+            "props": {}
+          },
+          "type": {
+            "value": "číslo",
+            "props": {
+              "propValue": "number"
+            }
+          },
+          "value": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 6,
+        "order": 1,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089520809@9",
+              "id": "Z00.0"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 9,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp==25 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 10,
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 8,
+        "order": 3,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[H0006] Stratifikácia rizika cievnej mozgovej príhody (CMP) nad 40 rokov.",
+            "props": {
+              "propBody": 0,
+              "id": "H0006",
+              "idEzid": "02089725770@8",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "h-score2": [
+      {
+        "id": 12,
+        "order": 5,
+        "props": {
+          "type": "h-score2"
+        },
+        "value": {
+          "score": {
+            "value": "",
+            "props": {}
+          },
+          "syst": {
+            "value": "",
+            "props": {}
+          },
+          "smoker": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "cholest": {
+            "value": "",
+            "props": {}
+          },
+          "eriziko": {
+            "value": "",
+            "props": {}
+          },
+          "risk": {
+            "value": "SKOR01",
+            "props": {
+              "propValue": "SKOR01"
+            }
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "sumar-kvskore"
+  ],
+  "vars": {},
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2023-06-13T20:57:20.363Z",
+  "mt": "2023-06-13T20:58:19.713Z",
+  "source": "curo-open/curo-vzory#/020"
+}
