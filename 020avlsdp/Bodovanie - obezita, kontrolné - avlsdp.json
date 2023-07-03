@@ -1,13 +1,13 @@
 {
   "summary": "",
-  "title": "Bodovanie - obezita, vstupné",
-  "shortcut": "b-obev",
+  "title": "Bodovanie - obezita, kontrolné",
+  "shortcut": "b-obek",
   "if": "",
   "data": {
     "_": {},
     "t": [
       {
-        "id": 19,
+        "id": 2,
         "order": 0,
         "props": {
           "type": "t"
@@ -20,7 +20,7 @@
         }
       },
       {
-        "id": 24,
+        "id": 6,
         "order": 3,
         "props": {
           "type": "t"
@@ -33,7 +33,7 @@
         }
       },
       {
-        "id": 31,
+        "id": 13,
         "order": 4,
         "props": {
           "type": "t"
@@ -46,7 +46,7 @@
         }
       },
       {
-        "id": 35,
+        "id": 17,
         "order": 7,
         "props": {
           "type": "t"
@@ -59,7 +59,7 @@
         }
       },
       {
-        "id": 37,
+        "id": 19,
         "order": 8,
         "props": {
           "type": "t"
@@ -72,7 +72,7 @@
         }
       },
       {
-        "id": 41,
+        "id": 23,
         "order": 11,
         "props": {
           "type": "t"
@@ -87,7 +87,7 @@
     ],
     "vd": [
       {
-        "id": 20,
+        "id": 3,
         "order": 1,
         "props": {
           "type": "vd"
@@ -108,7 +108,7 @@
         }
       },
       {
-        "id": 32,
+        "id": 14,
         "order": 5,
         "props": {
           "type": "vd"
@@ -129,7 +129,7 @@
         }
       },
       {
-        "id": 38,
+        "id": 20,
         "order": 9,
         "props": {
           "type": "vd"
@@ -152,19 +152,19 @@
     ],
     "vv": [
       {
-        "id": 21,
+        "id": 4,
         "order": 2,
         "props": {
           "type": "vv"
         },
         "value": {
           "id": {
-            "value": "[H0003+EDU] Výkon H0003 s pripočítateľnou položkou EDU",
+            "value": "[H0004+EDU] Výkon H0004 s pripočítateľnou položkou EDU",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
-              "idEzid": "curo-H0003+EDU@37",
-              "id": "H0003+EDU"
+              "id": "H0004+EDU",
+              "idEzid": "curo-H0004+EDU@37",
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -174,19 +174,19 @@
         }
       },
       {
-        "id": 33,
+        "id": 31,
         "order": 6,
         "props": {
           "type": "vv"
         },
         "value": {
           "id": {
-            "value": "[H0003] Iniciálne vyšetrenie u poistenca s arteriálnou hypertenziou alebo ošetrenie akútneho hypertenzného stavu",
+            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
             "props": {
-              "propBody": 0,
+              "propBody": 180,
               "idClassid": "vykon",
-              "idEzid": "02089725747@38",
-              "id": "H0003"
+              "idEzid": "00000466565@42",
+              "id": 10
             }
           },
           "count": {
@@ -196,19 +196,19 @@
         }
       },
       {
-        "id": 39,
+        "id": 21,
         "order": 10,
         "props": {
           "type": "vv"
         },
         "value": {
           "id": {
-            "value": "[H0003+EDU] Výkon H0003 s pripočítateľnou položkou EDU",
+            "value": "[H0004+EDU] Výkon H0004 s pripočítateľnou položkou EDU",
             "props": {
               "propBody": 0,
-              "id": "H0003+EDU",
-              "idEzid": "curo-H0003+EDU@34",
-              "idClassid": "vykon"
+              "idClassid": "vykon",
+              "idEzid": "curo-H0004+EDU@34",
+              "id": "H0004+EDU"
             }
           },
           "count": {
@@ -223,8 +223,8 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2022-05-04T11:38:30.790Z",
-  "ct": "2022-04-21T07:02:08.317Z",
+  "mt": "2023-07-03T09:31:59.840Z",
+  "ct": "2023-07-03T09:31:50.714Z",
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/020avls"
+  "source": "curo-open/curo-vzory#/020avlsdp"
 }
