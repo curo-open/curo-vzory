@@ -1,0 +1,70 @@
+{
+  "title": "Hodnoty lab výsledkov - poslednych x odberov",
+  "shortcut": "hlv",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 14,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Meno vysetrenia ce vychodziu skratku<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ dekurzy|sekcie('lv')|trans(\"labToTab\", ['01349','01898'], 3)}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 13,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Vlastny názov vysetrenia <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 12,
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ dekurzy|sekcie('lv')|trans(\"labToTab\", ['01349/Chol','01898/Glukoza'], 3)}} <br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2023-09-26T10:19:14.118Z",
+  "mt": "2023-09-26T10:20:06.921Z",
+  "owner": "admin",
+  "source": "curo-open/curo-vzory#/000"
+}
