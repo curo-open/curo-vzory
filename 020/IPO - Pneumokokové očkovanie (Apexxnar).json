@@ -1,0 +1,299 @@
+{
+  "title": "IPO - Pneumokokové očkovanie (Apexxnar)",
+  "shortcut": "oc-IPO",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "4": [
+          "sn"
+        ]
+      }
+    },
+    "s": [
+      {
+        "id": 10,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bez ťažkostí, prechlad. sa necíti<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 11,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "KP komp., TT 36,6°C, Intramuskulárne podanie inj. Bez komplikácií po podaní.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z23.8] Potreba imunizácie proti inej jednotlivej baktériovej chorobe",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089522193@12",
+              "id": "Z23.8"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oc": [
+      {
+        "id": 2,
+        "order": 3,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[IPO] Invazívne pneumokokové ochorenia",
+            "props": {
+              "id": "IPO",
+              "idEzid": "00000346452@2",
+              "idClassid": "ockovanie"
+            }
+          },
+          "datum": {
+            "value": "05.10.2023 00:00",
+            "props": {
+              "propValue": "2023-10-04T22:00:00.000Z",
+              "expr": "=dnes"
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "pocet": {
+            "value": "",
+            "props": {}
+          },
+          "davka": {
+            "value": "",
+            "props": {}
+          },
+          "posledna": {
+            "value": "",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ol": [
+      {
+        "id": 4,
+        "order": 4,
+        "props": {
+          "type": "ol",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[9746D] Apexxnar injekčná suspenzia v naplnenej injekčnej striekačke | sus inj 1x0,5 ml (striek.inj.napl.skl.+ 1ihla)",
+            "props": {
+              "propKat": false,
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén konjugovaný",
+              "propVnl": "R",
+              "propBal": 1,
+              "propGp": 0,
+              "propUnit": "DF",
+              "idClassid": "liek",
+              "idEzid": "00021411905",
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07AL02",
+              "idUl": "",
+              "id": "9746D"
+            }
+          },
+          "sn": {
+            "value": "",
+            "props": {
+              "error": "Číslo šarže je povinné."
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "mu": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 13,
+        "order": 5,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[9746D] Apexxnar injekčná suspenzia v naplnenej injekčnej striekačke | sus inj 1x0,5 ml (striek.inj.napl.skl.+ 1ihla)",
+            "props": {
+              "propKat": false,
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén konjugovaný",
+              "propVnl": "R",
+              "propBal": 1,
+              "propGp": 0,
+              "propUnit": "DF",
+              "idClassid": "liek",
+              "idEzid": "00021411905",
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07AL02",
+              "idUl": "",
+              "id": "9746D"
+            }
+          },
+          "schedule": {
+            "value": "Ad Manus Medici, SUS",
+            "props": {
+              "propType": "AMM",
+              "propText": "",
+              "propForm_t": "suspenzia",
+              "propForm_id": "SUS",
+              "propPeriod_code": "D",
+              "propPeriod_t": "denne",
+              "propWay_code": ""
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "instruction_lek": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 8,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[252b] Očkovanie.",
+            "props": {
+              "propBody": 70,
+              "idClassid": "vykon",
+              "idEzid": "00000467878@7",
+              "id": "252b"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "sumar-ipo",
+    "prehlad-oc-ipo",
+    "ocko"
+  ],
+  "vars": {},
+  "summary": "IPO - Pneumokokové očkovanie (Prevenar)",
+  "description": "Očkovanie proti invazívnemu pneumokokovému ochoreniu",
+  "type": "examination",
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2023-10-05T19:52:47.273Z",
+  "mt": "2023-10-05T19:53:45.590Z",
+  "source": "curo-open/curo-vzory#/020"
+}
