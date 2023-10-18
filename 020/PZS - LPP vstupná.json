@@ -1413,6 +1413,32 @@
             "props": {}
           }
         }
+      },
+      {
+        "id": 566,
+        "order": 136,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Lab. nález v norme<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 567,
+        "order": 137,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"b-lv\")|where(\"i==0\")|trans('text')}} <br>",
+            "props": {}
+          }
+        }
       }
     ],
     "s": [
@@ -2190,7 +2216,7 @@
     "z": [
       {
         "id": 564,
-        "order": 136,
+        "order": 138,
         "props": {
           "type": "z"
         },
@@ -2209,7 +2235,7 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2023-05-26T09:17:00.928Z",
+  "mt": "2023-10-18T11:18:04.386Z",
   "type": null,
   "ct": "2023-05-16T12:43:07.200Z",
   "owner": "admin",

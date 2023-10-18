@@ -1,19 +1,38 @@
 {
   "title": "CHR - Chrípka očkovanie - Influvac",
-  "shortcut": "oc-chr",
+  "shortcut": "oc-chri",
   "if": "",
   "data": {
-    "_": {
-      "errors": {
-        "3": [
-          "sn"
-        ]
+    "_": {},
+    "premenna": [
+      {
+        "id": 27,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "sarza",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "",
+            "props": {}
+          }
+        }
       }
-    },
+    ],
     "s": [
       {
         "id": 9,
-        "order": 0,
+        "order": 1,
         "props": {
           "type": "s"
         },
@@ -28,7 +47,7 @@
     "o": [
       {
         "id": 11,
-        "order": 1,
+        "order": 2,
         "props": {
           "type": "o"
         },
@@ -43,7 +62,7 @@
     "zfp": [
       {
         "id": 25,
-        "order": 2,
+        "order": 3,
         "props": {
           "type": "zfp"
         },
@@ -84,6 +103,14 @@
             "value": "",
             "props": {}
           },
+          "ob": {
+            "value": "",
+            "props": {}
+          },
+          "whr": {
+            "value": "",
+            "props": {}
+          },
           "op": {
             "value": "",
             "props": {}
@@ -102,7 +129,7 @@
     "oc": [
       {
         "id": 2,
-        "order": 3,
+        "order": 4,
         "props": {
           "type": "oc"
         },
@@ -116,9 +143,9 @@
             }
           },
           "datum": {
-            "value": "31.01.2022 00:00",
+            "value": "18.10.2023 00:00",
             "props": {
-              "propValue": "2022-01-30T23:00:00.000Z",
+              "propValue": "2023-10-17T22:00:00.000Z",
               "expr": "=dnes"
             }
           },
@@ -148,7 +175,7 @@
     "vd": [
       {
         "id": 5,
-        "order": 4,
+        "order": 5,
         "props": {
           "type": "vd"
         },
@@ -171,10 +198,9 @@
     "ol": [
       {
         "id": 3,
-        "order": 5,
+        "order": 6,
         "props": {
-          "type": "ol",
-          "error": true
+          "type": "ol"
         },
         "value": {
           "id": {
@@ -202,9 +228,9 @@
             }
           },
           "sn": {
-            "value": "",
+            "value": "{{var.sarza}}",
             "props": {
-              "error": "Číslo šarže je povinné."
+              "expr": "={{var.sarza}}"
             }
           },
           "qty": {
@@ -227,7 +253,7 @@
     "r": [
       {
         "id": 13,
-        "order": 6,
+        "order": 7,
         "props": {
           "type": "r"
         },
@@ -300,6 +326,10 @@
             "value": "|Exp. amp. orig. No. I (unam)",
             "props": {}
           },
+          "instruction_lek": {
+            "value": "",
+            "props": {}
+          },
           "reasonPayoff": {
             "value": "",
             "props": {}
@@ -326,7 +356,7 @@
     "vv": [
       {
         "id": 7,
-        "order": 7,
+        "order": 8,
         "props": {
           "type": "vv"
         },
@@ -353,12 +383,16 @@
     "prehlad-oc-chr",
     "ocko"
   ],
-  "vars": {},
+  "vars": {
+    "sarza": ""
+  },
   "summary": "CHR - Chrípka očkovanie",
   "type": "examination",
   "description": "Očkovanie proti vírusu chrípky(chrípka)",
-  "owner": "admin",
   "allowedUsers": [],
   "allowedIdentities": [],
+  "mt": "2023-10-18T11:16:11.462Z",
+  "owner": "admin",
+  "ct": "2023-10-18T11:15:51.063Z",
   "source": "curo-open/curo-vzory#/020"
 }

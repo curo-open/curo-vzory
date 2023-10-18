@@ -3,17 +3,36 @@
   "shortcut": "oc-IPOA",
   "if": "",
   "data": {
-    "_": {
-      "errors": {
-        "4": [
-          "sn"
-        ]
+    "_": {},
+    "premenna": [
+      {
+        "id": 15,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "sarza",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "",
+            "props": {}
+          }
+        }
       }
-    },
+    ],
     "s": [
       {
         "id": 10,
-        "order": 0,
+        "order": 1,
         "props": {
           "type": "s"
         },
@@ -28,7 +47,7 @@
     "o": [
       {
         "id": 11,
-        "order": 1,
+        "order": 2,
         "props": {
           "type": "o"
         },
@@ -43,7 +62,7 @@
     "vd": [
       {
         "id": 6,
-        "order": 2,
+        "order": 3,
         "props": {
           "type": "vd"
         },
@@ -51,9 +70,9 @@
           "id": {
             "value": "[Z23.8] Potreba imunizácie proti inej jednotlivej baktériovej chorobe",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z23.8",
               "idEzid": "02089522193@12",
-              "id": "Z23.8"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -66,7 +85,7 @@
     "oc": [
       {
         "id": 2,
-        "order": 3,
+        "order": 4,
         "props": {
           "type": "oc"
         },
@@ -74,15 +93,15 @@
           "id": {
             "value": "[IPO] Invazívne pneumokokové ochorenia",
             "props": {
-              "id": "IPO",
+              "idClassid": "ockovanie",
               "idEzid": "00000346452@2",
-              "idClassid": "ockovanie"
+              "id": "IPO"
             }
           },
           "datum": {
-            "value": "05.10.2023 00:00",
+            "value": "18.10.2023 00:00",
             "props": {
-              "propValue": "2023-10-04T22:00:00.000Z",
+              "propValue": "2023-10-17T22:00:00.000Z",
               "expr": "=dnes"
             }
           },
@@ -112,35 +131,34 @@
     "ol": [
       {
         "id": 4,
-        "order": 4,
+        "order": 5,
         "props": {
-          "type": "ol",
-          "error": true
+          "type": "ol"
         },
         "value": {
           "id": {
             "value": "[9746D] Apexxnar injekčná suspenzia v naplnenej injekčnej striekačke | sus inj 1x0,5 ml (striek.inj.napl.skl.+ 1ihla)",
             "props": {
-              "propKat": false,
-              "propOl": 1,
-              "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén konjugovaný",
-              "propVnl": "R",
-              "propBal": 1,
-              "propGp": 0,
               "propUnit": "DF",
-              "idClassid": "liek",
-              "idEzid": "00021411905",
-              "idF": "SUS INJ",
-              "idSp": "imu",
-              "idAtc": "J07AL02",
+              "propGp": 0,
+              "propBal": 1,
+              "propVnl": "R",
+              "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén konjugovaný",
+              "propOl": 1,
+              "propKat": false,
+              "id": "9746D",
               "idUl": "",
-              "id": "9746D"
+              "idAtc": "J07AL02",
+              "idSp": "imu",
+              "idF": "SUS INJ",
+              "idEzid": "00021411905",
+              "idClassid": "liek"
             }
           },
           "sn": {
-            "value": "",
+            "value": "{{var.sarza}}",
             "props": {
-              "error": "Číslo šarže je povinné."
+              "expr": "={{var.sarza}}"
             }
           },
           "qty": {
@@ -163,7 +181,7 @@
     "r": [
       {
         "id": 13,
-        "order": 5,
+        "order": 6,
         "props": {
           "type": "r"
         },
@@ -171,32 +189,32 @@
           "id": {
             "value": "[9746D] Apexxnar injekčná suspenzia v naplnenej injekčnej striekačke | sus inj 1x0,5 ml (striek.inj.napl.skl.+ 1ihla)",
             "props": {
-              "propKat": false,
-              "propOl": 1,
-              "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén konjugovaný",
-              "propVnl": "R",
-              "propBal": 1,
-              "propGp": 0,
               "propUnit": "DF",
-              "idClassid": "liek",
-              "idEzid": "00021411905",
-              "idF": "SUS INJ",
-              "idSp": "imu",
-              "idAtc": "J07AL02",
+              "propGp": 0,
+              "propBal": 1,
+              "propVnl": "R",
+              "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén konjugovaný",
+              "propOl": 1,
+              "propKat": false,
+              "id": "9746D",
               "idUl": "",
-              "id": "9746D"
+              "idAtc": "J07AL02",
+              "idSp": "imu",
+              "idF": "SUS INJ",
+              "idEzid": "00021411905",
+              "idClassid": "liek"
             }
           },
           "schedule": {
             "value": "Ad Manus Medici, SUS",
             "props": {
-              "propType": "AMM",
-              "propText": "",
-              "propForm_t": "suspenzia",
-              "propForm_id": "SUS",
-              "propPeriod_code": "D",
+              "propWay_code": "",
               "propPeriod_t": "denne",
-              "propWay_code": ""
+              "propPeriod_code": "D",
+              "propForm_id": "SUS",
+              "propForm_t": "suspenzia",
+              "propText": "",
+              "propType": "AMM"
             }
           },
           "qty": {
@@ -259,7 +277,7 @@
     "vv": [
       {
         "id": 8,
-        "order": 6,
+        "order": 7,
         "props": {
           "type": "vv"
         },
@@ -268,9 +286,9 @@
             "value": "[252b] Očkovanie.",
             "props": {
               "propBody": 70,
-              "idClassid": "vykon",
+              "id": "252b",
               "idEzid": "00000467878@7",
-              "id": "252b"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -286,7 +304,9 @@
     "prehlad-oc-ipo",
     "ocko"
   ],
-  "vars": {},
+  "vars": {
+    "sarza": ""
+  },
   "summary": "IPO - Pneumokokové očkovanie (Prevenar)",
   "description": "Očkovanie proti invazívnemu pneumokokovému ochoreniu",
   "type": "examination",
@@ -294,6 +314,6 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "ct": "2023-10-05T19:52:47.273Z",
-  "mt": "2023-10-05T19:53:45.590Z",
+  "mt": "2023-10-18T11:13:58.766Z",
   "source": "curo-open/curo-vzory#/020"
 }
