@@ -1112,29 +1112,6 @@
         }
       },
       {
-        "id": 33,
-        "order": 47,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[3592] stanovenie sedimentačnej rýchlosti krviniek",
-            "props": {
-              "propType": "SVaLZ",
-              "propBody": 50,
-              "idClassid": "vykon",
-              "idEzid": "00000479048@11",
-              "id": 3592
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 135,
         "order": 48,
         "props": {
@@ -1171,29 +1148,6 @@
               "idClassid": "vykon",
               "idEzid": "00000467811@42",
               "id": "250b"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 139,
-        "order": 52,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[3592] stanovenie sedimentačnej rýchlosti krviniek",
-            "props": {
-              "propBody": 50,
-              "propType": "SVaLZ",
-              "id": 3592,
-              "idEzid": "00000479048@42",
-              "idClassid": "vykon"
             }
           },
           "count": {
