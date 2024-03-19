@@ -40,7 +40,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; vek &gt;= 40 }}<br>",
+            "value": "{{ ? (sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; vek &gt;= 40 }}<br>",
             "props": {}
           }
         }
@@ -377,29 +377,39 @@
         }
       }
     ],
-    "h-score": [
+    "h-score2": [
       {
-        "id": 29,
+        "id": 32,
         "order": 9,
         "props": {
-          "type": "h-score"
+          "type": "h-score2"
         },
         "value": {
           "score": {
-            "value": "0",
-            "props": {
-              "expr": "=var.skore"
-            }
+            "value": "",
+            "props": {}
           },
-          "x": {
-            "value": "1",
-            "props": {
-              "propValue": "1.0"
-            }
+          "syst": {
+            "value": "",
+            "props": {}
+          },
+          "smoker": {
+            "value": "",
+            "props": {}
+          },
+          "cholest": {
+            "value": "",
+            "props": {}
+          },
+          "eriziko": {
+            "value": "",
+            "props": {}
           },
           "risk": {
-            "value": "0",
-            "props": {}
+            "value": "SKOR01",
+            "props": {
+              "propValue": "SKOR01"
+            }
           },
           "poznamka": {
             "value": "",
@@ -413,7 +423,7 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2023-03-24T14:58:50.800Z",
+  "mt": "2024-03-19T14:05:08.960Z",
   "owner": "admin",
   "ct": "2023-03-24T13:49:31.508Z",
   "source": "curo-open/curo-vzory#/020zvld"

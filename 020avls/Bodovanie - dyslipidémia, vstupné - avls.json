@@ -416,10 +416,8 @@
             "props": {}
           },
           "smoker": {
-            "value": "nie",
-            "props": {
-              "propValue": 0
-            }
+            "value": "",
+            "props": {}
           },
           "cholest": {
             "value": "",
@@ -447,7 +445,7 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2023-06-13T20:55:41.136Z",
+  "mt": "2024-03-19T14:05:31.280Z",
   "ct": "2023-05-19T10:55:15.994Z",
   "owner": "admin",
   "source": "curo-open/curo-vzory#/020avls"

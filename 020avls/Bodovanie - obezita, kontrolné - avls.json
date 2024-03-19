@@ -96,9 +96,9 @@
           "id": {
             "value": "[E66.00] Obezita zapríčinená nadmerným energetickým príjmom, BMI: od 30 do menej ako 35",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "E66.00",
               "idEzid": "02089381251@22",
-              "id": "E66.00"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -117,9 +117,9 @@
           "id": {
             "value": "[E66.00] Obezita zapríčinená nadmerným energetickým príjmom, BMI: od 30 do menej ako 35",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "E66.00",
               "idEzid": "02089381251@22",
-              "id": "E66.00"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -138,9 +138,9 @@
           "id": {
             "value": "[E66.00] Obezita zapríčinená nadmerným energetickým príjmom, BMI: od 30 do menej ako 35",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "E66.00",
               "idEzid": "02089381251@22",
-              "id": "E66.00"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -162,9 +162,9 @@
             "value": "[H0004+EDU] Výkon H0004 s pripočítateľnou položkou EDU",
             "props": {
               "propBody": 0,
-              "id": "H0004+EDU",
+              "idClassid": "vykon",
               "idEzid": "curo-H0004+EDU@37",
-              "idClassid": "vykon"
+              "id": "H0004+EDU"
             }
           },
           "count": {
@@ -184,9 +184,9 @@
             "value": "[H0004] Kontrolné vyšetrenie u poistenca s arteriálnou hypertenziou jeden krát za 6 mesiacov",
             "props": {
               "propBody": 0,
-              "id": "H0004",
+              "idClassid": "vykon",
               "idEzid": "02089725754@38",
-              "idClassid": "vykon"
+              "id": "H0004"
             }
           },
           "count": {
@@ -206,9 +206,9 @@
             "value": "[H0004+EDU] Výkon H0004 s pripočítateľnou položkou EDU",
             "props": {
               "propBody": 0,
-              "idClassid": "vykon",
+              "id": "H0004+EDU",
               "idEzid": "curo-H0004+EDU@34",
-              "id": "H0004+EDU"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -223,8 +223,8 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2022-05-04T06:44:52.116Z",
+  "mt": "2023-07-03T09:31:47.117Z",
+  "ct": "2023-07-03T09:31:26.892Z",
   "owner": "admin",
-  "ct": "2022-04-21T06:58:35.258Z",
   "source": "curo-open/curo-vzory#/020avls"
 }
