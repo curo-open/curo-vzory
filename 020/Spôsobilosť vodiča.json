@@ -200,16 +200,16 @@
             "props": {}
           },
           "datum": {
-            "value": "03.09.2020",
+            "value": "25.04.2024",
             "props": {
-              "propValue": "2020-09-02T22:00:00.000Z",
+              "propValue": "2024-04-24T22:00:00.000Z",
               "expr": "=dnes"
             }
           },
           "platny": {
-            "value": "03.09.2025",
+            "value": "25.04.2029",
             "props": {
-              "propValue": "2025-09-03T09:35:45.116Z",
+              "propValue": "2029-04-25T09:31:04.646Z",
               "expr": "=+5r"
             }
           },
@@ -277,17 +277,17 @@
             "props": {}
           },
           "datum": {
-            "value": "03.09.2020",
+            "value": "25.04.2024",
             "props": {
-              "propValue": "2020-09-02T22:00:00.000Z",
+              "propValue": "2024-04-24T22:00:00.000Z",
               "expr": "=dnes"
             }
           },
           "platny": {
-            "value": "03.09.2020",
+            "value": "25.04.2029",
             "props": {
-              "propValue": "2020-09-02T22:00:00.000Z",
-              "expr": "=dnes"
+              "propValue": "2029-04-25T09:41:24.769Z",
+              "expr": "=+5r"
             }
           },
           "EC": {
@@ -412,14 +412,6 @@
             "value": "",
             "props": {}
           },
-          "oh": {
-            "value": "",
-            "props": {}
-          },
-          "op": {
-            "value": "",
-            "props": {}
-          },
           "o2": {
             "value": "",
             "props": {}
@@ -453,5 +445,10 @@
   "vars": {},
   "description": "",
   "summary": "",
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-04-25T09:32:18.514Z",
+  "mt": "2024-04-25T09:43:01.689Z",
   "source": "curo-open/curo-vzory#/020"
 }
