@@ -1,0 +1,260 @@
+{
+  "title": "PP - 5. Preventívna prehliadka, 145",
+  "shortcut": "pp5",
+  "summary": "PP - 5. Preventívna prehliadka, 145",
+  "if": "",
+  "data": {
+    "_": {},
+    "premenna": [
+      {
+        "id": 128,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "zaver",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "Psychomotorický vývok veku primeraný",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 148,
+        "order": 5,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "odp",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "Mamička poučená o správnej opatere dieťaťa, podporený laktačný program, poučená o možnosti nepovinného očkovania (rotavírusy, varicella). Naďalej podávať vitamín D 2 kv. denne do mlieka aspoň do roka života.",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t-nadpis": [
+      {
+        "id": 145,
+        "order": 1,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "5. Preventívna prehliadka, 145<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vlozit": [
+      {
+        "id": 146,
+        "order": 2,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP základ",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 147,
+        "order": 3,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP PMV",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 149,
+        "order": 4,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP záver",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "odp=var.odp|zaver=var.zaver",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 150,
+        "order": 6,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Preventívka bodovanie - pediater",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 301,
+        "order": 7,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Očk hexa + pneumo I",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 302,
+        "order": 8,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Očk Rota I.",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 355,
+        "order": 9,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z00.1] Rutinné vyšetrenie zdravotného stavu dieťaťa",
+            "props": {
+              "id": "Z00.1",
+              "idEzid": "02089520817@24",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 358,
+        "order": 10,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[145] 5. preventívna prehliadka sa vykazuje v 3. až 4. mesiaci života dieťaťa (vrátane antropometrických meraní).",
+            "props": {
+              "propBody": 350,
+              "id": 145,
+              "idEzid": "00000467142@45",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "description": "",
+  "mt": "2024-06-04T06:37:06.890Z",
+  "ct": "2023-12-03T10:51:13.843Z",
+  "owner": "zavrel",
+  "source": "curo-open/curo-vzory#/008"
+}

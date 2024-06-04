@@ -1,13 +1,13 @@
 {
   "title": "Preventívka univerzálna - pediater",
+  "owner": "admin",
   "shortcut": "ppu",
-  "summary": "",
   "if": "",
   "data": {
     "_": {},
     "premenna": [
       {
-        "id": 128,
+        "id": 2,
         "order": 0,
         "props": {
           "type": "premenna"
@@ -24,14 +24,14 @@
             }
           },
           "value": {
-            "value": "pokračovať v poradenskej starostlivosti",
+            "value": "Psychomotorický vývoj veku primeraný",
             "props": {}
           }
         }
       },
       {
-        "id": 122,
-        "order": 4,
+        "id": 8,
+        "order": 6,
         "props": {
           "type": "premenna"
         },
@@ -47,14 +47,14 @@
             }
           },
           "value": {
-            "value": "Mamička poučená o správnej opatere dieťaťa, poučená o technike dojčenia, podporený laktačný program, poučená o možnosti nepovinného očkovania (rotavírusy, varicella).Od ukončeného 2. týždňa dieťaťu podávať vitamín D 2 kv. denne do mlieka aspoň do roka života.Ortopedický skríning, USG skríning obličiek.",
+            "value": "Mamička poučená o správnej opatere dieťaťa, poučená o technike dojčenia, podporený laktačný program, poučená o možnosti nepovinného očkovania (rotavírusy, varicella).Od ukončeného 2. týždňa dieťaťu podávať vitamín D 2 kv. denne do mlieka aspoň do roka života a počas výhradného dojčenia podávať Kanavit 1 kv týždenne do ukončeného 3 mesiaca veku dieťaťa. Ortopedický skríning, USG skríning obličiek.",
             "props": {}
           }
         }
       },
       {
-        "id": 130,
-        "order": 11,
+        "id": 16,
+        "order": 14,
         "props": {
           "type": "premenna"
         },
@@ -70,14 +70,14 @@
             }
           },
           "value": {
-            "value": "Mamička poučená o správnej opatere dieťaťa, poučená o technike dojčenia, podporený laktačný program, poučená o možnosti nepovinného očkovania (rotavírusy, varicella).Od ukončeného 2. týždňa dieťaťu podávať vitamín D 2 kv. denne do mlieka aspoň do roka života.Ortopedický skríning, USG skríning obličiek.",
+            "value": "Mamička poučená o správnej opatere dieťaťa, poučená o technike dojčenia, podporený laktačný program, poučená o možnosti nepovinného očkovania (rotavírusy, varicella). Pokračovať v podávaní vitamínu D a K. Ortopedický skríning, USG skríning obličiek.",
             "props": {}
           }
         }
       },
       {
-        "id": 133,
-        "order": 19,
+        "id": 24,
+        "order": 22,
         "props": {
           "type": "premenna"
         },
@@ -93,14 +93,14 @@
             }
           },
           "value": {
-            "value": "Mamička poučená o správnej opatere dieťaťa, podporený laktačný program, poučená o možnosti nepovinného očkovania (rotavírusy, varicella).Od ukončeného 2. týždňa dieťaťu podávať vitamín D 2 kv. denne do mlieka aspoň do roka života.",
+            "value": "Mamička poučená o správnej opatere dieťaťa, podporený laktačný program, poučená o možnosti nepovinného očkovania (rotavírusy, varicella). Pokračovať v podávaní vitamínov, D 2 kv. denne do mlieka aspoň do roka života a počas výhradného dojčenia, Kanavit 1 kv týždenne do ukončeného 3 mesiaca veku dieťaťa.",
             "props": {}
           }
         }
       },
       {
-        "id": 140,
-        "order": 27,
+        "id": 32,
+        "order": 30,
         "props": {
           "type": "premenna"
         },
@@ -116,14 +116,14 @@
             }
           },
           "value": {
-            "value": "Mamička poučená o správnej opatere dieťaťa, podporený laktačný program, poučená o možnosti nepovinného očkovania (rotavírusy, varicella).Od ukončeného 2. týždňa dieťaťu podávať vitamín D 2 kv. denne do mlieka aspoň do roka života.",
+            "value": "Mamička poučená o správnej opatere dieťaťa, podporený laktačný program, poučená o možnosti nepovinného očkovania (rotavírusy, varicella). Pri výhradnom dojčení podávak Kanavit 1 kv týždenne do ukončeného 3 mesiaca veku, naďalej podávať vitamín D 2 kv. denne do mlieka aspoň do roka života.",
             "props": {}
           }
         }
       },
       {
-        "id": 148,
-        "order": 35,
+        "id": 40,
+        "order": 38,
         "props": {
           "type": "premenna"
         },
@@ -139,14 +139,14 @@
             }
           },
           "value": {
-            "value": "Mamička poučená o správnej opatere dieťaťa, podporený laktačný program, poučená o možnosti nepovinného očkovania (rotavírusy, varicella).Od ukončeného 2. týždňa dieťaťu podávať vitamín D 2 kv. denne do mlieka aspoň do roka života.",
+            "value": "Mamička poučená o správnej opatere dieťaťa, podporený laktačný program, poučená o možnosti nepovinného očkovania (rotavírusy, varicella). Naďalej podávať vitamín D 2 kv. denne do mlieka aspoň do roka života.",
             "props": {}
           }
         }
       },
       {
-        "id": 156,
-        "order": 43,
+        "id": 51,
+        "order": 49,
         "props": {
           "type": "premenna"
         },
@@ -162,14 +162,14 @@
             }
           },
           "value": {
-            "value": "Mamička poučená o správnej opatere dieťaťa, podporený laktačný program, poučená o možnosti nepovinného očkovania (meningokok, varicella). Pokračovať v  podávaní vitamínu D 2 kv. denne do mlieka aspoň do roka života.",
+            "value": "Mamička poučená o správnej opatere dieťaťa, poučená o výžove, poučená o možnosti nepovinného očkovania (meningokok, varicella). Pokračovať v  podávaní vitamínu D 2 kv. denne do mlieka aspoň do roka života. Poučená o potrebe začať zavádzať príkrmy.",
             "props": {}
           }
         }
       },
       {
-        "id": 167,
-        "order": 52,
+        "id": 62,
+        "order": 60,
         "props": {
           "type": "premenna"
         },
@@ -185,14 +185,14 @@
             }
           },
           "value": {
-            "value": "Mamička poučená o správnej opatere dieťaťa, podporený laktačný program, poučená o možnosti nepovinného očkovania (meningokok, varicella). Pokračovať v  podávaní vitamínu D 2 kv. denne do mlieka aspoň do roka života.",
+            "value": "Mamička poučená o správnej opatere dieťaťa, poučená o výžive, poučená o možnosti nepovinného očkovania (meningokok, varicella). Pokračovať v  podávaní vitamínu D 2 kv. denne do mlieka aspoň do roka života. Pokračovať v zavádzaní príkrmov.",
             "props": {}
           }
         }
       },
       {
-        "id": 177,
-        "order": 61,
+        "id": 71,
+        "order": 69,
         "props": {
           "type": "premenna"
         },
@@ -208,14 +208,14 @@
             }
           },
           "value": {
-            "value": "Mamička poučená o správnej opatere dieťaťa, podporený laktačný program, poučená o možnosti nepovinného očkovania (meningokok, varicella). Pokračovať v  podávaní vitamínu D 2 kv. denne do mlieka aspoň do roka života.",
+            "value": "Mamička poučená o správnej opatere dieťaťa,  poučená o možnosti nepovinného očkovania (meningokok, varicella). Pokračovať v  podávaní vitamínu D 2 kv. denne do mlieka aspoň do roka života. Poučená o potrebe starostlivosti o hygienu dutiny ústnej.",
             "props": {}
           }
         }
       },
       {
-        "id": 185,
-        "order": 70,
+        "id": 80,
+        "order": 78,
         "props": {
           "type": "premenna"
         },
@@ -231,36 +231,13 @@
             }
           },
           "value": {
-            "value": "Mamička poučená o správnej opatere dieťaťa, podporený laktačný program, poučená o možnosti nepovinného očkovania (meningokok, varicella). Pokračovať v  podávaní vitamínu D 2 kv. denne do mlieka aspoň do roka života.",
+            "value": "Mamička poučená o správnej opatere dieťaťa, poučená o výžive, poučená o možnosti nepovinného očkovania (meningokok, varicella). V strave možno prejsť na kravské mlieko. Poučená o potrebe starostlivosti o hygienu dutiny ústnej.",
             "props": {}
           }
         }
       },
       {
-        "id": 193,
-        "order": 79,
-        "props": {
-          "type": "premenna"
-        },
-        "value": {
-          "name": {
-            "value": "odp",
-            "props": {}
-          },
-          "type": {
-            "value": "text",
-            "props": {
-              "propValue": "text"
-            }
-          },
-          "value": {
-            "value": "Mamička poučená o správnej opatere dieťaťa, poučená o možnosti nepovinného očkovania (meningokok, varicella). Pokračovať v  podávaní vitamínu D 2 kv. denne do mlieka aspoň do roka života.",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 201,
+        "id": 90,
         "order": 88,
         "props": {
           "type": "premenna"
@@ -277,14 +254,14 @@
             }
           },
           "value": {
-            "value": "Mamička poučená o správnej opatere dieťaťa, poučená o možnosti nepovinného očkovania (meningokok, varicella). Pokračovať v  podávaní vitamínu D 2 kv. denne do mlieka aspoň do roka života.",
+            "value": "Mamička poučená o správnej opatere dieťaťa, poučená o výžive, poučená o možnosti nepovinného očkovania. Poučená o potrebe starostlivosti o hygienu dutiny ústnej.",
             "props": {}
           }
         }
       },
       {
-        "id": 209,
-        "order": 97,
+        "id": 101,
+        "order": 99,
         "props": {
           "type": "premenna"
         },
@@ -300,14 +277,14 @@
             }
           },
           "value": {
-            "value": "Mamička poučená o správnej opatere dieťaťa, poučená o možnosti nepovinného očkovania (meningokok, varicella). ",
+            "value": "Mamička poučená o správnej opatere dieťaťa, poučená o možnosti nepovinného očkovania (meningokok, varicella, Kliešťová encefalitída). ",
             "props": {}
           }
         }
       },
       {
-        "id": 217,
-        "order": 106,
+        "id": 111,
+        "order": 109,
         "props": {
           "type": "premenna"
         },
@@ -323,14 +300,14 @@
             }
           },
           "value": {
-            "value": "Mamička poučená o správnej opatere dieťaťa, poučená o možnosti nepovinného očkovania (meningokok, varicella). ",
+            "value": "Mamička poučená o správnej opatere dieťaťa, o výžove, poučená o možnosti nepovinného očkovania (meningokok, varicella, Kliešťová ancefalitída...). ",
             "props": {}
           }
         }
       },
       {
-        "id": 225,
-        "order": 116,
+        "id": 122,
+        "order": 120,
         "props": {
           "type": "premenna"
         },
@@ -346,14 +323,14 @@
             }
           },
           "value": {
-            "value": "Mamička poučená o správnej opatere dieťaťa, poučená o možnosti nepovinného očkovania (meningokok, varicella). ",
+            "value": "Mamička poučená o správnej opatere dieťaťa,  o výžive, poučená o možnosti nepovinného očkovania . Dieťa je sposobilé navštevovať povinnú školskú dochádzku a TV bez obmedzení. ",
             "props": {}
           }
         }
       },
       {
-        "id": 233,
-        "order": 126,
+        "id": 133,
+        "order": 131,
         "props": {
           "type": "premenna"
         },
@@ -369,14 +346,14 @@
             }
           },
           "value": {
-            "value": "Mamička poučená o správnej opatere dieťaťa, poučená o možnosti nepovinného očkovania (meningokok, varicella). ",
+            "value": "Poučená o správnej výžive a životospráve, poučená o možnosti nepovinného očkovania. ",
             "props": {}
           }
         }
       },
       {
-        "id": 241,
-        "order": 136,
+        "id": 143,
+        "order": 141,
         "props": {
           "type": "premenna"
         },
@@ -392,36 +369,13 @@
             }
           },
           "value": {
-            "value": "Mamička poučená o správnej opatere dieťaťa, poučená o možnosti nepovinného očkovania (meningokok, varicella). ",
+            "value": "poučený o racionálenj životospráve a pohybovom režime, poučený o možnosti nepovinného očkovania.  ",
             "props": {}
           }
         }
       },
       {
-        "id": 249,
-        "order": 146,
-        "props": {
-          "type": "premenna"
-        },
-        "value": {
-          "name": {
-            "value": "odp",
-            "props": {}
-          },
-          "type": {
-            "value": "text",
-            "props": {
-              "propValue": "text"
-            }
-          },
-          "value": {
-            "value": "Mamička poučená o správnej opatere dieťaťa, poučená o možnosti nepovinného očkovania (meningokok, varicella). ",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 266,
+        "id": 158,
         "order": 156,
         "props": {
           "type": "premenna"
@@ -438,14 +392,14 @@
             }
           },
           "value": {
-            "value": "Mamička poučená o správnej opatere dieťaťa, poučená o možnosti nepovinného očkovania (meningokok, varicella). ",
+            "value": "poučený o racionálenj životospráve a pohybovom režime, poučený o možnosti nepovinného očkovania.  ",
             "props": {}
           }
         }
       },
       {
-        "id": 275,
-        "order": 166,
+        "id": 169,
+        "order": 167,
         "props": {
           "type": "premenna"
         },
@@ -461,7 +415,53 @@
             }
           },
           "value": {
-            "value": "Mamička poučená o správnej opatere dieťaťa, poučená o možnosti nepovinného očkovania (meningokok, varicella). ",
+            "value": "poučený o racionálenj životospráve a pohybovom režime, poučený o možnosti nepovinného očkovania.  ",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 180,
+        "order": 178,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "odp",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "poučený o racionálenj životospráve a pohybovom režime, poučený o možnosti nepovinného očkovania.  ",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 189,
+        "order": 187,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "odp",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "poučený o racionálenj životospráve a pohybovom režime, poučený o možnosti nepovinného očkovania. ",
             "props": {}
           }
         }
@@ -469,7 +469,7 @@
     ],
     "t": [
       {
-        "id": 7,
+        "id": 3,
         "order": 1,
         "props": {
           "type": "t"
@@ -482,8 +482,8 @@
         }
       },
       {
-        "id": 9,
-        "order": 7,
+        "id": 10,
+        "order": 8,
         "props": {
           "type": "t"
         },
@@ -496,59 +496,59 @@
       },
       {
         "id": 11,
-        "order": 8,
+        "order": 9,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni &gt; 14 &amp;&amp;  pacient.vekDni &lt;= 28 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 12,
-        "order": 14,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 14,
-        "order": 15,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? pacient.vekDni|vTyzdnoch &gt;= 4 &amp;&amp;  pacient.vekDni|vTyzdnoch &lt;= 7 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 13,
-        "order": 22,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
+            "value": "{{ ? pacient.vekDni &gt; 14 &amp;&amp;  pacient.vekDni &lt;= 35 }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 18,
-        "order": 23,
+        "order": 16,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 19,
+        "order": 17,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vTyzdnoch &gt;= 4 &amp;&amp;  pacient.vekDni|vTyzdnoch &lt;= 8 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 26,
+        "order": 24,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 27,
+        "order": 25,
         "props": {
           "type": "t"
         },
@@ -560,112 +560,34 @@
         }
       },
       {
-        "id": 20,
-        "order": 30,
+        "id": 34,
+        "order": 32,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
             "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 22,
-        "order": 31,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? pacient.vekDni|vMesiacoch &gt; 2 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 4 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 24,
-        "order": 38,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 33,
-        "order": 39,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? pacient.vekDni|vMesiacoch &gt; 4 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 6 }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 35,
-        "order": 46,
+        "order": 33,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
+            "value": "{{ ? pacient.vekDni|vMesiacoch &gt; 2 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 5 }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 37,
-        "order": 47,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? pacient.vekDni|vMesiacoch &gt; 6 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 8 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 39,
-        "order": 55,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 41,
-        "order": 56,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? pacient.vekDni|vMesiacoch &gt; 8 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 10 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 43,
-        "order": 64,
+        "id": 44,
+        "order": 42,
         "props": {
           "type": "t"
         },
@@ -678,72 +600,33 @@
       },
       {
         "id": 45,
-        "order": 65,
+        "order": 43,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vMesiacoch &gt; 10 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 12 }}<br>",
+            "value": "{{ ? pacient.vekDni|vMesiacoch &gt; 4 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 7  &amp;&amp; (pacient.vekDni|vMesiacoch == 7 &amp;&amp; sessions|getSections(\"vv\")|where(\"s.value.id.props.id=='145a'\")|trans(\"length\") == 0) }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 47,
-        "order": 73,
+        "id": 50,
+        "order": 48,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 49,
-        "order": 74,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? pacient.vekDni|vMesiacoch &gt;= 14 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 18 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 51,
-        "order": 82,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 53,
-        "order": 83,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? pacient.vekDni|vRokoch == 2 }}<br>",
+            "value": "Orientačné vyšetrenie zraku a sluchu v norme.<br>Moč chem. negat.<br>",
             "props": {}
           }
         }
       },
       {
         "id": 55,
-        "order": 91,
+        "order": 53,
         "props": {
           "type": "t"
         },
@@ -755,47 +638,21 @@
         }
       },
       {
-        "id": 57,
-        "order": 92,
+        "id": 56,
+        "order": 54,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vRokoch == 4 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 59,
-        "order": 100,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 62,
-        "order": 101,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? pacient.vekDni|vRokoch == 5 }}<br>",
+            "value": "{{ ? pacient.vekDni|vMesiacoch &gt; 6 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 9  &amp;&amp; (pacient.vekDni|vMesiacoch == 7 &amp;&amp; sessions|getSections(\"vv\")|where(\"d.period&gt;14\")|where(\"s.value.id.props.id=='145a'\")|trans(\"length\") != 0)}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 64,
-        "order": 109,
+        "order": 62,
         "props": {
           "type": "t"
         },
@@ -807,47 +664,21 @@
         }
       },
       {
-        "id": 66,
-        "order": 110,
+        "id": 65,
+        "order": 63,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vRokoch == 8 }}<br>",
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 8 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 10) || (pacient.vekDni|vMesiacoch == 11 &amp;&amp; sessions|getSections(\"vv\")|where(\"s.value.id.props.id=='146a'\")|trans(\"length\") == 0)  }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 68,
-        "order": 119,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 70,
-        "order": 120,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? pacient.vekDni|vRokoch == 10 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 72,
-        "order": 129,
+        "id": 73,
+        "order": 71,
         "props": {
           "type": "t"
         },
@@ -860,71 +691,201 @@
       },
       {
         "id": 74,
-        "order": 130,
+        "order": 72,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vRokoch == 12 }}<br>",
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 11 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 13) || (pacient.vekDni|vMesiacoch == 11 &amp;&amp; sessions|getSections(\"vv\")|where(\"d.period&gt;14\")|where(\"s.value.id.props.id=='146a'\")|trans(\"length\") != 0) }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 76,
-        "order": 139,
+        "id": 83,
+        "order": 81,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
             "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 78,
-        "order": 140,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? pacient.vekDni|vRokoch == 14 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 80,
-        "order": 149,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 82,
-        "order": 150,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? pacient.vekDni|vRokoch == 16 }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 84,
+        "order": 82,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vMesiacoch &gt;= 14 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 18 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 93,
+        "order": 91,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 94,
+        "order": 92,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vRokoch == 2 || pacient.vekDni|vRokoch == 3  }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 103,
+        "order": 101,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 104,
+        "order": 102,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vRokoch == 4 || pacient.vekDni|vRokoch == 5 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 114,
+        "order": 112,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 115,
+        "order": 113,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vRokoch == 5 || pacient.vekDni|vRokoch == 6 || pacient.vekDni|vRokoch == 7 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 125,
+        "order": 123,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 126,
+        "order": 124,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vRokoch == 8 || pacient.vekDni|vRokoch == 9 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 135,
+        "order": 133,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 136,
+        "order": 134,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vRokoch == 10 || pacient.vekDni|vRokoch == 11 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 150,
+        "order": 148,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 151,
+        "order": 149,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vRokoch == 12 || pacient.vekDni|vRokoch == 13 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 161,
         "order": 159,
         "props": {
           "type": "t"
@@ -937,21 +898,86 @@
         }
       },
       {
-        "id": 86,
+        "id": 162,
         "order": 160,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vRokoch == 18 }}<br>",
+            "value": "{{ ? pacient.vekDni|vRokoch == 14 || pacient.vekDni|vRokoch == 15 }}<br>",
             "props": {}
           }
         }
       },
       {
-        "id": 88,
+        "id": 171,
         "order": 169,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 172,
+        "order": 170,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vRokoch == 16 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 178,
+        "order": 176,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Očkovaný podla poradne<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 183,
+        "order": 181,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 184,
+        "order": 182,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? pacient.vekDni|vRokoch &gt;= 18 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 192,
+        "order": 190,
         "props": {
           "type": "t"
         },
@@ -965,14 +991,184 @@
     ],
     "t-nadpis": [
       {
-        "id": 96,
+        "id": 4,
         "order": 2,
         "props": {
           "type": "t-nadpis"
         },
         "value": {
           "nadpis": {
-            "value": "BAZÁLNE VYŠETRENIE NOVORODENCA<br>",
+            "value": "BAZÁLNE VYŠETRENIE NOVORODENCA, 142<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "v domácom prostredí<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 12,
+        "order": 10,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "2. Preventívna prehliadka , 143<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 20,
+        "order": 18,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "3. Preventívna prehliadka , 143a<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 28,
+        "order": 26,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "4. Preventívna prehliadka , 144<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 36,
+        "order": 34,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "5. Preventívna prehliadka , 145<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 46,
+        "order": 44,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "6. Preventívna prehliadka , 145a<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 57,
+        "order": 55,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "7. Preventívna prehliadka , 146<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 66,
+        "order": 64,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "8. Preventívna prehliadka , 146a<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 75,
+        "order": 73,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "9. Preventívna prehliadka , 146b<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 85,
+        "order": 83,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "10. Preventívna prehliadka , 146c<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 95,
+        "order": 93,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "11. Preventívna prehliadka , 148<br>",
             "props": {}
           },
           "podnadpis": {
@@ -983,13 +1179,13 @@
       },
       {
         "id": 105,
-        "order": 9,
+        "order": 103,
         "props": {
           "type": "t-nadpis"
         },
         "value": {
           "nadpis": {
-            "value": "2. Preventívna prehliadka <br>",
+            "value": "12. Preventívna prehliadka , 148a<br>",
             "props": {}
           },
           "podnadpis": {
@@ -999,14 +1195,31 @@
         }
       },
       {
-        "id": 112,
-        "order": 16,
+        "id": 116,
+        "order": 114,
         "props": {
           "type": "t-nadpis"
         },
         "value": {
           "nadpis": {
-            "value": "3. Preventívna prehliadka <br>",
+            "value": "13. Preventívna prehliadka , 148b<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 127,
+        "order": 125,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "14. Preventívna prehliadka , 148c<br>",
             "props": {}
           },
           "podnadpis": {
@@ -1017,13 +1230,13 @@
       },
       {
         "id": 137,
-        "order": 24,
+        "order": 135,
         "props": {
           "type": "t-nadpis"
         },
         "value": {
           "nadpis": {
-            "value": "4. Preventívna prehliadka <br>",
+            "value": "15. Preventívna prehliadka , 149<br>",
             "props": {}
           },
           "podnadpis": {
@@ -1033,14 +1246,14 @@
         }
       },
       {
-        "id": 145,
-        "order": 32,
+        "id": 152,
+        "order": 150,
         "props": {
           "type": "t-nadpis"
         },
         "value": {
           "nadpis": {
-            "value": "5. Preventívna prehliadka <br>",
+            "value": "16. Preventívna prehliadka , 149a<br>",
             "props": {}
           },
           "podnadpis": {
@@ -1050,31 +1263,14 @@
         }
       },
       {
-        "id": 153,
-        "order": 40,
+        "id": 163,
+        "order": 161,
         "props": {
           "type": "t-nadpis"
         },
         "value": {
           "nadpis": {
-            "value": "6. Preventívna prehliadka <br>",
-            "props": {}
-          },
-          "podnadpis": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 164,
-        "order": 48,
-        "props": {
-          "type": "t-nadpis"
-        },
-        "value": {
-          "nadpis": {
-            "value": "7. Preventívna prehliadka <br>",
+            "value": "17. Preventívna prehliadka , 149b<br>",
             "props": {}
           },
           "podnadpis": {
@@ -1085,13 +1281,13 @@
       },
       {
         "id": 173,
-        "order": 57,
+        "order": 171,
         "props": {
           "type": "t-nadpis"
         },
         "value": {
           "nadpis": {
-            "value": "8. Preventívna prehliadka <br>",
+            "value": "18. Preventívna prehliadka , 149d<br>",
             "props": {}
           },
           "podnadpis": {
@@ -1101,184 +1297,14 @@
         }
       },
       {
-        "id": 181,
-        "order": 66,
+        "id": 185,
+        "order": 183,
         "props": {
           "type": "t-nadpis"
         },
         "value": {
           "nadpis": {
-            "value": "9. Preventívna prehliadka <br>",
-            "props": {}
-          },
-          "podnadpis": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 189,
-        "order": 75,
-        "props": {
-          "type": "t-nadpis"
-        },
-        "value": {
-          "nadpis": {
-            "value": "10. Preventívna prehliadka <br>",
-            "props": {}
-          },
-          "podnadpis": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 197,
-        "order": 84,
-        "props": {
-          "type": "t-nadpis"
-        },
-        "value": {
-          "nadpis": {
-            "value": "10. Preventívna prehliadka <br>",
-            "props": {}
-          },
-          "podnadpis": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 205,
-        "order": 93,
-        "props": {
-          "type": "t-nadpis"
-        },
-        "value": {
-          "nadpis": {
-            "value": "11. Preventívna prehliadka <br>",
-            "props": {}
-          },
-          "podnadpis": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 213,
-        "order": 102,
-        "props": {
-          "type": "t-nadpis"
-        },
-        "value": {
-          "nadpis": {
-            "value": "12. Preventívna prehliadka <br>",
-            "props": {}
-          },
-          "podnadpis": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 221,
-        "order": 111,
-        "props": {
-          "type": "t-nadpis"
-        },
-        "value": {
-          "nadpis": {
-            "value": "13. Preventívna prehliadka <br>",
-            "props": {}
-          },
-          "podnadpis": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 229,
-        "order": 121,
-        "props": {
-          "type": "t-nadpis"
-        },
-        "value": {
-          "nadpis": {
-            "value": "14. Preventívna prehliadka <br>",
-            "props": {}
-          },
-          "podnadpis": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 237,
-        "order": 131,
-        "props": {
-          "type": "t-nadpis"
-        },
-        "value": {
-          "nadpis": {
-            "value": "15. Preventívna prehliadka <br>",
-            "props": {}
-          },
-          "podnadpis": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 245,
-        "order": 141,
-        "props": {
-          "type": "t-nadpis"
-        },
-        "value": {
-          "nadpis": {
-            "value": "14. Preventívna prehliadka <br>",
-            "props": {}
-          },
-          "podnadpis": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 261,
-        "order": 151,
-        "props": {
-          "type": "t-nadpis"
-        },
-        "value": {
-          "nadpis": {
-            "value": "14. Preventívna prehliadka <br>",
-            "props": {}
-          },
-          "podnadpis": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 270,
-        "order": 161,
-        "props": {
-          "type": "t-nadpis"
-        },
-        "value": {
-          "nadpis": {
-            "value": "14. Preventívna prehliadka <br>",
+            "value": "19. Preventívna prehliadka , 160<br>",
             "props": {}
           },
           "podnadpis": {
@@ -1288,10 +1314,25 @@
         }
       }
     ],
+    "oa": [
+      {
+        "id": 5,
+        "order": 3,
+        "props": {
+          "type": "oa"
+        },
+        "value": {
+          "text": {
+            "value": "dieťa z I. fyziologickej gravidity, rodené v termíne, spontánne záhlavím, popôrodná adaptácia v norme<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
     "vlozit": [
       {
-        "id": 98,
-        "order": 3,
+        "id": 6,
+        "order": 4,
         "props": {
           "type": "vlozit"
         },
@@ -1311,7 +1352,7 @@
         }
       },
       {
-        "id": 120,
+        "id": 7,
         "order": 5,
         "props": {
           "type": "vlozit"
@@ -1332,8 +1373,8 @@
         }
       },
       {
-        "id": 103,
-        "order": 6,
+        "id": 9,
+        "order": 7,
         "props": {
           "type": "vlozit"
         },
@@ -1353,35 +1394,14 @@
         }
       },
       {
-        "id": 106,
-        "order": 10,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "PP základ",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 131,
+        "id": 14,
         "order": 12,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP záver",
+            "value": "PP základ",
             "props": {}
           },
           "source": {
@@ -1389,19 +1409,40 @@
             "props": {}
           },
           "vars": {
-            "value": "odp=var.odp|zaver=var.zaver",
+            "value": "",
             "props": {}
           }
         }
       },
       {
-        "id": 110,
+        "id": 15,
         "order": 13,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
+            "value": "PP záver",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "odp=var.odp|zaver=var.zaver",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 17,
+        "order": 15,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
             "value": "Preventívka bodovanie - pediater",
             "props": {}
           },
@@ -1416,8 +1457,8 @@
         }
       },
       {
-        "id": 113,
-        "order": 17,
+        "id": 21,
+        "order": 19,
         "props": {
           "type": "vlozit"
         },
@@ -1437,35 +1478,14 @@
         }
       },
       {
-        "id": 118,
-        "order": 18,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "PP PMV",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 134,
+        "id": 22,
         "order": 20,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP záver",
+            "value": "PP PMV",
             "props": {}
           },
           "source": {
@@ -1473,19 +1493,40 @@
             "props": {}
           },
           "vars": {
-            "value": "odp=var.odp|zaver=var.zaver",
+            "value": "",
             "props": {}
           }
         }
       },
       {
-        "id": 115,
+        "id": 23,
         "order": 21,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
+            "value": "PP záver",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "odp=var.odp|zaver=var.zaver",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 25,
+        "order": 23,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
             "value": "Preventívka bodovanie - pediater",
             "props": {}
           },
@@ -1500,8 +1541,8 @@
         }
       },
       {
-        "id": 138,
-        "order": 25,
+        "id": 29,
+        "order": 27,
         "props": {
           "type": "vlozit"
         },
@@ -1521,35 +1562,14 @@
         }
       },
       {
-        "id": 139,
-        "order": 26,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "PP PMV",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 141,
+        "id": 30,
         "order": 28,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP záver",
+            "value": "PP PMV",
             "props": {}
           },
           "source": {
@@ -1557,19 +1577,40 @@
             "props": {}
           },
           "vars": {
-            "value": "odp=var.odp|zaver=var.zaver",
+            "value": "",
             "props": {}
           }
         }
       },
       {
-        "id": 142,
+        "id": 31,
         "order": 29,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
+            "value": "PP záver",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "odp=var.odp|zaver=var.zaver",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 33,
+        "order": 31,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
             "value": "Preventívka bodovanie - pediater",
             "props": {}
           },
@@ -1584,8 +1625,8 @@
         }
       },
       {
-        "id": 146,
-        "order": 33,
+        "id": 37,
+        "order": 35,
         "props": {
           "type": "vlozit"
         },
@@ -1605,35 +1646,14 @@
         }
       },
       {
-        "id": 147,
-        "order": 34,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "PP PMV",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 149,
+        "id": 38,
         "order": 36,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP záver",
+            "value": "PP PMV",
             "props": {}
           },
           "source": {
@@ -1641,19 +1661,40 @@
             "props": {}
           },
           "vars": {
-            "value": "odp=var.odp|zaver=var.zaver",
+            "value": "",
             "props": {}
           }
         }
       },
       {
-        "id": 150,
+        "id": 39,
         "order": 37,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
+            "value": "PP záver",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "odp=var.odp|zaver=var.zaver",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 41,
+        "order": 39,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
             "value": "Preventívka bodovanie - pediater",
             "props": {}
           },
@@ -1668,14 +1709,35 @@
         }
       },
       {
-        "id": 154,
+        "id": 42,
+        "order": 40,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Očk hexa + pneumo I",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 43,
         "order": 41,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP základ",
+            "value": "Očk Rota I.",
             "props": {}
           },
           "source": {
@@ -1689,76 +1751,13 @@
         }
       },
       {
-        "id": 155,
-        "order": 42,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "PP PMV",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 157,
-        "order": 44,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "PP záver",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "odp=var.odp|zaver=var.zaver",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 158,
+        "id": 47,
         "order": 45,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "Preventívka bodovanie - pediater",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 165,
-        "order": 49,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
             "value": "PP základ",
             "props": {}
           },
@@ -1773,14 +1772,56 @@
         }
       },
       {
-        "id": 166,
+        "id": 48,
+        "order": 46,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP PMV",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 49,
+        "order": 47,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP záver",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "odp=var.odp|zaver=var.zaver",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 52,
         "order": 50,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP PMV",
+            "value": "Preventívka bodovanie - pediater",
             "props": {}
           },
           "source": {
@@ -1794,14 +1835,14 @@
         }
       },
       {
-        "id": 171,
+        "id": 53,
         "order": 51,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP ZSV",
+            "value": "Očk hexa + pneumo II",
             "props": {}
           },
           "source": {
@@ -1815,14 +1856,14 @@
         }
       },
       {
-        "id": 168,
-        "order": 53,
+        "id": 54,
+        "order": 52,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP záver",
+            "value": "Očk Rota II.",
             "props": {}
           },
           "source": {
@@ -1830,20 +1871,20 @@
             "props": {}
           },
           "vars": {
-            "value": "odp=var.odp|zaver=var.zaver",
+            "value": "",
             "props": {}
           }
         }
       },
       {
-        "id": 169,
-        "order": 54,
+        "id": 58,
+        "order": 56,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "Preventívka bodovanie - pediater",
+            "value": "PP základ1",
             "props": {}
           },
           "source": {
@@ -1857,14 +1898,35 @@
         }
       },
       {
-        "id": 174,
+        "id": 59,
+        "order": 57,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP PMV1",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 60,
         "order": 58,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP základ",
+            "value": "PP ZSV1",
             "props": {}
           },
           "source": {
@@ -1878,55 +1940,13 @@
         }
       },
       {
-        "id": 175,
+        "id": 61,
         "order": 59,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP PMV",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 176,
-        "order": 60,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "PP ZSV",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 178,
-        "order": 62,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
             "value": "PP záver",
             "props": {}
           },
@@ -1941,8 +1961,8 @@
         }
       },
       {
-        "id": 179,
-        "order": 63,
+        "id": 63,
+        "order": 61,
         "props": {
           "type": "vlozit"
         },
@@ -1962,14 +1982,56 @@
         }
       },
       {
-        "id": 182,
+        "id": 67,
+        "order": 65,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP základ1",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 68,
+        "order": 66,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP PMV1",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 69,
         "order": 67,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP základ",
+            "value": "PP ZSV1",
             "props": {}
           },
           "source": {
@@ -1983,55 +2045,13 @@
         }
       },
       {
-        "id": 183,
+        "id": 70,
         "order": 68,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP PMV",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 184,
-        "order": 69,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "PP ZSV",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 186,
-        "order": 71,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
             "value": "PP záver",
             "props": {}
           },
@@ -2046,8 +2066,8 @@
         }
       },
       {
-        "id": 187,
-        "order": 72,
+        "id": 72,
+        "order": 70,
         "props": {
           "type": "vlozit"
         },
@@ -2067,14 +2087,56 @@
         }
       },
       {
-        "id": 190,
+        "id": 76,
+        "order": 74,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP základ1",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 77,
+        "order": 75,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP PMV1",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 78,
         "order": 76,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP základ",
+            "value": "PP ZSV1",
             "props": {}
           },
           "source": {
@@ -2088,14 +2150,14 @@
         }
       },
       {
-        "id": 191,
+        "id": 79,
         "order": 77,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP PMV",
+            "value": "PP záver",
             "props": {}
           },
           "source": {
@@ -2103,20 +2165,20 @@
             "props": {}
           },
           "vars": {
-            "value": "",
+            "value": "odp=var.odp|zaver=var.zaver",
             "props": {}
           }
         }
       },
       {
-        "id": 192,
-        "order": 78,
+        "id": 81,
+        "order": 79,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP ZSV",
+            "value": "Preventívka bodovanie - pediater",
             "props": {}
           },
           "source": {
@@ -2130,14 +2192,14 @@
         }
       },
       {
-        "id": 194,
+        "id": 82,
         "order": 80,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP záver",
+            "value": "Očk hexa + pneumo III",
             "props": {}
           },
           "source": {
@@ -2145,20 +2207,20 @@
             "props": {}
           },
           "vars": {
-            "value": "odp=var.odp|zaver=var.zaver",
+            "value": "",
             "props": {}
           }
         }
       },
       {
-        "id": 195,
-        "order": 81,
+        "id": 86,
+        "order": 84,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "Preventívka bodovanie - pediater",
+            "value": "PP základ1",
             "props": {}
           },
           "source": {
@@ -2172,14 +2234,14 @@
         }
       },
       {
-        "id": 198,
+        "id": 87,
         "order": 85,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP základ",
+            "value": "PP PMV1",
             "props": {}
           },
           "source": {
@@ -2193,14 +2255,14 @@
         }
       },
       {
-        "id": 199,
+        "id": 88,
         "order": 86,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP PMV",
+            "value": "PP ZSV1",
             "props": {}
           },
           "source": {
@@ -2214,29 +2276,8 @@
         }
       },
       {
-        "id": 200,
+        "id": 89,
         "order": 87,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "PP ZSV",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 202,
-        "order": 89,
         "props": {
           "type": "vlozit"
         },
@@ -2256,8 +2297,8 @@
         }
       },
       {
-        "id": 203,
-        "order": 90,
+        "id": 91,
+        "order": 89,
         "props": {
           "type": "vlozit"
         },
@@ -2277,14 +2318,35 @@
         }
       },
       {
-        "id": 206,
+        "id": 92,
+        "order": 90,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Očk MMR I",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 96,
         "order": 94,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP základ",
+            "value": "PP základ2",
             "props": {}
           },
           "source": {
@@ -2298,14 +2360,14 @@
         }
       },
       {
-        "id": 207,
+        "id": 97,
         "order": 95,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP PMV",
+            "value": "PP PMV2",
             "props": {}
           },
           "source": {
@@ -2319,14 +2381,14 @@
         }
       },
       {
-        "id": 208,
+        "id": 98,
         "order": 96,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP ZSV",
+            "value": "PP ZSV1",
             "props": {}
           },
           "source": {
@@ -2340,7 +2402,7 @@
         }
       },
       {
-        "id": 210,
+        "id": 100,
         "order": 98,
         "props": {
           "type": "vlozit"
@@ -2361,8 +2423,8 @@
         }
       },
       {
-        "id": 211,
-        "order": 99,
+        "id": 102,
+        "order": 100,
         "props": {
           "type": "vlozit"
         },
@@ -2382,35 +2444,14 @@
         }
       },
       {
-        "id": 214,
-        "order": 103,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "PP základ",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 215,
+        "id": 106,
         "order": 104,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP PMV",
+            "value": "PP základ2",
             "props": {}
           },
           "source": {
@@ -2424,14 +2465,14 @@
         }
       },
       {
-        "id": 216,
+        "id": 107,
         "order": 105,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP ZSV",
+            "value": "PP PMV2",
             "props": {}
           },
           "source": {
@@ -2445,14 +2486,14 @@
         }
       },
       {
-        "id": 218,
-        "order": 107,
+        "id": 108,
+        "order": 106,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP záver",
+            "value": "PP ZSV1",
             "props": {}
           },
           "source": {
@@ -2460,19 +2501,40 @@
             "props": {}
           },
           "vars": {
-            "value": "odp=var.odp|zaver=var.zaver",
+            "value": "",
             "props": {}
           }
         }
       },
       {
-        "id": 219,
+        "id": 110,
         "order": 108,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
+            "value": "PP záver",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "odp=var.odp|zaver=var.zaver",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 112,
+        "order": 110,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
             "value": "Preventívka bodovanie - pediater",
             "props": {}
           },
@@ -2487,14 +2549,14 @@
         }
       },
       {
-        "id": 222,
-        "order": 112,
+        "id": 113,
+        "order": 111,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP základ",
+            "value": "Očk MMR II",
             "props": {}
           },
           "source": {
@@ -2508,56 +2570,14 @@
         }
       },
       {
-        "id": 223,
-        "order": 113,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "PP PMV",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 224,
-        "order": 114,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "PP ZSV",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 254,
+        "id": 117,
         "order": 115,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP PZ",
+            "value": "PP základ2",
             "props": {}
           },
           "source": {
@@ -2571,13 +2591,55 @@
         }
       },
       {
-        "id": 226,
+        "id": 118,
+        "order": 116,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP PMV2",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 119,
         "order": 117,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
+            "value": "PP ZSV1",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 121,
+        "order": 119,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
             "value": "PP záver",
             "props": {}
           },
@@ -2592,8 +2654,8 @@
         }
       },
       {
-        "id": 227,
-        "order": 118,
+        "id": 123,
+        "order": 121,
         "props": {
           "type": "vlozit"
         },
@@ -2613,14 +2675,14 @@
         }
       },
       {
-        "id": 230,
+        "id": 124,
         "order": 122,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP základ",
+            "value": "Očk Infanrix",
             "props": {}
           },
           "source": {
@@ -2634,14 +2696,14 @@
         }
       },
       {
-        "id": 231,
-        "order": 123,
+        "id": 128,
+        "order": 126,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP PMV",
+            "value": "PP základ2",
             "props": {}
           },
           "source": {
@@ -2655,56 +2717,14 @@
         }
       },
       {
-        "id": 232,
-        "order": 124,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "PP ZSV",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 255,
-        "order": 125,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "PP PZ",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 234,
+        "id": 129,
         "order": 127,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP záver",
+            "value": "PP ZSV1",
             "props": {}
           },
           "source": {
@@ -2712,20 +2732,20 @@
             "props": {}
           },
           "vars": {
-            "value": "odp=var.odp|zaver=var.zaver",
+            "value": "",
             "props": {}
           }
         }
       },
       {
-        "id": 235,
+        "id": 130,
         "order": 128,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "Preventívka bodovanie - pediater",
+            "value": "PP PZ",
             "props": {}
           },
           "source": {
@@ -2739,14 +2759,35 @@
         }
       },
       {
-        "id": 238,
+        "id": 132,
+        "order": 130,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP záver",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "odp=var.odp|zaver=var.zaver",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 134,
         "order": 132,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP základ",
+            "value": "Preventívka bodovanie - pediater",
             "props": {}
           },
           "source": {
@@ -2760,14 +2801,14 @@
         }
       },
       {
-        "id": 239,
-        "order": 133,
+        "id": 138,
+        "order": 136,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP PMV",
+            "value": "PP základ2",
             "props": {}
           },
           "source": {
@@ -2781,56 +2822,14 @@
         }
       },
       {
-        "id": 240,
-        "order": 134,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "PP ZSV",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 257,
-        "order": 135,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "PP PZ",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 242,
+        "id": 139,
         "order": 137,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP záver",
+            "value": "PP ZSV1",
             "props": {}
           },
           "source": {
@@ -2838,20 +2837,20 @@
             "props": {}
           },
           "vars": {
-            "value": "odp=var.odp|zaver=var.zaver",
+            "value": "",
             "props": {}
           }
         }
       },
       {
-        "id": 243,
+        "id": 140,
         "order": 138,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "Preventívka bodovanie - pediater",
+            "value": "PP PZ",
             "props": {}
           },
           "source": {
@@ -2865,14 +2864,35 @@
         }
       },
       {
-        "id": 246,
+        "id": 142,
+        "order": 140,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP záver",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "odp=var.odp|zaver=var.zaver",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 144,
         "order": 142,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP základ",
+            "value": "Preventívka bodovanie - pediater",
             "props": {}
           },
           "source": {
@@ -2886,14 +2906,14 @@
         }
       },
       {
-        "id": 247,
-        "order": 143,
+        "id": 148,
+        "order": 146,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP PMV",
+            "value": "Lab: Odber 11",
             "props": {}
           },
           "source": {
@@ -2907,56 +2927,14 @@
         }
       },
       {
-        "id": 248,
-        "order": 144,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "PP ZSV",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 259,
-        "order": 145,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "PP PZ",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 250,
+        "id": 149,
         "order": 147,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP záver",
+            "value": "Očk MMR II",
             "props": {}
           },
           "source": {
@@ -2964,20 +2942,20 @@
             "props": {}
           },
           "vars": {
-            "value": "odp=var.odp|zaver=var.zaver",
+            "value": "",
             "props": {}
           }
         }
       },
       {
-        "id": 251,
-        "order": 148,
+        "id": 153,
+        "order": 151,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "Preventívka bodovanie - pediater",
+            "value": "PP základ2",
             "props": {}
           },
           "source": {
@@ -2991,14 +2969,14 @@
         }
       },
       {
-        "id": 262,
+        "id": 154,
         "order": 152,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP základ",
+            "value": "PP ZSV1",
             "props": {}
           },
           "source": {
@@ -3012,50 +2990,8 @@
         }
       },
       {
-        "id": 263,
+        "id": 155,
         "order": 153,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "PP PMV",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 264,
-        "order": 154,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "PP ZSV",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 265,
-        "order": 155,
         "props": {
           "type": "vlozit"
         },
@@ -3075,8 +3011,8 @@
         }
       },
       {
-        "id": 267,
-        "order": 157,
+        "id": 157,
+        "order": 155,
         "props": {
           "type": "vlozit"
         },
@@ -3096,8 +3032,8 @@
         }
       },
       {
-        "id": 268,
-        "order": 158,
+        "id": 159,
+        "order": 157,
         "props": {
           "type": "vlozit"
         },
@@ -3117,14 +3053,35 @@
         }
       },
       {
-        "id": 271,
+        "id": 160,
+        "order": 158,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Očk Boostrix",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 164,
         "order": 162,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP základ",
+            "value": "PP základ2",
             "props": {}
           },
           "source": {
@@ -3138,14 +3095,14 @@
         }
       },
       {
-        "id": 272,
+        "id": 165,
         "order": 163,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
-            "value": "PP PMV",
+            "value": "PP ZSV1",
             "props": {}
           },
           "source": {
@@ -3159,29 +3116,8 @@
         }
       },
       {
-        "id": 273,
+        "id": 166,
         "order": 164,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "PP ZSV",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 274,
-        "order": 165,
         "props": {
           "type": "vlozit"
         },
@@ -3201,8 +3137,8 @@
         }
       },
       {
-        "id": 276,
-        "order": 167,
+        "id": 168,
+        "order": 166,
         "props": {
           "type": "vlozit"
         },
@@ -3222,7 +3158,7 @@
         }
       },
       {
-        "id": 277,
+        "id": 170,
         "order": 168,
         "props": {
           "type": "vlozit"
@@ -3241,6 +3177,557 @@
             "props": {}
           }
         }
+      },
+      {
+        "id": 174,
+        "order": 172,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP základ2",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 175,
+        "order": 173,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP ZSV1",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 176,
+        "order": 174,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP PZ",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 179,
+        "order": 177,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP záver",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "odp=var.odp|zaver=var.zaver",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 181,
+        "order": 179,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Preventívka bodovanie - pediater",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 182,
+        "order": 180,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Lab: Odber 17r.",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 186,
+        "order": 184,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP základ2",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 187,
+        "order": 185,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP ZSV1",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 188,
+        "order": 186,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP PZ",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 190,
+        "order": 188,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP záver",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "odp=var.odp|zaver=var.zaver",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 191,
+        "order": 189,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Preventívka bodovanie - pediater",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 13,
+        "order": 11,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "podla matky dieťa pokojné, starostlivosť zvláda, kojené, piť vládze, nepremodráva, stolice kojenecké, občas plače, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pv": [
+      {
+        "id": 99,
+        "order": 97,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Moč chemicky",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "- nález v norme<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 109,
+        "order": 107,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Moč chemicky",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "- nález v norme<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 120,
+        "order": 118,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Moč chemicky",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "- nález v norme<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 131,
+        "order": 129,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Moč chemicky",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "- nález v norme<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 141,
+        "order": 139,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Moč chemicky",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "- nález v norme<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 156,
+        "order": 154,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Moč chenicky",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "- nález v norme<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 167,
+        "order": 165,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Moč chemicky",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "- nález v norme<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 177,
+        "order": 175,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Moč chemicky",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "- nález v norme<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 145,
+        "order": 143,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z00.1] Rutinné vyšetrenie zdravotného stavu dieťaťa",
+            "props": {
+              "id": "Z00.1",
+              "idEzid": "02089520817@24",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 146,
+        "order": 144,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[3592] stanovenie sedimentačnej rýchlosti krviniek",
+            "props": {
+              "propBody": 50,
+              "propType": "SVaLZ",
+              "id": 3592,
+              "idEzid": "00000479048@45",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 147,
+        "order": 145,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[3525] Kompletný dôkaz základných patologických súčastí moču, za každú vzorku od pacienta",
+            "props": {
+              "propType": "SVaLZ",
+              "propBody": 50,
+              "idClassid": "vykon",
+              "idEzid": "00000478560@45",
+              "id": 3525
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
       }
     ]
   },
@@ -3248,7 +3735,9 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "owner": "zavrel",
+  "ct": "2024-06-04T07:00:44.025Z",
+  "mt": "2024-06-04T11:39:45.886Z",
+  "summary": "",
   "description": "",
-  "source": "curo-open/curo-vzory#/007"
+  "source": "curo-open/curo-vzory#/008"
 }

@@ -1,0 +1,248 @@
+{
+  "title": "PP - 14. Preventívna prehliadka, 148c",
+  "shortcut": "pp14",
+  "if": "",
+  "data": {
+    "_": {},
+    "premenna": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "zaver",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "Psychomotorický vývok veku primeraný",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 133,
+        "order": 7,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "odp",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "Poučená o správnej výžive a životospráve, poučená o možnosti nepovinného očkovania. ",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t-nadpis": [
+      {
+        "id": 127,
+        "order": 1,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "14. Preventívna prehliadka, 148c<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vlozit": [
+      {
+        "id": 128,
+        "order": 2,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP základ2",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 129,
+        "order": 3,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP ZSV1",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 130,
+        "order": 4,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP PZ",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 132,
+        "order": 6,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP záver",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "odp=var.odp|zaver=var.zaver",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pv": [
+      {
+        "id": 131,
+        "order": 5,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Moč chemicky",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "- nález v norme<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 194,
+        "order": 8,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z00.1] Rutinné vyšetrenie zdravotného stavu dieťaťa",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089520817@24",
+              "id": "Z00.1"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 197,
+        "order": 9,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[148c] 14. preventívna prehliadka sa vykazuje v 9. roku života dieťaťa (vrátane antropometrických meraní).",
+            "props": {
+              "propBody": 390,
+              "idClassid": "vykon",
+              "idEzid": "00000467233@45",
+              "id": "148c"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-06-04T08:13:01.318Z",
+  "mt": "2024-06-04T08:13:59.966Z",
+  "summary": "PP - 14. Preventívna prehliadka, 148c",
+  "owner": "admin",
+  "source": "curo-open/curo-vzory#/022"
+}

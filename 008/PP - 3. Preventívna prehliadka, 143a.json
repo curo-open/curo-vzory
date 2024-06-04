@@ -1,0 +1,197 @@
+{
+  "title": "PP - 3. Preventívna prehliadka, 143a",
+  "shortcut": "pp3",
+  "summary": "PP - 3. Preventívna prehliadka , 143a",
+  "if": "",
+  "data": {
+    "_": {},
+    "premenna": [
+      {
+        "id": 128,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "zaver",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "Psychomotorický vývok veku primeraný",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 133,
+        "order": 4,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "odp",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "Mamička poučená o správnej opatere dieťaťa, podporený laktačný program, poučená o možnosti nepovinného očkovania (rotavírusy, varicella). Pokračovať v podávaní vitamínov, D 2 kv. denne do mlieka aspoň do roka života a počas výhradného dojčenia, Kanavit 1 kv týždenne do ukončeného 3 mesiaca veku dieťaťa.",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t-nadpis": [
+      {
+        "id": 112,
+        "order": 1,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "3. Preventívna prehliadka , 143a<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vlozit": [
+      {
+        "id": 113,
+        "order": 2,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP základ",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 118,
+        "order": 3,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP PMV",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 134,
+        "order": 5,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP záver",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "odp=var.odp|zaver=var.zaver",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 355,
+        "order": 6,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z00.1] Rutinné vyšetrenie zdravotného stavu dieťaťa",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089520817@24",
+              "id": "Z00.1"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 358,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[143a] 3. preventívna prehliadka sa vykazuje v 5. až 7. týždni života dieťaťa (vrátane vyšetrenia psychomotorického vývinu a antropometrických meraní).",
+            "props": {
+              "propBody": 350,
+              "idClassid": "vykon",
+              "idEzid": "00000467126@45",
+              "id": "143a"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "description": "",
+  "mt": "2024-06-03T12:15:57.300Z",
+  "ct": "2024-06-03T12:08:08.025Z",
+  "owner": "admin",
+  "source": "curo-open/curo-vzory#/008"
+}

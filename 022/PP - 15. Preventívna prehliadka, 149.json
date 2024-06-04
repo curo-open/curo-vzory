@@ -1,0 +1,358 @@
+{
+  "title": "PP - 15. Preventívna prehliadka, 149",
+  "shortcut": "pp15",
+  "if": "",
+  "data": {
+    "_": {},
+    "premenna": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "zaver",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "Psychomotorický vývok veku primeraný",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 143,
+        "order": 7,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "odp",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "poučený o racionálenj životospráve a pohybovom režime, poučený o možnosti nepovinného očkovania.  ",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t-nadpis": [
+      {
+        "id": 137,
+        "order": 1,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "15. Preventívna prehliadka, 149<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vlozit": [
+      {
+        "id": 138,
+        "order": 2,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP základ2",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 139,
+        "order": 3,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP ZSV1",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 140,
+        "order": 4,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP PZ",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 142,
+        "order": 6,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP záver",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "odp=var.odp|zaver=var.zaver",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 148,
+        "order": 13,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Lab: Odber 11",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 149,
+        "order": 14,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Očk MMR II",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pv": [
+      {
+        "id": 141,
+        "order": 5,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Moč chemicky",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "- nález v norme<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 145,
+        "order": 8,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z00.1] Rutinné vyšetrenie zdravotného stavu dieťaťa",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089520817@24",
+              "id": "Z00.1"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 195,
+        "order": 9,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[149] 15. preventívna prehliadka sa vykazuje v 11. roku života dieťaťa (vrátane antropometrických meraní).",
+            "props": {
+              "propBody": 390,
+              "idClassid": "vykon",
+              "idEzid": "00000467241@45",
+              "id": 149
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 197,
+        "order": 10,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[159b] Preventívne vyšetrenie celkového cholesterolu v 11. a 17. roku života a celkového cholesterolu a triacylglycerolov v 40. roku života. Okrem odberu sa vykazuje cielená anamnéza, posúdenie genetickej záťaže, posúdenie laboratórnych výsledkov, v prípade",
+            "props": {
+              "propBody": 100,
+              "idClassid": "vykon",
+              "idEzid": "00000467365@45",
+              "id": "159b"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 146,
+        "order": 11,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[3592] stanovenie sedimentačnej rýchlosti krviniek",
+            "props": {
+              "propType": "SVaLZ",
+              "propBody": 50,
+              "idClassid": "vykon",
+              "idEzid": "00000479048@45",
+              "id": 3592
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 147,
+        "order": 12,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[3525] Kompletný dôkaz základných patologických súčastí moču, za každú vzorku od pacienta",
+            "props": {
+              "propBody": 50,
+              "propType": "SVaLZ",
+              "id": 3525,
+              "idEzid": "00000478560@45",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-06-04T08:14:08.443Z",
+  "mt": "2024-06-04T08:16:37.408Z",
+  "summary": "PP - 15. Preventívna prehliadka, 149",
+  "owner": "admin",
+  "source": "curo-open/curo-vzory#/022"
+}

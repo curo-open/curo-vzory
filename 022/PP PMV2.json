@@ -1,7 +1,7 @@
 {
-  "title": "PP PMV",
-  "shortcut": "pppmv",
-  "summary": null,
+  "title": "PP PMV2",
+  "shortcut": "pppmv2",
+  "summary": "",
   "if": "",
   "data": {
     "_": {},
@@ -84,7 +84,7 @@
             "props": {}
           },
           "popis": {
-            "value": "<b> <br>Hrubá motorika:</b>  prevladajú šijové asymetrické reflexy, v polohe na brušku otáča hlavičku, na chvíľku ju dokáže zdvíhať<br><b>Jemná motorika:</b> obe ruky pevne zovreté, dotknem sa predmetom dlane, tak ju zatvorí<br><b>Reč:</b> hrdelné zvuky<br><b>Sociálne:</b> sleduje tvár vyšetrujúceho s klesajúcou aktivitou, nezúčastnene sleduje okolie<br>",
+            "value": "<b> <br>Hrubá motorika:</b>  behá, skáče, jazdí na bicykli<br><b>Jemná motorika:</b> píše , kreslí, vystrihuje <br><b>Reč:  rozvinutá<br></b><b>Sociálne:</b> plní pokyny, diskutuje, <br>",
             "props": {}
           }
         }
@@ -95,9 +95,8 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2024-05-30T12:27:11.554Z",
-  "type": null,
+  "mt": "2024-05-30T12:26:56.657Z",
+  "ct": "2023-09-22T19:32:51.369Z",
   "owner": "zavrel",
-  "ct": "2024-05-30T12:27:09.364Z",
-  "source": "curo-open/curo-vzory#/008"
+  "source": "curo-open/curo-vzory#/022"
 }

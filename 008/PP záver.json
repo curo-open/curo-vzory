@@ -1,6 +1,5 @@
 {
   "title": "PP záver",
-  "owner": "zavrel",
   "shortcut": "ppz",
   "if": "",
   "data": {
@@ -53,10 +52,25 @@
         }
       }
     ],
+    "dz": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "dz"
+        },
+        "value": {
+          "dz": {
+            "value": "{{ var.zaver }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
     "odp": [
       {
         "id": 2,
-        "order": 2,
+        "order": 3,
         "props": {
           "type": "odp"
         },
@@ -71,7 +85,7 @@
     "obj": [
       {
         "id": 3,
-        "order": 3,
+        "order": 4,
         "props": {
           "type": "obj",
           "objId": "ckylcvlm1000d3w76savm7z8a"
@@ -115,26 +129,14 @@
           }
         }
       }
-    ],
-    "dz": [
-      {
-        "id": 4,
-        "order": 4,
-        "props": {
-          "type": "dz"
-        },
-        "value": {
-          "dz": {
-            "value": "{{ var.zaver }}<br>",
-            "props": {}
-          }
-        }
-      }
     ]
   },
   "tags": [],
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "source": "curo-open/curo-vzory#/007"
+  "mt": "2024-05-30T12:02:18.064Z",
+  "owner": "zavrel",
+  "ct": "2024-05-30T12:02:16.703Z",
+  "source": "curo-open/curo-vzory#/008"
 }

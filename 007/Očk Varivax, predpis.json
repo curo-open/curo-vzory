@@ -1,0 +1,182 @@
+{
+  "type": "examination",
+  "summary": "Varivax predpis",
+  "description": "Očkovanie proti kiahniam",
+  "title": "Očk Varivax, predpis",
+  "shortcut": "Varivaxpredpis",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "32": [
+          "schedule"
+        ]
+      }
+    },
+    "vd": [
+      {
+        "id": 28,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z25.8] Potreba imunizácie proti inej bližšie určenej jednotlivej vírusovej chorobe",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089522318@19",
+              "id": "Z25.8"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 32,
+        "order": 1,
+        "props": {
+          "type": "r",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[95505] VARIVAX | plv iul 1x3 ml inj.l.s pr.(min.1350 PFU/ 0,5 ml)+1x1 ml nap.i.s.+2 ihly",
+            "props": {
+              "propKat": false,
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti vírusu Varicella, živá oslabená",
+              "propVnl": "R",
+              "propBal": 1,
+              "propGp": 0,
+              "propUnit": "DF",
+              "propDpl": 42.41,
+              "idClassid": "liek",
+              "idEzid": "00020830667",
+              "idF": "PLV IUL",
+              "idSp": "ims",
+              "idAtc": "J07BK01",
+              "idUl": "",
+              "id": 95505
+            }
+          },
+          "schedule": {
+            "value": "1",
+            "props": {
+              "error": "Chyba zápisu dávkovania. (SyntaxError: Expected '-', [,.], or [0-9] but end of input found.)"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "42,41",
+            "props": {
+              "propValue": 42.41
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "instruction_lek": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "io": {
+            "value": "",
+            "props": {}
+          },
+          "limitDP": {
+            "value": "",
+            "props": {}
+          },
+          "aplikacnaZonaParovehoOrganu": {
+            "value": "bez určenia",
+            "props": {
+              "propValue": ""
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "zalozneAtributy": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 35,
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[1] Pod radou sa rozumie poskytnutie informácií pacientovi alebo zákonnému zástupcovi v súvislosti so zdravotným stavom. Výkon pod kódom 1 nemožno vykazovať súčasne s inými výkonmi. Výkon nemožno vykazovať pre telefonické objednávanie pacienta.",
+            "props": {
+              "propBody": 80,
+              "idClassid": "vykon",
+              "idEzid": "00000466508@44",
+              "id": 1
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "mt": "2024-06-04T08:35:49.647Z",
+  "ct": "2023-10-02T18:39:53.497Z",
+  "owner": "zavrel",
+  "source": "curo-open/curo-vzory#/008"
+}

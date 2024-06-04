@@ -1,0 +1,213 @@
+{
+  "title": "PP - 1. Preventívna prehliadka - Bazálne vyšetrenie novorodenca, 142",
+  "shortcut": "pp1",
+  "summary": "PP - 1. Preventívna prehliadka - Bazálne vyšetrenie novorodenca, 142",
+  "if": "",
+  "data": {
+    "_": {},
+    "premenna": [
+      {
+        "id": 128,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "zaver",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "Psychomotorický vývok veku primeraný",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 122,
+        "order": 5,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "odp",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "Mamička poučená o správnej opatere dieťaťa, poučená o technike dojčenia, podporený laktačný program, poučená o možnosti nepovinného očkovania (rotavírusy, varicella).Od ukončeného 2. týždňa dieťaťu podávať vitamín D 2 kv. denne do mlieka aspoň do roka života a počas výhradného dojčenia podávať Kanavit 1 kv týždenne do ukončeného 3 mesiaca veku dieťaťa. Ortopedický skríning, USG skríning obličiek.",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t-nadpis": [
+      {
+        "id": 96,
+        "order": 1,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "<span>1. Preventívna prehliadka - </span>Bazálne vyšetrenie novorodenca, 142<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "v domácom prostredí<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oa": [
+      {
+        "id": 333,
+        "order": 2,
+        "props": {
+          "type": "oa"
+        },
+        "value": {
+          "text": {
+            "value": "dieťa z I. fyziologickej gravidity, rodené v termíne, spontánne záhlavím, popôrodná adaptácia v norme<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vlozit": [
+      {
+        "id": 98,
+        "order": 3,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP základ",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 120,
+        "order": 4,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP záver",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "odp=var.odp|zaver=var.zaver",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 335,
+        "order": 6,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z00.1] Rutinné vyšetrenie zdravotného stavu dieťaťa",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089520817@24",
+              "id": "Z00.1"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 337,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[142] 1. preventívna prehliadka, bazálne vyšetrenie novorodenca. Výkon vykazuje lekár s príslušnou špecializáciou po prepustení novorodenca z ústavnej starostlivosti.",
+            "props": {
+              "propBody": 350,
+              "id": 142,
+              "idEzid": "00000467100@45",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 338,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[25] Návšteva (v pracovnom čase).",
+            "props": {
+              "propBody": 285,
+              "idClassid": "vykon",
+              "idEzid": "00000466623@45",
+              "id": 25
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "description": "",
+  "mt": "2024-06-03T12:16:17.710Z",
+  "ct": "2024-06-03T05:40:22.949Z",
+  "owner": "admin",
+  "source": "curo-open/curo-vzory#/022"
+}

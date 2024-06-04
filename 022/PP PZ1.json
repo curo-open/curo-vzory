@@ -1,0 +1,76 @@
+{
+  "title": "PP PZ1",
+  "shortcut": "pppz1",
+  "summary": "",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.value=='Pohlavná zrelosť'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 6,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pv": [
+      {
+        "id": 5,
+        "order": 1,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Pohlavná zrelosť",
+            "props": {}
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "<b>Tannerove hodnotenie:</b>   <br>Dievčatá:<br>Prsia (mammae, M 1 – 5) – fyziologicky sa môžu začať vyvíjať už od 8. roku. Začiatok rastu prsnej žľazy sa nazýva telarché, vývoj spravidla vrcholí v 15 rokoch.&nbsp;<br>Pubické ochlpenie (pubes, pubic hair, Ph 1 – 5) – začiatok jeho rastu za nazýva pubarché, fyziologický rozptyl vývoja pubického ochlpenia je od 8,3 do 15,5 rokov.<br>Axilárne ochlpenie – vyvíja sa najneskôr – vo fyziologickom rozmedzí 9,1 až 17,5 rokov, jeho rozvoj je značne závislý aj od nadobličkových hormónov.<span>&nbsp;<br></span>Chlapci:<br><br>https://www.solen.sk/storage/file/article/0a97c22d0ba0a7bfc840e27c579980e8.pdf<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "mt": "2024-05-16T04:59:01.738Z",
+  "owner": "zavrel",
+  "ct": "2023-09-22T15:31:02.801Z",
+  "source": "curo-open/curo-vzory#/022"
+}

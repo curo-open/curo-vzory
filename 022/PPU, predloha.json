@@ -1,0 +1,688 @@
+{
+  "tags": [
+    "dekurz"
+  ],
+  "owner": "zavrel",
+  "title": "PPU, predloha",
+  "shortcut": "MZ PPU, predloha",
+  "summary": "Preventívna prehliadka",
+  "if": "",
+  "data": {
+    "_": {},
+    "t-nadpis": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "Preventívna prehladka 149d <br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "cíti sa primerane,  fyzickú záťaž primerane toleruje, stolica,trávenie,močenie v norme,   <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ra": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "ra"
+        },
+        "value": {
+          "text": {
+            "value": "rodičia zdraví<br>",
+            "props": {}
+          },
+          "kvo": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oa": [
+      {
+        "id": 5,
+        "order": 3,
+        "props": {
+          "type": "oa"
+        },
+        "value": {
+          "text": {
+            "value": "bežná chorobnosť<br>Očkovaná podla poradne<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "la": [
+      {
+        "id": 6,
+        "order": 4,
+        "props": {
+          "type": "la"
+        },
+        "value": {
+          "text": {
+            "value": "bez liečby<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "aa": [
+      {
+        "id": 7,
+        "order": 5,
+        "props": {
+          "type": "aa"
+        },
+        "value": {
+          "text": {
+            "value": "na lieky negat.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ea": [
+      {
+        "id": 8,
+        "order": 6,
+        "props": {
+          "type": "ea"
+        },
+        "value": {
+          "text": {
+            "value": "Cielené otázky na COVID-19 negatívne<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "zfp": [
+      {
+        "id": 9,
+        "order": 7,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "115",
+            "props": {}
+          },
+          "diast": {
+            "value": "80",
+            "props": {}
+          },
+          "pulse": {
+            "value": "110",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "14",
+            "props": {}
+          },
+          "weight": {
+            "value": "59",
+            "props": {
+              "propValue": 59
+            }
+          },
+          "height": {
+            "value": "160",
+            "props": {}
+          },
+          "bmi": {
+            "value": "23,05",
+            "props": {
+              "propValue": 23.05
+            }
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "",
+            "props": {}
+          },
+          "temp": {
+            "value": "36,5",
+            "props": {
+              "propValue": "36.50"
+            }
+          }
+        }
+      }
+    ],
+    "ab": [
+      {
+        "id": 10,
+        "order": 8,
+        "props": {
+          "type": "ab"
+        },
+        "value": {
+          "fajciar": {
+            "value": "Nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "alkohol": {
+            "value": "Nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "kava": {
+            "value": "Áno",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "kavadavka": {
+            "value": "",
+            "props": {}
+          },
+          "kavadlzka": {
+            "value": "",
+            "props": {}
+          },
+          "kavapoznamka": {
+            "value": "",
+            "props": {}
+          },
+          "drogy": {
+            "value": "Nie",
+            "props": {
+              "propValue": 0
+            }
+          }
+        }
+      }
+    ],
+    "pv": [
+      {
+        "id": 11,
+        "order": 9,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Status preasens",
+            "props": {
+              "propValue": "Status preasens"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "pri vedomí, orientovaný, habitus normostenický, koža hydratovaná, čistá, sliznice ružové",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 12,
+        "order": 10,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Hlava",
+            "props": {
+              "propValue": "Hlava"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "mezocef. na poklop nebolestivá, výstupy  hl.nn. nebolestivé, šija voľná neoponuje, zrenice izokorické, FR výbavná, uši, nos bez výtoku<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 13,
+        "order": 11,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Hrdlo",
+            "props": {
+              "propValue": "Hrdlo"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "kľudné, tonzily nezv., bez čapov, jazky plazí v  strednej rovine, chrup sanovaný<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 14,
+        "order": 12,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Krk",
+            "props": {
+              "propValue": "Krk"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "LU a ŠŽ nehmatám, jugula bez kongescie<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 15,
+        "order": 13,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Hrudník",
+            "props": {
+              "propValue": "Hrudník"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "súmerný<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 16,
+        "order": 14,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Pľúca",
+            "props": {
+              "propValue": "Pľúca"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "dýchanie vesikulárne bez VDF<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 17,
+        "order": 15,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Srdce",
+            "props": {
+              "propValue": "Srdce"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "akcia pravidelná, ozvy ohraničené, bez šelestu<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 18,
+        "order": 16,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Brucho",
+            "props": {
+              "propValue": "Brucho"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "mäkké priehmatné bez palp. citl. a hm. rezist.,  Pečeň a slezina nezv., tapott. bilat. negat.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 19,
+        "order": 17,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Chrbtica",
+            "props": {
+              "propValue": "Chrbtica"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "v ose, mierne predsunutá hlava<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 20,
+        "order": 18,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Dolné končatiny",
+            "props": {
+              "propValue": "Dolné končatiny"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "bez edémov a varixov, bez známok zápalu, pulzácie ATP a ADP hmatné bilat.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 21,
+        "order": 19,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Lokomočný aparát",
+            "props": {
+              "propValue": "Lokomočný aparát"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": " kĺby bez deformít, zápal. a degenerat. zmien, bez palpačnej citlivosti, rozsahy pohyblivosti kĺbov a chrbtice v norme, svalstvo normálne vyvinuté, svalové spazmy neprítomné<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 27,
+        "order": 20,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Vizus 5/5 bilat, počuje dobre<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 30,
+        "order": 21,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Výsledky lab.vyšetrení vyšetrení v norme<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "dz": [
+      {
+        "id": 22,
+        "order": 22,
+        "props": {
+          "type": "dz"
+        },
+        "value": {
+          "dz": {
+            "value": "CHDT<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "odp": [
+      {
+        "id": 23,
+        "order": 23,
+        "props": {
+          "type": "odp"
+        },
+        "value": {
+          "odp": {
+            "value": "racionálna životospráva, spinálne cviky-poučená, pokračovať v poradneskej starostlivosti, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 24,
+        "order": 24,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z00.1] Rutinné vyšetrenie zdravotného stavu dieťaťa",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089520817@23",
+              "id": "Z00.1"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 26,
+        "order": 25,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[149d] Preventívna prehliadka v 17. roku života dieťaťa. Ďalšie preventívne prehliadky sa vykazujú raz za 2 roky.",
+            "props": {
+              "propBody": 390,
+              "idClassid": "vykon",
+              "idEzid": "00000467282@44",
+              "id": "149d"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2023-10-27T10:22:09.397Z",
+  "mt": "2024-06-04T06:41:30.095Z",
+  "source": "curo-open/curo-vzory#/022"
+}

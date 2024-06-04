@@ -89,7 +89,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? zp != 24 &amp;&amp; pacient.vekDni &gt; 14 &amp;&amp;  pacient.vekDni &lt;= 365 }}<br>",
+            "value": "{{ ? zp != 24 &amp;&amp; pacient.vekDni &gt; 14 &amp;&amp; pacient.vekDni|vMesiacoch &lt;= 18 }}<br>",
             "props": {}
           }
         }
@@ -115,7 +115,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? zp == 24 &amp;&amp; pacient.vekDni &gt; 28 &amp;&amp;  pacient.vekDni &lt;= 365 }}<br>",
+            "value": "{{ ? zp == 24 &amp;&amp; pacient.vekDni &gt; 28 &amp;&amp; pacient.vekDni|vMesiacoch &lt;= 18 }}<br>",
             "props": {}
           }
         }
@@ -141,7 +141,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vTyzdnoch &gt;= 4 &amp;&amp;  pacient.vekDni|vTyzdnoch &lt;= 7 }}<br>",
+            "value": "{{ ? pacient.vekDni|vTyzdnoch &gt;= 4 &amp;&amp;  pacient.vekDni|vTyzdnoch &lt;= 8 }}<br>",
             "props": {}
           }
         }
@@ -193,7 +193,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vMesiacoch &gt; 2 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 4 }}<br>",
+            "value": "{{ ? pacient.vekDni|vMesiacoch &gt; 2 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 5 }}<br>",
             "props": {}
           }
         }
@@ -219,7 +219,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vMesiacoch &gt; 4 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 6 }}<br>",
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 4 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 6) || (pacient.vekDni|vMesiacoch == 7 &amp;&amp; sessions|getSections(\"vv\")|where(\"s.value.id.props.id=='145a'\")|trans(\"length\") == 0)  }}<br>",
             "props": {}
           }
         }
@@ -245,14 +245,14 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vMesiacoch &gt; 6 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 8 }}<br>",
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 7 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 9)  || (pacient.vekDni|vMesiacoch == 7 &amp;&amp; sessions|getSections(\"vv\")|where(\"d.period&gt;14\")|where(\"s.value.id.props.id=='145a'\")|trans(\"length\") != 0) }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 39,
-        "order": 29,
+        "order": 28,
         "props": {
           "type": "t"
         },
@@ -265,20 +265,20 @@
       },
       {
         "id": 41,
-        "order": 30,
+        "order": 29,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vMesiacoch &gt; 8 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 10 }}<br>",
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 8 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 10) || (pacient.vekDni|vMesiacoch == 11 &amp;&amp; sessions|getSections(\"vv\")|where(\"s.value.id.props.id=='146a'\")|trans(\"length\") == 0) }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 43,
-        "order": 33,
+        "order": 31,
         "props": {
           "type": "t"
         },
@@ -291,20 +291,20 @@
       },
       {
         "id": 45,
-        "order": 34,
+        "order": 32,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vMesiacoch &gt; 10 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 12 }}<br>",
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 11 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 13) || (pacient.vekDni|vMesiacoch == 11 &amp;&amp; sessions|getSections(\"vv\")|where(\"d.period&gt;14\")|where(\"s.value.id.props.id=='146a'\")|trans(\"length\") != 0) }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 47,
-        "order": 37,
+        "order": 34,
         "props": {
           "type": "t"
         },
@@ -317,7 +317,7 @@
       },
       {
         "id": 49,
-        "order": 38,
+        "order": 35,
         "props": {
           "type": "t"
         },
@@ -330,7 +330,7 @@
       },
       {
         "id": 51,
-        "order": 41,
+        "order": 38,
         "props": {
           "type": "t"
         },
@@ -343,20 +343,20 @@
       },
       {
         "id": 53,
-        "order": 42,
+        "order": 39,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vRokoch == 2 }}<br>",
+            "value": "{{ ? pacient.vekDni|vRokoch == 2 || pacient.vekDni|vRokoch == 3 }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 55,
-        "order": 45,
+        "order": 42,
         "props": {
           "type": "t"
         },
@@ -369,20 +369,20 @@
       },
       {
         "id": 57,
-        "order": 46,
+        "order": 43,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vRokoch == 4 }}<br>",
+            "value": "{{ ? pacient.vekDni|vRokoch == 4 || pacient.vekDni|vRokoch == 5 }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 59,
-        "order": 49,
+        "order": 46,
         "props": {
           "type": "t"
         },
@@ -395,20 +395,20 @@
       },
       {
         "id": 62,
-        "order": 50,
+        "order": 47,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vRokoch == 5 }}<br>",
+            "value": "{{ ? pacient.vekDni|vRokoch == 5 || pacient.vekDni|vRokoch == 6 || pacient.vekDni|vRokoch == 7}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 64,
-        "order": 52,
+        "order": 49,
         "props": {
           "type": "t"
         },
@@ -421,20 +421,20 @@
       },
       {
         "id": 66,
-        "order": 53,
+        "order": 50,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vRokoch == 8 }}<br>",
+            "value": "{{ ? pacient.vekDni|vRokoch == 8 || pacient.vekDni|vRokoch == 9 }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 68,
-        "order": 55,
+        "order": 52,
         "props": {
           "type": "t"
         },
@@ -447,20 +447,20 @@
       },
       {
         "id": 70,
-        "order": 56,
+        "order": 53,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vRokoch == 10 }}<br>",
+            "value": "{{ ? pacient.vekDni|vRokoch == 10 || pacient.vekDni|vRokoch == 11}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 72,
-        "order": 59,
+        "order": 56,
         "props": {
           "type": "t"
         },
@@ -473,20 +473,20 @@
       },
       {
         "id": 74,
-        "order": 60,
+        "order": 57,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vRokoch == 12 }}<br>",
+            "value": "{{ ? pacient.vekDni|vRokoch == 12 || pacient.vekDni|vRokoch == 13}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 76,
-        "order": 62,
+        "order": 59,
         "props": {
           "type": "t"
         },
@@ -499,20 +499,20 @@
       },
       {
         "id": 78,
-        "order": 63,
+        "order": 60,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vRokoch == 14 }}<br>",
+            "value": "{{ ? pacient.vekDni|vRokoch == 14 || pacient.vekDni|vRokoch == 15}}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 80,
-        "order": 65,
+        "order": 62,
         "props": {
           "type": "t"
         },
@@ -525,7 +525,7 @@
       },
       {
         "id": 82,
-        "order": 66,
+        "order": 63,
         "props": {
           "type": "t"
         },
@@ -538,7 +538,7 @@
       },
       {
         "id": 84,
-        "order": 69,
+        "order": 66,
         "props": {
           "type": "t"
         },
@@ -551,20 +551,20 @@
       },
       {
         "id": 86,
-        "order": 70,
+        "order": 67,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vRokoch == 18 }}<br>",
+            "value": "{{ ? pacient.vekDni|vRokoch &gt;= 18 }}<br>",
             "props": {}
           }
         }
       },
       {
         "id": 88,
-        "order": 73,
+        "order": 70,
         "props": {
           "type": "t"
         },
@@ -577,7 +577,7 @@
       },
       {
         "id": 97,
-        "order": 74,
+        "order": 71,
         "props": {
           "type": "t"
         },
@@ -590,7 +590,7 @@
       },
       {
         "id": 100,
-        "order": 76,
+        "order": 73,
         "props": {
           "type": "t"
         },
@@ -824,30 +824,8 @@
         }
       },
       {
-        "id": 102,
-        "order": 28,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[950] Vyšetrenie psychomotorického vývinu dieťaťa vo vzťahu k hrubej a jemnej motorike, k reči a k sociálnym vzťahom podľa štandardnej stupnice vrátane dokumentácie. Pri výkone pod kódom 950 nemožno výkony",
-            "props": {
-              "propBody": 390,
-              "idClassid": "vykon",
-              "idEzid": "00000469288@37",
-              "id": 950
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 42,
-        "order": 31,
+        "order": 30,
         "props": {
           "type": "vv"
         },
@@ -868,30 +846,8 @@
         }
       },
       {
-        "id": 104,
-        "order": 32,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[950] Vyšetrenie psychomotorického vývinu dieťaťa vo vzťahu k hrubej a jemnej motorike, k reči a k sociálnym vzťahom podľa štandardnej stupnice vrátane dokumentácie. Pri výkone pod kódom 950 nemožno výkony",
-            "props": {
-              "propBody": 390,
-              "idClassid": "vykon",
-              "idEzid": "00000469288@37",
-              "id": 950
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 46,
-        "order": 35,
+        "order": 33,
         "props": {
           "type": "vv"
         },
@@ -912,30 +868,8 @@
         }
       },
       {
-        "id": 106,
-        "order": 36,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[950] Vyšetrenie psychomotorického vývinu dieťaťa vo vzťahu k hrubej a jemnej motorike, k reči a k sociálnym vzťahom podľa štandardnej stupnice vrátane dokumentácie. Pri výkone pod kódom 950 nemožno výkony",
-            "props": {
-              "propBody": 390,
-              "idClassid": "vykon",
-              "idEzid": "00000469288@37",
-              "id": 950
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 50,
-        "order": 39,
+        "order": 36,
         "props": {
           "type": "vv"
         },
@@ -957,7 +891,7 @@
       },
       {
         "id": 108,
-        "order": 40,
+        "order": 37,
         "props": {
           "type": "vv"
         },
@@ -979,7 +913,7 @@
       },
       {
         "id": 54,
-        "order": 43,
+        "order": 40,
         "props": {
           "type": "vv"
         },
@@ -1001,7 +935,7 @@
       },
       {
         "id": 110,
-        "order": 44,
+        "order": 41,
         "props": {
           "type": "vv"
         },
@@ -1023,7 +957,7 @@
       },
       {
         "id": 58,
-        "order": 47,
+        "order": 44,
         "props": {
           "type": "vv"
         },
@@ -1045,7 +979,7 @@
       },
       {
         "id": 112,
-        "order": 48,
+        "order": 45,
         "props": {
           "type": "vv"
         },
@@ -1067,7 +1001,7 @@
       },
       {
         "id": 63,
-        "order": 51,
+        "order": 48,
         "props": {
           "type": "vv"
         },
@@ -1089,7 +1023,7 @@
       },
       {
         "id": 67,
-        "order": 54,
+        "order": 51,
         "props": {
           "type": "vv"
         },
@@ -1111,7 +1045,7 @@
       },
       {
         "id": 71,
-        "order": 57,
+        "order": 54,
         "props": {
           "type": "vv"
         },
@@ -1133,7 +1067,7 @@
       },
       {
         "id": 90,
-        "order": 58,
+        "order": 55,
         "props": {
           "type": "vv"
         },
@@ -1155,7 +1089,7 @@
       },
       {
         "id": 75,
-        "order": 61,
+        "order": 58,
         "props": {
           "type": "vv"
         },
@@ -1177,7 +1111,7 @@
       },
       {
         "id": 79,
-        "order": 64,
+        "order": 61,
         "props": {
           "type": "vv"
         },
@@ -1199,7 +1133,7 @@
       },
       {
         "id": 83,
-        "order": 67,
+        "order": 64,
         "props": {
           "type": "vv"
         },
@@ -1221,7 +1155,7 @@
       },
       {
         "id": 92,
-        "order": 68,
+        "order": 65,
         "props": {
           "type": "vv"
         },
@@ -1243,7 +1177,7 @@
       },
       {
         "id": 87,
-        "order": 71,
+        "order": 68,
         "props": {
           "type": "vv"
         },
@@ -1265,7 +1199,7 @@
       },
       {
         "id": 94,
-        "order": 72,
+        "order": 69,
         "props": {
           "type": "vv"
         },
@@ -1287,7 +1221,7 @@
       },
       {
         "id": 98,
-        "order": 75,
+        "order": 72,
         "props": {
           "type": "vv"
         },
@@ -1311,8 +1245,12 @@
   },
   "tags": [],
   "vars": {},
-  "owner": "moravcikova",
   "allowedUsers": [],
   "allowedIdentities": [],
+  "mt": "2024-06-04T11:46:04.924Z",
+  "type": null,
+  "owner": "zavrel",
+  "ct": "2024-05-30T12:25:11.954Z",
+  "description": "",
   "source": "curo-open/curo-vzory#/008"
 }

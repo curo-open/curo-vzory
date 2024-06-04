@@ -1,0 +1,191 @@
+{
+  "title": "PP - 2. Preventívna prehliadka, 143",
+  "shortcut": "pp2",
+  "summary": "PP - 2. Preventívna prehliadka, 143",
+  "if": "",
+  "data": {
+    "_": {},
+    "premenna": [
+      {
+        "id": 128,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "zaver",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "Psychomotorický vývok veku primeraný",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 130,
+        "order": 5,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "odp",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "Mamička poučená o správnej opatere dieťaťa, poučená o technike dojčenia, podporený laktačný program, poučená o možnosti nepovinného očkovania (rotavírusy, varicella). Pokračovať v podávaní vitamínu D a K. Ortopedický skríning, USG skríning obličiek.",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t-nadpis": [
+      {
+        "id": 105,
+        "order": 1,
+        "props": {
+          "type": "t-nadpis"
+        },
+        "value": {
+          "nadpis": {
+            "value": "2. Preventívna prehliadka , 143<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 335,
+        "order": 2,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "podla matky dieťa pokojné, starostlivosť zvláda, kojené, piť vládze, nepremodráva, stolice kojenecké, občas plače, <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vlozit": [
+      {
+        "id": 106,
+        "order": 3,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP základ",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 131,
+        "order": 4,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "PP záver",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "odp=var.odp|zaver=var.zaver",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 337,
+        "order": 6,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z00.1] Rutinné vyšetrenie zdravotného stavu dieťaťa",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089520817@24",
+              "id": "Z00.1"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 343,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[143] 2. preventívna prehliadka, vykazuje sa do 4. týždna života dieťaťa. Výkon vykazuje lekár s príslušnou špecializáciou ako druhú preventívnu prehliadku v prvom mesiaci života dieťaťa podľa tohto zákona",
+            "props": {
+              "propBody": 350,
+              "idClassid": "vykon",
+              "idEzid": "00000467118@45",
+              "id": 143
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "description": "",
+  "mt": "2024-06-03T12:15:40.264Z",
+  "ct": "2024-06-03T06:08:57.315Z",
+  "owner": "admin",
+  "source": "curo-open/curo-vzory#/008"
+}
