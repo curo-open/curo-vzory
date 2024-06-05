@@ -1,0 +1,77 @@
+{
+  "tags": [
+    "dekurz",
+    "nl"
+  ],
+  "owner": "marko",
+  "title": "Telekonzultácia 1b",
+  "shortcut": "tl1b",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Telekonzultácia pacienta:</b><br>Telefónne číslo pacienta: <span>{{ pacient.tel }}</span> Anamnéza od ost. kontroly vo vzťahu 1 org. systému: <b><u>  </u></b><br>Subj.: <u>  </u> TT:  stC , TK: {{ sessions|getSections(\"zfp\")|where(\"i==0\")[0].s.value.sys.value}}/{{ sessions|getSections(\"zfp\")|where(\"i==0\")[0].s.value.diast.value}} FP: /min.  <br>Dg: Edukácia o diéte a životospráve:  zvýšená hydratácia, šetriaca diéta hypolipidemická s reštrikciou soli, pravidelná medikácia. <br>Termín nasledujúcej telekonzultácie: <u>   </u> Odpor. neodkladnej návštevy iného lekára/špecialistu: 0  <br>Poskytnutie informácií pac.v súvislosti so zdr. stavom: pravidelné meranie TT/TK/FP,  fyzická aeróbna aktivita, vitamin D3 , C, Zn, prevencia Covid-19<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 7,
+        "order": 2,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[1b] Konzultácia prostredníctvom elektronickej pošty alebo telefonicky",
+            "props": {
+              "propBody": 160,
+              "idClassid": "vykon",
+              "idEzid": "02089894014@44",
+              "id": "1b"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-06-05T09:14:11.496Z",
+  "mt": "2024-06-05T09:25:35.060Z",
+  "source": "curo-open/curo-vzory#/000"
+}
