@@ -1,0 +1,362 @@
+{
+  "title": "PP základ",
+  "shortcut": "ppz",
+  "if": "",
+  "data": {
+    "_": {},
+    "zfp": [
+      {
+        "id": 20,
+        "order": 0,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "",
+            "props": {}
+          },
+          "temp": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 22,
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Status preasens generalis'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 24,
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 28,
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hlava'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 30,
+        "order": 6,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 43,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Hrudník'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 45,
+        "order": 9,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 52,
+        "order": 10,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Brucho'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 54,
+        "order": 12,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 58,
+        "order": 13,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"pv\")|where(\"s.value.typ.props.propValue=='Dolné končatiny'\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 60,
+        "order": 15,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "pv": [
+      {
+        "id": 23,
+        "order": 2,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Status preasens generalis",
+            "props": {
+              "propValue": "Status preasens generalis"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "Dieťa pri vedomí, habitus eutrofický,  postoj vzpriamený, koža čistá, ružová, bez patologických  eflorescencií, kostra bez zjavných deformít, svalstvo primerane vyvinuté, normotonus, hydratácia dobrá, turgor pružný. Periféria dobre prekrvená,teplá. <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 29,
+        "order": 5,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Hlava",
+            "props": {
+              "propValue": "Hlava"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "<b>Hlava: </b>mezocefalická, poklopovo nebolestivá, mimika súmerná,  <b><br>Uši:</b> normálne tvarované, bez patologickej sekrécie.<br><b>Oči:</b> bulby v strednom postavení, pohyblivé, bez patologickej sekrécie, skléry anikterické, zrenice izokorické, FR správne. <br><b>Nos:</b> bez patologickej sekrécie. <br><b>Ústna dutina:</b> čistá, podnebie v norme, jazyk nepovlečený, sliznice vlhké, orofarynx kľudný. <br><b>Krk:</b> šija voľná, neoponuje, ŠŽ nezväčšená, LU nehmatné. <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 44,
+        "order": 8,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Hrudník",
+            "props": {
+              "propValue": "Hrudník"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "symetrický, klenutý, eupnoe, akcia srdca pravidelná, PF: ozvy ohraničené, dýchanie puerilné, bez vedľajších dýchacích fenoménov. <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 53,
+        "order": 11,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Brucho",
+            "props": {
+              "propValue": "Brucho"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "Brucho v nivaeu hrudníka, voľné, priehmatné, bez palpačnej rezistencie a citlivosti, bez organomegálie, slabiny voľné, pulzácie tepien na aa. femorales bilat. hmatné. <br>Genitál dievčenský, bez synechií, chlapčenský, testes hmatné v skróte. <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 59,
+        "order": 14,
+        "props": {
+          "type": "pv"
+        },
+        "value": {
+          "typ": {
+            "value": "Dolné končatiny",
+            "props": {
+              "propValue": "Dolné končatiny"
+            }
+          },
+          "date": {
+            "value": "",
+            "props": {}
+          },
+          "me": {
+            "value": "",
+            "props": {}
+          },
+          "lekar": {
+            "value": "",
+            "props": {}
+          },
+          "popis": {
+            "value": "Dolné končatiny symetrické, pohyblivosť bedrových kĺbov v norme, bez edémov, bez deformít. <br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "summary": null,
+  "mt": "2024-06-07T10:06:09.896Z",
+  "type": null,
+  "ct": "2024-06-07T10:05:51.890Z",
+  "owner": "admin",
+  "source": "curo-open/curo-vzory#/008"
+}

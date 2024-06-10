@@ -174,19 +174,19 @@
         }
       },
       {
-        "id": 31,
+        "id": 30,
         "order": 6,
         "props": {
           "type": "vv"
         },
         "value": {
           "id": {
-            "value": "[10] Rozbor a plánovanie cielených terapeutických postupov na ovplyvnenie chronických ochorení alebo ochorení viacerých orgánových systémov na účely racionálnej farmakoterapie, vrátanie rád, dokumentácie. Výkon môže vykázať lekár špecializovanej starostl",
+            "value": "[H0004+EDU] Výkon H0004 s pripočítateľnou položkou EDU",
             "props": {
-              "propBody": 180,
+              "propBody": 0,
               "idClassid": "vykon",
-              "idEzid": "00000466565@42",
-              "id": 10
+              "idEzid": "curo-H0004+EDU@45",
+              "id": "H0004+EDU"
             }
           },
           "count": {
@@ -223,8 +223,8 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2023-07-03T09:31:59.840Z",
-  "ct": "2023-07-03T09:31:50.714Z",
+  "mt": "2024-06-10T09:21:10.723Z",
+  "ct": "2024-06-10T09:20:47.818Z",
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/020avlsdp"
+  "source": "curo-open/curo-vzory#/020avls"
 }
