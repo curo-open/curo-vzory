@@ -219,7 +219,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 4 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 6) || (pacient.vekDni|vMesiacoch == 7 &amp;&amp; sessions|getSections(\"vv\")|where(\"s.value.id.props.id=='145a'\")|trans(\"length\") == 0)  }}<br>",
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 4 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 7) &amp;&amp; (pacient.vekDni|vMesiacoch == 7 &amp;&amp; sessions|getSections(\"vv\")|where(\"s.value.id.props.id=='145a'\")|trans(\"length\") == 0)  }}<br>",
             "props": {}
           }
         }
@@ -245,7 +245,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 7 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 9)  || (pacient.vekDni|vMesiacoch == 7 &amp;&amp; sessions|getSections(\"vv\")|where(\"d.period&gt;14\")|where(\"s.value.id.props.id=='145a'\")|trans(\"length\") != 0) }}<br>",
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 6 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 9) &amp;&amp; (pacient.vekDni|vMesiacoch == 7 &amp;&amp; sessions|getSections(\"vv\")|where(\"d.period&gt;14\")|where(\"s.value.id.props.id=='145a'\")|trans(\"length\") != 0) }}<br>",
             "props": {}
           }
         }
@@ -271,7 +271,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 8 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 10) || (pacient.vekDni|vMesiacoch == 11 &amp;&amp; sessions|getSections(\"vv\")|where(\"s.value.id.props.id=='146a'\")|trans(\"length\") == 0) }}<br>",
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 8 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 10) &amp;&amp; (pacient.vekDni|vMesiacoch == 11 &amp;&amp; sessions|getSections(\"vv\")|where(\"s.value.id.props.id=='146a'\")|trans(\"length\") == 0) }}<br>",
             "props": {}
           }
         }
@@ -297,7 +297,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 11 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 13) || (pacient.vekDni|vMesiacoch == 11 &amp;&amp; sessions|getSections(\"vv\")|where(\"d.period&gt;14\")|where(\"s.value.id.props.id=='146a'\")|trans(\"length\") != 0) }}<br>",
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 11 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 13) &amp;&amp; (pacient.vekDni|vMesiacoch == 11 &amp;&amp; sessions|getSections(\"vv\")|where(\"d.period&gt;14\")|where(\"s.value.id.props.id=='146a'\")|trans(\"length\") != 0) }}<br>",
             "props": {}
           }
         }
@@ -362,7 +362,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? }}tlac&nbsp;id=\"davka\"&nbsp;<br>",
+            "value": "{{ ? }}<br>",
             "props": {}
           }
         }
@@ -375,7 +375,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vRokoch == 4 || pacient.vekDni|vRokoch == 5 }}<br>",
+            "value": "{{ ? (pacient.vekDni|vRokoch == 4 || pacient.vekDni|vRokoch == 5) &amp;&amp; (pacient.vekDni|vRokoch == 5 &amp;&amp; sessions|getSections(\"vv\")|where(\"s.value.id.props.id=='148a'\")|trans(\"length\") == 0) }}<br>",
             "props": {}
           }
         }
@@ -401,7 +401,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vRokoch == 5 || pacient.vekDni|vRokoch == 6 || pacient.vekDni|vRokoch == 7}}<br>",
+            "value": "{{ ? (pacient.vekDni|vRokoch == 5 || pacient.vekDni|vRokoch == 6 || pacient.vekDni|vRokoch == 7) &amp;&amp; (pacient.vekDni|vRokoch == 5 &amp;&amp; sessions|getSections(\"vv\")|where(\"s.value.id.props.id=='148a'\")|trans(\"length\") != 0)}}<br>",
             "props": {}
           }
         }
@@ -1247,7 +1247,7 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2024-06-04T11:46:04.924Z",
+  "mt": "2024-06-24T11:51:44.124Z",
   "type": null,
   "owner": "zavrel",
   "ct": "2024-05-30T12:25:11.954Z",
