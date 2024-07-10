@@ -81,7 +81,7 @@
         },
         "value": {
           "title": {
-            "value": "PP základ",
+            "value": "PP základ1",
             "props": {}
           },
           "source": {
@@ -148,9 +148,9 @@
           "id": {
             "value": "[Z00.1] Rutinné vyšetrenie zdravotného stavu dieťaťa",
             "props": {
-              "id": "Z00.1",
+              "idClassid": "diagnoza",
               "idEzid": "02089520817@24",
-              "idClassid": "diagnoza"
+              "id": "Z00.1"
             }
           },
           "text": {
@@ -172,9 +172,9 @@
             "value": "[144] 4. preventívna prehliadka sa vykazuje v 8. až 10. týždni života (vrátane vyšetrenia psychomotorického vývinu a antropometrických meraní).",
             "props": {
               "propBody": 350,
-              "id": 144,
+              "idClassid": "vykon",
               "idEzid": "00000467134@45",
-              "idClassid": "vykon"
+              "id": 144
             }
           },
           "count": {
@@ -190,7 +190,7 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "description": "",
-  "mt": "2024-06-03T12:15:46.214Z",
+  "mt": "2024-07-10T11:08:09.774Z",
   "ct": "2024-06-03T12:11:40.320Z",
   "owner": "admin",
   "source": "curo-open/curo-vzory#/008"

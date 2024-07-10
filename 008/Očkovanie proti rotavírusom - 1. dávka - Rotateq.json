@@ -1,0 +1,330 @@
+{
+  "type": "examination",
+  "summary": "Preočkovanie DTaP-IPV",
+  "description": "Očkovanie proti rotavírusom",
+  "owner": "vld",
+  "title": "Očkovanie proti rotavírusom - 1. dávka - Rotateq",
+  "shortcut": "o-rotavir1-Rotateq",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "30": [
+          "sn"
+        ],
+        "32": [
+          "schedule",
+          "recommendedBy"
+        ]
+      }
+    },
+    "s": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bez ťažkostí, prechlad. sa necíti<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "KP komp., TT 36,6°C, Intramuskulárne podanie inj. Bez komplikácií po podaní.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 28,
+        "order": 2,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z25.8] Potreba imunizácie proti inej bližšie určenej jednotlivej vírusovej chorobe",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089522318@19",
+              "id": "Z25.8"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oc": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[RTV] Ochorenia vyvolané rotavírusmi",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000776898@3",
+              "id": "RTV"
+            }
+          },
+          "datum": {
+            "value": "12.08.2021 00:00",
+            "props": {
+              "propValue": "2021-08-11T22:00:00.000Z",
+              "expr": "=dnes"
+            }
+          },
+          "typ": {
+            "value": "[XXXXXX] neznáma hodnota",
+            "props": {
+              "id": "XXXXXX",
+              "idEzid": "00208874636@4",
+              "idClassid": "octyp"
+            }
+          },
+          "pocet": {
+            "value": "3",
+            "props": {}
+          },
+          "davka": {
+            "value": "1",
+            "props": {}
+          },
+          "posledna": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ol": [
+      {
+        "id": 30,
+        "order": 4,
+        "props": {
+          "type": "ol",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[35586] RotaTeq perorálny roztok | sol por 1x2 ml (tuba LDPE)",
+            "props": {
+              "propDpl": 27.94,
+              "propSpUhr": "S",
+              "propUnit": "DF",
+              "propIo": "ind.obm.",
+              "propGp": 0,
+              "propBal": 1,
+              "propUzp_1zvj": 6.984,
+              "propVnl": "R",
+              "propCena": 34.92,
+              "propSdl": 1,
+              "propAtcName": "Rotavírusová očkovacia látka, pentavalentná, živá reasortovaná",
+              "propOl": 1,
+              "propKat": true,
+              "propPo_0": "PED",
+              "id": 35586,
+              "idUl": "",
+              "idAtc": "J07BH02",
+              "idSp": "ora",
+              "idF": "SOL POR",
+              "idEzid": "00020850764",
+              "idClassid": "liek"
+            }
+          },
+          "sn": {
+            "value": "",
+            "props": {
+              "error": "Číslo šarže je povinné."
+            }
+          },
+          "qty": {
+            "value": "",
+            "props": {}
+          },
+          "mu": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 32,
+        "order": 5,
+        "props": {
+          "type": "r",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[35586] RotaTeq perorálny roztok | sol por 1x2 ml (tuba LDPE)",
+            "props": {
+              "propPo_0": "PED",
+              "propKat": true,
+              "propOl": 1,
+              "propAtcName": "Rotavírusová očkovacia látka, pentavalentná, živá reasortovaná",
+              "propSdl": 1,
+              "propCena": 34.92,
+              "propVnl": "R",
+              "propUzp_1zvj": 6.984,
+              "propBal": 1,
+              "propGp": 0,
+              "propIo": "ind.obm.",
+              "propUnit": "DF",
+              "propSpUhr": "S",
+              "propDpl": 27.94,
+              "idClassid": "liek",
+              "idEzid": "00020850764",
+              "idF": "SOL POR",
+              "idSp": "ora",
+              "idAtc": "J07BH02",
+              "idUl": "",
+              "id": 35586
+            }
+          },
+          "schedule": {
+            "value": "1",
+            "props": {
+              "error": "Chyba zápisu dávkovania. (SyntaxError: Expected '-', [,.], or [0-9] but end of input found.)"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {
+              "error": "Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára"
+            }
+          },
+          "payoff": {
+            "value": "27,94",
+            "props": {
+              "propValue": 27.94
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 8,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[252a] Ochranné očkovanie perorálnou vakcínou, napríklad proti poliomyelitíde.",
+            "props": {
+              "propBody": 30,
+              "id": "252a",
+              "idEzid": "00000467860@30",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 34,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[67] Príplatok u dieťaťa vo veku do piatich rokov pri výkonoch - odber krvi, injekcie, infúzie, transfúzie, infiltrácie, implantácie, odobratie sterov, punkcie a pri výkone očkovania.",
+            "props": {
+              "propBody": 100,
+              "idClassid": "vykon",
+              "idEzid": "00000466797@30",
+              "id": 67
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "source": "curo-open/curo-vzory#/007"
+}

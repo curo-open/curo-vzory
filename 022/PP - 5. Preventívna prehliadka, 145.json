@@ -81,7 +81,7 @@
         },
         "value": {
           "title": {
-            "value": "PP základ",
+            "value": "PP základ1",
             "props": {}
           },
           "source": {
@@ -137,29 +137,8 @@
         }
       },
       {
-        "id": 150,
-        "order": 6,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "Preventívka bodovanie - pediater",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 301,
-        "order": 7,
+        "order": 6,
         "props": {
           "type": "vlozit"
         },
@@ -180,7 +159,7 @@
       },
       {
         "id": 302,
-        "order": 8,
+        "order": 7,
         "props": {
           "type": "vlozit"
         },
@@ -203,7 +182,7 @@
     "vd": [
       {
         "id": 355,
-        "order": 9,
+        "order": 8,
         "props": {
           "type": "vd"
         },
@@ -226,7 +205,7 @@
     "vv": [
       {
         "id": 358,
-        "order": 10,
+        "order": 9,
         "props": {
           "type": "vv"
         },
@@ -253,8 +232,8 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "description": "",
-  "mt": "2024-06-04T06:37:06.890Z",
+  "mt": "2024-07-10T11:08:05.390Z",
   "ct": "2023-12-03T10:51:13.843Z",
   "owner": "zavrel",
-  "source": "curo-open/curo-vzory#/022"
+  "source": "curo-open/curo-vzory#/008"
 }

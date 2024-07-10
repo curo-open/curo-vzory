@@ -226,9 +226,9 @@
           "id": {
             "value": "[Z00.1] Rutinné vyšetrenie zdravotného stavu dieťaťa",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z00.1",
               "idEzid": "02089520817@24",
-              "id": "Z00.1"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -250,9 +250,9 @@
             "value": "[145a] 6. preventívna prehliadka sa vykazuje v 5. až 6. mesiaci života dieťaťa (vrátane antropometrických meraní).",
             "props": {
               "propBody": 370,
-              "idClassid": "vykon",
+              "id": "145a",
               "idEzid": "00000467159@45",
-              "id": "145a"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -268,7 +268,7 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "ct": "2024-06-04T06:42:45.734Z",
-  "mt": "2024-06-04T06:57:44.160Z",
+  "mt": "2024-07-10T11:08:38.775Z",
   "owner": "admin",
   "source": "curo-open/curo-vzory#/008"
 }

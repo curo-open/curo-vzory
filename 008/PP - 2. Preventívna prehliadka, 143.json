@@ -96,7 +96,7 @@
         },
         "value": {
           "title": {
-            "value": "PP základ",
+            "value": "PP základ1",
             "props": {}
           },
           "source": {
@@ -142,9 +142,9 @@
           "id": {
             "value": "[Z00.1] Rutinné vyšetrenie zdravotného stavu dieťaťa",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z00.1",
               "idEzid": "02089520817@24",
-              "id": "Z00.1"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -166,9 +166,9 @@
             "value": "[143] 2. preventívna prehliadka, vykazuje sa do 4. týždna života dieťaťa. Výkon vykazuje lekár s príslušnou špecializáciou ako druhú preventívnu prehliadku v prvom mesiaci života dieťaťa podľa tohto zákona",
             "props": {
               "propBody": 350,
-              "idClassid": "vykon",
+              "id": 143,
               "idEzid": "00000467118@45",
-              "id": 143
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -184,7 +184,7 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "description": "",
-  "mt": "2024-06-03T12:15:40.264Z",
+  "mt": "2024-07-10T11:06:52.480Z",
   "ct": "2024-06-03T06:08:57.315Z",
   "owner": "admin",
   "source": "curo-open/curo-vzory#/008"

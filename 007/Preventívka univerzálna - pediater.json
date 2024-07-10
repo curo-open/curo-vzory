@@ -1364,7 +1364,7 @@
         },
         "value": {
           "title": {
-            "value": "PP základ",
+            "value": "PP základ1",
             "props": {}
           },
           "source": {
@@ -1490,7 +1490,7 @@
         },
         "value": {
           "title": {
-            "value": "PP základ",
+            "value": "PP základ1",
             "props": {}
           },
           "source": {
@@ -1574,7 +1574,7 @@
         },
         "value": {
           "title": {
-            "value": "PP základ",
+            "value": "PP základ1",
             "props": {}
           },
           "source": {
@@ -1658,7 +1658,7 @@
         },
         "value": {
           "title": {
-            "value": "PP základ",
+            "value": "PP základ1",
             "props": {}
           },
           "source": {
@@ -1784,7 +1784,7 @@
         },
         "value": {
           "title": {
-            "value": "PP základ",
+            "value": "PP základ1",
             "props": {}
           },
           "source": {
@@ -2246,7 +2246,7 @@
         },
         "value": {
           "title": {
-            "value": "PP základ1",
+            "value": "PP základ",
             "props": {}
           },
           "source": {
@@ -3696,9 +3696,9 @@
           "id": {
             "value": "[Z00.1] Rutinné vyšetrenie zdravotného stavu dieťaťa",
             "props": {
-              "id": "Z00.1",
+              "idClassid": "diagnoza",
               "idEzid": "02089520817@24",
-              "idClassid": "diagnoza"
+              "id": "Z00.1"
             }
           },
           "text": {
@@ -3719,11 +3719,11 @@
           "id": {
             "value": "[3592] stanovenie sedimentačnej rýchlosti krviniek",
             "props": {
-              "propBody": 50,
               "propType": "SVaLZ",
-              "id": 3592,
+              "propBody": 50,
+              "idClassid": "vykon",
               "idEzid": "00000479048@45",
-              "idClassid": "vykon"
+              "id": 3592
             }
           },
           "count": {
@@ -3742,11 +3742,11 @@
           "id": {
             "value": "[3525] Kompletný dôkaz základných patologických súčastí moču, za každú vzorku od pacienta",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 50,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 3525,
               "idEzid": "00000478560@45",
-              "id": 3525
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -3762,7 +3762,7 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "ct": "2024-06-04T07:00:44.025Z",
-  "mt": "2024-06-24T11:51:28.994Z",
+  "mt": "2024-07-10T11:10:03.879Z",
   "summary": "",
   "description": "",
   "source": "curo-open/curo-vzory#/008"

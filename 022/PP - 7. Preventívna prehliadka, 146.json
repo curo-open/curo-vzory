@@ -170,9 +170,9 @@
           "id": {
             "value": "[Z00.1] Rutinné vyšetrenie zdravotného stavu dieťaťa",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z00.1",
               "idEzid": "02089520817@24",
-              "id": "Z00.1"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -194,9 +194,9 @@
             "value": "[146] 7. preventívna prehliadka sa vykazuje v 7. až 8. mesiaci života dieťaťa (vrátane antropometrických meraní).",
             "props": {
               "propBody": 370,
-              "idClassid": "vykon",
+              "id": 146,
               "idEzid": "00000467167@45",
-              "id": 146
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -216,9 +216,9 @@
             "value": "[950] Vyšetrenie psychomotorického vývinu dieťaťa vo vzťahu k hrubej a jemnej motorike, k reči a k sociálnym vzťahom podľa štandardnej stupnice vrátane dokumentácie. Pri výkone pod kódom 950 nemožno výkony",
             "props": {
               "propBody": 390,
-              "idClassid": "vykon",
+              "id": 950,
               "idEzid": "00000469288@45",
-              "id": 950
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -234,6 +234,6 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "ct": "2024-06-04T06:41:36.292Z",
-  "mt": "2024-06-04T07:11:16.296Z",
-  "source": "curo-open/curo-vzory#/022"
+  "mt": "2024-07-10T11:10:07.770Z",
+  "source": "curo-open/curo-vzory#/008"
 }
