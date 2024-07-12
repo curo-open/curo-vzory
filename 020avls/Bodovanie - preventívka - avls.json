@@ -261,7 +261,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? var.vyk159b=='ON' &amp;&amp; (zp == 24 || zp == 27)  &amp;&amp; (vek == 17 || vek == 18 || vek == 40 || vek == 41)}}<br>",
+            "value": "{{ ? var.vyk159b=='ON' &amp;&amp; (zp == 27)  &amp;&amp; vek &gt;= 40}}<br>",
             "props": {}
           }
         }
@@ -547,7 +547,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? (sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; vek &gt;= 40 &amp;&amp; zp == 24 }}<br>",
+            "value": "{{ ? vek &gt;= 40 &amp;&amp; zp == 24 }}<br>",
             "props": {}
           }
         }
@@ -586,7 +586,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? (sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; vek &gt;= 40 }}<br>",
+            "value": "{{ ? vek &gt;= 40 }}<br>",
             "props": {}
           }
         }
@@ -1246,9 +1246,9 @@
             "props": {}
           },
           "at": {
-            "value": "04.07.2024 10:10",
+            "value": "13.07.2024 09:10",
             "props": {
-              "propValue": "2024-07-04T08:10:19.385Z",
+              "propValue": "2024-07-13T07:10:34.027Z",
               "expr": "=+1d"
             }
           },
@@ -1276,9 +1276,9 @@
             "props": {}
           },
           "at": {
-            "value": "04.07.2024 10:10",
+            "value": "13.07.2024 09:10",
             "props": {
-              "propValue": "2024-07-04T08:10:19.387Z",
+              "propValue": "2024-07-13T07:10:34.029Z",
               "expr": "=+1d"
             }
           },
@@ -1306,9 +1306,9 @@
             "props": {}
           },
           "at": {
-            "value": "04.07.2024 10:10",
+            "value": "13.07.2024 09:10",
             "props": {
-              "propValue": "2024-07-04T08:10:19.390Z",
+              "propValue": "2024-07-13T07:10:34.030Z",
               "expr": "=+1d"
             }
           },
@@ -1391,9 +1391,9 @@
             "props": {}
           },
           "date": {
-            "value": "03.07.2024",
+            "value": "12.07.2024",
             "props": {
-              "propValue": "2024-07-02T22:00:00.000Z",
+              "propValue": "2024-07-11T22:00:00.000Z",
               "expr": "=dnes"
             }
           },
@@ -1427,9 +1427,9 @@
             "props": {}
           },
           "date": {
-            "value": "03.07.2024",
+            "value": "12.07.2024",
             "props": {
-              "propValue": "2024-07-02T22:00:00.000Z",
+              "propValue": "2024-07-11T22:00:00.000Z",
               "expr": "=dnes"
             }
           },
@@ -1446,9 +1446,9 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "type": null,
-  "ct": "2024-07-03T08:09:14.195Z",
-  "mt": "2024-07-03T08:10:23.783Z",
+  "ct": "2024-07-12T07:10:35.087Z",
+  "mt": "2024-07-12T07:14:26.636Z",
   "hide": false,
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/020zvld"
+  "source": "curo-open/curo-vzory#/020avls"
 }
