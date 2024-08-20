@@ -52,10 +52,38 @@
         }
       }
     ],
+    "t": [
+      {
+        "id": 8,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? sessions|getSections(\"dz\")|where(\"i==0\")}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 9,
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt;? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
     "dz": [
       {
         "id": 4,
-        "order": 2,
+        "order": 3,
         "props": {
           "type": "dz"
         },
@@ -70,7 +98,7 @@
     "odp": [
       {
         "id": 2,
-        "order": 3,
+        "order": 5,
         "props": {
           "type": "odp"
         },
@@ -85,7 +113,7 @@
     "obj": [
       {
         "id": 3,
-        "order": 4,
+        "order": 6,
         "props": {
           "type": "obj",
           "objId": "ckylcvlm1000d3w76savm7z8a"
@@ -95,6 +123,12 @@
             "value": "Objednanie",
             "props": {
               "propValue": "O"
+            }
+          },
+          "cal": {
+            "value": "Ambulancia MUDR Medicus",
+            "props": {
+              "propValue": "r1"
             }
           },
           "time": {
@@ -135,7 +169,7 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2024-05-30T12:02:18.064Z",
+  "mt": "2024-08-20T09:08:07.155Z",
   "owner": "zavrel",
   "ct": "2024-05-30T12:02:16.703Z",
   "source": "curo-open/curo-vzory#/008"
