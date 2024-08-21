@@ -1,0 +1,92 @@
+{
+  "tags": [
+    "tlaciva"
+  ],
+  "owner": "admin",
+  "title": "Stratifikácia CMP",
+  "shortcut": "tlcmp",
+  "if": "",
+  "data": {
+    "_": {
+      "tid": 1
+    },
+    "vd": [
+      {
+        "id": 90,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t-stratifikacia-cmp": [
+      {
+        "id": 92,
+        "order": 1,
+        "props": {
+          "type": "t-stratifikacia-cmp"
+        },
+        "value": {
+          "vek": {
+            "value": "",
+            "props": {}
+          },
+          "pohlavie": {
+            "value": "",
+            "props": {}
+          },
+          "hypertenzia": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "diabet": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "prekonana_cmp": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "srdcove_zlyhavanie": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "ateroskleroza": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "pocet": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-08-21T07:48:47.875Z",
+  "mt": "2024-08-21T07:49:19.405Z",
+  "source": "curo-open/curo-vzory#/020"
+}

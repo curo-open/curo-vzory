@@ -1,0 +1,61 @@
+{
+  "tags": [
+    "tlaciva"
+  ],
+  "owner": "admin",
+  "title": "Univerzálne tlačivo",
+  "shortcut": "tluni",
+  "if": "",
+  "data": {
+    "_": {},
+    "tl": [
+      {
+        "id": 19,
+        "order": 0,
+        "props": {
+          "type": "tl"
+        },
+        "value": {
+          "nadpis": {
+            "value": "",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          },
+          "obsah": {
+            "value": "",
+            "props": {}
+          },
+          "hlavicka": {
+            "value": "",
+            "props": {}
+          },
+          "podpis": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "peciatka": {
+            "value": "",
+            "props": {}
+          },
+          "pageFormat": {
+            "value": "A4",
+            "props": {
+              "propValue": "A4"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-08-21T07:50:04.777Z",
+  "mt": "2024-08-21T07:50:29.959Z",
+  "source": "curo-open/curo-vzory#/020"
+}

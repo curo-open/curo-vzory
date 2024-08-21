@@ -1,0 +1,55 @@
+{
+  "tags": [],
+  "owner": "admin",
+  "title": "Posudok na výkon činnosti",
+  "shortcut": "tlpvc",
+  "if": "",
+  "data": {
+    "_": {},
+    "t-vykon-cinnosti": [
+      {
+        "id": 9,
+        "order": 0,
+        "props": {
+          "type": "t-vykon-cinnosti"
+        },
+        "value": {
+          "EC": {
+            "value": "",
+            "props": {}
+          },
+          "zamestnavatel": {
+            "value": "",
+            "props": {}
+          },
+          "profesia": {
+            "value": "",
+            "props": {}
+          },
+          "faktory_prace": {
+            "value": "",
+            "props": {}
+          },
+          "osobitne_predpisy": {
+            "value": "",
+            "props": {}
+          },
+          "kategoria": {
+            "value": "",
+            "props": {}
+          },
+          "zaver": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-08-21T07:47:14.866Z",
+  "mt": "2024-08-21T07:48:06.482Z",
+  "source": "curo-open/curo-vzory#/020"
+}

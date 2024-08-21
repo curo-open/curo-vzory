@@ -1,0 +1,55 @@
+{
+  "tags": [],
+  "owner": "admin",
+  "title": "Zdravotný preukaz",
+  "shortcut": "tlzdrp",
+  "if": "",
+  "data": {
+    "_": {},
+    "t-zdravotny-preukaz": [
+      {
+        "id": 17,
+        "order": 0,
+        "props": {
+          "type": "t-zdravotny-preukaz"
+        },
+        "value": {
+          "vysetrenie": {
+            "value": "",
+            "props": {}
+          },
+          "rtg": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "druh_prace": {
+            "value": "",
+            "props": {}
+          },
+          "zamestnavatel": {
+            "value": "",
+            "props": {}
+          },
+          "doba_urcita": {
+            "value": "",
+            "props": {}
+          },
+          "platny_od": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-08-21T07:52:13.637Z",
+  "mt": "2024-08-21T07:56:35.336Z",
+  "source": "curo-open/curo-vzory#/020"
+}

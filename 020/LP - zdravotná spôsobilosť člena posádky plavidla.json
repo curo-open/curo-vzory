@@ -1,0 +1,43 @@
+{
+  "tags": [
+    "tlaciva"
+  ],
+  "owner": "admin",
+  "title": "LP - zdravotná spôsobilosť člena posádky plavidla",
+  "shortcut": "tlscpp",
+  "if": "",
+  "data": {
+    "_": {},
+    "formular": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "formular"
+        },
+        "value": {
+          "type": {
+            "value": "Lekársky posudok o zdravotnej spôsobilosti člena posádky plavidla",
+            "props": {
+              "propValue": "lekarsky-posudok-vmp"
+            }
+          },
+          "form": {
+            "value": "",
+            "props": {}
+          },
+          "formData": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-08-21T07:32:59.067Z",
+  "mt": "2024-08-21T07:33:33.113Z",
+  "source": "curo-open/curo-vzory#/020"
+}

@@ -1,0 +1,116 @@
+{
+  "tags": [
+    "tlaciva"
+  ],
+  "owner": "admin",
+  "title": "Enterálna výživa",
+  "shortcut": "tlev",
+  "if": "",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 16,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "entev": [
+      {
+        "id": 14,
+        "order": 1,
+        "props": {
+          "type": "entev"
+        },
+        "value": {
+          "nph": {
+            "value": "",
+            "props": {}
+          },
+          "zp35": {
+            "value": "",
+            "props": {}
+          },
+          "av1": {
+            "value": "",
+            "props": {}
+          },
+          "av2": {
+            "value": "",
+            "props": {}
+          },
+          "av3": {
+            "value": "",
+            "props": {}
+          },
+          "pocetI": {
+            "value": "0",
+            "props": {}
+          },
+          "kzns": {
+            "value": "",
+            "props": {}
+          },
+          "dg": {
+            "value": "",
+            "props": {}
+          },
+          "i1": {
+            "value": "",
+            "props": {}
+          },
+          "i2": {
+            "value": "",
+            "props": {}
+          },
+          "i3": {
+            "value": "",
+            "props": {}
+          },
+          "i4": {
+            "value": "",
+            "props": {}
+          },
+          "i5": {
+            "value": "",
+            "props": {}
+          },
+          "i6": {
+            "value": "",
+            "props": {}
+          },
+          "pocetII": {
+            "value": "0",
+            "props": {}
+          },
+          "np": {
+            "value": "",
+            "props": {}
+          },
+          "pev": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-08-21T07:24:08.718Z",
+  "mt": "2024-08-21T07:32:47.368Z",
+  "source": "curo-open/curo-vzory#/020"
+}

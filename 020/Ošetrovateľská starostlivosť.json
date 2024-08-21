@@ -1,0 +1,65 @@
+{
+  "tags": [
+    "tlaciva"
+  ],
+  "owner": "admin",
+  "title": "Ošetrovateľská starostlivosť",
+  "shortcut": "tlados",
+  "if": "",
+  "data": {
+    "_": {},
+    "ados": [
+      {
+        "id": 37,
+        "order": 0,
+        "props": {
+          "type": "ados"
+        },
+        "value": {
+          "pzs": {
+            "value": "",
+            "props": {}
+          },
+          "epikriza": {
+            "value": "",
+            "props": {}
+          },
+          "stav": {
+            "value": "",
+            "props": {}
+          },
+          "plan": {
+            "value": "",
+            "props": {}
+          },
+          "vykony": {
+            "value": "",
+            "props": {}
+          },
+          "bydliskoAlt": {
+            "value": "",
+            "props": {}
+          },
+          "datumOd": {
+            "value": "",
+            "props": {}
+          },
+          "datumDo": {
+            "value": "",
+            "props": {}
+          },
+          "obdobie": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-08-21T07:38:51.764Z",
+  "mt": "2024-08-21T07:46:16.319Z",
+  "source": "curo-open/curo-vzory#/020"
+}

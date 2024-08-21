@@ -1,0 +1,43 @@
+{
+  "tags": [
+    "tlaciva"
+  ],
+  "owner": "admin",
+  "title": "Vývoj obnovy pracovnej schopnosti",
+  "shortcut": "tlops",
+  "if": "",
+  "data": {
+    "_": {},
+    "formular": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "formular"
+        },
+        "value": {
+          "type": {
+            "value": "Záznam o prerokovaní vývoja obnovy pracovnej schopnosti",
+            "props": {
+              "propValue": "edpn-prerokovanie"
+            }
+          },
+          "form": {
+            "value": "",
+            "props": {}
+          },
+          "formData": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-08-21T07:51:15.329Z",
+  "mt": "2024-08-21T07:51:33.329Z",
+  "source": "curo-open/curo-vzory#/020"
+}

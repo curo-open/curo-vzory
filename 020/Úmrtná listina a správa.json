@@ -1,0 +1,226 @@
+{
+  "tags": [],
+  "owner": "admin",
+  "title": "Úmrtná listina a správa",
+  "shortcut": "tlumrtie",
+  "if": "",
+  "data": {
+    "_": {},
+    "u-umrtie": [
+      {
+        "id": 32,
+        "order": 0,
+        "props": {
+          "type": "u-umrtie"
+        },
+        "value": {
+          "hlasenie_SU": {
+            "value": "",
+            "props": {}
+          },
+          "nebezpecna_choroba": {
+            "value": "",
+            "props": {}
+          },
+          "umrtie_datetime": {
+            "value": "",
+            "props": {}
+          },
+          "umrtie_adresa": {
+            "value": "",
+            "props": {}
+          },
+          "umrtie_miesto": {
+            "value": "",
+            "props": {}
+          },
+          "spopolnenie": {
+            "value": "",
+            "props": {}
+          },
+          "spopolnenie_kde": {
+            "value": "",
+            "props": {}
+          },
+          "spopolnenie_date": {
+            "value": "",
+            "props": {}
+          },
+          "prevoz": {
+            "value": "",
+            "props": {}
+          },
+          "prevoz_kde": {
+            "value": "",
+            "props": {}
+          },
+          "prevoz_date": {
+            "value": "",
+            "props": {}
+          },
+          "dieta_1rok": {
+            "value": "",
+            "props": {}
+          },
+          "pricina_I_a": {
+            "value": "",
+            "props": {}
+          },
+          "pricina_I_b": {
+            "value": "",
+            "props": {}
+          },
+          "pricina_I_c": {
+            "value": "",
+            "props": {}
+          },
+          "pricina_II": {
+            "value": "",
+            "props": {}
+          },
+          "pricina_III": {
+            "value": "",
+            "props": {}
+          },
+          "pricina_III_popis": {
+            "value": "",
+            "props": {}
+          },
+          "pricina_III_kod": {
+            "value": "",
+            "props": {}
+          },
+          "prehliadka_kde": {
+            "value": "",
+            "props": {}
+          },
+          "prehliadka_datetime": {
+            "value": "",
+            "props": {}
+          },
+          "lekar_navrh": {
+            "value": "",
+            "props": {}
+          },
+          "anamneza_a_okolnosti": {
+            "value": "",
+            "props": {}
+          },
+          "policia": {
+            "value": "",
+            "props": {}
+          },
+          "miesto_nalezu": {
+            "value": "",
+            "props": {}
+          },
+          "miesto_predmety": {
+            "value": "",
+            "props": {}
+          },
+          "odoslane_pitva": {
+            "value": "",
+            "props": {}
+          },
+          "odovzdane_predmety": {
+            "value": "",
+            "props": {}
+          },
+          "satstvo_popis": {
+            "value": "",
+            "props": {}
+          },
+          "cennosti": {
+            "value": "",
+            "props": {}
+          },
+          "odovzdane_cennosti": {
+            "value": "",
+            "props": {}
+          },
+          "posmrtne_skvrny": {
+            "value": "",
+            "props": {}
+          },
+          "posmrtna_stuhnutost": {
+            "value": "",
+            "props": {}
+          },
+          "hnilobne_zmeny": {
+            "value": "",
+            "props": {}
+          },
+          "znamky_zranenia": {
+            "value": "",
+            "props": {}
+          },
+          "pricina_smrti": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "b-rd": [
+      {
+        "id": 33,
+        "order": 1,
+        "props": {
+          "type": "b-rd"
+        },
+        "value": {
+          "rodne_priezvisko": {
+            "value": "",
+            "props": {}
+          },
+          "stav": {
+            "value": "",
+            "props": {}
+          },
+          "rc_partnera": {
+            "value": "",
+            "props": {}
+          },
+          "vzdelanie": {
+            "value": "",
+            "props": {}
+          },
+          "zamestnanie": {
+            "value": "",
+            "props": {}
+          },
+          "miesto_narodenia": {
+            "value": "",
+            "props": {}
+          },
+          "narodnost": {
+            "value": "",
+            "props": {}
+          },
+          "obcianstvo": {
+            "value": "",
+            "props": {}
+          },
+          "doklad": {
+            "value": "",
+            "props": {}
+          },
+          "okres": {
+            "value": "",
+            "props": {}
+          },
+          "mesto_rozsirene": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-08-21T07:49:34.559Z",
+  "mt": "2024-08-21T07:49:57.123Z",
+  "source": "curo-open/curo-vzory#/020"
+}

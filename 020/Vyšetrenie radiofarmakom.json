@@ -1,0 +1,68 @@
+{
+  "tags": [
+    "ziadanky"
+  ],
+  "owner": "admin",
+  "title": "Vyšetrenie radiofarmakom",
+  "shortcut": "tlrdf",
+  "if": "",
+  "data": {
+    "_": {},
+    "vd": [
+      {
+        "id": 43,
+        "order": 0,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z-radiofarmakom-vysetrenie": [
+      {
+        "id": 41,
+        "order": 1,
+        "props": {
+          "type": "z-radiofarmakom-vysetrenie"
+        },
+        "value": {
+          "dg": {
+            "value": "",
+            "props": {}
+          },
+          "dopl_info": {
+            "value": "",
+            "props": {}
+          },
+          "otazka": {
+            "value": "",
+            "props": {}
+          },
+          "predchadzajuce_vysetrenie": {
+            "value": "",
+            "props": {}
+          },
+          "lieky": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-08-21T07:50:38.939Z",
+  "mt": "2024-08-21T07:51:06.799Z",
+  "source": "curo-open/curo-vzory#/020"
+}

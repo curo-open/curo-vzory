@@ -1,0 +1,46 @@
+{
+  "tags": [],
+  "owner": "admin",
+  "title": "Príjmový doklad",
+  "shortcut": "tlpd",
+  "if": "",
+  "data": {
+    "_": {},
+    "b-pd": [
+      {
+        "id": 6,
+        "order": 0,
+        "props": {
+          "type": "b-pd"
+        },
+        "value": {
+          "ucel": {
+            "value": "Úhrada",
+            "props": {}
+          },
+          "cena": {
+            "value": "",
+            "props": {}
+          },
+          "cislo_dokladu": {
+            "value": "",
+            "props": {}
+          },
+          "datum": {
+            "value": "21.08.2024",
+            "props": {
+              "propValue": "2024-08-20T22:00:00.000Z",
+              "expr": "=dnes"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-08-21T07:48:17.132Z",
+  "mt": "2024-08-21T07:48:39.146Z",
+  "source": "curo-open/curo-vzory#/020"
+}

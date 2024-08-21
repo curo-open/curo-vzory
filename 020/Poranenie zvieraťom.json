@@ -1,0 +1,135 @@
+{
+  "tags": [],
+  "owner": "admin",
+  "title": "Poranenie zvieraťom",
+  "shortcut": "tlpz",
+  "if": "",
+  "data": {
+    "_": {},
+    "t-poranenie-zvieratom": [
+      {
+        "id": 55,
+        "order": 0,
+        "props": {
+          "type": "t-poranenie-zvieratom"
+        },
+        "value": {
+          "datetime_poranenia": {
+            "value": "",
+            "props": {}
+          },
+          "pohryzenie": {
+            "value": "",
+            "props": {}
+          },
+          "poskriabanie": {
+            "value": "",
+            "props": {}
+          },
+          "poslintanie": {
+            "value": "",
+            "props": {}
+          },
+          "infekcny_material": {
+            "value": "",
+            "props": {}
+          },
+          "vlasata": {
+            "value": "",
+            "props": {}
+          },
+          "tvar": {
+            "value": "",
+            "props": {}
+          },
+          "krk": {
+            "value": "",
+            "props": {}
+          },
+          "trup": {
+            "value": "",
+            "props": {}
+          },
+          "brucho": {
+            "value": "",
+            "props": {}
+          },
+          "predlaktie": {
+            "value": "",
+            "props": {}
+          },
+          "rameno": {
+            "value": "",
+            "props": {}
+          },
+          "predkolenie": {
+            "value": "",
+            "props": {}
+          },
+          "stehno": {
+            "value": "",
+            "props": {}
+          },
+          "druh": {
+            "value": "",
+            "props": {}
+          },
+          "druh_farba": {
+            "value": "",
+            "props": {}
+          },
+          "druh_rasa": {
+            "value": "",
+            "props": {}
+          },
+          "druh_velkost": {
+            "value": "",
+            "props": {}
+          },
+          "druh_identifikacne_znaky": {
+            "value": "",
+            "props": {}
+          },
+          "uhynulo": {
+            "value": "",
+            "props": {}
+          },
+          "utratene": {
+            "value": "",
+            "props": {}
+          },
+          "zije": {
+            "value": "",
+            "props": {}
+          },
+          "nezistene": {
+            "value": "",
+            "props": {}
+          },
+          "majitel_meno": {
+            "value": "",
+            "props": {}
+          },
+          "majitel_adresa": {
+            "value": "",
+            "props": {}
+          },
+          "rvps": {
+            "value": "",
+            "props": {}
+          },
+          "ruvz": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-08-21T07:46:24.301Z",
+  "mt": "2024-08-21T07:47:05.182Z",
+  "source": "curo-open/curo-vzory#/020"
+}

@@ -1,0 +1,324 @@
+{
+  "tags": [
+    "ocko"
+  ],
+  "owner": "admin",
+  "title": "HPV - očkovanie - Cervarix",
+  "shortcut": "oc-hpvc",
+  "if": "",
+  "data": {
+    "_": {
+      "tid": 2,
+      "errors": {
+        "20": [
+          "sn"
+        ]
+      }
+    },
+    "s": [
+      {
+        "id": 15,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bez ťažkostí, prechlad. sa necíti<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 16,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "KP komp., TT 36,6°C, Intramuskulárne podanie inj. Bez komplikácií po podaní.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oc": [
+      {
+        "id": 17,
+        "order": 2,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[HPV] Ochorenia vyvolané ľudskými papilomavírusmi",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000777037@3",
+              "id": "HPV"
+            }
+          },
+          "datum": {
+            "value": "17.07.2024 00:00",
+            "props": {
+              "propValue": "2024-07-16T22:00:00.000Z"
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "pocet": {
+            "value": "3",
+            "props": {}
+          },
+          "davka": {
+            "value": "",
+            "props": {}
+          },
+          "posledna": {
+            "value": "",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 19,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z25.8] Potreba imunizácie proti inej bližšie určenej jednotlivej vírusovej chorobe",
+            "props": {
+              "id": "Z25.8",
+              "idEzid": "02089522318@25",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ol": [
+      {
+        "id": 20,
+        "order": 4,
+        "props": {
+          "type": "ol",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[45237] Cervarix injekčná suspenzia v naplnenej injekčnej striekačke | sus inj 1x0,5 ml (striek.inj.napl.+1ihla)",
+            "props": {
+              "propKat": false,
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti papilomavírusu (ľudské typy 16, 18)",
+              "propSdl": 1,
+              "propCena": 61.97,
+              "propVnl": "R",
+              "propBal": 1,
+              "propGp": 0,
+              "propUnit": "DF",
+              "propSpUhr": "I",
+              "idClassid": "liek",
+              "idEzid": "00020918819",
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07BM02",
+              "idUl": "",
+              "id": 45237
+            }
+          },
+          "sn": {
+            "value": "",
+            "props": {
+              "error": "Číslo šarže je povinné."
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "mu": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 21,
+        "order": 5,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[45237] Cervarix injekčná suspenzia v naplnenej injekčnej striekačke | sus inj 1x0,5 ml (striek.inj.napl.+1ihla)",
+            "props": {
+              "propKat": false,
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti papilomavírusu (ľudské typy 16, 18)",
+              "propSdl": 1,
+              "propCena": 61.97,
+              "propVnl": "R",
+              "propBal": 1,
+              "propGp": 0,
+              "propUnit": "DF",
+              "propSpUhr": "I",
+              "idClassid": "liek",
+              "idEzid": "00020918819",
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07BM02",
+              "idUl": "",
+              "id": 45237
+            }
+          },
+          "schedule": {
+            "value": "Ad Manus Medici, SUS",
+            "props": {
+              "propUnit_id": "",
+              "propForm_t": "suspenzia",
+              "propForm_id": "SUS",
+              "propText": "",
+              "propPeriod_t": "denne",
+              "propPeriod_id": "D",
+              "propWay_t": "intramuskulárne (i.m.)",
+              "propWay_id": "IM",
+              "propIntervaldavkovania": "!denne",
+              "propType": "AMM"
+            }
+          },
+          "qty": {
+            "value": "0,1",
+            "props": {
+              "propValue": "0.10"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "instruction_lek": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "plne pacient",
+            "props": {
+              "propValue": "JASAM"
+            }
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "io": {
+            "value": "",
+            "props": {}
+          },
+          "limitDP": {
+            "value": "",
+            "props": {}
+          },
+          "aplikacnaZonaParovehoOrganu": {
+            "value": "bez určenia",
+            "props": {
+              "propValue": ""
+            }
+          },
+          "force": {
+            "value": "",
+            "props": {}
+          },
+          "zalozneAtributy": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "",
+            "props": {}
+          }
+        },
+        "tid": 2
+      }
+    ],
+    "vv": [
+      {
+        "id": 22,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[252b] Očkovanie.",
+            "props": {
+              "propBody": 70,
+              "idClassid": "vykon",
+              "idEzid": "00000467878@45",
+              "id": "252b"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-08-21T07:25:44.256Z",
+  "mt": "2024-08-21T07:25:44.256Z",
+  "description": "Očkovanie proti ľudskému papilomavírusu (HPV)",
+  "summary": "HPV očkovanie",
+  "source": "curo-open/curo-vzory#/020"
+}

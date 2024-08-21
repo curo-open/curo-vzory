@@ -1,0 +1,150 @@
+{
+  "tags": [
+    "tlaciva"
+  ],
+  "owner": "admin",
+  "title": "Odkázanosť na sociálnu službu",
+  "shortcut": "tloss",
+  "if": "",
+  "data": {
+    "_": {
+      "tid": 1
+    },
+    "t-posl": [
+      {
+        "id": 76,
+        "order": 0,
+        "props": {
+          "type": "t-posl"
+        },
+        "value": {
+          "anamneza": {
+            "value": "",
+            "props": {}
+          },
+          "subjektivne_tazkosti": {
+            "value": "",
+            "props": {}
+          },
+          "habitus": {
+            "value": "",
+            "props": {}
+          },
+          "poloha": {
+            "value": "",
+            "props": {}
+          },
+          "orientacia": {
+            "value": "",
+            "props": {}
+          },
+          "postoj": {
+            "value": "",
+            "props": {}
+          },
+          "chodza": {
+            "value": "",
+            "props": {}
+          },
+          "poruchy_kontinencie": {
+            "value": "",
+            "props": {}
+          },
+          "ine_udaje": {
+            "value": "",
+            "props": {}
+          },
+          "diagnoza": {
+            "value": "",
+            "props": {}
+          },
+          "ostatne_choroby": {
+            "value": "",
+            "props": {}
+          },
+          "dusevny_stav": {
+            "value": "",
+            "props": {}
+          },
+          "diagnosticky_zaver": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "zfp": [
+      {
+        "id": 77,
+        "order": 1,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "150",
+            "props": {}
+          },
+          "diast": {
+            "value": "96",
+            "props": {}
+          },
+          "pulse": {
+            "value": "93",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "",
+            "props": {}
+          },
+          "weight": {
+            "value": "73",
+            "props": {}
+          },
+          "height": {
+            "value": "163",
+            "props": {}
+          },
+          "bmi": {
+            "value": "27,48",
+            "props": {
+              "propValue": 27.48
+            }
+          },
+          "oh": {
+            "value": "91",
+            "props": {}
+          },
+          "ob": {
+            "value": "",
+            "props": {}
+          },
+          "whr": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "",
+            "props": {}
+          },
+          "temp": {
+            "value": "36,5",
+            "props": {
+              "propValue": "36.50"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-08-21T07:38:06.555Z",
+  "mt": "2024-08-21T07:38:30.140Z",
+  "source": "curo-open/curo-vzory#/020"
+}

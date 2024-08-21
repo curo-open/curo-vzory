@@ -1,0 +1,89 @@
+{
+  "title": "Príkaz na prepravu/dopravu",
+  "shortcut": "pdo",
+  "data": {
+    "_": {},
+    "t-prikaz-na-prepravu": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "t-prikaz-na-prepravu"
+        },
+        "value": {
+          "pristavenie": {
+            "value": "",
+            "props": {}
+          },
+          "kod": {
+            "value": "",
+            "props": {}
+          },
+          "chodiacy": {
+            "value": "",
+            "props": {}
+          },
+          "sediacy": {
+            "value": "",
+            "props": {}
+          },
+          "leziacy": {
+            "value": "",
+            "props": {}
+          },
+          "so_sprievodcom": {
+            "value": "",
+            "props": {}
+          },
+          "odovodnenie": {
+            "value": "",
+            "props": {}
+          },
+          "doprava_z": {
+            "value": "",
+            "props": {}
+          },
+          "doprava_do": {
+            "value": "",
+            "props": {}
+          },
+          "RLP": {
+            "value": "",
+            "props": {}
+          },
+          "RZP": {
+            "value": "",
+            "props": {}
+          },
+          "MIJ": {
+            "value": "",
+            "props": {}
+          },
+          "DS": {
+            "value": "",
+            "props": {}
+          },
+          "LSPP": {
+            "value": "",
+            "props": {}
+          },
+          "typ": {
+            "value": "článok III/1a",
+            "props": {}
+          },
+          "dovod": {
+            "value": "",
+            "props": {}
+          },
+          "datum": {
+            "value": "17.01.2018",
+            "props": {
+              "propValue": "2018-01-17T20:51:57.474Z"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "source": "curo-open/curo-vzory#/020"
+}

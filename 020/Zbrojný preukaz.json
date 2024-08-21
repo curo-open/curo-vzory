@@ -1,0 +1,54 @@
+{
+  "tags": [],
+  "owner": "admin",
+  "title": "Zbrojný preukaz",
+  "shortcut": "tlzp",
+  "if": "",
+  "data": {
+    "_": {},
+    "t-drzanie-zbrane": [
+      {
+        "id": 31,
+        "order": 0,
+        "props": {
+          "type": "t-drzanie-zbrane"
+        },
+        "value": {
+          "EC": {
+            "value": "",
+            "props": {}
+          },
+          "pobyt": {
+            "value": "",
+            "props": {}
+          },
+          "sposobily": {
+            "value": "",
+            "props": {}
+          },
+          "ochorenia": {
+            "value": "",
+            "props": {}
+          },
+          "lieky": {
+            "value": "",
+            "props": {}
+          },
+          "datum": {
+            "value": "21.08.2024",
+            "props": {
+              "propValue": "2024-08-20T22:00:00.000Z",
+              "expr": "=dnes"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-08-21T07:51:42.545Z",
+  "mt": "2024-08-21T07:52:06.255Z",
+  "source": "curo-open/curo-vzory#/020"
+}
