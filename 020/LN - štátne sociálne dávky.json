@@ -1,0 +1,43 @@
+{
+  "tags": [
+    "tlaciva"
+  ],
+  "owner": "admin",
+  "title": "LN - štátne sociálne dávky",
+  "shortcut": "tlssd",
+  "if": "",
+  "data": {
+    "_": {},
+    "formular": [
+      {
+        "id": 4,
+        "order": 0,
+        "props": {
+          "type": "formular"
+        },
+        "value": {
+          "type": {
+            "value": "Lekársky nález na účely štátnych sociálnych dávok",
+            "props": {
+              "propValue": "statne-soc-davky"
+            }
+          },
+          "form": {
+            "value": "",
+            "props": {}
+          },
+          "formData": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-08-21T07:31:51.645Z",
+  "mt": "2024-08-21T13:38:32.986Z",
+  "source": "curo-open/curo-vzory#/020"
+}
