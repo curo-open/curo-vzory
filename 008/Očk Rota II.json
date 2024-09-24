@@ -10,9 +10,6 @@
       "errors": {
         "30": [
           "sn"
-        ],
-        "32": [
-          "recommendedBy"
         ]
       }
     },
@@ -27,9 +24,9 @@
           "id": {
             "value": "[Z25.8] Potreba imunizácie proti inej bližšie určenej jednotlivej vírusovej chorobe",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z25.8",
               "idEzid": "02089522318@19",
-              "id": "Z25.8"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -50,24 +47,24 @@
           "id": {
             "value": "[RTV] Ochorenia vyvolané rotavírusmi",
             "props": {
-              "idClassid": "ockovanie",
+              "id": "RTV",
               "idEzid": "00000776898@3",
-              "id": "RTV"
+              "idClassid": "ockovanie"
             }
           },
           "datum": {
-            "value": "04.06.2024 10:30",
+            "value": "24.09.2024 13:38",
             "props": {
-              "propValue": "2024-06-04T08:30:13.682Z",
+              "propValue": "2024-09-24T11:38:19.010Z",
               "expr": "=teraz"
             }
           },
           "typ": {
             "value": "[2DAV] II. dávka",
             "props": {
-              "id": "2DAV",
+              "idClassid": "octyp",
               "idEzid": "02089891259@4",
-              "idClassid": "octyp"
+              "id": "2DAV"
             }
           },
           "pocet": {
@@ -103,27 +100,27 @@
           "id": {
             "value": "[52849] Rotarix perorálna suspenzia v stlačiteľnej tube | sus por 1x1,5 ml ( stlačiteľná PE tuba)",
             "props": {
-              "propPo_0": "PED",
-              "propKat": true,
-              "propOl": 1,
-              "propAtcName": "Rotavírusová očkovacia látka, živá oslabená",
-              "propSdl": 1,
-              "propCena": 53.55,
-              "propVnl": "R",
-              "propUzp_1zvj": 10.59,
-              "propBal": 1,
-              "propGp": 0,
-              "propIo": "ind.obm.",
-              "propUnit": "DF",
-              "propSpUhr": "S",
               "propDpl": 42.96,
-              "idClassid": "liek",
-              "idEzid": "00020970844",
-              "idF": "SUS POR",
-              "idSp": "ora",
-              "idAtc": "J07BH01",
+              "propSpUhr": "S",
+              "propUnit": "DF",
+              "propIo": "ind.obm.",
+              "propGp": 0,
+              "propBal": 1,
+              "propUzp_1zvj": 10.59,
+              "propVnl": "R",
+              "propCena": 53.55,
+              "propSdl": 1,
+              "propAtcName": "Rotavírusová očkovacia látka, živá oslabená",
+              "propOl": 1,
+              "propKat": true,
+              "propPo_0": "PED",
+              "id": 52849,
               "idUl": "",
-              "id": 52849
+              "idAtc": "J07BH01",
+              "idSp": "ora",
+              "idF": "SUS POR",
+              "idEzid": "00020970844",
+              "idClassid": "liek"
             }
           },
           "sn": {
@@ -152,44 +149,44 @@
         "id": 32,
         "order": 3,
         "props": {
-          "type": "r",
-          "error": true
+          "type": "r"
         },
         "value": {
           "id": {
             "value": "[52849] Rotarix perorálna suspenzia v stlačiteľnej tube | sus por 1x1,5 ml ( stlačiteľná PE tuba)",
             "props": {
-              "propPo_0": "PED",
-              "propKat": true,
-              "propOl": 1,
-              "propAtcName": "Rotavírusová očkovacia látka, živá oslabená",
-              "propSdl": 1,
-              "propCena": 53.55,
-              "propVnl": "R",
-              "propUzp_1zvj": 10.59,
-              "propBal": 1,
-              "propGp": 0,
-              "propIo": "ind.obm.",
-              "propUnit": "DF",
-              "propSpUhr": "S",
               "propDpl": 42.96,
-              "idClassid": "liek",
-              "idEzid": "00020970844",
-              "idF": "SUS POR",
-              "idSp": "ora",
-              "idAtc": "J07BH01",
+              "propSpUhr": "S",
+              "propUnit": "DF",
+              "propIo_0": "I00471",
+              "propGp": 0,
+              "propBal": 1,
+              "propUzp_1zvj": "10,590000",
+              "propAtcDoplnok": "p.o.",
+              "propVnl": "R",
+              "propCena": 53.55,
+              "propSdl": 1,
+              "propAtcName": "Rotavírusová očkovacia látka, živá oslabená",
+              "propOl": 1,
+              "propKat": true,
+              "propPo_0": "PED",
+              "id": 52849,
               "idUl": "",
-              "id": 52849
+              "idAtc": "J07BH01",
+              "idSp": "ora",
+              "idF": "SUS POR",
+              "idEzid": "00020970844",
+              "idClassid": "liek"
             }
           },
           "schedule": {
             "value": "Ad Manus Medici",
             "props": {
-              "propType": "AMM",
-              "propText": "",
-              "propPeriod_code": "D",
+              "propWay_code": "",
               "propPeriod_t": "denne",
-              "propWay_code": ""
+              "propPeriod_code": "D",
+              "propText": "",
+              "propType": "AMM"
             }
           },
           "qty": {
@@ -204,9 +201,7 @@
           },
           "recommendedBy": {
             "value": "",
-            "props": {
-              "error": "Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára"
-            }
+            "props": {}
           },
           "payoff": {
             "value": "42,96",
@@ -239,7 +234,7 @@
             }
           },
           "io": {
-            "value": "",
+            "value": "I00471",
             "props": {}
           },
           "limitDP": {
@@ -281,9 +276,9 @@
             "value": "[252a] Ochranné očkovanie perorálnou vakcínou, napríklad proti poliomyelitíde.",
             "props": {
               "propBody": 30,
-              "idClassid": "vykon",
+              "id": "252a",
               "idEzid": "00000467860@30",
-              "id": "252a"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -303,9 +298,9 @@
             "value": "[67] Príplatok u dieťaťa vo veku do piatich rokov pri výkonoch - odber krvi, injekcie, infúzie, transfúzie, infiltrácie, implantácie, odobratie sterov, punkcie a pri výkone očkovania.",
             "props": {
               "propBody": 100,
-              "idClassid": "vykon",
+              "id": 67,
               "idEzid": "00000466797@30",
-              "id": 67
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -317,13 +312,16 @@
     ]
   },
   "tags": [
+    "oc-rtv",
+    "sumar-rtv",
+    "prehlad-oc-trv",
     "ocko"
   ],
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "owner": "zavrel",
-  "ct": "2023-09-22T18:29:58.880Z",
-  "mt": "2024-06-04T08:30:39.537Z",
+  "ct": "2024-08-21T10:48:38.476Z",
+  "mt": "2024-09-24T11:38:21.167Z",
+  "owner": "admin",
   "source": "curo-open/curo-vzory#/008"
 }

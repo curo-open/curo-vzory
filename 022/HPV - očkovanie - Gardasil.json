@@ -1,0 +1,334 @@
+{
+  "tags": [
+    "sumar-hpv",
+    "prehlad-oc-hpv",
+    "ocko"
+  ],
+  "owner": "admin",
+  "title": "HPV - očkovanie - Gardasil",
+  "shortcut": "oc-hpvg",
+  "if": "",
+  "data": {
+    "_": {
+      "tid": 1,
+      "errors": {
+        "6": [
+          "sn"
+        ]
+      }
+    },
+    "s": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bez ťažkostí, prechlad. sa necíti<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 1,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "KP komp., TT 36,6°C, Intramuskulárne podanie inj. Bez komplikácií po podaní.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oc": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[HPV] Ochorenia vyvolané ľudskými papilomavírusmi",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000777037@3",
+              "id": "HPV"
+            }
+          },
+          "datum": {
+            "value": "17.07.2024 00:00",
+            "props": {
+              "propValue": "2024-07-16T22:00:00.000Z"
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "pocet": {
+            "value": "3",
+            "props": {}
+          },
+          "davka": {
+            "value": "",
+            "props": {}
+          },
+          "posledna": {
+            "value": "",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 5,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z25.8] Potreba imunizácie proti inej bližšie určenej jednotlivej vírusovej chorobe",
+            "props": {
+              "id": "Z25.8",
+              "idEzid": "02089522318@25",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ol": [
+      {
+        "id": 6,
+        "order": 4,
+        "props": {
+          "type": "ol",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[4660B] Gardasil 9 injekčná suspenzia v naplnenej injekčnej striekačke | sus inj 1x0,5 ml (striek.inj.skl.napl.+2 ihly)",
+            "props": {
+              "propDpl": 0,
+              "propSpUhr": "V",
+              "propUnit": "DF",
+              "propIo_0": "I00425",
+              "propGp": 0,
+              "propBal": 1,
+              "propUzp_1zvj": "122,460000",
+              "propAtcDoplnok": "parent.",
+              "propVnl": "R",
+              "propCena": 122.46,
+              "propSdl": 1,
+              "propAtcName": "Očkovacia látka proti papilomavírusu (ľudské typy 6, 11, 16, 18, 31, 33, 45, 52, 58)",
+              "propOl": 1,
+              "propKat": true,
+              "propPo_0": "PED",
+              "id": "4660B",
+              "idUl": "",
+              "idAtc": "J07BM03",
+              "idSp": "imu",
+              "idF": "SUS IRU",
+              "idEzid": "00021141379",
+              "idClassid": "liek"
+            }
+          },
+          "sn": {
+            "value": "",
+            "props": {
+              "error": "Číslo šarže je povinné."
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "mu": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 7,
+        "order": 5,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[4660B] Gardasil 9 injekčná suspenzia v naplnenej injekčnej striekačke | sus inj 1x0,5 ml (striek.inj.skl.napl.+2 ihly)",
+            "props": {
+              "propDpl": 0,
+              "propSpUhr": "V",
+              "propUnit": "DF",
+              "propIo_0": "I00425",
+              "propGp": 0,
+              "propBal": 1,
+              "propUzp_1zvj": "122,460000",
+              "propAtcDoplnok": "parent.",
+              "propVnl": "R",
+              "propCena": 122.46,
+              "propSdl": 1,
+              "propAtcName": "Očkovacia látka proti papilomavírusu (ľudské typy 6, 11, 16, 18, 31, 33, 45, 52, 58)",
+              "propOl": 1,
+              "propKat": true,
+              "propPo_0": "PED",
+              "id": "4660B",
+              "idUl": "",
+              "idAtc": "J07BM03",
+              "idSp": "imu",
+              "idF": "SUS IRU",
+              "idEzid": "00021141379",
+              "idClassid": "liek"
+            }
+          },
+          "schedule": {
+            "value": "Ad Manus Medici, SUS",
+            "props": {
+              "propUnit_id": "",
+              "propForm_t": "suspenzia",
+              "propForm_id": "SUS",
+              "propText": "",
+              "propPeriod_t": "denne",
+              "propPeriod_id": "D",
+              "propWay_t": "intramuskulárne (i.m.)",
+              "propWay_id": "IM",
+              "propIntervaldavkovania": "!denne",
+              "propType": "AMM"
+            }
+          },
+          "qty": {
+            "value": "0,1",
+            "props": {
+              "propValue": "0.10"
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "instruction_lek": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "io": {
+            "value": "I00425",
+            "props": {}
+          },
+          "limitDP": {
+            "value": "",
+            "props": {}
+          },
+          "aplikacnaZonaParovehoOrganu": {
+            "value": "bez určenia",
+            "props": {
+              "propValue": ""
+            }
+          },
+          "force": {
+            "value": "",
+            "props": {}
+          },
+          "zalozneAtributy": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "",
+            "props": {}
+          }
+        },
+        "tid": 1
+      }
+    ],
+    "vv": [
+      {
+        "id": 8,
+        "order": 6,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[252b] Očkovanie.",
+            "props": {
+              "propBody": 70,
+              "idClassid": "vykon",
+              "idEzid": "00000467878@45",
+              "id": "252b"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-09-24T10:10:25.484Z",
+  "mt": "2024-09-24T11:35:05.768Z",
+  "summary": "HPV očkovanie",
+  "description": "Očkovanie proti ľudskému papilomavírusu (HPV)",
+  "source": "curo-open/curo-vzory#/022"
+}

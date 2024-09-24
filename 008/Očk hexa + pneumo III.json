@@ -6,13 +6,7 @@
   "shortcut": "oc-hexapneu3",
   "if": "",
   "data": {
-    "_": {
-      "errors": {
-        "60": [
-          "recommendedBy"
-        ]
-      }
-    },
+    "_": {},
     "vd": [
       {
         "id": 51,
@@ -95,9 +89,9 @@
             }
           },
           "datum": {
-            "value": "04.06.2024 10:26",
+            "value": "24.09.2024 13:36",
             "props": {
-              "propValue": "2024-06-04T08:26:08.501Z",
+              "propValue": "2024-09-24T11:36:25.471Z",
               "expr": "=teraz"
             }
           },
@@ -145,9 +139,9 @@
             }
           },
           "datum": {
-            "value": "04.06.2024 10:26",
+            "value": "24.09.2024 13:36",
             "props": {
-              "propValue": "2024-06-04T08:26:11.869Z",
+              "propValue": "2024-09-24T11:36:25.473Z",
               "expr": "=teraz"
             }
           },
@@ -195,9 +189,9 @@
             }
           },
           "datum": {
-            "value": "04.06.2024 10:26",
+            "value": "24.09.2024 13:36",
             "props": {
-              "propValue": "2024-06-04T08:26:15.493Z",
+              "propValue": "2024-09-24T11:36:25.473Z",
               "expr": "=teraz"
             }
           },
@@ -245,9 +239,9 @@
             }
           },
           "datum": {
-            "value": "04.06.2024 10:26",
+            "value": "24.09.2024 13:36",
             "props": {
-              "propValue": "2024-06-04T08:26:18.652Z",
+              "propValue": "2024-09-24T11:36:25.474Z",
               "expr": "=teraz"
             }
           },
@@ -295,9 +289,9 @@
             }
           },
           "datum": {
-            "value": "04.06.2024 10:26",
+            "value": "24.09.2024 13:36",
             "props": {
-              "propValue": "2024-06-04T08:26:21.684Z",
+              "propValue": "2024-09-24T11:36:25.475Z",
               "expr": "=teraz"
             }
           },
@@ -345,9 +339,9 @@
             }
           },
           "datum": {
-            "value": "04.06.2024 10:26",
+            "value": "24.09.2024 13:36",
             "props": {
-              "propValue": "2024-06-04T08:26:25.453Z",
+              "propValue": "2024-09-24T11:36:25.475Z",
               "expr": "=teraz"
             }
           },
@@ -395,9 +389,9 @@
             }
           },
           "datum": {
-            "value": "04.06.2024 10:26",
+            "value": "24.09.2024 00:00",
             "props": {
-              "propValue": "2024-06-04T08:26:28.165Z",
+              "propValue": "2024-09-23T22:00:00.000Z",
               "expr": "=d"
             }
           },
@@ -539,11 +533,10 @@
     ],
     "r": [
       {
-        "id": 60,
+        "id": 64,
         "order": 9,
         "props": {
-          "type": "r",
-          "error": true
+          "type": "r"
         },
         "value": {
           "id": {
@@ -559,7 +552,7 @@
               "propCena": 426.75,
               "propVnl": "R",
               "propAtcDoplnok": "parent. povinné očkovanie sus. inj.",
-              "propUzp_1zvj": "42,899000",
+              "propUzp_1zvj": "42,675000",
               "propBal": 10,
               "propGp": 0,
               "propIo_1": "I01288",
@@ -598,9 +591,7 @@
           },
           "recommendedBy": {
             "value": "",
-            "props": {
-              "error": "Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára"
-            }
+            "props": {}
           },
           "payoff": {
             "value": "0",
@@ -615,11 +606,11 @@
             }
           },
           "instruction": {
-            "value": "",
+            "value": "|Exp. orig. No. (unam)",
             "props": {}
           },
           "instruction_lek": {
-            "value": "",
+            "value": "|Exp. orig. No. (unam)",
             "props": {}
           },
           "reasonPayoff": {
@@ -634,9 +625,7 @@
           },
           "io": {
             "value": "I00467",
-            "props": {
-              "propValue": "I00467"
-            }
+            "props": {}
           },
           "limitDP": {
             "value": "",
@@ -736,11 +725,11 @@
             }
           },
           "instruction": {
-            "value": "",
+            "value": "|Exp. orig. No. (unam)",
             "props": {}
           },
           "instruction_lek": {
-            "value": "",
+            "value": "|Exp. orig. No. (unam)",
             "props": {}
           },
           "reasonPayoff": {
@@ -884,13 +873,14 @@
     "oc-vhb",
     "oc-hib",
     "oc-ipv",
-    "oc-ipo"
+    "oc-ipo",
+    "ocko"
   ],
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "owner": "zavrel",
-  "ct": "2023-09-22T18:25:14.196Z",
-  "mt": "2024-06-04T08:26:51.614Z",
+  "ct": "2024-08-21T10:06:13.335Z",
+  "mt": "2024-09-24T11:36:31.097Z",
+  "owner": "admin",
   "source": "curo-open/curo-vzory#/008"
 }

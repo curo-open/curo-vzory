@@ -6,16 +6,7 @@
   "shortcut": "oc-mmr2",
   "if": "",
   "data": {
-    "_": {
-      "errors": {
-        "44": [
-          "recommendedBy"
-        ],
-        "46": [
-          "recommendedBy"
-        ]
-      }
-    },
+    "_": {},
     "vd": [
       {
         "id": 28,
@@ -27,9 +18,9 @@
           "id": {
             "value": "[Z27.4] Potreba imunizácie proti osýpkam – parotitíde – ružienke [MMR]",
             "props": {
-              "id": "Z27.4",
+              "idClassid": "diagnoza",
               "idEzid": "02089522417@19",
-              "idClassid": "diagnoza"
+              "id": "Z27.4"
             }
           },
           "text": {
@@ -50,24 +41,24 @@
           "id": {
             "value": "[MO] Morbilli",
             "props": {
-              "id": "MO",
+              "idClassid": "ockovanie",
               "idEzid": "00000346320@3",
-              "idClassid": "ockovanie"
+              "id": "MO"
             }
           },
           "datum": {
-            "value": "04.06.2024 10:29",
+            "value": "24.09.2024 13:35",
             "props": {
-              "propValue": "2024-06-04T08:29:01.351Z",
+              "propValue": "2024-09-24T11:35:49.547Z",
               "expr": "=teraz"
             }
           },
           "typ": {
             "value": "[2DAV] II. dávka",
             "props": {
-              "id": "2DAV",
+              "idClassid": "octyp",
               "idEzid": "02089891259@4",
-              "idClassid": "octyp"
+              "id": "2DAV"
             }
           },
           "pocet": {
@@ -100,24 +91,24 @@
           "id": {
             "value": "[M] Mumps",
             "props": {
-              "id": "M",
+              "idClassid": "ockovanie",
               "idEzid": "00000346346@3",
-              "idClassid": "ockovanie"
+              "id": "M"
             }
           },
           "datum": {
-            "value": "04.06.2024 10:29",
+            "value": "24.09.2024 13:35",
             "props": {
-              "propValue": "2024-06-04T08:29:05.813Z",
+              "propValue": "2024-09-24T11:35:49.548Z",
               "expr": "=teraz"
             }
           },
           "typ": {
             "value": "[2DAV] II. dávka",
             "props": {
-              "id": "2DAV",
+              "idClassid": "octyp",
               "idEzid": "02089891259@4",
-              "idClassid": "octyp"
+              "id": "2DAV"
             }
           },
           "pocet": {
@@ -150,24 +141,24 @@
           "id": {
             "value": "[R] Rubeola",
             "props": {
-              "id": "R",
+              "idClassid": "ockovanie",
               "idEzid": "00000346379@3",
-              "idClassid": "ockovanie"
+              "id": "R"
             }
           },
           "datum": {
-            "value": "04.06.2024 10:29",
+            "value": "24.09.2024 13:35",
             "props": {
-              "propValue": "2024-06-04T08:29:08.789Z",
+              "propValue": "2024-09-24T11:35:49.548Z",
               "expr": "=teraz"
             }
           },
           "typ": {
             "value": "[2DAV] II. dávka",
             "props": {
-              "id": "2DAV",
+              "idClassid": "octyp",
               "idEzid": "02089891259@4",
-              "idClassid": "octyp"
+              "id": "2DAV"
             }
           },
           "pocet": {
@@ -268,27 +259,27 @@
           "id": {
             "value": "[28654] Priorix | plv iol 10x0,5 ml+10x0,5 ml solv. (liek.inj.skl.+striek.inj.skl.napl.s 2 oddel.ihlami)",
             "props": {
-              "propPo_0": "PED",
-              "propKat": true,
-              "propOl": 1,
-              "propAtcName": "Očkovacia látka proti osýpkam, kombinácie s mumpsom a ružienkou, živá oslabená",
-              "propSdl": 10,
-              "propCena": 94.46,
-              "propVnl": "R",
-              "propUzp_1zvj": "9.446000",
-              "propBal": 10,
-              "propGp": 0,
-              "propIo": "ind.obm.",
-              "propUnit": "DF",
-              "propSpUhr": "V",
               "propDpl": 0,
-              "idClassid": "liek",
-              "idEzid": "00020631909",
-              "idF": "PLV IOL",
-              "idSp": "suc",
-              "idAtc": "J07BD52",
+              "propSpUhr": "V",
+              "propUnit": "DF",
+              "propIo": "ind.obm.",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": "9.446000",
+              "propVnl": "R",
+              "propCena": 94.46,
+              "propSdl": 10,
+              "propAtcName": "Očkovacia látka proti osýpkam, kombinácie s mumpsom a ružienkou, živá oslabená",
+              "propOl": 1,
+              "propKat": true,
+              "propPo_0": "PED",
+              "id": 28654,
               "idUl": "",
-              "id": 28654
+              "idAtc": "J07BD52",
+              "idSp": "suc",
+              "idF": "PLV IOL",
+              "idEzid": "00020631909",
+              "idClassid": "liek"
             }
           },
           "sn": {
@@ -321,27 +312,27 @@
           "id": {
             "value": "[36424] M-M-RVAXPRO prášok a disperzné prostredie na injekčnú suspenziu v naplnenej injekčnej striekačke | plv sul 10x liek.+10x solv. (skl.liek.+napl.skl.striek.s 2 samost.ihlami)",
             "props": {
-              "propPo_0": "PED",
-              "propKat": true,
-              "propOl": 1,
-              "propAtcName": "Očkovacia látka proti osýpkam, kombinácie s mumpsom a ružienkou, živá oslabená",
-              "propSdl": 10,
-              "propCena": 94.46,
-              "propVnl": "R",
-              "propUzp_1zvj": 9.446,
-              "propBal": 10,
-              "propGp": 0,
-              "propIo": "ind.obm.",
-              "propUnit": "DF",
-              "propSpUhr": "V",
               "propDpl": 0,
-              "idClassid": "liek",
-              "idEzid": "00020860508",
-              "idF": "PLV SUL",
-              "idSp": "suc",
-              "idAtc": "J07BD52",
+              "propSpUhr": "V",
+              "propUnit": "DF",
+              "propIo": "ind.obm.",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": 9.446,
+              "propVnl": "R",
+              "propCena": 94.46,
+              "propSdl": 10,
+              "propAtcName": "Očkovacia látka proti osýpkam, kombinácie s mumpsom a ružienkou, živá oslabená",
+              "propOl": 1,
+              "propKat": true,
+              "propPo_0": "PED",
+              "id": 36424,
               "idUl": "",
-              "id": 36424
+              "idAtc": "J07BD52",
+              "idSp": "suc",
+              "idF": "PLV SUL",
+              "idEzid": "00020860508",
+              "idClassid": "liek"
             }
           },
           "sn": {
@@ -368,48 +359,47 @@
         "id": 44,
         "order": 7,
         "props": {
-          "type": "r",
-          "error": true
+          "type": "r"
         },
         "value": {
           "id": {
             "value": "[28654] Priorix | plv isl 10x0,5 ml+10x0,5 ml solv. (liek.inj.skl.+striek.inj.skl.napl.s 2 oddel.ihlami)",
             "props": {
-              "propDpl": 0,
-              "propSpUhr": "V",
-              "propUnit": "DF",
-              "propIo_1": "I00477",
-              "propIo_0": "I00476",
-              "propGp": 0,
-              "propBal": 10,
-              "propUzp_1zvj": "9,446000",
-              "propAtcDoplnok": "parent.",
-              "propVnl": "R",
-              "propCena": 94.46,
-              "propSdl": 10,
-              "propAtcName": "Očkovacia látka proti osýpkam, kombinácie s mumpsom a ružienkou, živá oslabená",
-              "propOl": 1,
-              "propKat": true,
               "propPo_2": "PED",
               "propPo_1": "INF",
               "propPo_0": "ALG",
-              "id": 28654,
-              "idUl": "",
-              "idAtc": "J07BD52",
-              "idSp": "suc",
-              "idF": "PLV ISL",
+              "propKat": true,
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti osýpkam, kombinácie s mumpsom a ružienkou, živá oslabená",
+              "propSdl": 10,
+              "propCena": 94.46,
+              "propVnl": "R",
+              "propAtcDoplnok": "parent.",
+              "propUzp_1zvj": "9,446000",
+              "propBal": 10,
+              "propGp": 0,
+              "propIo_1": "I00477",
+              "propIo_0": "I00476",
+              "propUnit": "DF",
+              "propSpUhr": "V",
+              "propDpl": 0,
+              "idClassid": "liek",
               "idEzid": "00020631909",
-              "idClassid": "liek"
+              "idF": "PLV ISL",
+              "idSp": "suc",
+              "idAtc": "J07BD52",
+              "idUl": "",
+              "id": 28654
             }
           },
           "schedule": {
             "value": "Ad Manus Medici",
             "props": {
-              "propType": "AMM",
-              "propText": "",
-              "propPeriod_code": "D",
+              "propWay_code": "",
               "propPeriod_t": "denne",
-              "propWay_code": ""
+              "propPeriod_code": "D",
+              "propText": "",
+              "propType": "AMM"
             }
           },
           "qty": {
@@ -424,9 +414,7 @@
           },
           "recommendedBy": {
             "value": "",
-            "props": {
-              "error": "Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára"
-            }
+            "props": {}
           },
           "payoff": {
             "value": "0",
@@ -441,11 +429,11 @@
             }
           },
           "instruction": {
-            "value": "",
+            "value": "|Exp. orig. No. (unam)",
             "props": {}
           },
           "instruction_lek": {
-            "value": "",
+            "value": "|Exp. orig. No. (unam)",
             "props": {}
           },
           "reasonPayoff": {
@@ -494,48 +482,47 @@
         "id": 46,
         "order": 10,
         "props": {
-          "type": "r",
-          "error": true
+          "type": "r"
         },
         "value": {
           "id": {
             "value": "[36424] M-M-RVAXPRO prášok a disperzné prostredie na injekčnú suspenziu v naplnenej injekčnej striekačke | plv sul 10x liek.+10x solv. (skl.liek.+napl.skl.striek.s 2 samost.ihlami)",
             "props": {
-              "propDpl": 0,
-              "propSpUhr": "V",
-              "propUnit": "DF",
-              "propIo_1": "I00477",
-              "propIo_0": "I00476",
-              "propGp": 0,
-              "propBal": 10,
-              "propUzp_1zvj": "9,446000",
-              "propAtcDoplnok": "parent.",
-              "propVnl": "R",
-              "propCena": 94.46,
-              "propSdl": 10,
-              "propAtcName": "Očkovacia látka proti osýpkam, kombinácie s mumpsom a ružienkou, živá oslabená",
-              "propOl": 1,
-              "propKat": true,
               "propPo_2": "PED",
               "propPo_1": "INF",
               "propPo_0": "ALG",
-              "id": 36424,
-              "idUl": "",
-              "idAtc": "J07BD52",
-              "idSp": "sim",
-              "idF": "PLV SUL",
+              "propKat": true,
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti osýpkam, kombinácie s mumpsom a ružienkou, živá oslabená",
+              "propSdl": 10,
+              "propCena": 94.46,
+              "propVnl": "R",
+              "propAtcDoplnok": "parent.",
+              "propUzp_1zvj": "9,446000",
+              "propBal": 10,
+              "propGp": 0,
+              "propIo_1": "I00477",
+              "propIo_0": "I00476",
+              "propUnit": "DF",
+              "propSpUhr": "V",
+              "propDpl": 0,
+              "idClassid": "liek",
               "idEzid": "00020860508",
-              "idClassid": "liek"
+              "idF": "PLV SUL",
+              "idSp": "sim",
+              "idAtc": "J07BD52",
+              "idUl": "",
+              "id": 36424
             }
           },
           "schedule": {
             "value": "Ad Manus Medici",
             "props": {
-              "propType": "AMM",
-              "propText": "",
-              "propPeriod_code": "D",
+              "propWay_code": "",
               "propPeriod_t": "denne",
-              "propWay_code": ""
+              "propPeriod_code": "D",
+              "propText": "",
+              "propType": "AMM"
             }
           },
           "qty": {
@@ -550,9 +537,7 @@
           },
           "recommendedBy": {
             "value": "",
-            "props": {
-              "error": "Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára"
-            }
+            "props": {}
           },
           "payoff": {
             "value": "0",
@@ -567,11 +552,11 @@
             }
           },
           "instruction": {
-            "value": "",
+            "value": "|Exp. orig. No. (unam)",
             "props": {}
           },
           "instruction_lek": {
-            "value": "",
+            "value": "|Exp. orig. No. (unam)",
             "props": {}
           },
           "reasonPayoff": {
@@ -586,9 +571,7 @@
           },
           "io": {
             "value": "I00476",
-            "props": {
-              "propValue": "I00476"
-            }
+            "props": {}
           },
           "limitDP": {
             "value": "",
@@ -629,9 +612,9 @@
             "value": "[252b] Očkovanie.",
             "props": {
               "propBody": 70,
-              "id": "252b",
+              "idClassid": "vykon",
               "idEzid": "00000467878@9",
-              "idClassid": "vykon"
+              "id": "252b"
             }
           },
           "count": {
@@ -651,9 +634,9 @@
             "value": "[67] Príplatok u dieťaťa vo veku do piatich rokov pri výkonoch - odber krvi, injekcie, infúzie, transfúzie, infiltrácie, implantácie, odobratie sterov, punkcie a pri výkone očkovania.",
             "props": {
               "propBody": 100,
-              "idClassid": "vykon",
+              "id": 67,
               "idEzid": "00000466797@30",
-              "id": 67
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -667,15 +650,16 @@
   "tags": [
     "oc-mo",
     "oc-m",
-    "oc-r"
+    "oc-r",
+    "ocko"
   ],
   "vars": {
     "priorix": "ON"
   },
   "allowedUsers": [],
   "allowedIdentities": [],
-  "owner": "zavrel",
-  "ct": "2023-09-22T18:33:37.081Z",
-  "mt": "2024-06-04T08:29:23.645Z",
+  "ct": "2024-08-21T10:18:48.797Z",
+  "mt": "2024-09-24T11:36:02.331Z",
+  "owner": "admin",
   "source": "curo-open/curo-vzory#/022"
 }
