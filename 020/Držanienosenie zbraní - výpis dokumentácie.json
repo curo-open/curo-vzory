@@ -1,0 +1,63 @@
+{
+  "tags": [],
+  "owner": "vld",
+  "title": "Držanie/nosenie zbraní - výpis dokumentácie",
+  "shortcut": "dz",
+  "if": "",
+  "data": {
+    "_": {},
+    "tl": [
+      {
+        "id": 42,
+        "order": 0,
+        "props": {
+          "type": "tl"
+        },
+        "value": {
+          "nadpis": {
+            "value": "<b>Výpis zo všeobecnej zdravotnej dokumentácie</b><br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "<i>v znení vyhlášky 105/2012 MZ SR zo dňa 8. marca 2012, ktorou sa mení a dopĺňa vyhláška MZ SR č.<br>229/2011 Z.z. o postupe pri posudzovaní zdravotnej spôsobilosti a psychyckej spôsobilosti na držanie<br>alebo nosenie zbraní a streliva a o náležitostiach lekárskeho posudku a psychologického posudku:</i><br>",
+            "props": {}
+          },
+          "obsah": {
+            "value": "<br><!--StartFragment--><b>I.</b>\n<table>\n<tbody><tr>\n<td width=\"80%\">a. Organické poškodenia centrálneho nervového systému\n</td>\n<td width=\"150px\">\náno&nbsp;&nbsp;nie&nbsp;&nbsp;neobsahuje\n</td>\n</tr>\n\n<tr>\n<td>b. Paranoidná, schizoidná, dissociálna, emočne nestabilná a hraničná porucha osobnosti\n</td>\n<td>\náno&nbsp;&nbsp;nie&nbsp;&nbsp;neobsahuje\n</td>\n</tr>\n\n<tr>\n<td>c. Ťažšie formy afektívnych porúch (depresia, mánia, bipolárna porucha\n</td>\n<td>\náno&nbsp;&nbsp;nie&nbsp;&nbsp;neobsahuje\n</td>\n</tr>\n\n<tr>\n<td>d. Poruchy psychiky a správania zapríčinené užívanímpsychoaktívnych látok aj v osobnej anamnéze, ak nie jedokázaná a kontrolovaná abstinencia trvajúca najmenej 3 roky\n</td>\n<td>\náno&nbsp;&nbsp;nie&nbsp;&nbsp;neobsahuje\n</td>\n</tr>\n\n<tr>\n<td>e. Sklon k závislosti od alkoholu, alebo od inej návykovej látky\n</td>\n<td>\náno&nbsp;&nbsp;nie&nbsp;&nbsp;neobsahuje\n</td>\n</tr>\n\n<tr>\n<td>f. Závažné ochorenia a úrazy, ktoré môžu mať vplyv načinnosť centrálneho nervového systému.\n</td>\n<td>\náno&nbsp;&nbsp;nie&nbsp;&nbsp;neobsahuje\n</td>\n</tr>\n\n<tr>\n<td>g. Agresivita, impulzivita, explozivita,emotívna labilita\n</td>\n<td>\náno&nbsp;&nbsp;nie&nbsp;&nbsp;neobsahuje\n</td>\n</tr>\n\n<tr>\n<td>h. Poznámky / iné dôležité skutočnosti:\n</td>\n<td>\n\n</td>\n</tr>\n</tbody></table><b><br><br>II.</b><br>a Záver z minulého posúdenia psychickej spôsobilosti žiadateľa alebo držiteľa<br><br>spôsobilý                       nespôsobilý                     neobsahuje<br><br><br>Dňa: <span>{{ dekurz.datum }}</span>    <br><br><br>",
+            "props": {}
+          },
+          "hlavicka": {
+            "value": "Aj tabuľka s údajmi pacienta",
+            "props": {
+              "propValue": 2
+            }
+          },
+          "podpis": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "peciatka": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "pageFormat": {
+            "value": "A4",
+            "props": {
+              "propValue": "A4"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-10-11T07:28:56.642Z",
+  "mt": "2024-10-11T07:32:06.126Z",
+  "source": "curo-open/curo-vzory#/020"
+}

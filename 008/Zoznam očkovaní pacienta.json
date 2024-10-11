@@ -1,0 +1,35 @@
+{
+  "title": "Zoznam očkovaní pacienta",
+  "owner": "admin",
+  "shortcut": "ocp",
+  "summary": "",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"oc\")|trans(\"text\")}}<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "sestra",
+    "ocko"
+  ],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-10-11T07:29:03.301Z",
+  "mt": "2024-10-11T07:38:01.848Z",
+  "source": "curo-open/curo-vzory#/022"
+}
