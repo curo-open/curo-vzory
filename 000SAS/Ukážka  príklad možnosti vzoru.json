@@ -1995,98 +1995,33 @@
         }
       },
       {
-        "id": 212,
+        "id": 283,
         "order": 160,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "",
+            "value": "<b>Pouzi hodnotu vahy na vypocet davkovania</b><br>",
             "props": {}
           }
         }
       },
       {
-        "id": 45,
-        "order": 161,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "<b>Trasformacie dat </b><br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 84,
-        "order": 162,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "vysledkok sa trasformuje na text(nevlozi sa sekcia ale text) - |trans(\"text\")<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 79,
-        "order": 163,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "vrateny vysledok sa prevedie na cislo(kolko bolo najdenych vysledkov) - |trans(\"length\")<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 80,
-        "order": 164,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "mozni specifikovat zaciatok textu podla ktoreho hladat(filtrovat) - |trans(\"startsWith\", \"I10\")<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 81,
-        "order": 165,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "triedi položky - |sort('sekciaDatum', 'asc')<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 82,
+        "id": 291,
         "order": 166,
         "props": {
           "type": "t"
         },
         "value": {
           "t": {
-            "value": "spoji premmenne pomocou &lt;spojitka ciarka, bodka&gt; |trans('joinStrings', ',')<br>",
+            "value": "Dávkovanie vypočítané na základe hmotnosti {{ var.vaha }}kg a dávky <span>10 mg/kg = {{ var.davkamg }}mg. Dávka v ml {{ var.davkamg }}mg/40mg = {{ var.davkamlPresne }}ml, kde 1ml obsahuje 40mg liečiva.</span><br>",
             "props": {}
           }
         }
       },
       {
-        "id": 83,
+        "id": 212,
         "order": 167,
         "props": {
           "type": "t"
@@ -2099,8 +2034,99 @@
         }
       },
       {
-        "id": 49,
+        "id": 45,
         "order": 168,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Trasformacie dat </b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 84,
+        "order": 169,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "vysledkok sa trasformuje na text(nevlozi sa sekcia ale text) - |trans(\"text\")<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 79,
+        "order": 170,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "vrateny vysledok sa prevedie na cislo(kolko bolo najdenych vysledkov) - |trans(\"length\")<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 80,
+        "order": 171,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "mozni specifikovat zaciatok textu podla ktoreho hladat(filtrovat) - |trans(\"startsWith\", \"I10\")<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 81,
+        "order": 172,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "triedi položky - |sort('sekciaDatum', 'asc')<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 82,
+        "order": 173,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "spoji premmenne pomocou &lt;spojitka ciarka, bodka&gt; |trans('joinStrings', ',')<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 83,
+        "order": 174,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 49,
+        "order": 175,
         "props": {
           "type": "t"
         },
@@ -2113,7 +2139,7 @@
       },
       {
         "id": 50,
-        "order": 169,
+        "order": 176,
         "props": {
           "type": "t"
         },
@@ -2126,7 +2152,7 @@
       },
       {
         "id": 51,
-        "order": 170,
+        "order": 177,
         "props": {
           "type": "t"
         },
@@ -2139,7 +2165,7 @@
       },
       {
         "id": 52,
-        "order": 171,
+        "order": 178,
         "props": {
           "type": "t"
         },
@@ -2152,7 +2178,7 @@
       },
       {
         "id": 222,
-        "order": 172,
+        "order": 179,
         "props": {
           "type": "t"
         },
@@ -2165,7 +2191,7 @@
       },
       {
         "id": 88,
-        "order": 173,
+        "order": 180,
         "props": {
           "type": "t"
         },
@@ -2178,7 +2204,7 @@
       },
       {
         "id": 269,
-        "order": 174,
+        "order": 181,
         "props": {
           "type": "t"
         },
@@ -2191,7 +2217,7 @@
       },
       {
         "id": 266,
-        "order": 175,
+        "order": 182,
         "props": {
           "type": "t"
         },
@@ -2204,7 +2230,7 @@
       },
       {
         "id": 268,
-        "order": 177,
+        "order": 184,
         "props": {
           "type": "t"
         },
@@ -2217,7 +2243,7 @@
       },
       {
         "id": 265,
-        "order": 178,
+        "order": 185,
         "props": {
           "type": "t"
         },
@@ -2230,7 +2256,7 @@
       },
       {
         "id": 89,
-        "order": 179,
+        "order": 186,
         "props": {
           "type": "t"
         },
@@ -2243,7 +2269,7 @@
       },
       {
         "id": 90,
-        "order": 180,
+        "order": 187,
         "props": {
           "type": "t"
         },
@@ -2256,7 +2282,7 @@
       },
       {
         "id": 91,
-        "order": 181,
+        "order": 188,
         "props": {
           "type": "t"
         },
@@ -2269,7 +2295,7 @@
       },
       {
         "id": 92,
-        "order": 182,
+        "order": 189,
         "props": {
           "type": "t"
         },
@@ -2282,7 +2308,7 @@
       },
       {
         "id": 102,
-        "order": 183,
+        "order": 190,
         "props": {
           "type": "t"
         },
@@ -2295,7 +2321,7 @@
       },
       {
         "id": 126,
-        "order": 184,
+        "order": 191,
         "props": {
           "type": "t"
         },
@@ -2308,7 +2334,7 @@
       },
       {
         "id": 127,
-        "order": 185,
+        "order": 192,
         "props": {
           "type": "t"
         },
@@ -2321,7 +2347,7 @@
       },
       {
         "id": 128,
-        "order": 186,
+        "order": 193,
         "props": {
           "type": "t"
         },
@@ -2334,7 +2360,7 @@
       },
       {
         "id": 103,
-        "order": 187,
+        "order": 194,
         "props": {
           "type": "t"
         },
@@ -2347,7 +2373,7 @@
       },
       {
         "id": 104,
-        "order": 188,
+        "order": 195,
         "props": {
           "type": "t"
         },
@@ -2360,7 +2386,7 @@
       },
       {
         "id": 106,
-        "order": 189,
+        "order": 196,
         "props": {
           "type": "t"
         },
@@ -2373,7 +2399,7 @@
       },
       {
         "id": 122,
-        "order": 191,
+        "order": 198,
         "props": {
           "type": "t"
         },
@@ -2386,7 +2412,7 @@
       },
       {
         "id": 147,
-        "order": 192,
+        "order": 199,
         "props": {
           "type": "t"
         },
@@ -2399,7 +2425,7 @@
       },
       {
         "id": 148,
-        "order": 193,
+        "order": 200,
         "props": {
           "type": "t"
         },
@@ -2412,7 +2438,7 @@
       },
       {
         "id": 149,
-        "order": 194,
+        "order": 201,
         "props": {
           "type": "t"
         },
@@ -2425,7 +2451,7 @@
       },
       {
         "id": 245,
-        "order": 195,
+        "order": 202,
         "props": {
           "type": "t"
         },
@@ -2438,7 +2464,7 @@
       },
       {
         "id": 150,
-        "order": 196,
+        "order": 203,
         "props": {
           "type": "t"
         },
@@ -2451,7 +2477,7 @@
       },
       {
         "id": 151,
-        "order": 197,
+        "order": 204,
         "props": {
           "type": "t"
         },
@@ -2464,7 +2490,7 @@
       },
       {
         "id": 152,
-        "order": 198,
+        "order": 205,
         "props": {
           "type": "t"
         },
@@ -2477,7 +2503,7 @@
       },
       {
         "id": 153,
-        "order": 199,
+        "order": 206,
         "props": {
           "type": "t"
         },
@@ -2490,7 +2516,7 @@
       },
       {
         "id": 154,
-        "order": 200,
+        "order": 207,
         "props": {
           "type": "t"
         },
@@ -2503,97 +2529,6 @@
       },
       {
         "id": 246,
-        "order": 201,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 247,
-        "order": 202,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "<b>Zobraz ako text vsetky hodnoty zvolenej sekcie</b><br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 251,
-        "order": 203,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "zobrazi vsetky diagnozy ako text z celej historie<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 249,
-        "order": 204,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "<span>{{sessions|getSections('vd')|trans('join', 't')}}<span>&nbsp;</span></span><br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 248,
-        "order": 205,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "zobrazi vsetky diagnozy ako text z aktualneho dekurz<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 250,
-        "order": 206,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "<span>{{sessions|getSections('vd')|where(\"d.isCurrent\")|trans('join', 't')}}<span>&nbsp;</span></span><br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 253,
-        "order": 207,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 244,
         "order": 208,
         "props": {
           "type": "t"
@@ -2606,8 +2541,99 @@
         }
       },
       {
-        "id": 230,
+        "id": 247,
         "order": 209,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Zobraz ako text vsetky hodnoty zvolenej sekcie</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 251,
+        "order": 210,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "zobrazi vsetky diagnozy ako text z celej historie<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 249,
+        "order": 211,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<span>{{sessions|getSections('vd')|trans('join', 't')}}<span>&nbsp;</span></span><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 248,
+        "order": 212,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "zobrazi vsetky diagnozy ako text z aktualneho dekurz<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 250,
+        "order": 213,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<span>{{sessions|getSections('vd')|where(\"d.isCurrent\")|trans('join', 't')}}<span>&nbsp;</span></span><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 253,
+        "order": 214,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 244,
+        "order": 215,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 230,
+        "order": 216,
         "props": {
           "type": "t"
         },
@@ -2713,8 +2739,123 @@
         }
       },
       {
+        "id": 285,
+        "order": 161,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "vaha",
+            "props": {}
+          },
+          "type": {
+            "value": "výraz",
+            "props": {
+              "propValue": "expr"
+            }
+          },
+          "value": {
+            "value": "sessions|getSections(\"zfp\")|where(\"i==0\")[0].s.value.weight.props.propValue || sessions|getSections(\"zfp\")|where(\"i==0\")[0].s.value.weight.value ",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 286,
+        "order": 162,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "davkamg",
+            "props": {}
+          },
+          "type": {
+            "value": "výraz",
+            "props": {
+              "propValue": "expr"
+            }
+          },
+          "value": {
+            "value": "var.vaha * 10",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 287,
+        "order": 163,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "davkamlPresne",
+            "props": {}
+          },
+          "type": {
+            "value": "výraz",
+            "props": {
+              "propValue": "expr"
+            }
+          },
+          "value": {
+            "value": "var.davkamg / 40",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 288,
+        "order": 164,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "davkamlZaokruhleneHore",
+            "props": {}
+          },
+          "type": {
+            "value": "výraz",
+            "props": {
+              "propValue": "expr"
+            }
+          },
+          "value": {
+            "value": "mathCeil(2 * var.davkamg / 40) / 2",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 289,
+        "order": 165,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "davkamlZaokruhleneNajblizsie",
+            "props": {}
+          },
+          "type": {
+            "value": "výraz",
+            "props": {
+              "propValue": "expr"
+            }
+          },
+          "value": {
+            "value": "mathRound(2 * var.davkamg / 40) / 2",
+            "props": {}
+          }
+        }
+      },
+      {
         "id": 267,
-        "order": 176,
+        "order": 183,
         "props": {
           "type": "premenna"
         },
@@ -2804,7 +2945,7 @@
     "vv": [
       {
         "id": 125,
-        "order": 190,
+        "order": 197,
         "props": {
           "type": "vv"
         },
@@ -2833,7 +2974,7 @@
   "allowedIdentities": [],
   "description": "",
   "ct": "2024-02-01T13:15:51.553Z",
-  "mt": "2024-03-19T14:18:33.430Z",
+  "mt": "2024-10-23T12:11:50.162Z",
   "type": null,
   "owner": "admin",
   "source": "curo-open/curo-vzory#/000"

@@ -1,0 +1,295 @@
+{
+  "title": "Rcp - Sumamed forte | plv sir 1x30 ml",
+  "owner": "admin",
+  "shortcut": "rcpsum",
+  "if": "",
+  "data": {
+    "_": {
+      "errors": {
+        "11": [
+          "schedule"
+        ]
+      }
+    },
+    "premenna": [
+      {
+        "id": 3,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "vaha",
+            "props": {}
+          },
+          "type": {
+            "value": "výraz",
+            "props": {
+              "propValue": "expr"
+            }
+          },
+          "value": {
+            "value": "sessions|getSections(\"zfp\")|where(\"i==0\")[0].s.value.weight.props.propValue || sessions|getSections(\"zfp\")|where(\"i==0\")[0].s.value.weight.value ",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 17,
+        "order": 1,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "davkamg",
+            "props": {}
+          },
+          "type": {
+            "value": "výraz",
+            "props": {
+              "propValue": "expr"
+            }
+          },
+          "value": {
+            "value": "var.vaha * 10",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 18,
+        "order": 2,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "davkamlPresne",
+            "props": {}
+          },
+          "type": {
+            "value": "výraz",
+            "props": {
+              "propValue": "expr"
+            }
+          },
+          "value": {
+            "value": "var.davkamg / 40",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 22,
+        "order": 3,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "davkamlZaokruhleneHore",
+            "props": {}
+          },
+          "type": {
+            "value": "výraz",
+            "props": {
+              "propValue": "expr"
+            }
+          },
+          "value": {
+            "value": "mathCeil(2 * var.davkamg / 40) / 2",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 23,
+        "order": 4,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "davkamlZaokruhleneNajblizsie",
+            "props": {}
+          },
+          "type": {
+            "value": "výraz",
+            "props": {
+              "propValue": "expr"
+            }
+          },
+          "value": {
+            "value": "mathRound(2 * var.davkamg / 40) / 2",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 9,
+        "order": 5,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[J06.9] Akútna infekcia horných dýchacích ciest, bližšie neurčená",
+            "props": {
+              "propDanger": 1,
+              "idClassid": "diagnoza",
+              "idEzid": "02089403436@25",
+              "id": "J06.9"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t": [
+      {
+        "id": 21,
+        "order": 6,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Dávkovanie vypočítané na základe hmotnosti {{ var.vaha }}kg a dávky <span>10 mg/kg = {{ var.davkamg }}mg. Dávka v ml {{ var.davkamg }}mg/40mg = {{ var.davkamlPresne }}ml, kde 1ml obsahuje 40mg liečiva.</span><br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 11,
+        "order": 7,
+        "props": {
+          "type": "r",
+          "error": true
+        },
+        "value": {
+          "id": {
+            "value": "[26538] Sumamed forte | plv sir 1x30 ml (fľ.HDPE)",
+            "props": {
+              "propKat": true,
+              "propOl": 0,
+              "propAtcName": "Azitromycín",
+              "propSdl": 4,
+              "propCena": 9.29,
+              "propVnl": "R",
+              "propAtcDoplnok": "p.o. 40 mg/ml",
+              "propUzp_1zvj": "1,742000",
+              "propBal": 1,
+              "propGp": 1,
+              "propIo_1": "I99999",
+              "propIo_0": "I01203",
+              "propUnit": "DF",
+              "propSpUhr": "S",
+              "propDpl": 2.32,
+              "idClassid": "liek",
+              "idEzid": "00020575791",
+              "idF": "PLV SIR",
+              "idSp": "ora",
+              "idAtc": "J01FA10",
+              "idUl": "",
+              "id": 26538
+            }
+          },
+          "schedule": {
+            "value": "1x{{ var.davkamlPresne }}ml",
+            "props": {
+              "error": "Chyba zápisu dávkovania. (SyntaxError: Expected [0-9] or integer but '{' found.)"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "noReplacement": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "payoff": {
+            "value": "2,32",
+            "props": {
+              "propValue": 2.32
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "instruction_lek": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "io": {
+            "value": "I99999",
+            "props": {}
+          },
+          "limitDP": {
+            "value": "",
+            "props": {}
+          },
+          "aplikacnaZonaParovehoOrganu": {
+            "value": "bez určenia",
+            "props": {
+              "propValue": ""
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "zalozneAtributy": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-10-23T11:34:21.405Z",
+  "mt": "2024-10-23T12:13:54.798Z",
+  "source": "curo-open/curo-vzory#/000"
+}
