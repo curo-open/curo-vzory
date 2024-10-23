@@ -1,6 +1,6 @@
 {
-  "title": "CHR - Chrípka očkovanie - Vaxigrip",
-  "shortcut": "oc-chrv",
+  "title": "Očk COV 19 - Comirnaty",
+  "shortcut": "oc-cov19d",
   "if": "",
   "data": {
     "_": {},
@@ -99,15 +99,7 @@
             "value": "",
             "props": {}
           },
-          "oh": {
-            "value": "",
-            "props": {}
-          },
-          "ob": {
-            "value": "",
-            "props": {}
-          },
-          "whr": {
+          "op": {
             "value": "",
             "props": {}
           },
@@ -131,17 +123,17 @@
         },
         "value": {
           "id": {
-            "value": "[CHR] Chrípka",
+            "value": "[COV] Covid-19",
             "props": {
-              "id": "CHR",
-              "idEzid": "00000776815",
+              "id": "COV",
+              "idEzid": "02089905018@3",
               "idClassid": "ockovanie"
             }
           },
           "datum": {
-            "value": "23.10.2024 10:03",
+            "value": "23.10.2024 14:04",
             "props": {
-              "propValue": "2024-10-23T08:03:14.895Z",
+              "propValue": "2024-10-23T12:04:03.184Z",
               "expr": "=teraz"
             }
           },
@@ -177,11 +169,11 @@
         },
         "value": {
           "id": {
-            "value": "[Z25.1] Potreba imunizácie výlučne proti chrípke",
+            "value": "[Z25.70] Potreba imunizácie výlučne proti COVID-19, očkovacia látka Tozinameran",
             "props": {
               "idClassid": "diagnoza",
-              "idEzid": "02089522300@9",
-              "id": "Z25.1"
+              "idEzid": "02089905034@25",
+              "id": "Z25.70"
             }
           },
           "text": {
@@ -193,32 +185,29 @@
     ],
     "ol": [
       {
-        "id": 16,
+        "id": 3,
         "order": 6,
         "props": {
           "type": "ol"
         },
         "value": {
           "id": {
-            "value": "[1224C] Vaxigrip Tetra | sus iru 10x0,5 ml (striek.inj.skl.napl. s ihlami)",
+            "value": "[6895E] Comirnaty JN.1 10 mikrogramov/dávka koncentrát na injekčnú disperziu | con dsi 10x1,3 ml (liek.inj.skl.)",
             "props": {
-              "propDpl": 54.6,
-              "propSpUhr": "V",
-              "propIo": "ind.obm.",
-              "propGp": 0,
-              "propUzp_1zvj": 5.71,
-              "propVnl": "R",
-              "propCena": 111.7,
-              "propSdl": 10,
-              "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
+              "propKat": false,
               "propOl": 1,
-              "id": "1224C",
+              "propAtcName": "Očkovacia látka proti Covid-19, na báze RNA",
+              "propVnl": "R",
+              "propBal": 10,
+              "propGp": 0,
+              "propUnit": "DF",
+              "idClassid": "liek",
+              "idEzid": "00021457379",
+              "idF": "CON DSI",
+              "idSp": "imu",
+              "idAtc": "J07BN01",
               "idUl": "",
-              "idAtc": "J07BB02",
-              "idSp": "ims",
-              "idF": "SUS IRU",
-              "idEzid": "00021211925",
-              "idClassid": "liek"
+              "id": "6895E"
             }
           },
           "sn": {
@@ -246,40 +235,42 @@
     ],
     "r": [
       {
-        "id": 14,
+        "id": 13,
         "order": 7,
         "props": {
           "type": "r"
         },
         "value": {
           "id": {
-            "value": "[1223C] Vaxigrip Tetra | sus iru 1x0,5 ml (striek.inj.skl.napl. s ihlou)",
+            "value": "[6895E] Comirnaty JN.1 10 mikrogramov/dávka koncentrát na injekčnú disperziu | con dsi 10x1,3 ml (liek.inj.skl.)",
             "props": {
               "propKat": false,
               "propOl": 1,
-              "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
+              "propAtcName": "Očkovacia látka proti Covid-19, na báze RNA",
               "propVnl": "R",
-              "propBal": 1,
+              "propBal": 10,
               "propGp": 0,
               "propUnit": "DF",
               "idClassid": "liek",
-              "idEzid": "00021221619",
-              "idF": "SUS IRU",
-              "idSp": "ims",
-              "idAtc": "J07BB02",
+              "idEzid": "00021457379",
+              "idF": "CON DSI",
+              "idSp": "imu",
+              "idAtc": "J07BN01",
               "idUl": "",
-              "id": "1223C"
+              "id": "6895E"
             }
           },
           "schedule": {
             "value": "Ad Manus Medici, SUS",
             "props": {
-              "propWay_code": "",
-              "propPeriod_t": "denne",
-              "propPeriod_code": "D",
-              "propForm_id": "SUS",
+              "propUnit_id": "",
               "propForm_t": "suspenzia",
+              "propForm_id": "SUS",
               "propText": "",
+              "propPeriod_t": "denne",
+              "propPeriod_id": "D",
+              "propWay_id": "",
+              "propIntervaldavkovania": "!denne",
               "propType": "AMM"
             }
           },
@@ -370,9 +361,9 @@
             "value": "[252b] Očkovanie.",
             "props": {
               "propBody": 70,
-              "id": "252b",
-              "idEzid": "00000467878@9",
-              "idClassid": "vykon"
+              "idClassid": "vykon",
+              "idEzid": "00000467878@46",
+              "id": "252b"
             }
           },
           "count": {
@@ -384,20 +375,20 @@
     ]
   },
   "tags": [
-    "sumar-chr",
-    "prehlad-oc-chr",
+    "sumar-cov",
+    "prehlad-oc-cov",
     "ocko"
   ],
   "vars": {
     "sarza": ""
   },
-  "summary": "CHR - Chrípka očkovanie",
+  "summary": "COVd - Covid 19 očkovanie",
   "type": "examination",
-  "description": "Očkovanie proti vírusu chrípky",
+  "description": "Očkovanie proti vírusu Covid",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "ct": "2024-10-22T11:52:17.646Z",
-  "mt": "2024-10-23T08:03:28.075Z",
+  "mt": "2024-10-23T12:04:27.318Z",
+  "ct": "2024-10-23T08:37:01.845Z",
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/020"
+  "source": "curo-open/curo-vzory#/008"
 }

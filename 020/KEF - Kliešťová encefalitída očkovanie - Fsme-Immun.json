@@ -1,12 +1,14 @@
 {
-  "title": "CHR - Chrípka očkovanie - Vaxigrip",
-  "shortcut": "oc-chrv",
+  "title": "KEF - Kliešťová encefalitída očkovanie - Fsme-Immun",
+  "shortcut": "oc-kef",
+  "description": "Očkovanie proti Kliešťovej encefalitíde (Kliešťová encefalitída)",
+  "summary": "KEF - Kliešťová encefalitída očkovanie",
   "if": "",
   "data": {
     "_": {},
     "premenna": [
       {
-        "id": 27,
+        "id": 10,
         "order": 0,
         "props": {
           "type": "premenna"
@@ -31,7 +33,7 @@
     ],
     "s": [
       {
-        "id": 9,
+        "id": 2,
         "order": 1,
         "props": {
           "type": "s"
@@ -46,7 +48,7 @@
     ],
     "o": [
       {
-        "id": 11,
+        "id": 3,
         "order": 2,
         "props": {
           "type": "o"
@@ -59,90 +61,27 @@
         }
       }
     ],
-    "zfp": [
-      {
-        "id": 25,
-        "order": 3,
-        "props": {
-          "type": "zfp"
-        },
-        "value": {
-          "sys": {
-            "value": "",
-            "props": {}
-          },
-          "diast": {
-            "value": "",
-            "props": {}
-          },
-          "pulse": {
-            "value": "",
-            "props": {}
-          },
-          "sf": {
-            "value": "",
-            "props": {}
-          },
-          "df": {
-            "value": "",
-            "props": {}
-          },
-          "weight": {
-            "value": "",
-            "props": {}
-          },
-          "height": {
-            "value": "",
-            "props": {}
-          },
-          "bmi": {
-            "value": "",
-            "props": {}
-          },
-          "oh": {
-            "value": "",
-            "props": {}
-          },
-          "ob": {
-            "value": "",
-            "props": {}
-          },
-          "whr": {
-            "value": "",
-            "props": {}
-          },
-          "o2": {
-            "value": "",
-            "props": {}
-          },
-          "temp": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
     "oc": [
       {
-        "id": 2,
-        "order": 4,
+        "id": 4,
+        "order": 3,
         "props": {
           "type": "oc"
         },
         "value": {
           "id": {
-            "value": "[CHR] Chrípka",
+            "value": "[KEF] Kliešťová encefalitída",
             "props": {
-              "id": "CHR",
-              "idEzid": "00000776815",
+              "id": "KEF",
+              "idEzid": "00000776955@2",
               "idClassid": "ockovanie"
             }
           },
           "datum": {
-            "value": "23.10.2024 10:03",
+            "value": "23.10.2024 00:00",
             "props": {
-              "propValue": "2024-10-23T08:03:14.895Z",
-              "expr": "=teraz"
+              "propValue": "2024-10-22T22:00:00.000Z",
+              "expr": "=dnes"
             }
           },
           "typ": {
@@ -168,64 +107,34 @@
         }
       }
     ],
-    "vd": [
-      {
-        "id": 5,
-        "order": 5,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[Z25.1] Potreba imunizácie výlučne proti chrípke",
-            "props": {
-              "idClassid": "diagnoza",
-              "idEzid": "02089522300@9",
-              "id": "Z25.1"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
     "ol": [
       {
-        "id": 16,
-        "order": 6,
+        "id": 5,
+        "order": 4,
         "props": {
           "type": "ol"
         },
         "value": {
           "id": {
-            "value": "[1224C] Vaxigrip Tetra | sus iru 10x0,5 ml (striek.inj.skl.napl. s ihlami)",
+            "value": "[94989] FSME-IMMUN 0,5 ml Injekčná suspenzia | sus inj 1x0,5 ml/ 2,4 µg (striek.inj.skl.+ihla)",
             "props": {
-              "propDpl": 54.6,
-              "propSpUhr": "V",
-              "propIo": "ind.obm.",
+              "propDpl": 34.31,
               "propGp": 0,
-              "propUzp_1zvj": 5.71,
               "propVnl": "R",
-              "propCena": 111.7,
-              "propSdl": 10,
-              "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
+              "propAtcName": "Očkovacia látka proti kliešťovej encefalitíde, inaktivovaná, neporušený vírus",
               "propOl": 1,
-              "id": "1224C",
+              "id": 94989,
               "idUl": "",
-              "idAtc": "J07BB02",
-              "idSp": "ims",
-              "idF": "SUS IRU",
-              "idEzid": "00021211925",
+              "idAtc": "J07BA01",
+              "idSp": "imu",
+              "idF": "SUS INJ",
+              "idEzid": "00020247029",
               "idClassid": "liek"
             }
           },
           "sn": {
             "value": "{{var.sarza}}",
-            "props": {
-              "expr": "={{var.sarza}}"
-            }
+            "props": {}
           },
           "qty": {
             "value": "1",
@@ -244,50 +153,73 @@
         }
       }
     ],
+    "vd": [
+      {
+        "id": 6,
+        "order": 5,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z24.1] Potreba imunizácie proti vírusovému zápalu mozgu, prenášanému článkonožcami",
+            "props": {
+              "id": "Z24.1",
+              "idEzid": "02089522227@9",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "r": [
       {
-        "id": 14,
-        "order": 7,
+        "id": 7,
+        "order": 6,
         "props": {
           "type": "r"
         },
         "value": {
           "id": {
-            "value": "[1223C] Vaxigrip Tetra | sus iru 1x0,5 ml (striek.inj.skl.napl. s ihlou)",
+            "value": "[94989] FSME-IMMUN 0,5 ml Injekčná suspenzia | sus inj 1x0,5 ml/ 2,4 µg (striek.inj.skl.+ihla)",
             "props": {
               "propKat": false,
               "propOl": 1,
-              "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
+              "propAtcName": "Očkovacia látka proti kliešťovej encefalitíde, inaktivovaná, neporušený vírus",
               "propVnl": "R",
               "propBal": 1,
               "propGp": 0,
               "propUnit": "DF",
               "idClassid": "liek",
-              "idEzid": "00021221619",
-              "idF": "SUS IRU",
+              "idEzid": "00020247029",
+              "idF": "SUS INJ",
               "idSp": "ims",
-              "idAtc": "J07BB02",
+              "idAtc": "J07BA01",
               "idUl": "",
-              "id": "1223C"
+              "id": 94989
             }
           },
           "schedule": {
             "value": "Ad Manus Medici, SUS",
             "props": {
-              "propWay_code": "",
-              "propPeriod_t": "denne",
-              "propPeriod_code": "D",
+              "propIntervaldavkovania": "!denne",
+              "propWay_id": "",
+              "propText": "",
+              "propUnit_id": "",
               "propForm_id": "SUS",
               "propForm_t": "suspenzia",
-              "propText": "",
+              "propPeriod_id": "D",
+              "propPeriod_t": "denne",
               "propType": "AMM"
             }
           },
           "qty": {
-            "value": "0,1",
-            "props": {
-              "propValue": "0.10"
-            }
+            "value": "1",
+            "props": {}
           },
           "repeatCount": {
             "value": "1",
@@ -310,7 +242,7 @@
             }
           },
           "instruction": {
-            "value": "|Exp. amp. orig. No. I (unam)",
+            "value": "",
             "props": {}
           },
           "instruction_lek": {
@@ -360,8 +292,8 @@
     ],
     "vv": [
       {
-        "id": 7,
-        "order": 8,
+        "id": 8,
+        "order": 7,
         "props": {
           "type": "vv"
         },
@@ -384,20 +316,18 @@
     ]
   },
   "tags": [
-    "sumar-chr",
-    "prehlad-oc-chr",
+    "sumar-kef",
+    "prehlad-oc-kef",
     "ocko"
   ],
   "vars": {
     "sarza": ""
   },
-  "summary": "CHR - Chrípka očkovanie",
   "type": "examination",
-  "description": "Očkovanie proti vírusu chrípky",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "ct": "2024-10-22T11:52:17.646Z",
-  "mt": "2024-10-23T08:03:28.075Z",
+  "mt": "2024-10-23T08:06:18.258Z",
   "owner": "admin",
+  "ct": "2024-10-22T12:40:47.475Z",
   "source": "curo-open/curo-vzory#/020"
 }

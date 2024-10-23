@@ -1,12 +1,15 @@
 {
-  "title": "CHR - Chrípka očkovanie - Vaxigrip",
-  "shortcut": "oc-chrv",
+  "description": "Očkovanie proti Tetanu a diftérii",
+  "type": "examination",
+  "summary": "TAT - Tetanus a diftéria očkovanie",
+  "title": "TAT - Tetanus a diftéria očkovanie - Imovax",
+  "shortcut": "oc-tat-im",
   "if": "",
   "data": {
     "_": {},
     "premenna": [
       {
-        "id": 27,
+        "id": 32,
         "order": 0,
         "props": {
           "type": "premenna"
@@ -31,7 +34,7 @@
     ],
     "s": [
       {
-        "id": 9,
+        "id": 10,
         "order": 1,
         "props": {
           "type": "s"
@@ -59,89 +62,69 @@
         }
       }
     ],
-    "zfp": [
+    "oc": [
       {
-        "id": 25,
+        "id": 2,
         "order": 3,
         "props": {
-          "type": "zfp"
+          "type": "oc"
         },
         "value": {
-          "sys": {
+          "id": {
+            "value": "[T] Tetanus",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000115923@2",
+              "id": "T"
+            }
+          },
+          "datum": {
+            "value": "23.10.2024 07:47",
+            "props": {
+              "propValue": "2024-10-23T05:47:16.569Z"
+            }
+          },
+          "typ": {
             "value": "",
             "props": {}
           },
-          "diast": {
+          "pocet": {
             "value": "",
             "props": {}
           },
-          "pulse": {
+          "davka": {
             "value": "",
             "props": {}
           },
-          "sf": {
+          "posledna": {
             "value": "",
             "props": {}
           },
-          "df": {
-            "value": "",
-            "props": {}
-          },
-          "weight": {
-            "value": "",
-            "props": {}
-          },
-          "height": {
-            "value": "",
-            "props": {}
-          },
-          "bmi": {
-            "value": "",
-            "props": {}
-          },
-          "oh": {
-            "value": "",
-            "props": {}
-          },
-          "ob": {
-            "value": "",
-            "props": {}
-          },
-          "whr": {
-            "value": "",
-            "props": {}
-          },
-          "o2": {
-            "value": "",
-            "props": {}
-          },
-          "temp": {
+          "poznamka": {
             "value": "",
             "props": {}
           }
         }
-      }
-    ],
-    "oc": [
+      },
       {
-        "id": 2,
+        "id": 30,
         "order": 4,
         "props": {
           "type": "oc"
         },
         "value": {
           "id": {
-            "value": "[CHR] Chrípka",
+            "value": "[D] Diftéria",
             "props": {
-              "id": "CHR",
-              "idEzid": "00000776815",
+              "id": "D",
+              "idEzid": "00000115915@2",
               "idClassid": "ockovanie"
             }
           },
           "datum": {
-            "value": "23.10.2024 10:03",
+            "value": "23.10.2024 10:06",
             "props": {
-              "propValue": "2024-10-23T08:03:14.895Z",
+              "propValue": "2024-10-23T08:06:18.325Z",
               "expr": "=teraz"
             }
           },
@@ -168,20 +151,82 @@
         }
       }
     ],
+    "t": [
+      {
+        "id": 25,
+        "order": 5,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? zp == 27 }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 27,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 28,
+        "order": 9,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
     "vd": [
       {
-        "id": 5,
-        "order": 5,
+        "id": 29,
+        "order": 6,
         "props": {
           "type": "vd"
         },
         "value": {
           "id": {
-            "value": "[Z25.1] Potreba imunizácie výlučne proti chrípke",
+            "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
               "idClassid": "diagnoza",
-              "idEzid": "02089522300@9",
-              "id": "Z25.1"
+              "idEzid": "02089520809@11",
+              "id": "Z00.0"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 6,
+        "order": 8,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z27.8] Potreba imunizácie proti inej kombinácii infekčných chorôb",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089522425@10",
+              "id": "Z27.8"
             }
           },
           "text": {
@@ -193,39 +238,37 @@
     ],
     "ol": [
       {
-        "id": 16,
-        "order": 6,
+        "id": 4,
+        "order": 10,
         "props": {
           "type": "ol"
         },
         "value": {
           "id": {
-            "value": "[1224C] Vaxigrip Tetra | sus iru 10x0,5 ml (striek.inj.skl.napl. s ihlami)",
+            "value": "[33998] IMOVAX D.T. ADULT | sus inj 10x0,5 ml (striek.inj.skl.napln.)",
             "props": {
-              "propDpl": 54.6,
-              "propSpUhr": "V",
-              "propIo": "ind.obm.",
-              "propGp": 0,
-              "propUzp_1zvj": 5.71,
-              "propVnl": "R",
-              "propCena": 111.7,
-              "propSdl": 10,
-              "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
               "propOl": 1,
-              "id": "1224C",
+              "propAtcName": "Tetanový toxoid, kombinácie s diftériovým toxoidom",
+              "propSdl": 10,
+              "propCena": 99.6,
+              "propVnl": "R",
+              "propUzp_1zvj": 1,
+              "propGp": 0,
+              "propIo": "ind.obm.",
+              "propSpUhr": "V",
+              "propDpl": 0,
+              "idClassid": "liek",
+              "idEzid": "00020746236",
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07AM51",
               "idUl": "",
-              "idAtc": "J07BB02",
-              "idSp": "ims",
-              "idF": "SUS IRU",
-              "idEzid": "00021211925",
-              "idClassid": "liek"
+              "id": 33998
             }
           },
           "sn": {
             "value": "{{var.sarza}}",
-            "props": {
-              "expr": "={{var.sarza}}"
-            }
+            "props": {}
           },
           "qty": {
             "value": "1",
@@ -246,40 +289,50 @@
     ],
     "r": [
       {
-        "id": 14,
-        "order": 7,
+        "id": 24,
+        "order": 11,
         "props": {
           "type": "r"
         },
         "value": {
           "id": {
-            "value": "[1223C] Vaxigrip Tetra | sus iru 1x0,5 ml (striek.inj.skl.napl. s ihlou)",
+            "value": "[33998] IMOVAX D.T. ADULT | sus inj 10x0,5 ml (striek.inj.skl.napln.)",
             "props": {
-              "propKat": false,
+              "propKat": true,
               "propOl": 1,
-              "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
+              "propAtcName": "Tetanový toxoid, kombinácie s diftériovým toxoidom",
+              "propSdl": 10,
+              "propCena": 99.6,
               "propVnl": "R",
-              "propBal": 1,
+              "propAtcDoplnok": "parent. povinné očkovanie",
+              "propUzp_1zvj": "9,960000",
+              "propBal": 10,
               "propGp": 0,
+              "propIo_0": "I00465",
               "propUnit": "DF",
+              "propSpUhr": "V",
+              "propDpl": 0,
               "idClassid": "liek",
-              "idEzid": "00021221619",
-              "idF": "SUS IRU",
-              "idSp": "ims",
-              "idAtc": "J07BB02",
+              "idEzid": "00020746236",
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07AM51",
               "idUl": "",
-              "id": "1223C"
+              "id": 33998
             }
           },
           "schedule": {
             "value": "Ad Manus Medici, SUS",
             "props": {
-              "propWay_code": "",
-              "propPeriod_t": "denne",
-              "propPeriod_code": "D",
-              "propForm_id": "SUS",
+              "propUnit_id": "",
               "propForm_t": "suspenzia",
+              "propForm_id": "SUS",
               "propText": "",
+              "propPeriod_t": "denne",
+              "propPeriod_id": "D",
+              "propWay_t": "intramuskulárne (i.m.)",
+              "propWay_id": "IM",
+              "propIntervaldavkovania": "!denne",
               "propType": "AMM"
             }
           },
@@ -328,7 +381,7 @@
             }
           },
           "io": {
-            "value": "",
+            "value": "I00465",
             "props": {}
           },
           "limitDP": {
@@ -360,8 +413,8 @@
     ],
     "vv": [
       {
-        "id": 7,
-        "order": 8,
+        "id": 8,
+        "order": 12,
         "props": {
           "type": "vv"
         },
@@ -370,9 +423,9 @@
             "value": "[252b] Očkovanie.",
             "props": {
               "propBody": 70,
-              "id": "252b",
-              "idEzid": "00000467878@9",
-              "idClassid": "vykon"
+              "idClassid": "vykon",
+              "idEzid": "00000467878@7",
+              "id": "252b"
             }
           },
           "count": {
@@ -384,20 +437,17 @@
     ]
   },
   "tags": [
-    "sumar-chr",
-    "prehlad-oc-chr",
+    "sumar-tat",
+    "prehlad-oc-tat",
     "ocko"
   ],
   "vars": {
     "sarza": ""
   },
-  "summary": "CHR - Chrípka očkovanie",
-  "type": "examination",
-  "description": "Očkovanie proti vírusu chrípky",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "ct": "2024-10-22T11:52:17.646Z",
-  "mt": "2024-10-23T08:03:28.075Z",
+  "mt": "2024-10-23T08:06:28.641Z",
   "owner": "admin",
+  "ct": "2024-08-21T11:26:33.755Z",
   "source": "curo-open/curo-vzory#/020"
 }

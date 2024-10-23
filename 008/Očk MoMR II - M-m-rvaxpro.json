@@ -1,0 +1,448 @@
+{
+  "type": "examination",
+  "summary": "MMR očkovanie - 2. dávka",
+  "description": "Očkovanie proti osýpkam, mumpsu, ružienke",
+  "title": "Očk MoMR II - M-m-rvaxpro",
+  "shortcut": "oc-mmr2m",
+  "if": "",
+  "data": {
+    "_": {},
+    "premenna": [
+      {
+        "id": 48,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "sarza",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 28,
+        "order": 1,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z27.4] Potreba imunizácie proti osýpkam – parotitíde – ružienke [MMR]",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089522417@19",
+              "id": "Z27.4"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oc": [
+      {
+        "id": 4,
+        "order": 2,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[MO] Morbilli",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000346320@3",
+              "id": "MO"
+            }
+          },
+          "datum": {
+            "value": "23.10.2024 13:52",
+            "props": {
+              "propValue": "2024-10-23T11:52:47.820Z",
+              "expr": "=teraz"
+            }
+          },
+          "typ": {
+            "value": "[2DAV] II. dávka",
+            "props": {
+              "idClassid": "octyp",
+              "idEzid": "02089891259@4",
+              "id": "2DAV"
+            }
+          },
+          "pocet": {
+            "value": "2",
+            "props": {}
+          },
+          "davka": {
+            "value": "2",
+            "props": {}
+          },
+          "posledna": {
+            "value": "áno",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 14,
+        "order": 3,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[M] Mumps",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000346346@3",
+              "id": "M"
+            }
+          },
+          "datum": {
+            "value": "23.10.2024 13:52",
+            "props": {
+              "propValue": "2024-10-23T11:52:47.824Z",
+              "expr": "=teraz"
+            }
+          },
+          "typ": {
+            "value": "[2DAV] II. dávka",
+            "props": {
+              "idClassid": "octyp",
+              "idEzid": "02089891259@4",
+              "id": "2DAV"
+            }
+          },
+          "pocet": {
+            "value": "2",
+            "props": {}
+          },
+          "davka": {
+            "value": "2",
+            "props": {}
+          },
+          "posledna": {
+            "value": "áno",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 15,
+        "order": 4,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[R] Rubeola",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000346379@3",
+              "id": "R"
+            }
+          },
+          "datum": {
+            "value": "23.10.2024 13:52",
+            "props": {
+              "propValue": "2024-10-23T11:52:47.826Z",
+              "expr": "=teraz"
+            }
+          },
+          "typ": {
+            "value": "[2DAV] II. dávka",
+            "props": {
+              "idClassid": "octyp",
+              "idEzid": "02089891259@4",
+              "id": "2DAV"
+            }
+          },
+          "pocet": {
+            "value": "2",
+            "props": {}
+          },
+          "davka": {
+            "value": "2",
+            "props": {}
+          },
+          "posledna": {
+            "value": "áno",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ol": [
+      {
+        "id": 34,
+        "order": 5,
+        "props": {
+          "type": "ol"
+        },
+        "value": {
+          "id": {
+            "value": "[36424] M-M-RVAXPRO prášok a disperzné prostredie na injekčnú suspenziu v naplnenej injekčnej striekačke | plv sul 10x liek.+10x solv. (skl.liek.+napl.skl.striek.s 2 samost.ihlami)",
+            "props": {
+              "propDpl": 0,
+              "propSpUhr": "V",
+              "propUnit": "DF",
+              "propIo": "ind.obm.",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": 9.446,
+              "propVnl": "R",
+              "propCena": 94.46,
+              "propSdl": 10,
+              "propAtcName": "Očkovacia látka proti osýpkam, kombinácie s mumpsom a ružienkou, živá oslabená",
+              "propOl": 1,
+              "propKat": true,
+              "propPo_0": "PED",
+              "id": 36424,
+              "idUl": "",
+              "idAtc": "J07BD52",
+              "idSp": "suc",
+              "idF": "PLV SUL",
+              "idEzid": "00020860508",
+              "idClassid": "liek"
+            }
+          },
+          "sn": {
+            "value": "{{var.sarza}}",
+            "props": {}
+          },
+          "qty": {
+            "value": "",
+            "props": {}
+          },
+          "mu": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 46,
+        "order": 6,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[36424] M-M-RVAXPRO prášok a disperzné prostredie na injekčnú suspenziu v naplnenej injekčnej striekačke | plv sul 10x liek.+10x solv. (skl.liek.+napl.skl.striek.s 2 samost.ihlami)",
+            "props": {
+              "propPo_2": "PED",
+              "propPo_1": "INF",
+              "propPo_0": "ALG",
+              "propKat": true,
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti osýpkam, kombinácie s mumpsom a ružienkou, živá oslabená",
+              "propSdl": 10,
+              "propCena": 94.46,
+              "propVnl": "R",
+              "propAtcDoplnok": "parent.",
+              "propUzp_1zvj": "9,446000",
+              "propBal": 10,
+              "propGp": 0,
+              "propIo_1": "I00477",
+              "propIo_0": "I00476",
+              "propUnit": "DF",
+              "propSpUhr": "V",
+              "propDpl": 0,
+              "idClassid": "liek",
+              "idEzid": "00020860508",
+              "idF": "PLV SUL",
+              "idSp": "sim",
+              "idAtc": "J07BD52",
+              "idUl": "",
+              "id": 36424
+            }
+          },
+          "schedule": {
+            "value": "Ad Manus Medici",
+            "props": {
+              "propWay_code": "",
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propText": "",
+              "propType": "AMM"
+            }
+          },
+          "qty": {
+            "value": "0,1",
+            "props": {
+              "propValue": 0.1
+            }
+          },
+          "repeatCount": {
+            "value": "",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "|Exp. orig. No. (unam)",
+            "props": {}
+          },
+          "instruction_lek": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "io": {
+            "value": "I00476",
+            "props": {}
+          },
+          "limitDP": {
+            "value": "",
+            "props": {}
+          },
+          "aplikacnaZonaParovehoOrganu": {
+            "value": "bez určenia",
+            "props": {
+              "propValue": ""
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "zalozneAtributy": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 8,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[252b] Očkovanie.",
+            "props": {
+              "propBody": 70,
+              "idClassid": "vykon",
+              "idEzid": "00000467878@9",
+              "id": "252b"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 32,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[67] Príplatok u dieťaťa vo veku do piatich rokov pri výkonoch - odber krvi, injekcie, infúzie, transfúzie, infiltrácie, implantácie, odobratie sterov, punkcie a pri výkone očkovania.",
+            "props": {
+              "propBody": 100,
+              "id": 67,
+              "idEzid": "00000466797@30",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "oc-mo",
+    "oc-m",
+    "oc-r",
+    "ocko"
+  ],
+  "vars": {
+    "sarza": ""
+  },
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-08-21T10:18:48.797Z",
+  "mt": "2024-10-23T11:52:51.310Z",
+  "owner": "admin",
+  "source": "curo-open/curo-vzory#/008"
+}

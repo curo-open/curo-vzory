@@ -1,0 +1,67 @@
+{
+  "tags": [
+    "ocko"
+  ],
+  "owner": "admin",
+  "title": "Očk COV 19 - Anamnestický dotazník - predvyplený",
+  "shortcut": "covadd",
+  "if": "",
+  "data": {
+    "_": {},
+    "tl": [
+      {
+        "id": 10,
+        "order": 0,
+        "props": {
+          "type": "tl"
+        },
+        "value": {
+          "nadpis": {
+            "value": "Anamnestické otázky pre žiadateľa o očkovanie/dieťa: <br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "",
+            "props": {}
+          },
+          "obsah": {
+            "value": "<br><table style=\"border:1px solid #ccc\">\n  <tbody><tr>\n    <th>Otázka</th>\n    <th style=\"width:12mm\">Áno</th>\n    <th style=\"width:12mm\">Nie</th>\n  </tr>\n  <tr>\n    <td>Má dieťa príznaky akútneho ochorenia (teplota nad 37°C, produktívny kašeľ, kašeľ s vykašliavaním hlienu, slabosť, bolesti kĺbov a svalov, malátnosť, infekčnú hnačku, bolesti hrdla)?</td>\n    <td> [   ] </td>\n    <td> [ x ] </td>\n  </tr>\n  <tr>\n    <td>Má dieťa závažné ochorenie, ktoré bolo v minulosti posudzované ako možná prekážka (kontraindikácia) pre podanie vakcíny (napr. autoimunitné ochorenie, demyelinizačné ochorenie)? Ak áno, aké?</td>\n    <td> [   ] </td>\n    <td> [ x ] </td>\n  </tr>\n  <tr>\n    <td>Malo dieťa závažnú alergickú reakciu v minulosti (napr. anafylaktický šok)? Ak áno, uveďte po čom?</td>\n    <td> [   ] </td>\n    <td> [ x ] </td>\n  </tr>\n  <tr>\n    <td>Malo dieťa niekedy v minulosti závažné vedľajšie účinky po podaní vakcíny?</td>\n    <td> [   ] </td>\n    <td> [ x ] </td>\n  </tr>\n  <tr>\n    <td>Má dieťa vážnu poruchu zrážanlivosti krvi (napr. vážna forma hemofílie) ?</td>\n    <td> [   ] </td>\n    <td> [ x ] </td>\n  </tr>\n<tr>\n    <td>Bola dieťaťu podaná akákoľvek vakcína počas posledných 14 dní?</td>\n    <td> [   ] </td>\n    <td> [ x ] </td>\n  </tr>\n  <tr>\n    <td>Je dieťa tehotné ?</td>\n    <td> [   ] </td>\n    <td> [ x ] </td>\n  </tr>\n<tr>\n    <td>Podstúpilo dieťa očkovanie proti ochoreniu COVID-19 akoukoľvek vakcínou v priebehu posledných 3 mesiacov?</td>\n    <td> [   ] </td>\n    <td> [ x ] </td>\n  </tr>\n</tbody></table>                                                                                                                                                                                <div style=\"float: right\"><h5>Svoju odpoveď označte - X</h5></div><br><br><br><br>Dátum: <span>{{ dekurz.datum }}</span><br>Podpis zákonného zástupcu očkovaného pacienta:                                                                <br><br><br><br>Dátum: <span>{{ dekurz.datum }}</span><br>Podpis očkujúceho zdravotníka:                                                 <br><br>",
+            "props": {}
+          },
+          "undefined": {
+            "value": "<h5>Svoju odpoveď označte - X</h5>",
+            "props": {}
+          },
+          "hlavicka": {
+            "value": "Aj tabuľka s údajmi pacienta",
+            "props": {
+              "propValue": 2
+            }
+          },
+          "podpis": {
+            "value": "",
+            "props": {}
+          },
+          "peciatka": {
+            "value": "",
+            "props": {}
+          },
+          "pageFormat": {
+            "value": "A4",
+            "props": {
+              "propValue": "A4"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-10-23T08:36:50.859Z",
+  "mt": "2024-10-23T12:05:41.268Z",
+  "summary": "Anamnestické otázky pre žiadateľa o očkovanie/dieťa",
+  "description": "Očkovanie proti vírusu Covid ",
+  "source": "curo-open/curo-vzory#/022"
+}

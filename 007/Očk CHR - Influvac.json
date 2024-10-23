@@ -1,6 +1,6 @@
 {
-  "title": "CHR - Chrípka očkovanie - Vaxigrip",
-  "shortcut": "oc-chrv",
+  "title": "Očk CHR - Influvac",
+  "shortcut": "oc-chri",
   "if": "",
   "data": {
     "_": {},
@@ -99,15 +99,7 @@
             "value": "",
             "props": {}
           },
-          "oh": {
-            "value": "",
-            "props": {}
-          },
-          "ob": {
-            "value": "",
-            "props": {}
-          },
-          "whr": {
+          "op": {
             "value": "",
             "props": {}
           },
@@ -139,9 +131,9 @@
             }
           },
           "datum": {
-            "value": "23.10.2024 10:03",
+            "value": "23.10.2024 14:03",
             "props": {
-              "propValue": "2024-10-23T08:03:14.895Z",
+              "propValue": "2024-10-23T12:03:03.231Z",
               "expr": "=teraz"
             }
           },
@@ -193,32 +185,34 @@
     ],
     "ol": [
       {
-        "id": 16,
+        "id": 3,
         "order": 6,
         "props": {
           "type": "ol"
         },
         "value": {
           "id": {
-            "value": "[1224C] Vaxigrip Tetra | sus iru 10x0,5 ml (striek.inj.skl.napl. s ihlami)",
+            "value": "[6347C] Influvac Tetra | sus iru 10x0,5 ml (striek.inj.skl.napl. s ihlou)",
             "props": {
-              "propDpl": 54.6,
-              "propSpUhr": "V",
-              "propIo": "ind.obm.",
-              "propGp": 0,
-              "propUzp_1zvj": 5.71,
-              "propVnl": "R",
-              "propCena": 111.7,
-              "propSdl": 10,
-              "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
+              "propKat": true,
               "propOl": 1,
-              "id": "1224C",
-              "idUl": "",
-              "idAtc": "J07BB02",
-              "idSp": "ims",
+              "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
+              "propSdl": 10,
+              "propCena": 111.6,
+              "propVnl": "R",
+              "propUzp_1zvj": 11.16,
+              "propBal": 10,
+              "propGp": 0,
+              "propUnit": "DF",
+              "propSpUhr": "V",
+              "propDpl": 0,
+              "idClassid": "liek",
+              "idEzid": "00021275961",
               "idF": "SUS IRU",
-              "idEzid": "00021211925",
-              "idClassid": "liek"
+              "idSp": "ims",
+              "idAtc": "J07BB02",
+              "idUl": "",
+              "id": "6347C"
             }
           },
           "sn": {
@@ -246,40 +240,47 @@
     ],
     "r": [
       {
-        "id": 14,
+        "id": 13,
         "order": 7,
         "props": {
           "type": "r"
         },
         "value": {
           "id": {
-            "value": "[1223C] Vaxigrip Tetra | sus iru 1x0,5 ml (striek.inj.skl.napl. s ihlou)",
+            "value": "[6347C] Influvac Tetra | sus iru 10x0,5 ml (striek.inj.skl.napl. s ihlou)",
             "props": {
-              "propKat": false,
+              "propKat": true,
               "propOl": 1,
               "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
+              "propSdl": 10,
+              "propCena": 111.6,
               "propVnl": "R",
-              "propBal": 1,
+              "propUzp_1zvj": 11.16,
+              "propBal": 10,
               "propGp": 0,
               "propUnit": "DF",
+              "propSpUhr": "V",
+              "propDpl": 0,
               "idClassid": "liek",
-              "idEzid": "00021221619",
+              "idEzid": "00021275961",
               "idF": "SUS IRU",
               "idSp": "ims",
               "idAtc": "J07BB02",
               "idUl": "",
-              "id": "1223C"
+              "id": "6347C"
             }
           },
           "schedule": {
             "value": "Ad Manus Medici, SUS",
             "props": {
-              "propWay_code": "",
-              "propPeriod_t": "denne",
-              "propPeriod_code": "D",
-              "propForm_id": "SUS",
+              "propUnit_id": "",
               "propForm_t": "suspenzia",
+              "propForm_id": "SUS",
               "propText": "",
+              "propPeriod_t": "denne",
+              "propPeriod_id": "D",
+              "propWay_id": "",
+              "propIntervaldavkovania": "!denne",
               "propType": "AMM"
             }
           },
@@ -300,7 +301,7 @@
           "payoff": {
             "value": "0",
             "props": {
-              "propValue": 0
+              "propValue": "0.00"
             }
           },
           "atc": {
@@ -396,8 +397,8 @@
   "description": "Očkovanie proti vírusu chrípky",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "ct": "2024-10-22T11:52:17.646Z",
-  "mt": "2024-10-23T08:03:28.075Z",
+  "mt": "2024-10-23T12:03:07.848Z",
+  "ct": "2024-09-24T11:29:30.761Z",
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/020"
+  "source": "curo-open/curo-vzory#/007"
 }

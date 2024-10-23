@@ -111,10 +111,6 @@
             "value": "",
             "props": {}
           },
-          "op": {
-            "value": "",
-            "props": {}
-          },
           "o2": {
             "value": "",
             "props": {}
@@ -143,10 +139,10 @@
             }
           },
           "datum": {
-            "value": "18.10.2023 00:00",
+            "value": "23.10.2024 10:02",
             "props": {
-              "propValue": "2023-10-17T22:00:00.000Z",
-              "expr": "=dnes"
+              "propValue": "2024-10-23T08:02:59.625Z",
+              "expr": "=teraz"
             }
           },
           "typ": {
@@ -267,7 +263,8 @@
               "propSdl": 10,
               "propCena": 111.6,
               "propVnl": "R",
-              "propUzp_1zvj": 11.16,
+              "propAtcDoplnok": "parent.",
+              "propUzp_1zvj": "11,160000",
               "propBal": 10,
               "propGp": 0,
               "propUnit": "DF",
@@ -313,7 +310,7 @@
           "payoff": {
             "value": "0",
             "props": {
-              "propValue": "0.00"
+              "propValue": 0
             }
           },
           "atc": {
@@ -340,11 +337,29 @@
               "propValue": 0
             }
           },
+          "io": {
+            "value": "",
+            "props": {}
+          },
+          "limitDP": {
+            "value": "",
+            "props": {}
+          },
+          "aplikacnaZonaParovehoOrganu": {
+            "value": "bez určenia",
+            "props": {
+              "propValue": ""
+            }
+          },
           "force": {
             "value": "nie",
             "props": {
               "propValue": 0
             }
+          },
+          "zalozneAtributy": {
+            "value": "",
+            "props": {}
           },
           "status": {
             "value": "0",
@@ -388,11 +403,11 @@
   },
   "summary": "CHR - Chrípka očkovanie",
   "type": "examination",
-  "description": "Očkovanie proti vírusu chrípky(chrípka)",
+  "description": "Očkovanie proti vírusu chrípky",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2023-10-18T11:16:11.462Z",
+  "mt": "2024-10-23T08:03:11.101Z",
+  "ct": "2024-10-22T11:51:00.268Z",
   "owner": "admin",
-  "ct": "2023-10-18T11:15:51.063Z",
   "source": "curo-open/curo-vzory#/020"
 }

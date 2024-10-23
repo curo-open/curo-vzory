@@ -1,12 +1,12 @@
 {
-  "title": "CHR - Chrípka očkovanie - Vaxigrip",
-  "shortcut": "oc-chrv",
+  "title": "IPO - Pneumokokové očkovanie - Prevenar",
+  "shortcut": "oc-IPO",
   "if": "",
   "data": {
     "_": {},
     "premenna": [
       {
-        "id": 27,
+        "id": 15,
         "order": 0,
         "props": {
           "type": "premenna"
@@ -31,7 +31,7 @@
     ],
     "s": [
       {
-        "id": 9,
+        "id": 10,
         "order": 1,
         "props": {
           "type": "s"
@@ -59,63 +59,23 @@
         }
       }
     ],
-    "zfp": [
+    "vd": [
       {
-        "id": 25,
+        "id": 6,
         "order": 3,
         "props": {
-          "type": "zfp"
+          "type": "vd"
         },
         "value": {
-          "sys": {
-            "value": "",
-            "props": {}
+          "id": {
+            "value": "[Z23.8] Potreba imunizácie proti inej jednotlivej baktériovej chorobe",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089522193@12",
+              "id": "Z23.8"
+            }
           },
-          "diast": {
-            "value": "",
-            "props": {}
-          },
-          "pulse": {
-            "value": "",
-            "props": {}
-          },
-          "sf": {
-            "value": "",
-            "props": {}
-          },
-          "df": {
-            "value": "",
-            "props": {}
-          },
-          "weight": {
-            "value": "",
-            "props": {}
-          },
-          "height": {
-            "value": "",
-            "props": {}
-          },
-          "bmi": {
-            "value": "",
-            "props": {}
-          },
-          "oh": {
-            "value": "",
-            "props": {}
-          },
-          "ob": {
-            "value": "",
-            "props": {}
-          },
-          "whr": {
-            "value": "",
-            "props": {}
-          },
-          "o2": {
-            "value": "",
-            "props": {}
-          },
-          "temp": {
+          "text": {
             "value": "",
             "props": {}
           }
@@ -131,17 +91,17 @@
         },
         "value": {
           "id": {
-            "value": "[CHR] Chrípka",
+            "value": "[IPO] Invazívne pneumokokové ochorenia",
             "props": {
-              "id": "CHR",
-              "idEzid": "00000776815",
+              "id": "IPO",
+              "idEzid": "00000346452@2",
               "idClassid": "ockovanie"
             }
           },
           "datum": {
-            "value": "23.10.2024 10:03",
+            "value": "23.10.2024 10:05",
             "props": {
-              "propValue": "2024-10-23T08:03:14.895Z",
+              "propValue": "2024-10-23T08:05:32.214Z",
               "expr": "=teraz"
             }
           },
@@ -168,56 +128,35 @@
         }
       }
     ],
-    "vd": [
-      {
-        "id": 5,
-        "order": 5,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[Z25.1] Potreba imunizácie výlučne proti chrípke",
-            "props": {
-              "idClassid": "diagnoza",
-              "idEzid": "02089522300@9",
-              "id": "Z25.1"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
     "ol": [
       {
-        "id": 16,
-        "order": 6,
+        "id": 4,
+        "order": 5,
         "props": {
           "type": "ol"
         },
         "value": {
           "id": {
-            "value": "[1224C] Vaxigrip Tetra | sus iru 10x0,5 ml (striek.inj.skl.napl. s ihlami)",
+            "value": "[85035] Prevenar 13 injekčná suspenzia | sus inj 10x0,5 ml (striek.inj.skl.napln.+ samost.ihly)",
             "props": {
-              "propDpl": 54.6,
+              "propDpl": 0,
               "propSpUhr": "V",
+              "propUnit": "DF",
               "propIo": "ind.obm.",
               "propGp": 0,
-              "propUzp_1zvj": 5.71,
+              "propBal": 10,
+              "propUzp_1zvj": 50.872,
               "propVnl": "R",
-              "propCena": 111.7,
+              "propCena": 508.72,
               "propSdl": 10,
-              "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
+              "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén konjugovaný",
               "propOl": 1,
-              "id": "1224C",
+              "id": 85035,
               "idUl": "",
-              "idAtc": "J07BB02",
-              "idSp": "ims",
-              "idF": "SUS IRU",
-              "idEzid": "00021211925",
+              "idAtc": "J07AL02",
+              "idSp": "imu",
+              "idF": "SUS INJ",
+              "idEzid": "00020003190",
               "idClassid": "liek"
             }
           },
@@ -246,41 +185,50 @@
     ],
     "r": [
       {
-        "id": 14,
-        "order": 7,
+        "id": 13,
+        "order": 6,
         "props": {
           "type": "r"
         },
         "value": {
           "id": {
-            "value": "[1223C] Vaxigrip Tetra | sus iru 1x0,5 ml (striek.inj.skl.napl. s ihlou)",
+            "value": "[85035] Prevenar 13 injekčná suspenzia | sus inj 10x0,5 ml (striek.inj.skl.napln.+ samost.ihly)",
             "props": {
-              "propKat": false,
-              "propOl": 1,
-              "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
-              "propVnl": "R",
-              "propBal": 1,
-              "propGp": 0,
+              "propDpl": 0,
+              "propSpUhr": "V",
               "propUnit": "DF",
-              "idClassid": "liek",
-              "idEzid": "00021221619",
-              "idF": "SUS IRU",
-              "idSp": "ims",
-              "idAtc": "J07BB02",
+              "propIo_2": "I00428",
+              "propIo_1": "I00427",
+              "propIo_0": "I00426",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": "50,872000",
+              "propAtcDoplnok": "parent. 13-valentná",
+              "propVnl": "R",
+              "propCena": 508.72,
+              "propSdl": 10,
+              "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén konjugovaný",
+              "propOl": 1,
+              "propKat": true,
+              "id": 85035,
               "idUl": "",
-              "id": "1223C"
+              "idAtc": "J07AL02",
+              "idSp": "imu",
+              "idF": "SUS INJ",
+              "idEzid": "00020003190",
+              "idClassid": "liek"
             }
           },
           "schedule": {
             "value": "Ad Manus Medici, SUS",
             "props": {
-              "propWay_code": "",
-              "propPeriod_t": "denne",
-              "propPeriod_code": "D",
-              "propForm_id": "SUS",
-              "propForm_t": "suspenzia",
+              "propType": "AMM",
               "propText": "",
-              "propType": "AMM"
+              "propForm_t": "suspenzia",
+              "propForm_id": "SUS",
+              "propPeriod_code": "D",
+              "propPeriod_t": "denne",
+              "propWay_code": ""
             }
           },
           "qty": {
@@ -328,7 +276,7 @@
             }
           },
           "io": {
-            "value": "",
+            "value": "I00426",
             "props": {}
           },
           "limitDP": {
@@ -360,8 +308,8 @@
     ],
     "vv": [
       {
-        "id": 7,
-        "order": 8,
+        "id": 8,
+        "order": 7,
         "props": {
           "type": "vv"
         },
@@ -370,9 +318,9 @@
             "value": "[252b] Očkovanie.",
             "props": {
               "propBody": 70,
-              "id": "252b",
-              "idEzid": "00000467878@9",
-              "idClassid": "vykon"
+              "idClassid": "vykon",
+              "idEzid": "00000467878@7",
+              "id": "252b"
             }
           },
           "count": {
@@ -384,20 +332,20 @@
     ]
   },
   "tags": [
-    "sumar-chr",
-    "prehlad-oc-chr",
+    "sumar-ipo",
+    "prehlad-oc-ipo",
     "ocko"
   ],
   "vars": {
     "sarza": ""
   },
-  "summary": "CHR - Chrípka očkovanie",
+  "summary": "IPO - Pneumokokové očkovanie (Prevenar)",
+  "description": "Očkovanie proti invazívnemu pneumokokovému ochoreniu",
   "type": "examination",
-  "description": "Očkovanie proti vírusu chrípky",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "ct": "2024-10-22T11:52:17.646Z",
-  "mt": "2024-10-23T08:03:28.075Z",
+  "mt": "2024-10-23T08:05:49.168Z",
   "owner": "admin",
+  "ct": "2024-08-21T11:25:33.830Z",
   "source": "curo-open/curo-vzory#/020"
 }

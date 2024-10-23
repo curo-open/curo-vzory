@@ -1,5 +1,7 @@
 {
   "tags": [
+    "sumar-hpv",
+    "prehlad-oc-hpv",
     "ocko"
   ],
   "owner": "admin",
@@ -8,20 +10,37 @@
   "if": "",
   "data": {
     "_": {
-      "tid": 1,
-      "errors": {
-        "6": [
-          "sn"
-        ],
-        "7": [
-          "recommendedBy"
-        ]
-      }
+      "tid": 1
     },
+    "premenna": [
+      {
+        "id": 10,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "sarza",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "s": [
       {
         "id": 2,
-        "order": 0,
+        "order": 1,
         "props": {
           "type": "s"
         },
@@ -36,7 +55,7 @@
     "o": [
       {
         "id": 3,
-        "order": 1,
+        "order": 2,
         "props": {
           "type": "o"
         },
@@ -51,7 +70,7 @@
     "oc": [
       {
         "id": 4,
-        "order": 2,
+        "order": 3,
         "props": {
           "type": "oc"
         },
@@ -65,9 +84,10 @@
             }
           },
           "datum": {
-            "value": "17.07.2024 00:00",
+            "value": "23.10.2024 10:04",
             "props": {
-              "propValue": "2024-07-16T22:00:00.000Z"
+              "propValue": "2024-10-23T08:04:16.995Z",
+              "expr": "=teraz"
             }
           },
           "typ": {
@@ -96,7 +116,7 @@
     "vd": [
       {
         "id": 5,
-        "order": 3,
+        "order": 4,
         "props": {
           "type": "vd"
         },
@@ -119,10 +139,9 @@
     "ol": [
       {
         "id": 6,
-        "order": 4,
+        "order": 5,
         "props": {
-          "type": "ol",
-          "error": true
+          "type": "ol"
         },
         "value": {
           "id": {
@@ -153,10 +172,8 @@
             }
           },
           "sn": {
-            "value": "",
-            "props": {
-              "error": "Číslo šarže je povinné."
-            }
+            "value": "{{var.sarza}}",
+            "props": {}
           },
           "qty": {
             "value": "1",
@@ -178,37 +195,36 @@
     "r": [
       {
         "id": 7,
-        "order": 5,
+        "order": 6,
         "props": {
-          "type": "r",
-          "error": true
+          "type": "r"
         },
         "value": {
           "id": {
             "value": "[4660B] Gardasil 9 injekčná suspenzia v naplnenej injekčnej striekačke | sus inj 1x0,5 ml (striek.inj.skl.napl.+2 ihly)",
             "props": {
-              "propDpl": 0,
-              "propSpUhr": "V",
-              "propUnit": "DF",
-              "propIo_0": "I00425",
-              "propGp": 0,
-              "propBal": 1,
-              "propUzp_1zvj": "122,460000",
-              "propAtcDoplnok": "parent.",
-              "propVnl": "R",
-              "propCena": 122.46,
-              "propSdl": 1,
-              "propAtcName": "Očkovacia látka proti papilomavírusu (ľudské typy 6, 11, 16, 18, 31, 33, 45, 52, 58)",
-              "propOl": 1,
-              "propKat": true,
               "propPo_0": "PED",
-              "id": "4660B",
-              "idUl": "",
-              "idAtc": "J07BM03",
-              "idSp": "imu",
-              "idF": "SUS IRU",
+              "propKat": true,
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti papilomavírusu (ľudské typy 6, 11, 16, 18, 31, 33, 45, 52, 58)",
+              "propSdl": 1,
+              "propCena": 121.81,
+              "propVnl": "R",
+              "propAtcDoplnok": "parent.",
+              "propUzp_1zvj": "121,810000",
+              "propBal": 1,
+              "propGp": 0,
+              "propIo_0": "I00425",
+              "propUnit": "DF",
+              "propSpUhr": "V",
+              "propDpl": 0,
+              "idClassid": "liek",
               "idEzid": "00021141379",
-              "idClassid": "liek"
+              "idF": "SUS IRU",
+              "idSp": "imu",
+              "idAtc": "J07BM03",
+              "idUl": "",
+              "id": "4660B"
             }
           },
           "schedule": {
@@ -227,9 +243,9 @@
             }
           },
           "qty": {
-            "value": "0,1",
+            "value": "1",
             "props": {
-              "propValue": "0.10"
+              "propValue": 1
             }
           },
           "repeatCount": {
@@ -238,9 +254,7 @@
           },
           "recommendedBy": {
             "value": "",
-            "props": {
-              "error": "Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára"
-            }
+            "props": {}
           },
           "payoff": {
             "value": "0",
@@ -305,7 +319,7 @@
     "vv": [
       {
         "id": 8,
-        "order": 6,
+        "order": 7,
         "props": {
           "type": "vv"
         },
@@ -327,11 +341,13 @@
       }
     ]
   },
-  "vars": {},
+  "vars": {
+    "sarza": ""
+  },
   "allowedUsers": [],
   "allowedIdentities": [],
-  "ct": "2024-08-21T07:26:10.054Z",
-  "mt": "2024-08-21T07:26:10.054Z",
+  "ct": "2024-07-17T12:47:36.014Z",
+  "mt": "2024-10-23T08:04:44.623Z",
   "summary": "HPV očkovanie",
   "description": "Očkovanie proti ľudskému papilomavírusu (HPV)",
   "source": "curo-open/curo-vzory#/020"

@@ -1,0 +1,81 @@
+{
+  "type": "examination",
+  "summary": "COV - Covid očkovanie",
+  "title": "Očk COV 19 - zápis predchádzajúceho očkovania",
+  "shortcut": "oc-cov",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 6,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "zápis očkovanie na covid vakcínou <br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oc": [
+      {
+        "id": 8,
+        "order": 1,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[COV] Covid-19",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "02089905018@3",
+              "id": "COV"
+            }
+          },
+          "datum": {
+            "value": "",
+            "props": {}
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "pocet": {
+            "value": "",
+            "props": {}
+          },
+          "davka": {
+            "value": "",
+            "props": {}
+          },
+          "posledna": {
+            "value": "",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "sumar-cov",
+    "prehlad-oc-cov",
+    "ocko"
+  ],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "description": "Očkovanie proti vírusu Covid ",
+  "mt": "2024-10-23T12:19:06.750Z",
+  "owner": "admin",
+  "ct": "2024-10-23T12:15:24.656Z",
+  "source": "curo-open/curo-vzory#/008"
+}

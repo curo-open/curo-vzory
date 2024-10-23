@@ -1,6 +1,6 @@
 {
-  "title": "CHR - Chrípka očkovanie - Vaxigrip",
-  "shortcut": "oc-chrv",
+  "title": "Očk CHR - Fluenz",
+  "shortcut": "oc-chrf",
   "if": "",
   "data": {
     "_": {},
@@ -99,15 +99,7 @@
             "value": "",
             "props": {}
           },
-          "oh": {
-            "value": "",
-            "props": {}
-          },
-          "ob": {
-            "value": "",
-            "props": {}
-          },
-          "whr": {
+          "op": {
             "value": "",
             "props": {}
           },
@@ -139,9 +131,9 @@
             }
           },
           "datum": {
-            "value": "23.10.2024 10:03",
+            "value": "23.10.2024 14:03",
             "props": {
-              "propValue": "2024-10-23T08:03:14.895Z",
+              "propValue": "2024-10-23T12:03:07.905Z",
               "expr": "=teraz"
             }
           },
@@ -200,24 +192,28 @@
         },
         "value": {
           "id": {
-            "value": "[1224C] Vaxigrip Tetra | sus iru 10x0,5 ml (striek.inj.skl.napl. s ihlami)",
+            "value": "[6372B] Fluenz Tetra nosová suspenzná aerodisperzia | aer nau 10x0,2 ml (aplik.nos.jedn.skl.)",
             "props": {
-              "propDpl": 54.6,
+              "propDpl": 82.68,
               "propSpUhr": "V",
-              "propIo": "ind.obm.",
+              "propUnit": "DF",
+              "propIo_0": "I00424",
               "propGp": 0,
-              "propUzp_1zvj": 5.71,
+              "propBal": 10,
+              "propUzp_1zvj": "15,086000",
+              "propAtcDoplnok": "nasal.",
               "propVnl": "R",
-              "propCena": 111.7,
+              "propCena": 233.54,
               "propSdl": 10,
-              "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
+              "propAtcName": "Očkovacia látka proti chrípke, živá oslabená",
               "propOl": 1,
-              "id": "1224C",
-              "idUl": "",
-              "idAtc": "J07BB02",
-              "idSp": "ims",
-              "idF": "SUS IRU",
-              "idEzid": "00021211925",
+              "propKat": true,
+              "id": "6372B",
+              "idUl": "vaccinum influenzae vivum attenuatum pernasale",
+              "idAtc": "J07BB03",
+              "idSp": "nas",
+              "idF": "AER NAU",
+              "idEzid": "00021173554",
               "idClassid": "liek"
             }
           },
@@ -253,22 +249,29 @@
         },
         "value": {
           "id": {
-            "value": "[1223C] Vaxigrip Tetra | sus iru 1x0,5 ml (striek.inj.skl.napl. s ihlou)",
+            "value": "[6372B] Fluenz Tetra nosová suspenzná aerodisperzia | aer nau 10x0,2 ml (aplik.nos.jedn.skl.)",
             "props": {
-              "propKat": false,
-              "propOl": 1,
-              "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
-              "propVnl": "R",
-              "propBal": 1,
-              "propGp": 0,
+              "propDpl": 82.68,
+              "propSpUhr": "V",
               "propUnit": "DF",
-              "idClassid": "liek",
-              "idEzid": "00021221619",
-              "idF": "SUS IRU",
-              "idSp": "ims",
-              "idAtc": "J07BB02",
-              "idUl": "",
-              "id": "1223C"
+              "propIo_0": "I00424",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": "15,086000",
+              "propAtcDoplnok": "nasal.",
+              "propVnl": "R",
+              "propCena": 233.54,
+              "propSdl": 10,
+              "propAtcName": "Očkovacia látka proti chrípke, živá oslabená",
+              "propOl": 1,
+              "propKat": true,
+              "id": "6372B",
+              "idUl": "vaccinum influenzae vivum attenuatum pernasale",
+              "idAtc": "J07BB03",
+              "idSp": "nas",
+              "idF": "AER NAU",
+              "idEzid": "00021173554",
+              "idClassid": "liek"
             }
           },
           "schedule": {
@@ -298,9 +301,9 @@
             "props": {}
           },
           "payoff": {
-            "value": "0",
+            "value": "8,27",
             "props": {
-              "propValue": 0
+              "propValue": 8.27
             }
           },
           "atc": {
@@ -328,7 +331,7 @@
             }
           },
           "io": {
-            "value": "",
+            "value": "I00424",
             "props": {}
           },
           "limitDP": {
@@ -393,11 +396,11 @@
   },
   "summary": "CHR - Chrípka očkovanie",
   "type": "examination",
-  "description": "Očkovanie proti vírusu chrípky",
+  "description": "Očkovanie proti vírusu chrípky (chrípka)",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "ct": "2024-10-22T11:52:17.646Z",
-  "mt": "2024-10-23T08:03:28.075Z",
+  "ct": "2024-09-24T11:41:20.094Z",
+  "mt": "2024-10-23T12:03:12.235Z",
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/020"
+  "source": "curo-open/curo-vzory#/007"
 }

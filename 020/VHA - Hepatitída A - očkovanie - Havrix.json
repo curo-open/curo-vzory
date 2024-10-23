@@ -1,12 +1,12 @@
 {
-  "title": "CHR - Chrípka očkovanie - Vaxigrip",
-  "shortcut": "oc-chrv",
+  "title": "VHA - Hepatitída A - očkovanie - Havrix",
+  "shortcut": "oc-vha",
   "if": "",
   "data": {
     "_": {},
     "premenna": [
       {
-        "id": 27,
+        "id": 15,
         "order": 0,
         "props": {
           "type": "premenna"
@@ -31,7 +31,7 @@
     ],
     "s": [
       {
-        "id": 9,
+        "id": 10,
         "order": 1,
         "props": {
           "type": "s"
@@ -59,63 +59,23 @@
         }
       }
     ],
-    "zfp": [
+    "vd": [
       {
-        "id": 25,
+        "id": 6,
         "order": 3,
         "props": {
-          "type": "zfp"
+          "type": "vd"
         },
         "value": {
-          "sys": {
-            "value": "",
-            "props": {}
+          "id": {
+            "value": "[Z24.6] Potreba imunizácie proti vírusovej hepatitíde",
+            "props": {
+              "id": "Z24.6",
+              "idEzid": "02089522276@9",
+              "idClassid": "diagnoza"
+            }
           },
-          "diast": {
-            "value": "",
-            "props": {}
-          },
-          "pulse": {
-            "value": "",
-            "props": {}
-          },
-          "sf": {
-            "value": "",
-            "props": {}
-          },
-          "df": {
-            "value": "",
-            "props": {}
-          },
-          "weight": {
-            "value": "",
-            "props": {}
-          },
-          "height": {
-            "value": "",
-            "props": {}
-          },
-          "bmi": {
-            "value": "",
-            "props": {}
-          },
-          "oh": {
-            "value": "",
-            "props": {}
-          },
-          "ob": {
-            "value": "",
-            "props": {}
-          },
-          "whr": {
-            "value": "",
-            "props": {}
-          },
-          "o2": {
-            "value": "",
-            "props": {}
-          },
-          "temp": {
+          "text": {
             "value": "",
             "props": {}
           }
@@ -131,17 +91,17 @@
         },
         "value": {
           "id": {
-            "value": "[CHR] Chrípka",
+            "value": "[VHA] Vírusová hepatitíde A",
             "props": {
-              "id": "CHR",
-              "idEzid": "00000776815",
-              "idClassid": "ockovanie"
+              "idClassid": "ockovanie",
+              "idEzid": "00000776773@3",
+              "id": "VHA"
             }
           },
           "datum": {
-            "value": "23.10.2024 10:03",
+            "value": "23.10.2024 10:07",
             "props": {
-              "propValue": "2024-10-23T08:03:14.895Z",
+              "propValue": "2024-10-23T08:07:22.362Z",
               "expr": "=teraz"
             }
           },
@@ -168,64 +128,44 @@
         }
       }
     ],
-    "vd": [
-      {
-        "id": 5,
-        "order": 5,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "[Z25.1] Potreba imunizácie výlučne proti chrípke",
-            "props": {
-              "idClassid": "diagnoza",
-              "idEzid": "02089522300@9",
-              "id": "Z25.1"
-            }
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
     "ol": [
       {
-        "id": 16,
-        "order": 6,
+        "id": 4,
+        "order": 5,
         "props": {
           "type": "ol"
         },
         "value": {
           "id": {
-            "value": "[1224C] Vaxigrip Tetra | sus iru 10x0,5 ml (striek.inj.skl.napl. s ihlami)",
+            "value": "[25980] HAVRIX 1440 Dosis adulta | sus inj 1x1 ml/1440 E.U. (striek.inj.skl.napln.s ihlou)",
             "props": {
-              "propDpl": 54.6,
-              "propSpUhr": "V",
-              "propIo": "ind.obm.",
-              "propGp": 0,
-              "propUzp_1zvj": 5.71,
-              "propVnl": "R",
-              "propCena": 111.7,
-              "propSdl": 10,
-              "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
+              "propKat": true,
               "propOl": 1,
-              "id": "1224C",
+              "propAtcName": "Očkovacia látka proti hepatitíde A, inaktivovaná, neporušený vírus",
+              "propSdl": 1,
+              "propCena": 23.79,
+              "propVnl": "R",
+              "propAtcDoplnok": "parent.",
+              "propUzp_1zvj": "100,0000 %",
+              "propBal": 1,
+              "propGp": 0,
+              "propIo_1": "I00473",
+              "propIo_0": "I00472",
+              "propUnit": "DF",
+              "propSpUhr": "V",
+              "propDpl": 0,
+              "idClassid": "liek",
+              "idEzid": "00020554432",
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07BC02",
               "idUl": "",
-              "idAtc": "J07BB02",
-              "idSp": "ims",
-              "idF": "SUS IRU",
-              "idEzid": "00021211925",
-              "idClassid": "liek"
+              "id": 25980
             }
           },
           "sn": {
             "value": "{{var.sarza}}",
-            "props": {
-              "expr": "={{var.sarza}}"
-            }
+            "props": {}
           },
           "qty": {
             "value": "1",
@@ -246,29 +186,37 @@
     ],
     "r": [
       {
-        "id": 14,
-        "order": 7,
+        "id": 13,
+        "order": 6,
         "props": {
           "type": "r"
         },
         "value": {
           "id": {
-            "value": "[1223C] Vaxigrip Tetra | sus iru 1x0,5 ml (striek.inj.skl.napl. s ihlou)",
+            "value": "[25980] HAVRIX 1440 Dosis adulta | sus inj 1x1 ml/1440 E.U. (striek.inj.skl.napln.s ihlou)",
             "props": {
-              "propKat": false,
+              "propKat": true,
               "propOl": 1,
-              "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
+              "propAtcName": "Očkovacia látka proti hepatitíde A, inaktivovaná, neporušený vírus",
+              "propSdl": 1,
+              "propCena": 23.79,
               "propVnl": "R",
+              "propAtcDoplnok": "parent.",
+              "propUzp_1zvj": "100,0000 %",
               "propBal": 1,
               "propGp": 0,
+              "propIo_1": "I00473",
+              "propIo_0": "I00472",
               "propUnit": "DF",
+              "propSpUhr": "V",
+              "propDpl": 0,
               "idClassid": "liek",
-              "idEzid": "00021221619",
-              "idF": "SUS IRU",
-              "idSp": "ims",
-              "idAtc": "J07BB02",
+              "idEzid": "00020554432",
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07BC02",
               "idUl": "",
-              "id": "1223C"
+              "id": 25980
             }
           },
           "schedule": {
@@ -284,9 +232,9 @@
             }
           },
           "qty": {
-            "value": "0,1",
+            "value": "1",
             "props": {
-              "propValue": "0.10"
+              "propValue": "1.00"
             }
           },
           "repeatCount": {
@@ -310,7 +258,7 @@
             }
           },
           "instruction": {
-            "value": "|Exp. amp. orig. No. I (unam)",
+            "value": "",
             "props": {}
           },
           "instruction_lek": {
@@ -328,7 +276,7 @@
             }
           },
           "io": {
-            "value": "",
+            "value": "I00472",
             "props": {}
           },
           "limitDP": {
@@ -360,8 +308,8 @@
     ],
     "vv": [
       {
-        "id": 7,
-        "order": 8,
+        "id": 8,
+        "order": 7,
         "props": {
           "type": "vv"
         },
@@ -371,7 +319,7 @@
             "props": {
               "propBody": 70,
               "id": "252b",
-              "idEzid": "00000467878@9",
+              "idEzid": "00000467878@7",
               "idClassid": "vykon"
             }
           },
@@ -384,20 +332,20 @@
     ]
   },
   "tags": [
-    "sumar-chr",
-    "prehlad-oc-chr",
+    "sumar-vha",
+    "prehlad-oc-vha",
     "ocko"
   ],
   "vars": {
     "sarza": ""
   },
-  "summary": "CHR - Chrípka očkovanie",
+  "description": "Očkovanie proti Vírusovovej hepatitíde typu A (Vírusová hepatitída A)",
+  "summary": "VHB - Hepatitida očkovanie",
   "type": "examination",
-  "description": "Očkovanie proti vírusu chrípky",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "ct": "2024-10-22T11:52:17.646Z",
-  "mt": "2024-10-23T08:03:28.075Z",
+  "mt": "2024-10-23T08:07:40.009Z",
+  "ct": "2024-10-23T06:07:58.193Z",
   "owner": "admin",
   "source": "curo-open/curo-vzory#/020"
 }

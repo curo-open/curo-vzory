@@ -1,12 +1,15 @@
 {
-  "title": "CHR - Chrípka očkovanie - Vaxigrip",
-  "shortcut": "oc-chrv",
+  "type": "examination",
+  "summary": "Preočkovanie DTaP-IPV",
+  "description": "Očkovanie proti rotavírusom",
+  "title": "Očk RTV III - RotaTeq",
+  "shortcut": "oc-rota3-Rotateq",
   "if": "",
   "data": {
     "_": {},
     "premenna": [
       {
-        "id": 27,
+        "id": 36,
         "order": 0,
         "props": {
           "type": "premenna"
@@ -31,7 +34,7 @@
     ],
     "s": [
       {
-        "id": 9,
+        "id": 2,
         "order": 1,
         "props": {
           "type": "s"
@@ -46,7 +49,7 @@
     ],
     "o": [
       {
-        "id": 11,
+        "id": 3,
         "order": 2,
         "props": {
           "type": "o"
@@ -59,129 +62,20 @@
         }
       }
     ],
-    "zfp": [
-      {
-        "id": 25,
-        "order": 3,
-        "props": {
-          "type": "zfp"
-        },
-        "value": {
-          "sys": {
-            "value": "",
-            "props": {}
-          },
-          "diast": {
-            "value": "",
-            "props": {}
-          },
-          "pulse": {
-            "value": "",
-            "props": {}
-          },
-          "sf": {
-            "value": "",
-            "props": {}
-          },
-          "df": {
-            "value": "",
-            "props": {}
-          },
-          "weight": {
-            "value": "",
-            "props": {}
-          },
-          "height": {
-            "value": "",
-            "props": {}
-          },
-          "bmi": {
-            "value": "",
-            "props": {}
-          },
-          "oh": {
-            "value": "",
-            "props": {}
-          },
-          "ob": {
-            "value": "",
-            "props": {}
-          },
-          "whr": {
-            "value": "",
-            "props": {}
-          },
-          "o2": {
-            "value": "",
-            "props": {}
-          },
-          "temp": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
-    "oc": [
-      {
-        "id": 2,
-        "order": 4,
-        "props": {
-          "type": "oc"
-        },
-        "value": {
-          "id": {
-            "value": "[CHR] Chrípka",
-            "props": {
-              "id": "CHR",
-              "idEzid": "00000776815",
-              "idClassid": "ockovanie"
-            }
-          },
-          "datum": {
-            "value": "23.10.2024 10:03",
-            "props": {
-              "propValue": "2024-10-23T08:03:14.895Z",
-              "expr": "=teraz"
-            }
-          },
-          "typ": {
-            "value": "",
-            "props": {}
-          },
-          "pocet": {
-            "value": "",
-            "props": {}
-          },
-          "davka": {
-            "value": "",
-            "props": {}
-          },
-          "posledna": {
-            "value": "",
-            "props": {}
-          },
-          "poznamka": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
-    ],
     "vd": [
       {
-        "id": 5,
-        "order": 5,
+        "id": 28,
+        "order": 3,
         "props": {
           "type": "vd"
         },
         "value": {
           "id": {
-            "value": "[Z25.1] Potreba imunizácie výlučne proti chrípke",
+            "value": "[Z25.8] Potreba imunizácie proti inej bližšie určenej jednotlivej vírusovej chorobe",
             "props": {
               "idClassid": "diagnoza",
-              "idEzid": "02089522300@9",
-              "id": "Z25.1"
+              "idEzid": "02089522318@19",
+              "id": "Z25.8"
             }
           },
           "text": {
@@ -191,47 +85,97 @@
         }
       }
     ],
+    "oc": [
+      {
+        "id": 4,
+        "order": 4,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[RTV] Ochorenia vyvolané rotavírusmi",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000776898@3",
+              "id": "RTV"
+            }
+          },
+          "datum": {
+            "value": "23.10.2024 13:51",
+            "props": {
+              "propValue": "2024-10-23T11:51:32.608Z",
+              "expr": "=teraz"
+            }
+          },
+          "typ": {
+            "value": "[TRDAV] III. dávka (základné očkovanie)",
+            "props": {
+              "idClassid": "octyp",
+              "idEzid": "00000400648@4",
+              "id": "TRDAV"
+            }
+          },
+          "pocet": {
+            "value": "3",
+            "props": {}
+          },
+          "davka": {
+            "value": "3",
+            "props": {}
+          },
+          "posledna": {
+            "value": "bez určenia",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "ol": [
       {
-        "id": 16,
-        "order": 6,
+        "id": 30,
+        "order": 5,
         "props": {
           "type": "ol"
         },
         "value": {
           "id": {
-            "value": "[1224C] Vaxigrip Tetra | sus iru 10x0,5 ml (striek.inj.skl.napl. s ihlami)",
+            "value": "[35586] RotaTeq perorálny roztok | sol por 1x2 ml (tuba LDPE)",
             "props": {
-              "propDpl": 54.6,
-              "propSpUhr": "V",
+              "propDpl": 27.94,
+              "propSpUhr": "S",
+              "propUnit": "DF",
               "propIo": "ind.obm.",
               "propGp": 0,
-              "propUzp_1zvj": 5.71,
+              "propBal": 1,
+              "propUzp_1zvj": 6.984,
               "propVnl": "R",
-              "propCena": 111.7,
-              "propSdl": 10,
-              "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
+              "propCena": 34.92,
+              "propSdl": 1,
+              "propAtcName": "Rotavírusová očkovacia látka, pentavalentná, živá reasortovaná",
               "propOl": 1,
-              "id": "1224C",
+              "propKat": true,
+              "propPo_0": "PED",
+              "id": 35586,
               "idUl": "",
-              "idAtc": "J07BB02",
-              "idSp": "ims",
-              "idF": "SUS IRU",
-              "idEzid": "00021211925",
+              "idAtc": "J07BH02",
+              "idSp": "ora",
+              "idF": "SOL POR",
+              "idEzid": "00020850764",
               "idClassid": "liek"
             }
           },
           "sn": {
             "value": "{{var.sarza}}",
-            "props": {
-              "expr": "={{var.sarza}}"
-            }
+            "props": {}
           },
           "qty": {
-            "value": "1",
-            "props": {
-              "propValue": "1.00"
-            }
+            "value": "",
+            "props": {}
           },
           "mu": {
             "value": "",
@@ -246,51 +190,51 @@
     ],
     "r": [
       {
-        "id": 14,
-        "order": 7,
+        "id": 32,
+        "order": 6,
         "props": {
           "type": "r"
         },
         "value": {
           "id": {
-            "value": "[1223C] Vaxigrip Tetra | sus iru 1x0,5 ml (striek.inj.skl.napl. s ihlou)",
+            "value": "[35586] RotaTeq perorálny roztok | sol por 1x2 ml (tuba LDPE)",
             "props": {
-              "propKat": false,
-              "propOl": 1,
-              "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
-              "propVnl": "R",
-              "propBal": 1,
-              "propGp": 0,
+              "propDpl": 27.26,
+              "propSpUhr": "S",
               "propUnit": "DF",
-              "idClassid": "liek",
-              "idEzid": "00021221619",
-              "idF": "SUS IRU",
-              "idSp": "ims",
-              "idAtc": "J07BB02",
+              "propIo_0": "I00470",
+              "propGp": 0,
+              "propBal": 1,
+              "propUzp_1zvj": "6,810000",
+              "propAtcDoplnok": "p.o. tekuté LF",
+              "propVnl": "R",
+              "propCena": 34.07,
+              "propSdl": 1,
+              "propAtcName": "Rotavírusová očkovacia látka, pentavalentná, živá reasortovaná",
+              "propOl": 1,
+              "propKat": true,
+              "propPo_0": "PED",
+              "id": 35586,
               "idUl": "",
-              "id": "1223C"
+              "idAtc": "J07BH02",
+              "idSp": "ora",
+              "idF": "SOL POR",
+              "idEzid": "00020850764",
+              "idClassid": "liek"
             }
           },
           "schedule": {
-            "value": "Ad Manus Medici, SUS",
-            "props": {
-              "propWay_code": "",
-              "propPeriod_t": "denne",
-              "propPeriod_code": "D",
-              "propForm_id": "SUS",
-              "propForm_t": "suspenzia",
-              "propText": "",
-              "propType": "AMM"
-            }
+            "value": "1",
+            "props": {}
           },
           "qty": {
-            "value": "0,1",
+            "value": "1",
             "props": {
-              "propValue": "0.10"
+              "propValue": "1.00"
             }
           },
           "repeatCount": {
-            "value": "1",
+            "value": "",
             "props": {}
           },
           "recommendedBy": {
@@ -298,9 +242,9 @@
             "props": {}
           },
           "payoff": {
-            "value": "0",
+            "value": "27,26",
             "props": {
-              "propValue": 0
+              "propValue": 27.26
             }
           },
           "atc": {
@@ -310,7 +254,7 @@
             }
           },
           "instruction": {
-            "value": "|Exp. amp. orig. No. I (unam)",
+            "value": "",
             "props": {}
           },
           "instruction_lek": {
@@ -328,7 +272,7 @@
             }
           },
           "io": {
-            "value": "",
+            "value": "I00470",
             "props": {}
           },
           "limitDP": {
@@ -360,19 +304,41 @@
     ],
     "vv": [
       {
-        "id": 7,
+        "id": 8,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[252a] Ochranné očkovanie perorálnou vakcínou, napríklad proti poliomyelitíde.",
+            "props": {
+              "propBody": 30,
+              "id": "252a",
+              "idEzid": "00000467860@30",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 34,
         "order": 8,
         "props": {
           "type": "vv"
         },
         "value": {
           "id": {
-            "value": "[252b] Očkovanie.",
+            "value": "[67] Príplatok u dieťaťa vo veku do piatich rokov pri výkonoch - odber krvi, injekcie, infúzie, transfúzie, infiltrácie, implantácie, odobratie sterov, punkcie a pri výkone očkovania.",
             "props": {
-              "propBody": 70,
-              "id": "252b",
-              "idEzid": "00000467878@9",
-              "idClassid": "vykon"
+              "propBody": 100,
+              "idClassid": "vykon",
+              "idEzid": "00000466797@30",
+              "id": 67
             }
           },
           "count": {
@@ -384,20 +350,18 @@
     ]
   },
   "tags": [
-    "sumar-chr",
-    "prehlad-oc-chr",
+    "oc-rtv",
+    "sumar-rtv",
+    "prehlad-oc-trv",
     "ocko"
   ],
   "vars": {
     "sarza": ""
   },
-  "summary": "CHR - Chrípka očkovanie",
-  "type": "examination",
-  "description": "Očkovanie proti vírusu chrípky",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "ct": "2024-10-22T11:52:17.646Z",
-  "mt": "2024-10-23T08:03:28.075Z",
+  "mt": "2024-10-23T11:51:36.958Z",
+  "ct": "2024-10-23T11:29:34.876Z",
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/020"
+  "source": "curo-open/curo-vzory#/007"
 }
