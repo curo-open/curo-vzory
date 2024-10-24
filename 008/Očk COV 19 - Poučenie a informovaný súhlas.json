@@ -1,0 +1,67 @@
+{
+  "title": "Očk COV 19 - Poučenie a informovaný súhlas",
+  "owner": "admin",
+  "shortcut": "covis",
+  "if": "",
+  "data": {
+    "_": {},
+    "tl": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "tl"
+        },
+        "value": {
+          "nadpis": {
+            "value": "COV - Covid19 Poučenie a informovaný súhlas - očkovanie<br>",
+            "props": {}
+          },
+          "podnadpis": {
+            "value": "Poučenie a písomný informovaný súhlas pacienta podľa § 6 zákona č. 576/2004 Z. z. o zdravotnej starostlivosti, službách súvisiacich s poskytovaním zdravotnej starostlivosti a o zmene a doplnení niektorých zákonov v znení neskorších predpisov<br>",
+            "props": {}
+          },
+          "obsah": {
+            "value": "Novovzniknuté ťažnosti, prípadne prejavy ochorenia a iné anamnestické údaje:<!--EndFragment--><br><br><br><br><br><!--StartFragment-->Navrhovaný (plánovaný) výkon prevencie:<br>Podanie očkovacej látky proti ochoreniu COVID-19 sa riadi podľa aktuálne platných Súhrnov charakteristických vlastností lieku jednotlivých očkovacích látok. Dolu podpísaný/á <span><b>{{ pacient.celeMeno }} </b></span>potvrdzujem svojím podpisom, že som bol/a informovaný/á o povahe navrhovaného výkonu prevencie, ktorý absolvujem za účelom prevencie, ako aj o jeho možných následkoch a rizikách (nežiadúce účinky aplikovanej vakcíny sú zverejnené v tzv. Písomnej informácii pre používateľa, ktorú je možné nájsť na stránke  www.sukl.sk a v priestoroch pracoviska <b><span>{{ identita.pzs_meno }}, </span><span>{{ identita.pzs_ulica }}, {{ identita.pzs_psc }} </span><span>{{ identita.pzs_mesto }}.</span></b><br><br><br>Bol/a som tiež poučený/á o možnostiach voľby navrhovaných výkonov a o rizikách ich odmietnutia. Poučenie mi bolo poskytnuté zrozumiteľne, ohľaduplne, bez nátlaku, s možnosťou a dostatočným časom slobodne sa rozhodnúť. Poučeniu som porozumel/a. Taktiež potvrdzujem, že som bol/a informovaný/á o možných kontraindikáciách v<br>súvislosti s podaním vakcíny, ktorými sú precitlivelosť na niektorú zložku vakcíny alebo akútne horúčkové ochorenie. Bližšie informácie o očkovacej látke môžete nájsť v tzv. Písomnej informácii pre používateľa, ktorú je možné získať na stránke www.sukl.sk a v priestoroch pracoviska <b><span>{{ identita.pzs_meno }}, </span><span>{{ identita.pzs_ulica }}, {{ identita.pzs_psc }} </span><span>{{ identita.pzs_mesto }}.</span></b><br><br><br>Svojím podpisom potvrdzujem, že s navrhovaným výkonom prevencie <b>SÚHLASÍM – NESÚHLASÍM</b>. <br>Tento súhlas dávam pri plnom vedomí, slobodne a vážne. <!--EndFragment--><br>(nehodiace sa preškrtnúť)<br><!--EndFragment--><br><br>{{ identita.pzs_mesto }},  dňa {{ dekurz.datum }}, čas {{ dekurz.cas }}<br><br><br>Podpis osoby (zákonného zástupcu), ktorej  sa poskytuje zdravotná starostlivosť        .......................................<!--EndFragment--><br><br><br>",
+            "props": {}
+          },
+          "hlavicka": {
+            "value": "Aj tabuľka s údajmi pacienta",
+            "props": {
+              "propValue": 2
+            }
+          },
+          "podpis": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "peciatka": {
+            "value": "x",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "pageFormat": {
+            "value": "A4",
+            "props": {
+              "propValue": "A4"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "ocko"
+  ],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-10-23T12:15:34.366Z",
+  "mt": "2024-10-24T06:06:40.497Z",
+  "summary": "Poučenie a informovaný súhlas - očkovanie Covid19",
+  "description": "Očkovanie proti vírusu Covid ",
+  "source": "curo-open/curo-vzory#/007"
+}
