@@ -165,7 +165,7 @@
         },
         "value": {
           "title": {
-            "value": "Očk hexa + pneumo II",
+            "value": "Očk hexa + pneumo II - Hexacima+Prevenar",
             "props": {}
           },
           "source": {
@@ -186,7 +186,7 @@
         },
         "value": {
           "title": {
-            "value": "Očk Rota II.",
+            "value": "Očk RTV II - Rotarix",
             "props": {}
           },
           "source": {
@@ -226,9 +226,9 @@
           "id": {
             "value": "[Z00.1] Rutinné vyšetrenie zdravotného stavu dieťaťa",
             "props": {
-              "id": "Z00.1",
+              "idClassid": "diagnoza",
               "idEzid": "02089520817@24",
-              "idClassid": "diagnoza"
+              "id": "Z00.1"
             }
           },
           "text": {
@@ -250,9 +250,31 @@
             "value": "[145a] 6. preventívna prehliadka sa vykazuje v 5. až 6. mesiaci života dieťaťa (vrátane antropometrických meraní).",
             "props": {
               "propBody": 370,
-              "id": "145a",
+              "idClassid": "vykon",
               "idEzid": "00000467159@45",
-              "idClassid": "vykon"
+              "id": "145a"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 200,
+        "order": 12,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[950] Vyšetrenie psychomotorického vývinu dieťaťa vo vzťahu k hrubej a jemnej motorike, k reči a k sociálnym vzťahom podľa štandardnej stupnice vrátane dokumentácie. Pri výkone pod kódom 950 nemožno výkony",
+            "props": {
+              "propBody": 390,
+              "idClassid": "vykon",
+              "idEzid": "00000469288@46",
+              "id": 950
             }
           },
           "count": {
@@ -267,8 +289,9 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "ct": "2024-06-04T06:42:45.734Z",
-  "mt": "2024-07-10T11:08:38.775Z",
+  "ct": "2024-10-25T09:09:39.681Z",
+  "mt": "2024-10-25T09:11:00.091Z",
+  "description": "6. Preventívna prehliadka sa vykonáva v 5. až 6. mesiaci života.",
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/008"
+  "source": "curo-open/curo-vzory#/007"
 }

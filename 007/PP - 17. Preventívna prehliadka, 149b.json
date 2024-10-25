@@ -199,9 +199,9 @@
           "id": {
             "value": "[Z00.1] Rutinné vyšetrenie zdravotného stavu dieťaťa",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z00.1",
               "idEzid": "02089520817@24",
-              "id": "Z00.1"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -223,9 +223,9 @@
             "value": "[149b] 17. preventívna prehliadka sa vykazuje v 15. roku života dieťaťa (vrátane antropometrických meraní).",
             "props": {
               "propBody": 390,
-              "idClassid": "vykon",
+              "id": "149b",
               "idEzid": "00000467266@45",
-              "id": "149b"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -240,9 +240,10 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "ct": "2024-06-04T08:19:02.744Z",
-  "mt": "2024-06-04T08:20:12.686Z",
+  "ct": "2024-10-25T09:22:38.161Z",
+  "mt": "2024-10-25T09:23:09.489Z",
   "summary": "PP - 17. Preventívna prehliadka, 149b",
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/008"
+  "description": "17. Preventívna prehliadka sa vykonáva v 15. roku života.",
+  "source": "curo-open/curo-vzory#/007"
 }

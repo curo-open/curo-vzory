@@ -72,9 +72,9 @@
             }
           },
           "datum": {
-            "value": "23.10.2024 13:50",
+            "value": "25.10.2024 11:37",
             "props": {
-              "propValue": "2024-10-23T11:50:24.044Z",
+              "propValue": "2024-10-25T09:37:16.029Z",
               "expr": "=teraz"
             }
           },
@@ -302,25 +302,26 @@
             "props": {}
           }
         }
-      },
+      }
+    ],
+    "vlozit": [
       {
-        "id": 34,
+        "id": 38,
         "order": 6,
         "props": {
-          "type": "vv"
+          "type": "vlozit"
         },
         "value": {
-          "id": {
-            "value": "[67] Príplatok u dieťaťa vo veku do piatich rokov pri výkonoch - odber krvi, injekcie, infúzie, transfúzie, infiltrácie, implantácie, odobratie sterov, punkcie a pri výkone očkovania.",
-            "props": {
-              "propBody": 100,
-              "id": 67,
-              "idEzid": "00000466797@30",
-              "idClassid": "vykon"
-            }
+          "title": {
+            "value": "Príplatok k očkovaniu - vv. 67",
+            "props": {}
           },
-          "count": {
-            "value": "1",
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
             "props": {}
           }
         }
@@ -338,8 +339,8 @@
   },
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2024-10-23T11:50:38.250Z",
+  "mt": "2024-10-25T09:37:22.019Z",
   "ct": "2024-08-21T10:19:10.959Z",
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/008"
+  "source": "curo-open/curo-vzory#/007"
 }

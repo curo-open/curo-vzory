@@ -185,7 +185,7 @@
         },
         "value": {
           "title": {
-            "value": "Očk MMR II",
+            "value": "Očk MoMR II - M-m-rvaxpro",
             "props": {}
           },
           "source": {
@@ -241,9 +241,9 @@
           "id": {
             "value": "[Z00.1] Rutinné vyšetrenie zdravotného stavu dieťaťa",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z00.1",
               "idEzid": "02089520817@24",
-              "id": "Z00.1"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -265,9 +265,9 @@
             "value": "[149] 15. preventívna prehliadka sa vykazuje v 11. roku života dieťaťa (vrátane antropometrických meraní).",
             "props": {
               "propBody": 390,
-              "idClassid": "vykon",
+              "id": 149,
               "idEzid": "00000467241@45",
-              "id": 149
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -287,9 +287,9 @@
             "value": "[159b] Preventívne vyšetrenie celkového cholesterolu v 11. a 17. roku života a celkového cholesterolu a triacylglycerolov v 40. roku života. Okrem odberu sa vykazuje cielená anamnéza, posúdenie genetickej záťaže, posúdenie laboratórnych výsledkov, v prípade",
             "props": {
               "propBody": 100,
-              "idClassid": "vykon",
+              "id": "159b",
               "idEzid": "00000467365@45",
-              "id": "159b"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -308,11 +308,11 @@
           "id": {
             "value": "[3592] stanovenie sedimentačnej rýchlosti krviniek",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 50,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 3592,
               "idEzid": "00000479048@45",
-              "id": 3592
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -331,11 +331,11 @@
           "id": {
             "value": "[3525] Kompletný dôkaz základných patologických súčastí moču, za každú vzorku od pacienta",
             "props": {
-              "propBody": 50,
               "propType": "SVaLZ",
-              "id": 3525,
+              "propBody": 50,
+              "idClassid": "vykon",
               "idEzid": "00000478560@45",
-              "idClassid": "vykon"
+              "id": 3525
             }
           },
           "count": {
@@ -350,9 +350,10 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "ct": "2024-06-04T08:14:08.443Z",
-  "mt": "2024-06-04T08:16:37.408Z",
+  "ct": "2024-10-25T09:19:49.858Z",
+  "mt": "2024-10-25T09:20:40.431Z",
   "summary": "PP - 15. Preventívna prehliadka, 149",
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/008"
+  "description": "15. Preventívna prehliadka sa vykonáva v 11. roku života.",
+  "source": "curo-open/curo-vzory#/007"
 }

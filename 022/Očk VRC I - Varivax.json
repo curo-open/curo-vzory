@@ -73,9 +73,9 @@
           "id": {
             "value": "[Z25.8] Potreba imunizácie proti inej bližšie určenej jednotlivej vírusovej chorobe",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z25.8",
               "idEzid": "02089522318@19",
-              "id": "Z25.8"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -96,24 +96,24 @@
           "id": {
             "value": "[VRC] Varicella",
             "props": {
-              "idClassid": "ockovanie",
+              "id": "VRC",
               "idEzid": "00000776872@3",
-              "id": "VRC"
+              "idClassid": "ockovanie"
             }
           },
           "datum": {
-            "value": "24.10.2024 08:06",
+            "value": "25.10.2024 11:39",
             "props": {
-              "propValue": "2024-10-24T06:06:29.664Z",
+              "propValue": "2024-10-25T09:39:29.321Z",
               "expr": "=teraz"
             }
           },
           "typ": {
             "value": "[1DAV] I. dávka",
             "props": {
-              "idClassid": "octyp",
+              "id": "1DAV",
               "idEzid": "02089891234@4",
-              "id": "1DAV"
+              "idClassid": "octyp"
             }
           },
           "pocet": {
@@ -148,21 +148,21 @@
           "id": {
             "value": "[95505] VARIVAX | plv iul 1x3 ml inj.l.s pr.(min.1350 PFU/ 0,5 ml)+1x1 ml nap.i.s.+2 ihly",
             "props": {
-              "propKat": false,
-              "propOl": 1,
-              "propAtcName": "Očkovacia látka proti vírusu Varicella, živá oslabená",
-              "propVnl": "R",
-              "propBal": 1,
-              "propGp": 0,
-              "propUnit": "DF",
               "propDpl": 42.41,
-              "idClassid": "liek",
-              "idEzid": "00020830667",
-              "idF": "PLV IUL",
-              "idSp": "ims",
-              "idAtc": "J07BK01",
+              "propUnit": "DF",
+              "propGp": 0,
+              "propBal": 1,
+              "propVnl": "R",
+              "propAtcName": "Očkovacia látka proti vírusu Varicella, živá oslabená",
+              "propOl": 1,
+              "propKat": false,
+              "id": 95505,
               "idUl": "",
-              "id": 95505
+              "idAtc": "J07BK01",
+              "idSp": "ims",
+              "idF": "PLV IUL",
+              "idEzid": "00020830667",
+              "idClassid": "liek"
             }
           },
           "sn": {
@@ -195,20 +195,20 @@
           "id": {
             "value": "[95505] VARIVAX | plv iul 1x3 ml inj.l.s pr.(min.1350 PFU/ 0,5 ml)+1x1 ml nap.i.s.+2 ihly",
             "props": {
-              "propKat": false,
-              "propOl": 1,
-              "propAtcName": "Očkovacia látka proti vírusu Varicella, živá oslabená",
-              "propVnl": "R",
-              "propBal": 1,
-              "propGp": 0,
               "propUnit": "DF",
-              "idClassid": "liek",
-              "idEzid": "00020830667",
-              "idF": "PLV IUL",
-              "idSp": "ims",
-              "idAtc": "J07BK01",
+              "propGp": 0,
+              "propBal": 1,
+              "propVnl": "R",
+              "propAtcName": "Očkovacia látka proti vírusu Varicella, živá oslabená",
+              "propOl": 1,
+              "propKat": false,
+              "id": 95505,
               "idUl": "",
-              "id": 95505
+              "idAtc": "J07BK01",
+              "idSp": "ims",
+              "idF": "PLV IUL",
+              "idEzid": "00020830667",
+              "idClassid": "liek"
             }
           },
           "schedule": {
@@ -302,9 +302,9 @@
             "value": "[252a] Ochranné očkovanie perorálnou vakcínou, napríklad proti poliomyelitíde.",
             "props": {
               "propBody": 30,
-              "id": "252a",
+              "idClassid": "vykon",
               "idEzid": "00000467860@30",
-              "idClassid": "vykon"
+              "id": "252a"
             }
           },
           "count": {
@@ -312,25 +312,26 @@
             "props": {}
           }
         }
-      },
+      }
+    ],
+    "vlozit": [
       {
-        "id": 34,
+        "id": 44,
         "order": 8,
         "props": {
-          "type": "vv"
+          "type": "vlozit"
         },
         "value": {
-          "id": {
-            "value": "[67] Príplatok u dieťaťa vo veku do piatich rokov pri výkonoch - odber krvi, injekcie, infúzie, transfúzie, infiltrácie, implantácie, odobratie sterov, punkcie a pri výkone očkovania.",
-            "props": {
-              "propBody": 100,
-              "idClassid": "vykon",
-              "idEzid": "00000466797@30",
-              "id": 67
-            }
+          "title": {
+            "value": "Príplatok k očkovaniu - vv. 67",
+            "props": {}
           },
-          "count": {
-            "value": "1",
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
             "props": {}
           }
         }
@@ -346,7 +347,7 @@
   },
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2024-10-24T06:06:36.029Z",
+  "mt": "2024-10-25T09:39:37.872Z",
   "ct": "2024-08-21T10:49:17.624Z",
   "owner": "admin",
   "source": "curo-open/curo-vzory#/007"

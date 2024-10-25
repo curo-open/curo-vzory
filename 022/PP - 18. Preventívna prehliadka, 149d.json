@@ -235,9 +235,9 @@
           "id": {
             "value": "[Z00.1] Rutinné vyšetrenie zdravotného stavu dieťaťa",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z00.1",
               "idEzid": "02089520817@24",
-              "id": "Z00.1"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -259,9 +259,9 @@
             "value": "[149d] Preventívna prehliadka v 17. roku života dieťaťa. Ďalšie preventívne prehliadky sa vykazujú raz za 2 roky.",
             "props": {
               "propBody": 390,
-              "idClassid": "vykon",
+              "id": "149d",
               "idEzid": "00000467282@45",
-              "id": "149d"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -281,9 +281,9 @@
             "value": "[159b] Preventívne vyšetrenie celkového cholesterolu v 11. a 17. roku života a celkového cholesterolu a triacylglycerolov v 40. roku života. Okrem odberu sa vykazuje cielená anamnéza, posúdenie genetickej záťaže, posúdenie laboratórnych výsledkov, v prípade",
             "props": {
               "propBody": 100,
-              "idClassid": "vykon",
+              "id": "159b",
               "idEzid": "00000467365@45",
-              "id": "159b"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -298,9 +298,10 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "ct": "2024-06-04T08:20:35.007Z",
-  "mt": "2024-06-04T08:21:28.894Z",
+  "ct": "2024-10-25T09:23:25.273Z",
+  "mt": "2024-10-25T09:24:10.881Z",
   "summary": "PP - 18. Preventívna prehliadka, 149d",
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/008"
+  "description": "18. Preventívna prehliadka v 17. roku života.",
+  "source": "curo-open/curo-vzory#/007"
 }

@@ -164,7 +164,7 @@
         },
         "value": {
           "title": {
-            "value": "Očk Infanrix",
+            "value": "Očk - Infanrix Polio",
             "props": {}
           },
           "source": {
@@ -220,9 +220,9 @@
           "id": {
             "value": "[Z00.1] Rutinné vyšetrenie zdravotného stavu dieťaťa",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z00.1",
               "idEzid": "02089520817@24",
-              "id": "Z00.1"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -244,9 +244,9 @@
             "value": "[148b] 13. preventívna prehliadka sa vykazuje v 6. roku života alebo v 7. roku života dieťaťa, ak poistenec nenastúpil školskú dochádzku (vrátane antropometrických meraní).",
             "props": {
               "propBody": 390,
-              "idClassid": "vykon",
+              "id": "148b",
               "idEzid": "00000467225@45",
-              "id": "148b"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -261,9 +261,10 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "ct": "2024-06-04T07:39:54.929Z",
-  "mt": "2024-06-04T08:12:56.069Z",
+  "ct": "2024-10-25T09:17:40.311Z",
+  "mt": "2024-10-25T09:18:33.247Z",
   "summary": "PP - 13. Preventívna prehliadka, 148b",
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/008"
+  "description": "PP - 13. Preventívna prehliadka sa vykonáva v 6. roku života alebo v 7. roku, ak poistenec\nnenastúpil školskú dochádzku.",
+  "source": "curo-open/curo-vzory#/007"
 }

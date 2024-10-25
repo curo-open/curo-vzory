@@ -70,9 +70,9 @@
           "id": {
             "value": "[Z24.6] Potreba imunizácie proti vírusovej hepatitíde",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z24.6",
               "idEzid": "02089522276@9",
-              "id": "Z24.6"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -93,15 +93,15 @@
           "id": {
             "value": "[VHB] Vírusová hepatitída B",
             "props": {
-              "idClassid": "ockovanie",
+              "id": "VHB",
               "idEzid": "00000346411@2",
-              "id": "VHB"
+              "idClassid": "ockovanie"
             }
           },
           "datum": {
-            "value": "23.10.2024 14:41",
+            "value": "25.10.2024 11:39",
             "props": {
-              "propValue": "2024-10-23T12:41:08.109Z",
+              "propValue": "2024-10-25T09:39:18.399Z",
               "expr": "=teraz"
             }
           },
@@ -139,23 +139,23 @@
           "id": {
             "value": "[25093] ENGERIX-B 10 µg | sus inj 1x0,5 ml (striek.inj.skl.napln.)",
             "props": {
-              "propKat": false,
-              "propOl": 1,
-              "propAtcName": "Očkovacia látka proti hepatitíde B, purifikovaný antigén",
-              "propSdl": 1,
-              "propCena": 9.3,
-              "propVnl": "R",
-              "propBal": 1,
-              "propGp": 0,
-              "propUnit": "DF",
               "propSpUhr": "V",
-              "idClassid": "liek",
-              "idEzid": "00020560868",
-              "idF": "SUS INJ",
-              "idSp": "imu",
-              "idAtc": "J07BC01",
+              "propUnit": "DF",
+              "propGp": 0,
+              "propBal": 1,
+              "propVnl": "R",
+              "propCena": 9.3,
+              "propSdl": 1,
+              "propAtcName": "Očkovacia látka proti hepatitíde B, purifikovaný antigén",
+              "propOl": 1,
+              "propKat": false,
+              "id": 25093,
               "idUl": "",
-              "id": 25093
+              "idAtc": "J07BC01",
+              "idSp": "imu",
+              "idF": "SUS INJ",
+              "idEzid": "00020560868",
+              "idClassid": "liek"
             }
           },
           "sn": {
@@ -190,40 +190,40 @@
           "id": {
             "value": "[25092] ENGERIX-B 20 µg | sus inj 1x1 ml (striek.inj.skl.napln.)",
             "props": {
-              "propDpl": 0,
-              "propSpUhr": "V",
-              "propUnit": "DF",
+              "propKat": true,
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti hepatitíde B, purifikovaný antigén",
+              "propSdl": 1,
+              "propCena": 12.61,
+              "propVnl": "R",
+              "propAtcDoplnok": "parent. 20 ug povinné očkovanie",
+              "propUzp_1zvj": "100,0000 %",
+              "propBal": 1,
+              "propGp": 0,
               "propIo_1": "I00475",
               "propIo_0": "I00474",
-              "propGp": 0,
-              "propBal": 1,
-              "propUzp_1zvj": "100,0000 %",
-              "propAtcDoplnok": "parent. 20 ug povinné očkovanie",
-              "propVnl": "R",
-              "propCena": 12.61,
-              "propSdl": 1,
-              "propAtcName": "Očkovacia látka proti hepatitíde B, purifikovaný antigén",
-              "propOl": 1,
-              "propKat": true,
-              "id": 25092,
-              "idUl": "",
-              "idAtc": "J07BC01",
-              "idSp": "imu",
-              "idF": "SUS INJ",
+              "propUnit": "DF",
+              "propSpUhr": "V",
+              "propDpl": 0,
+              "idClassid": "liek",
               "idEzid": "00020560546",
-              "idClassid": "liek"
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07BC01",
+              "idUl": "",
+              "id": 25092
             }
           },
           "schedule": {
             "value": "Ad Manus Medici, SUS",
             "props": {
-              "propType": "AMM",
-              "propText": "",
-              "propForm_t": "suspenzia",
-              "propForm_id": "SUS",
-              "propPeriod_code": "D",
+              "propWay_code": "",
               "propPeriod_t": "denne",
-              "propWay_code": ""
+              "propPeriod_code": "D",
+              "propForm_id": "SUS",
+              "propForm_t": "suspenzia",
+              "propText": "",
+              "propType": "AMM"
             }
           },
           "qty": {
@@ -313,13 +313,36 @@
             "value": "[252b] Očkovanie.",
             "props": {
               "propBody": 70,
-              "idClassid": "vykon",
+              "id": "252b",
               "idEzid": "00000467878@7",
-              "id": "252b"
+              "idClassid": "vykon"
             }
           },
           "count": {
             "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vlozit": [
+      {
+        "id": 17,
+        "order": 8,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Príplatok k očkovaniu - vv. 67",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
             "props": {}
           }
         }
@@ -339,8 +362,8 @@
   "type": "examination",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2024-10-23T12:41:16.529Z",
+  "mt": "2024-10-25T09:39:26.046Z",
   "ct": "2024-10-23T08:36:18.487Z",
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/008"
+  "source": "curo-open/curo-vzory#/007"
 }

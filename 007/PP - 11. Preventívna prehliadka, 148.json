@@ -199,9 +199,9 @@
           "id": {
             "value": "[Z00.1] Rutinné vyšetrenie zdravotného stavu dieťaťa",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z00.1",
               "idEzid": "02089520817@24",
-              "id": "Z00.1"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -223,9 +223,9 @@
             "value": "[148] 11. preventívna prehliadka sa vykazuje v 3. roku života dieťaťa (vrátane antropometrických meraní).",
             "props": {
               "propBody": 370,
-              "idClassid": "vykon",
+              "id": 148,
               "idEzid": "00000467209@45",
-              "id": 148
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -245,9 +245,9 @@
             "value": "[953] Vyšetrenie funkčného vývinu so skúškami zodpovedajúcimi veku (reč, pochopenie reči alebo sociálny vek) u dieťaťa predškolského veku.",
             "props": {
               "propBody": 110,
-              "idClassid": "vykon",
+              "id": 953,
               "idEzid": "00000469312@45",
-              "id": 953
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -262,9 +262,10 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "ct": "2024-06-04T07:09:27.975Z",
-  "mt": "2024-06-04T09:30:19.186Z",
+  "ct": "2024-10-25T09:15:53.546Z",
+  "mt": "2024-10-25T09:16:27.864Z",
   "summary": "PP - 11. Preventívna prehliadka, 148",
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/008"
+  "description": "11. Preventívna prehliadka sa vykonáva v 3. roku života. ",
+  "source": "curo-open/curo-vzory#/007"
 }

@@ -1,6 +1,5 @@
 {
   "title": "Preventívka univerzálna - pediater",
-  "owner": "admin",
   "shortcut": "ppu",
   "if": "",
   "data": {
@@ -1716,7 +1715,7 @@
         },
         "value": {
           "title": {
-            "value": "Očk hexa + pneumo I",
+            "value": "Očk hexa + pneumo I - Hexacima+Prevenar",
             "props": {}
           },
           "source": {
@@ -1737,7 +1736,7 @@
         },
         "value": {
           "title": {
-            "value": "Očk Rota I.",
+            "value": "Očk RTV - I - Rotarix",
             "props": {}
           },
           "source": {
@@ -1842,7 +1841,7 @@
         },
         "value": {
           "title": {
-            "value": "Očk hexa + pneumo II",
+            "value": "Očk hexa + pneumo II - Hexacima+Prevenar",
             "props": {}
           },
           "source": {
@@ -1863,7 +1862,7 @@
         },
         "value": {
           "title": {
-            "value": "Očk Rota II.",
+            "value": "Očk RTV - II - Rotarix",
             "props": {}
           },
           "source": {
@@ -2199,7 +2198,7 @@
         },
         "value": {
           "title": {
-            "value": "Očk hexa + pneumo III",
+            "value": "Očk hexa + pneumo III - Hexacima+Prevenar",
             "props": {}
           },
           "source": {
@@ -2325,7 +2324,7 @@
         },
         "value": {
           "title": {
-            "value": "Očk MMR I",
+            "value": "Očk MoMR I - M-m-rvaxpro",
             "props": {}
           },
           "source": {
@@ -2556,7 +2555,7 @@
         },
         "value": {
           "title": {
-            "value": "Očk MMR II",
+            "value": "Očk MoMR II - M-m-rvaxpro",
             "props": {}
           },
           "source": {
@@ -2682,7 +2681,7 @@
         },
         "value": {
           "title": {
-            "value": "Očk Infanrix",
+            "value": "Očk - Infanrix Polio",
             "props": {}
           },
           "source": {
@@ -2934,7 +2933,7 @@
         },
         "value": {
           "title": {
-            "value": "Očk MMR II",
+            "value": "Očk MoMR II - M-m-rvaxpro",
             "props": {}
           },
           "source": {
@@ -3060,7 +3059,7 @@
         },
         "value": {
           "title": {
-            "value": "Očk Boostrix",
+            "value": "Očk DTP - Boostrix",
             "props": {}
           },
           "source": {
@@ -3670,9 +3669,9 @@
           "id": {
             "value": "[Z00.1] Rutinné vyšetrenie zdravotného stavu dieťaťa",
             "props": {
-              "id": "Z00.1",
+              "idClassid": "diagnoza",
               "idEzid": "02089520817@24",
-              "idClassid": "diagnoza"
+              "id": "Z00.1"
             }
           },
           "text": {
@@ -3693,11 +3692,11 @@
           "id": {
             "value": "[3592] stanovenie sedimentačnej rýchlosti krviniek",
             "props": {
-              "propBody": 50,
               "propType": "SVaLZ",
-              "id": 3592,
+              "propBody": 50,
+              "idClassid": "vykon",
               "idEzid": "00000479048@45",
-              "idClassid": "vykon"
+              "id": 3592
             }
           },
           "count": {
@@ -3716,11 +3715,11 @@
           "id": {
             "value": "[3525] Kompletný dôkaz základných patologických súčastí moču, za každú vzorku od pacienta",
             "props": {
-              "propType": "SVaLZ",
               "propBody": 50,
-              "idClassid": "vykon",
+              "propType": "SVaLZ",
+              "id": 3525,
               "idEzid": "00000478560@45",
-              "id": 3525
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -3735,9 +3734,10 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "ct": "2024-06-04T07:00:44.025Z",
-  "mt": "2024-08-20T09:06:50.663Z",
+  "ct": "2024-10-25T11:40:47.027Z",
+  "mt": "2024-10-25T11:45:07.726Z",
   "summary": "",
   "description": "",
-  "source": "curo-open/curo-vzory#/008"
+  "owner": "admin",
+  "source": "curo-open/curo-vzory#/007"
 }

@@ -72,9 +72,9 @@
             }
           },
           "datum": {
-            "value": "23.10.2024 13:52",
+            "value": "25.10.2024 11:36",
             "props": {
-              "propValue": "2024-10-23T11:52:39.203Z",
+              "propValue": "2024-10-25T09:36:53.969Z",
               "expr": "=teraz"
             }
           },
@@ -122,9 +122,9 @@
             }
           },
           "datum": {
-            "value": "23.10.2024 13:52",
+            "value": "25.10.2024 11:36",
             "props": {
-              "propValue": "2024-10-23T11:52:39.204Z",
+              "propValue": "2024-10-25T09:36:53.970Z",
               "expr": "=teraz"
             }
           },
@@ -172,9 +172,9 @@
             }
           },
           "datum": {
-            "value": "23.10.2024 13:52",
+            "value": "25.10.2024 11:36",
             "props": {
-              "propValue": "2024-10-23T11:52:39.204Z",
+              "propValue": "2024-10-25T09:36:53.970Z",
               "expr": "=teraz"
             }
           },
@@ -409,25 +409,26 @@
             "props": {}
           }
         }
-      },
+      }
+    ],
+    "vlozit": [
       {
-        "id": 32,
+        "id": 46,
         "order": 8,
         "props": {
-          "type": "vv"
+          "type": "vlozit"
         },
         "value": {
-          "id": {
-            "value": "[67] Príplatok u dieťaťa vo veku do piatich rokov pri výkonoch - odber krvi, injekcie, infúzie, transfúzie, infiltrácie, implantácie, odobratie sterov, punkcie a pri výkone očkovania.",
-            "props": {
-              "propBody": 100,
-              "idClassid": "vykon",
-              "idEzid": "00000466797@30",
-              "id": 67
-            }
+          "title": {
+            "value": "Príplatok k očkovaniu - vv. 67",
+            "props": {}
           },
-          "count": {
-            "value": "1",
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
             "props": {}
           }
         }
@@ -446,7 +447,7 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "ct": "2024-10-23T09:27:49.621Z",
-  "mt": "2024-10-23T11:52:43.386Z",
+  "mt": "2024-10-25T09:37:03.118Z",
   "owner": "admin",
   "source": "curo-open/curo-vzory#/007"
 }

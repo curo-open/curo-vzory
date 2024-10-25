@@ -144,7 +144,7 @@
         },
         "value": {
           "title": {
-            "value": "Očk hexa + pneumo I",
+            "value": "Očk hexa + pneumo I - Hexacima+Prevenar",
             "props": {}
           },
           "source": {
@@ -165,7 +165,7 @@
         },
         "value": {
           "title": {
-            "value": "Očk Rota I.",
+            "value": "Očk RTV - I - Rotarix",
             "props": {}
           },
           "source": {
@@ -224,6 +224,28 @@
             "props": {}
           }
         }
+      },
+      {
+        "id": 361,
+        "order": 10,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[950] Vyšetrenie psychomotorického vývinu dieťaťa vo vzťahu k hrubej a jemnej motorike, k reči a k sociálnym vzťahom podľa štandardnej stupnice vrátane dokumentácie. Pri výkone pod kódom 950 nemožno výkony",
+            "props": {
+              "propBody": 390,
+              "id": 950,
+              "idEzid": "00000469288@46",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
       }
     ]
   },
@@ -231,9 +253,9 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "description": "",
-  "mt": "2024-07-10T11:08:05.390Z",
-  "ct": "2023-12-03T10:51:13.843Z",
-  "owner": "zavrel",
-  "source": "curo-open/curo-vzory#/008"
+  "description": "5. Preventívna prehliadka sa vykonáva v 3. až 4. mesiaci života. ",
+  "mt": "2024-10-25T09:09:17.553Z",
+  "ct": "2024-10-25T07:27:27.438Z",
+  "owner": "admin",
+  "source": "curo-open/curo-vzory#/007"
 }
