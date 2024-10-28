@@ -1,6 +1,6 @@
 {
-  "title": "IPO - Pneumokokové očkovanie (Apexxnar)",
-  "shortcut": "oc-IPOA",
+  "title": "IPO - Pneumokokové očkovanie - Pneumovax 23",
+  "shortcut": "oc-IPOp23",
   "if": "",
   "data": {
     "_": {},
@@ -99,10 +99,10 @@
             }
           },
           "datum": {
-            "value": "18.10.2023 00:00",
+            "value": "28.10.2024 14:14",
             "props": {
-              "propValue": "2023-10-17T22:00:00.000Z",
-              "expr": "=dnes"
+              "propValue": "2024-10-28T13:14:31.591Z",
+              "expr": "=teraz"
             }
           },
           "typ": {
@@ -137,21 +137,29 @@
         },
         "value": {
           "id": {
-            "value": "[9746D] Apexxnar injekčná suspenzia v naplnenej injekčnej striekačke | sus inj 1x0,5 ml (striek.inj.napl.skl.+ 1ihla)",
+            "value": "[1010D] Pneumovax 23 | sol iru 1x0,5 ml (striek.inj.skl.napl.+2 ihly)",
             "props": {
+              "propDpl": 0,
+              "propSpUhr": "V",
               "propUnit": "DF",
+              "propIo_1": "I00416",
+              "propIo_0": "I00415",
               "propGp": 0,
               "propBal": 1,
+              "propUzp_1zvj": "21,810000",
+              "propAtcDoplnok": "parent. 23-valentná",
               "propVnl": "R",
-              "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén konjugovaný",
+              "propCena": 21.81,
+              "propSdl": 1,
+              "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén",
               "propOl": 1,
-              "propKat": false,
-              "id": "9746D",
+              "propKat": true,
+              "id": "1010D",
               "idUl": "",
-              "idAtc": "J07AL02",
-              "idSp": "imu",
-              "idF": "SUS INJ",
-              "idEzid": "00021411905",
+              "idAtc": "J07AL01",
+              "idSp": "ims",
+              "idF": "SOL IRU",
+              "idEzid": "00021323928",
               "idClassid": "liek"
             }
           },
@@ -187,21 +195,29 @@
         },
         "value": {
           "id": {
-            "value": "[9746D] Apexxnar injekčná suspenzia v naplnenej injekčnej striekačke | sus inj 1x0,5 ml (striek.inj.napl.skl.+ 1ihla)",
+            "value": "[1010D] Pneumovax 23 | sol iru 1x0,5 ml (striek.inj.skl.napl.+2 ihly)",
             "props": {
+              "propDpl": 0,
+              "propSpUhr": "V",
               "propUnit": "DF",
+              "propIo_1": "I00416",
+              "propIo_0": "I00415",
               "propGp": 0,
               "propBal": 1,
+              "propUzp_1zvj": "21,810000",
+              "propAtcDoplnok": "parent. 23-valentná",
               "propVnl": "R",
-              "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén konjugovaný",
+              "propCena": 21.81,
+              "propSdl": 1,
+              "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén",
               "propOl": 1,
-              "propKat": false,
-              "id": "9746D",
+              "propKat": true,
+              "id": "1010D",
               "idUl": "",
-              "idAtc": "J07AL02",
-              "idSp": "imu",
-              "idF": "SUS INJ",
-              "idEzid": "00021411905",
+              "idAtc": "J07AL01",
+              "idSp": "ims",
+              "idF": "SOL IRU",
+              "idEzid": "00021323928",
               "idClassid": "liek"
             }
           },
@@ -244,7 +260,7 @@
             }
           },
           "instruction": {
-            "value": "",
+            "value": "|Exp. amp. orig. No. I (unam)",
             "props": {}
           },
           "instruction_lek": {
@@ -261,11 +277,29 @@
               "propValue": 0
             }
           },
+          "io": {
+            "value": "I00416",
+            "props": {}
+          },
+          "limitDP": {
+            "value": "",
+            "props": {}
+          },
+          "aplikacnaZonaParovehoOrganu": {
+            "value": "bez určenia",
+            "props": {
+              "propValue": ""
+            }
+          },
           "force": {
             "value": "nie",
             "props": {
               "propValue": 0
             }
+          },
+          "zalozneAtributy": {
+            "value": "",
+            "props": {}
           },
           "status": {
             "value": "0",
@@ -307,13 +341,13 @@
   "vars": {
     "sarza": ""
   },
-  "summary": "IPO - Pneumokokové očkovanie (Apexxnar)",
+  "summary": "IPO - Pneumokokové očkovanie (Prevenar)",
   "description": "Očkovanie proti invazívnemu pneumokokovému ochoreniu",
   "type": "examination",
-  "owner": "admin",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "ct": "2023-10-05T19:52:47.273Z",
-  "mt": "2023-10-18T11:13:58.766Z",
+  "mt": "2024-10-28T13:14:38.003Z",
+  "ct": "2024-10-28T13:12:32.297Z",
+  "owner": "admin",
   "source": "curo-open/curo-vzory#/020"
 }

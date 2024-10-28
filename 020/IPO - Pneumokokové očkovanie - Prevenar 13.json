@@ -1,14 +1,38 @@
 {
-  "content": "<section data-x-id=\"10\" data-type=\"s\" class=\"\"><aside></aside><label class=\"section-label  \">Subj.:</label><div class=\"FieldHtml\" data-name=\"s\">bez ťažkostí, prechlad. sa necíti<br></div></section><section data-x-id=\"11\" data-type=\"o\" class=\"_focus\"><aside></aside><label class=\"section-label  \">Obj.:</label><div class=\"FieldHtml _focus\" data-name=\"o\">KP komp., TT 36,6°C, Intramuskulárne podanie inj. Bez komplikácií po podaní.<br></div></section><section data-x-id=\"2\" data-type=\"oc\" class=\"\"><aside></aside><label class=\"section-label  \">Druh očkovania:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"ockovanie\" data-id-ezid=\"00000346411@2\" data-id=\"VHB\" title=\"[VHB] Vírusová hepatitída B\" style=\"width: 50ch;\" data-ignore-visited=\"true\">[VHB] Vírusová hepatitída B</div>​<label data-for=\"datum\" class=\"\">Dátum</label><div class=\"FieldDate hasActions\" data-name=\"datum\" data-expr=\"=dnes\" data-prop-value=\"2018-09-20T04:15:00.490Z\">20.09.2018</div>​<label data-for=\"poznamka\" class=\" _noval\">Poznámka</label><div class=\"_noval Field\" data-name=\"poznamka\"></div></section><section data-x-id=\"4\" data-type=\"ol\" class=\"\"><aside></aside><label class=\"section-label  \">Očkovacia látka:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"liek\" data-id-ezid=\"00020560546\" data-id-f=\"SUS INJ\" data-id-sp=\"imu\" data-id-atc=\"J07BC01\" data-id-ul=\"\" data-id=\"25092\" data-prop-ol=\"1\" data-prop-io=\"ind.obm.\" data-prop-gp=\"0\" data-prop-sdl=\"1\" data-prop-dpl=\"0\" data-prop-uzp_1zvj=\"1\" data-prop-vnl=\"R\" data-prop-cena=\"12.77\" data-prop-sp-uhr=\"V\" data-prop-atc-name=\"Očkovacia látka proti hepatitíde B, purifikovaný antigén\" title=\"[25092] ENGERIX-B 20 µg | sus inj 1x1 ml (striek.inj.skl.napln.)\" style=\"width: 50ch;\">[25092] ENGERIX-B 20 µg | sus inj 1x1 ml (striek.inj.skl.napln.)</div>​<label data-for=\"sn\" class=\" _noval\">šarza</label><div class=\"_noval Field\" data-name=\"sn\"></div>​<label data-for=\"qty\" class=\"\">množstvo ZVJ</label><div class=\"FieldR\" data-name=\"qty\" data-prop-value=\"1.00\">1</div>​<label data-for=\"text\" class=\" _noval\">poznámka</label><div class=\"_noval Field\" data-name=\"text\"></div></section><section data-x-id=\"6\" data-type=\"vd\" class=\"\"><aside></aside><label class=\"section-label  \">Dg.:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"diagnoza\" data-id-ezid=\"02089522276@9\" data-id=\"Z24.6\" title=\"[Z24.6] Potreba imunizácie proti vírusovej hepatitíde\" style=\"width: 50ch;\">[Z24.6] Potreba imunizácie proti vírusovej hepatitíde</div>​<label data-for=\"text\" class=\" _noval\">/</label><div class=\"_noval Field minor\" data-name=\"text\"></div></section><section data-x-id=\"8\" data-type=\"vv\" class=\"\"><aside></aside><label class=\"section-label  \">Vykázaný výkon:</label><div class=\"FieldSearch hasActions truncate\" data-name=\"id\" data-id-classid=\"vykon\" data-id-ezid=\"00000467878@7\" data-id=\"252b\" data-prop-body=\"70\" title=\"[252b] Očkovanie.\" style=\"width: 50ch;\">[252b] Očkovanie.</div>​<label data-for=\"count\" class=\"\">počet</label><div class=\"FieldN\" data-name=\"count\">1</div></section>",
-  "title": "IPO - Pneumokokové očkovanie (Prevenar)",
-  "shortcut": "oc-IPO",
+  "title": "IPO - Pneumokokové očkovanie - Prevenar 13",
+  "shortcut": "oc-IPOp13",
   "if": "",
   "data": {
     "_": {},
+    "premenna": [
+      {
+        "id": 15,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "sarza",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
     "s": [
       {
         "id": 10,
-        "order": 0,
+        "order": 1,
         "props": {
           "type": "s"
         },
@@ -23,7 +47,7 @@
     "o": [
       {
         "id": 11,
-        "order": 1,
+        "order": 2,
         "props": {
           "type": "o"
         },
@@ -38,7 +62,7 @@
     "vd": [
       {
         "id": 6,
-        "order": 2,
+        "order": 3,
         "props": {
           "type": "vd"
         },
@@ -61,7 +85,7 @@
     "oc": [
       {
         "id": 2,
-        "order": 3,
+        "order": 4,
         "props": {
           "type": "oc"
         },
@@ -75,11 +99,27 @@
             }
           },
           "datum": {
-            "value": "17.09.2020",
+            "value": "28.10.2024 14:11",
             "props": {
-              "propValue": "2020-09-16T22:00:00.000Z",
-              "expr": "=dnes"
+              "propValue": "2024-10-28T13:11:24.307Z",
+              "expr": "=teraz"
             }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "pocet": {
+            "value": "",
+            "props": {}
+          },
+          "davka": {
+            "value": "",
+            "props": {}
+          },
+          "posledna": {
+            "value": "",
+            "props": {}
           },
           "poznamka": {
             "value": "",
@@ -91,7 +131,7 @@
     "ol": [
       {
         "id": 4,
-        "order": 4,
+        "order": 5,
         "props": {
           "type": "ol"
         },
@@ -121,14 +161,20 @@
             }
           },
           "sn": {
-            "value": "",
-            "props": {}
+            "value": "{{var.sarza}}",
+            "props": {
+              "expr": "={{var.sarza}}"
+            }
           },
           "qty": {
             "value": "1",
             "props": {
               "propValue": "1.00"
             }
+          },
+          "mu": {
+            "value": "",
+            "props": {}
           },
           "text": {
             "value": "",
@@ -140,7 +186,7 @@
     "r": [
       {
         "id": 13,
-        "order": 5,
+        "order": 6,
         "props": {
           "type": "r"
         },
@@ -148,15 +194,19 @@
           "id": {
             "value": "[85035] Prevenar 13 injekčná suspenzia | sus inj 10x0,5 ml (striek.inj.skl.napln.+ samost.ihly)",
             "props": {
+              "propKat": true,
               "propOl": 1,
               "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén konjugovaný",
               "propSdl": 10,
               "propCena": 508.72,
               "propVnl": "R",
-              "propUzp_1zvj": 50.872,
+              "propAtcDoplnok": "parent. 13-valentná",
+              "propUzp_1zvj": "50,872000",
               "propBal": 10,
               "propGp": 0,
-              "propIo": "ind.obm.",
+              "propIo_2": "I00428",
+              "propIo_1": "I00427",
+              "propIo_0": "I00426",
               "propUnit": "DF",
               "propSpUhr": "V",
               "propDpl": 0,
@@ -198,7 +248,7 @@
           "payoff": {
             "value": "0",
             "props": {
-              "propValue": "0.00"
+              "propValue": 0
             }
           },
           "atc": {
@@ -208,6 +258,10 @@
             }
           },
           "instruction": {
+            "value": "|Exp. amp. orig. No. I (unam)",
+            "props": {}
+          },
+          "instruction_lek": {
             "value": "",
             "props": {}
           },
@@ -221,11 +275,29 @@
               "propValue": 0
             }
           },
+          "io": {
+            "value": "I00426",
+            "props": {}
+          },
+          "limitDP": {
+            "value": "",
+            "props": {}
+          },
+          "aplikacnaZonaParovehoOrganu": {
+            "value": "bez určenia",
+            "props": {
+              "propValue": ""
+            }
+          },
           "force": {
             "value": "nie",
             "props": {
               "propValue": 0
             }
+          },
+          "zalozneAtributy": {
+            "value": "",
+            "props": {}
           },
           "status": {
             "value": "0",
@@ -237,7 +309,7 @@
     "vv": [
       {
         "id": 8,
-        "order": 6,
+        "order": 7,
         "props": {
           "type": "vv"
         },
@@ -264,9 +336,16 @@
     "prehlad-oc-ipo",
     "ocko"
   ],
-  "vars": {},
+  "vars": {
+    "sarza": ""
+  },
   "summary": "IPO - Pneumokokové očkovanie (Prevenar)",
   "description": "Očkovanie proti invazívnemu pneumokokovému ochoreniu",
   "type": "examination",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "mt": "2024-10-28T13:11:33.637Z",
+  "owner": "admin",
+  "ct": "2024-08-21T11:25:33.830Z",
   "source": "curo-open/curo-vzory#/020"
 }
