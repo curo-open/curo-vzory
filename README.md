@@ -25,4 +25,3 @@ http://localhost:3000/api/templates/xt-export
 http://localhost:3000/api/templates/xt-import?file=/home/swift/Desktop/templates.json
 http://localhost:3000/api/templates/xt-import?file=/var/lib/curo/storage/templates.json
 http://localhost:3000/api/templates/xt-import?file=C:\ProgramData\curo\templates.json
-- test4
