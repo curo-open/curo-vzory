@@ -16,7 +16,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? vek &lt; 5 &amp;&amp; zp=!27 }}<br>",
+            "value": "{{ ? vek &lt; 5 &amp;&amp; zp!=27 }}<br>",
             "props": {}
           }
         }
