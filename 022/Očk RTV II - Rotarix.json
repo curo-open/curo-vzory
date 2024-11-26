@@ -43,9 +43,9 @@
           "id": {
             "value": "[Z25.8] Potreba imunizácie proti inej bližšie určenej jednotlivej vírusovej chorobe",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z25.8",
               "idEzid": "02089522318@19",
-              "id": "Z25.8"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -66,24 +66,24 @@
           "id": {
             "value": "[RTV] Ochorenia vyvolané rotavírusmi",
             "props": {
-              "idClassid": "ockovanie",
+              "id": "RTV",
               "idEzid": "00000776898@3",
-              "id": "RTV"
+              "idClassid": "ockovanie"
             }
           },
           "datum": {
-            "value": "25.10.2024 11:38",
+            "value": "15.11.2024 09:38",
             "props": {
-              "propValue": "2024-10-25T09:38:29.722Z",
+              "propValue": "2024-11-15T08:38:22.141Z",
               "expr": "=teraz"
             }
           },
           "typ": {
             "value": "[2DAV] II. dávka",
             "props": {
-              "id": "2DAV",
+              "idClassid": "octyp",
               "idEzid": "02089891259@4",
-              "idClassid": "octyp"
+              "id": "2DAV"
             }
           },
           "pocet": {
@@ -118,27 +118,27 @@
           "id": {
             "value": "[52849] Rotarix perorálna suspenzia v stlačiteľnej tube | sus por 1x1,5 ml ( stlačiteľná PE tuba)",
             "props": {
-              "propPo_0": "PED",
-              "propKat": true,
-              "propOl": 1,
-              "propAtcName": "Rotavírusová očkovacia látka, živá oslabená",
-              "propSdl": 1,
-              "propCena": 53.55,
-              "propVnl": "R",
-              "propUzp_1zvj": 10.59,
-              "propBal": 1,
-              "propGp": 0,
-              "propIo": "ind.obm.",
-              "propUnit": "DF",
-              "propSpUhr": "S",
               "propDpl": 42.96,
-              "idClassid": "liek",
-              "idEzid": "00020970844",
-              "idF": "SUS POR",
-              "idSp": "ora",
-              "idAtc": "J07BH01",
+              "propSpUhr": "S",
+              "propUnit": "DF",
+              "propIo": "ind.obm.",
+              "propGp": 0,
+              "propBal": 1,
+              "propUzp_1zvj": 10.59,
+              "propVnl": "R",
+              "propCena": 53.55,
+              "propSdl": 1,
+              "propAtcName": "Rotavírusová očkovacia látka, živá oslabená",
+              "propOl": 1,
+              "propKat": true,
+              "propPo_0": "PED",
+              "id": 52849,
               "idUl": "",
-              "id": 52849
+              "idAtc": "J07BH01",
+              "idSp": "ora",
+              "idF": "SUS POR",
+              "idEzid": "00020970844",
+              "idClassid": "liek"
             }
           },
           "sn": {
@@ -171,38 +171,38 @@
           "id": {
             "value": "[52849] Rotarix perorálna suspenzia v stlačiteľnej tube | sus por 1x1,5 ml ( stlačiteľná PE tuba)",
             "props": {
-              "propPo_0": "PED",
-              "propKat": true,
-              "propOl": 1,
-              "propAtcName": "Rotavírusová očkovacia látka, živá oslabená",
-              "propSdl": 1,
-              "propCena": 53.55,
-              "propVnl": "R",
-              "propAtcDoplnok": "p.o.",
-              "propUzp_1zvj": "10,590000",
-              "propBal": 1,
-              "propGp": 0,
-              "propIo_0": "I00471",
-              "propUnit": "DF",
-              "propSpUhr": "S",
               "propDpl": 42.96,
-              "idClassid": "liek",
-              "idEzid": "00020970844",
-              "idF": "SUS POR",
-              "idSp": "ora",
-              "idAtc": "J07BH01",
+              "propSpUhr": "S",
+              "propUnit": "DF",
+              "propIo_0": "I00471",
+              "propGp": 0,
+              "propBal": 1,
+              "propUzp_1zvj": "10,590000",
+              "propAtcDoplnok": "p.o.",
+              "propVnl": "R",
+              "propCena": 53.55,
+              "propSdl": 1,
+              "propAtcName": "Rotavírusová očkovacia látka, živá oslabená",
+              "propOl": 1,
+              "propKat": true,
+              "propPo_0": "PED",
+              "id": 52849,
               "idUl": "",
-              "id": 52849
+              "idAtc": "J07BH01",
+              "idSp": "ora",
+              "idF": "SUS POR",
+              "idEzid": "00020970844",
+              "idClassid": "liek"
             }
           },
           "schedule": {
             "value": "Ad Manus Medici",
             "props": {
-              "propType": "AMM",
-              "propText": "",
-              "propPeriod_code": "D",
+              "propWay_code": "",
               "propPeriod_t": "denne",
-              "propWay_code": ""
+              "propPeriod_code": "D",
+              "propText": "",
+              "propType": "AMM"
             }
           },
           "qty": {
@@ -292,36 +292,13 @@
             "value": "[252a] Ochranné očkovanie perorálnou vakcínou, napríklad proti poliomyelitíde.",
             "props": {
               "propBody": 30,
-              "idClassid": "vykon",
+              "id": "252a",
               "idEzid": "00000467860@30",
-              "id": "252a"
+              "idClassid": "vykon"
             }
           },
           "count": {
             "value": "1",
-            "props": {}
-          }
-        }
-      }
-    ],
-    "vlozit": [
-      {
-        "id": 38,
-        "order": 6,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "Príplatok k očkovaniu - vv. 67",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
             "props": {}
           }
         }
@@ -340,7 +317,7 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "ct": "2024-08-21T10:48:38.476Z",
-  "mt": "2024-10-25T09:38:44.939Z",
+  "mt": "2024-11-15T08:38:29.321Z",
   "owner": "admin",
   "source": "curo-open/curo-vzory#/007"
 }

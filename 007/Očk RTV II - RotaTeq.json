@@ -73,9 +73,9 @@
           "id": {
             "value": "[Z25.8] Potreba imunizácie proti inej bližšie určenej jednotlivej vírusovej chorobe",
             "props": {
-              "id": "Z25.8",
+              "idClassid": "diagnoza",
               "idEzid": "02089522318@19",
-              "idClassid": "diagnoza"
+              "id": "Z25.8"
             }
           },
           "text": {
@@ -96,24 +96,24 @@
           "id": {
             "value": "[RTV] Ochorenia vyvolané rotavírusmi",
             "props": {
-              "id": "RTV",
+              "idClassid": "ockovanie",
               "idEzid": "00000776898@3",
-              "idClassid": "ockovanie"
+              "id": "RTV"
             }
           },
           "datum": {
-            "value": "25.10.2024 11:38",
+            "value": "15.11.2024 09:38",
             "props": {
-              "propValue": "2024-10-25T09:38:44.990Z",
+              "propValue": "2024-11-15T08:38:29.369Z",
               "expr": "=teraz"
             }
           },
           "typ": {
             "value": "[2DAV] II. dávka",
             "props": {
-              "idClassid": "octyp",
+              "id": "2DAV",
               "idEzid": "02089891259@4",
-              "id": "2DAV"
+              "idClassid": "octyp"
             }
           },
           "pocet": {
@@ -148,27 +148,27 @@
           "id": {
             "value": "[35586] RotaTeq perorálny roztok | sol por 1x2 ml (tuba LDPE)",
             "props": {
-              "propPo_0": "PED",
-              "propKat": true,
-              "propOl": 1,
-              "propAtcName": "Rotavírusová očkovacia látka, pentavalentná, živá reasortovaná",
-              "propSdl": 1,
-              "propCena": 34.92,
-              "propVnl": "R",
-              "propUzp_1zvj": 6.984,
-              "propBal": 1,
-              "propGp": 0,
-              "propIo": "ind.obm.",
-              "propUnit": "DF",
-              "propSpUhr": "S",
               "propDpl": 27.94,
-              "idClassid": "liek",
-              "idEzid": "00020850764",
-              "idF": "SOL POR",
-              "idSp": "ora",
-              "idAtc": "J07BH02",
+              "propSpUhr": "S",
+              "propUnit": "DF",
+              "propIo": "ind.obm.",
+              "propGp": 0,
+              "propBal": 1,
+              "propUzp_1zvj": 6.984,
+              "propVnl": "R",
+              "propCena": 34.92,
+              "propSdl": 1,
+              "propAtcName": "Rotavírusová očkovacia látka, pentavalentná, živá reasortovaná",
+              "propOl": 1,
+              "propKat": true,
+              "propPo_0": "PED",
+              "id": 35586,
               "idUl": "",
-              "id": 35586
+              "idAtc": "J07BH02",
+              "idSp": "ora",
+              "idF": "SOL POR",
+              "idEzid": "00020850764",
+              "idClassid": "liek"
             }
           },
           "sn": {
@@ -201,28 +201,28 @@
           "id": {
             "value": "[35586] RotaTeq perorálny roztok | sol por 1x2 ml (tuba LDPE)",
             "props": {
-              "propPo_0": "PED",
-              "propKat": true,
-              "propOl": 1,
-              "propAtcName": "Rotavírusová očkovacia látka, pentavalentná, živá reasortovaná",
-              "propSdl": 1,
-              "propCena": 34.07,
-              "propVnl": "R",
-              "propAtcDoplnok": "p.o. tekuté LF",
-              "propUzp_1zvj": "6,810000",
-              "propBal": 1,
-              "propGp": 0,
-              "propIo_0": "I00470",
-              "propUnit": "DF",
-              "propSpUhr": "S",
               "propDpl": 27.26,
-              "idClassid": "liek",
-              "idEzid": "00020850764",
-              "idF": "SOL POR",
-              "idSp": "ora",
-              "idAtc": "J07BH02",
+              "propSpUhr": "S",
+              "propUnit": "DF",
+              "propIo_0": "I00470",
+              "propGp": 0,
+              "propBal": 1,
+              "propUzp_1zvj": "6,810000",
+              "propAtcDoplnok": "p.o. tekuté LF",
+              "propVnl": "R",
+              "propCena": 34.07,
+              "propSdl": 1,
+              "propAtcName": "Rotavírusová očkovacia látka, pentavalentná, živá reasortovaná",
+              "propOl": 1,
+              "propKat": true,
+              "propPo_0": "PED",
+              "id": 35586,
               "idUl": "",
-              "id": 35586
+              "idAtc": "J07BH02",
+              "idSp": "ora",
+              "idF": "SOL POR",
+              "idEzid": "00020850764",
+              "idClassid": "liek"
             }
           },
           "schedule": {
@@ -316,36 +316,13 @@
             "value": "[252a] Ochranné očkovanie perorálnou vakcínou, napríklad proti poliomyelitíde.",
             "props": {
               "propBody": 30,
-              "idClassid": "vykon",
+              "id": "252a",
               "idEzid": "00000467860@30",
-              "id": "252a"
+              "idClassid": "vykon"
             }
           },
           "count": {
             "value": "1",
-            "props": {}
-          }
-        }
-      }
-    ],
-    "vlozit": [
-      {
-        "id": 40,
-        "order": 8,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "Príplatok k očkovaniu - vv. 67",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
             "props": {}
           }
         }
@@ -363,7 +340,7 @@
   },
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2024-10-25T09:38:48.576Z",
+  "mt": "2024-11-15T08:38:36.451Z",
   "ct": "2024-10-23T11:26:46.081Z",
   "owner": "admin",
   "source": "curo-open/curo-vzory#/007"

@@ -72,9 +72,9 @@
             }
           },
           "datum": {
-            "value": "25.10.2024 11:37",
+            "value": "15.11.2024 09:37",
             "props": {
-              "propValue": "2024-10-25T09:37:16.029Z",
+              "propValue": "2024-11-15T08:37:29.322Z",
               "expr": "=teraz"
             }
           },
@@ -303,29 +303,6 @@
           }
         }
       }
-    ],
-    "vlozit": [
-      {
-        "id": 38,
-        "order": 6,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "Príplatok k očkovaniu - vv. 67",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      }
     ]
   },
   "tags": [
@@ -339,7 +316,7 @@
   },
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2024-10-25T09:37:22.019Z",
+  "mt": "2024-11-15T08:37:38.409Z",
   "ct": "2024-08-21T10:19:10.959Z",
   "owner": "admin",
   "source": "curo-open/curo-vzory#/007"

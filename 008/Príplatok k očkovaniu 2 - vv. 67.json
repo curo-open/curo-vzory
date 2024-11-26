@@ -1,7 +1,6 @@
 {
-  "title": "Príplatok k očkovaniu - vv. 67",
-  "owner": "admin",
-  "shortcut": "vv67",
+  "title": "Príplatok k očkovaniu 2 - vv. 67",
+  "shortcut": "vyk67",
   "description": "",
   "summary": "",
   "if": "",
@@ -73,9 +72,9 @@
             "value": "[67] Príplatok u dieťaťa vo veku do piatich rokov pri výkonoch - odber krvi, injekcie, infúzie, transfúzie, infiltrácie, implantácie, odobratie sterov, punkcie a pri výkone očkovania.",
             "props": {
               "propBody": 100,
-              "idClassid": "vykon",
+              "id": 67,
               "idEzid": "00000466797@46",
-              "id": 67
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -95,9 +94,9 @@
             "value": "[67] Príplatok u dieťaťa vo veku do piatich rokov pri výkonoch - odber krvi, injekcie, infúzie, transfúzie, infiltrácie, implantácie, odobratie sterov, punkcie a pri výkone očkovania.",
             "props": {
               "propBody": 100,
-              "id": 67,
+              "idClassid": "vykon",
               "idEzid": "00000466797@46",
-              "idClassid": "vykon"
+              "id": 67
             }
           },
           "count": {
@@ -112,7 +111,8 @@
   "vars": {},
   "allowedUsers": [],
   "allowedIdentities": [],
-  "ct": "2024-10-25T09:27:42.396Z",
-  "mt": "2024-11-15T07:50:11.396Z",
+  "ct": "2024-11-15T08:10:32.270Z",
+  "mt": "2024-11-15T08:10:55.183Z",
+  "owner": "admin",
   "source": "curo-open/curo-vzory#/007"
 }

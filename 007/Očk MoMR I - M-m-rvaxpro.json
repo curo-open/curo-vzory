@@ -72,9 +72,9 @@
             }
           },
           "datum": {
-            "value": "25.10.2024 11:35",
+            "value": "15.11.2024 09:21",
             "props": {
-              "propValue": "2024-10-25T09:35:41.160Z",
+              "propValue": "2024-11-15T08:21:13.703Z",
               "expr": "=teraz"
             }
           },
@@ -122,9 +122,9 @@
             }
           },
           "datum": {
-            "value": "25.10.2024 11:35",
+            "value": "15.11.2024 09:21",
             "props": {
-              "propValue": "2024-10-25T09:35:41.161Z",
+              "propValue": "2024-11-15T08:21:13.703Z",
               "expr": "=teraz"
             }
           },
@@ -172,9 +172,9 @@
             }
           },
           "datum": {
-            "value": "25.10.2024 11:35",
+            "value": "15.11.2024 09:21",
             "props": {
-              "propValue": "2024-10-25T09:35:41.162Z",
+              "propValue": "2024-11-15T08:21:13.704Z",
               "expr": "=teraz"
             }
           },
@@ -409,7 +409,7 @@
     ],
     "vlozit": [
       {
-        "id": 50,
+        "id": 55,
         "order": 8,
         "props": {
           "type": "vlozit"
@@ -443,7 +443,7 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "ct": "2024-10-23T09:16:01.841Z",
-  "mt": "2024-10-25T09:35:44.015Z",
+  "mt": "2024-11-15T08:21:17.292Z",
   "owner": "admin",
   "source": "curo-open/curo-vzory#/007"
 }

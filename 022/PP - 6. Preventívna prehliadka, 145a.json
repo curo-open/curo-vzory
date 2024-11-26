@@ -137,29 +137,8 @@
         }
       },
       {
-        "id": 52,
-        "order": 7,
-        "props": {
-          "type": "vlozit"
-        },
-        "value": {
-          "title": {
-            "value": "Preventívka bodovanie - pediater",
-            "props": {}
-          },
-          "source": {
-            "value": "",
-            "props": {}
-          },
-          "vars": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 53,
-        "order": 8,
+        "order": 7,
         "props": {
           "type": "vlozit"
         },
@@ -180,7 +159,7 @@
       },
       {
         "id": 54,
-        "order": 9,
+        "order": 8,
         "props": {
           "type": "vlozit"
         },
@@ -218,7 +197,7 @@
     "vd": [
       {
         "id": 194,
-        "order": 10,
+        "order": 9,
         "props": {
           "type": "vd"
         },
@@ -241,7 +220,7 @@
     "vv": [
       {
         "id": 197,
-        "order": 11,
+        "order": 10,
         "props": {
           "type": "vv"
         },
@@ -263,7 +242,7 @@
       },
       {
         "id": 200,
-        "order": 12,
+        "order": 11,
         "props": {
           "type": "vv"
         },
@@ -290,7 +269,7 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "ct": "2024-10-25T09:09:39.681Z",
-  "mt": "2024-10-25T09:11:00.091Z",
+  "mt": "2024-11-14T10:20:14.979Z",
   "description": "6. Preventívna prehliadka sa vykonáva v 5. až 6. mesiaci života.",
   "owner": "admin",
   "source": "curo-open/curo-vzory#/007"

@@ -73,15 +73,15 @@
           "id": {
             "value": "[D] Diftéria",
             "props": {
-              "idClassid": "ockovanie",
+              "id": "D",
               "idEzid": "00000115915@2",
-              "id": "D"
+              "idClassid": "ockovanie"
             }
           },
           "datum": {
-            "value": "25.10.2024 11:33",
+            "value": "15.11.2024 09:19",
             "props": {
-              "propValue": "2024-10-25T09:33:53.408Z",
+              "propValue": "2024-11-15T08:19:56.591Z",
               "expr": "=teraz"
             }
           },
@@ -117,15 +117,15 @@
           "id": {
             "value": "[T] Tetanus",
             "props": {
-              "id": "T",
+              "idClassid": "ockovanie",
               "idEzid": "00000115923@2",
-              "idClassid": "ockovanie"
+              "id": "T"
             }
           },
           "datum": {
-            "value": "25.10.2024 11:33",
+            "value": "15.11.2024 09:19",
             "props": {
-              "propValue": "2024-10-25T09:33:53.409Z",
+              "propValue": "2024-11-15T08:19:56.591Z",
               "expr": "=teraz"
             }
           },
@@ -161,15 +161,15 @@
           "id": {
             "value": "[P] Pertussis",
             "props": {
-              "idClassid": "ockovanie",
+              "id": "P",
               "idEzid": "00000346304@2",
-              "id": "P"
+              "idClassid": "ockovanie"
             }
           },
           "datum": {
-            "value": "25.10.2024 11:33",
+            "value": "15.11.2024 09:19",
             "props": {
-              "propValue": "2024-10-25T09:33:53.409Z",
+              "propValue": "2024-11-15T08:19:56.592Z",
               "expr": "=teraz"
             }
           },
@@ -248,9 +248,9 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "id": "Z00.0",
+              "idClassid": "diagnoza",
               "idEzid": "02089520809@11",
-              "idClassid": "diagnoza"
+              "id": "Z00.0"
             }
           },
           "text": {
@@ -269,9 +269,9 @@
           "id": {
             "value": "[Z27.1] Potreba imunizácie proti záškrtu – tetanu – čiernemu kašľu [DPT]",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z27.1",
               "idEzid": "02089522383@12",
-              "id": "Z27.1"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -292,31 +292,31 @@
           "id": {
             "value": "[45411] Boostrix Polio | sus iru 10x0,5 ml (striek.skl.napl.s ihlou)",
             "props": {
+              "propDpl": 0,
+              "propSpUhr": "V",
+              "propUnit": "DF",
+              "propIo_1": "I01283",
+              "propIo_0": "I00438",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": "22,433000",
+              "propAtcDoplnok": "parent. znížený obsah D,T,P antigénov povinné očkovanie",
+              "propVnl": "R",
+              "propCena": 224.33,
+              "propSdl": 10,
+              "propAtcName": "Očkovacia látka proti záškrtu-čiernemu kašľu-poliomyelitíde-tetanu",
+              "propOl": 1,
+              "propKat": true,
               "propPo_2": "PED",
               "propPo_1": "INF",
               "propPo_0": "ALG",
-              "propKat": true,
-              "propOl": 1,
-              "propAtcName": "Očkovacia látka proti záškrtu-čiernemu kašľu-poliomyelitíde-tetanu",
-              "propSdl": 10,
-              "propCena": 224.33,
-              "propVnl": "R",
-              "propAtcDoplnok": "parent. znížený obsah D,T,P antigénov povinné očkovanie",
-              "propUzp_1zvj": "22,433000",
-              "propBal": 10,
-              "propGp": 0,
-              "propIo_1": "I01283",
-              "propIo_0": "I00438",
-              "propUnit": "DF",
-              "propSpUhr": "V",
-              "propDpl": 0,
-              "idClassid": "liek",
-              "idEzid": "00020916748",
-              "idF": "SUS IRU",
-              "idSp": "imu",
-              "idAtc": "J07CA02",
+              "id": 45411,
               "idUl": "",
-              "id": 45411
+              "idAtc": "J07CA02",
+              "idSp": "imu",
+              "idF": "SUS IRU",
+              "idEzid": "00020916748",
+              "idClassid": "liek"
             }
           },
           "sn": {
@@ -351,43 +351,43 @@
           "id": {
             "value": "[45411] Boostrix Polio | sus iru 10x0,5 ml (striek.skl.napl.s ihlou)",
             "props": {
+              "propDpl": 0,
+              "propSpUhr": "V",
+              "propUnit": "DF",
+              "propIo_1": "I01283",
+              "propIo_0": "I00438",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": "22,433000",
+              "propAtcDoplnok": "parent. znížený obsah D,T,P antigénov povinné očkovanie",
+              "propVnl": "R",
+              "propCena": 224.33,
+              "propSdl": 10,
+              "propAtcName": "Očkovacia látka proti záškrtu-čiernemu kašľu-poliomyelitíde-tetanu",
+              "propOl": 1,
+              "propKat": true,
               "propPo_2": "PED",
               "propPo_1": "INF",
               "propPo_0": "ALG",
-              "propKat": true,
-              "propOl": 1,
-              "propAtcName": "Očkovacia látka proti záškrtu-čiernemu kašľu-poliomyelitíde-tetanu",
-              "propSdl": 10,
-              "propCena": 224.33,
-              "propVnl": "R",
-              "propAtcDoplnok": "parent. znížený obsah D,T,P antigénov povinné očkovanie",
-              "propUzp_1zvj": "22,433000",
-              "propBal": 10,
-              "propGp": 0,
-              "propIo_1": "I01283",
-              "propIo_0": "I00438",
-              "propUnit": "DF",
-              "propSpUhr": "V",
-              "propDpl": 0,
-              "idClassid": "liek",
-              "idEzid": "00020916748",
-              "idF": "SUS IRU",
-              "idSp": "imu",
-              "idAtc": "J07CA02",
+              "id": 45411,
               "idUl": "",
-              "id": 45411
+              "idAtc": "J07CA02",
+              "idSp": "imu",
+              "idF": "SUS IRU",
+              "idEzid": "00020916748",
+              "idClassid": "liek"
             }
           },
           "schedule": {
             "value": "Ad Manus Medici, SUS",
             "props": {
-              "propWay_code": "",
-              "propPeriod_t": "denne",
-              "propPeriod_code": "D",
-              "propForm_id": "SUS",
-              "propForm_t": "suspenzia",
+              "propType": "AMM",
               "propText": "",
-              "propType": "AMM"
+              "propForm_t": "suspenzia",
+              "propForm_id": "SUS",
+              "propPeriod_code": "D",
+              "propPeriod_t": "denne",
+              "propWay_code": ""
             }
           },
           "qty": {
@@ -477,9 +477,9 @@
             "value": "[252b] Očkovanie.",
             "props": {
               "propBody": 70,
-              "id": "252b",
+              "idClassid": "vykon",
               "idEzid": "00000467878@7",
-              "idClassid": "vykon"
+              "id": "252b"
             }
           },
           "count": {
@@ -523,7 +523,7 @@
   },
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2024-10-25T09:33:59.612Z",
+  "mt": "2024-11-15T08:20:02.034Z",
   "ct": "2024-10-23T08:36:38.129Z",
   "owner": "admin",
   "source": "curo-open/curo-vzory#/007"

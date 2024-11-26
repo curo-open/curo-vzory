@@ -125,15 +125,15 @@
           "id": {
             "value": "[COV] Covid-19",
             "props": {
-              "idClassid": "ockovanie",
+              "id": "COV",
               "idEzid": "02089905018@3",
-              "id": "COV"
+              "idClassid": "ockovanie"
             }
           },
           "datum": {
-            "value": "25.10.2024 11:33",
+            "value": "15.11.2024 09:18",
             "props": {
-              "propValue": "2024-10-25T09:33:13.421Z",
+              "propValue": "2024-11-15T08:18:59.659Z",
               "expr": "=teraz"
             }
           },
@@ -171,9 +171,9 @@
           "id": {
             "value": "[Z25.70] Potreba imunizácie výlučne proti COVID-19, očkovacia látka Tozinameran",
             "props": {
-              "id": "Z25.70",
+              "idClassid": "diagnoza",
               "idEzid": "02089905034@25",
-              "idClassid": "diagnoza"
+              "id": "Z25.70"
             }
           },
           "text": {
@@ -194,20 +194,20 @@
           "id": {
             "value": "[6895E] Comirnaty JN.1 10 mikrogramov/dávka koncentrát na injekčnú disperziu | con dsi 10x1,3 ml (liek.inj.skl.)",
             "props": {
-              "propUnit": "DF",
-              "propGp": 0,
-              "propBal": 10,
-              "propVnl": "R",
-              "propAtcName": "Očkovacia látka proti Covid-19, na báze RNA",
-              "propOl": 1,
               "propKat": false,
-              "id": "6895E",
-              "idUl": "",
-              "idAtc": "J07BN01",
-              "idSp": "imu",
-              "idF": "CON DSI",
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti Covid-19, na báze RNA",
+              "propVnl": "R",
+              "propBal": 10,
+              "propGp": 0,
+              "propUnit": "DF",
+              "idClassid": "liek",
               "idEzid": "00021457379",
-              "idClassid": "liek"
+              "idF": "CON DSI",
+              "idSp": "imu",
+              "idAtc": "J07BN01",
+              "idUl": "",
+              "id": "6895E"
             }
           },
           "sn": {
@@ -244,34 +244,34 @@
           "id": {
             "value": "[6895E] Comirnaty JN.1 10 mikrogramov/dávka koncentrát na injekčnú disperziu | con dsi 10x1,3 ml (liek.inj.skl.)",
             "props": {
-              "propUnit": "DF",
-              "propGp": 0,
-              "propBal": 10,
-              "propVnl": "R",
-              "propAtcName": "Očkovacia látka proti Covid-19, na báze RNA",
-              "propOl": 1,
               "propKat": false,
-              "id": "6895E",
-              "idUl": "",
-              "idAtc": "J07BN01",
-              "idSp": "imu",
-              "idF": "CON DSI",
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti Covid-19, na báze RNA",
+              "propVnl": "R",
+              "propBal": 10,
+              "propGp": 0,
+              "propUnit": "DF",
+              "idClassid": "liek",
               "idEzid": "00021457379",
-              "idClassid": "liek"
+              "idF": "CON DSI",
+              "idSp": "imu",
+              "idAtc": "J07BN01",
+              "idUl": "",
+              "id": "6895E"
             }
           },
           "schedule": {
             "value": "Ad Manus Medici, SUS",
             "props": {
-              "propType": "AMM",
-              "propIntervaldavkovania": "!denne",
-              "propWay_id": "",
-              "propPeriod_id": "D",
-              "propPeriod_t": "denne",
-              "propText": "",
-              "propForm_id": "SUS",
+              "propUnit_id": "",
               "propForm_t": "suspenzia",
-              "propUnit_id": ""
+              "propForm_id": "SUS",
+              "propText": "",
+              "propPeriod_t": "denne",
+              "propPeriod_id": "D",
+              "propWay_id": "",
+              "propIntervaldavkovania": "!denne",
+              "propType": "AMM"
             }
           },
           "qty": {
@@ -361,9 +361,9 @@
             "value": "[252b] Očkovanie.",
             "props": {
               "propBody": 70,
-              "id": "252b",
+              "idClassid": "vykon",
               "idEzid": "00000467878@46",
-              "idClassid": "vykon"
+              "id": "252b"
             }
           },
           "count": {
@@ -410,7 +410,7 @@
   "description": "Očkovanie proti vírusu Covid",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2024-10-25T09:33:21.468Z",
+  "mt": "2024-11-15T08:19:21.313Z",
   "ct": "2024-10-23T08:37:01.845Z",
   "owner": "admin",
   "source": "curo-open/curo-vzory#/007"

@@ -137,9 +137,9 @@
             }
           },
           "datum": {
-            "value": "25.10.2024 11:34",
+            "value": "15.11.2024 09:20",
             "props": {
-              "propValue": "2024-10-25T09:34:21.017Z",
+              "propValue": "2024-11-15T08:20:08.112Z",
               "expr": "=teraz"
             }
           },
@@ -187,9 +187,9 @@
             }
           },
           "datum": {
-            "value": "25.10.2024 11:34",
+            "value": "15.11.2024 09:20",
             "props": {
-              "propValue": "2024-10-25T09:34:21.019Z",
+              "propValue": "2024-11-15T08:20:08.115Z",
               "expr": "=teraz"
             }
           },
@@ -237,9 +237,9 @@
             }
           },
           "datum": {
-            "value": "25.10.2024 11:34",
+            "value": "15.11.2024 09:20",
             "props": {
-              "propValue": "2024-10-25T09:34:21.020Z",
+              "propValue": "2024-11-15T08:20:08.115Z",
               "expr": "=teraz"
             }
           },
@@ -287,9 +287,9 @@
             }
           },
           "datum": {
-            "value": "25.10.2024 11:34",
+            "value": "15.11.2024 09:20",
             "props": {
-              "propValue": "2024-10-25T09:34:21.020Z",
+              "propValue": "2024-11-15T08:20:08.116Z",
               "expr": "=teraz"
             }
           },
@@ -337,9 +337,9 @@
             }
           },
           "datum": {
-            "value": "25.10.2024 11:34",
+            "value": "15.11.2024 09:20",
             "props": {
-              "propValue": "2024-10-25T09:34:21.021Z",
+              "propValue": "2024-11-15T08:20:08.116Z",
               "expr": "=teraz"
             }
           },
@@ -387,9 +387,9 @@
             }
           },
           "datum": {
-            "value": "25.10.2024 11:34",
+            "value": "15.11.2024 09:20",
             "props": {
-              "propValue": "2024-10-25T09:34:21.021Z",
+              "propValue": "2024-11-15T08:20:08.117Z",
               "expr": "=teraz"
             }
           },
@@ -437,9 +437,9 @@
             }
           },
           "datum": {
-            "value": "25.10.2024 11:34",
+            "value": "15.11.2024 09:20",
             "props": {
-              "propValue": "2024-10-25T09:34:21.033Z",
+              "propValue": "2024-11-15T08:20:08.125Z",
               "expr": "=teraz"
             }
           },
@@ -845,28 +845,6 @@
         }
       },
       {
-        "id": 58,
-        "order": 13,
-        "props": {
-          "type": "vv"
-        },
-        "value": {
-          "id": {
-            "value": "[67] Príplatok u dieťaťa vo veku do piatich rokov pri výkonoch - odber krvi, injekcie, infúzie, transfúzie, infiltrácie, implantácie, odobratie sterov, punkcie a pri výkone očkovania.",
-            "props": {
-              "propBody": 100,
-              "id": 67,
-              "idEzid": "00000466797@44",
-              "idClassid": "vykon"
-            }
-          },
-          "count": {
-            "value": "1",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 8,
         "order": 18,
         "props": {
@@ -891,14 +869,35 @@
     ],
     "vlozit": [
       {
-        "id": 70,
-        "order": 19,
+        "id": 75,
+        "order": 13,
         "props": {
           "type": "vlozit"
         },
         "value": {
           "title": {
             "value": "Príplatok k očkovaniu - vv. 67",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 77,
+        "order": 19,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Príplatok k očkovaniu 2 - vv. 67",
             "props": {}
           },
           "source": {
@@ -929,7 +928,7 @@
   },
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2024-10-25T09:34:32.232Z",
+  "mt": "2024-11-15T08:20:12.513Z",
   "ct": "2024-08-21T10:05:36.116Z",
   "owner": "admin",
   "source": "curo-open/curo-vzory#/007"
