@@ -40,7 +40,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? (sessions|getSections(\"vv\")|where(\"d.period&lt;=365\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; vek &gt;= 40 }}<br>",
+            "value": "{{ ? (sessions|getSections(\"vv\")|where(\"sekcia.sekciaDatum|datumRok == ine.rok\")|where(\"s.value.id.props.id=='H0006'\")|trans(\"length\") == 0) &amp;&amp; vek &gt;= 40 }}<br>",
             "props": {}
           }
         }
