@@ -1,0 +1,454 @@
+Spôsobilosť vodiča.json{
+  "title": "Spôsobilosť vodiča",
+  "shortcut": "sp-vodica",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 9,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Pacient prichádza za účelom vystavenia potvrdenia o zdravotnej spôsobilosti viesť motorové vozidlá.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 10,
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? sessions|getSections(\"td\")|trans('length') &gt; 0}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 12,
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 14,
+        "order": 5,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 15,
+        "order": 6,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? sessions|getSections(\"to\")|trans('length') &gt; 0}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 16,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"to\")|where(\"i==0\")}} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 17,
+        "order": 8,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "UPRAVIŤ - Stav stabilizovaný. Nelieči sa na epilepsiu ani závažné psychické ochorenia. Nemá DM ani závažné srdcové zlyhávanie.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 18,
+        "order": 9,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 20,
+        "order": 11,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 23,
+        "order": 14,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? sessions|getSections(\"zfp\")|trans('length') &gt; 0}}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 24,
+        "order": 15,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{&lt; sessions|getSections(\"zfp\")|where(\"i==0\")}} <br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 25,
+        "order": 16,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ : }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 27,
+        "order": 18,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{?}}<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "t-sposobilost-vodica": [
+      {
+        "id": 11,
+        "order": 2,
+        "props": {
+          "type": "t-sposobilost-vodica"
+        },
+        "value": {
+          "posudzovany": {
+            "value": "",
+            "props": {}
+          },
+          "sposobily": {
+            "value": "",
+            "props": {}
+          },
+          "nesposobily": {
+            "value": "",
+            "props": {}
+          },
+          "obmedzene_sposobily": {
+            "value": "",
+            "props": {}
+          },
+          "datum": {
+            "value": "25.04.2024",
+            "props": {
+              "propValue": "2024-04-24T22:00:00.000Z",
+              "expr": "=dnes"
+            }
+          },
+          "platny": {
+            "value": "25.04.2029",
+            "props": {
+              "propValue": "2029-04-25T09:31:04.646Z",
+              "expr": "=+5r"
+            }
+          },
+          "EC": {
+            "value": "",
+            "props": {}
+          },
+          "ziadana_skupina": {
+            "value": "",
+            "props": {}
+          },
+          "drzitel_opravnenia_skupiny": {
+            "value": "",
+            "props": {}
+          },
+          "vodic_skupiny": {
+            "value": "",
+            "props": {}
+          },
+          "zdravotny_stav": {
+            "value": "cítim zdravý/zdravá, ale mám tento stav, poruchu alebo chorobu",
+            "props": {
+              "propValue": 1
+            }
+          },
+          "choroby": {
+            "value": "{{&lt; sessions|getSections(\"td\")|trans('text')}}",
+            "props": {}
+          },
+          "lieky": {
+            "value": "{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans(\"text\")}}",
+            "props": {}
+          },
+          "alkohol_pouzivanie": {
+            "value": "",
+            "props": {}
+          },
+          "navykove_latky_pouzivanie": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 13,
+        "order": 4,
+        "props": {
+          "type": "t-sposobilost-vodica"
+        },
+        "value": {
+          "posudzovany": {
+            "value": "",
+            "props": {}
+          },
+          "sposobily": {
+            "value": "",
+            "props": {}
+          },
+          "nesposobily": {
+            "value": "",
+            "props": {}
+          },
+          "obmedzene_sposobily": {
+            "value": "",
+            "props": {}
+          },
+          "datum": {
+            "value": "25.04.2024",
+            "props": {
+              "propValue": "2024-04-24T22:00:00.000Z",
+              "expr": "=dnes"
+            }
+          },
+          "platny": {
+            "value": "25.04.2029",
+            "props": {
+              "propValue": "2029-04-25T09:41:24.769Z",
+              "expr": "=+5r"
+            }
+          },
+          "EC": {
+            "value": "",
+            "props": {}
+          },
+          "ziadana_skupina": {
+            "value": "",
+            "props": {}
+          },
+          "drzitel_opravnenia_skupiny": {
+            "value": "",
+            "props": {}
+          },
+          "vodic_skupiny": {
+            "value": "",
+            "props": {}
+          },
+          "zdravotny_stav": {
+            "value": "cítim zdravý/zdravá a nie som si vedomy poruchy alebo choroby",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "lieky": {
+            "value": "{{&lt; sessions|getSections(\"r\", \"r-ml\", \"r-p\")|where(\"s.props.priority&gt;0\")|trans(\"text\")}}",
+            "props": {}
+          },
+          "alkohol_pouzivanie": {
+            "value": "",
+            "props": {}
+          },
+          "navykove_latky_pouzivanie": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "to": [
+      {
+        "id": 19,
+        "order": 10,
+        "props": {
+          "type": "to"
+        },
+        "value": {
+          "text": {
+            "value": "Stav stabilizovaný. Nelieči sa na epilepsiu ani závažné psychické ochorenia. Nemá DM ani závažné srdcové zlyhávanie.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oa": [
+      {
+        "id": 21,
+        "order": 12,
+        "props": {
+          "type": "oa"
+        },
+        "value": {
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 22,
+        "order": 13,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "Kardiopulmonálne kompenzovaný, zrak, sluch orientačne v norme.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "zfp": [
+      {
+        "id": 26,
+        "order": 17,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "",
+            "props": {}
+          },
+          "temp": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "z": [
+      {
+        "id": 28,
+        "order": 19,
+        "props": {
+          "type": "z"
+        },
+        "value": {
+          "z": {
+            "value": "Spôsobilý aktuálne na vedenie MV ako vodič.<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "prehlad-vodic"
+  ],
+  "vars": {},
+  "description": "",
+  "summary": "",
+  "owner": "admin",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-04-25T09:32:18.514Z",
+  "mt": "2024-04-25T09:43:01.689Z",
+  "source": "curo-open/curo-vzory#/020"
+}
