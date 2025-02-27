@@ -1,0 +1,66 @@
+{
+  "title": "eDohody - Kapitácia",
+  "owner": "admin",
+  "shortcut": "ekp",
+  "if": "",
+  "data": {
+    "_": {},
+    "kp": [
+      {
+        "id": 2,
+        "order": 0,
+        "props": {
+          "type": "kp",
+          "sectionError": "eDohody sú možné, len pre ZP VšZP, Dôvera, Union",
+          "error": true
+        },
+        "value": {
+          "date": {
+            "value": "01.03.2025",
+            "props": {
+              "propValue": "2025-03-01T22:59:59.999Z",
+              "expr": "=km+1"
+            }
+          },
+          "comment": {
+            "value": "",
+            "props": {}
+          },
+          "prev_lekar": {
+            "value": "",
+            "props": {}
+          },
+          "zs": {
+            "value": "",
+            "props": {}
+          },
+          "dovod_vzniku": {
+            "value": "[997] Uzatvorenie prvej dohody",
+            "props": {
+              "idClassid": "dovodzmeny",
+              "idEzid": "02090009297@3",
+              "id": 997
+            }
+          },
+          "dovod_nepouzitia_eid": {
+            "value": "Materiálno-technické zabezpečenie PZS",
+            "props": {
+              "propValue": "02089994541"
+            }
+          },
+          "zastupca": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "vars": {},
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2025-02-27T11:28:33.984Z",
+  "mt": "2025-02-27T11:31:33.753Z",
+  "source": "curo-open/curo-vzory#/022"
+}
