@@ -16,10 +16,10 @@
         },
         "value": {
           "date": {
-            "value": "01.03.2025",
+            "value": "",
             "props": {
-              "propValue": "2025-03-01T22:59:59.999Z",
-              "expr": "=km+1"
+              "propValue": "",
+              "expr": ""
             }
           },
           "comment": {
@@ -62,5 +62,5 @@
   "allowedIdentities": [],
   "ct": "2025-02-27T11:28:33.984Z",
   "mt": "2025-02-27T11:31:33.753Z",
-  "source": "curo-open/curo-vzory#/022"
+  "source": "curo-open/curo-vzory#/008"
 }
