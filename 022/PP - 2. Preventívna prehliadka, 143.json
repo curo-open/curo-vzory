@@ -142,9 +142,9 @@
           "id": {
             "value": "[Z00.1] Rutinné vyšetrenie zdravotného stavu dieťaťa",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z00.1",
               "idEzid": "02089520817@24",
-              "id": "Z00.1"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -166,9 +166,31 @@
             "value": "[143] 2. preventívna prehliadka, vykazuje sa do 4. týždna života dieťaťa. Výkon vykazuje lekár s príslušnou špecializáciou ako druhú preventívnu prehliadku v prvom mesiaci života dieťaťa podľa tohto zákona",
             "props": {
               "propBody": 350,
-              "idClassid": "vykon",
+              "id": 143,
               "idEzid": "00000467118@45",
-              "id": 143
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 346,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[950] Vyšetrenie psychomotorického vývinu dieťaťa vo vzťahu k hrubej a jemnej motorike, k reči a k sociálnym vzťahom podľa štandardnej stupnice vrátane dokumentácie. Pri výkone pod kódom 950 nemožno výkony",
+            "props": {
+              "propBody": 390,
+              "idClassid": "vykon",
+              "idEzid": "00000469288@48",
+              "id": 950
             }
           },
           "count": {
@@ -184,8 +206,8 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "description": "2. Preventívna prehliadka sa vykonáva do 4. týždňa života.",
-  "mt": "2024-10-25T09:04:51.726Z",
+  "mt": "2025-04-25T11:44:19.067Z",
   "ct": "2024-10-25T09:04:16.447Z",
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/007"
+  "source": "curo-open/curo-vzory#/022"
 }

@@ -182,6 +182,28 @@
             "props": {}
           }
         }
+      },
+      {
+        "id": 361,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[950] Vyšetrenie psychomotorického vývinu dieťaťa vo vzťahu k hrubej a jemnej motorike, k reči a k sociálnym vzťahom podľa štandardnej stupnice vrátane dokumentácie. Pri výkone pod kódom 950 nemožno výkony",
+            "props": {
+              "propBody": 390,
+              "id": 950,
+              "idEzid": "00000469288@48",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
       }
     ]
   },
@@ -190,8 +212,8 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "description": "3. Preventívna prehliadka sa vykonáva v 5. až 7. týždni života",
-  "mt": "2024-10-25T09:06:09.120Z",
+  "mt": "2025-04-25T12:12:30.190Z",
   "ct": "2024-10-25T09:05:35.399Z",
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/007"
+  "source": "curo-open/curo-vzory#/008"
 }

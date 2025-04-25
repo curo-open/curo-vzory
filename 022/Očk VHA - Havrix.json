@@ -99,9 +99,9 @@
             }
           },
           "datum": {
-            "value": "15.11.2024 09:38",
+            "value": "25.04.2025 13:34",
             "props": {
-              "propValue": "2024-11-15T08:38:44.393Z",
+              "propValue": "2025-04-25T11:34:25.690Z",
               "expr": "=teraz"
             }
           },
@@ -363,12 +363,12 @@
     "sarza": ""
   },
   "description": "Očkovanie proti vírusovovej hepatitíde typu A ",
-  "summary": "VHB - Hepatitida očkovanie",
+  "summary": "VHA - Hepatitida očkovanie",
   "type": "examination",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2024-11-15T08:38:53.580Z",
+  "mt": "2025-04-25T11:34:28.114Z",
   "ct": "2024-10-23T08:35:58.702Z",
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/007"
+  "source": "curo-open/curo-vzory#/022"
 }
