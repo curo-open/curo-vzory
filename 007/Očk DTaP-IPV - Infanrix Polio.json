@@ -2,7 +2,7 @@
   "type": "examination",
   "summary": "Infanrix",
   "description": "Preočkovanie proti záškrtu, tetanu, čiernemu kašľu, detskej obrne",
-  "title": "Očk - Infanrix Polio",
+  "title": "Očk DTaP-IPV - Infanrix Polio",
   "shortcut": "oc-preocDTaP-IPV-Infanrix",
   "if": "",
   "data": {
@@ -72,9 +72,9 @@
             }
           },
           "datum": {
-            "value": "25.10.2024 10:53",
+            "value": "04.06.2025 11:56",
             "props": {
-              "propValue": "2024-10-25T08:53:40.939Z",
+              "propValue": "2025-06-04T09:56:50.911Z",
               "expr": "=teraz"
             }
           },
@@ -120,9 +120,9 @@
             }
           },
           "datum": {
-            "value": "25.10.2024 10:53",
+            "value": "04.06.2025 11:56",
             "props": {
-              "propValue": "2024-10-25T08:53:40.941Z",
+              "propValue": "2025-06-04T09:56:50.912Z",
               "expr": "=teraz"
             }
           },
@@ -168,9 +168,9 @@
             }
           },
           "datum": {
-            "value": "25.10.2024 10:53",
+            "value": "04.06.2025 11:56",
             "props": {
-              "propValue": "2024-10-25T08:53:40.941Z",
+              "propValue": "2025-06-04T09:56:50.913Z",
               "expr": "=teraz"
             }
           },
@@ -216,9 +216,9 @@
             }
           },
           "datum": {
-            "value": "25.10.2024 10:53",
+            "value": "04.06.2025 11:56",
             "props": {
-              "propValue": "2024-10-25T08:53:40.942Z",
+              "propValue": "2025-06-04T09:56:50.914Z",
               "expr": "=teraz"
             }
           },
@@ -306,57 +306,58 @@
     ],
     "r": [
       {
-        "id": 7,
+        "id": 32,
         "order": 7,
         "props": {
           "type": "r"
         },
         "value": {
           "id": {
-            "value": "[01399] Infanrix Polio | sus inj 10x0,5 ml (striek.inj.napl.skl.+10 ihiel)",
+            "value": "[01399] Infanrix Polio | sus iru 10x0,5 ml (striek.inj.napl.skl.+10 ihiel)",
             "props": {
-              "propPo_0": "PED",
-              "propKat": true,
-              "propOl": 1,
-              "propAtcName": "Očkovacia látka proti záškrtu-čiernemu kašľu-poliomyelitíde-tetanu",
-              "propSdl": 10,
-              "propCena": 174,
-              "propVnl": "R",
-              "propUzp_1zvj": 1,
-              "propBal": 10,
-              "propGp": 0,
-              "propIo": "ind.obm.",
-              "propUnit": "DF",
-              "propSpUhr": "V",
               "propDpl": 0,
-              "idClassid": "liek",
-              "idEzid": "00020074407",
-              "idF": "SUS INJ",
-              "idSp": "imu",
-              "idAtc": "J07CA02",
+              "propSpUhr": "V",
+              "propUnit": "DF",
+              "propIo_1": "I01283",
+              "propIo_0": "I00438",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": "100,0000 %",
+              "propAtcDoplnok": "parent. povinné očkovanie",
+              "propVnl": "R",
+              "propCena": 166.1,
+              "propSdl": 10,
+              "propAtcName": "Očkovacia látka proti záškrtu-čiernemu kašľu-poliomyelitíde-tetanu",
+              "propOl": 1,
+              "propKat": true,
+              "propPo_2": "PED",
+              "propPo_1": "INF",
+              "propPo_0": "ALG",
+              "id": "01399",
               "idUl": "",
-              "id": "01399"
+              "idAtc": "J07CA02",
+              "idSp": "imu",
+              "idF": "SUS IRU",
+              "idEzid": "00020074407",
+              "idClassid": "liek"
             }
           },
           "schedule": {
             "value": "Ad Manus Medici, SUS",
             "props": {
-              "propType": "AMM",
-              "propIntervaldavkovania": "!denne",
-              "propWay_id": "IM",
-              "propWay_t": "intramuskulárne (i.m.)",
-              "propPeriod_id": "D",
+              "propWay_code": "",
               "propPeriod_t": "denne",
-              "propText": "",
+              "propPeriod_code": "D",
               "propForm_id": "SUS",
               "propForm_t": "suspenzia",
-              "propUnit_id": ""
+              "propText": "",
+              "propType": "AMM"
             }
           },
           "qty": {
             "value": "0,1",
             "props": {
-              "propValue": "0.10"
+              "propValue": 0.1
             }
           },
           "repeatCount": {
@@ -370,7 +371,7 @@
           "payoff": {
             "value": "0",
             "props": {
-              "propValue": "0.00"
+              "propValue": 0
             }
           },
           "atc": {
@@ -380,7 +381,7 @@
             }
           },
           "instruction": {
-            "value": "|Exp. amp. orig. No. I (unam)",
+            "value": "",
             "props": {}
           },
           "instruction_lek": {
@@ -398,7 +399,7 @@
             }
           },
           "io": {
-            "value": "",
+            "value": "I00438",
             "props": {}
           },
           "limitDP": {
@@ -465,8 +466,8 @@
   },
   "allowedUsers": [],
   "allowedIdentities": [],
-  "ct": "2024-10-25T07:07:35.790Z",
-  "mt": "2024-10-25T08:53:44.474Z",
+  "ct": "2025-06-04T09:56:53.244Z",
+  "mt": "2025-06-04T09:57:00.721Z",
   "owner": "admin",
   "source": "curo-open/curo-vzory#/007"
 }

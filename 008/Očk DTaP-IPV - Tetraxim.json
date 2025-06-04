@@ -2,8 +2,8 @@
   "type": "examination",
   "summary": "Infanrix",
   "description": "Preočkovanie proti záškrtu, tetanu, čiernemu kašľu, detskej obrne",
-  "title": "Očk - Infanrix Polio",
-  "shortcut": "oc-preocDTaP-IPV-Infanrix",
+  "title": "Očk DTaP-IPV - Tetraxim",
+  "shortcut": "oc-preocDTaP-IPV-Tetraxim",
   "if": "",
   "data": {
     "_": {},
@@ -43,9 +43,9 @@
           "id": {
             "value": "[Z27.3] Potreba imunizácie proti záškrtu – tetanu – čiernemu kašľu s poliomyelitídou [DPT+Polio]",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z27.3",
               "idEzid": "02089522409@19",
-              "id": "Z27.3"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -66,24 +66,24 @@
           "id": {
             "value": "[D] Diftéria",
             "props": {
-              "idClassid": "ockovanie",
+              "id": "D",
               "idEzid": "00000115915@3",
-              "id": "D"
+              "idClassid": "ockovanie"
             }
           },
           "datum": {
-            "value": "25.10.2024 10:53",
+            "value": "04.06.2025 08:46",
             "props": {
-              "propValue": "2024-10-25T08:53:40.939Z",
+              "propValue": "2025-06-04T06:46:08.244Z",
               "expr": "=teraz"
             }
           },
           "typ": {
             "value": "[PREOC] preočkovanie",
             "props": {
-              "idClassid": "octyp",
+              "id": "PREOC",
               "idEzid": "00000115949@4",
-              "id": "PREOC"
+              "idClassid": "octyp"
             }
           },
           "pocet": {
@@ -114,24 +114,24 @@
           "id": {
             "value": "[T] Tetanus",
             "props": {
-              "idClassid": "ockovanie",
+              "id": "T",
               "idEzid": "00000115923@3",
-              "id": "T"
+              "idClassid": "ockovanie"
             }
           },
           "datum": {
-            "value": "25.10.2024 10:53",
+            "value": "04.06.2025 08:46",
             "props": {
-              "propValue": "2024-10-25T08:53:40.941Z",
+              "propValue": "2025-06-04T06:46:08.245Z",
               "expr": "=teraz"
             }
           },
           "typ": {
             "value": "[PREOC] preočkovanie",
             "props": {
-              "idClassid": "octyp",
+              "id": "PREOC",
               "idEzid": "00000115949@4",
-              "id": "PREOC"
+              "idClassid": "octyp"
             }
           },
           "pocet": {
@@ -162,24 +162,24 @@
           "id": {
             "value": "[P] Pertussis",
             "props": {
-              "idClassid": "ockovanie",
+              "id": "P",
               "idEzid": "00000346304@3",
-              "id": "P"
+              "idClassid": "ockovanie"
             }
           },
           "datum": {
-            "value": "25.10.2024 10:53",
+            "value": "04.06.2025 08:46",
             "props": {
-              "propValue": "2024-10-25T08:53:40.941Z",
+              "propValue": "2025-06-04T06:46:08.246Z",
               "expr": "=teraz"
             }
           },
           "typ": {
             "value": "[PREOC] preočkovanie",
             "props": {
-              "idClassid": "octyp",
+              "id": "PREOC",
               "idEzid": "00000115949@4",
-              "id": "PREOC"
+              "idClassid": "octyp"
             }
           },
           "pocet": {
@@ -210,24 +210,24 @@
           "id": {
             "value": "[IPV] Poliomyelitis",
             "props": {
-              "idClassid": "ockovanie",
+              "id": "IPV",
               "idEzid": "00000346395@3",
-              "id": "IPV"
+              "idClassid": "ockovanie"
             }
           },
           "datum": {
-            "value": "25.10.2024 10:53",
+            "value": "04.06.2025 08:46",
             "props": {
-              "propValue": "2024-10-25T08:53:40.942Z",
+              "propValue": "2025-06-04T06:46:08.247Z",
               "expr": "=teraz"
             }
           },
           "typ": {
             "value": "[PREOC] preočkovanie",
             "props": {
-              "idClassid": "octyp",
+              "id": "PREOC",
               "idEzid": "00000115949@4",
-              "id": "PREOC"
+              "idClassid": "octyp"
             }
           },
           "pocet": {
@@ -258,29 +258,33 @@
         },
         "value": {
           "id": {
-            "value": "[01399] Infanrix Polio | sus inj 10x0,5 ml (striek.inj.napl.skl.+10 ihiel)",
+            "value": "[3830E] TETRAXIM | sus iru 10x0,5 ml (striek.inj.napl.s ochran.viečko + 10 samostat.ihiel)",
             "props": {
-              "propPo_0": "PED",
-              "propKat": true,
-              "propOl": 1,
-              "propAtcName": "Očkovacia látka proti záškrtu-čiernemu kašľu-poliomyelitíde-tetanu",
-              "propSdl": 10,
-              "propCena": 174,
-              "propVnl": "R",
-              "propUzp_1zvj": 1,
-              "propBal": 10,
-              "propGp": 0,
-              "propIo": "ind.obm.",
-              "propUnit": "DF",
-              "propSpUhr": "V",
               "propDpl": 0,
-              "idClassid": "liek",
-              "idEzid": "00020074407",
-              "idF": "SUS INJ",
-              "idSp": "imu",
-              "idAtc": "J07CA02",
+              "propSpUhr": "V",
+              "propUnit": "DF",
+              "propIo_1": "I01283",
+              "propIo_0": "I00438",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": "100,0000 %",
+              "propAtcDoplnok": "parent. povinné očkovanie",
+              "propVnl": "R",
+              "propCena": 166.1,
+              "propSdl": 10,
+              "propAtcName": "Očkovacia látka proti záškrtu-čiernemu kašľu-poliomyelitíde-tetanu",
+              "propOl": 1,
+              "propKat": true,
+              "propPo_2": "PED",
+              "propPo_1": "INF",
+              "propPo_0": "ALG",
+              "id": "3830E",
               "idUl": "",
-              "id": "01399"
+              "idAtc": "J07CA02",
+              "idSp": "imu",
+              "idF": "SUS IRU",
+              "idEzid": "00021447941",
+              "idClassid": "liek"
             }
           },
           "sn": {
@@ -306,57 +310,58 @@
     ],
     "r": [
       {
-        "id": 7,
+        "id": 32,
         "order": 7,
         "props": {
           "type": "r"
         },
         "value": {
           "id": {
-            "value": "[01399] Infanrix Polio | sus inj 10x0,5 ml (striek.inj.napl.skl.+10 ihiel)",
+            "value": "[3830E] TETRAXIM | sus iru 10x0,5 ml (striek.inj.napl.s ochran.viečko + 10 samostat.ihiel)",
             "props": {
-              "propPo_0": "PED",
-              "propKat": true,
-              "propOl": 1,
-              "propAtcName": "Očkovacia látka proti záškrtu-čiernemu kašľu-poliomyelitíde-tetanu",
-              "propSdl": 10,
-              "propCena": 174,
-              "propVnl": "R",
-              "propUzp_1zvj": 1,
-              "propBal": 10,
-              "propGp": 0,
-              "propIo": "ind.obm.",
-              "propUnit": "DF",
-              "propSpUhr": "V",
               "propDpl": 0,
-              "idClassid": "liek",
-              "idEzid": "00020074407",
-              "idF": "SUS INJ",
-              "idSp": "imu",
-              "idAtc": "J07CA02",
+              "propSpUhr": "V",
+              "propUnit": "DF",
+              "propIo_1": "I01283",
+              "propIo_0": "I00438",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": "100,0000 %",
+              "propAtcDoplnok": "parent. povinné očkovanie",
+              "propVnl": "R",
+              "propCena": 166.1,
+              "propSdl": 10,
+              "propAtcName": "Očkovacia látka proti záškrtu-čiernemu kašľu-poliomyelitíde-tetanu",
+              "propOl": 1,
+              "propKat": true,
+              "propPo_2": "PED",
+              "propPo_1": "INF",
+              "propPo_0": "ALG",
+              "id": "3830E",
               "idUl": "",
-              "id": "01399"
+              "idAtc": "J07CA02",
+              "idSp": "imu",
+              "idF": "SUS IRU",
+              "idEzid": "00021447941",
+              "idClassid": "liek"
             }
           },
           "schedule": {
             "value": "Ad Manus Medici, SUS",
             "props": {
               "propType": "AMM",
-              "propIntervaldavkovania": "!denne",
-              "propWay_id": "IM",
-              "propWay_t": "intramuskulárne (i.m.)",
-              "propPeriod_id": "D",
-              "propPeriod_t": "denne",
               "propText": "",
-              "propForm_id": "SUS",
               "propForm_t": "suspenzia",
-              "propUnit_id": ""
+              "propForm_id": "SUS",
+              "propPeriod_code": "D",
+              "propPeriod_t": "denne",
+              "propWay_code": ""
             }
           },
           "qty": {
             "value": "0,1",
             "props": {
-              "propValue": "0.10"
+              "propValue": 0.1
             }
           },
           "repeatCount": {
@@ -370,7 +375,7 @@
           "payoff": {
             "value": "0",
             "props": {
-              "propValue": "0.00"
+              "propValue": 0
             }
           },
           "atc": {
@@ -380,7 +385,7 @@
             }
           },
           "instruction": {
-            "value": "|Exp. amp. orig. No. I (unam)",
+            "value": "",
             "props": {}
           },
           "instruction_lek": {
@@ -398,7 +403,7 @@
             }
           },
           "io": {
-            "value": "",
+            "value": "I00438",
             "props": {}
           },
           "limitDP": {
@@ -440,9 +445,9 @@
             "value": "[252b] Očkovanie.",
             "props": {
               "propBody": 70,
-              "id": "252b",
+              "idClassid": "vykon",
               "idEzid": "00000467878@9",
-              "idClassid": "vykon"
+              "id": "252b"
             }
           },
           "count": {
@@ -465,8 +470,8 @@
   },
   "allowedUsers": [],
   "allowedIdentities": [],
-  "ct": "2024-10-25T07:07:35.790Z",
-  "mt": "2024-10-25T08:53:44.474Z",
+  "ct": "2025-06-04T06:14:01.474Z",
+  "mt": "2025-06-04T06:46:37.818Z",
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/007"
+  "source": "curo-open/curo-vzory#/008"
 }

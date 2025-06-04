@@ -3,7 +3,7 @@
   "type": "examination",
   "summary": "DTP - Diftéria, Tetanus a Pertussis očkovanie",
   "title": "Očk DTP - Boostrix Polio",
-  "shortcut": "oc-dtpb",
+  "shortcut": "oc-dtpbp",
   "if": "",
   "data": {
     "_": {},
@@ -79,9 +79,9 @@
             }
           },
           "datum": {
-            "value": "15.11.2024 09:19",
+            "value": "04.06.2025 11:58",
             "props": {
-              "propValue": "2024-11-15T08:19:56.591Z",
+              "propValue": "2025-06-04T09:58:23.770Z",
               "expr": "=teraz"
             }
           },
@@ -123,9 +123,9 @@
             }
           },
           "datum": {
-            "value": "15.11.2024 09:19",
+            "value": "04.06.2025 11:58",
             "props": {
-              "propValue": "2024-11-15T08:19:56.591Z",
+              "propValue": "2025-06-04T09:58:23.771Z",
               "expr": "=teraz"
             }
           },
@@ -167,9 +167,9 @@
             }
           },
           "datum": {
-            "value": "15.11.2024 09:19",
+            "value": "04.06.2025 11:58",
             "props": {
-              "propValue": "2024-11-15T08:19:56.592Z",
+              "propValue": "2025-06-04T09:58:23.772Z",
               "expr": "=teraz"
             }
           },
@@ -523,8 +523,8 @@
   },
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2024-11-15T08:20:02.034Z",
+  "mt": "2025-06-04T09:58:30.234Z",
   "ct": "2024-10-23T08:36:38.129Z",
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/007"
+  "source": "curo-open/curo-vzory#/008"
 }

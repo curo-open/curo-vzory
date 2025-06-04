@@ -164,7 +164,7 @@
         },
         "value": {
           "title": {
-            "value": "Očk DTP - Boostrix",
+            "value": "Očk DTP - Boostrix Polio",
             "props": {}
           },
           "source": {
@@ -220,9 +220,9 @@
           "id": {
             "value": "[Z00.1] Rutinné vyšetrenie zdravotného stavu dieťaťa",
             "props": {
-              "id": "Z00.1",
+              "idClassid": "diagnoza",
               "idEzid": "02089520817@24",
-              "idClassid": "diagnoza"
+              "id": "Z00.1"
             }
           },
           "text": {
@@ -244,9 +244,9 @@
             "value": "[149a] 16. preventívna prehliadka sa vykazuje v 13. roku života dieťaťa (vrátane antropometrických meraní).",
             "props": {
               "propBody": 390,
-              "id": "149a",
+              "idClassid": "vykon",
               "idEzid": "00000467258@45",
-              "idClassid": "vykon"
+              "id": "149a"
             }
           },
           "count": {
@@ -262,7 +262,7 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "ct": "2024-10-25T09:20:59.081Z",
-  "mt": "2024-10-25T09:22:22.340Z",
+  "mt": "2025-06-04T07:02:54.744Z",
   "summary": "PP - 16. Preventívna prehliadka, 149a",
   "owner": "admin",
   "description": "16. Preventívna prehliadka sa vykonáva v 13. roku života.",
