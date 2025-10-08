@@ -1,0 +1,374 @@
+{
+  "title": "Očk VHA - Havrix Junior",
+  "shortcut": "oc-vhahj",
+  "if": "",
+  "data": {
+    "_": {},
+    "premenna": [
+      {
+        "id": 15,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "sarza",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 10,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bez ťažkostí, prechlad. sa necíti<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 11,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "KP komp., TT 36,6°C, Intramuskulárne podanie inj. Bez komplikácií po podaní.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 6,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z24.6] Potreba imunizácie proti vírusovej hepatitíde",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089522276@9",
+              "id": "Z24.6"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oc": [
+      {
+        "id": 2,
+        "order": 4,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[VHA] Vírusová hepatitíde A",
+            "props": {
+              "id": "VHA",
+              "idEzid": "00000776773@3",
+              "idClassid": "ockovanie"
+            }
+          },
+          "datum": {
+            "value": "07.10.2025 09:25",
+            "props": {
+              "propValue": "2025-10-07T07:25:32.362Z",
+              "expr": "=teraz"
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "pocet": {
+            "value": "",
+            "props": {}
+          },
+          "davka": {
+            "value": "",
+            "props": {}
+          },
+          "posledna": {
+            "value": "",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ol": [
+      {
+        "id": 4,
+        "order": 5,
+        "props": {
+          "type": "ol"
+        },
+        "value": {
+          "id": {
+            "value": "[25982] HAVRIX 720 Junior monodose | sus inj 1x0,5 ml/720 E.U. (striek.inj.skl.napln.s ihlou)",
+            "props": {
+              "propDpl": 0,
+              "propSpUhr": "V",
+              "propUnit": "DF",
+              "propIo_1": "I00473",
+              "propIo_0": "I00472",
+              "propGp": 0,
+              "propBal": 1,
+              "propUzp_1zvj": "100,0000 %",
+              "propAtcDoplnok": "parent.",
+              "propVnl": "R",
+              "propCena": 15.42,
+              "propSdl": 1,
+              "propAtcName": "Očkovacia látka proti hepatitíde A, inaktivovaná, neporušený vírus",
+              "propOl": 1,
+              "propKat": true,
+              "id": 25982,
+              "idUl": "",
+              "idAtc": "J07BC02",
+              "idSp": "imu",
+              "idF": "SUS INJ",
+              "idEzid": "00020569430",
+              "idClassid": "liek"
+            }
+          },
+          "sn": {
+            "value": "{{var.sarza}}",
+            "props": {}
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "mu": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 13,
+        "order": 6,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[25982] HAVRIX 720 Junior monodose | sus inj 1x0,5 ml/720 E.U. (striek.inj.skl.napln.s ihlou)",
+            "props": {
+              "propDpl": 0,
+              "propSpUhr": "V",
+              "propUnit": "DF",
+              "propIo_1": "I00473",
+              "propIo_0": "I00472",
+              "propGp": 0,
+              "propBal": 1,
+              "propUzp_1zvj": "100,0000 %",
+              "propAtcDoplnok": "parent.",
+              "propVnl": "R",
+              "propCena": 15.42,
+              "propSdl": 1,
+              "propAtcName": "Očkovacia látka proti hepatitíde A, inaktivovaná, neporušený vírus",
+              "propOl": 1,
+              "propKat": true,
+              "id": 25982,
+              "idUl": "",
+              "idAtc": "J07BC02",
+              "idSp": "imu",
+              "idF": "SUS INJ",
+              "idEzid": "00020569430",
+              "idClassid": "liek"
+            }
+          },
+          "schedule": {
+            "value": "Ad Manus Medici, SUS",
+            "props": {
+              "propType": "AMM",
+              "propText": "",
+              "propForm_t": "suspenzia",
+              "propForm_id": "SUS",
+              "propPeriod_code": "D",
+              "propPeriod_t": "denne",
+              "propWay_code": ""
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "instruction_lek": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "io": {
+            "value": "I00472",
+            "props": {}
+          },
+          "limitDP": {
+            "value": "",
+            "props": {}
+          },
+          "aplikacnaZonaParovehoOrganu": {
+            "value": "bez určenia",
+            "props": {
+              "propValue": ""
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "zalozneAtributy": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 8,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[252b] Očkovanie.",
+            "props": {
+              "propBody": 70,
+              "idClassid": "vykon",
+              "idEzid": "00000467878@7",
+              "id": "252b"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vlozit": [
+      {
+        "id": 17,
+        "order": 8,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Príplatok k očkovaniu - vv. 67",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "sumar-vha",
+    "prehlad-oc-vha",
+    "ocko"
+  ],
+  "vars": {
+    "sarza": ""
+  },
+  "description": "Očkovanie proti vírusovovej hepatitíde typu A u detí vo veku 1 až 15 rokov ",
+  "summary": "VHA - Hepatitída očkovanie",
+  "type": "examination",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "mt": "2025-10-07T07:25:50.112Z",
+  "ct": "2024-10-23T08:35:58.702Z",
+  "owner": "admin",
+  "source": "curo-open/curo-vzory#/007"
+}

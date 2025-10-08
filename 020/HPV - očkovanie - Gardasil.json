@@ -10,7 +10,12 @@
   "if": "",
   "data": {
     "_": {
-      "tid": 1
+      "tid": 1,
+      "errors": {
+        "7": [
+          "recommendedBy"
+        ]
+      }
     },
     "premenna": [
       {
@@ -84,9 +89,9 @@
             }
           },
           "datum": {
-            "value": "23.10.2024 10:04",
+            "value": "30.09.2025 08:04",
             "props": {
-              "propValue": "2024-10-23T08:04:16.995Z",
+              "propValue": "2025-09-30T06:04:33.816Z",
               "expr": "=teraz"
             }
           },
@@ -197,7 +202,8 @@
         "id": 7,
         "order": 6,
         "props": {
-          "type": "r"
+          "type": "r",
+          "error": true
         },
         "value": {
           "id": {
@@ -254,7 +260,9 @@
           },
           "recommendedBy": {
             "value": "",
-            "props": {}
+            "props": {
+              "error": "Predpis má preskripčné obmedzenia, nezadali ste odporúčajúcého lekára"
+            }
           },
           "payoff": {
             "value": "0",
@@ -347,7 +355,7 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "ct": "2024-07-17T12:47:36.014Z",
-  "mt": "2024-10-23T08:04:44.623Z",
+  "mt": "2025-09-30T06:04:48.887Z",
   "summary": "HPV očkovanie",
   "description": "Očkovanie proti ľudskému papilomavírusu (HPV)",
   "source": "curo-open/curo-vzory#/020"

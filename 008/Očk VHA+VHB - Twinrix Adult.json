@@ -1,0 +1,381 @@
+{
+  "title": "Očk VHA+VHB - Twinrix Adult",
+  "if": "",
+  "data": {
+    "_": {},
+    "premenna": [
+      {
+        "id": 15,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "sarza",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 10,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bez ťažkostí, prechlad. sa necíti<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 11,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "KP komp., TT 36,6°C, Intramuskulárne podanie inj. Bez komplikácií po podaní.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 6,
+        "order": 3,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z24.6] Potreba imunizácie proti vírusovej hepatitíde",
+            "props": {
+              "id": "Z24.6",
+              "idEzid": "02089522276@9",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oc": [
+      {
+        "id": 2,
+        "order": 4,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[VHA] Vírusová hepatitíde A",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000776773@3",
+              "id": "VHA"
+            }
+          },
+          "datum": {
+            "value": "07.10.2025 09:25",
+            "props": {
+              "propValue": "2025-10-07T07:25:50.176Z",
+              "expr": "=teraz"
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "pocet": {
+            "value": "",
+            "props": {}
+          },
+          "davka": {
+            "value": "",
+            "props": {}
+          },
+          "posledna": {
+            "value": "",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 17,
+        "order": 5,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[VHB] Vírusová hepatitída B",
+            "props": {
+              "id": "VHB",
+              "idEzid": "00000346411@3",
+              "idClassid": "ockovanie"
+            }
+          },
+          "datum": {
+            "value": "07.10.2025 09:25",
+            "props": {
+              "propValue": "2025-10-07T07:25:50.176Z",
+              "expr": "=teraz"
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "pocet": {
+            "value": "",
+            "props": {}
+          },
+          "davka": {
+            "value": "",
+            "props": {}
+          },
+          "posledna": {
+            "value": "",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ol": [
+      {
+        "id": 4,
+        "order": 6,
+        "props": {
+          "type": "ol"
+        },
+        "value": {
+          "id": {
+            "value": "[41939] Twinrix Adult, injekčná suspenzia v naplnenej injekčnej striekačke | sus inj 1x1 ml (20 µg/ ml) (skl.striek.+samostatná ihla)",
+            "props": {
+              "propUnit": "DF",
+              "propGp": 0,
+              "propBal": 1,
+              "propVnl": "R",
+              "propAtcName": "Očkovacie látky proti hepatitíde, kombinácie",
+              "propOl": 1,
+              "propKat": false,
+              "id": 41939,
+              "idUl": "",
+              "idAtc": "J07BC20",
+              "idSp": "imu",
+              "idF": "SUS INJ",
+              "idEzid": "00020774410",
+              "idClassid": "liek"
+            }
+          },
+          "sn": {
+            "value": "{{var.sarza}}",
+            "props": {}
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "mu": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 13,
+        "order": 7,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[41939] Twinrix Adult, injekčná suspenzia v naplnenej injekčnej striekačke | sus inj 1x1 ml (20 µg/ ml) (skl.striek.+samostatná ihla)",
+            "props": {
+              "propUnit": "DF",
+              "propGp": 0,
+              "propBal": 1,
+              "propVnl": "R",
+              "propAtcName": "Očkovacie látky proti hepatitíde, kombinácie",
+              "propOl": 1,
+              "propKat": false,
+              "id": 41939,
+              "idUl": "",
+              "idAtc": "J07BC20",
+              "idSp": "imu",
+              "idF": "SUS INJ",
+              "idEzid": "00020774410",
+              "idClassid": "liek"
+            }
+          },
+          "schedule": {
+            "value": "Ad Manus Medici, SUS",
+            "props": {
+              "propWay_code": "",
+              "propPeriod_t": "denne",
+              "propPeriod_code": "D",
+              "propForm_id": "SUS",
+              "propForm_t": "suspenzia",
+              "propText": "",
+              "propType": "AMM"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "instruction_lek": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "io": {
+            "value": "",
+            "props": {}
+          },
+          "limitDP": {
+            "value": "",
+            "props": {}
+          },
+          "aplikacnaZonaParovehoOrganu": {
+            "value": "bez určenia",
+            "props": {
+              "propValue": ""
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "zalozneAtributy": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 8,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[252b] Očkovanie.",
+            "props": {
+              "propBody": 70,
+              "id": "252b",
+              "idEzid": "00000467878@7",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "sumar-vha",
+    "sumar-vhb",
+    "prehlad-oc-vha",
+    "prehlad-oc-vhb",
+    "ocko"
+  ],
+  "vars": {
+    "sarza": ""
+  },
+  "description": "Kombinované očkovanie proti vírusovej hepatitíde A a B u pacientov vo veku 16 rokov a viac ",
+  "summary": "VHA+VHB - Hepatitída očkovanie",
+  "type": "examination",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "mt": "2025-10-07T07:26:05.483Z",
+  "ct": "2025-09-29T08:20:48.107Z",
+  "owner": "admin",
+  "shortcut": "vhavhbta",
+  "source": "curo-open/curo-vzory#/008"
+}

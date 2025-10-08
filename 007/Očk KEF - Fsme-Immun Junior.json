@@ -1,0 +1,356 @@
+{
+  "title": "Očk KEF - Fsme-Immun Junior",
+  "description": "Očkovanie proti kliešťovej encefalitíde u detí starších ako 1 rok a do 15 rokov",
+  "summary": "KEF - Kliešťová encefalitída očkovanie",
+  "if": "",
+  "data": {
+    "_": {},
+    "premenna": [
+      {
+        "id": 10,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "sarza",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bez ťažkostí, prechlad. sa necíti<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "KP komp., TT 36,6°C, Intramuskulárne podanie inj. Bez komplikácií po podaní.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oc": [
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[KEF] Kliešťová encefalitída",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000776955@2",
+              "id": "KEF"
+            }
+          },
+          "datum": {
+            "value": "07.10.2025 09:25",
+            "props": {
+              "propValue": "2025-10-07T07:25:11.556Z",
+              "expr": "=teraz"
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "pocet": {
+            "value": "",
+            "props": {}
+          },
+          "davka": {
+            "value": "",
+            "props": {}
+          },
+          "posledna": {
+            "value": "",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ol": [
+      {
+        "id": 5,
+        "order": 4,
+        "props": {
+          "type": "ol"
+        },
+        "value": {
+          "id": {
+            "value": "[94989] FSME-IMMUN 0,5 ml Injekčná suspenzia | sus inj 1x0,5 ml/ 2,4 µg (striek.inj.skl.+ihla)",
+            "props": {
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti kliešťovej encefalitíde, inaktivovaná, neporušený vírus",
+              "propVnl": "R",
+              "propGp": 0,
+              "propDpl": 34.31,
+              "idClassid": "liek",
+              "idEzid": "00020247029",
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07BA01",
+              "idUl": "",
+              "id": 94989
+            }
+          },
+          "sn": {
+            "value": "{{var.sarza}}",
+            "props": {}
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "mu": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 6,
+        "order": 5,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z24.1] Potreba imunizácie proti vírusovému zápalu mozgu, prenášanému článkonožcami",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089522227@9",
+              "id": "Z24.1"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[23735] FSME-IMMUN 0,25 ml Junior Injekčná suspenzia | sus inj 1x0,25 ml/1,2 µg (striek.inj.skl.+ihla)",
+            "props": {
+              "propUnit": "DF",
+              "propGp": 0,
+              "propBal": 1,
+              "propVnl": "R",
+              "propAtcName": "Očkovacia látka proti kliešťovej encefalitíde, inaktivovaná, neporušený vírus",
+              "propOl": 1,
+              "propKat": false,
+              "id": 23735,
+              "idUl": "",
+              "idAtc": "J07BA01",
+              "idSp": "ims",
+              "idF": "SUS INJ",
+              "idEzid": "00020770640",
+              "idClassid": "liek"
+            }
+          },
+          "schedule": {
+            "value": "Ad Manus Medici, SUS",
+            "props": {
+              "propType": "AMM",
+              "propPeriod_t": "denne",
+              "propPeriod_id": "D",
+              "propForm_t": "suspenzia",
+              "propForm_id": "SUS",
+              "propUnit_id": "",
+              "propText": "",
+              "propWay_id": "",
+              "propIntervaldavkovania": "!denne"
+            }
+          },
+          "qty": {
+            "value": "1",
+            "props": {}
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "",
+            "props": {}
+          },
+          "instruction_lek": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "io": {
+            "value": "",
+            "props": {}
+          },
+          "limitDP": {
+            "value": "",
+            "props": {}
+          },
+          "aplikacnaZonaParovehoOrganu": {
+            "value": "bez určenia",
+            "props": {
+              "propValue": ""
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "zalozneAtributy": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 8,
+        "order": 7,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[252b] Očkovanie.",
+            "props": {
+              "propBody": 70,
+              "idClassid": "vykon",
+              "idEzid": "00000467878@9",
+              "id": "252b"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vlozit": [
+      {
+        "id": 12,
+        "order": 8,
+        "props": {
+          "type": "vlozit"
+        },
+        "value": {
+          "title": {
+            "value": "Príplatok k očkovaniu - vv. 67",
+            "props": {}
+          },
+          "source": {
+            "value": "",
+            "props": {}
+          },
+          "vars": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "sumar-kef",
+    "prehlad-oc-kef",
+    "ocko"
+  ],
+  "vars": {
+    "sarza": ""
+  },
+  "type": "examination",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "mt": "2025-10-07T07:25:32.307Z",
+  "ct": "2025-09-29T08:00:52.016Z",
+  "shortcut": "oc-keffij",
+  "owner": "admin",
+  "source": "curo-open/curo-vzory#/007"
+}

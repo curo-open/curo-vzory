@@ -71,11 +71,11 @@
         },
         "value": {
           "id": {
-            "value": "[Z25.8] Potreba imunizácie proti inej bližšie určenej jednotlivej vírusovej chorobe",
+            "value": "[Z26.8] Potreba imunizácie proti iným bližšie určeným jednotlivým infekčným chorobám",
             "props": {
               "idClassid": "diagnoza",
-              "idEzid": "02089522318@19",
-              "id": "Z25.8"
+              "idEzid": "02089522342@25",
+              "id": "Z26.8"
             }
           },
           "text": {
@@ -102,9 +102,9 @@
             }
           },
           "datum": {
-            "value": "15.11.2024 09:39",
+            "value": "29.09.2025 10:52",
             "props": {
-              "propValue": "2024-11-15T08:39:05.974Z",
+              "propValue": "2025-09-29T08:52:28.918Z",
               "expr": "=teraz"
             }
           },
@@ -347,8 +347,8 @@
   },
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2024-11-15T08:39:11.075Z",
+  "mt": "2025-09-29T08:52:32.895Z",
   "ct": "2024-08-21T10:49:17.624Z",
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/007"
+  "source": "curo-open/curo-vzory#/022"
 }

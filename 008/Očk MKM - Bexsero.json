@@ -1,0 +1,392 @@
+{
+  "title": "Očk MKM - Bexsero",
+  "shortcut": "oc-mkm",
+  "if": "",
+  "data": {
+    "_": {},
+    "premenna": [
+      {
+        "id": 27,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "sarza",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 9,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bez ťažkostí, prechlad. sa necíti<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 11,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "KP komp., TT 36,6°C, Intramuskulárne podanie inj. Bez komplikácií po podaní.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "zfp": [
+      {
+        "id": 25,
+        "order": 3,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "",
+            "props": {}
+          },
+          "temp": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oc": [
+      {
+        "id": 2,
+        "order": 4,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[MKM] Meningokoková meningitída",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000777029@3",
+              "id": "MKM"
+            }
+          },
+          "datum": {
+            "value": "29.09.2025 14:28",
+            "props": {
+              "propValue": "2025-09-29T12:28:02.253Z",
+              "expr": "=teraz"
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "pocet": {
+            "value": "",
+            "props": {}
+          },
+          "davka": {
+            "value": "",
+            "props": {}
+          },
+          "posledna": {
+            "value": "",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 5,
+        "order": 5,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z26.8] Potreba imunizácie proti iným bližšie určeným jednotlivým infekčným chorobám",
+            "props": {
+              "idClassid": "diagnoza",
+              "idEzid": "02089522342@25",
+              "id": "Z26.8"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ol": [
+      {
+        "id": 3,
+        "order": 6,
+        "props": {
+          "type": "ol"
+        },
+        "value": {
+          "id": {
+            "value": "[4431A] Bexsero injekčná suspenzia v naplnenej injekčnej striekačke, Vakcína proti meningokokom skupiny B (rDNA, zložková, adsorbovaná) | sus inj 1x0,5 ml (striek.inj.napl.skl.+ihla)",
+            "props": {
+              "propKat": false,
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti meningokokom B, polyvalentná",
+              "propVnl": "R",
+              "propBal": 1,
+              "propGp": 0,
+              "propUnit": "DF",
+              "idClassid": "liek",
+              "idEzid": "00020144309",
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07AH09",
+              "idUl": "",
+              "id": "4431A"
+            }
+          },
+          "sn": {
+            "value": "{{var.sarza}}",
+            "props": {}
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "mu": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 13,
+        "order": 7,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[4431A] Bexsero injekčná suspenzia v naplnenej injekčnej striekačke, Vakcína proti meningokokom skupiny B (rDNA, zložková, adsorbovaná) | sus inj 1x0,5 ml (striek.inj.napl.skl.+ihla)",
+            "props": {
+              "propKat": false,
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti meningokokom B, polyvalentná",
+              "propVnl": "R",
+              "propBal": 1,
+              "propGp": 0,
+              "propUnit": "DF",
+              "idClassid": "liek",
+              "idEzid": "00020144309",
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07AH09",
+              "idUl": "",
+              "id": "4431A"
+            }
+          },
+          "schedule": {
+            "value": "Ad Manus Medici, SUS",
+            "props": {
+              "propUnit_id": "",
+              "propForm_t": "suspenzia",
+              "propForm_id": "SUS",
+              "propText": "",
+              "propPeriod_t": "denne",
+              "propPeriod_id": "D",
+              "propWay_id": "",
+              "propIntervaldavkovania": "!denne",
+              "propType": "AMM"
+            }
+          },
+          "qty": {
+            "value": "0,1",
+            "props": {
+              "propValue": "0.10"
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "0",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "|Exp. amp. orig. No. I (unam)",
+            "props": {}
+          },
+          "instruction_lek": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "io": {
+            "value": "",
+            "props": {}
+          },
+          "limitDP": {
+            "value": "",
+            "props": {}
+          },
+          "aplikacnaZonaParovehoOrganu": {
+            "value": "bez určenia",
+            "props": {
+              "propValue": ""
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "zalozneAtributy": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 7,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[252b] Očkovanie.",
+            "props": {
+              "propBody": 70,
+              "id": "252b",
+              "idEzid": "00000467878@9",
+              "idClassid": "vykon"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "sumar-mkm",
+    "prehlad-oc-mkm",
+    "ocko"
+  ],
+  "vars": {
+    "sarza": ""
+  },
+  "summary": "CHR - Chrípka očkovanie",
+  "type": "examination",
+  "description": "Očkovanie proti meningokokom skupiny B",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "mt": "2025-09-29T12:28:11.499Z",
+  "ct": "2025-09-29T07:49:01.914Z",
+  "owner": "admin",
+  "source": "curo-open/curo-vzory#/008"
+}

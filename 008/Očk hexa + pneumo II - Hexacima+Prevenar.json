@@ -137,9 +137,9 @@
             }
           },
           "datum": {
-            "value": "15.11.2024 09:20",
+            "value": "29.09.2025 10:56",
             "props": {
-              "propValue": "2024-11-15T08:20:08.112Z",
+              "propValue": "2025-09-29T08:56:52.733Z",
               "expr": "=teraz"
             }
           },
@@ -187,9 +187,9 @@
             }
           },
           "datum": {
-            "value": "15.11.2024 09:20",
+            "value": "29.09.2025 10:56",
             "props": {
-              "propValue": "2024-11-15T08:20:08.115Z",
+              "propValue": "2025-09-29T08:56:52.735Z",
               "expr": "=teraz"
             }
           },
@@ -237,9 +237,9 @@
             }
           },
           "datum": {
-            "value": "15.11.2024 09:20",
+            "value": "29.09.2025 10:56",
             "props": {
-              "propValue": "2024-11-15T08:20:08.115Z",
+              "propValue": "2025-09-29T08:56:52.736Z",
               "expr": "=teraz"
             }
           },
@@ -287,9 +287,9 @@
             }
           },
           "datum": {
-            "value": "15.11.2024 09:20",
+            "value": "29.09.2025 10:56",
             "props": {
-              "propValue": "2024-11-15T08:20:08.116Z",
+              "propValue": "2025-09-29T08:56:52.736Z",
               "expr": "=teraz"
             }
           },
@@ -337,9 +337,9 @@
             }
           },
           "datum": {
-            "value": "15.11.2024 09:20",
+            "value": "29.09.2025 10:56",
             "props": {
-              "propValue": "2024-11-15T08:20:08.116Z",
+              "propValue": "2025-09-29T08:56:52.737Z",
               "expr": "=teraz"
             }
           },
@@ -387,9 +387,9 @@
             }
           },
           "datum": {
-            "value": "15.11.2024 09:20",
+            "value": "29.09.2025 10:56",
             "props": {
-              "propValue": "2024-11-15T08:20:08.117Z",
+              "propValue": "2025-09-29T08:56:52.737Z",
               "expr": "=teraz"
             }
           },
@@ -437,9 +437,9 @@
             }
           },
           "datum": {
-            "value": "15.11.2024 09:20",
+            "value": "29.09.2025 10:56",
             "props": {
-              "propValue": "2024-11-15T08:20:08.125Z",
+              "propValue": "2025-09-29T08:56:52.745Z",
               "expr": "=teraz"
             }
           },
@@ -481,29 +481,33 @@
         },
         "value": {
           "id": {
-            "value": "[5207A] Hexacima injekčná suspenzia naplnená v injekčnej striekačke | sus iru 10x0,5 ml (striek.inj.napl.skl.+20 ihiel)",
+            "value": "[5205A] Hexacima injekčná suspenzia naplnená v injekčnej striekačke | sus iru 10x0,5 ml (striek.inj.napl.skl.+10 ihiel)",
             "props": {
-              "propPo_0": "PED",
-              "propKat": true,
-              "propOl": 1,
-              "propAtcName": "Očkovacia látka proti záškrtu-hemofilu typu b-čiernemu kašľu-poliomyelitíde- tetanu- hepatitíde B",
-              "propSdl": 10,
-              "propCena": 426.75,
-              "propVnl": "R",
-              "propUzp_1zvj": 42.899,
-              "propBal": 10,
-              "propGp": 0,
-              "propIo": "ind.obm.",
-              "propUnit": "DF",
-              "propSpUhr": "V",
               "propDpl": 0,
-              "idClassid": "liek",
-              "idEzid": "00020151544",
-              "idF": "SUS IRU",
-              "idSp": "imu",
-              "idAtc": "J07CA09",
+              "propSpUhr": "V",
+              "propUnit": "DF",
+              "propIo_1": "I01288",
+              "propIo_0": "I00467",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": "40,736000",
+              "propAtcDoplnok": "parent. povinné očkovanie sus. inj.",
+              "propVnl": "R",
+              "propCena": 407.36,
+              "propSdl": 10,
+              "propAtcName": "Očkovacia látka proti záškrtu-hemofilu typu b-čiernemu kašľu-poliomyelitíde- tetanu- hepatitíde B",
+              "propOl": 1,
+              "propKat": true,
+              "propPo_2": "PED",
+              "propPo_1": "INF",
+              "propPo_0": "ALG",
+              "id": "5205A",
               "idUl": "",
-              "id": "5207A"
+              "idAtc": "J07CA09",
+              "idSp": "imu",
+              "idF": "SUS IRU",
+              "idEzid": "00020154415",
+              "idClassid": "liek"
             }
           },
           "sn": {
@@ -588,33 +592,33 @@
         },
         "value": {
           "id": {
-            "value": "[5207A] Hexacima injekčná suspenzia naplnená v injekčnej striekačke | sus iru 10x0,5 ml (striek.inj.napl.skl.+20 ihiel)",
+            "value": "[5205A] Hexacima injekčná suspenzia naplnená v injekčnej striekačke | sus iru 10x0,5 ml (striek.inj.napl.skl.+10 ihiel)",
             "props": {
+              "propDpl": 0,
+              "propSpUhr": "V",
+              "propUnit": "DF",
+              "propIo_1": "I01288",
+              "propIo_0": "I00467",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": "40,736000",
+              "propAtcDoplnok": "parent. povinné očkovanie sus. inj.",
+              "propVnl": "R",
+              "propCena": 407.36,
+              "propSdl": 10,
+              "propAtcName": "Očkovacia látka proti záškrtu-hemofilu typu b-čiernemu kašľu-poliomyelitíde- tetanu- hepatitíde B",
+              "propOl": 1,
+              "propKat": true,
               "propPo_2": "PED",
               "propPo_1": "INF",
               "propPo_0": "ALG",
-              "propKat": true,
-              "propOl": 1,
-              "propAtcName": "Očkovacia látka proti záškrtu-hemofilu typu b-čiernemu kašľu-poliomyelitíde- tetanu- hepatitíde B",
-              "propSdl": 10,
-              "propCena": 426.75,
-              "propVnl": "R",
-              "propAtcDoplnok": "parent. povinné očkovanie sus. inj.",
-              "propUzp_1zvj": "42,899000",
-              "propBal": 10,
-              "propGp": 0,
-              "propIo_1": "I01288",
-              "propIo_0": "I00467",
-              "propUnit": "DF",
-              "propSpUhr": "V",
-              "propDpl": 0,
-              "idClassid": "liek",
-              "idEzid": "00020151544",
-              "idF": "SUS IRU",
-              "idSp": "imu",
-              "idAtc": "J07CA09",
+              "id": "5205A",
               "idUl": "",
-              "id": "5207A"
+              "idAtc": "J07CA09",
+              "idSp": "imu",
+              "idF": "SUS IRU",
+              "idEzid": "00020154415",
+              "idClassid": "liek"
             }
           },
           "schedule": {
@@ -928,8 +932,8 @@
   },
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2024-11-15T08:20:12.513Z",
+  "mt": "2025-09-29T08:56:59.443Z",
   "ct": "2024-08-21T10:05:36.116Z",
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/007"
+  "source": "curo-open/curo-vzory#/008"
 }

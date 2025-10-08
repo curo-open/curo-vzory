@@ -1,0 +1,404 @@
+{
+  "title": "Očk CHR - Fluenz Tetra",
+  "shortcut": "oc-chrft",
+  "if": "",
+  "data": {
+    "_": {},
+    "premenna": [
+      {
+        "id": 27,
+        "order": 0,
+        "props": {
+          "type": "premenna"
+        },
+        "value": {
+          "name": {
+            "value": "sarza",
+            "props": {}
+          },
+          "type": {
+            "value": "text",
+            "props": {
+              "propValue": "text"
+            }
+          },
+          "value": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "s": [
+      {
+        "id": 9,
+        "order": 1,
+        "props": {
+          "type": "s"
+        },
+        "value": {
+          "s": {
+            "value": "bez ťažkostí, prechlad. sa necíti<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "o": [
+      {
+        "id": 11,
+        "order": 2,
+        "props": {
+          "type": "o"
+        },
+        "value": {
+          "o": {
+            "value": "KP komp., TT 36,6°C, Intramuskulárne podanie inj. Bez komplikácií po podaní.<br>",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "zfp": [
+      {
+        "id": 25,
+        "order": 3,
+        "props": {
+          "type": "zfp"
+        },
+        "value": {
+          "sys": {
+            "value": "",
+            "props": {}
+          },
+          "diast": {
+            "value": "",
+            "props": {}
+          },
+          "pulse": {
+            "value": "",
+            "props": {}
+          },
+          "sf": {
+            "value": "",
+            "props": {}
+          },
+          "df": {
+            "value": "",
+            "props": {}
+          },
+          "weight": {
+            "value": "",
+            "props": {}
+          },
+          "height": {
+            "value": "",
+            "props": {}
+          },
+          "bmi": {
+            "value": "",
+            "props": {}
+          },
+          "op": {
+            "value": "",
+            "props": {}
+          },
+          "o2": {
+            "value": "",
+            "props": {}
+          },
+          "temp": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "oc": [
+      {
+        "id": 2,
+        "order": 4,
+        "props": {
+          "type": "oc"
+        },
+        "value": {
+          "id": {
+            "value": "[CHR] Chrípka",
+            "props": {
+              "idClassid": "ockovanie",
+              "idEzid": "00000776815",
+              "id": "CHR"
+            }
+          },
+          "datum": {
+            "value": "29.09.2025 10:52",
+            "props": {
+              "propValue": "2025-09-29T08:52:03.193Z",
+              "expr": "=teraz"
+            }
+          },
+          "typ": {
+            "value": "",
+            "props": {}
+          },
+          "pocet": {
+            "value": "",
+            "props": {}
+          },
+          "davka": {
+            "value": "",
+            "props": {}
+          },
+          "posledna": {
+            "value": "",
+            "props": {}
+          },
+          "poznamka": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vd": [
+      {
+        "id": 5,
+        "order": 5,
+        "props": {
+          "type": "vd"
+        },
+        "value": {
+          "id": {
+            "value": "[Z25.1] Potreba imunizácie výlučne proti chrípke",
+            "props": {
+              "id": "Z25.1",
+              "idEzid": "02089522300@9",
+              "idClassid": "diagnoza"
+            }
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "ol": [
+      {
+        "id": 16,
+        "order": 6,
+        "props": {
+          "type": "ol"
+        },
+        "value": {
+          "id": {
+            "value": "[6372B] Fluenz Tetra nosová suspenzná aerodisperzia | aer nau 10x0,2 ml (aplik.nos.jedn.skl.)",
+            "props": {
+              "propKat": true,
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti chrípke, živá oslabená",
+              "propSdl": 10,
+              "propCena": 233.54,
+              "propVnl": "R",
+              "propAtcDoplnok": "nasal.",
+              "propUzp_1zvj": "15,086000",
+              "propBal": 10,
+              "propGp": 0,
+              "propIo_0": "I00424",
+              "propUnit": "DF",
+              "propSpUhr": "V",
+              "propDpl": 82.68,
+              "idClassid": "liek",
+              "idEzid": "00021173554",
+              "idF": "AER NAU",
+              "idSp": "nas",
+              "idAtc": "J07BB03",
+              "idUl": "vaccinum influenzae vivum attenuatum pernasale",
+              "id": "6372B"
+            }
+          },
+          "sn": {
+            "value": "{{var.sarza}}",
+            "props": {}
+          },
+          "qty": {
+            "value": "1",
+            "props": {
+              "propValue": "1.00"
+            }
+          },
+          "mu": {
+            "value": "",
+            "props": {}
+          },
+          "text": {
+            "value": "",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "r": [
+      {
+        "id": 14,
+        "order": 7,
+        "props": {
+          "type": "r"
+        },
+        "value": {
+          "id": {
+            "value": "[6372B] Fluenz Tetra nosová suspenzná aerodisperzia | aer nau 10x0,2 ml (aplik.nos.jedn.skl.)",
+            "props": {
+              "propKat": true,
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti chrípke, živá oslabená",
+              "propSdl": 10,
+              "propCena": 233.54,
+              "propVnl": "R",
+              "propAtcDoplnok": "nasal.",
+              "propUzp_1zvj": "15,086000",
+              "propBal": 10,
+              "propGp": 0,
+              "propIo_0": "I00424",
+              "propUnit": "DF",
+              "propSpUhr": "V",
+              "propDpl": 82.68,
+              "idClassid": "liek",
+              "idEzid": "00021173554",
+              "idF": "AER NAU",
+              "idSp": "nas",
+              "idAtc": "J07BB03",
+              "idUl": "vaccinum influenzae vivum attenuatum pernasale",
+              "id": "6372B"
+            }
+          },
+          "schedule": {
+            "value": "Ad Manus Medici, SUS",
+            "props": {
+              "propType": "AMM",
+              "propText": "",
+              "propForm_t": "suspenzia",
+              "propForm_id": "SUS",
+              "propPeriod_code": "D",
+              "propPeriod_t": "denne",
+              "propWay_code": ""
+            }
+          },
+          "qty": {
+            "value": "0,1",
+            "props": {
+              "propValue": "0.10"
+            }
+          },
+          "repeatCount": {
+            "value": "1",
+            "props": {}
+          },
+          "recommendedBy": {
+            "value": "",
+            "props": {}
+          },
+          "payoff": {
+            "value": "8,27",
+            "props": {
+              "propValue": 8.27
+            }
+          },
+          "atc": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "instruction": {
+            "value": "|Exp. amp. orig. No. I (unam)",
+            "props": {}
+          },
+          "instruction_lek": {
+            "value": "",
+            "props": {}
+          },
+          "reasonPayoff": {
+            "value": "",
+            "props": {}
+          },
+          "prodException": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "io": {
+            "value": "I00424",
+            "props": {}
+          },
+          "limitDP": {
+            "value": "",
+            "props": {}
+          },
+          "aplikacnaZonaParovehoOrganu": {
+            "value": "bez určenia",
+            "props": {
+              "propValue": ""
+            }
+          },
+          "force": {
+            "value": "nie",
+            "props": {
+              "propValue": 0
+            }
+          },
+          "zalozneAtributy": {
+            "value": "",
+            "props": {}
+          },
+          "status": {
+            "value": "0",
+            "props": {}
+          }
+        }
+      }
+    ],
+    "vv": [
+      {
+        "id": 7,
+        "order": 8,
+        "props": {
+          "type": "vv"
+        },
+        "value": {
+          "id": {
+            "value": "[252C] Očkovanie proti chrípke",
+            "props": {
+              "propBody": 70,
+              "idClassid": "vykon",
+              "idEzid": "02089714667@54",
+              "id": "252C"
+            }
+          },
+          "count": {
+            "value": "1",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "sumar-chr",
+    "prehlad-oc-chr",
+    "ocko"
+  ],
+  "vars": {
+    "sarza": ""
+  },
+  "summary": "CHR - Chrípka očkovanie",
+  "type": "examination",
+  "description": "Očkovanie proti vírusu chrípky (chrípka)",
+  "allowedUsers": [],
+  "allowedIdentities": [],
+  "ct": "2024-11-15T08:47:40.906Z",
+  "mt": "2025-09-29T08:52:14.992Z",
+  "owner": "admin",
+  "source": "curo-open/curo-vzory#/007"
+}

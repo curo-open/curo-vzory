@@ -98,9 +98,9 @@
             }
           },
           "datum": {
-            "value": "06.11.2024 08:37",
+            "value": "29.09.2025 10:48",
             "props": {
-              "propValue": "2024-11-06T07:37:51.058Z",
+              "propValue": "2025-09-29T08:48:54.521Z",
               "expr": "=teraz"
             }
           },
@@ -142,9 +142,9 @@
             }
           },
           "datum": {
-            "value": "06.11.2024 08:37",
+            "value": "29.09.2025 10:48",
             "props": {
-              "propValue": "2024-11-06T07:37:51.060Z",
+              "propValue": "2025-09-29T08:48:54.522Z",
               "expr": "=teraz"
             }
           },
@@ -369,12 +369,13 @@
     "sarza": ""
   },
   "description": "Kombinované očkovanie proti vírusovej hepatitíde A a B",
-  "summary": "VHB - Hepatitida očkovanie",
+  "summary": "VHA+VHB - Hepatitída očkovanie",
   "type": "examination",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2024-11-06T07:38:17.744Z",
+  "mt": "2025-09-29T08:49:00.679Z",
   "ct": "2024-11-06T07:33:06.114Z",
   "owner": "admin",
+  "shortcut": "",
   "source": "curo-open/curo-vzory#/020"
 }

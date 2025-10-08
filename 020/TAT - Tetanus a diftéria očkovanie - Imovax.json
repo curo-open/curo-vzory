@@ -73,15 +73,15 @@
           "id": {
             "value": "[T] Tetanus",
             "props": {
-              "id": "T",
+              "idClassid": "ockovanie",
               "idEzid": "00000115923@2",
-              "idClassid": "ockovanie"
+              "id": "T"
             }
           },
           "datum": {
-            "value": "26.11.2024 11:13",
+            "value": "19.09.2025 11:30",
             "props": {
-              "propValue": "2024-11-26T10:13:34.203Z",
+              "propValue": "2025-09-19T09:30:14.186Z",
               "expr": "=teraz"
             }
           },
@@ -117,15 +117,15 @@
           "id": {
             "value": "[D] Diftéria",
             "props": {
-              "idClassid": "ockovanie",
+              "id": "D",
               "idEzid": "00000115915@2",
-              "id": "D"
+              "idClassid": "ockovanie"
             }
           },
           "datum": {
-            "value": "26.11.2024 11:13",
+            "value": "19.09.2025 11:30",
             "props": {
-              "propValue": "2024-11-26T10:13:20.142Z",
+              "propValue": "2025-09-19T09:30:14.187Z",
               "expr": "=teraz"
             }
           },
@@ -204,9 +204,9 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "id": "Z00.0",
+              "idClassid": "diagnoza",
               "idEzid": "02089520809@11",
-              "idClassid": "diagnoza"
+              "id": "Z00.0"
             }
           },
           "text": {
@@ -225,9 +225,9 @@
           "id": {
             "value": "[Z27.8] Potreba imunizácie proti inej kombinácii infekčných chorôb",
             "props": {
-              "id": "Z27.8",
+              "idClassid": "diagnoza",
               "idEzid": "02089522425@10",
-              "idClassid": "diagnoza"
+              "id": "Z27.8"
             }
           },
           "text": {
@@ -248,23 +248,23 @@
           "id": {
             "value": "[33998] IMOVAX D.T. ADULT | sus inj 10x0,5 ml (striek.inj.skl.napln.)",
             "props": {
-              "propDpl": 0,
-              "propSpUhr": "V",
-              "propIo": "ind.obm.",
-              "propGp": 0,
-              "propUzp_1zvj": 1,
-              "propVnl": "R",
-              "propCena": 99.6,
-              "propSdl": 10,
-              "propAtcName": "Tetanový toxoid, kombinácie s diftériovým toxoidom",
               "propOl": 1,
-              "id": 33998,
-              "idUl": "",
-              "idAtc": "J07AM51",
-              "idSp": "imu",
-              "idF": "SUS INJ",
+              "propAtcName": "Tetanový toxoid, kombinácie s diftériovým toxoidom",
+              "propSdl": 10,
+              "propCena": 99.6,
+              "propVnl": "R",
+              "propUzp_1zvj": 1,
+              "propGp": 0,
+              "propIo": "ind.obm.",
+              "propSpUhr": "V",
+              "propDpl": 0,
+              "idClassid": "liek",
               "idEzid": "00020746236",
-              "idClassid": "liek"
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07AM51",
+              "idUl": "",
+              "id": 33998
             }
           },
           "sn": {
@@ -299,42 +299,42 @@
           "id": {
             "value": "[33998] IMOVAX D.T. ADULT | sus inj 10x0,5 ml (striek.inj.skl.napln.)",
             "props": {
-              "propDpl": 0,
-              "propSpUhr": "V",
-              "propUnit": "DF",
-              "propIo_0": "I00465",
-              "propGp": 0,
-              "propBal": 10,
-              "propUzp_1zvj": "9,960000",
-              "propAtcDoplnok": "parent. povinné očkovanie",
-              "propVnl": "R",
-              "propCena": 99.6,
-              "propSdl": 10,
-              "propAtcName": "Tetanový toxoid, kombinácie s diftériovým toxoidom",
-              "propOl": 1,
               "propKat": true,
-              "id": 33998,
-              "idUl": "",
-              "idAtc": "J07AM51",
-              "idSp": "imu",
-              "idF": "SUS INJ",
+              "propOl": 1,
+              "propAtcName": "Tetanový toxoid, kombinácie s diftériovým toxoidom",
+              "propSdl": 10,
+              "propCena": 99.6,
+              "propVnl": "R",
+              "propAtcDoplnok": "parent. povinné očkovanie",
+              "propUzp_1zvj": "9,960000",
+              "propBal": 10,
+              "propGp": 0,
+              "propIo_0": "I00465",
+              "propUnit": "DF",
+              "propSpUhr": "V",
+              "propDpl": 0,
+              "idClassid": "liek",
               "idEzid": "00020746236",
-              "idClassid": "liek"
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07AM51",
+              "idUl": "",
+              "id": 33998
             }
           },
           "schedule": {
             "value": "Ad Manus Medici, SUS",
             "props": {
-              "propType": "AMM",
-              "propIntervaldavkovania": "!denne",
-              "propWay_id": "IM",
-              "propWay_t": "intramuskulárne (i.m.)",
-              "propPeriod_id": "D",
-              "propPeriod_t": "denne",
-              "propText": "",
-              "propForm_id": "SUS",
+              "propUnit_id": "",
               "propForm_t": "suspenzia",
-              "propUnit_id": ""
+              "propForm_id": "SUS",
+              "propText": "",
+              "propPeriod_t": "denne",
+              "propPeriod_id": "D",
+              "propWay_t": "intramuskulárne (i.m.)",
+              "propWay_id": "IM",
+              "propIntervaldavkovania": "!denne",
+              "propType": "AMM"
             }
           },
           "qty": {
@@ -424,9 +424,9 @@
             "value": "[252b] Očkovanie.",
             "props": {
               "propBody": 70,
-              "id": "252b",
+              "idClassid": "vykon",
               "idEzid": "00000467878@7",
-              "idClassid": "vykon"
+              "id": "252b"
             }
           },
           "count": {
@@ -447,7 +447,7 @@
   },
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2024-11-26T10:13:37.754Z",
+  "mt": "2025-09-19T09:30:26.769Z",
   "owner": "admin",
   "ct": "2024-08-21T11:26:33.755Z",
   "source": "curo-open/curo-vzory#/020"

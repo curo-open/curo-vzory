@@ -73,15 +73,15 @@
           "id": {
             "value": "[T] Tetanus",
             "props": {
-              "id": "T",
+              "idClassid": "ockovanie",
               "idEzid": "00000115923@2",
-              "idClassid": "ockovanie"
+              "id": "T"
             }
           },
           "datum": {
-            "value": "23.10.2024 10:06",
+            "value": "19.09.2025 11:31",
             "props": {
-              "propValue": "2024-10-23T08:06:33.650Z",
+              "propValue": "2025-09-19T09:31:09.777Z",
               "expr": "=teraz"
             }
           },
@@ -117,15 +117,15 @@
           "id": {
             "value": "[D] Diftéria",
             "props": {
-              "idClassid": "ockovanie",
+              "id": "D",
               "idEzid": "00000115915@2",
-              "id": "D"
+              "idClassid": "ockovanie"
             }
           },
           "datum": {
-            "value": "23.10.2024 10:06",
+            "value": "19.09.2025 11:31",
             "props": {
-              "propValue": "2024-10-23T08:06:33.652Z",
+              "propValue": "2025-09-19T09:31:09.778Z",
               "expr": "=teraz"
             }
           },
@@ -204,9 +204,9 @@
           "id": {
             "value": "[Z00.0] Všeobecné lekárske vyšetrenie",
             "props": {
-              "id": "Z00.0",
+              "idClassid": "diagnoza",
               "idEzid": "02089520809@11",
-              "idClassid": "diagnoza"
+              "id": "Z00.0"
             }
           },
           "text": {
@@ -225,9 +225,9 @@
           "id": {
             "value": "[Z27.8] Potreba imunizácie proti inej kombinácii infekčných chorôb",
             "props": {
-              "id": "Z27.8",
+              "idClassid": "diagnoza",
               "idEzid": "02089522425@10",
-              "idClassid": "diagnoza"
+              "id": "Z27.8"
             }
           },
           "text": {
@@ -248,23 +248,23 @@
           "id": {
             "value": "[3161C] VACDITE | sus inj 1x0,5 ml (amp.skl.)",
             "props": {
-              "propOl": 1,
-              "propAtcName": "Tetanový toxoid, kombinácie s diftériovým toxoidom",
-              "propSdl": 1,
-              "propCena": 9.96,
-              "propVnl": "R",
-              "propUzp_1zvj": 1,
-              "propGp": 0,
-              "propIo": "ind.obm.",
-              "propSpUhr": "V",
               "propDpl": 0,
-              "idClassid": "liek",
-              "idEzid": "00021240643",
-              "idF": "SUS INJ",
-              "idSp": "ims",
-              "idAtc": "J07AM51",
+              "propSpUhr": "V",
+              "propIo": "ind.obm.",
+              "propGp": 0,
+              "propUzp_1zvj": 1,
+              "propVnl": "R",
+              "propCena": 9.96,
+              "propSdl": 1,
+              "propAtcName": "Tetanový toxoid, kombinácie s diftériovým toxoidom",
+              "propOl": 1,
+              "id": "3161C",
               "idUl": "",
-              "id": "3161C"
+              "idAtc": "J07AM51",
+              "idSp": "ims",
+              "idF": "SUS INJ",
+              "idEzid": "00021240643",
+              "idClassid": "liek"
             }
           },
           "sn": {
@@ -297,37 +297,37 @@
           "id": {
             "value": "[3161C] VACDITE | sus inj 1x0,5 ml (amp.skl.)",
             "props": {
-              "propOl": 1,
-              "propAtcName": "Tetanový toxoid, kombinácie s diftériovým toxoidom",
-              "propSdl": 1,
-              "propCena": 9.96,
-              "propVnl": "R",
-              "propUzp_1zvj": 1,
-              "propGp": 0,
-              "propIo": "ind.obm.",
-              "propSpUhr": "V",
               "propDpl": 0,
-              "idClassid": "liek",
-              "idEzid": "00021240643",
-              "idF": "SUS INJ",
-              "idSp": "ims",
-              "idAtc": "J07AM51",
+              "propSpUhr": "V",
+              "propIo": "ind.obm.",
+              "propGp": 0,
+              "propUzp_1zvj": 1,
+              "propVnl": "R",
+              "propCena": 9.96,
+              "propSdl": 1,
+              "propAtcName": "Tetanový toxoid, kombinácie s diftériovým toxoidom",
+              "propOl": 1,
+              "id": "3161C",
               "idUl": "",
-              "id": "3161C"
+              "idAtc": "J07AM51",
+              "idSp": "ims",
+              "idF": "SUS INJ",
+              "idEzid": "00021240643",
+              "idClassid": "liek"
             }
           },
           "schedule": {
             "value": "Ad Manus Medici, SUS",
             "props": {
-              "propType": "AMM",
-              "propIntervaldavkovania": "!denne",
-              "propWay_id": "",
-              "propPeriod_id": "D",
-              "propPeriod_t": "denne",
-              "propText": "",
-              "propForm_id": "SUS",
+              "propUnit_id": "",
               "propForm_t": "suspenzia",
-              "propUnit_id": ""
+              "propForm_id": "SUS",
+              "propText": "",
+              "propPeriod_t": "denne",
+              "propPeriod_id": "D",
+              "propWay_id": "",
+              "propIntervaldavkovania": "!denne",
+              "propType": "AMM"
             }
           },
           "qty": {
@@ -413,9 +413,9 @@
             "value": "[252b] Očkovanie.",
             "props": {
               "propBody": 70,
-              "id": "252b",
+              "idClassid": "vykon",
               "idEzid": "00000467878@7",
-              "idClassid": "vykon"
+              "id": "252b"
             }
           },
           "count": {
@@ -436,7 +436,7 @@
   },
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2024-10-23T08:06:57.050Z",
+  "mt": "2025-09-19T09:31:15.541Z",
   "owner": "admin",
   "ct": "2024-10-23T05:48:53.346Z",
   "source": "curo-open/curo-vzory#/020"

@@ -66,9 +66,9 @@
           "id": {
             "value": "[Z24.6] Potreba imunizácie proti vírusovej hepatitíde",
             "props": {
-              "id": "Z24.6",
+              "idClassid": "diagnoza",
               "idEzid": "02089522276@19",
-              "idClassid": "diagnoza"
+              "id": "Z24.6"
             }
           },
           "text": {
@@ -87,9 +87,9 @@
           "id": {
             "value": "[Z27.8] Potreba imunizácie proti inej kombinácii infekčných chorôb",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z27.8",
               "idEzid": "02089522425@19",
-              "id": "Z27.8"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -108,9 +108,9 @@
           "id": {
             "value": "[Z23.8] Potreba imunizácie proti inej jednotlivej baktériovej chorobe",
             "props": {
-              "idClassid": "diagnoza",
+              "id": "Z23.8",
               "idEzid": "02089522193@19",
-              "id": "Z23.8"
+              "idClassid": "diagnoza"
             }
           },
           "text": {
@@ -131,24 +131,24 @@
           "id": {
             "value": "[VHB] Vírusová hepatitída B",
             "props": {
-              "id": "VHB",
+              "idClassid": "ockovanie",
               "idEzid": "00000346411@3",
-              "idClassid": "ockovanie"
+              "id": "VHB"
             }
           },
           "datum": {
-            "value": "15.11.2024 09:20",
+            "value": "29.09.2025 10:56",
             "props": {
-              "propValue": "2024-11-15T08:20:12.589Z",
+              "propValue": "2025-09-29T08:56:59.522Z",
               "expr": "=teraz"
             }
           },
           "typ": {
             "value": "[TRDAV] III. dávka (základné očkovanie)",
             "props": {
-              "idClassid": "octyp",
+              "id": "TRDAV",
               "idEzid": "00000400648@4",
-              "id": "TRDAV"
+              "idClassid": "octyp"
             }
           },
           "pocet": {
@@ -181,24 +181,24 @@
           "id": {
             "value": "[D] Diftéria",
             "props": {
-              "idClassid": "ockovanie",
+              "id": "D",
               "idEzid": "00000115915@3",
-              "id": "D"
+              "idClassid": "ockovanie"
             }
           },
           "datum": {
-            "value": "15.11.2024 09:20",
+            "value": "29.09.2025 10:56",
             "props": {
-              "propValue": "2024-11-15T08:20:12.590Z",
+              "propValue": "2025-09-29T08:56:59.524Z",
               "expr": "=teraz"
             }
           },
           "typ": {
             "value": "[TRDAV] III. dávka (základné očkovanie)",
             "props": {
-              "id": "TRDAV",
+              "idClassid": "octyp",
               "idEzid": "00000400648@4",
-              "idClassid": "octyp"
+              "id": "TRDAV"
             }
           },
           "pocet": {
@@ -231,24 +231,24 @@
           "id": {
             "value": "[T] Tetanus",
             "props": {
-              "idClassid": "ockovanie",
+              "id": "T",
               "idEzid": "00000115923@3",
-              "id": "T"
+              "idClassid": "ockovanie"
             }
           },
           "datum": {
-            "value": "15.11.2024 09:20",
+            "value": "29.09.2025 10:56",
             "props": {
-              "propValue": "2024-11-15T08:20:12.591Z",
+              "propValue": "2025-09-29T08:56:59.524Z",
               "expr": "=teraz"
             }
           },
           "typ": {
             "value": "[TRDAV] III. dávka (základné očkovanie)",
             "props": {
-              "id": "TRDAV",
+              "idClassid": "octyp",
               "idEzid": "00000400648@4",
-              "idClassid": "octyp"
+              "id": "TRDAV"
             }
           },
           "pocet": {
@@ -281,24 +281,24 @@
           "id": {
             "value": "[P] Pertussis",
             "props": {
-              "idClassid": "ockovanie",
+              "id": "P",
               "idEzid": "00000346304@3",
-              "id": "P"
+              "idClassid": "ockovanie"
             }
           },
           "datum": {
-            "value": "15.11.2024 09:20",
+            "value": "29.09.2025 10:56",
             "props": {
-              "propValue": "2024-11-15T08:20:12.591Z",
+              "propValue": "2025-09-29T08:56:59.525Z",
               "expr": "=teraz"
             }
           },
           "typ": {
             "value": "[TRDAV] III. dávka (základné očkovanie)",
             "props": {
-              "id": "TRDAV",
+              "idClassid": "octyp",
               "idEzid": "00000400648@4",
-              "idClassid": "octyp"
+              "id": "TRDAV"
             }
           },
           "pocet": {
@@ -331,24 +331,24 @@
           "id": {
             "value": "[HIB] Hemofilové invazívne infekcie",
             "props": {
-              "idClassid": "ockovanie",
+              "id": "HIB",
               "idEzid": "00000346437@3",
-              "id": "HIB"
+              "idClassid": "ockovanie"
             }
           },
           "datum": {
-            "value": "15.11.2024 09:20",
+            "value": "29.09.2025 10:56",
             "props": {
-              "propValue": "2024-11-15T08:20:12.592Z",
+              "propValue": "2025-09-29T08:56:59.525Z",
               "expr": "=teraz"
             }
           },
           "typ": {
             "value": "[TRDAV] III. dávka (základné očkovanie)",
             "props": {
-              "id": "TRDAV",
+              "idClassid": "octyp",
               "idEzid": "00000400648@4",
-              "idClassid": "octyp"
+              "id": "TRDAV"
             }
           },
           "pocet": {
@@ -381,24 +381,24 @@
           "id": {
             "value": "[IPV] Poliomyelitis",
             "props": {
-              "idClassid": "ockovanie",
+              "id": "IPV",
               "idEzid": "00000346395@3",
-              "id": "IPV"
+              "idClassid": "ockovanie"
             }
           },
           "datum": {
-            "value": "15.11.2024 09:20",
+            "value": "29.09.2025 10:56",
             "props": {
-              "propValue": "2024-11-15T08:20:12.592Z",
+              "propValue": "2025-09-29T08:56:59.526Z",
               "expr": "=teraz"
             }
           },
           "typ": {
             "value": "[TRDAV] III. dávka (základné očkovanie)",
             "props": {
-              "id": "TRDAV",
+              "idClassid": "octyp",
               "idEzid": "00000400648@4",
-              "idClassid": "octyp"
+              "id": "TRDAV"
             }
           },
           "pocet": {
@@ -431,24 +431,24 @@
           "id": {
             "value": "[IPO] Invazívne pneumokokové ochorenia",
             "props": {
-              "id": "IPO",
+              "idClassid": "ockovanie",
               "idEzid": "00000346452@3",
-              "idClassid": "ockovanie"
+              "id": "IPO"
             }
           },
           "datum": {
-            "value": "15.11.2024 09:20",
+            "value": "29.09.2025 10:56",
             "props": {
-              "propValue": "2024-11-15T08:20:12.603Z",
+              "propValue": "2025-09-29T08:56:59.534Z",
               "expr": "=teraz"
             }
           },
           "typ": {
             "value": "[TRDAV] III. dávka (základné očkovanie)",
             "props": {
-              "id": "TRDAV",
+              "idClassid": "octyp",
               "idEzid": "00000400648@4",
-              "idClassid": "octyp"
+              "id": "TRDAV"
             }
           },
           "pocet": {
@@ -483,27 +483,27 @@
           "id": {
             "value": "[5207A] Hexacima injekčná suspenzia naplnená v injekčnej striekačke | sus iru 10x0,5 ml (striek.inj.napl.skl.+20 ihiel)",
             "props": {
-              "propPo_0": "PED",
-              "propKat": true,
-              "propOl": 1,
-              "propAtcName": "Očkovacia látka proti záškrtu-hemofilu typu b-čiernemu kašľu-poliomyelitíde- tetanu- hepatitíde B",
-              "propSdl": 10,
-              "propCena": 426.75,
-              "propVnl": "R",
-              "propUzp_1zvj": 42.899,
-              "propBal": 10,
-              "propGp": 0,
-              "propIo": "ind.obm.",
-              "propUnit": "DF",
-              "propSpUhr": "V",
               "propDpl": 0,
-              "idClassid": "liek",
-              "idEzid": "00020151544",
-              "idF": "SUS IRU",
-              "idSp": "imu",
-              "idAtc": "J07CA09",
+              "propSpUhr": "V",
+              "propUnit": "DF",
+              "propIo": "ind.obm.",
+              "propGp": 0,
+              "propBal": 10,
+              "propUzp_1zvj": 42.899,
+              "propVnl": "R",
+              "propCena": 426.75,
+              "propSdl": 10,
+              "propAtcName": "Očkovacia látka proti záškrtu-hemofilu typu b-čiernemu kašľu-poliomyelitíde- tetanu- hepatitíde B",
+              "propOl": 1,
+              "propKat": true,
+              "propPo_0": "PED",
+              "id": "5207A",
               "idUl": "",
-              "id": "5207A"
+              "idAtc": "J07CA09",
+              "idSp": "imu",
+              "idF": "SUS IRU",
+              "idEzid": "00020151544",
+              "idClassid": "liek"
             }
           },
           "sn": {
@@ -536,26 +536,26 @@
           "id": {
             "value": "[85035] Prevenar 13 injekčná suspenzia | sus inj 10x0,5 ml (striek.inj.skl.napln.+ samost.ihly)",
             "props": {
-              "propDpl": 0,
-              "propSpUhr": "V",
-              "propUnit": "DF",
-              "propIo": "ind.obm.",
-              "propGp": 0,
-              "propBal": 10,
-              "propUzp_1zvj": 50.872,
-              "propVnl": "R",
-              "propCena": 508.72,
-              "propSdl": 10,
-              "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén konjugovaný",
-              "propOl": 1,
               "propKat": true,
-              "id": 85035,
-              "idUl": "",
-              "idAtc": "J07AL02",
-              "idSp": "imu",
-              "idF": "SUS INJ",
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén konjugovaný",
+              "propSdl": 10,
+              "propCena": 508.72,
+              "propVnl": "R",
+              "propUzp_1zvj": 50.872,
+              "propBal": 10,
+              "propGp": 0,
+              "propIo": "ind.obm.",
+              "propUnit": "DF",
+              "propSpUhr": "V",
+              "propDpl": 0,
+              "idClassid": "liek",
               "idEzid": "00020003190",
-              "idClassid": "liek"
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07AL02",
+              "idUl": "",
+              "id": 85035
             }
           },
           "sn": {
@@ -588,7 +588,7 @@
         },
         "value": {
           "id": {
-            "value": "[5207A] Hexacima injekčná suspenzia naplnená v injekčnej striekačke | sus iru 10x0,5 ml (striek.inj.napl.skl.+20 ihiel)",
+            "value": "[5205A] Hexacima injekčná suspenzia naplnená v injekčnej striekačke | sus iru 10x0,5 ml (striek.inj.napl.skl.+10 ihiel)",
             "props": {
               "propDpl": 0,
               "propSpUhr": "V",
@@ -597,10 +597,10 @@
               "propIo_0": "I00467",
               "propGp": 0,
               "propBal": 10,
-              "propUzp_1zvj": "42,675000",
+              "propUzp_1zvj": "40,736000",
               "propAtcDoplnok": "parent. povinné očkovanie sus. inj.",
               "propVnl": "R",
-              "propCena": 426.75,
+              "propCena": 407.36,
               "propSdl": 10,
               "propAtcName": "Očkovacia látka proti záškrtu-hemofilu typu b-čiernemu kašľu-poliomyelitíde- tetanu- hepatitíde B",
               "propOl": 1,
@@ -608,23 +608,23 @@
               "propPo_2": "PED",
               "propPo_1": "INF",
               "propPo_0": "ALG",
-              "id": "5207A",
+              "id": "5205A",
               "idUl": "",
               "idAtc": "J07CA09",
               "idSp": "imu",
               "idF": "SUS IRU",
-              "idEzid": "00020151544",
+              "idEzid": "00020154415",
               "idClassid": "liek"
             }
           },
           "schedule": {
             "value": "Ad Manus Medici",
             "props": {
-              "propType": "AMM",
-              "propText": "",
-              "propPeriod_code": "D",
+              "propWay_code": "",
               "propPeriod_t": "denne",
-              "propWay_code": ""
+              "propPeriod_code": "D",
+              "propText": "",
+              "propType": "AMM"
             }
           },
           "qty": {
@@ -711,39 +711,39 @@
           "id": {
             "value": "[85035] Prevenar 13 injekčná suspenzia | sus inj 10x0,5 ml (striek.inj.skl.napln.+ samost.ihly)",
             "props": {
-              "propDpl": 0,
-              "propSpUhr": "V",
-              "propUnit": "DF",
+              "propKat": true,
+              "propOl": 1,
+              "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén konjugovaný",
+              "propSdl": 10,
+              "propCena": 508.72,
+              "propVnl": "R",
+              "propAtcDoplnok": "parent. 13-valentná",
+              "propUzp_1zvj": "50,872000",
+              "propBal": 10,
+              "propGp": 0,
               "propIo_2": "I00428",
               "propIo_1": "I00427",
               "propIo_0": "I00426",
-              "propGp": 0,
-              "propBal": 10,
-              "propUzp_1zvj": "50,872000",
-              "propAtcDoplnok": "parent. 13-valentná",
-              "propVnl": "R",
-              "propCena": 508.72,
-              "propSdl": 10,
-              "propAtcName": "Očkovacia látka proti pneumokokom, purifikovaný polysacharidový antigén konjugovaný",
-              "propOl": 1,
-              "propKat": true,
-              "id": 85035,
-              "idUl": "",
-              "idAtc": "J07AL02",
-              "idSp": "imu",
-              "idF": "SUS INJ",
+              "propUnit": "DF",
+              "propSpUhr": "V",
+              "propDpl": 0,
+              "idClassid": "liek",
               "idEzid": "00020003190",
-              "idClassid": "liek"
+              "idF": "SUS INJ",
+              "idSp": "imu",
+              "idAtc": "J07AL02",
+              "idUl": "",
+              "id": 85035
             }
           },
           "schedule": {
             "value": "Ad Manus Medici",
             "props": {
-              "propType": "AMM",
-              "propText": "",
-              "propPeriod_code": "D",
+              "propWay_code": "",
               "propPeriod_t": "denne",
-              "propWay_code": ""
+              "propPeriod_code": "D",
+              "propText": "",
+              "propType": "AMM"
             }
           },
           "qty": {
@@ -835,9 +835,9 @@
             "value": "[252b] Očkovanie.",
             "props": {
               "propBody": 70,
-              "idClassid": "vykon",
+              "id": "252b",
               "idEzid": "00000467878@44",
-              "id": "252b"
+              "idClassid": "vykon"
             }
           },
           "count": {
@@ -857,9 +857,9 @@
             "value": "[252b] Očkovanie.",
             "props": {
               "propBody": 70,
-              "id": "252b",
+              "idClassid": "vykon",
               "idEzid": "00000467878@9",
-              "idClassid": "vykon"
+              "id": "252b"
             }
           },
           "count": {
@@ -931,7 +931,7 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "ct": "2024-08-21T10:06:13.335Z",
-  "mt": "2024-11-15T08:20:16.891Z",
+  "mt": "2025-09-29T08:57:25.484Z",
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/007"
+  "source": "curo-open/curo-vzory#/022"
 }

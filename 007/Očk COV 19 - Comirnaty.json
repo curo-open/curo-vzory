@@ -131,9 +131,9 @@
             }
           },
           "datum": {
-            "value": "15.11.2024 09:18",
+            "value": "29.09.2025 10:05",
             "props": {
-              "propValue": "2024-11-15T08:18:59.659Z",
+              "propValue": "2025-09-29T08:05:04.624Z",
               "expr": "=teraz"
             }
           },
@@ -212,9 +212,7 @@
           },
           "sn": {
             "value": "{{var.sarza}}",
-            "props": {
-              "expr": "={{var.sarza}}"
-            }
+            "props": {}
           },
           "qty": {
             "value": "1",
@@ -410,7 +408,7 @@
   "description": "Očkovanie proti vírusu Covid",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2024-11-15T08:19:21.313Z",
+  "mt": "2025-09-29T08:05:17.642Z",
   "ct": "2024-10-23T08:37:01.845Z",
   "owner": "admin",
   "source": "curo-open/curo-vzory#/007"

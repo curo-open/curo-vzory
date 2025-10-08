@@ -160,7 +160,7 @@
         },
         "value": {
           "title": {
-            "value": "COV - Covid19 - Anamnestický dotazník k očkovaniu - predvyplnený",
+            "value": "COV - Covid19 - Anamnestický dotazník - predvyplnený",
             "props": {}
           },
           "source": {
@@ -181,7 +181,7 @@
         },
         "value": {
           "title": {
-            "value": "COV - Covid19 - Poučenie a informovaný súhlas - očkovanie",
+            "value": "COV - Covid19 - Poučenie a informovaný súhlas - očkovanie'",
             "props": {}
           },
           "source": {
@@ -212,9 +212,9 @@
             }
           },
           "datum": {
-            "value": "02.11.2024 11:07",
+            "value": "19.09.2025 11:16",
             "props": {
-              "propValue": "2024-11-02T10:07:58.755Z",
+              "propValue": "2025-09-19T09:16:53.546Z",
               "expr": "=teraz"
             }
           },
@@ -462,8 +462,8 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "description": "Očkovanie proti vírusu Covid",
-  "mt": "2024-11-02T10:09:04.628Z",
-  "ct": "2024-11-02T10:08:22.773Z",
+  "mt": "2025-09-19T09:18:06.908Z",
   "owner": "admin",
+  "ct": "2024-10-23T06:50:00.761Z",
   "source": "curo-open/curo-vzory#/020"
 }

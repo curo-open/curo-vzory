@@ -78,9 +78,9 @@
             }
           },
           "datum": {
-            "value": "23.10.2024 00:00",
+            "value": "30.09.2025 00:00",
             "props": {
-              "propValue": "2024-10-22T22:00:00.000Z",
+              "propValue": "2025-09-29T22:00:00.000Z",
               "expr": "=dnes"
             }
           },
@@ -326,7 +326,7 @@
   "type": "examination",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2024-10-23T08:06:18.258Z",
+  "mt": "2025-09-30T06:11:39.210Z",
   "owner": "admin",
   "ct": "2024-10-22T12:40:47.475Z",
   "source": "curo-open/curo-vzory#/020"

@@ -99,9 +99,9 @@
             }
           },
           "datum": {
-            "value": "28.10.2024 14:14",
+            "value": "30.09.2025 08:05",
             "props": {
-              "propValue": "2024-10-28T13:14:31.591Z",
+              "propValue": "2025-09-30T06:05:18.559Z",
               "expr": "=teraz"
             }
           },
@@ -165,9 +165,7 @@
           },
           "sn": {
             "value": "{{var.sarza}}",
-            "props": {
-              "expr": "={{var.sarza}}"
-            }
+            "props": {}
           },
           "qty": {
             "value": "1",
@@ -346,7 +344,7 @@
   "type": "examination",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2024-10-28T13:14:38.003Z",
+  "mt": "2025-09-30T06:09:32.452Z",
   "ct": "2024-10-28T13:12:32.297Z",
   "owner": "admin",
   "source": "curo-open/curo-vzory#/020"
