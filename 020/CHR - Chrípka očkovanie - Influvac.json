@@ -139,9 +139,9 @@
             }
           },
           "datum": {
-            "value": "23.10.2024 10:02",
+            "value": "08.10.2025 10:52",
             "props": {
-              "propValue": "2024-10-23T08:02:59.625Z",
+              "propValue": "2025-10-08T08:52:52.278Z",
               "expr": "=teraz"
             }
           },
@@ -200,34 +200,33 @@
         },
         "value": {
           "id": {
-            "value": "[6347C] Influvac Tetra | sus iru 10x0,5 ml (striek.inj.skl.napl. s ihlou)",
+            "value": "[6925E] Influvac | sus iru 10x0,5 ml (striek.inj.napl.skl. s ihlou)",
             "props": {
               "propKat": true,
               "propOl": 1,
               "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
               "propSdl": 10,
-              "propCena": 111.6,
+              "propCena": 132.4,
               "propVnl": "R",
-              "propUzp_1zvj": 11.16,
+              "propAtcDoplnok": "parent.",
+              "propUzp_1zvj": "10,653000",
               "propBal": 10,
               "propGp": 0,
               "propUnit": "DF",
               "propSpUhr": "V",
-              "propDpl": 0,
+              "propDpl": 25.87,
               "idClassid": "liek",
-              "idEzid": "00021275961",
+              "idEzid": "00021475041",
               "idF": "SUS IRU",
               "idSp": "ims",
               "idAtc": "J07BB02",
               "idUl": "",
-              "id": "6347C"
+              "id": "6925E"
             }
           },
           "sn": {
             "value": "{{var.sarza}}",
-            "props": {
-              "expr": "={{var.sarza}}"
-            }
+            "props": {}
           },
           "qty": {
             "value": "1",
@@ -255,28 +254,28 @@
         },
         "value": {
           "id": {
-            "value": "[6347C] Influvac Tetra | sus iru 10x0,5 ml (striek.inj.skl.napl. s ihlou)",
+            "value": "[6925E] Influvac | sus iru 10x0,5 ml (striek.inj.napl.skl. s ihlou)",
             "props": {
               "propKat": true,
               "propOl": 1,
               "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
               "propSdl": 10,
-              "propCena": 111.6,
+              "propCena": 132.4,
               "propVnl": "R",
               "propAtcDoplnok": "parent.",
-              "propUzp_1zvj": "11,160000",
+              "propUzp_1zvj": "10,653000",
               "propBal": 10,
               "propGp": 0,
               "propUnit": "DF",
               "propSpUhr": "V",
-              "propDpl": 0,
+              "propDpl": 25.87,
               "idClassid": "liek",
-              "idEzid": "00021275961",
+              "idEzid": "00021475041",
               "idF": "SUS IRU",
               "idSp": "ims",
               "idAtc": "J07BB02",
               "idUl": "",
-              "id": "6347C"
+              "id": "6925E"
             }
           },
           "schedule": {
@@ -308,9 +307,9 @@
             "props": {}
           },
           "payoff": {
-            "value": "0",
+            "value": "2,59",
             "props": {
-              "propValue": 0
+              "propValue": 2.59
             }
           },
           "atc": {
@@ -406,7 +405,7 @@
   "description": "Očkovanie proti vírusu chrípky",
   "allowedUsers": [],
   "allowedIdentities": [],
-  "mt": "2024-10-23T08:03:11.101Z",
+  "mt": "2025-10-08T08:52:57.472Z",
   "ct": "2024-10-22T11:51:00.268Z",
   "owner": "admin",
   "source": "curo-open/curo-vzory#/020"

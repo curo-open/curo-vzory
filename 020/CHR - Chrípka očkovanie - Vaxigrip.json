@@ -139,9 +139,9 @@
             }
           },
           "datum": {
-            "value": "24.10.2024 10:44",
+            "value": "07.10.2025 09:12",
             "props": {
-              "propValue": "2024-10-24T08:44:23.555Z",
+              "propValue": "2025-10-07T07:12:37.457Z",
               "expr": "=teraz"
             }
           },
@@ -200,32 +200,33 @@
         },
         "value": {
           "id": {
-            "value": "[1224C] Vaxigrip Tetra | sus iru 10x0,5 ml (striek.inj.skl.napl. s ihlami)",
+            "value": "[8860E] Vaxigrip | sus iru 10x0,5 ml (striek.inj.napl.skl. + 10x pripojená ihla)",
             "props": {
+              "propKat": true,
               "propOl": 1,
               "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
               "propSdl": 10,
-              "propCena": 111.7,
+              "propCena": 106.53,
               "propVnl": "R",
-              "propUzp_1zvj": 5.71,
+              "propAtcDoplnok": "parent.",
+              "propUzp_1zvj": "10,653000",
+              "propBal": 10,
               "propGp": 0,
-              "propIo": "ind.obm.",
+              "propUnit": "DF",
               "propSpUhr": "V",
-              "propDpl": 54.6,
+              "propDpl": 0,
               "idClassid": "liek",
-              "idEzid": "00021211925",
+              "idEzid": "00021499488",
               "idF": "SUS IRU",
               "idSp": "ims",
               "idAtc": "J07BB02",
               "idUl": "",
-              "id": "1224C"
+              "id": "8860E"
             }
           },
           "sn": {
             "value": "{{var.sarza}}",
-            "props": {
-              "expr": "={{var.sarza}}"
-            }
+            "props": {}
           },
           "qty": {
             "value": "1",
@@ -253,28 +254,28 @@
         },
         "value": {
           "id": {
-            "value": "[1224C] Vaxigrip Tetra | sus iru 10x0,5 ml (striek.inj.skl.napl. s ihlami)",
+            "value": "[8860E] Vaxigrip | sus iru 10x0,5 ml (striek.inj.napl.skl. + 10x pripojená ihla)",
             "props": {
               "propKat": true,
               "propOl": 1,
               "propAtcName": "Očkovacia látka proti chrípke, inaktivovaná, štiepený vírus alebo povrchový antigén",
               "propSdl": 10,
-              "propCena": 111.6,
+              "propCena": 106.53,
               "propVnl": "R",
               "propAtcDoplnok": "parent.",
-              "propUzp_1zvj": "11,160000",
+              "propUzp_1zvj": "10,653000",
               "propBal": 10,
               "propGp": 0,
               "propUnit": "DF",
               "propSpUhr": "V",
               "propDpl": 0,
               "idClassid": "liek",
-              "idEzid": "00021211925",
+              "idEzid": "00021499488",
               "idF": "SUS IRU",
               "idSp": "ims",
               "idAtc": "J07BB02",
               "idUl": "",
-              "id": "1224C"
+              "id": "8860E"
             }
           },
           "schedule": {
@@ -403,7 +404,7 @@
   "allowedUsers": [],
   "allowedIdentities": [],
   "ct": "2024-10-22T11:52:17.646Z",
-  "mt": "2024-10-24T08:44:28.638Z",
+  "mt": "2025-10-07T07:12:46.862Z",
   "owner": "admin",
   "source": "curo-open/curo-vzory#/020"
 }
