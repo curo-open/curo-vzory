@@ -527,7 +527,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vTyzdnoch &gt;= 5 &amp;&amp;  pacient.vekDni|vTyzdnoch &lt;= 8 }}<br>",
+            "value": "{{ ? pacient.vekDni|vTyzdnoch &gt; 4 &amp;&amp;  pacient.vekDni|vTyzdnoch &lt;= 7 }}<br>",
             "props": {}
           }
         }
@@ -553,7 +553,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? (pacient.vekDni|vTyzdnoch &gt;= 8 &amp;&amp;  pacient.vekDni|vTyzdnoch &lt;= 11) &amp;&amp; (pacient.vekDni|vTyzdnoch == 8 || sessions|getSections(\"vv\")|where(\"d.period&gt;14\")|where(\"s.value.id.props.id=='143a'\")|trans(\"length\") != 0) }}<br>",
+            "value": "{{ ? (pacient.vekDni|vTyzdnoch &gt; 7 &amp;&amp;  pacient.vekDni|vTyzdnoch &lt;= 10) &amp;&amp; (pacient.vekDni|vTyzdnoch == 8 || sessions|getSections(\"vv\")|where(\"d.period&gt;14\")|where(\"s.value.id.props.id=='143a'\")|trans(\"length\") != 0) }}<br>",
             "props": {}
           }
         }
@@ -579,7 +579,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt;= 3 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 5) &amp;&amp; (pacient.vekDni|vMesiacoch == 3 || sessions|getSections(\"vv\")|where(\"d.period&gt;14\")|where(\"s.value.id.props.id=='144'\")|trans(\"length\") != 0) }}<br>",
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt;= 2 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 4) &amp;&amp; (pacient.vekDni|vMesiacoch == 2 || sessions|getSections(\"vv\")|where(\"d.period&gt;14\")|where(\"s.value.id.props.id=='144'\")|trans(\"length\") != 0) }}<br>",
             "props": {}
           }
         }
@@ -605,7 +605,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vMesiacoch &gt;= 5 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 7  &amp;&amp; (pacient.vekDni|vMesiacoch == 7 &amp;&amp; sessions|getSections(\"vv\")|where(\"s.value.id.props.id=='145a'\")|trans(\"length\") == 0) &amp;&amp; (pacient.vekDni|vMesiacoch == 5 || sessions|getSections(\"vv\")|where(\"d.period&gt;14\")|where(\"s.value.id.props.id=='145'\")|trans(\"length\") != 0) }}<br>",
+            "value": "{{ ? pacient.vekDni|vMesiacoch &gt; 4 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 6  &amp;&amp; (pacient.vekDni|vMesiacoch == 6 &amp;&amp; sessions|getSections(\"vv\")|where(\"s.value.id.props.id=='145a'\")|trans(\"length\") == 0) &amp;&amp; (pacient.vekDni|vMesiacoch == 5 || sessions|getSections(\"vv\")|where(\"d.period&gt;14\")|where(\"s.value.id.props.id=='145'\")|trans(\"length\") != 0) }}<br>",
             "props": {}
           }
         }
@@ -670,7 +670,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt;= 9 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 11) &amp;&amp; (pacient.vekDni|vMesiacoch == 11 &amp;&amp; sessions|getSections(\"vv\")|where(\"s.value.id.props.id=='146a'\")|trans(\"length\") == 0)  }}<br>",
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 8 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 10) &amp;&amp; (pacient.vekDni|vMesiacoch == 10 &amp;&amp; sessions|getSections(\"vv\")|where(\"s.value.id.props.id=='146a'\")|trans(\"length\") == 0)  }}<br>",
             "props": {}
           }
         }
