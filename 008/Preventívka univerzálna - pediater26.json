@@ -553,7 +553,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? (pacient.vekDni|vTyzdnoch &gt; 7 &amp;&amp;  pacient.vekDni|vTyzdnoch &lt;= 10) &amp;&amp; (pacient.vekDni|vTyzdnoch == 8 || sessions|getSections(\"vv\")|where(\"d.period&gt;14\")|where(\"s.value.id.props.id=='143a'\")|trans(\"length\") != 0) }}<br>",
+            "value": "{{ ? (pacient.vekDni|vTyzdnoch &gt; 7 &amp;&amp;  pacient.vekDni|vTyzdnoch &lt;= 10) &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=14\")|where(\"s.value.id.props.id=='143a'\")|trans(\"length\") == 0) }}<br>",
             "props": {}
           }
         }
@@ -566,7 +566,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
+            "value": "{{ ? (pacient.vekDni|vTyzdnoch &gt; 7 &amp;&amp; pacient.vekDni|vTyzdnoch &lt;= 10) &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=14\")|where(\"s.value.id.props.id=='143a'\")|trans(\"length\") != 0) }}Výkon 144 by sa dal vykazať, ale bol vynechaný kvôli vykazanému výkonu 143a v posledných 14 dňoch.{{ ? }}<br>",
             "props": {}
           }
         }
@@ -579,7 +579,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt;= 2 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 4) &amp;&amp; (pacient.vekDni|vMesiacoch == 2 || sessions|getSections(\"vv\")|where(\"d.period&gt;14\")|where(\"s.value.id.props.id=='144'\")|trans(\"length\") != 0) }}<br>",
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 2 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 4) &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=14\")|where(\"s.value.id.props.id=='144'\")|trans(\"length\") == 0) }}<br>",
             "props": {}
           }
         }
@@ -592,7 +592,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 2 &amp;&amp; pacient.vekDni|vMesiacoch &lt;= 4) &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=14\")|where(\"s.value.id.props.id=='144'\")|trans(\"length\") != 0) }}Výkon 145 by sa dal vykazať, ale bol vynechaný kvôli vykazanému výkonu 144 v posledných 14 dňoch.{{ ? }}<br>",
             "props": {}
           }
         }
@@ -605,7 +605,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vMesiacoch &gt; 4 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 6  &amp;&amp; (pacient.vekDni|vMesiacoch == 6 &amp;&amp; sessions|getSections(\"vv\")|where(\"s.value.id.props.id=='145a'\")|trans(\"length\") == 0) &amp;&amp; (pacient.vekDni|vMesiacoch == 5 || sessions|getSections(\"vv\")|where(\"d.period&gt;14\")|where(\"s.value.id.props.id=='145'\")|trans(\"length\") != 0) }}<br>",
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 4 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 6) &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=14\")|where(\"s.value.id.props.id=='145'\")|trans(\"length\") == 0) }}<br>",
             "props": {}
           }
         }
@@ -631,7 +631,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 4 &amp;&amp; pacient.vekDni|vMesiacoch &lt;= 6) &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=14\")|where(\"s.value.id.props.id=='145'\")|trans(\"length\") != 0) }}Výkon 145a by sa dal vykazať, ale bol vynechaný kvôli vykazanému výkonu 145 v posledných 14 dňoch.{{ ? }}<br>",
             "props": {}
           }
         }
@@ -644,7 +644,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vMesiacoch &gt;= 7 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 9  &amp;&amp; (pacient.vekDni|vMesiacoch == 7 &amp;&amp; sessions|getSections(\"vv\")|where(\"d.period&gt;14\")|where(\"s.value.id.props.id=='145a'\")|trans(\"length\") != 0)}}<br>",
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 6 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 8) &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=14\")|where(\"s.value.id.props.id=='145a'\")|trans(\"length\") == 0) }}<br>",
             "props": {}
           }
         }
@@ -657,7 +657,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 6 &amp;&amp; pacient.vekDni|vMesiacoch &lt;= 8) &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=14\")|where(\"s.value.id.props.id=='145a'\")|trans(\"length\") != 0) }}Výkon 146 by sa dal vykazať, ale bol vynechaný kvôli vykazanému výkonu 145a v posledných 14 dňoch.{{ ? }}<br>",
             "props": {}
           }
         }
@@ -670,7 +670,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 8 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 10) &amp;&amp; (pacient.vekDni|vMesiacoch == 10 &amp;&amp; sessions|getSections(\"vv\")|where(\"s.value.id.props.id=='146a'\")|trans(\"length\") == 0)  }}<br>",
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 8 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 10) }}<br>",
             "props": {}
           }
         }
@@ -696,7 +696,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt;= 11 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 13) &amp;&amp; (pacient.vekDni|vMesiacoch == 11 &amp;&amp; sessions|getSections(\"vv\")|where(\"d.period&gt;14\")|where(\"s.value.id.props.id=='146a'\")|trans(\"length\") != 0) }}<br>",
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 10 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 12) &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=14\")|where(\"s.value.id.props.id=='146a'\")|trans(\"length\") == 0) }}<br>",
             "props": {}
           }
         }
@@ -709,7 +709,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 10 &amp;&amp; pacient.vekDni|vMesiacoch &lt;= 12) &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=14\")|where(\"s.value.id.props.id=='146a'\")|trans(\"length\") != 0) }}Výkon 146b by sa dal vykazať, ale bol vynechaný kvôli vykazanému výkonu 146a v posledných 14 dňoch.{{ ? }}<br>",
             "props": {}
           }
         }
@@ -722,7 +722,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt;= 15 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 18) &amp;&amp; (pacient.vekDni|vMesiacoch == 15 || sessions|getSections(\"vv\")|where(\"d.period&gt;14\")|where(\"s.value.id.props.id=='146b'\")|trans(\"length\") != 0) }}<br>",
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 14 &amp;&amp;  pacient.vekDni|vMesiacoch &lt;= 17) &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=14\")|where(\"s.value.id.props.id=='146b'\")|trans(\"length\") == 0) }}<br>",
             "props": {}
           }
         }
@@ -735,7 +735,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? }}<br>",
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 14 &amp;&amp; pacient.vekDni|vMesiacoch &lt;= 17) &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=14\")|where(\"s.value.id.props.id=='146b'\")|trans(\"length\") != 0) }}Výkon 146c by sa dal vykazať, ale bol vynechaný kvôli vykazanému výkonu 146b v posledných 14 dňoch.{{ ? }}<br>",
             "props": {}
           }
         }
@@ -748,7 +748,7 @@
         },
         "value": {
           "t": {
-            "value": "{{ ? pacient.vekDni|vRokoch == 2 || pacient.vekDni|vRokoch == 3  }}<br>",
+            "value": "{{ ? pacient.vekDni|vRokoch &gt; 2 &amp;&amp; pacient.vekDni|vRokoch &lt;= 3  }}<br>",
             "props": {}
           }
         }
