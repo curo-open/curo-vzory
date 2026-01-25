@@ -600,6 +600,240 @@
             "props": {}
           }
         }
+      },
+      {
+        "id": 122,
+        "order": 83,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? (pacient.vekDni|vTyzdnoch &gt; 7 &amp;&amp; pacient.vekDni|vTyzdnoch &lt;= 10) &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=14\")|where(\"s.value.id.props.id=='143a'\")|trans(\"length\") \\!= 0) }<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 123,
+        "order": 84,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Výkon 144 by sa dal vykazať, ale bol vynechaný kvôli vykazanému výkonu 143a v posledných 14 dňoch.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 124,
+        "order": 85,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 125,
+        "order": 86,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 2 &amp;&amp; pacient.vekDni|vMesiacoch &lt;= 4) &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=14\")|where(\"s.value.id.props.id=='144'\")|trans(\"length\") \\!= 0) }<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 126,
+        "order": 87,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Výkon 145 by sa dal vykazať, ale bol vynechaný kvôli vykazanému výkonu 144 v posledných 14 dňoch.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 127,
+        "order": 88,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 128,
+        "order": 89,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 4 &amp;&amp; pacient.vekDni|vMesiacoch &lt;= 6) &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=14\")|where(\"s.value.id.props.id=='145'\")|trans(\"length\") \\!= 0) }<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 129,
+        "order": 90,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Výkon 145a by sa dal vykazať, ale bol vynechaný kvôli vykazanému výkonu 145 v posledných 14 dňoch.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 130,
+        "order": 91,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 131,
+        "order": 92,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 6 &amp;&amp; pacient.vekDni|vMesiacoch &lt;= 8) &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=14\")|where(\"s.value.id.props.id=='145a'\")|trans(\"length\") \\!= 0) }<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 132,
+        "order": 93,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Výkon 146 by sa dal vykazať, ale bol vynechaný kvôli vykazanému výkonu 145a v posledných 14 dňoch.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 133,
+        "order": 94,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 134,
+        "order": 95,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 10 &amp;&amp; pacient.vekDni|vMesiacoch &lt;= 12) &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=14\")|where(\"s.value.id.props.id=='146a'\")|trans(\"length\") \\!= 0) }<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 135,
+        "order": 96,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Výkon 146b by sa dal vykazať, ale bol vynechaný kvôli vykazanému výkonu 146a v posledných 14 dňoch.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 136,
+        "order": 97,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 137,
+        "order": 98,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? (pacient.vekDni|vMesiacoch &gt; 14 &amp;&amp; pacient.vekDni|vMesiacoch &lt;= 17) &amp;&amp; (sessions|getSections(\"vv\")|where(\"d.period&lt;=14\")|where(\"s.value.id.props.id=='146b'\")|trans(\"length\") \\!= 0) }<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 138,
+        "order": 99,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Výkon 146c by sa dal vykazať, ale bol vynechaný kvôli vykazanému výkonu 146b v posledných 14 dňoch.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 139,
+        "order": 100,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "{{ ? }}<br>",
+            "props": {}
+          }
+        }
       }
     ],
     "vv": [
