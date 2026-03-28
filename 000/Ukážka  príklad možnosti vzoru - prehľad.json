@@ -1,0 +1,1146 @@
+{
+  "title": "Ukážka / príklad možností vzoru - prehľad",
+  "shortcut": "priklad2",
+  "if": "",
+  "data": {
+    "_": {},
+    "t": [
+      {
+        "id": 1,
+        "order": 0,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>Ukážka / príklad možností vzoru - prehľad</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 2,
+        "order": 1,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Tento vzor slúži ako referenčný prehľad pre nový template editor. Je určený hlavne na čítanie, kopírovanie a úpravu príkladov.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 3,
+        "order": 2,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Použitá syntax v príkladoch: <code>dekurzy|sekcie|kde</code>, <code>pacient</code>, <code>identita</code>, <code>dekurz</code>, <code>ine</code>.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 4,
+        "order": 3,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Odporúčanie: jednotlivé zápisy vkladajte cez tlačidlo <b>Vložiť podmienku / premennú</b> a výsledok si overte cez <b>Preview na aktuálnom pacientovi</b>.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 5,
+        "order": 4,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 6,
+        "order": 5,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>1. Premenné z kontextu</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 7,
+        "order": 6,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> pacient.meno <span>}</span><span>}</span></code> - meno pacienta<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 8,
+        "order": 7,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> pacient.vek <span>}</span><span>}</span></code> - vek pacienta<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 9,
+        "order": 8,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> pacient.vekDni|vMesiacoch <span>}</span><span>}</span></code> - vek v mesiacoch, vhodný pre vekové okná<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 10,
+        "order": 9,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> pacient.zp <span>}</span><span>}</span></code> - zdravotná poisťovňa pacienta<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 11,
+        "order": 10,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> identita.lekar_meno <span>}</span><span>}</span></code> - meno lekára<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 12,
+        "order": 11,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> identita.pzs_meno <span>}</span><span>}</span></code> - názov PZS<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 13,
+        "order": 12,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> dekurz.datum <span>}</span><span>}</span></code> - dátum dekurzu<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 14,
+        "order": 13,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> ine.rok <span>}</span><span>}</span></code> - aktuálny rok<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 15,
+        "order": 14,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 16,
+        "order": 15,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>2. If / Ak blok</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 17,
+        "order": 16,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> ? pacient.vek >= 18 && (pacient.zp == 25 || pacient.zp == 27) <span>}</span><span>}</span></code><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 18,
+        "order": 17,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Obsah pre dospelého pacienta v ZP 25 alebo 27.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 19,
+        "order": 18,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> : <span>}</span><span>}</span></code><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 20,
+        "order": 19,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Obsah pre ostatných pacientov.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 21,
+        "order": 20,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> ? <span>}</span><span>}</span></code><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 22,
+        "order": 21,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Poznámka: vnorené podmienky dnes nie sú podporované, preto používajte samostatné bloky.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 23,
+        "order": 22,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> ? pacient.pohlavie == \"female\" <span>}</span><span>}</span></code> Žena <code><span>{</span><span>{</span> : <span>}</span><span>}</span></code> Muž <code><span>{</span><span>{</span> ? <span>}</span><span>}</span></code> - inline variant<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 24,
+        "order": 23,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 25,
+        "order": 24,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>3. História a fallback</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 26,
+        "order": 25,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> &lt;? dekurzy|sekcie('ra')|kde('i==0') <span>}</span><span>}</span></code><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 27,
+        "order": 26,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Ak sa historická sekcia nenájde, použije sa tento fallback text alebo fallback sekcia.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 28,
+        "order": 27,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> &lt;? <span>}</span><span>}</span></code><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 29,
+        "order": 28,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> dekurzy|sekcie('vd')|kde('i==0')|trans('text') <span>}</span><span>}</span></code> - text poslednej sekcie<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 30,
+        "order": 29,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> dekurzy|sekcie('r')|kde('d.period < 30')|trans('textByDate') <span>}</span><span>}</span></code> - text histórie aj s dátumom<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 31,
+        "order": 30,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> dekurzy|sekcie('vd')|kde('d.isCurrent')|trans('join', 't') <span>}</span><span>}</span></code> - všetky hodnoty sekcie z aktuálneho dekurzu<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 32,
+        "order": 31,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> (dekurzy|sekcie('zfp')|kde('i==0')|trans('length') > 0) ? (dekurzy|sekcie('zfp')|kde('i==0')[0].s.value.weight.props.value || dekurzy|sekcie('zfp')|kde('i==0')[0].s.value.weight.value) : '' <span>}</span><span>}</span></code> - hodnota poľa zo sekcie<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 33,
+        "order": 32,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 34,
+        "order": 33,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>4. Sekcia z dekurzu, ktorý obsahuje inú sekciu</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 35,
+        "order": 34,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Príklad: nájdi sekciu TO len v dekurze, kde je zároveň sekcia OD s dôvodom kontroly.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 36,
+        "order": 35,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> (dekurzy|sekcie('to')|kde('d|pred(s, \"od\").value.reason.value == \"K\"')|kde('i==0')|trans('length') > 0) ? (dekurzy|sekcie('to')|kde('d|pred(s, \"od\").value.reason.value == \"K\"')|kde('i==0')[0].s.value.text.value) : '' <span>}</span><span>}</span></code><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 37,
+        "order": 36,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 38,
+        "order": 37,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>5. Kontroly vykázania výkonov</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 39,
+        "order": 38,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> ? (dekurzy|sekcie('vv')|kde('d.period <= 365')|kde(\"s.value.id.props.id=='H0006'\")|trans('length') == 0) && pacient.zp == 25 && pacient.vek >= 40 <span>}</span><span>}</span></code><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 40,
+        "order": 39,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Sem vložte obsah alebo sekciu, ktorá sa má vykonať, ak výkon ešte nebol vykázaný.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 41,
+        "order": 40,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> ? <span>}</span><span>}</span></code><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 42,
+        "order": 41,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> ? dekurzy|sekcie('vv')|kde('sekcia.sekciaDatum|datumRok == ine.rok')|kde(\"s.value.id.props.id=='5175'\")|kde('d|pred(s, \"vd\").value.id.props.id|trans(\"startsWith\", \"I10\")')|trans('length') == 0 <span>}</span><span>}</span></code><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 43,
+        "order": 42,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Príklad kontroly výkon + diagnóza v aktuálnom roku.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 44,
+        "order": 43,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> ? <span>}</span><span>}</span></code><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 45,
+        "order": 44,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> ? (pacient.vekDni|vMesiacoch > 6 && pacient.vekDni|vMesiacoch <= 9) && (dekurzy|sekcie('vv')|kde(\"s.value.id.props.id=='1467'\")|trans('length') == 0) && (dekurzy|sekcie('vv')|kde('d.period < 14')|kde(\"s.value.id.props.id=='145a'\")|trans('length') == 0) <span>}</span><span>}</span></code><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 46,
+        "order": 45,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Príklad vekového okna s kontrolou, že predchádzajúci výkon nebol vykázaný v posledných 14 dňoch.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 47,
+        "order": 46,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> ? <span>}</span><span>}</span></code><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 48,
+        "order": 47,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 49,
+        "order": 48,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>6. Laboratóriá</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 50,
+        "order": 49,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> dekurzy|sekcie('lv')|kde(\"s.value.id.props.propLabTestId=='07172'\")|kde('i==0')[0].s.value.value.value <span>}</span><span>}</span></code> - posledná hodnota konkrétneho lab výsledku<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 51,
+        "order": 50,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> dekurzy|sekcie('lv')|trans(\"labToTab\", ['01349/Chol','01898/Glukoza'], 3) <span>}</span><span>}</span></code> - tabuľka posledných výsledkov<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 52,
+        "order": 51,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 53,
+        "order": 52,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>7. Výpočtové premenné</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 54,
+        "order": 53,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> Premenná: meno=ichs | typ=výraz | hodnota=dekurzy|sekcie('td')|kde(\"s.value.idch.props.id==81\")|trans(\"length\") > 0 ? 'ICHS' : '' <span>}</span><span>}</span></code><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 55,
+        "order": 54,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> Premenná: meno=ah | typ=výraz | hodnota=dekurzy|sekcie('td')|kde(\"s.value.idch.props.id==73\")|trans(\"length\") > 0 ? 'arteriálnu hypertenziu' : '' <span>}</span><span>}</span></code><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 56,
+        "order": 55,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> [var.ichs,var.ah]|trans('joinStrings', ', ') <span>}</span><span>}</span></code> - spojenie podmienene vytvorených fráz do jednej vety<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 57,
+        "order": 56,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 58,
+        "order": 57,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>8. Dávkovanie podľa hmotnosti</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 59,
+        "order": 58,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> Premenná: meno=vaha | typ=výraz | hodnota=(dekurzy|sekcie('zfp')|kde('i==0')|trans('length') > 0) ? (dekurzy|sekcie('zfp')|kde('i==0')[0].s.value.weight.props.value || dekurzy|sekcie('zfp')|kde('i==0')[0].s.value.weight.value) : '' <span>}</span><span>}</span></code><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 60,
+        "order": 59,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> Premenná: meno=davkaMg | typ=výraz | hodnota=var.vaha * 10 <span>}</span><span>}</span></code><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 61,
+        "order": 60,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> Premenná: meno=davkaMlPresne | typ=výraz | hodnota=var.davkaMg / 40 <span>}</span><span>}</span></code><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 62,
+        "order": 61,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> Premenná: meno=davkaMlZaokruhlene | typ=výraz | hodnota=mathRound(2 * var.davkaMg / 40) / 2 <span>}</span><span>}</span></code><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 63,
+        "order": 62,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Builder „Dávkovanie podľa hmotnosti“ vie z týchto hodnôt pripraviť aj text do receptu.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 64,
+        "order": 63,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 65,
+        "order": 64,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>9. Dátumy a pomocné transformácie</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 66,
+        "order": 65,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> pacient.vekDni|vRokoch <span>}</span><span>}</span></code> - vek v rokoch<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 67,
+        "order": 66,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> pacient.vekDni|vMesiacoch <span>}</span><span>}</span></code> - vek v mesiacoch<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 68,
+        "order": 67,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> pacient.datumNarodenia|datum('YYYY-MM-DD') <span>}</span><span>}</span></code> - formátovanie dátumu<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 69,
+        "order": 68,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> vytvorDatum() <span>}</span><span>}</span></code> - dnešný dátum<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 70,
+        "order": 69,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> vytvorDatum('+1m')|datum('DD.MM.YYYY') <span>}</span><span>}</span></code> - posun o mesiac dopredu<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 71,
+        "order": 70,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> sekcia.sekciaDatum|datumRok == ine.rok <span>}</span><span>}</span></code> - filter na aktuálny rok<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 72,
+        "order": 71,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> sekcia.sekciaDatum|datum(\"MMYYYY\") == vytvorDatum()|datum(\"MMYYYY\") <span>}</span><span>}</span></code> - filter na aktuálny mesiac<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 73,
+        "order": 72,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 74,
+        "order": 73,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>10. Budúce objednania</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 75,
+        "order": 74,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> pacient|objednania|trans(\"format\", \"Typ vyšetrenia: {typ}, na <b>{datum}</b> o <b>{cas}</b>\", \"<br>\") <span>}</span><span>}</span></code><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 76,
+        "order": 75,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Builder vie pripraviť variant pre email, dekurz alebo krátky zoznam.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 77,
+        "order": 76,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 78,
+        "order": 77,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>11. HTML a formátovanie</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 79,
+        "order": 78,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Ukážka tabuľky vloženej ako HTML:<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 80,
+        "order": 79,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<table style=\"border-collapse: collapse; width: 100%;\"><tr><th style=\"border:1px solid #999;padding:6px;text-align:left;\">Stĺpec 1</th><th style=\"border:1px solid #999;padding:6px;text-align:left;\">Stĺpec 2</th></tr><tr><td style=\"border:1px solid #999;padding:6px;\">Riadok 1</td><td style=\"border:1px solid #999;padding:6px;\">Hodnota</td></tr><tr><td style=\"border:1px solid #999;padding:6px;\">Riadok 2</td><td style=\"border:1px solid #999;padding:6px;\">Hodnota</td></tr></table><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 81,
+        "order": 80,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<span style=\"font-size: 20px;\"><b>Ukážka textu s vlastnou veľkosťou písma</b></span><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 82,
+        "order": 81,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 83,
+        "order": 82,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<b>12. Ďalšie možnosti</b><br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 84,
+        "order": 83,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "<code><span>{</span><span>{</span> &lt; dekurzy|sekcie('td')|kde('!sekcia.zruseny')|trans('mapSections', 'td', 'vd', {id: \"id\"}) <span>}</span><span>}</span></code> - mapovanie sekcií<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 85,
+        "order": 84,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Builder „Vložiť iný vzor“ vloží špeciálnu sekciu <code>vlozit</code>.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 86,
+        "order": 85,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Preview funguje iba pri otvorenom pacientovi.<br>",
+            "props": {}
+          }
+        }
+      },
+      {
+        "id": 87,
+        "order": 86,
+        "props": {
+          "type": "t"
+        },
+        "value": {
+          "t": {
+            "value": "Zmeny sa ukladajú tlačidlom <b>Uložiť</b>; ak skončíte, kliknite <b>Ukončiť editáciu</b>.<br>",
+            "props": {}
+          }
+        }
+      }
+    ]
+  },
+  "tags": [
+    "vzor",
+    "priklad",
+    "template-editor"
+  ]
+}
