@@ -115,20 +115,20 @@
         },
         "value": {
           "id": {
-            "value": "[94989] FSME-IMMUN 0,5 ml Injekčná suspenzia | sus inj 1x0,5 ml/ 2,4 µg (striek.inj.skl.+ihla)",
+            "value": "[23735] FSME-IMMUN 0,25 ml Junior Injekčná suspenzia | sus inj 1x0,25 ml/1,2 µg (striek.inj.skl.+ihla)",
             "props": {
               "propOl": 1,
               "propAtcName": "Očkovacia látka proti kliešťovej encefalitíde, inaktivovaná, neporušený vírus",
               "propVnl": "R",
               "propGp": 0,
-              "propDpl": 34.31,
+              "propDpl": 0,
               "idClassid": "liek",
-              "idEzid": "00020247029",
+              "idEzid": "00020770640",
               "idF": "SUS INJ",
               "idSp": "imu",
               "idAtc": "J07BA01",
               "idUl": "",
-              "id": 94989
+              "id": 23735
             }
           },
           "sn": {
@@ -352,5 +352,5 @@
   "ct": "2025-09-29T08:00:52.016Z",
   "shortcut": "oc-keffij",
   "owner": "admin",
-  "source": "curo-open/curo-vzory#/007"
+  "source": "curo-open/curo-vzory#/008"
 }
