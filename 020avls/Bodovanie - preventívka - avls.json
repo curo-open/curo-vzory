@@ -141,23 +141,6 @@
         }
       },
       {
-        "id": 82,
-        "order": 52,
-        "props": {
-          "type": "vd"
-        },
-        "value": {
-          "id": {
-            "value": "",
-            "props": {}
-          },
-          "text": {
-            "value": "",
-            "props": {}
-          }
-        }
-      },
-      {
         "id": 109,
         "order": 60,
         "props": {
@@ -529,45 +512,6 @@
       {
         "id": 137,
         "order": 49,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 72,
-        "order": 50,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "{{ ? vek &gt;= 40 &amp;&amp; zp == 24 }}<br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 79,
-        "order": 51,
-        "props": {
-          "type": "t"
-        },
-        "value": {
-          "t": {
-            "value": "<u>pre ZP 24 musite H0006 s diagnozou choroby (I10,I11,E78,etc)</u><br>",
-            "props": {}
-          }
-        }
-      },
-      {
-        "id": 83,
-        "order": 53,
         "props": {
           "type": "t"
         },
