@@ -128,11 +128,12 @@
         },
         "value": {
           "id": {
-            "value": "[74] Vystavenie lekárskeho nálezu, alebo výpis zo zdravotnej dokumentácie na účely",
+            "value": "[74.UPSVAR] Vystavenie lekárskeho nálezu, alebo výpis zo zdravotnej dokumentácie na účely vystavenia bodového ohodnotenia pracovného úrazu. Pre UPSVAR.",
             "props": {
               "propBody": 300,
-              "id": 74,
-              "idEzid": "00000466847@32",
+              "propType": "upsvar",
+              "id": "74.UPSVAR",
+              "idEzid": "curo-74.UPSVAR@66",
               "idClassid": "vykon"
             }
           },
